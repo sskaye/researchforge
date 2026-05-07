@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (in case skills end up with Python)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# Node (in case skills end up with Node)
+node_modules/
+
+# OS / misc
+Thumbs.db
