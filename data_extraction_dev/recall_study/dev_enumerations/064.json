@@ -1,0 +1,519 @@
+{
+  "paper_id": "064",
+  "paper_source": "Nagar H. et al. (2022) Thermodynamic properties of active pharmaceutical ingredients that are of interest in COVID-19. Chemical Data Collections 37, 100820. PMC8697427.",
+  "items": [
+    {
+      "compound_name": "Baricitinib",
+      "property": "boiling_point",
+      "value_raw": "794.469 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 794.469 760.077",
+      "evidence_location": "Table 5, row Tb, Baricitinib STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Baricitinib",
+      "property": "boiling_point",
+      "value_raw": "760.077 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 794.469 760.077",
+      "evidence_location": "Table 5, row Tb, Baricitinib SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Baricitinib",
+      "property": "melting_point",
+      "value_raw": "492.478 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 492.478 458.127 487.15",
+      "evidence_location": "Table 5, row Tm, Baricitinib STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Baricitinib",
+      "property": "melting_point",
+      "value_raw": "458.127 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 492.478 458.127 487.15",
+      "evidence_location": "Table 5, row Tm, Baricitinib SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Baricitinib",
+      "property": "melting_point",
+      "value_raw": "487.15 K",
+      "data_type_hint": "measured",
+      "evidence_quote": "T m [K] ... 492.478 458.127 487.15",
+      "evidence_location": "Table 5, row Tm, Baricitinib [47] literature column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Baricitinib",
+      "property": "melting_point",
+      "value_raw": "492.478 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "The estimated T m for the Baricitinib was found to be 492.478 K that showed an ARD of 1.093 (STRM) with that of reported A. S. Alshetaili et al. [47].",
+      "evidence_location": "Section 3 Result and discussion, narrative text below Table 5",
+      "location_type": "text"
+    },
+    {
+      "compound_name": "Camostat",
+      "property": "boiling_point",
+      "value_raw": "757.482 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 757.482 771.300",
+      "evidence_location": "Table 5, row Tb, Camostat STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Camostat",
+      "property": "boiling_point",
+      "value_raw": "771.300 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 757.482 771.300",
+      "evidence_location": "Table 5, row Tb, Camostat SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Camostat",
+      "property": "melting_point",
+      "value_raw": "453.792 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 453.792 468.250 467.15",
+      "evidence_location": "Table 5, row Tm, Camostat STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Camostat",
+      "property": "melting_point",
+      "value_raw": "468.250 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 453.792 468.250 467.15",
+      "evidence_location": "Table 5, row Tm, Camostat SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Camostat",
+      "property": "melting_point",
+      "value_raw": "467.15 K",
+      "data_type_hint": "measured",
+      "evidence_quote": "T m [K] ... 453.792 468.250 467.15",
+      "evidence_location": "Table 5, row Tm, Camostat [49] literature column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Camostat",
+      "property": "melting_point",
+      "value_raw": "497.05 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "The Camostat estimated T m was found to be 497.05 K (SIRM) with an ARD of 2.85 with that of experimental data reported by J. Yin et al. [49].",
+      "evidence_location": "Section 3 Result and discussion, narrative text below Table 5 (note: text reports SIRM value as 497.05 K, possibly a typo since Table 5 shows 468.250)",
+      "location_type": "text"
+    },
+    {
+      "compound_name": "Chloroquine",
+      "property": "boiling_point",
+      "value_raw": "688.550 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 688.550 682.652",
+      "evidence_location": "Table 5, row Tb, Chloroquine STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Chloroquine",
+      "property": "boiling_point",
+      "value_raw": "682.652 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 688.550 682.652",
+      "evidence_location": "Table 5, row Tb, Chloroquine SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Chloroquine",
+      "property": "melting_point",
+      "value_raw": "393.375 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 393.375 385.545 363.15",
+      "evidence_location": "Table 5, row Tm, Chloroquine STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Chloroquine",
+      "property": "melting_point",
+      "value_raw": "385.545 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 393.375 385.545 363.15",
+      "evidence_location": "Table 5, row Tm, Chloroquine SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Chloroquine",
+      "property": "melting_point",
+      "value_raw": "363.15 K",
+      "data_type_hint": "measured",
+      "evidence_quote": "T m [K] ... 393.375 385.545 363.15",
+      "evidence_location": "Table 5, row Tm, Chloroquine [50] literature column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Chloroquine",
+      "property": "melting_point",
+      "value_raw": "385.54 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "While the Chloroquine estimated T m was found to be 385.54 K against the reported value of 363.15 K by M. Staderini et al. [50].",
+      "evidence_location": "Section 3 Result and discussion, narrative text below Table 5",
+      "location_type": "text"
+    },
+    {
+      "compound_name": "Chloroquine",
+      "property": "melting_point",
+      "value_raw": "363.15 K",
+      "data_type_hint": "measured",
+      "evidence_quote": "While the Chloroquine estimated T m was found to be 385.54 K against the reported value of 363.15 K by M. Staderini et al. [50].",
+      "evidence_location": "Section 3 Result and discussion, narrative text below Table 5",
+      "location_type": "text"
+    },
+    {
+      "compound_name": "Dexamethasone",
+      "property": "boiling_point",
+      "value_raw": "722.347 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 722.347 717.264",
+      "evidence_location": "Table 5, row Tb, Dexamethasone STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Dexamethasone",
+      "property": "boiling_point",
+      "value_raw": "717.264 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 722.347 717.264",
+      "evidence_location": "Table 5, row Tb, Dexamethasone SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Dexamethasone",
+      "property": "melting_point",
+      "value_raw": "467.128 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 467.128 462.022 524.15",
+      "evidence_location": "Table 5, row Tm, Dexamethasone STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Dexamethasone",
+      "property": "melting_point",
+      "value_raw": "462.022 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 467.128 462.022 524.15",
+      "evidence_location": "Table 5, row Tm, Dexamethasone SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Dexamethasone",
+      "property": "melting_point",
+      "value_raw": "524.15 K",
+      "data_type_hint": "measured",
+      "evidence_quote": "T m [K] ... 467.128 462.022 524.15",
+      "evidence_location": "Table 5, row Tm, Dexamethasone [51] literature column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Dexamethasone",
+      "property": "melting_point",
+      "value_raw": "524.60 K",
+      "data_type_hint": "measured",
+      "evidence_quote": "The estimated T m for Dexamethasone showed an ARD of 10.87 with that of reported T m of 524.60 K [51] and was mainly with complex structure and fluorinated compounds present in it.",
+      "evidence_location": "Section 3 Result and discussion, narrative text below Table 5 (note: text says 524.60 K from [51], while Table 5 shows 524.15 K)",
+      "location_type": "text"
+    },
+    {
+      "compound_name": "Favipiravir",
+      "property": "boiling_point",
+      "value_raw": "618.948 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 618.948 688.871",
+      "evidence_location": "Table 5, row Tb, Favipiravir STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Favipiravir",
+      "property": "boiling_point",
+      "value_raw": "688.871 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 618.948 688.871",
+      "evidence_location": "Table 5, row Tb, Favipiravir SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Favipiravir",
+      "property": "melting_point",
+      "value_raw": "465.514 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 465.514 497.056 450.15",
+      "evidence_location": "Table 5, row Tm, Favipiravir STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Favipiravir",
+      "property": "melting_point",
+      "value_raw": "497.056 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 465.514 497.056 450.15",
+      "evidence_location": "Table 5, row Tm, Favipiravir SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Favipiravir",
+      "property": "melting_point",
+      "value_raw": "450.15 K",
+      "data_type_hint": "measured",
+      "evidence_quote": "T m [K] ... 465.514 497.056 450.15",
+      "evidence_location": "Table 5, row Tm, Favipiravir [52] literature column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Favipiravir",
+      "property": "melting_point",
+      "value_raw": "465.51 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "The estimated T m for Favipiravir was found to be 465.51 K with a relatively low deviation of 3.41 K with that reported by Q. Guo et al. [52].",
+      "evidence_location": "Section 3 Result and discussion, narrative text below Table 5",
+      "location_type": "text"
+    },
+    {
+      "compound_name": "Fingolimod",
+      "property": "boiling_point",
+      "value_raw": "687.396 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 687.396 689.003",
+      "evidence_location": "Table 5 (second half), row Tb, Fingolimod STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Fingolimod",
+      "property": "boiling_point",
+      "value_raw": "689.003 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 687.396 689.003",
+      "evidence_location": "Table 5 (second half), row Tb, Fingolimod SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Fingolimod",
+      "property": "melting_point",
+      "value_raw": "398.693 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 398.693 396.310 400.15",
+      "evidence_location": "Table 5 (second half), row Tm, Fingolimod STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Fingolimod",
+      "property": "melting_point",
+      "value_raw": "396.310 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 398.693 396.310 400.15",
+      "evidence_location": "Table 5 (second half), row Tm, Fingolimod SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Fingolimod",
+      "property": "melting_point",
+      "value_raw": "400.15 K",
+      "data_type_hint": "measured",
+      "evidence_quote": "T m [K] ... 398.693 396.310 400.15",
+      "evidence_location": "Table 5 (second half), row Tm, Fingolimod [53] literature column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Fingolimod",
+      "property": "melting_point",
+      "value_raw": "398.69 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "Fingolimod showed the lowest ARD with an estimated T m of 398.69 K and 396.30 K based on STRM and SIRM method.",
+      "evidence_location": "Section 3 Result and discussion, narrative text below Table 5",
+      "location_type": "text"
+    },
+    {
+      "compound_name": "Fingolimod",
+      "property": "melting_point",
+      "value_raw": "396.30 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "Fingolimod showed the lowest ARD with an estimated T m of 398.69 K and 396.30 K based on STRM and SIRM method.",
+      "evidence_location": "Section 3 Result and discussion, narrative text below Table 5",
+      "location_type": "text"
+    },
+    {
+      "compound_name": "Hydroxychloroquine",
+      "property": "boiling_point",
+      "value_raw": "681.390 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 681.390 714.345",
+      "evidence_location": "Table 5 (second half), row Tb, Hydroxychloroquine STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Hydroxychloroquine",
+      "property": "boiling_point",
+      "value_raw": "714.345 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 681.390 714.345",
+      "evidence_location": "Table 5 (second half), row Tb, Hydroxychloroquine SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Hydroxychloroquine",
+      "property": "melting_point",
+      "value_raw": "417.170 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 417.170 414.588 367.1",
+      "evidence_location": "Table 5 (second half), row Tm, Hydroxychloroquine STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Hydroxychloroquine",
+      "property": "melting_point",
+      "value_raw": "414.588 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 417.170 414.588 367.1",
+      "evidence_location": "Table 5 (second half), row Tm, Hydroxychloroquine SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Hydroxychloroquine",
+      "property": "melting_point",
+      "value_raw": "367.1 K",
+      "data_type_hint": "measured",
+      "evidence_quote": "T m [K] ... 417.170 414.588 367.1",
+      "evidence_location": "Table 5 (second half), row Tm, Hydroxychloroquine [55] literature column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Hydroxychloroquine",
+      "property": "melting_point",
+      "value_raw": "417.16 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "The estimated T m for Hydroxychloroquine is 417.16 K (STRM) with an ARD 12.05 [55].",
+      "evidence_location": "Section 3 Result and discussion, narrative text below Table 5",
+      "location_type": "text"
+    },
+    {
+      "compound_name": "Thalidomide",
+      "property": "boiling_point",
+      "value_raw": "648.734 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 648.734 650.895",
+      "evidence_location": "Table 5 (second half), row Tb, Thalidomide STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Thalidomide",
+      "property": "boiling_point",
+      "value_raw": "650.895 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 648.734 650.895",
+      "evidence_location": "Table 5 (second half), row Tb, Thalidomide SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Thalidomide",
+      "property": "melting_point",
+      "value_raw": "441.490 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 441.490 440.390 543.15",
+      "evidence_location": "Table 5 (second half), row Tm, Thalidomide STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Thalidomide",
+      "property": "melting_point",
+      "value_raw": "440.390 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 441.490 440.390 543.15",
+      "evidence_location": "Table 5 (second half), row Tm, Thalidomide SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Thalidomide",
+      "property": "melting_point",
+      "value_raw": "543.15 K",
+      "data_type_hint": "measured",
+      "evidence_quote": "T m [K] ... 441.490 440.390 543.15",
+      "evidence_location": "Table 5 (second half), row Tm, Thalidomide [57] literature column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Thalidomide",
+      "property": "melting_point",
+      "value_raw": "441.49 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "Similar to dexamethasone, Thalidomide estimated T m ( 441.49 K ) should a high ARD of 18.71 with that of reported T m of 543.15 K by et al. B.D. Vu et al. [57].",
+      "evidence_location": "Section 3 Result and discussion, narrative text below Table 5",
+      "location_type": "text"
+    },
+    {
+      "compound_name": "Thalidomide",
+      "property": "melting_point",
+      "value_raw": "543.15 K",
+      "data_type_hint": "measured",
+      "evidence_quote": "Similar to dexamethasone, Thalidomide estimated T m ( 441.49 K ) should a high ARD of 18.71 with that of reported T m of 543.15 K by et al. B.D. Vu et al. [57].",
+      "evidence_location": "Section 3 Result and discussion, narrative text below Table 5",
+      "location_type": "text"
+    },
+    {
+      "compound_name": "Umifenovir",
+      "property": "boiling_point",
+      "value_raw": "776.060 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 776.060 772.496",
+      "evidence_location": "Table 5 (second half), row Tb, Umifenovir STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Umifenovir",
+      "property": "boiling_point",
+      "value_raw": "772.496 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T b [K] ... 776.060 772.496",
+      "evidence_location": "Table 5 (second half), row Tb, Umifenovir SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Umifenovir",
+      "property": "melting_point",
+      "value_raw": "447.213 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 447.213 448.603 415",
+      "evidence_location": "Table 5 (second half), row Tm, Umifenovir STRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Umifenovir",
+      "property": "melting_point",
+      "value_raw": "448.603 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "T m [K] ... 447.213 448.603 415",
+      "evidence_location": "Table 5 (second half), row Tm, Umifenovir SIRM column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Umifenovir",
+      "property": "melting_point",
+      "value_raw": "415 K",
+      "data_type_hint": "measured",
+      "evidence_quote": "T m [K] ... 447.213 448.603 415",
+      "evidence_location": "Table 5 (second half), row Tm, Umifenovir [58] literature column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Umifenovir",
+      "property": "melting_point",
+      "value_raw": "447.21 K",
+      "data_type_hint": "calculated",
+      "evidence_quote": "The Umifenovir estimated T m was found to be 447.21 K (STRM) with an ARD of 7.72 58. A. Kons et al. [58].",
+      "evidence_location": "Section 3 Result and discussion, narrative text below Table 5",
+      "location_type": "text"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "article_id": "2014_Schmittel_A one-pot multistep cyclization yielding thiadiazoloimidazole derivatives",
+  "source_kind": "loose_pdf",
+  "available_sources": [
+    "pdf"
+  ],
+  "section_count": 0,
+  "section_first_3_headings": [],
+  "table_count": 0,
+  "table_labels": [],
+  "table_header_examples": [],
+  "caption_count": 0,
+  "doi_candidate_count": 1,
+  "doi_candidates": [
+    {
+      "doi": "10.3762/bjoc.10.317",
+      "source": "pdf_text_first_2_pages"
+    }
+  ],
+  "full_text_length": 50768,
+  "warnings": [],
+  "doi_verification": {
+    "doi": "10.3762/bjoc.10.317",
+    "doi_evidence": "pdf_text_first_2_pages",
+    "doi_verified": false,
+    "warnings": [
+      "doi_single_source_only"
+    ]
+  }
+}

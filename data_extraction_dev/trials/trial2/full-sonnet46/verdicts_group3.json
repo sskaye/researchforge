@@ -1,0 +1,92 @@
+[
+  {
+    "row_id": "1268",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote found verbatim in PMC6146442 article_text.txt. Compound 2b identified as (5S,14S,6Z,12Z)-1,5,14,18-Tetra[(tert-butoxycarbonyl)amino]-octadeca-6,12-diene with mp 87-88 oC. value_raw matches. value_celsius=87.5 is correct midpoint arithmetic of 87-88.",
+    "details": "Text: '(5S,14S,6Z,12Z)-1,5,14,18-Tetra[(tert-butoxycarbonyl)amino]-octadeca-6,12-diene ( 2b ): yield 611 mg (43%); white solid; mp 87–88 o C' found in the Experimental section."
+  },
+  {
+    "row_id": "1248",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote found in PMC11843914 (DOI: 10.1039/d4ra07810a). Section 3.1.1.2 contains compound 6b with mp 232-234 degC. value_celsius=233.0 is correct midpoint arithmetic of 232-234.",
+    "details": "Text: 'N'-(4-Hydroxy-3-methoxybenzylidene)benzo[d]thiazole-2-carbohydrazide (6b) Yield: 91%; mp 232–234 °C' confirmed in article_text.txt."
+  },
+  {
+    "row_id": "1232",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote found in PMC11844072 (DOI: 10.1186/s13065-025-01402-8). Compound 10b described as a white precipitate with mp 163-165 degC. value_celsius=164.0 is correct midpoint of 163-165.",
+    "details": "Text: 'xybenzylidene)acetohydrazide (10b) A white precipitate was obtained in a yield of 67%; mp 163–165 °C' confirmed in article_text.txt."
+  },
+  {
+    "row_id": "1207",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote found in PMC12943680 (DOI: 10.3390/molecules31040629). Compound FURL-TA described as white solid with mp 139.8-140 degC. value_celsius=139.9 is correct midpoint of 139.8-140.",
+    "details": "Text: 'N-((4-bromophenyl)carbamoyl)furan-2-carboxamide (FURL-TA). White solid; yield 89.43%; mp: 139.8–140 °C' confirmed under Section 4.1.5 Physical Chemical Characterization Data."
+  },
+  {
+    "row_id": "1236",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote found in PMC11844072 (DOI: 10.1186/s13065-025-01402-8). Compound 10f described as a buff precipitate with mp 163-165 degC. value_celsius=164.0 is correct midpoint of 163-165.",
+    "details": "Text: 'o)methyl)phenoxy)acetic acid (10f) A buff precipitate was obtained in a yield of 74%; mp 163–165 °C' confirmed in article_text.txt."
+  },
+  {
+    "row_id": "1363",
+    "verdict": "verified_extraction",
+    "reason": "Table 1 in PMC6147071 confirmed. Entry 2e has Ar=m-CNC6H4 (3-cyanophenyl), R=CH3- (methoxy), Mp=116. Compound name 4-(3-cyanophenyl)carbonyl-3-(methoxy)-2(5H)-furanone correctly describes this entry. value_raw='116°C' confirmed. value_celsius=116.0 correct.",
+    "details": "Table 1 text: '2e m -CNC 6 H 4 CH 3 - 47 116' confirmed. Evidence quote is a table row summary, accurately reflecting the data."
+  },
+  {
+    "row_id": "1323",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote found verbatim in PMC6146434. Compound 7e described as 3-Amino-4-imino-5,7-di(4-chlorophenyl)-7H-pyrrolo[2,3-d]pyrimidine with mp 224-25°C. value_raw='224-25°C' matches exactly. value_celsius=224.5 is correct midpoint. Note: molecular formula C18H13ClN5 in source paper appears inconsistent with 'di(4-chlorophenyl)' name (only one Cl in formula), but this is a discrepancy in the source paper, not in the extraction.",
+    "details": "Text: '3-Amino-4-imino-5,7-di(4-chlorophenyl)-7H-pyrrolo[2,3-d]pyrimidine ( 7e ): Yield: 70 %; mp: 224- 25°C' confirmed. Source paper formula C18H13ClN5 inconsistency is a paper-level issue."
+  },
+  {
+    "row_id": "1391",
+    "verdict": "verified_extraction",
+    "reason": "Table 1 in PMC3692303 confirmed. The table 'Some spectroscopic and physical-chemical properties of 1-butyl-3-methyl-imidazolium chloride/niobium pentachloride ionic mixtures' shows: Composition (NbCl5 mol%) 60 -> Melting point (°C) 51. value_raw='51 °C' confirmed. value_celsius=51.0 correct.",
+    "details": "Text: 'Composition (NbCl 5 mol%) Melting point (°C) ... 60 51' confirmed in Table 1 data."
+  },
+  {
+    "row_id": "1399",
+    "verdict": "verified_extraction",
+    "reason": "Table 3 in PMC5513518 confirmed. Entry 3: Support-Activator K30/TMA, catalyst ZrCp*Cp'Cl2, Tm(°C)=134.0. value_raw='134.0 °C' confirmed. value_celsius=134.0 correct. DSC_peak property is consistent with Tm determined by DSC as stated in the paper.",
+    "details": "Text: 'K30/TMA 3,857 134.0' confirmed in Table 3. Paper states Tm was determined by DSC."
+  },
+  {
+    "row_id": "1288",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote confirmed in PMC6146446. The synthesis of N,N'-(1R,2R)-(-)-1,2-cyclohexylenebis(2-hydroxyacetophenonylideneimine) (compound 2) gives mp 144-145°C. value_raw='144-145°C' confirmed. value_celsius=144.5 is correct midpoint of 144-145.",
+    "details": "Text: 'Recrystallization from absolute ethanol afforded yellow needles (303mg, 70.5%); mp: 144-145°C; [α]D24=-788.12°' confirmed in Experimental section of PMC6146446."
+  },
+  {
+    "row_id": "1449",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote found in PMC11843341 (DOI: 10.1021/acsbiomedchemau.4c00060). Compound 5o described as yellow solid with mp 210-212 degC. value_celsius=211.0 is correct midpoint of 210-212. Compound name matches exactly.",
+    "details": "Text: '5-Methyl-4-((1-((1-(2-methyl-5-nitrophenyl)-1H-1,2,3-triazol-4-yl)methyl)-1H-indol-3-yl)methylene)-2-phenyl-2,4-dihydro-3H-pyrazol-3-one ( 5o ) Yellow solid (0.405 g, 89%), mp: 210–212 °C' confirmed."
+  },
+  {
+    "row_id": "1452",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote found in PMC11843339 (DOI: 10.1021/acsbiomedchemau.4c00079). Compound 2d is Triphenylsilyl (E)-6-(4-Hydroxy-6-methoxy-7-methyl-3-oxo-1,3-dihydroisobenzofuran-5-yl)-4-methylhex-4-enoate (TPS-protected MPA analogue). mp 114-120 degC confirmed. value_celsius=117.0 is correct midpoint of 114-120. Compound_name 'mycophenolic acid 2d (TPS-protected analogue)' accurately describes the compound.",
+    "details": "Text: '2d: A white solid in 48% yield; Mp: 114–120 °C; Rf = 0.53 (1:1 n-hexane:EtOAc)' confirmed in Experimental section."
+  },
+  {
+    "row_id": "1411",
+    "verdict": "verified_extraction",
+    "reason": "Table 3 in PMC3716435 confirmed. The row for 1.0.83 DMF (clathrate D) shows Bp of pure guest = 153 degC. value_raw='153 °C' confirmed as boiling point of DMF. value_celsius=153.0 correct. Evidence quote is a table row and the 153 value is in the 'Bp of pure guest' column.",
+    "details": "Table 3 text: '1 ·0.83 DMF (clathrate D) 5.44 13.1 122 244 153 −31 6.48 146 −7 1.06 184 31' confirmed, where 153 is the Bp column for DMF."
+  },
+  {
+    "row_id": "1506",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote found in PMC11208899. Compound 4h (4-(9,9-Dimethyl-11-oxo-8,10,11,12-tetrahydro-9H-benzo[a]xanthen-12-yl)phenyl benzoate) described as white solid with mp=180-182 degC. value_celsius=181 is correct midpoint of 180-182.",
+    "details": "Text: '4-(9,9-Dimethyl-11-oxo-8,10,11,12-tetrahydro-9H-benzo[a]xanthen-12-yl)phenyl benzoate (4h) White solid; Rf = 0.60 (8:2 petroleum ether/EtOAc); mp = 180–182 °C' confirmed."
+  },
+  {
+    "row_id": "1476",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote found in PMC11203676. Compound 14a (4-Methyl-N-((1-(2-(6-nitro-1H-indazol-1-yl)ethyl)-1H-1,2,3-triazol-4-yl)methyl)-N-(2-oxo-2H-chromen-6-yl)benzenesulfonamide) described as white solid with mp 146-148 degC. value_celsius=147 is correct midpoint of 146-148.",
+    "details": "Text: '4-Methyl-N-((1-(2-(6-nitro-1H-indazol-1-yl)ethyl)-1H-1,2,3-triazol-4-yl)methyl)-N-(2-oxo-2H-chromen-6-yl)benzenesulfonamide ( 14a ). White solid; yield: 72% (203 mg); mp: 146–148 °C' confirmed."
+  }
+]

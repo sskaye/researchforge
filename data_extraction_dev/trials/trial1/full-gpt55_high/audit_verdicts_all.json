@@ -1,0 +1,602 @@
+[
+  {
+    "row_id": "299",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 1-Benzyl-3-iodo-5-methyl-2-phenyl-1H-indole (5p) matches section 3.1.16; Mp 141.4 \u00b0C verbatim in PDF; legacy: identifier matches paper filename."
+  },
+  {
+    "row_id": "109",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "compound_name 'Rf = 0.21 (Hexane/EtOAc, 1:4) and' is a leading-context sentence fragment, not a compound; the mp 219\u2013221 \u00b0C in the quote belongs to a quinazoline compound 2 whose IUPAC name was truncated away."
+  },
+  {
+    "row_id": "80",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "compound_name 'There were about 5 and 6 % molecules with' is a sentence fragment, not a compound; the >250 \u00b0C value is a bulk statistic about PATENTS/COMBINED datasets, not a single compound."
+  },
+  {
+    "row_id": "77",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "compound_name 'This result was due to the absence of molecules with' is a sentence fragment; the <0 \u00b0C value is a dataset-coverage statement, not a property of a compound."
+  },
+  {
+    "row_id": "177",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "'307' in the quote is a count (307 hydrocarbons) not a melting point; compound_name is also a sentence fragment 'Tu [132] was able to predict the'."
+  },
+  {
+    "row_id": "143",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "1-Indanone mp 40\u00b0C verbatim in article_text; compound match clean; DOI 10.3390/60300279 belongs to the cited Molecules 2001 paper."
+  },
+  {
+    "row_id": "245",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name concatenates a previous M4 header with the actual M3 IUPAC name plus an interleaved journal running-head; the mp 213\u2013215 \u00b0C belongs to M3 but the field starts with M4 leading context."
+  },
+  {
+    "row_id": "241",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M2 IUPAC name clean; quote 'White powder, mp 184\u2013186 629 mg, 95%.' verbatim in PDF text; value_raw and range fields consistent."
+  },
+  {
+    "row_id": "199",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "compound_name 'DSC results show that the optimum content of AASD in the binary eutectic salt is 55 wt%, the' is a sentence fragment; the 76.4 \u00b0C value belongs to the AASD-MSH eutectic salt mixture (not a named compound)."
+  },
+  {
+    "row_id": "197",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "compound_name 'One of the \ufb01rst reported DESs was' is a sentence fragment; the 134 \u00b0C value in the quote is actually the melting point of urea, not of the cited DES mixture."
+  },
+  {
+    "row_id": "175",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "'312' refers to '312 diverse compounds' (a count of training data) not a melting point; compound_name is a sentence fragment 'Constantinou and Gani [21] used two levels of group contributions...'."
+  },
+  {
+    "row_id": "284",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M23 IUPAC name present in compound_name (with trailing journal running-head as noise); mp 242\u2013245 \u00b0C verbatim in PDF text."
+  },
+  {
+    "row_id": "213",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "compound_name 'DMs used were unable to correctly identify and \ufb01lter out molecules with' is a sentence fragment; the <0 \u00b0C value is a dataset-coverage statement, not a compound property."
+  },
+  {
+    "row_id": "35",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "Paper prints range 'mp 248\u00b0C\u2013252\u00b0C' but row records value_raw '248 \u00b0C', relation '=', with empty min/max; the range was truncated to its lower bound."
+  },
+  {
+    "row_id": "132",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "compound_name 'preparation of the IC' is a fragment, not a compound; the 313 K value belongs to MeO-TEMPO per the quote. Conversion math (313 - 273.15 = 39.85 \u00b0C) is itself correct."
+  },
+  {
+    "row_id": "216",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M2 IUPAC name clean; mp 184\u2013186 verbatim in HTML at the cited position; legacy: identifier matches paper filename."
+  },
+  {
+    "row_id": "239",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M25 IUPAC name clean; mp 245\u2013247 \u00b0C verbatim in HTML; legacy: identifier matches paper filename."
+  },
+  {
+    "row_id": "95",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 14 (6-Methyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pirrole-3-carboxilic acid) IUPAC plus label identifiable; mp 230\u2013232 \u00b0C verbatim. Minor trailing fragment 'Title co' in compound_name but the compound is unambiguous."
+  },
+  {
+    "row_id": "255",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M9 IUPAC name clean; mp 218\u2013222 \u00b0C verbatim in PDF text; data_type measured consistent with synthesis paragraph."
+  },
+  {
+    "row_id": "41",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "Paper prints range 'mp 164\u00b0C\u2013165\u00b0C' but row records value_raw '164 \u00b0C' with relation '=' and empty min/max; range truncated to lower bound."
+  },
+  {
+    "row_id": "214",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "compound_name 'HRMS (ESI-TOF) m/z' is an analytical descriptor from the preceding compound (2j), not a compound; the mp 116\u2013118 \u00b0C in the quote belongs to '(1RS,5RS,6RS)-2-Benzyl-4,4,6-trichloro-2-azabicyclo[3.3.1] nonan-3-one (2k)'."
+  },
+  {
+    "row_id": "36",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "Paper prints range 'mp 217\u00b0C\u2013220\u00b0C' but row records value_raw '217 \u00b0C', relation '=', empty min/max; range truncated to lower bound."
+  },
+  {
+    "row_id": "164",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8d (2-(3-Acetyl-1-(4-methylphenyl)-5-(4-methoxyphenyl)-1,2,4-triazolo-4-yl)-2-deoxy-1,3,4,6-tetraacetyl-\u03b2-D-glucose) identifiable; mp 142.7\u2013142.9 \u00b0C verbatim; min/max/celsius populated correctly."
+  },
+  {
+    "row_id": "163",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8c (2-(3-Acetyl-1-(4-bromophenyl)-5-((S)-4-methylphenyl)-1,2,4-triazolo-4-yl)-2-deoxy-1,3,4,6-tetraacetyl-\u03b2-D-glucose) identifiable; mp 145\u2013146 \u00b0C verbatim; min/max/celsius populated correctly."
+  },
+  {
+    "row_id": "26",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "Paper prints range 'mp 271\u00b0C\u2013273\u00b0C' but row records value_raw '271 \u00b0C', relation '=', empty min/max; range truncated to lower bound."
+  },
+  {
+    "row_id": "5",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'yellow solid, mp 134-135\u00b0C (ethyl acetate/hexane)' present verbatim in PMC12987641 (section 6.2.2.5); compound 9f matches; value 134.5 \u00b0C = midpoint of 134-135 range."
+  },
+  {
+    "row_id": "259",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name is an NMR fragment '13CNMR (101 MHz, DMSO-d6) \u03b4 14.4, 36.2, 42.2', not a chemical name; the mp 224-226 \u00b0C in the paper belongs to compound M10 (the long acetamide). Value/quote present but compound name is unusable."
+  },
+  {
+    "row_id": "24",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'yellow solid, mp 287\u00b0C-290\u00b0C (ethyl ether/ethyl acetate)' verbatim in PMC12987641 section 6.3.2.11; compound 11m matches; value 287 \u00b0C = lower bound (relation '=' acceptable per range)."
+  },
+  {
+    "row_id": "58",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Yield, 74%, off brown crystalline solid, mp 201-203 \u00b0C' verbatim in PMC7148931 section 2.2.3.10; compound V 10 matches; value 202 = midpoint of 201-203."
+  },
+  {
+    "row_id": "275",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "Per the HTML source the M20 compound has mp 195-198 \u00b0C, not 213-215 \u00b0C. The extractor's 213-215 \u00b0C value belongs to compound M18. Compound mismatch \u2014 likely caused by PDF column-merge artifact swapping mp values between adjacent compounds."
+  },
+  {
+    "row_id": "131",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "compound_name 'Synthesis and studies of equilibria, hydrolysis and thermal' is a thesis-title fragment, not a chemical. The 5 \u00b0C value was extracted from the phrase '5-substituted aryloxytetrazoles' where '5' refers to ring position, not a temperature. No real decomposition temperature in the cited text."
+  },
+  {
+    "row_id": "235",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "HTML source confirms compound M21 mp 255-258 \u00b0C with the full acetamide name preceding. Quote verbatim (allowing whitespace collapse around 'Acetamide (M21) White powder')."
+  },
+  {
+    "row_id": "192",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name '(0.472 g, 32%) was isolated as a' is a sentence fragment containing only yield info \u2014 not a chemical. The paper refers to the compound by number '22' (compound 22). No identifiable compound name in the row."
+  },
+  {
+    "row_id": "158",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name has leading 'O, 6.58%' elemental-analysis prefix contaminating an otherwise valid IUPAC name. Quote and mp 200-202 \u00b0C verbatim present; compound 5m is identifiable but the name field requires cleanup."
+  },
+  {
+    "row_id": "194",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name 'For example, when sodium acetate trihydrate (CH3COONa\u00b73H2O, SAT), which has a' is a sentence fragment though it does contain 'sodium acetate trihydrate'. mp 58 \u00b0C verbatim in paper. Name field requires extracting the compound proper."
+  },
+  {
+    "row_id": "166",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'comprised shiny greenish-yellow needles (45.4% yield) with mp 146-147 \u00b0C' verbatim in PMC11206253; compound 8f matches; value 146.5 = midpoint."
+  },
+  {
+    "row_id": "176",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "compound_name 'Marrero and Gani [22] recently re\u00aened and extended the method and were able to predict the' is a literature-review sentence fragment. The '1 \u00b0C' value comes from '1,103 compounds' (a count, parsed as '1' before the comma) \u2014 not a melting point of any compound."
+  },
+  {
+    "row_id": "90",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "compound_name 'corresponding experimental data (' is a sentence fragment, not a compound. The '1 \u00b0C' value comes from '1 atm' (pressure, not temperature) in the quote 'boiling points at 1 atm'. No actual bp value extracted."
+  },
+  {
+    "row_id": "217",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "HTML source confirms compound M3 mp 213-215 \u00b0C with the full acetamide name preceding. Quote verbatim (whitespace collapse around 'Acetamide (M3) White powder')."
+  },
+  {
+    "row_id": "207",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "compound_name 'ons in the relativelyh igher' is a PDF column-merge sentence fragment. The '<250 \u00b0C' value is a heuristic threshold ('good drug-like range (MP < 250 8C)') applied to drug-likeness scoring, not a melting point of any compound."
+  },
+  {
+    "row_id": "111",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Rf = 0.22 (CH 2 Cl 2 ) and mp: 188-191 \u00b0C' verbatim in PMC12941058; compound is preceding context; value 189.5 = midpoint of 188-191. compound_name 'Rf = 0.22 (CH 2 Cl 2 ) and' is a fragment but mp data is correct."
+  },
+  {
+    "row_id": "7",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'yellow solid, mp 228-231\u00b0C (ethyl acetate/hexane)' verbatim in PMC12987641 section 6.2.2.7; compound 9h (labeled as 9Hr in row, but section heading is '9Hr'/9h) matches; value 229.5 = midpoint."
+  },
+  {
+    "row_id": "300",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'compound 5q (120 mg, 25%) was isolated as a yellow solid, Mp 140.9 \u00b0C, Rf' verbatim in ledermann PDF; compound 5q matches; value 140.9 \u00b0C exact."
+  },
+  {
+    "row_id": "12",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'yellow solid, mp 219-222\u00b0C (ethyl acetate/hexane)' verbatim in PMC12987641 section 6.2.2.12; compound 9m matches; value 220.5 = midpoint."
+  },
+  {
+    "row_id": "182",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name 'Consequently, the apparent' is a sentence fragment, not a compound. The 158 K value is explicitly stated to NOT be the true melting point in the paper ('the apparent melting point of 158 K is not the true melting point'). K-to-C conversion math is correct (158-273.15=-115.15). Failing primarily on no identifiable compound."
+  },
+  {
+    "row_id": "54",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Yield, 70%, light orange crystalline solid, mp 292-293 \u00b0C' verbatim in PMC7148931 section 2.2.3.6; compound V 6 matches; value 292.5 = midpoint."
+  },
+  {
+    "row_id": "32",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Yellow solid, mp 288\u00b0C-291\u00b0C' verbatim in PMC13006720; compound 15 matches; value 288 = lower bound (relation '=' acceptable)."
+  },
+  {
+    "row_id": "174",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "compound_name 'Simamora and coworkers, who used group con- tributions to account for the enthalpy of' is a literature-review sentence fragment. The '520 \u00b0C' value comes from '520 rigid non-hydrogen-bonding organic compounds' (a count, not a temperature)."
+  },
+  {
+    "row_id": "266",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name '13CNMR (101 MHz, DMSO-d6) \u03b4 36.2, 46.4, 65.8, 93.7, 116.2, 119.3, 128.8, 128.9, 129.5, 131.0, 134.4, 136.9, 143.6' is an NMR chemical-shift list, not a chemical name. The mp 198-200 \u00b0C belongs to compound M14 in the paper (a long acetamide IUPAC name)."
+  },
+  {
+    "row_id": "262",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "HTML/PDF source confirms compound M13 (long acetamide name) mp 225-227 \u00b0C, 657 mg, 93%. Quote verbatim (whitespace differences) and compound name properly captured."
+  },
+  {
+    "row_id": "270",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "Row claims M17 mp 210-214 \u00b0C, but PDF/HTML show M17 mp is 177-180 \u00b0C; the 210-214 \u00b0C value belongs to M15 (4-Chlorophenyl-Thiomorpholinosulfonyl). Evidence quote also contains data from two compounds (M17 + M15) jumbled by PDF column duplication, and compound_name 'midin-2-yl)...(M17)' is a truncated fragment."
+  },
+  {
+    "row_id": "137",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name 'Rates and products of' is a fragment of a paper title in the reference list ('Rates and products of decomposition of 2,2-dibromo-3-nitrilopropionamide'); the '2' extracted as \u00b0C is a structural locant in the chemical name, not a temperature; not a real mp/bp datapoint."
+  },
+  {
+    "row_id": "155",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "5j mp 208-210 \u00b0C verified verbatim in paper 169 (article_text.txt)."
+  },
+  {
+    "row_id": "139",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Anthrone mp 152\u00b0 verified verbatim in paper 165 (article_text.txt)."
+  },
+  {
+    "row_id": "152",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "5g mp 150-152 \u00b0C verified verbatim in paper 169."
+  },
+  {
+    "row_id": "15",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "11c mp 308 \u00b0C-309 \u00b0C verified verbatim in paper 005; row value 308 \u00b0C is the lower of the stated range; data_type measured is correct."
+  },
+  {
+    "row_id": "242",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M4 mp 205-208 \u00b0C verified verbatim in khalifa PDF/HTML; compound identity unambiguous from (M4) label and IUPAC name, despite trailing structure-atom tokens in compound_name."
+  },
+  {
+    "row_id": "2",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "9b mp 200 \u00b0C-202 \u00b0C verified verbatim in paper 005."
+  },
+  {
+    "row_id": "66",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "4e mp (acetone) 214-216 \u00b0C verified verbatim in paper 049."
+  },
+  {
+    "row_id": "232",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M18 mp 213-215 \u00b0C verified verbatim in khalifa HTML."
+  },
+  {
+    "row_id": "251",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M8 mp 230-233 \u00b0C verified verbatim in khalifa HTML."
+  },
+  {
+    "row_id": "68",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name '2-Deoxy-2-(5-nitro-2-fura' is truncated mid-word; paper text gives full name '2-Deoxy-2-(5-nitro-2-furamido)-1,3,4,6-tetra-O-acetyl-\u03b2-D-glucopyranoside (7)'. Value 109-111 \u00b0C matches the quote, but name fails stand-alone interpretability."
+  },
+  {
+    "row_id": "223",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M9 mp 218-222 \u00b0C verified verbatim in khalifa HTML."
+  },
+  {
+    "row_id": "13",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "10e mp 212-213 \u00b0C verified verbatim in paper 005."
+  },
+  {
+    "row_id": "157",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "5l mp 200-210 \u00b0C verified verbatim in paper 169."
+  },
+  {
+    "row_id": "221",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M7 mp 257-260 \u00b0C verified verbatim in khalifa HTML."
+  },
+  {
+    "row_id": "211",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name 'Indeed, for Enamine and Bergstr\u00f6m molecules the RMSE increased for' is running discussion text, not a compound name; '<100 \u00b0C' is a model-evaluation threshold (RMSE binned by MP range), not a measured mp of any compound. data_type 'measured' is also wrong (this is a prediction-model discussion)."
+  },
+  {
+    "row_id": "209",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name 'nearly eighty percen t:100\u2013240 8Cv s.80\u2013240 8C).4) Ap- prove dC NS drugs had lower' is garbled running text from the discussion; value '1 \u00b0C' is the leading digit of '145 \u00b0C' (mean MP of approved CNS drugs) \u2014 not a single compound measurement; junk extraction."
+  },
+  {
+    "row_id": "282",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "Row claims M22 mp 195-198 \u00b0C, but PDF/HTML show M22 mp is 262-265 \u00b0C; 195-198 \u00b0C belongs to M20 (4-Fluorophenyl-Thiomorpholinosulfonyl). Evidence_quote stitches M22's title with M20's mp/yield data via PDF column-misalignment."
+  },
+  {
+    "row_id": "63",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "4b mp (acetone) 210-212 \u00b0C verified verbatim in paper 049."
+  },
+  {
+    "row_id": "114",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name '4b was obtained in 80%' is a sentence-fragment, not a compound name; the compound is identified only by the label '4b' in the source paper. Value (bp 80 \u00b0C / 0.4 Torr) matches the quote but compound name is not stand-alone interpretable."
+  },
+  {
+    "row_id": "127",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Philinopgenin A (1) mp 208.5-208.5 \u00b0C verified verbatim in paper 158 (note: source actually prints 208.5-208.5 \u2014 likely a single-point value)."
+  },
+  {
+    "row_id": "115",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name 'salt 5b was obtained in 86%' is a sentence-fragment, not a compound name; compound is identified only by label '5b'. Value 92-94 \u00b0C matches the quote but name fails stand-alone interpretability."
+  },
+  {
+    "row_id": "303",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "8b Mp 150.8 \u00b0C (lit.: 157 \u00b0C9) verified verbatim in ledermann_2023 PDF; the 150.8 \u00b0C is the authors' measured value (lit. comparison is supplementary), so data_type measured is correct."
+  },
+  {
+    "row_id": "51",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound V mp 244-246 \u00b0C verified verbatim in paper 033."
+  },
+  {
+    "row_id": "279",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound M21 with mp 255-258 \u00b0C is present verbatim in khalifa 2024 paper (HTML); compound name has internal space artifact from 2-column PDF but matches the chemical identity exactly."
+  },
+  {
+    "row_id": "201",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "The '16' in 'thermal decomposition 16.' is a superscript citation/reference number, not a temperature in \u00b0C; also compound_name and property 'decomposition' do not represent a real compound measurement (sentence fragment about HMX/RDX phase diagram)."
+  },
+  {
+    "row_id": "265",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name is a 13C NMR carbon-shift fragment ('13CNMR (101 MHz, DMSO-d6) \u03b4 36.2, 46.4, ...'), not a chemical name; the actual compound for mp 225-227 \u00b0C is M13 (2-((4-(4-Chlorophenyl)-5-Cyano-6-Oxo-...)-Acetamide)."
+  },
+  {
+    "row_id": "129",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Philinopgenin C (3): a white powder, mp 216.5-217.5 \u00b0C verbatim in article_text.txt; trailing 'a' on compound_name is benign and compound identity is clear."
+  },
+  {
+    "row_id": "106",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name 'microwave (69%)' is a method/yield fragment, not a compound; mp 202\u00b0C belongs to Compound 19 (2-[3-Oxo-3-(2-oxo-2H-chromen-3-yl)-propenylamino]-4,5,6,7-tetrahydrobenzo[b]thiophene-3-carboxylic acid ethyl ester) in the paper."
+  },
+  {
+    "row_id": "34",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '(4-Methylpiperazin-1-yl){1-[5-(5-nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidin-4-yl}methanone (17): Orange solid, mp 276\u00b0C-279\u00b0C.' verified in paper 006; value 276 \u00b0C consistent with range 276-279."
+  },
+  {
+    "row_id": "119",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name 'Chromatography on silica (elution with 10% EtOAc/petroleum ether) afforded bright' is a procedure-text fragment, not a compound name; the chromatographic step produced an undisclosed Schiff-base product whose name does not appear in the quote."
+  },
+  {
+    "row_id": "205",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "The 250 \u00b0C threshold (>250 \u00b0C) is from a statistical statement about drug MP distribution ('more than ninety percent of drugs were under 250 \u00b0C; candidate drugs with MP > 250 \u00b0C might possess poor drug-like properties'), not a measurement of a specific compound; compound_name 'ed in column diagram 4A (the' is a sentence fragment."
+  },
+  {
+    "row_id": "105",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name 'Method B: 95%)' is a method/yield fragment; mp 157\u00b0C belongs to Compound 2 = 1-(3-Benzocoumarinyl)-3-dimethylamino-2-propen-1-one in the paper."
+  },
+  {
+    "row_id": "169",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name includes trailing sentence-fragment 'The product co' appended to the chemical name; the rest of the identification is correct, but the appended text is not part of the compound name."
+  },
+  {
+    "row_id": "69",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "'1-Deoxy-1-(5-nitro-2-furamido)-2,3;4,5-di-O-isopropylidene-\u03b2-D-fructopyranoside (12): m p 159-162 \u00b0C' verified verbatim; compound_name '1-Deoxy-1-(5-nitro-2-fura' is truncated but evidence_quote contains the full name and the value matches."
+  },
+  {
+    "row_id": "159",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5n (5-Methyl-2-phenyl-...-pyrazol-3-one) with mp 200-202 \u00b0C verified verbatim in paper 169; leading 'O, 3.11%' in compound_name is from prior elemental analysis line but full chemical name follows it."
+  },
+  {
+    "row_id": "253",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name '13CNMR (101 MHz, DMSO-d6) \u03b4 35.9, 43.3' is an NMR fragment, not a compound; mp 257-260 \u00b0C in the paper belongs to M7 (2-((4-(4-Bromophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Piperidin-1-Ylsulfonyl)Phenyl)Acetamide)."
+  },
+  {
+    "row_id": "11",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9l (Diphenyl(6-(Pyridin-2-Yl)-...-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide) with mp 214-216\u00b0C verified verbatim in paper 005."
+  },
+  {
+    "row_id": "33",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 16 (Morpholino{1-[5-(5-nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidin-4-yl}methanone) with mp 269\u00b0C-271\u00b0C verified verbatim in paper 006; value 269 chosen from lower bound of range with relation '='."
+  },
+  {
+    "row_id": "144",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "2-Coumaranone : mp 49\u00b0 verified verbatim in paper 165."
+  },
+  {
+    "row_id": "88",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "'A polyfluorinated amide, mol41, is predicted to have a melting point of 233\u00b0C' verified; data_type 'calculated' correct because the value is explicitly a model prediction."
+  },
+  {
+    "row_id": "6",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9g (Diphenyl(6-(3-Fluorophenyl)-...-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide) with mp 207\u00b0C-209\u00b0C verified verbatim in paper 005."
+  },
+  {
+    "row_id": "261",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M12 (2-((4-(4-Chlorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)Thio)-N-(4-(Piperidin-1-ylsulfonyl)Phenyl)Acetamide) with mp 238-240 \u00b0C verified in khalifa 2024 (HTML has '(M12)White powder, mp 238-240 \u00b0C, 671 mg,95%')."
+  },
+  {
+    "row_id": "231",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M17 (4-Fluorophenyl thiopyrimidine sulfonamide acetamide) with mp 177-180 \u00b0C verified verbatim in khalifa 2024 HTML."
+  },
+  {
+    "row_id": "250",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M7 (2-((4-(4-Bromophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Piperidin-1-Ylsulfonyl)Phenyl)Acetamide) with mp 257-260 \u00b0C verified in khalifa 2024 (HTML)."
+  },
+  {
+    "row_id": "1",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9a (Diphenyl(6-Phenyl-...-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide) with mp 232-234\u00b0C verified verbatim in paper 005."
+  },
+  {
+    "row_id": "238",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M24 (3-Chlorophenyl morpholinosulfonyl thiopyrimidine acetamide) with mp 261-264 \u00b0C verified verbatim in khalifa 2024 HTML."
+  },
+  {
+    "row_id": "136",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "compound_name 'It is a reddish' is a sentence-beginning pronoun fragment, not a compound; boiling point 139.1 \u00b0C refers to bromohydroxyacetophenone (Busan 90/93/1130) discussed in prior sentences."
+  },
+  {
+    "row_id": "107",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "2,7-Dimethoxy-10H,11H,12H-dihydroquino[2,3,4-kl]acridine (17b) with mp 218\u00b0C verified verbatim in paper 102."
+  }
+]

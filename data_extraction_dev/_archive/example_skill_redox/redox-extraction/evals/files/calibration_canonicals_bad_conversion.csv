@@ -1,0 +1,9 @@
+id,molecule,raw_value,smiles,family
+1,"9,10-anthraquinone",5.821,O=C1c2ccccc2C(=O)c2ccccc21,quinone
+2,"1,4-benzoquinone",5.443,O=C1C=CC(=O)C=C1,quinone
+3,methyl viologen,5.692,C[N+]1=CC=C(C=C1)C2=CC=[N+](C=C2)C,viologen
+4,4-hydroxy-TEMPO,3.681,CC1(C)CC(O)CC(C)(C)N1[O],nitroxide
+5,ferrocene,4.061,c1cc[cH-]c1.c1cc[cH-]c1.[Fe+2],metallocene
+6,scaffold-novel-1,6.510,Nc1cc(N)c2nc(N)cc(N)c2n1,unknown
+7,scaffold-novel-2,7.220,Oc1cnc2c(O)c(=O)nc2c1=O,unknown
+8,scaffold-novel-3,5.880,O=C1c2cc(F)c(F)c(F)c2C(=O)c2c(F)c(F)c(F)cc21,unknown

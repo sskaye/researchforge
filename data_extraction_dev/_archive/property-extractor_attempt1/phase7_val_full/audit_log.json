@@ -1,0 +1,667 @@
+{
+  "run_metadata": {
+    "started_at": 1778520838,
+    "input_path": "/sessions/practical-dreamy-pascal/mnt/data_extraction_dev/mp_bp_val_set",
+    "adapter": "mp_bp",
+    "verifier_prompt_sha256": "55edff7c09beef1fa57a137bf1080d5972f7b3c2dacc1cb8f9b8f2fc503412c1",
+    "seed": 20260511,
+    "random_frac": 0.15,
+    "min_pool": 30,
+    "max_pool": 50,
+    "sanity_threshold": 0.9,
+    "accept_threshold": 0.98
+  },
+  "phases": {
+    "phase4_emit": {
+      "kept": 141,
+      "skipped": 611
+    },
+    "phase5a_validate_row": {
+      "kept": 141,
+      "dropped": 0,
+      "drop_reasons": {}
+    },
+    "phase5b_coverage_check": {
+      "warning_count": 0,
+      "warned_article_count": 0,
+      "warnings": []
+    },
+    "phase5c_sample": {
+      "seed": 20260511,
+      "random_frac": 0.15,
+      "min_pool": 30,
+      "max_pool": 50,
+      "total_rows": 141,
+      "stratified_count": 31,
+      "random_count": 21,
+      "top_up_count": 0,
+      "downsampled_count": 2,
+      "audit_pool_size": 50,
+      "coverage_warned_article_count": 0
+    },
+    "phase5d_verification": {
+      "prompt_sha256": "55edff7c09beef1fa57a137bf1080d5972f7b3c2dacc1cb8f9b8f2fc503412c1",
+      "aborted": false,
+      "sanity_rate": 1.0,
+      "pass_count": 50,
+      "fail_count": 0,
+      "error_count": 0,
+      "audited_count": 50
+    },
+    "phase5e_quarantine": {
+      "audit_sample_size": 50,
+      "pass_count": 50,
+      "fail_count": 0,
+      "error_count": 0,
+      "pass_rate": 1.0,
+      "quarantined_count": 0,
+      "status": "accepted"
+    }
+  },
+  "per_article": {
+    "004_PMC13084458_Piperazine-Thiourea_Hybrids_as_Novel_Antiplatelet_Agents_Targeting_COX-1_Synthesis_in_Vitr": {
+      "candidates_enumerated": 0,
+      "doi": "10.1021/acsomega.5c12576",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "synthesis(0+1+0)",
+        "has_experimental_section",
+        "title_synthesis(2)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 0,
+      "skipped": 0,
+      "by_gate": {}
+    },
+    "023_PMC9790764_Synthesis_and_Properties_of_13-Disubstituted_Ureas_and_Their_Isosteric_Analogs_Containing_": {
+      "candidates_enumerated": 19,
+      "doi": "10.1134/S107042802211001X",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 9,
+      "skipped": 10,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 1,
+        "identity_token_mismatch": 1,
+        "F_dedup": 8
+      }
+    },
+    "029_PMC9486790_Synthesis_and_pesticidal_activity_of_new_134-oxadiazole_thioether_compounds_containing_a_t": {
+      "candidates_enumerated": 16,
+      "doi": "10.1007/s11164-022-04839-x",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_3_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "synthesis(0+2+0)",
+        "has_experimental_section",
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 3,
+      "skipped": 13,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 13
+      }
+    },
+    "031_PMC6193241_Revision_of_the_Structure_and_Total_Synthesis_of_Topsentin_C": {
+      "candidates_enumerated": 14,
+      "doi": "10.1055/s-0036-1588731",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "synthesis(0+1+0)",
+        "has_experimental_section",
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 13,
+      "skipped": 1,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 1
+      }
+    },
+    "057_PMC12573032_Prioritizing_Data_Quality_in_Machine_Learning_for_Thermophysical_Property_Prediction_A_Cas": {
+      "candidates_enumerated": 0,
+      "doi": "10.1021/acsomega.5c05503",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "qspr_prediction",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "prediction_keywords(3)",
+        "thermodynamic(1)"
+      ],
+      "default_data_origin": "predicted_QSPR",
+      "kept": 0,
+      "skipped": 0,
+      "by_gate": {}
+    },
+    "060_PMC4724158_The_development_of_models_to_predict_melting_and_pyrolysis_point_data_associated_with_seve": {
+      "candidates_enumerated": 17,
+      "doi": "10.1186/s13321-016-0113-y",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_3_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [
+        "prediction_keywords(1)"
+      ],
+      "default_data_origin": "literature_cited",
+      "kept": 4,
+      "skipped": 13,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 13
+      }
+    },
+    "078_PMC10763787_New_bis-isoxazole_with_monoterpenic_skeleton_regioselective_synthesis_spectroscopic_invest": {
+      "candidates_enumerated": 6,
+      "doi": "10.55730/1300-0527.3324",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "synthesis(0+1+3)",
+        "has_experimental_section",
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 2,
+      "skipped": 4,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 2,
+        "F_dedup": 2
+      }
+    },
+    "096_PMC6236427_Synthesis_of_the_Aspidosperma_Alkaloid_Na-Formyl-16--_Hydroxyaspidospermidine": {
+      "candidates_enumerated": 13,
+      "doi": "10.3390/61000803",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "synthesis(0+1+1)",
+        "has_experimental_section",
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 5,
+      "skipped": 8,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 8
+      }
+    },
+    "098_PMC6146883_Microwave_Assisted_Synthesis_Part_1_Rapid_Solventless_Synthesis_of_3-Substituted_Coumarins": {
+      "candidates_enumerated": 27,
+      "doi": "10.3390/80700541",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "synthesis(0+2+2)",
+        "has_experimental_section",
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 7,
+      "skipped": 20,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 20
+      }
+    },
+    "102_PMC6236359_Synthesis_and_Electrophilic_Substitution_of_Pyrido234-kl-_acridines": {
+      "candidates_enumerated": 16,
+      "doi": "10.3390/60400300",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "synthesis(0+1+0)",
+        "has_experimental_section",
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 14,
+      "skipped": 2,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 2
+      }
+    },
+    "113_PMC13103808_Comparative_Antinociceptive_Evaluation_of_Hofmeisterin_I_and_Analogues_from_Hofmeisteria_s": {
+      "candidates_enumerated": 13,
+      "doi": "10.1021/acsomega.6c01037",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "synthesis(0+2+1)",
+        "has_experimental_section",
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 3,
+      "skipped": 10,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 10
+      }
+    },
+    "143_PMC6147071_Novel_4-Aroyl-3-alkoxy-25H-furanones_as_Precursors_for_the_Preparation_of_Furo34-b14-diaze": {
+      "candidates_enumerated": 22,
+      "doi": "10.3390/81000735",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "synthesis(1+1+0)",
+        "has_experimental_section",
+        "title_synthesis(2)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 0,
+      "skipped": 22,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 21,
+        "identity_token_mismatch": 1
+      }
+    },
+    "151_PMC6263260_A_New_Pyranoxanthone_from_Calophyllum_soulattri": {
+      "candidates_enumerated": 7,
+      "doi": "10.3390/molecules16053999",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [],
+      "default_data_origin": "literature_cited",
+      "kept": 0,
+      "skipped": 7,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 7
+      }
+    },
+    "1952_Livingston_The Molecular Structures of Octafluorocyclobutane and of Methylcyclobutane": {
+      "candidates_enumerated": 0,
+      "doi": "",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_no_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [],
+      "default_data_origin": "literature_cited",
+      "kept": 0,
+      "skipped": 0,
+      "by_gate": {}
+    },
+    "1990_Yalkowsky_Melting Point Boiling Point and Symmetry": {
+      "candidates_enumerated": 0,
+      "doi": "",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_no_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [],
+      "default_data_origin": "literature_cited",
+      "kept": 0,
+      "skipped": 0,
+      "by_gate": {}
+    },
+    "2006_Sharik_Total Synthesis of (−)-Normalindine via Addition of Metallated 4- Methyl-3-cyanopyridine to an Enantiopure Sulfinimine": {
+      "candidates_enumerated": 14,
+      "doi": "10.1021/jo061443+",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 2,
+      "skipped": 12,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 11,
+        "F_dedup": 1
+      }
+    },
+    "2019_Rubstov_One-pot synthesis of thieno[3,2-e]pyrrolo[1,2-a]pyrimidine derivatives scaffold - A valuable source of PARP-1 inhibitors": {
+      "candidates_enumerated": 0,
+      "doi": "10.1021/acs.joc.9b00711",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "title_synthesis(2)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 0,
+      "skipped": 0,
+      "by_gate": {}
+    },
+    "alsayari_2021_pyrazolothiazole_antimicrobial": {
+      "candidates_enumerated": 1,
+      "doi": "10.3390/molecules26175383",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [],
+      "default_data_origin": "literature_cited",
+      "kept": 0,
+      "skipped": 1,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 1
+      }
+    },
+    "berg_2015_apparatus-vapor-pressure": {
+      "candidates_enumerated": 2,
+      "doi": "10.1021/acs.jced.5b00751",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [
+        "thermodynamic(1)"
+      ],
+      "default_data_origin": "literature_cited",
+      "kept": 0,
+      "skipped": 2,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 2
+      }
+    },
+    "chen_2024_carbon_hydrated_salt_pcm": {
+      "candidates_enumerated": 0,
+      "doi": "10.3390/nano14131077",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [],
+      "default_data_origin": "literature_cited",
+      "kept": 0,
+      "skipped": 0,
+      "by_gate": {}
+    },
+    "dichi_2025_polyphenols_thermal": {
+      "candidates_enumerated": 143,
+      "doi": "10.3390/molecules30010199",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [
+        "thermodynamic(3)"
+      ],
+      "default_data_origin": "literature_cited",
+      "kept": 5,
+      "skipped": 138,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 127,
+        "value_unparseable": 6,
+        "F_dedup": 5
+      }
+    },
+    "fernandes_2018_pyridazine_suzuki": {
+      "candidates_enumerated": 0,
+      "doi": "10.3390/molecules23113014",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [
+        "synthesis(0+1+0)"
+      ],
+      "default_data_origin": "literature_cited",
+      "kept": 0,
+      "skipped": 0,
+      "by_gate": {}
+    },
+    "khalifa_2024_thiopyrimidine_sulfonamide": {
+      "candidates_enumerated": 182,
+      "doi": "10.3390/molecules29194778",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [],
+      "default_data_origin": "literature_cited",
+      "kept": 46,
+      "skipped": 136,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 96,
+        "F_dedup": 40
+      }
+    },
+    "khan_2017_piroxicam_cocrystal": {
+      "candidates_enumerated": 2,
+      "doi": "10.15171/apb.2017.048",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [
+        "synthesis(0+2+0)",
+        "thermodynamic(1)"
+      ],
+      "default_data_origin": "literature_cited",
+      "kept": 0,
+      "skipped": 2,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 2
+      }
+    },
+    "ledermann_2023_iodoindoles_synthesis": {
+      "candidates_enumerated": 40,
+      "doi": "10.3762/bjoc.19.99",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 16,
+      "skipped": 24,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 8,
+        "F_dedup": 16
+      }
+    },
+    "liu_2023_alsife_phases_alloys": {
+      "candidates_enumerated": 97,
+      "doi": "10.3390/ma16093304",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [],
+      "default_data_origin": "literature_cited",
+      "kept": 2,
+      "skipped": 95,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 95
+      }
+    },
+    "longley_2021_il_zif8_melting_mof": {
+      "candidates_enumerated": 1,
+      "doi": "10.1038/s41467-021-25970-0",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [],
+      "default_data_origin": "literature_cited",
+      "kept": 0,
+      "skipped": 1,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 1
+      }
+    },
+    "nakanishi_2024_pyridine_ch_arylation": {
+      "candidates_enumerated": 100,
+      "doi": "10.3762/bjoc.20.269",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [],
+      "default_data_origin": "literature_cited",
+      "kept": 10,
+      "skipped": 90,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 89,
+        "F_dedup": 1
+      }
+    },
+    "pachernegg_2024_20-ils-physicochemical": {
+      "candidates_enumerated": 0,
+      "doi": "10.1021/acs.jced.3c00687",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [
+        "synthesis(0+1+0)"
+      ],
+      "default_data_origin": "literature_cited",
+      "kept": 0,
+      "skipped": 0,
+      "by_gate": {}
+    },
+    "weng_2020_itraconazole_terephthalic_cocrystal": {
+      "candidates_enumerated": 0,
+      "doi": "10.3390/pharmaceutics12080741",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [
+        "synthesis(0+1+0)"
+      ],
+      "default_data_origin": "literature_cited",
+      "kept": 0,
+      "skipped": 0,
+      "by_gate": {}
+    }
+  },
+  "totals": {
+    "papers": 30,
+    "finished_at": 1778520863,
+    "kept_phase4": 141,
+    "kept_after_validate": 141,
+    "delivered": 141,
+    "skipped": 611,
+    "pass_rate": 1.0,
+    "status": "ACCEPTED"
+  }
+}

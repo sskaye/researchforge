@@ -1,0 +1,62 @@
+[
+  {
+    "row_id": "360",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The paper DOI matches, compound and mp context are present, but the claimed evidence quote is not verbatim under the allowed normalization; the source text has H 2 O formatting and continues with the literature mp value."
+  },
+  {
+    "row_id": "742",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI, compound 8 context, melting-point value 114-116 °C, midpoint 115 °C, and measured experimental context all match the paper."
+  },
+  {
+    "row_id": "38",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI, full compound 2f entry, m.p. 232-234 °C, midpoint 233 °C, and measured synthesis context all match the paper."
+  },
+  {
+    "row_id": "791",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "The mp 214-216 °C appears in the cited item, but the row compound name omits the leading tacrine-triazole portion printed in the paper: (1-(2-Oxo-2-((1,2,3,4-tetrahydroacridin-9-yl)amino)ethyl)-1H-1,2,3-triazol-4-yl)methyl ..."
+  },
+  {
+    "row_id": "235",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "The cited paper reports compound 2b as mp 170°C-173°C, but the row records only 170°C with no range or midpoint."
+  },
+  {
+    "row_id": "156",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI, compound 4 context, m.p. 250-253 °C, midpoint 251.5 °C, and measured synthesis context all match the paper."
+  },
+  {
+    "row_id": "781",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI, compound 9 context, m.p. 265°C, value 265 °C, and measured experimental context all match the paper."
+  },
+  {
+    "row_id": "814",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI, compound 3 synthesis paragraph, mp 173-175°C, midpoint 174 °C, and measured experimental context all match the paper."
+  },
+  {
+    "row_id": "62",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI, compound 8a entry, mp 280-283 °C (dec), midpoint 281.5 °C, decomposition property, and measured experimental context all match the paper."
+  },
+  {
+    "row_id": "644",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI, compound 11 context, m.p. 182-184 °C, midpoint 183 °C, and measured experimental context all match the paper."
+  }
+]

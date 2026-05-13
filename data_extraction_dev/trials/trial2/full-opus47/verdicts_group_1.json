@@ -1,0 +1,18 @@
+[
+  {"row_id": "41", "verdict": "verified_extraction", "reason": "", "details": "Paper PDF contains 'pale red solid (mp 67-70 °C)' for compound 20g; compound name and value match."},
+  {"row_id": "136", "verdict": "verified_extraction", "reason": "", "details": "PMC article_text.txt contains '4-(4-Hydroxyphenyl)- N -phenylpiperazine-1-carbothioamide (3e) White solid; 196.83 °C;' verbatim."},
+  {"row_id": "455", "verdict": "verified_extraction", "reason": "", "details": "Paper contains 'providing the pure compound as a white solid; yield: 1.52 g (52%); mp 83–84 °C' in Dioctylphosphinic Acid (1f) section; en-dash folding accepted."},
+  {"row_id": "649", "verdict": "verified_extraction", "reason": "", "details": "Paper experimental section for compound 4c contains 'mp (acetone): 241–243 °C' verbatim."},
+  {"row_id": "697", "verdict": "verified_extraction", "reason": "", "details": "Paper section 3.1.2 contains '3-Hydroxy-2,2-dimethyl-3-(4-biphenylyl)butanoic acid: C 18 H 20 O 3 ; M w = 284.35 ; Melting point: 142 °C' verbatim."},
+  {"row_id": "895", "verdict": "verified_extraction", "reason": "", "details": "Compound 4c entry contains 'Yield 65.0%; m.p. 108-113°C' verbatim."},
+  {"row_id": "1018", "verdict": "verified_extraction", "reason": "", "details": "Compound 8 (2-[4-isopropyl-...triazino-[6,1-b]quinazolin-2-ylidine]malononitrile) text reports 'm.p. > 300°C' as decomposition; verbatim."},
+  {"row_id": "1152", "verdict": "verified_extraction", "reason": "", "details": "Compound 16 entry contains 'mp 62–65 °C' verbatim in supporting spectral data."},
+  {"row_id": "1282", "verdict": "verified_extraction", "reason": "", "details": "Table 1 row for R=H (PhI(OAc)2) contains 'H B 73 161-63 161.1-162.2 [ 20 ]' verbatim; midpoint 162.0 °C."},
+  {"row_id": "1333", "verdict": "verified_extraction", "reason": "", "details": "Spectral data section contains 'Philinopgenin C ( 3 ): a white powder, mp 216.5–217.5 °C' verbatim."},
+  {"row_id": "1393", "verdict": "flagged_review", "reason": "flagged_evidence_quote_not_found", "details": "Quote elides phrase 'by the same procedure as 26a-1 .' and writes '[α]D25' but paper has '[α] D 25'; not a contiguous verbatim substring even after whitespace/hyphen normalization."},
+  {"row_id": "1638", "verdict": "verified_extraction", "reason": "", "details": "Paper PDF section 2.2 contains '255.9 ◦ C for form III' verbatim; decomposition onset context confirmed."},
+  {"row_id": "1661", "verdict": "verified_extraction", "reason": "", "details": "Table 12 row '2 cyclobutane 12.51 15.29 -2.78 14.64 -2.13 1.77 10.74' present; cyclobutane bp 12.51 °C is observed (Obsd) column value."},
+  {"row_id": "1682", "verdict": "verified_extraction", "reason": "", "details": "Typical procedure paragraph contains 'anti -2f - 78%, 160-161°C' verbatim."},
+  {"row_id": "1711", "verdict": "verified_extraction", "reason": "", "details": "Chen 2024 Table 1 row 'MgSO4 ·7H2 O 48.5 202' present verbatim (whitespace collapse)."},
+  {"row_id": "1832", "verdict": "verified_extraction", "reason": "", "details": "Supporting information section 3.1.8 for compound 5h contains 'compound 5h (116 mg, 34%) was isolated as a yellow solid, Mp 63.8 °C (lit.: 67-69 °C)' verbatim."}
+]

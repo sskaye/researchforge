@@ -1,0 +1,602 @@
+[
+  {
+    "row_id": "111",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1021/acsomega.6c01037 matches paper PMC13103808; quote 'white crystals of 7a (82%), mp 76-78 \u00b0C' verbatim present; compound 7a is the bromoethanone intermediate; value 76-78 \u00b0C matches."
+  },
+  {
+    "row_id": "71",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6146883 matches paper dir; quote 'Compound 15 was obtained as buff crystals (49%), mp >300\u00b0C' verbatim present; compound 15 is 1-Acetyl-3,5-di(3-benzocoumarinoyl)benzene; value >300 \u00b0C correct."
+  },
+  {
+    "row_id": "136",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/81000735 matches paper PMC6147071; Table 3 row '1p 51 198' verbatim present (yield 51%, mp 198 \u00b0C); compound 1p is the furo-diazepine."
+  },
+  {
+    "row_id": "51",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1055/s-0036-1588731 matches paper PMC6193241; quote with compound 5a 'mp 247\u2013249 \u00b0C (dec.) (EtOAc)' verbatim present; compound and value match."
+  },
+  {
+    "row_id": "262",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/nano14131077 matches paper chen_2024; Table 1 row 'Mg(NO3)\u00b76H2O 89.9 163 1.81 0.669 1.636 [49]' verbatim in PDF; mp 89.9 \u00b0C correct; review-compiled per note."
+  },
+  {
+    "row_id": "255",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/nano14131077 matches paper chen_2024; Table 1 row 'MgCl2\u00b74H2O 58 178 [40]' verbatim in PDF; mp 58 \u00b0C correct."
+  },
+  {
+    "row_id": "325",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.15171/apb.2017.048 matches paper khan_2017; Table 2 Piroxicam-resorcinol cocrystal 1:1 column reads '185-187'; compound and value match."
+  },
+  {
+    "row_id": "69",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6146883 matches paper dir; quote 'to give 8 as buff crystals (64%), mp 220\u00b0C' verbatim present; compound 8 is 2-(Benzocoumarin-3'-yl)-5-(3-benzocoumarinoyl)pyridine (paper has PDF artifacts/typo but same compound)."
+  },
+  {
+    "row_id": "355",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1038/s41467-021-25970-0 matches paper longley_2021; quote 'ag(IL@ZIF-8-HT) revealed a glass transition temperature (Tg) of 322 \u00b0C (595 K)' verbatim across line break; Tg reported as DSC_onset per skill rules."
+  },
+  {
+    "row_id": "276",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules30010199 matches paper dichi_2025; Table 2 Td Exp. column shows 'Quercetin 623.58'; conversion 623.58 K \u2212 273.15 = 350.43 \u00b0C correct."
+  },
+  {
+    "row_id": "360",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3762/bjoc.20.269 matches paper nakanishi_2024; quote 'Mp 85.1\u201386.6 \u00baC; 1H NMR (CDCl3)' verbatim present for compound 2a; paper uses \u00aa/\u2071 ordinal masculine for \u00b0, captured as written."
+  },
+  {
+    "row_id": "257",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/nano14131077 matches; Table 1 row 'Na3PO4\u00b712H2O 65\u201369 190 [40]' verbatim in PDF; midpoint 67.0 \u00b0C correct."
+  },
+  {
+    "row_id": "129",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/81000735 matches paper PMC6147071; Table 1 row '2n p-CH3C6H4 (CH3)2CH- 23 73' verbatim (yield 23%, mp 73 \u00b0C); compound 2n matches."
+  },
+  {
+    "row_id": "209",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1021/acs.joc.9b00711 matches paper Rubstov 2019; quote 'Yellow solid; 1.81 g, 76 % yield; m.p.' verbatim, followed by '243-244 \u00b0\u0421' on next line; compound 4l and value match."
+  },
+  {
+    "row_id": "320",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.15171/apb.2017.048 matches paper khan_2017; Table 2 'Melting point coformer' column reads '109 -112' for Piroxicam-resorcinol row, which is the resorcinol coformer mp; midpoint 110.5 \u00b0C correct."
+  },
+  {
+    "row_id": "66",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6146883 matches paper dir; quote 'Compound 2 was obtained as orange crystals (Method A: 85%; Method B: 95%), mp 157\u00b0C' verbatim present; compound 2 = 1-(3-Benzocoumarinyl)-3-dimethylamino-2-propen-1-one."
+  },
+  {
+    "row_id": "280",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules23113014 matches paper fernandes_2018; compound 3a section reads 'Mp: 247\u2013250 \u25e6C'; value and compound name match."
+  },
+  {
+    "row_id": "281",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules23113014 matches; compound 3b section reads 'Mp: 207\u2013210 \u25e6C'; value and compound match."
+  },
+  {
+    "row_id": "244",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/nano14131077 matches; Table 1 row 'Na2HPO4\u00b712H2O 35\u201344 280 0.47 1.7' present; midpoint 39.5 \u00b0C correct."
+  },
+  {
+    "row_id": "19",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC9790764 matches paper dir; Table 1 row '4c 4 526.81 5.84 143.5 63' verbatim (n=4, M=526.81, log P=5.84, mp=143.5 \u00b0C, yield=63%); compound 4c is the bis(adamantyl-methylurea)butane."
+  },
+  {
+    "row_id": "315",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.15171/apb.2017.048 matches paper khan_2017; Table 2 reads 'Piroxicam 198-200' in coformer column for pure drug row; value matches."
+  },
+  {
+    "row_id": "70",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6146883 matches paper dir; quote 'Compound 12 was obtained as buff crystals (66%), mp 178\u00b0C' verbatim present; compound 12 = 1-Acetyl-3,5-di(3-coumarinoyl)benzene."
+  },
+  {
+    "row_id": "238",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/nano14131077 matches; Table 1 row 'KF\u00b74H2O 19 231 1.84 1.45 [41]' verbatim; mp 19 \u00b0C correct."
+  },
+  {
+    "row_id": "7",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC13084458 matches paper dir; quote '4-(4-Hydroxyphenyl)-N-phenethylpiperazine-1-carbothioamide (3g) White solid; 191.55 \u00b0C; IR (KBr)' verbatim present; DSC-determined mp."
+  },
+  {
+    "row_id": "25",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC9790764 matches paper dir; Table 1 row '4i 454.6 5.32 240.1 63' verbatim (M=454.6, log P=5.32, mp=240.1 \u00b0C, yield=63%, no n column for 4i since it's a non-diurea analog); compound 4i is the trans-4-aminocyclohexyloxy benzoic acid urea."
+  },
+  {
+    "row_id": "68",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10 named '3,7-Bis-(3-hydroxynaphthalen-4-yl)-4H-dicyclopenta[b,d]pyrrole-1,5-dione' in section heading; quote 'Compound 10 was obtained as buff crystals (96%), mp 200\u00b0C' verbatim in PMC6146883 experimental."
+  },
+  {
+    "row_id": "77",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 20 named '3-(Coumarin-3/-yl)-pyrazole' in section heading; quote 'Compound 20 was obtained as light brown crystals (60%), mp 235\u00b0C' verbatim in PMC6146883."
+  },
+  {
+    "row_id": "329",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row Piroxicam-Nicotinamide column 'Cocrystal melting point (1:2)' = 158-160; DOI 10.15171/apb.2017.048 confirmed in paper."
+  },
+  {
+    "row_id": "213",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4p (carbonitrile) experimental section: 'Yellow solid; 1.76 g, 88 % yield; m.p. 186-187 \u00b0\u0421' verbatim; DOI 10.1021/acs.joc.9b00711 matches."
+  },
+  {
+    "row_id": "62",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "16-Oxoaspidospermidine experimental section: 'colouress prisms; m.p. 108-112 \u00b0C' verbatim in PMC6236427."
+  },
+  {
+    "row_id": "211",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4n (carboxamide) experimental section: 'Yellow solid; 1.89 g, 92 % yield; m.p. 283-285 \u00b0\u0421' verbatim; DOI 10.1021/acs.joc.9b00711 matches."
+  },
+  {
+    "row_id": "227",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2 section: 'mp: 210\u2013211 \u00b0 C; IR (KBr) \u03bdmax 3338\u20133201(NH 2 +NH)' present in paper (en-dash and degree-symbol whitespace differences allowed); DOI 10.3390/molecules26175383 confirmed."
+  },
+  {
+    "row_id": "87",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 33 named '3-Acetyl-4-(benzocoumarin-3'-yl)-1-phenylpyrazole' in section heading; quote 'Compound 33 was obtained as dark yellow crystals (43%), mp 228 \u00b0C, microwave (55%)' verbatim in PMC6146883."
+  },
+  {
+    "row_id": "1",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3a experimental: 'N,4-Diphenylpiperazine-1-carbothioamide (3a) White solid; 160.38 \u00b0C; IR (KBr)' verbatim in PMC13084458."
+  },
+  {
+    "row_id": "106",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 24 named '10H-quino[2,3,4-kl]acridin-10-one' in section heading; quote 'afford 24 (290 mg, 92%), amorphous powder (CHCl 3 /MeOH, 20:1), m.p. 254\u00b0C' verbatim in PMC6236359."
+  },
+  {
+    "row_id": "316",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 'Melting point coformer' column for Piroxicam-sodium acetate row = 324; sodium acetate is the coformer; DOI 10.15171/apb.2017.048 confirmed."
+  },
+  {
+    "row_id": "181",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table III row Fluorobenzene: 'Fluorobenzene 358 232 257 \u201425 1.08 3.0 0' present; BP column = 358 K \u2192 84.85 \u00b0C (358\u2212273.15); legacy citation Pharm. Res. 1990, 7(9), 942-947 complete."
+  },
+  {
+    "row_id": "294",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound M5 section: 'White powder, mp 216\u2013219 \u00b0C, 610, 89%' present; range 216-219 matches value_celsius 217.5; DOI 10.3390/molecules29194778 confirmed."
+  },
+  {
+    "row_id": "105",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 20 named '3-Nitro-10H-benzo[i]quino[2,3,4-kl]acridin-10-one' in section heading; quote 'afforded 20 (48 mg, 53%), yellow needles, m.p. 339\u00b0C' verbatim in PMC6236359."
+  },
+  {
+    "row_id": "182",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table III row Fluorobenzene MP column = 232 K \u2192 -41.15 \u00b0C (232\u2212273.15); arithmetic correct; legacy citation complete."
+  },
+  {
+    "row_id": "290",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound M1 section: 'White powder, mp 207\u2013210, 601 mg, 93%' present; range 207-210 matches value_celsius 208.5; DOI 10.3390/molecules29194778 confirmed."
+  },
+  {
+    "row_id": "13",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3m experimental: '4-Benzhydryl- N -phenylpiperazine-1-carbothioamide (3m) White solid; 216.60 \u00b0C; IR (KBr)' verbatim in PMC13084458."
+  },
+  {
+    "row_id": "61",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Vincadifformine-N(b)-oxide experimental: 'The less polar fraction contained vincadifformine-N b -oxide (36 mg, 18 %), m.p. 160\u00b0C (dec.)' verbatim; decomposition data_type appropriate."
+  },
+  {
+    "row_id": "266",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 Exp. Tm column Trans-resveratrol = 541.95 K \u2192 268.8 \u00b0C (541.95\u2212273.15); arithmetic correct; DOI 10.3390/molecules30010199 confirmed."
+  },
+  {
+    "row_id": "277",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 Exp. Td column Myricetin = 633.30 K \u2192 360.15 \u00b0C (633.3\u2212273.15); arithmetic correct; decomposition data_type appropriate; DOI confirmed."
+  },
+  {
+    "row_id": "16",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3p experimental: '4-Benzhydryl-N-(3,4,5-trimethoxyphenyl)\u00adpiperazine-1-carbothioamide (3p) White solid; 151.96 \u00b0C; IR (KBr)' verbatim in PMC13084458."
+  },
+  {
+    "row_id": "147",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Evidence_quote is 'f.p. -161.51' (freezing point) which does not contain or support the claimed boiling_point value of 36.98 \u00b0C. Paper does contain 'b.p. 36.98\u00b0 (755 mm.)' but the cited quote string does not include the bp; quote does not support value."
+  },
+  {
+    "row_id": "201",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4d experimental: 'Yellow solid; 1.73 g, 72 % yield; m.p. 264-265 \u00b0\u0421 (acetonitrile)' verbatim; DOI 10.1021/acs.joc.9b00711 confirmed; truncated quote in row still appears in paper."
+  },
+  {
+    "row_id": "131",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row '2p p -NO 2 C 6 H 4 CH 3 - 30 85' present; columns Entry/Ar/R/Yield/Mp give 2p compound mp = 85 \u00b0C; DOI 10.3390/81000735 not directly in paper but PMC reference (paper 143 = PMC6147071) matches."
+  },
+  {
+    "row_id": "134",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 3 row '1e 48 172' present; columns Product/Yield/Mp give 1e compound mp = 172 \u00b0C; PMC6147071 reference."
+  },
+  {
+    "row_id": "249",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Na2SiO3\u00b74H2O in Table 1 with MP 48 \u00b0C (measured, compiled ref [40]) confirmed; DOI 10.3390/nano14131077 matches paper."
+  },
+  {
+    "row_id": "305",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound M16 (2-((4-(4-Fluorophenyl)-...)-Acetamide) found at Section 3.4 with mp 248\u2013251 \u00b0C matches; DOI 10.3390/molecules29194778 confirmed."
+  },
+  {
+    "row_id": "361",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "5,12-Dioctyl-...phenanthridin-6,13-dione (8a) Mp 170.3\u2013171.9 \u00baC confirmed in SI; DOI 10.3762/bjoc.20.269 matches."
+  },
+  {
+    "row_id": "253",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Ni(NO3)2\u00b76H2O in Table 1 with MP 57 \u00b0C (measured, compiled ref [42]) confirmed; DOI 10.3390/nano14131077 matches."
+  },
+  {
+    "row_id": "114",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8b yellow crystals (63%) mp 90\u201392 \u00b0C confirmed in Section 2.3.7 of nxml; DOI 10.1021/acsomega.6c01037 matches."
+  },
+  {
+    "row_id": "296",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Compound M7 mp 257\u2013260 \u00b0C is in paper, but evidence_quote 'White White powder, powder, mp' is a degenerate PDF-doubled artifact that does not appear verbatim at the stated location."
+  },
+  {
+    "row_id": "212",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4o 'Yellow solid; 2.15 g, 96 % yield; m.p. 287-288 \u00b0\u0421' confirmed in Experimental section; DOI 10.1021/acs.joc.9b00711 matches."
+  },
+  {
+    "row_id": "112",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 7b white crystals (89%) mp 80\u201382 confirmed in Section 2.3.5; DOI 10.1021/acsomega.6c01037 matches."
+  },
+  {
+    "row_id": "230",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "O-Ethyl N-phenylcarbamothioate (4) at 20% yield, mp 55\u201356 \u00b0C, IR (KBr) 3212 (NH) confirmed in Section 3.1.4; DOI 10.3390/molecules26175383 matches."
+  },
+  {
+    "row_id": "48",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 7f tert-Butyl 3-{1-[(Pivaloyloxy)(methyl)amino]-2-nitroethyl}-...-1-carboxylate, Yield 1.43 (91%), yellow solid; mp 96 \u00b0C (hexane) confirmed; DOI 10.1055/s-0036-1588731 matches."
+  },
+  {
+    "row_id": "24",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4h row in Table 1 (header 'mp, \u00b0C') reads 4h 10 610.96 8.63 99.6 94, matching value 99.6; pmc:PMC9790764 matches paper."
+  },
+  {
+    "row_id": "15",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "4-Benzhydryl-N-phenethylpiperazine-1-carbothioamide (3o) White solid; 138.93 \u00b0C; IR (KBr) verbatim in nxml; pmc:PMC13084458 matches."
+  },
+  {
+    "row_id": "158",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "1,3-Dibromobenzene BP 220 in Table I (Boiling and Melting Points of Isomers); legacy: identifier accepted, Pharm. Res. citation complete."
+  },
+  {
+    "row_id": "166",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "1,3-Dimethylbenzene Table III row: BP 412 MP 226 \u2014 MP value 226 K matches; conversion 226-273.15=-47.15 \u00b0C correct; legacy: identifier accepted."
+  },
+  {
+    "row_id": "224",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Potassium (2Z,4Z)-...-hexa-2,4-dien-3-olate (6) Yellow solid 0.87 g 82% m.p. 215-216 \u00b0\u0421 confirmed in Experimental; DOI 10.1021/acs.joc.9b00711 matches."
+  },
+  {
+    "row_id": "107",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 25 (2,7-Dimethoxy-...-acridin-10-one) afforded 25 (340 mg, 90%), amorphous powder, m.p. 291\u00b0C confirmed; pmc:PMC6236359 matches."
+  },
+  {
+    "row_id": "20",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4d row in Table 1 (header 'mp, \u00b0C') reads 4d 5 540.82 6.35 127.1 76 matching value 127.1; pmc:PMC9790764 matches paper."
+  },
+  {
+    "row_id": "221",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 7a Red solid; 1.88 g, 95 % yield; m.p. 189-190 \u00b0\u0421 confirmed; DOI 10.1021/acs.joc.9b00711 matches."
+  },
+  {
+    "row_id": "287",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 1c (4-(4-Fluorophenyl)-2-Mercapto-...) White powder, 84%, mp 270\u2013272 \u00b0C confirmed in Section 3.2; DOI 10.3390/molecules29194778 matches."
+  },
+  {
+    "row_id": "149",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "1,2-Dichlorobenzene first row of Table I with MP -17 BP 179; value -17 matches; legacy: identifier accepted, Pharm. Res. citation complete."
+  },
+  {
+    "row_id": "350",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "3-(4-Methoxyphenyl)-1-methyl-2-phenyl-1H-indole (8a), colorless solid, Mp 103.9 (lit.: 128-) confirmed in SI section 3.4.1; DOI 10.3762/bjoc.19.99 matches."
+  },
+  {
+    "row_id": "163",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Toluene row in Table III: BP 383 K, MP 178 K \u2014 BP value 383 K matches; conversion 383-273.15=109.85 \u00b0C correct; legacy: identifier accepted."
+  },
+  {
+    "row_id": "363",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "TER (terephthalic acid) 'melted with sublimation at around 350 \u25e6 C [29]' confirmed in Results/DSC section; sublimation data_type measured; DOI 10.3390/pharmaceutics12080741 matches."
+  },
+  {
+    "row_id": "3",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "N-Phenethyl-4-phenylpiperazine-1-carbothioamide (3c) White solid; 141.97 \u00b0C; IR (KBr) verbatim in nxml; pmc:PMC13084458 matches."
+  },
+  {
+    "row_id": "59",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "16-Hydroxy-1,2-dehydrovincadifformine (3) orange solid, m.p. 109-110\u00b0C (lit.[9] m.p. 112\u00b0C) confirmed; pmc:PMC6236427 matches paper."
+  },
+  {
+    "row_id": "139",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Soulattrin m.p. 180-181 \u00b0C confirmed in Section 3.4 of 10.3390/molecules16053999; quote matches with only minor en-dash vs hyphen punctuation."
+  },
+  {
+    "row_id": "237",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 of 10.3390/nano14131077 shows 'LiClO3 \u00b73H2 O 8 253'; melting point 8 \u00b0C confirmed for LiClO3\u00b73H2O."
+  },
+  {
+    "row_id": "310",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M21 = 2-((4-(3-Chlorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(N,N-Diethylsulfamoyl)Phenyl)Acetamide with mp 255-258 \u00b0C verified in 10.3390/molecules29194778."
+  },
+  {
+    "row_id": "302",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M13 = 2-((4-(4-Chlorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-((4-Methylpiperazin-1-yl)Sulfonyl)Phenyl)Acetamide with mp 225-227 \u00b0C verified in 10.3390/molecules29194778."
+  },
+  {
+    "row_id": "231",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.1.5 of 10.3390/molecules26175383: 'resulting in thione 6. Yield (40%); mp. 250 o C; IR (KBr)' \u2014 mp 250 \u00b0C confirmed."
+  },
+  {
+    "row_id": "364",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "In DSC binary mixtures section of 10.3390/pharmaceutics12080741: ITR-TER cocrystal shows 'sharp endothermic peak at 198 \u00b0C' \u2014 confirmed."
+  },
+  {
+    "row_id": "11",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC13084458 article text: '4-(2-Chlorophenyl)-N-phenethylpiperazine-1-carbothioamide (3k) White solid; 111.76 \u00b0C; IR (KBr)' verified verbatim."
+  },
+  {
+    "row_id": "217",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4t = (E)-2,5-dioxo-1-(2-oxo-2-phenylethylidene)-cyclohepta[4,5]thieno-pyrrolo-pyrimidine-3-carbonitrile with mp 284-285 \u00b0\u0421 verified in 10.1021/acs.joc.9b00711."
+  },
+  {
+    "row_id": "334",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DSC results in 10.15171/apb.2017.048 page 403: 'peak onset for pure drug was obtained at 199.60 \u00b0C' \u2014 Piroxicam DSC onset verified."
+  },
+  {
+    "row_id": "235",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.1.8 of 10.3390/molecules26175383: '10. Yield (75%), mp. 210-211 \u00b0C; IR (KBr)' verified for Bis(1,2,3-triazole) compound 10."
+  },
+  {
+    "row_id": "261",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 of 10.3390/nano14131077: 'Al(NO3 )2 \u00b78H2 O 89.3 150 [42]' \u2014 mp 89.3 \u00b0C confirmed."
+  },
+  {
+    "row_id": "115",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC13103808 / 10.1021/acsomega.6c01037 Section 2.3.8: compound 11 = 1-(2-(2-(Benzyloxy)-5-bromo-4-methylphenyl)-2-oxoethyl)pyrrolidine-2,5-dione, mp 88-90 \u00b0C verified; DOI matches paper despite citation year typo."
+  },
+  {
+    "row_id": "35",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC9486790: '2-(((2-Chlorothiazol-5-yl)methyl)thio)-5-(1-methyl-3-(trifluoromethyl)-1H-pyrazol-4-yl)-1,3,4-oxadiazole (5j) Mp. 94-95 \u00b0C, yellow solid' verified verbatim."
+  },
+  {
+    "row_id": "123",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 of 10.3390/81000735: '2e m-CNC6H4 CH3- 47 116' confirms mp 116 \u00b0C for furanone 2e."
+  },
+  {
+    "row_id": "299",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "M10 = 2-((4-(4-Bromophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)Thio)-N-(4-(Thiomorpholinosulfonyl)Phenyl)Acetamide with mp 224-226 \u00b0C verified in 10.3390/molecules29194778."
+  },
+  {
+    "row_id": "265",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 of 10.3390/nano14131077: 'MgCl2 \u00b76H2 O 117 169 0.69 1.56 [40]' \u2014 mp 117 \u00b0C confirmed."
+  },
+  {
+    "row_id": "366",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DSC results of 10.3390/pharmaceutics12080741: 'endothermic peak with an onset at 164 \u00b0C (Figure 3), assigned to the melting of ITR' \u2014 ITR DSC onset verified."
+  },
+  {
+    "row_id": "159",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table I of 1990 Yalkowsky paper: '1,4-Dibromobenzene 87 220' confirms mp 87 \u00b0C; legacy: identifier and journal citation are complete."
+  },
+  {
+    "row_id": "164",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table III of 1990 Yalkowsky paper: 'Toluene 383 178 185 -7 0.30 2.8 0' (paper uses em-dash for negatives); 178 K - 273.15 = -95.15 \u00b0C conversion arithmetic correct."
+  },
+  {
+    "row_id": "184",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table III of 1990 Yalkowsky paper: 'Benzonitrile 464 260 275 -15 0.30 3.7 0' (paper uses em-dash); 260 K - 273.15 = -13.15 \u00b0C conversion arithmetic correct."
+  },
+  {
+    "row_id": "365",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DSC slurry section of 10.3390/pharmaceutics12080741: 'peak with an onset at 195 \u00b0C' for ITR-TER slurry samples verified."
+  },
+  {
+    "row_id": "353",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "SI Section 3.3.4 / 4.23 of 10.3762/bjoc.19.99: '4-(1-Methyl-2-phenyl-1H-indol-3-yl)benzonitrile (8d)11 ... compound 8d (140 mg, 91%) was isolated as a colorless solid, Mp 194.2 \u00b0C' verified."
+  },
+  {
+    "row_id": "207",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental section of 10.1021/acs.joc.9b00711: compound 4j Ethyl (E)-8-(2-(4-chlorophenyl)-2-oxoethylidene)-2,3-dimethyl-4,7-dioxo-4,5,7,8-tetrahydropyrrolo[1,2-a]thieno[3,2-e]pyrimidine-6-carboxylate, Yellow solid; 1.71 g, 75 % yield; m.p. 250-251 \u00b0\u0421 verified."
+  },
+  {
+    "row_id": "327",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 of 10.15171/apb.2017.048: Piroxicam-saccharine sodium (1:2) row shows mp 178-179 \u00b0C verified."
+  },
+  {
+    "row_id": "323",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 of 10.15171/apb.2017.048: 'Piroxicam-Urea 132-135 171-173' confirms Piroxicam-Urea (1:1) mp 171-173 \u00b0C."
+  }
+]

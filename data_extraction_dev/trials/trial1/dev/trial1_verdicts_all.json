@@ -1,0 +1,602 @@
+[
+  {
+    "row_id": "120",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'while melting points were determined for ethyl, propyl, and butyl derivatives (50.43, 59.02, 71.05 \u00b0C, respectively).' verbatim present in paper 017; 59.02 \u00b0C matches the propyl derivative ester [Glu(OPr)][IBU]; data_type measured; DOI 10.3390/molecules28227523 confirmed."
+  },
+  {
+    "row_id": "3",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Mp 73\u201375 \u00b0C' for compound 10 ((E)-4-(Diethoxyphosphoryl)but-2-enoic Acid) verbatim present in paper 010 section 3.1.3; DOI 10.3390/ijms27041716 confirmed; measured."
+  },
+  {
+    "row_id": "233",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote for compound 3l with 'mp: 220-22\u00b0C' verbatim present in paper 138; value_raw 220-222 is reasonable expansion; DOI 10.3390/70700554 confirmed; measured."
+  },
+  {
+    "row_id": "228",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote for compound 3g with 'mp: 245-47\u00b0C' verbatim present in paper 138; value_raw 245-247 is reasonable expansion; DOI 10.3390/70700554 confirmed; measured."
+  },
+  {
+    "row_id": "412",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 7 row '[G1,1,1,1,1,1][MSO4] 187.5[130] 50.6 29.7' present; 50.6 is in 'Calc. Tfus [\u00b0C]' column (Eq. 16); data_type calculated; DOI 10.1002/cphc.201100522 confirmed."
+  },
+  {
+    "row_id": "66",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Yield = 59%; mp = 131\u2013133 \u00b0C (EtOH);' for compound 5b verbatim present in paper 011 section 3.1.6; DOI 10.3390/molecules31040699 confirmed; measured."
+  },
+  {
+    "row_id": "1",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Mp 87\u201390 \u00b0C (lit. [45] 87\u201388 \u00b0C)' for compound 1 (4-(Pyridin-4-yl)benzaldehyde) verbatim present in paper 010 section 3.1.1; DOI 10.3390/ijms27041716 confirmed; measured."
+  },
+  {
+    "row_id": "258",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 Tm row values include 467.128 in Dexamethasone STRM column; arithmetic 467.128 \u2212 273.15 = 193.978 \u00b0C correct; data_type calculated (STRM prediction); DOI 10.1016/j.cdc.2021.100820 confirmed."
+  },
+  {
+    "row_id": "390",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row '[EMIm][OTos] 53.3 55.5 52.6 55.1 49.8[40]' present; 55.5 \u00b0C in 'First cycle, Tp' (peak maximum) column; data_type measured (DSC peak); DOI 10.1002/cphc.201100522 confirmed."
+  },
+  {
+    "row_id": "257",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paragraph 'the Chloroquine estimated Tm was found to be 385.54 K against the reported value of 363.15 K by M. Staderini et al. [50]' verbatim present in paper 064; arithmetic 363.15 \u2212 273.15 = 90.00 \u00b0C correct; data_type measured (literature reference); DOI 10.1016/j.cdc.2021.100820 confirmed."
+  },
+  {
+    "row_id": "335",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'Benzyl chloride 179.5 184.2 ...' present in Dearden paper; 184.2 in MPBPVP column; data_type calculated (MPBPVP prediction); DOI 10.1897/01-363 confirmed."
+  },
+  {
+    "row_id": "218",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row '2e C16H13ClN2S (300.8) Cl 4-CH3 157-158 70' verbatim present in paper 050; 2e is 6-Chloro-2-methyl-3-(4-methylphenyl)quinazoline-4(3H)-thione (X=Cl, R=4-CH3, in series 2); DOI 10.3390/81100756 confirmed; measured."
+  },
+  {
+    "row_id": "24",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Yield: 99%. Mp 171\u2013173 \u00b0C.' for compound 31 ((E)-3-([1,1\u2032-Biphenyl]-4-yl)-N-(adamantan-1-yl)acrylamide) verbatim present in paper 010 section 3.1.8; DOI 10.3390/ijms27041716 confirmed; measured."
+  },
+  {
+    "row_id": "164",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'white crystals 3 ( 3.15 g, 64%); mp. 60 \u00b0C' for Acetohydrazide (3) Method 2 verbatim present in paper 026 Experimental section; DOI 10.1007/s13738-021-02358-x confirmed; measured."
+  },
+  {
+    "row_id": "63",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Yield = 36%; mp = 98\u2013100 \u00b0C (EtOH);' for compound 4e (5-Acetyl-4-cycloheptylamino-2-ethyl-6-phenylpyridazin-3(2H)-one) verbatim present in paper 011 section 3.1.5; DOI 10.3390/molecules31040699 confirmed; measured."
+  },
+  {
+    "row_id": "329",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'Acetophenone 202.0 189.8 ...' present in Dearden paper; 189.8 in MPBPVP column; data_type calculated; DOI 10.1897/01-363 confirmed."
+  },
+  {
+    "row_id": "81",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Yield = 34%; mp = 215\u2013216 \u00b0C (EtOH);' for compound 3k (5-Acetyl-2-ethyl-4-(4-methylpyridin-3-ylamino)-6-phenylpyridazin-3(2H)-one) verbatim present in paper 011 section 3.1.9; DOI 10.3390/molecules31040699 confirmed; measured."
+  },
+  {
+    "row_id": "172",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Yield 579 mg (91%); white powder; mp: 231\u2013232 \u00b0C' for compound 4a (dispiroimidazothiazolotriazine-pyrrolidine-oxindole) verbatim present in paper 028 section 3.2; DOI 10.3390/ijms242216359 confirmed; measured."
+  },
+  {
+    "row_id": "357",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'Phenylhydrazine 243.6 201.2 ...' present in Dearden paper; 201.2 in MPBPVP column; data_type calculated; DOI 10.1897/01-363 confirmed."
+  },
+  {
+    "row_id": "255",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 Tm row values include 393.375 in Chloroquine STRM column; arithmetic 393.375 \u2212 273.15 = 120.225 \u00b0C correct; data_type calculated (STRM prediction); DOI 10.1016/j.cdc.2021.100820 confirmed."
+  },
+  {
+    "row_id": "409",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 7 row '[EMMIm][OArf] 144.0[129] 9.9 32.2 [a]' present; 144.0 in 'Exp. Tfus [\u00b0C]' column with citation [129]; data_type measured (literature experimental mp); DOI 10.1002/cphc.201100522 confirmed."
+  },
+  {
+    "row_id": "286",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 Tb row contains 687.396 in Fingolimod STRM column; arithmetic 687.396 \u2212 273.15 = 414.246 \u00b0C correct; data_type calculated (STRM prediction); DOI 10.1016/j.cdc.2021.100820 confirmed."
+  },
+  {
+    "row_id": "213",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row '1k C20H23ClN2S 358.9 Cl 4-C4H9 183-184 82' verbatim present in paper 050; 1k is 3-(4-Butylphenyl)-6-chloro-2,2-dimethyl-1,2-dihydroquinazoline-4(3H)-thione (X=Cl, R=4-Bu, series 1); DOI 10.3390/81100756 confirmed; measured."
+  },
+  {
+    "row_id": "309",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Table 8.8 Physical properties of chlorine dioxide ... Melting point of \u221259 \u00b0C Boiling point of 11 \u00b0C' verbatim present in paper 164; DOI 10.1016/B978-0-12-803409-5.00008-2 confirmed; measured."
+  },
+  {
+    "row_id": "13",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'purified by trituration with PE to give a brown solid (0.20 g, 95% yield). Mp 227\u2013229 \u00b0C.' for compound 18 ((E)-N-(Adamantan-1-yl)-5-(4-(pyridin-4-yl)phenyl)penta-2,4-dienamide) verbatim present in paper 010 section 3.1.7; DOI 10.3390/ijms27041716 confirmed; measured."
+  },
+  {
+    "row_id": "345",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Diethyl ether row 'Diethyl ether 34.5 47.0' present verbatim in Dearden Table; 47.0 is the MPBPVP (calculated) column."
+  },
+  {
+    "row_id": "323",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Acetic acid row '118.0 122.3' present verbatim in Dearden Table; 122.3 is the MPBPVP (calculated) bp column."
+  },
+  {
+    "row_id": "114",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper contains '6-(5-methyl-2-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5o ). Yield: 66%; Mp: 187 \u00b0C' matching the quote modulo whitespace/symbol differences."
+  },
+  {
+    "row_id": "121",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper has '...butyl derivatives (50.43, 59.02, 71.05 \u00b0C, respectively)'; 71.05 corresponds to butyl ester [Glu(OBu)][IBU]."
+  },
+  {
+    "row_id": "407",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Krossing Table 6 row '[N2,2,2,2][AlCl4] 239.0[132] 139.4' matches verbatim; Exp. Tfus column is measured (literature ref)."
+  },
+  {
+    "row_id": "101",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper contains '8-methoxy-6-(4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5b ). Yield: 47%; Mp: 130 \u00b0C' matching the quote."
+  },
+  {
+    "row_id": "134",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9 'Methyl 4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)-6\u2032-chlorobenzoate' yields 'White solid (150.5 mg, 86%). R f = 0.53 (CH 2 Cl 2 ), m.p. 165\u2013168 \u00b0C' verbatim."
+  },
+  {
+    "row_id": "210",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row '1h C 16 H 14 Cl 2 N 2 S 337.3 Cl 3-Cl 157-158 77' present verbatim; mp column = 157-158."
+  },
+  {
+    "row_id": "382",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Acetic acid row contains '16.6 221.3 35.3 20.7' verbatim; 16.6 is mp (exp.) column = measured."
+  },
+  {
+    "row_id": "214",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row '2a C 15 H 11 ClN 2 S 286.8 Cl H 153-154 69' present verbatim; mp = 153-154."
+  },
+  {
+    "row_id": "115",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper contains '6-(5-methoxy-2-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5p ). Yield: 49%; Mp: 170 \u00b0C' matching the quote."
+  },
+  {
+    "row_id": "68",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5d 4-[(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)-methyl]benzoic Acid has 'Yield = 52%; mp = 193\u2013195 \u00b0C (EtOH)' verbatim."
+  },
+  {
+    "row_id": "159",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 57 '2,6-Diamino-4-(2\u2032,4\u2032-dichloro)-1,6-dihydropyrimidine 1-oxide' has 'White solid (169.5 mg, 45%). R f = 0.28 (3:1 AcOEt: MeOH), m.p. 160 \u00b0C' verbatim."
+  },
+  {
+    "row_id": "276",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 Baricitinib STRM Tb = 794.469 K verbatim; column header confirms STRM calculated; 794.469-273.15 = 521.319 \u00b0C arithmetic correct."
+  },
+  {
+    "row_id": "305",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper has no DOI, but PMC ID found in directory name (PMC3716435) and citation has journal+year+vol+page. Per updated v1.1 protocol, this is acceptable."
+  },
+  {
+    "row_id": "288",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 Hydroxychloroquine STRM Tb = 681.390 K verbatim (third Tb value in second compound block); arithmetic 681.390-273.15 = 408.240 correct; calculated (STRM)."
+  },
+  {
+    "row_id": "327",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Acetonitrile row '81.7 71.8' present verbatim; 71.8 is MPBPVP (calculated) bp column."
+  },
+  {
+    "row_id": "417",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Krossing Table 7 row '[MMPyr][NTf2] 124.7[134\u2013136] 73.6' matches verbatim; Exp. Tfus column = measured (lit ref)."
+  },
+  {
+    "row_id": "47",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2r '5-Acetyl-4-(benzo [1,3]dioxol-5-ylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one' has 'Yield = 66%; mp = 189\u2013191 \u00b0C (EtOH)' verbatim."
+  },
+  {
+    "row_id": "77",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2u '5-Acetyl-4-(2-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one' has 'Yield = 43%; mp = 177\u2013178 \u00b0C (EtOH)' verbatim."
+  },
+  {
+    "row_id": "264",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 Fingolimod STRM Tm = 398.693 K verbatim; arithmetic 398.693-273.15 = 125.543 correct; calculated (STRM)."
+  },
+  {
+    "row_id": "131",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6 '2-(Pent-4-yn-1-yloxy)isoindoline-1,3-dione' has 'White solid (528 mg, 64%). R f = 0.5 (AcOEt), m.p. 80\u201382 \u00b0C' verbatim."
+  },
+  {
+    "row_id": "302",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper has no DOI, but PMC ID found in directory name (PMC3716435) and citation has journal+year+vol+page. Per updated v1.1 protocol, this is acceptable."
+  },
+  {
+    "row_id": "202",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11f long IUPAC name with 'Yield 239 mg (70%); white powder; mp: 239\u2013241 \u00b0C' verbatim in Section 3.4."
+  },
+  {
+    "row_id": "149",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 44 '2\u2032-Cyano-4\u2032-((((1\u2032-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-5-yl)ethylidene)amino)oxy)methyl)methyl benzoate' has 'Blue solid (45mg, 55.6%). R f = 0.10 (AcOEt), m.p. 115 \u00b0C' verbatim."
+  },
+  {
+    "row_id": "247",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4d quote 'mp: 240-42\u00b0C' present verbatim on p.564 of Molecules 2002 7 554-565; DOI 10.3390/70700554 confirmed in paper."
+  },
+  {
+    "row_id": "363",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'Styrene 145.2 146.7 ...' present in Dearden 2003; MPBPVP column = 146.7; calculated data_type matches; DOI 10.1897/01-363 confirmed."
+  },
+  {
+    "row_id": "130",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.2.2 compound 5 quote 'White solid (225 mg, 30%), R f = 0.28 (AcOEt), mp: 145\u2013148 \u00b0C' present verbatim in Molecules 2024 29 2942; DOI matches."
+  },
+  {
+    "row_id": "236",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6c quote '... 6c): Yield: 73 %; mp: 117-18\u00b0C' present verbatim on p.562; range parsed correctly to 117-118; DOI matches."
+  },
+  {
+    "row_id": "224",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3c quote 'mp: 218-20\u00b0C' present verbatim; range parsed correctly to 218-220; DOI 10.3390/70700554 confirmed."
+  },
+  {
+    "row_id": "123",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '[Glu(OBu)2][HCl], it is the opposite\u2014the hydrochloride has a melting point of about 64 \u00b0C' present in section 2.3 of Molecules 2023 28 7523; DOI matches."
+  },
+  {
+    "row_id": "374",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'Fluorobenzene 85.0 96.7' present in Dearden 2003; exp. column = 85.0 \u00b0C; measured data_type matches; DOI confirmed."
+  },
+  {
+    "row_id": "371",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'Pyrrole 129.8 126.3' present; MPBPVP column = 126.3; calculated data_type matches; DOI confirmed."
+  },
+  {
+    "row_id": "284",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 Tb row Favipiravir STRM column = 618.948 K present in Chemical Data Collections 2022 37 100820; 618.948 \u2212 273.15 = 345.798 \u00b0C arithmetic correct; calculated data_type matches; DOI confirmed."
+  },
+  {
+    "row_id": "153",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 48 quote 'brown solid (212.4 mg, 97%). R f = 0.05 (EtOAc/MeOH 3:1), m.p. 105\u2013107 \u00b0C' present in Section 3.2.5 of Molecules 2024 29 2942; DOI matches."
+  },
+  {
+    "row_id": "18",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 23 (2E,4E)-5-(3-(Cinnamyloxy)phenyl)-N-isobutylpenta-2,4-dienamide; quote 'Mp 131\u2013133 \u00b0C' present in IJMS 2026 27 1716 section 3.1.7; DOI 10.3390/ijms27041716 confirmed."
+  },
+  {
+    "row_id": "9",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 14 (2E,4E)-N-(Adamantan-1-yl)-5-(naphthalen-2-yl)penta-2,4-dienamide; quote 'Mp 84\u201388 \u00b0C' with 0.15 g, 97% yield present; DOI matches."
+  },
+  {
+    "row_id": "324",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'Acetone 56.3 44.8' present in Dearden 2003; exp. column = 56.3; measured data_type matches; DOI confirmed."
+  },
+  {
+    "row_id": "190",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6a quote 'Yield 41 mg (13%); white powder; mp: 255\u2013257 \u00b0C' present in IJMS 2023 24 16359 Section 3.3; DOI 10.3390/ijms242216359 confirmed."
+  },
+  {
+    "row_id": "308",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "BCDMH defined as 1-bromo-3-chloro-5,5-dimethylhydantoin earlier in the chapter; subject pronoun 'It' in 'It is a white crystalline compound ... having a melting point of 159\u2013163 \u00b0C' refers to BCDMH; DOI 10.1016/B978-0-12-803409-5.00008-2 confirmed."
+  },
+  {
+    "row_id": "238",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6e quote '6e): Yield: 81 %; mp: 200-01\u00b0C' present verbatim on p.563; range parsed to 200-201; DOI matches."
+  },
+  {
+    "row_id": "209",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 1f X=H R=4-iPr (= 4-isoC3H7) with mp 199-200 present in Molecules 2003 8 756-769; compound name matches 3-(4-Isopropylphenyl)-2,2-dimethyl-1,2-dihydroquinazoline-4(3H)-thione; DOI 10.3390/81100756 confirmed."
+  },
+  {
+    "row_id": "279",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 Tb row Camostat SIRM column = 771.300 K; 771.300 \u2212 273.15 = 498.150 \u00b0C arithmetic correct; calculated data_type matches; DOI confirmed."
+  },
+  {
+    "row_id": "422",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 7 row '[bItaz][NO3] 85.5[138] 80.1' present; second column (Calc. Tfus from Eq. (16)) = 80.1 \u00b0C; calculated data_type matches; DOI 10.1002/cphc.201100522 confirmed."
+  },
+  {
+    "row_id": "61",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4c quote '5-Acetyl-4-cyclopentylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4c Yield = 38%; mp = 97\u201399 \u00b0C (EtOH)' present in Molecules 2026 31 699 Section 3.1.5; DOI 10.3390/molecules31040699 confirmed."
+  },
+  {
+    "row_id": "136",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11 quote 'White solid (139.8 mg, 79%). R f = 0.12 (CH 2 Cl 2 ), m.p. 165\u2013168 \u00b0C' present in Section 3.2.2 of Molecules 2024 29 2942; DOI matches."
+  },
+  {
+    "row_id": "15",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 20 (2E,4E)-N-(Adamantan-1-yl)-5-(3-phenoxyphenyl)penta-2,4-dienamide; quote 'Mp 174\u2013178 \u00b0C' with 0.21 g, 76% yield present; DOI 10.3390/ijms27041716 confirmed."
+  },
+  {
+    "row_id": "360",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'Quinoline 237.7 240.2' present in Dearden 2003; exp. column = 237.7; measured data_type matches; DOI confirmed."
+  },
+  {
+    "row_id": "307",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper has no DOI, but PMC ID found in directory name (PMC3716435) and citation has journal+year+vol+page. Per updated v1.1 protocol, this is acceptable."
+  },
+  {
+    "row_id": "132",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 7 quote 'White solid (473 mg, 60%). R f = 0.45 (AcOEt), m.p. 104 \u00b0C' present in Section 3.2.2 of Molecules 2024 29 2942; DOI matches."
+  },
+  {
+    "row_id": "278",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5 Tb [K] row contains 757.482 under Camostat STRM; quote, conversion (757.482\u2212273.15=484.332), data_type=calculated all confirmed."
+  },
+  {
+    "row_id": "110",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 013 section 3.5 compound 5k: '6-((6-nitrobenzo[d][1,3]dioxol-5-yl)methyl)-6H-benzo[c]chromene (5k). Yield: 68%; Mp: 234 \u25e6C' verbatim in PDF; DOI matches."
+  },
+  {
+    "row_id": "227",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 138 compound 3f: 'Yield: 77 % (Method A), 75 % (Method B); mp: 237-39\u00b0C' verbatim; range 237-239 \u00b0C, measured."
+  },
+  {
+    "row_id": "139",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 020 Section 3.2.5 compound 34: 'Green solid (92.7 mg, 80%). Rf = 0.10 (AcOEt), m.p. 130 \u00b0C (dec.)' verbatim; mp=130 measured."
+  },
+  {
+    "row_id": "251",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5 Tm row literature column [47] for Baricitinib = 487.15 K; 487.15\u2212273.15=214.00 \u00b0C; measured (literature)."
+  },
+  {
+    "row_id": "421",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Krossing 2011 Table 7 row '[bItaz][NO3] 85.5[138] 80.1' under Exp. Tfus column; 85.5 \u00b0C measured; DOI 10.1002/cphc.201100522 confirmed."
+  },
+  {
+    "row_id": "230",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 138 compound 3i: 'Yield: 80 % (Method A), 71 % (Method B); mp: 233-35\u00b0C' verbatim; range 233-235 measured."
+  },
+  {
+    "row_id": "216",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 050 Table 1 row 2c contains '2c C15H10Cl2N2S 321.2 Cl 4-Cl 202-204 76' (NXML flattening); range 202-204 measured."
+  },
+  {
+    "row_id": "71",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 011 section 3.1.6 compound 5h: 'Yield = 42%; mp = 138\u2013140 \u25e6C (EtOH)' verbatim; range 138-140 measured."
+  },
+  {
+    "row_id": "322",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Dearden 2009 Table 2 row 'Acetic acid 118.0 122.3' under b.p. (exp.); 118.0 \u00b0C measured (compiled experimental)."
+  },
+  {
+    "row_id": "244",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 138 compound 4a: 'Yield: 69 % (Method A), 57 % (Method B); mp: 256-58\u00b0C' verbatim; range 256-258 measured."
+  },
+  {
+    "row_id": "253",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5 Tm row SIRM column for Camostat = 468.250 K; 468.250\u2212273.15=195.100 \u00b0C; calculated."
+  },
+  {
+    "row_id": "299",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 141: 'Edward Schunck [35] suggested that indigo, indirubin and dibromoindigo could be distinguished by an observation of their sublimation temperatures: 140, 170 and 190 \u00baC' verbatim; indigo=140 \u00b0C."
+  },
+  {
+    "row_id": "290",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5 second sub-table Tb row STRM col for Thalidomide = 648.734 K; 648.734\u2212273.15=375.584 \u00b0C; calculated."
+  },
+  {
+    "row_id": "280",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5 Tb row STRM column for Chloroquine = 688.550 K; 688.550\u2212273.15=415.400 \u00b0C; calculated."
+  },
+  {
+    "row_id": "427",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Schmittel 2014 (BJOC) compound 2c: 'white solid: mp = 116 \u00b0C, 83% yield (734 mg, 2.07 mmol)' verbatim; DOI 10.3762/bjoc.10.317 confirmed."
+  },
+  {
+    "row_id": "205",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 050 Table 1 row 1b: '1b C16H15ClN2S 302.8 H 4-Cl 238-241 82' (NXML flattening); range 238-241 measured."
+  },
+  {
+    "row_id": "87",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 013 section 3.2 compound 1e: '2\u2032-bromo-5-methoxy-[1,1\u2032-biphenyl]-2-carbaldehyde (1e). Yield: 68%; Mp: 92 \u25e6C' verbatim."
+  },
+  {
+    "row_id": "25",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 010 section 3.1.8 compound 32: 'Reaction time: 16 h. Purified by recrystallization from MeOH. White crystals. Yield: 94%. Mp 246 \u25e6C.' verbatim."
+  },
+  {
+    "row_id": "113",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 013 section 3.5 compound 5n: '6-(3-methyl-4-nitrobenzyl)-6H-benzo[c]chromene (5n). Yield: 69%; Mp: 77 \u25e6C' verbatim."
+  },
+  {
+    "row_id": "334",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Dearden 2009 Table 2 row 'Benzyl chloride 179.5 184.2' under b.p. (exp.); 179.5 \u00b0C measured."
+  },
+  {
+    "row_id": "6",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 010 compound 11: 'by trituration with Et2O affording a white solid (0.16 g, 79% yield). Mp 109\u2013112 \u25e6C.' verbatim; range 109-112 measured."
+  },
+  {
+    "row_id": "332",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Dearden 2009 Table 2 row 'Benzene 80.1 102.2' under b.p. (exp.); 80.1 \u00b0C measured."
+  },
+  {
+    "row_id": "73",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 011 section 3.1.6 compound 5k: 'Yield = 71%; mp = 133\u2013135 \u25e6C (EtOH)' verbatim; range 133-135 measured."
+  },
+  {
+    "row_id": "277",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5 Tb row SIRM column for Baricitinib = 760.077 K; 760.077\u2212273.15=486.927 \u00b0C; calculated."
+  }
+]

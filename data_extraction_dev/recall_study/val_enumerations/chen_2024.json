@@ -1,0 +1,238 @@
+{
+  "paper_id": "chen_2024",
+  "paper_source": "Liu Y, Li X, Xu Y, Xie Y, Hu T, Tao P. Carbon-Enhanced Hydrated Salt Phase Change Materials for Thermal Management Applications. Nanomaterials 2024, 14, 1077. https://doi.org/10.3390/nano14131077",
+  "items": [
+    {
+      "compound_name": "LiClO3·3H2O",
+      "property": "mp",
+      "value_raw": "8",
+      "evidence_quote": "LiClO3 ·3H2 O            8         253                                                      1.72       [39,40]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "KF·4H2O",
+      "property": "mp",
+      "value_raw": "19",
+      "evidence_quote": "KF·4H2 O              19         231                        1.84          1.45         [41]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Mn(NO3)2·6H2O",
+      "property": "mp",
+      "value_raw": "25.8",
+      "evidence_quote": "Mn(NO3 )2 ·6H2 O        25.8       125.9                                                      1.6         [42]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "CaCl2·6H2O",
+      "property": "mp",
+      "value_raw": "28",
+      "evidence_quote": "CaCl2 ·6H2 O            28         174         1.088          1.42           1.8      [1,39,40]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "LiNO3·3H2O",
+      "property": "mp",
+      "value_raw": "30",
+      "evidence_quote": "LiNO3 ·3H2 O            30         256                                                                   [43]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Na2SO4·10H2O",
+      "property": "mp",
+      "value_raw": "32.4",
+      "evidence_quote": "Na2 SO4 ·10H2 O         32.4        248          0.5                         1.49       [44,45]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Na2CO3·10H2O",
+      "property": "mp",
+      "value_raw": "33",
+      "evidence_quote": "Na2 CO3 ·10H2 O          33         247         0.45           1.88                     [42,46]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Na2HPO4·12H2O",
+      "property": "mp",
+      "value_raw": "35-44",
+      "evidence_quote": "Na2 HPO4 ·12H2 O        35–44       280         0.47            1.7",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Zn(NO3)2·6H2O",
+      "property": "mp",
+      "value_raw": "36",
+      "evidence_quote": "Zn(NO3 )2 ·6H2 O          36       149.6                       1.34          1.94         [42]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "FeCl3·6H2O",
+      "property": "mp",
+      "value_raw": "37",
+      "evidence_quote": "FeCl3 ·6H2 O            37        223                                                   [48]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "CoSO4·7H2O",
+      "property": "mp",
+      "value_raw": "40.7",
+      "evidence_quote": "CoSO4 ·7H2 O            40.7       170                                                 [40,49]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Fe(NO3)2·9H2O",
+      "property": "mp",
+      "value_raw": "47",
+      "evidence_quote": "Fe(NO3 )2 ·9H2 O          47        155                                                   [40]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Na2SiO3·4H2O",
+      "property": "mp",
+      "value_raw": "48",
+      "evidence_quote": "Na2 SiO3 ·4H2 O           48        168                                                   [40]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "K2HPO4·7H2O",
+      "property": "mp",
+      "value_raw": "48",
+      "evidence_quote": "K2 HPO4 ·7H2 O            48         99                                                   [40]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "MgSO4·7H2O",
+      "property": "mp",
+      "value_raw": "48.5",
+      "evidence_quote": "MgSO4 ·7H2 O            48.5       202                                                   [42]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Na2S2O3·5H2O",
+      "property": "mp",
+      "value_raw": "49",
+      "evidence_quote": "Na2 S2 O3 ·5H2 O          49        220          0.5                         1.75       [46,50]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Ni(NO3)2·6H2O",
+      "property": "mp",
+      "value_raw": "57",
+      "evidence_quote": "Ni(NO3 )2 ·6H2 O          57        169                                                   [42]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "CH3COONa·3H2O",
+      "property": "mp",
+      "value_raw": "58",
+      "evidence_quote": "CH3 COONa·3H2 O           58      226–264       1.97                         1.45         [51]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "MgCl2·4H2O",
+      "property": "mp",
+      "value_raw": "58",
+      "evidence_quote": "MgCl2 ·4H2 O             58        178                                                   [40]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "NaOH·H2O",
+      "property": "mp",
+      "value_raw": "64.3",
+      "evidence_quote": "NaOH·H2 O              64.3       273                                                   [40]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Na3PO4·12H2O",
+      "property": "mp",
+      "value_raw": "65-69",
+      "evidence_quote": "Na3 PO4 ·12H2 O         65–69       190                                                   [40]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Ba(OH)2·8H2O",
+      "property": "mp",
+      "value_raw": "78",
+      "evidence_quote": "Ba(OH)2 ·8H2 O            78        266         0.65                                      [52]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Na4P2O7·10H2O",
+      "property": "mp",
+      "value_raw": "79.5",
+      "evidence_quote": "Na4 P2 O7 ·10H2 O        79.5       184         1.82                                      [53]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Mg(NO3)·6H2O",
+      "property": "mp",
+      "value_raw": "89",
+      "evidence_quote": "Mg(NO3 )·6H2 O            89        162         1.81                         1.636        [42]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Al(NO3)2·8H2O",
+      "property": "mp",
+      "value_raw": "89.3",
+      "evidence_quote": "Al(NO3 )2 ·8H2 O         89.3       150                                                   [42]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Mg(NO3)·6H2O",
+      "property": "mp",
+      "value_raw": "89.9",
+      "evidence_quote": "Mg(NO3 )·6H2 O           89.9       163         1.81           0.669         1.636        [49]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "KAl(SO4)2·12H2O",
+      "property": "mp",
+      "value_raw": "91",
+      "evidence_quote": "KAl(SO4 )2 ·12H2 O        91        184                                                   [49]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "NH4Al(SO4)2·12H2O",
+      "property": "mp",
+      "value_raw": "95",
+      "evidence_quote": "NH4 Al(SO4 )2 ·12H2 O     95        269         1.71                         1.65         [42]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "MgCl2·6H2O",
+      "property": "mp",
+      "value_raw": "117",
+      "evidence_quote": "MgCl2 ·6H2 O            117        169         0.69                         1.56         [40]",
+      "evidence_location": "Table 1",
+      "location_type": "table"
+    }
+  ]
+}

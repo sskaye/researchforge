@@ -1,0 +1,4 @@
+"candidate_id","article_id","source_type","property_trigger","raw_value_text","unit_text","relation_hint","nearby_compound_handle","compound_handle_position","evidence_location"
+"141_PMC6236399_Tyrian_Purple_66-Dibromoindigo_and_Related_Compounds__c00000","141_PMC6236399_Tyrian_Purple_66-Dibromoindigo_and_Related_Compounds","paragraph","mp","109.5","°C","=","","-1","section: The precursors of the purple.; para#16"
+"141_PMC6236399_Tyrian_Purple_66-Dibromoindigo_and_Related_Compounds__c00001","141_PMC6236399_Tyrian_Purple_66-Dibromoindigo_and_Related_Compounds","paragraph","mp","117","°C","=","","-1","section: The precursors of the purple.; para#21"
+"141_PMC6236399_Tyrian_Purple_66-Dibromoindigo_and_Related_Compounds__c00002","141_PMC6236399_Tyrian_Purple_66-Dibromoindigo_and_Related_Compounds","paragraph","Mp","270","°C","=","","-1","section: The minor components in the purple; para#2"

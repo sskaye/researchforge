@@ -1,0 +1,246 @@
+{
+  "paper_id": "khalifa_2024",
+  "paper_source": "Khalifa et al., 2024 — Synthesis and Antibacterial Evaluation of Novel Thiopyrimidine-Benzenesulfonamide Compounds (Molecules 2024, 29, 4778)",
+  "items": [
+    {
+      "compound_name": "2-Mercapto-6-Oxo-4-Phenyl-1,6-Dihydropyrimidine-5-Carbonitrile (1a)",
+      "property": "mp",
+      "value_raw": "255 °C",
+      "evidence_quote": "White powder, 81%. mp 255 °C. 1H NMR (400 MHz, DMSO-d6) δ 7.54–7.60 (m, 2H), 7.62–7.71 (m, 3H), 13.20 (s, 1H), 13.34 (bs, 1H).",
+      "evidence_location": "Section 3.2 Synthesis of the Precursors, characterization of compound 1a",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "4-(4-Bromophenyl)-2-Mercapto-6-Oxo-1,6-Dihydropyrimidine-5-Carbonitrile (1b)",
+      "property": "mp",
+      "value_raw": "284 °C",
+      "evidence_quote": "White powder, 85%. mp 284 °C. 1H NMR (400 MHz, DMSO-d6) δ 7.63 (d, J = 8.6 Hz, 2H), 7.80 (d, J = 8.5 Hz, 2H), 13.18 (s, 1H), 13.35 (bs, 1H).",
+      "evidence_location": "Section 3.2 Synthesis of the Precursors, characterization of compound 1b",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "4-(4-Fluorophenyl)-2-Mercapto-6-Oxo-1,6-Dihydropyrimidine-5-Carbonitrile (1c)",
+      "property": "mp",
+      "value_raw": "270–272 °C",
+      "evidence_quote": "White powder, 84%. mp 270–272 °C, 1H NMR (400 MHz, DMSO-d6) δ 7.44 (t, J = 8.9 Hz, 2H), 7.76 (dd, J = 8.7, 5.4 Hz, 2H), 13.22 (s, 1H), 13.36 (bs, 1H).",
+      "evidence_location": "Section 3.2 Synthesis of the Precursors, characterization of compound 1c",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "4-(4-Chlorophenyl)-2-Mercapto-6-Oxo-1,6-Dihydropyrimidine-5-Carbonitrile (1d)",
+      "property": "mp",
+      "value_raw": "252 °C",
+      "evidence_quote": "White powder, 86%. mp 252 °C, 1H NMR (400 MHz, DMSO-d6) δ 7.64–7.73 (m, 4H), 13.22 (s, 1H), 13.38 (bs, 1H).",
+      "evidence_location": "Section 3.2 Synthesis of the Precursors, characterization of compound 1d",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "4-(3-Chlorophenyl)-2-Mercapto-6-Oxo-1,6-Dihydropyrimidine-5-Carbonitrile (1e)",
+      "property": "mp",
+      "value_raw": "229 °C",
+      "evidence_quote": "Yellow powder, 80%. mp 229 °C, 1HNMR (400 MHz, DMSO-d6) δ 7.62 (d, J = 7.7 Hz, 1H), 7.64–7.68 (m, 1H), 7.72 (dt, J = 7.7, 1.8 Hz, 1H), 7.78 (t, J = 1.9 Hz, 1H), 13.24 (s, 1H), 13.40 (bs, 1H).",
+      "evidence_location": "Section 3.2 Synthesis of the Precursors, characterization of compound 1e",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((5-Cyano-6-Oxo-4-Phenyl-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(N,N-Diethylsulfamoyl)Phenyl)Acetamide (M1)",
+      "property": "mp",
+      "value_raw": "207–210",
+      "evidence_quote": "White powder, mp 207–210, 601 mg, 93%. 1H NMR (400 MHz, DMSO-d6) δ 1.03 (t, J = 7.1 Hz, 6H), 3.15 (q, J = 7.1 Hz, 4H), 4.20 (s, 2H), 7.29 (t, J = 7.7 Hz, 2H), 7.50 (t, J = 7.5 Hz, 1H), 7.70–7.80 (m, 4H), 7.82 (d, J = 7.8 Hz, 2H), 10.78 (s, 1H).",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M1",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((5-Cyano-6-Oxo-4-Phenyl-1,6-Dihydropyrimidin-2-yl)Thio)-N-(4-(Piperidin-1-Ylsulfonyl)Phenyl)Acetamide (M2)",
+      "property": "mp",
+      "value_raw": "184–186",
+      "evidence_quote": "White powder, mp 184–186 629 mg, 95%. 1H NMR (400 MHz, DMSO-d6) δ 1.35 (p, 2H), 1.54 (t, J = 5.8 Hz, 4H), 2.86 (t, J = 5.5 Hz, 4H), 4.22 (s, 2H), 7.29 (t, J = 7.7 Hz, ...)",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M2",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((5-Cyano-6-Oxo-4-Phenyl-1,6-Dihydropyrimidin-2-yl)Thio)-N-(4-((4-Methylpiperazin-1-yl)Sulfonyl)Phenyl)Acetamide (M3)",
+      "property": "mp",
+      "value_raw": "213–215 °C",
+      "evidence_quote": "White powder, mp 213–215 °C, 641 mg, 94%, 1H NMR (400 MHz, DMSO) δ 2.67 (s, 3H), 3.16 (s, 8H), 4.10 (s, 2H), 7.37 (t, J = 7.8 Hz, 2H), 7.51 (t, J = 7.4 Hz, 1H), 7.73 (d, J = 8.8 Hz, 2H), 7.81 (d, J = 7.7 Hz, 2H), 7.85 (d, J = 8.4 Hz, 2H), 11.15 (s, 1H).",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M3",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((5-Cyano-6-Oxo-4-Phenyl-1,6-Dihydropyrimidin-2-yl)Thio)-N-(4-(Morpholinosulfonyl)Phenyl)Acetamide (M4)",
+      "property": "mp",
+      "value_raw": "205–208 °C",
+      "evidence_quote": "White powder, mp 205–208 °C, 598 mg, 90%, 1HNMR (400 MHz, DMSO-d6) δ 2.85 (t, J = 4.7, 4.1 Hz, 4H), 3.62 (t, J = 4.7 Hz, 4H), 3.88 (s, 2H), 7.39 (t, J = 7.3 Hz, 2H), 7.46 (t, J = 7.3 Hz, 1H), 7.67 (d, J = 8.8 Hz, 2H), 7.76 (d, J = 7.0 Hz, 2H), 7.82 (d, J = 8.8 Hz, 2H), 11.42 (s, 1H).",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M4",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((5-Cyano-6-Oxo-4-Phenyl-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Thiomorpholinosulfonyl)Phenyl)Acetamide (M5)",
+      "property": "mp",
+      "value_raw": "216–219 °C",
+      "evidence_quote": "White powder, mp 216–219 °C, 610, 89%. 1H NMR (400 MHz, DMSO-d6) δ 2.66 (t, J = 4.7 Hz, 4H), 3.19 (t, J = 4.7 Hz, 4H), 3.88 (s, 2H), 7.39 (t, J = 7.5 Hz, 2H), 7.46 (t, J = 7.3 Hz, 1H), 7.68 (d, J = 8.7 Hz, 2H), 7.75 (d, J = 7.5 Hz, 2H), 7.81 (d, J = 8.7 Hz, 2H), 11.38 (s, 1H).",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M5",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Bromophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)Thio)-N-(4-(N,N-Diethylsulfamoyl)Phenyl)Acetamide (M6)",
+      "property": "mp",
+      "value_raw": "242–245 °C",
+      "evidence_quote": "White powder, mp 242–245 °C, 696 mg, 93%. 1H NMR (400 MHz, DMSO-d6) δ ... J = 7.1 Hz, 6H), 3.15 (q, J = 7.1 Hz, 4H) ... experimental MS (ESI) m/z (%): 574.0240 [M − H].",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M6",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Bromophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Piperidin-1-Ylsulfonyl)Phenyl)Acetamide (M7)",
+      "property": "mp",
+      "value_raw": "257–260 °C",
+      "evidence_quote": "White powder, mp 257–260 °C, 734 mg, 96%. 1H NMR (400 MHz, DMSO-d6) ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M7",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Bromophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-((4-Methylpiperazin-1-yl)Sulfonyl)Phenyl)Acetamide (M8)",
+      "property": "mp",
+      "value_raw": "230–233 °C",
+      "evidence_quote": "White powder, mp 230–233 °C, 745 mg, 95%, 1H NMR (400 MHz, DMSO-d6) ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M8",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Bromophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Morpholinosulfonyl)Phenyl)Acetamide (M9)",
+      "property": "mp",
+      "value_raw": "218–222 °C",
+      "evidence_quote": "White powder, mp 218–222 °C, 698 mg, 91%, 1H NMR (400 MHz, DMSO-d6) ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M9",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Bromophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Thiomorpholinosulfonyl)Phenyl)Acetamide (M10)",
+      "property": "mp",
+      "value_raw": "224–226 °C",
+      "evidence_quote": "White powder, mp 224–226 °C, 693 mg, ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M10",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Fluorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(N,N-Diethylsulfamoyl)Phenyl)Acetamide (M11)",
+      "property": "mp",
+      "value_raw": "230–233 ºC",
+      "evidence_quote": "White powder, mp 230–233. ºC, 650 mg, 94%, 1H NMR (400 MHz, DMSO-d6) δ 1.02 (t, J = 7.1 Hz, 7H), 3.14 (q, J = 7.1 Hz, 4H), 4.18 (s, 2H), 7.32 (d, J = 8.5 Hz, 2H)...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M11",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Fluorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Piperidin-1-ylsulfonyl)Phenyl)Acetamide (M12)",
+      "property": "mp",
+      "value_raw": "238–240 °C",
+      "evidence_quote": "White powder, mp 238–240 °C, 671 mg, 95%. ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M12",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Fluorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-((4-Methylpiperazin-1-yl)Sulfonyl)Phenyl)Acetamide (M13)",
+      "property": "mp",
+      "value_raw": "225–227 °C",
+      "evidence_quote": "White powder, mp 225–227 °C, 657 mg, 93%, 1H NMR ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M13",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Fluorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Morpholinosulfonyl)Phenyl)Acetamide (M14)",
+      "property": "mp",
+      "value_raw": "198–200 °C",
+      "evidence_quote": "White powder, mp 198–200 °C, 646 mg, ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M14",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Fluorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Thiomorpholinosulfonyl)Phenyl)Acetamide (M15)",
+      "property": "mp",
+      "value_raw": "210–214 °C",
+      "evidence_quote": "White powder, mp 210–214 °C, 686 mg, 94%, 1H NMR (400 MHz, DMSO-d6) ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M15",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Chlorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(N,N-Diethylsulfamoyl)Phenyl)Acetamide (M16)",
+      "property": "mp",
+      "value_raw": "248–251 °C",
+      "evidence_quote": "White powder, mp 248–251 °C, 630 mg, 94%, 1H NMR ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M16",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Chlorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Piperidin-1-Ylsulfonyl)Phenyl)Acetamide (M17)",
+      "property": "mp",
+      "value_raw": "177–180 °C",
+      "evidence_quote": "White powder, mp 177–180 °C, 630 mg, 92%, 1H NMR ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M17",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Chlorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-((4-Methylpiperazin-1-yl)Sulfonyl)Phenyl)Acetamide (M18)",
+      "property": "mp",
+      "value_raw": "213–215 °C",
+      "evidence_quote": "White powder, mp 213–215 °C, 641 mg, ... 3.98 (s, 2H), ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M18",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Chlorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Morpholinosulfonyl)Phenyl)Acetamide (M19)",
+      "property": "mp",
+      "value_raw": "270–274 °C",
+      "evidence_quote": "White powder, mp 270–274 °C, 640 mg, ... (t, ...) ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M19",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(4-Chlorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Thiomorpholinosulfonyl)Phenyl)Acetamide (M20)",
+      "property": "mp",
+      "value_raw": "195–198 °C",
+      "evidence_quote": "White powder, mp 195–198 °C, 652 mg, 92%, 1H NMR (400 MHz, DMSO-d6) δ 2.65 (t, ...)",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M20",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(3-Chlorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(N,N-Diethylsulfamoyl)Phenyl)Acetamide (M21)",
+      "property": "mp",
+      "value_raw": "255–258 °C",
+      "evidence_quote": "White powder, mp 255–258 °C, 608 mg, 88%, 1H NMR (400 MHz, DMSO-d6) δ 1.02 (t, J = 7.1 Hz, 6H), 3.13 (q, J = 7.1 Hz, 4H), 4.20 (s, 2H), 7.36 (t, J = 7.9 Hz, 1H) ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M21",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(3-Chlorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Piperidin-1-ylsulfonyl)Phenyl)Acetamide (M22)",
+      "property": "mp",
+      "value_raw": "262–265 °C",
+      "evidence_quote": "White powder, mp 262–265 °C, 629 mg, 89%, 1H NMR (400 MHz, DMSO-d6) δ 1.35 (p, J = 5.5 Hz, 2H), 1.54 (p, 4H), 2.84 (t, J = 5.0 Hz, 4H), 4.21 (s, 2H), 7.38 (t, ...).",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M22",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(3-Chlorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-((4-Methylpiperazin-1-yl)Sulfonyl)Phenyl)Acetamide (M23)",
+      "property": "mp",
+      "value_raw": "242–245 °C",
+      "evidence_quote": "White powder, mp 242–245 °C, 617 mg, 85%, 1H NMR (400 MHz, DMSO-d6) δ 2.67 ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M23",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(3-Chlorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Morpholinosulfonyl)Phenyl)Acetamide (M24)",
+      "property": "mp",
+      "value_raw": "261–264 °C",
+      "evidence_quote": "White powder, mp 261–264 °C, 582 mg, ...",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M24",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-((4-(3-Chlorophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)thio)-N-(4-(Thiomorpholinosulfonyl)Phenyl)Acetamide (M25)",
+      "property": "mp",
+      "value_raw": "245–247 °C",
+      "evidence_quote": "White powder, mp 245–247 °C, 613 mg, ... 1H NMR (400 MHz, DMSO-d6) δ 2.67 (t, ...)",
+      "evidence_location": "Section 3.3 Synthesis of the Target Compounds, characterization of M25",
+      "location_type": "experimental_text"
+    }
+  ]
+}

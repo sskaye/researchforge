@@ -1,0 +1,192 @@
+{
+  "summary": {
+    "phase4_sampled_rows": 40,
+    "phase4_verified_extraction": 34,
+    "phase4_flagged_review_initial": 6,
+    "corrections_or_removals": 18,
+    "rows_final": 907,
+    "status_counts": {
+      "pending_verification": 861,
+      "verified_extraction": 34,
+      "audit_corrected": 12
+    },
+    "property_counts": {
+      "melting_point": 796,
+      "decomposition": 86,
+      "boiling_point": 10,
+      "DSC_peak": 9,
+      "sublimation": 1,
+      "DSC_onset": 5
+    }
+  },
+  "corrections": [
+    {
+      "old_id": "80",
+      "action": "corrected",
+      "field": "value_raw",
+      "reason": "flagged_value_mismatch",
+      "new_id": "80"
+    },
+    {
+      "old_id": "235",
+      "action": "corrected",
+      "field": "value range/raw/quote",
+      "reason": "flagged_value_mismatch",
+      "new_id": "235"
+    },
+    {
+      "old_id": "360",
+      "action": "corrected",
+      "field": "evidence_quote",
+      "reason": "flagged_evidence_quote_not_found",
+      "new_id": "360"
+    },
+    {
+      "old_id": "791",
+      "action": "corrected",
+      "field": "compound_name/evidence_quote",
+      "reason": "flagged_compound_name_truncated",
+      "new_id": "785"
+    },
+    {
+      "old_id": "913",
+      "action": "corrected",
+      "field": "source/source_url/value_raw",
+      "reason": "flagged_doi_unrelated_paper",
+      "new_id": "907"
+    },
+    {
+      "old_id": "234",
+      "action": "systematic_corrected",
+      "field": "value range/raw/quote",
+      "reason": "same-source range truncation",
+      "new_id": "234"
+    },
+    {
+      "old_id": "236",
+      "action": "systematic_corrected",
+      "field": "value range/raw/quote",
+      "reason": "same-source range truncation",
+      "new_id": "236"
+    },
+    {
+      "old_id": "237",
+      "action": "systematic_corrected",
+      "field": "value range/raw/quote",
+      "reason": "same-source range truncation",
+      "new_id": "237"
+    },
+    {
+      "old_id": "238",
+      "action": "systematic_corrected",
+      "field": "value range/raw/quote",
+      "reason": "same-source range truncation",
+      "new_id": "238"
+    },
+    {
+      "old_id": "239",
+      "action": "systematic_corrected",
+      "field": "value range/raw/quote",
+      "reason": "same-source range truncation",
+      "new_id": "239"
+    },
+    {
+      "old_id": "240",
+      "action": "systematic_corrected",
+      "field": "value range/raw/quote",
+      "reason": "same-source range truncation",
+      "new_id": "240"
+    },
+    {
+      "old_id": "241",
+      "action": "systematic_corrected",
+      "field": "value range/raw/quote",
+      "reason": "same-source range truncation",
+      "new_id": "241"
+    },
+    {
+      "old_id": "692",
+      "action": "removed_duplicate",
+      "kept": "collection_gap Diaba row",
+      "reason": "same paper/property/value with fuller compound code",
+      "new_id": ""
+    },
+    {
+      "old_id": "693",
+      "action": "removed_duplicate",
+      "kept": "collection_gap Diaba row",
+      "reason": "same paper/property/value with fuller compound code",
+      "new_id": ""
+    },
+    {
+      "old_id": "694",
+      "action": "removed_duplicate",
+      "kept": "collection_gap Diaba row",
+      "reason": "same paper/property/value with fuller compound code",
+      "new_id": ""
+    },
+    {
+      "old_id": "695",
+      "action": "removed_duplicate",
+      "kept": "collection_gap Diaba row",
+      "reason": "same paper/property/value with fuller compound code",
+      "new_id": ""
+    },
+    {
+      "old_id": "696",
+      "action": "removed_duplicate",
+      "kept": "collection_gap Diaba row",
+      "reason": "same paper/property/value with fuller compound code",
+      "new_id": ""
+    },
+    {
+      "old_id": "697",
+      "action": "removed_duplicate",
+      "kept": "collection_gap Diaba row",
+      "reason": "same paper/property/value with fuller compound code",
+      "new_id": ""
+    }
+  ],
+  "old_to_new_sample_ids": {
+    "80": "80",
+    "82": "82",
+    "86": "86",
+    "398": "398",
+    "816": "810",
+    "819": "813",
+    "818": "812",
+    "831": "825",
+    "846": "840",
+    "848": "842",
+    "849": "843",
+    "913": "907",
+    "844": "838",
+    "424": "424",
+    "608": "608",
+    "181": "181",
+    "600": "600",
+    "892": "886",
+    "903": "897",
+    "910": "904",
+    "692": "removed",
+    "883": "877",
+    "912": "906",
+    "881": "875",
+    "855": "849",
+    "901": "895",
+    "871": "865",
+    "618": "618",
+    "187": "187",
+    "809": "803",
+    "360": "360",
+    "742": "736",
+    "38": "38",
+    "791": "785",
+    "235": "235",
+    "156": "156",
+    "781": "775",
+    "814": "808",
+    "62": "62",
+    "644": "644"
+  }
+}

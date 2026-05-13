@@ -1,0 +1,17 @@
+[
+  {"row_id":"65","verdict":"flagged_review","reason":"flagged_doi_unrelated_paper","details":"paper_dir points to '2019_Johnson_Acid-catalyzed rearrangements in arenes- interconversions in the quaterphenyl series.pdf' (Skraba-Joiner, Holt, Johnson; quaterphenyl chemistry). CSV claims source is Rubtsov AE, J Org Chem 2019 about thieno[3,2-e]pyrrolo[1,2-a]pyrimidines. No occurrence of 'thieno', 'pyrrolo', 'pyrimidine', '246', or 'Rubtsov' in the PDF. Wrong/unrelated paper."},
+  {"row_id":"167","verdict":"verified_extraction","reason":"","details":"Quote '11hr as a yellow solid, mp 171' is a verbatim substring of '11hr as a yellow solid, mp 171 deg C-173 deg C'. Compound 11h(r); value 171-173, midpoint 172; measured."},
+  {"row_id":"420","verdict":"verified_extraction","reason":"","details":"Quote 'white powder; mp: >300 °C' appears in 5d entry (...indoline]-4'-carboxylate (5d). Yield 295 mg (81%); white powder; mp: >300 °C). Compound (5d); >300 °C; measured."},
+  {"row_id":"598","verdict":"verified_extraction","reason":"","details":"Quote 'Mp 52-54 °C' present in compound 8e entry. Midpoint 53; measured."},
+  {"row_id":"705","verdict":"verified_extraction","reason":"","details":"Quote with compound name, formula, MW and 'Melting point: 120 °C' all verbatim. Measured."},
+  {"row_id":"839","verdict":"verified_extraction","reason":"","details":"Quote 'colorless solid of m.p. 110 °C (dec.)' verbatim in compound 8 entry. Decomposition noted; measured."},
+  {"row_id":"991","verdict":"verified_extraction","reason":"","details":"Quote 'M.p. 153-154 o C' present in compound 7 entry (benzotriazocin-4-thione). Midpoint 153.5; measured."},
+  {"row_id":"1233","verdict":"verified_extraction","reason":"","details":"Quote 'The high boiling point of glycerol (about 290 °C)' verbatim. Generic literature reference but accurately captured; measured/approximate as marked."},
+  {"row_id":"1299","verdict":"verified_extraction","reason":"","details":"Quote '4-F 12 91 262 expl. 248 [ 28 ]' is a verbatim Table 2 row slice. Compound 4-F (4-fluoroiodylbenzene); 262 °C (expl.); measured."},
+  {"row_id":"1367","verdict":"verified_extraction","reason":"","details":"Quote 'Yellow solid (0.438 g, 93%), mp: 200-210 °C' verbatim in 5l entry; midpoint 205; measured."},
+  {"row_id":"1469","verdict":"verified_extraction","reason":"","details":"Quote 'scanning calorimetry (DSC, Figure S4): 147 °C' verbatim in PDF; refers to Tm of Ag(GN)2(BF4) (1) by DSC; measured."},
+  {"row_id":"1570","verdict":"verified_extraction","reason":"","details":"Quote with compound name and 'MW = 391.42 g mol-1; white solid; M. P. 118-121 °C' verbatim in 8i entry. Midpoint 119.5; measured."},
+  {"row_id":"1664","verdict":"verified_extraction","reason":"","details":"Quote '16 methylcyclopentane 71.812 68.68 3.14 69.84 1.98 75.98 -4.17' is a verbatim row of Table 12 ('Experimental and Calculated Bp of Cycloalkanes of the Training Set'). 71.812 is 'Obsd (oC)' experimental column = measured/compiled experimental, consistent with data_type=measured."},
+  {"row_id":"1688","verdict":"verified_extraction","reason":"","details":"Quote with 'trans -4e ... 183-4 1)' verbatim in Table 1. trans-4e -> 183-184 °C, midpoint 183.5; measured."},
+  {"row_id":"1824","verdict":"verified_extraction","reason":"","details":"Quote 'White powder, mp 261-264 °C, 582 mg, 82%' verbatim in M24 entry; midpoint 262.5; measured."}
+]

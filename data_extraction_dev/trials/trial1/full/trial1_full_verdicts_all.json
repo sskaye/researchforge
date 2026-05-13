@@ -1,0 +1,602 @@
+[
+  {
+    "row_id": "1214",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 163 (PMC6146543) DOI 10.3390/70100038 matches; quote 'Caledonixanthone G ( 8 ): Isolated as orange prisms (MeOH); melting point 201\u00b0C' verbatim in Spectral Data section; value 201\u00b0C correct; measured."
+  },
+  {
+    "row_id": "781",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 093 (PMC6146903) DOI 10.3390/80800622 matches; Table II row 19 has '19 >300\u00b0C AcOH 62' verbatim; compound 19 is the 4-phenyl-thiazoline sulphone; measured mp >300\u00b0C."
+  },
+  {
+    "row_id": "20",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 003 (PMC12943044) DOI 10.3390/ph19020230 matches; full compound name '2-(8-Hydroxy-7-(morpholinomethyl)quinolin-5-yl)-4-nitroisoindoline-1,3-dione ( 7c ) Brown powder (30 mg, 70% yield); m.p. 219\u2013222 \u00b0C' verbatim in Section 3; measured."
+  },
+  {
+    "row_id": "539",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 053 (PMC6147013) DOI 10.3390/80400363 matches; compound 10b experimental block has 'M.p. 244-246 o C; Calculated for C 18 H 14 BrN 7 O 2' verbatim; measured."
+  },
+  {
+    "row_id": "8",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 001 (PMC12938810) DOI 10.3390/antiox15020217 matches; AL8 synthesis section has full name and 'M.p.: 220\u2013221 \u00b0C' verbatim; measured."
+  },
+  {
+    "row_id": "893",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 102 (PMC6236359) DOI 10.3390/60400300 matches; compound 25 experimental has 'amorphous powder (CHCl 3 /MeOH, 20:1), m.p. 291\u00b0C' verbatim; measured."
+  },
+  {
+    "row_id": "1000",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 119 (PMC12943680) DOI 10.3390/molecules31040629 matches; FURL-G1 experimental section has '(FURL-G1). Yellow solid; yield 88.31%; mp: 91.1\u201393.2 \u00b0C' verbatim; measured."
+  },
+  {
+    "row_id": "1310",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 181 (PMC10806150) DOI 10.3389/fchem.2023.1303479 matches; compound 1a in Section 2.2.1 has 'White solid; mp: 119\u00b0C\u2013114\u00b0C' verbatim (range printed inverted in source as noted); midpoint value 116.5\u00b0C correct."
+  },
+  {
+    "row_id": "860",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 098 (PMC6146883) DOI 10.3390/80700541 matches; experimental section for compound 26 has 'Compound 26 was obtained as red crystals (60%), mp 254 \u00b0C' verbatim; measured."
+  },
+  {
+    "row_id": "873",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 099 (PMC6236343) DOI 10.3390/60300194 matches; anti-tosylate 10 has 'colourless needles (0.15 g, 20%) m.p. 105-105 \u00b0C' verbatim (note source-typo single-point range); measured value 105\u00b0C correct as-printed."
+  },
+  {
+    "row_id": "459",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 040 (PMC6146956) DOI 10.3390/80300342 matches; compound 5a experimental has '( 5a ). Yield: 2.2 g (46%); m.p.102-106 \u00b0C' verbatim; measured mp 102-106\u00b0C, midpoint 104."
+  },
+  {
+    "row_id": "555",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 054 (PMC6146489) DOI 10.3390/70700540 matches; Table 1 row '10b bright 79 223-224' verbatim, m.p. \u00b0C column gives 223-224; compound 10b is the 2-aryl-benzo[a]quinolizine."
+  },
+  {
+    "row_id": "382",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 035 (PMC6259131) DOI 10.3390/molecules15106759 matches; hydrazide 3 experimental has 'Colo[r]less crystals (0.32 g, 94%); mp 167\u2013168 \u00b0C, IR' verbatim (quote intentionally starts mid-word at 'rless'); measured."
+  },
+  {
+    "row_id": "764",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 092 (PMC6236407) DOI 10.3390/60900784 matches; Table 1 row '21 53 62-65 methanol' verbatim; compound 21 is the bromobutyl pyridazinedione per Table 1 caption; measured mp 62-65\u00b0C."
+  },
+  {
+    "row_id": "835",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 097 (PMC6146420) DOI 10.3390/70200124 matches; experimental for 1c has 'compounds 1c ( 69%, m.p. 109-110\u00b0C)' verbatim; measured."
+  },
+  {
+    "row_id": "128",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 013 (PMC12943095) DOI 10.3390/molecules31040706 matches; compound 1h experimental has full name and '( 1h ). Yield: 78%; Mp: 85 \u00b0C' verbatim; measured."
+  },
+  {
+    "row_id": "1227",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 165 (PMC6236387) Spectral Data has '2-Methoxyanthraquinone : mp 196\u00b0;' (extra space before colon in source); quote matches except for single-space punctuation artifact; value 196\u00b0C correct, measured."
+  },
+  {
+    "row_id": "50",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 006 (PMC13006720) DOI 10.1002/ardp.70227 matches; compound 10 experimental has full name and '( 10 ): Orange solid, mp 289\u00b0C\u2013293\u00b0C' verbatim; measured midpoint 291\u00b0C."
+  },
+  {
+    "row_id": "626",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 080 (PMC9903363) DOI 10.1021/acsaom.2c00067 matches; 'Synthesis of 3,6-Di- tert -butyldiphenyldibenzofulvene [ 3,6- dtb -DPBF(Me) 2 ]' subsection ends with 'mp >300 \u00b0C' verbatim; measured."
+  },
+  {
+    "row_id": "44",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Paper 005 (PMC12987641) DOI 10.1002/cmdc.202500751 matches; compound 11h in paper is '4\u2010(Diphenylphosphoryl)\u20106\u2010(3\u2010Nitrophenyl)\u20107H\u2010Indeno[2,1\u2010c]Quinolin\u20107\u2010One (11h)'. Row's compound_name 'H\u2010Indeno[2,1\u2010c]Quinolin\u20107\u2010One (11h)' is truncated \u2014 lost the '4-(Diphenylphosphoryl)-6-(3-Nitrophenyl)-' substituent prefix and the leading '7' of 7H. Quote 'mp 171\u00b0C\u2010173\u00b0C' verbatim."
+  },
+  {
+    "row_id": "241",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 021 (PMC10673159) DOI 10.3390/molecules28227590 matches; compound 10c experimental has full name and 'Yield: 26% as a yellow solid. mp 188 \u00b0C' verbatim; measured. CSV escape backslashes in compound_name are formatting only."
+  },
+  {
+    "row_id": "201",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 017 (PMC10673250) DOI 10.3390/molecules28227523 matches; Table 2 row '[Glu(OiPr) 2 ][HCl] 174.4 202.5 45.72 (11.887) \u221222.13' verbatim, T m column = 45.72\u00b0C; measured."
+  },
+  {
+    "row_id": "1206",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 157 (PMC3716435) PMC match; quote '1 \u00b70.9 NMP (clathrate C); 18.5 18.3 160 243 202 \u221242' verbatim in Table 3 (paper labels Table 3 not Table 1 as row claims \u2014 minor location label mismatch but data is correct: Host melting T m \u00b0C = 243 for compound 1 = dehydrocholic acid in NMP clathrate); measured."
+  },
+  {
+    "row_id": "271",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 027 (PMC9188358) DOI 10.1007/s42250-022-00374-9 matches; experimental has 'Quinolin-2-ol. White solid; mp 193-195 \u00b0C' verbatim; measured."
+  },
+  {
+    "row_id": "1221",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 164 (PMC7158184) PMC match; Dazomet section has 'It has a melting point of 104\u2013105 \u00b0C' (row quote has extra space '104\u2013 105' \u2014 one-space PDF whitespace artifact); compound and value 104-105\u00b0C correct, measured."
+  },
+  {
+    "row_id": "371",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 034 (PMC6259447) DOI 10.3390/molecules15129354 matches; quote 'tate ( 2 ): Yield 80%; Solid, m.p. 124-126 \u00b0C (eth' verbatim present in compound 2 section; compound, value, data_type all match."
+  },
+  {
+    "row_id": "1250",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 170 (PMC11843339) DOI matches; '2d: A white solid in 48% yield; Mp: 114\u2013120 \u00b0C' verbatim present; compound 2d matches; measured."
+  },
+  {
+    "row_id": "574",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 055 (PMC3685236) matches subdirectory; quote 'Melting point: 89 \u00b0C' verbatim present in 3-Hydroxy-2,2-dimethyl-3-phenylbutanoic acid characterization block."
+  },
+  {
+    "row_id": "478",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 045 (PMC6264237) DOI matches; verbatim quote present in compound 4c section; m.p. 165\u2013166 \u00b0C major diastereomer; measured."
+  },
+  {
+    "row_id": "965",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 114 (PMC13093879) DOI matches; quote '(12s) Brown solid; yield: 71%; MP = 226\u2013228 \u00b0C' verbatim present; compound 12s matches."
+  },
+  {
+    "row_id": "1228",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 165 (PMC6236387) matches; quote '2-Chloroanthraquinone: mp 209\u00b0;' verbatim present; degree symbol = \u00b0C as noted."
+  },
+  {
+    "row_id": "246",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 021 (PMC10673159) DOI 10.3390/molecules28227590 matches; quote verbatim present for compound 10h; mp 235 \u00b0C measured."
+  },
+  {
+    "row_id": "1295",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 176 (PMC11206253) DOI matches; quote 'yellow needle-like microcrystals (65% yield) with mp 142.7\u2013142.9 \u00b0C' verbatim present for compound 8d."
+  },
+  {
+    "row_id": "11",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 003 (PMC12943044) DOI matches; quote verbatim present; compound 2 m.p. 265\u2013268 \u00b0C measured."
+  },
+  {
+    "row_id": "257",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 023 (PMC9790764) DOI 10.1134/S107042802211001X matches; Table 1 row 4d '4d 5 540.82 6.35 127.1 76' verbatim present; mp 127.1 \u00b0C confirmed by experimental section."
+  },
+  {
+    "row_id": "697",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 087 (PMC6146877) DOI 10.3390/81200910 matches; paper has 'm.p. 242\u00b0C' for compound 9c. CSV evidence_quote uses '\u00ba' (U+00BA, masc ord) instead of '\u00b0' (U+00B0) \u2014 trivial character rendering difference; value, compound, data_type all correct."
+  },
+  {
+    "row_id": "668",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 086 (PMC6146888) DOI 10.3390/80100186 matches; quote 'm.p.117-118\u00b0C' verbatim present for compound 4b."
+  },
+  {
+    "row_id": "207",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 017 (PMC10673250) DOI matches; Table 2 row '[Glu(OBu)][IBU] 206.8 247.7 71.05 (1.983) \u221252.49' verbatim present; Tm column = 71.05 \u00b0C confirmed in main text."
+  },
+  {
+    "row_id": "941",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 113 (PMC13103808) DOI matches; quote '550 mg of 11 as a slightly orange solid (66%), mp 88\u201390 \u00b0C' verbatim present."
+  },
+  {
+    "row_id": "153",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 013 (PMC12943095) DOI matches; quote '6-(3-methyl-4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5n ). Yield: 69%; Mp: 77 \u00b0C' verbatim present."
+  },
+  {
+    "row_id": "1038",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "Paper 124 (PMC11844072) DOI matches and quote substring is present, BUT compound name in CSV is wrong isomer: CSV says 'Methyl 2-(4-((2-(2-(5,6-Dichloro...'  (4-position), while paper compound 10g (mp 189\u2013191) is actually 'Methyl-2-(3-((...' (3-position). The 4-position isomer with that scaffold is compound 10h (mp 195\u2013197). The mp 189-191 belongs to 10g (3-position)."
+  },
+  {
+    "row_id": "656",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 083 (PMC4058676) DOI 10.3390/ph4071032 matches; quote 'DMF; m.p. 241-242 \u00b0C' verbatim present for compound 14b."
+  },
+  {
+    "row_id": "1315",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 181 (PMC10806150) DOI matches; quote 'Yellow solid; mp: 145\u00b0C\u2013139\u00b0C' verbatim present for compound 1f; inverted range artifact of source paper as noted."
+  },
+  {
+    "row_id": "1182",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 148 (PMC10671727) PMC matches; quote about PCL low melting point of about 60 \u00b0C verbatim present in Section 4.1.2; review citing literature, approximate value, ~ relation."
+  },
+  {
+    "row_id": "1200",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 155 (PMC6259158) DOI 10.3390/molecules15106733 matches; quote 'Stigmasterol ( 6 ). White needles. m.p. 155-156 \u00b0C (Lit. 168-169 \u00b0C) [ 12 ].' verbatim present; this paper's measurement."
+  },
+  {
+    "row_id": "57",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Paper 008 (PMC12944436) DOI matches; quote verbatim present, mp 166\u2013168 \u00b0C correct, BUT compound name in CSV is truncated: paper full name is '4-((Cyclohexyl(methyl)amino)methyl)-N-(4-methyl-3-((4-(pyridin-3-yl)pyrimidin-2-yl)amino)phenyl)benzamide 6a', CSV stripped the leading '4-((Cyclohexyl(methyl)amino)methyl)-' substituent. Without this prefix the compound is unidentifiable / refers to a different molecule (imatinib analogue benzamide core only)."
+  },
+  {
+    "row_id": "849",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 098 (PMC6146883) DOI 10.3390/80700541 matches; quote 'Compound 12 was obtained as buff crystals (66%), mp 178\u00b0C' verbatim present."
+  },
+  {
+    "row_id": "328",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 031 (PMC6193241) DOI 10.1055/s-0036-1588731 matches; quote '3 g (94%); light-brown solid; mp 109\u2013111 \u00b0C (hex' is a verbatim substring of 'Yield: 1.33 g (94%); light-brown solid; mp 109\u2013111 \u00b0C (hexane)' for compound 7a; compound name matches."
+  },
+  {
+    "row_id": "1236",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 169 (PMC11843341) DOI matches; paper has '( 5d ) Yellow solid (0.391 g, 90%), mp: 178\u2013180 \u00b0C' (title boundary, no period). CSV quote uses '(5d). Yellow solid' \u2014 period reflects NXML section-break rendering. Value, compound 5d, data_type all match."
+  },
+  {
+    "row_id": "304",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 029 (PMC9486790) DOI 10.1007/s11164-022-04839-x matches; quote 'the intermediate 3 was given. Mp. 145\u2013146 \u00b0C, whi' verbatim present; compound '1-Methyl-3-(trifluoromethyl)-1H-pyrazole-4-carbohydrazide (3)' confirmed in paper."
+  },
+  {
+    "row_id": "220",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper 020 (PMC11206691); compound 13 matches; value 156.5 = midpoint of 155-158; DOI matches."
+  },
+  {
+    "row_id": "1325",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'mp = 115.7-116.4 \u00b0C (lit. = 116-117 \u00b0C)' verbatim in paper 182 for compound 12 (4,5-Dichloroquinoline); value 116.05 = midpoint; DOI matches."
+  },
+  {
+    "row_id": "889",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper 102 for compound 17a; value 186 matches; DOI matches."
+  },
+  {
+    "row_id": "845",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper 098 for compound 2; mp 157 \u00b0C matches; DOI matches."
+  },
+  {
+    "row_id": "703",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'm.p.186\u00b0C' verbatim in paper 087 for compound 16b; DOI 10.3390/81200910 matches."
+  },
+  {
+    "row_id": "376",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'tate ( 6 ): Yield 90%; Solid, m.p. 152-154 \u00b0C (eth' (truncated context) verbatim in paper 034; value 153 = midpoint; DOI matches."
+  },
+  {
+    "row_id": "316",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Mp.111-112 \u00b0C' verbatim in paper 029 for compound 5k; value 111.5 = midpoint; DOI matches."
+  },
+  {
+    "row_id": "1199",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Mesuasinone ( 2 ). Yellow solid. m.p. 118-119 \u00b0C.' verbatim in paper 155; value 118.5 = midpoint; DOI matches."
+  },
+  {
+    "row_id": "127",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Yield: 68%; Mp: 92 \u00b0C' verbatim in paper 013 for compound 1e; DOI matches."
+  },
+  {
+    "row_id": "1099",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'filtered and dried in vacuo at 50\u00b0C. Mp >300\u00b0C' verbatim in paper 136 for disodium salt; PMC6236352 matches."
+  },
+  {
+    "row_id": "526",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'm p 124-126 \u00b0C' verbatim in paper 051 for compound 18; value 125 = midpoint; DOI matches."
+  },
+  {
+    "row_id": "43",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Paper 005 has full name '6-(3-Fluorophenyl)-7H-Indeno[2,1-c]Quinolin-7-One (11g)'; CSV compound_name is truncated to 'H-Indeno[2,1-c]Quinolin-7-One (11g)' losing the 6-(3-Fluorophenyl)-7 prefix. Quote and value 271.5 are correct."
+  },
+  {
+    "row_id": "885",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'yellow needles (CHCl 3 -MeOH 50:1), m.p. 292\u00b0C' verbatim in paper 102 for compound 10; DOI matches."
+  },
+  {
+    "row_id": "997",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Compound 5a-I (0.03 g, 2%, mp 260 \u00b0C)' verbatim in paper 118; DOI matches."
+  },
+  {
+    "row_id": "1215",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper 164 (BCDMH textbook chapter, PMC7158184); value 161 = midpoint of 159-163; PMC identifier matches."
+  },
+  {
+    "row_id": "1144",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'H 8 86 236 expl. 235 expl. [ 23 ]' verbatim in paper 139 Table 2 row R=H; iodylbenzene; value 236 is the decomposition/explosion temperature, data_type measured."
+  },
+  {
+    "row_id": "954",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '(12h) Cream solid; yield: 68%; MP = 212-214 \u00b0C' verbatim in paper 114; value 213 = midpoint; DOI matches."
+  },
+  {
+    "row_id": "63",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Paper 008 full name is '4-((Methyl((1R,2R,4R)-1,7,7-trimethylbicyclo[2.2.1]heptan-2-yl)amino)methyl)-N-(4-methyl-3-((4-(pyridin-3-yl)pyrimidin-2-yl)amino)phenyl)benzamide 6g'; CSV compound name drops the entire 4-((Methyl(camphor-amino)methyl)- substituent, describing a different (simpler) compound. Quote, value 94.5, DOI all correct."
+  },
+  {
+    "row_id": "819",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'orange solid, m.p. 109-110\u00b0C (lit.[9] m.p. 112\u00b0C)' verbatim in paper 096 for compound 3; value 109.5 = midpoint; DOI matches."
+  },
+  {
+    "row_id": "47",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Paper 005 full name '6-(Pyridin-2-Yl)-7H-Indeno[2,1-c]Quinolin-7-One (11l)'; CSV name truncated to 'H-Indeno[2,1-c]Quinolin-7-One (11l)' losing 6-(Pyridin-2-Yl)-7 prefix. Quote and value 269.5 are correct."
+  },
+  {
+    "row_id": "859",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Compound 21 was obtained as dark yellow crystals (45%), mp 194\u00b0C' verbatim in paper 098; DOI matches."
+  },
+  {
+    "row_id": "1171",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '2m p -CH 3 C 6 H 4 CH 3 CH 2 O 2 CH 2 - 53 84' verbatim in paper 143 Table 1; mp 84 \u00b0C measured; PMC6147071 matches."
+  },
+  {
+    "row_id": "1261",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'mp 211.4-229.1 \u00b0C (CHCl3)' verbatim in paper 171 for compound 4ba; value 220.2 ~= midpoint (220.25); wide range as printed; DOI matches."
+  },
+  {
+    "row_id": "410",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'solid; yield: 0.074 g (47%); mp 188 \u00b0\u0421. IR' verbatim in paper 036 for compound 6b; DOI matches. Note: paper uses Cyrillic \u0421 (looks like Latin C) but quote uses same character."
+  },
+  {
+    "row_id": "461",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'm.p.>300\u00b0C' verbatim in paper 040 for compound 6a; relation '>' correctly captured; DOI matches."
+  },
+  {
+    "row_id": "1282",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote present verbatim in article_layout.txt for compound 14b; measured mp 252-254 \u00b0C \u2192 253.0 \u00b0C midpoint correct; identifier (DOI 10.3390/ijms25126803) confirmed."
+  },
+  {
+    "row_id": "932",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Recovered 3\u03b2-methoxy-cholest-5-ene (2) (15.8 mg), m.p. 81-83 C' verbatim present; measured mp 81-83 \u00b0C \u2192 82.0 \u00b0C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "1016",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present in experimental section for compound 9b; measured mp > 300 \u00b0C with relation '>' correct; DOI matches."
+  },
+  {
+    "row_id": "940",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 8b; measured mp 90-92 \u00b0C \u2192 91.0 \u00b0C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "490",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 5; measured mp 72-73 \u00b0C \u2192 72.5 \u00b0C midpoint correct (degree symbol present without C); DOI matches."
+  },
+  {
+    "row_id": "123",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 4a (uses non-breaking hyphens consistent with the source); measured mp 166-168 \u00b0C \u2192 167.0 \u00b0C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "445",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 9c; measured mp 75-77 \u00b0C \u2192 76.0 \u00b0C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "1301",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 8j; measured mp 155-156 \u00b0C \u2192 155.5 \u00b0C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "377",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 7; measured mp 173-174 \u00b0C \u2192 173.5 \u00b0C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "850",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 15; measured mp >300 \u00b0C with relation '>' correct; DOI matches."
+  },
+  {
+    "row_id": "1225",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Anthraquinone: mp 284\u00b0;' verbatim present; measured mp 284 \u00b0C correct; PMC ID PMC6236387 matches directory."
+  },
+  {
+    "row_id": "180",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 22; measured mp 247-248 \u00b0C \u2192 247.5 \u00b0C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "904",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 11; measured mp 201 \u00b0C correct (paper uses ' o C' for degree); DOI matches."
+  },
+  {
+    "row_id": "644",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 6a; measured mp 151-152 \u00b0C \u2192 151.5 \u00b0C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "704",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote contains '\u00baC' with U+00BA masculine ordinal indicator; the paper has 'm.p.138\u00b0C' with U+00B0 degree sign. Not verbatim under NFC normalization. Value 138 \u00b0C and compound 17a are otherwise correct."
+  },
+  {
+    "row_id": "917",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 6; measured mp 206-208 \u00b0C \u2192 207.0 \u00b0C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "581",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present; 'Chloroquine estimated T m ... 385.54 K' is the calculated value; conversion 385.54 - 273.15 = 112.39 \u00b0C correct; data_type 'calculated' (SIRM model) consistent with paper wording 'estimated'."
+  },
+  {
+    "row_id": "519",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 2f quote verbatim present; series 2 = 2-methyl-quinazoline-4(3H)-thiones; X=Cl, R=4-isoC3H7 = 4-isopropylphenyl matches compound name; mp 135-136 \u00b0C \u2192 135.5 \u00b0C midpoint correct."
+  },
+  {
+    "row_id": "589",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present; 543.15 K is the reported experimental T_m by Vu et al. [57] (not the paper's estimate); data_type 'measured' correct; conversion 543.15 - 273.15 = 270.00 \u00b0C correct."
+  },
+  {
+    "row_id": "839",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for phosphonium salt 2a; measured mp 191-192 \u00b0C \u2192 191.5 \u00b0C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "469",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 6; measured mp 156-158 \u00b0C \u2192 157.0 \u00b0C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "1067",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 7; measured mp 305-306 \u00b0C \u2192 305.5 \u00b0C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "470",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 7; measured mp 280-282 \u00b0C \u2192 281.0 \u00b0C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "513",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 1k quote verbatim present; series 1 = 2,2-dimethyl-1,2-dihydroquinazoline-4(3H)-thiones; X=Cl, R=4-C4H9 = 4-butylphenyl matches compound name; mp 183-184 \u00b0C \u2192 183.5 \u00b0C midpoint correct."
+  },
+  {
+    "row_id": "64",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 6h; measured mp 111-114 \u00b0C \u2192 112.5 \u00b0C midpoint correct; DOI matches."
+  }
+]

@@ -1,0 +1,598 @@
+{
+  "paper_id": "020",
+  "paper_source": "PMC11206691 — N-Hydroxypiridinedione: A Privileged Heterocycle for Targeting the HBV RNase H",
+  "items": [
+    {
+      "compound_name": "5-Acetyl-1-(benzyloxy)-6-hydroxy-4-methylpyridin-2(1H)-one (A)",
+      "property": "melting_point",
+      "value_raw": "144-146 °C",
+      "evidence_quote": "to afford the title compound A as a beige crystalline solid (4.95 g, 75%); mp 144–146 °C (MeOH, AcOEt/ n -pentane)",
+      "evidence_location": "Section 3.2.1 Synthesis of 5-Acetyl-1,6-dihydroxy-4-methylpyridin-2(1H)-one (B), compound A characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "5-Acetyl-1,6-dihydroxy-4-methylpyridin-2(1H)-one (B)",
+      "property": "melting_point",
+      "value_raw": "178-179 °C",
+      "evidence_quote": "to yield the N -hydroxypyridinedione B almost quantitatively (1.32 g, 98%); m.p. 178–179 °C (MeOH/ n -pentane, dry Et 2 O)",
+      "evidence_location": "Section 3.2.1, compound B characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2-(4-(Methylthio)benzyl-oxy)isoindolin-1,3-dione (1)",
+      "property": "melting_point",
+      "value_raw": "147 °C",
+      "evidence_quote": "White solid (697.7 mg, 95%). R f = 0.54 (CH 2 Cl 2 ), m.p. 147 °C",
+      "evidence_location": "Section 3.2 compound 1 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl 4-[1-(1,3-dioxoisoindole-2-yl-oxy)ethyl] benzoate (2)",
+      "property": "melting_point",
+      "value_raw": "170-171 °C",
+      "evidence_quote": "White solid (136.7 mg, 74%). R f = 0.35 (CH 2 Cl 2 ), m.p. 170–171 °C",
+      "evidence_location": "Section 3.2 compound 2 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2-(3-Methoxybenzyloxy)isoindolin-1,3-dione (3)",
+      "property": "melting_point",
+      "value_raw": "120-121 °C",
+      "evidence_quote": "White foamy solid (214.6 mg, 62%). R f = 0.5 (AcOEt), m.p. 120–121 °C",
+      "evidence_location": "Section 3.2 compound 3 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl 3,5-dichloro-4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)benzoate (4)",
+      "property": "melting_point",
+      "value_raw": "145-147 °C",
+      "evidence_quote": "Pink solid (226.9 mg, 89%). R f = 0.67 (CH 2 Cl 2 ), m.p. 145–147 °C",
+      "evidence_location": "Section 3.2 compound 4 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2-((4-Hydroxybenzyl)oxy)isoindoline-1,3-dione (5)",
+      "property": "melting_point",
+      "value_raw": "145-148 °C",
+      "evidence_quote": "White solid (225 mg, 30%), R f = 0.28 (AcOEt), mp: 145–148 °C",
+      "evidence_location": "Section 3.2 compound 5 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2-(Pent-4-yn-1-yloxy)isoindoline-1,3-dione (6)",
+      "property": "melting_point",
+      "value_raw": "80-82 °C",
+      "evidence_quote": "White solid (528 mg, 64%). R f = 0.5 (AcOEt), m.p. 80–82 °C",
+      "evidence_location": "Section 3.2 compound 6 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2-(But-3-yn-1-yloxy)isoindoline-1,3-dione (7)",
+      "property": "melting_point",
+      "value_raw": "104 °C",
+      "evidence_quote": "White solid (473 mg, 60%). R f = 0.45 (AcOEt), m.p. 104 °C",
+      "evidence_location": "Section 3.2 compound 7 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2-(Prop-2-yn-1-yloxy)isoindoline-1,3-dione (8)",
+      "property": "melting_point",
+      "value_raw": "149-150 °C",
+      "evidence_quote": "White solid (389.1 mg, 53%). R f = 0.33 (AcOEt), m.p. 149–150 °C",
+      "evidence_location": "Section 3.2 compound 8 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl 4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)-6'-chlorobenzoate (9)",
+      "property": "melting_point",
+      "value_raw": "165-168 °C",
+      "evidence_quote": "White solid (150.5 mg, 86%). R f = 0.53 (CH 2 Cl 2 ), m.p. 165–168 °C",
+      "evidence_location": "Section 3.2 compound 9 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl 4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)-6'-cyanobenzoate (10)",
+      "property": "melting_point",
+      "value_raw": "165-168 °C",
+      "evidence_quote": "White solid (102.7 mg, 89.5%). R f = 0.53 (CH 2 Cl 2 ), m.p. 165–168 °C",
+      "evidence_location": "Section 3.2 compound 10 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl 4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)-3-fluorobenzoate (11)",
+      "property": "melting_point",
+      "value_raw": "165-168 °C",
+      "evidence_quote": "White solid (139.8 mg, 79%). R f = 0.12 (CH 2 Cl 2 ), m.p. 165–168 °C",
+      "evidence_location": "Section 3.2 compound 11 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl 4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)benzoate (13)",
+      "property": "melting_point",
+      "value_raw": "155-158 °C",
+      "evidence_quote": "Pink solid (758.3 mg, 99%). R f = 0.53 (CH 2 Cl 2 ), m.p. 155–158 °C",
+      "evidence_location": "Section 3.2 compound 13 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "O-(4-(Methylthio)benzyl)hydroxylamine (15)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "according to the general procedure, to afford an off-yellow oil (154.8 mg, 97%)",
+      "evidence_location": "Section 3.2.3 Synthesis of O-Substituted Hydroxylamines 15-28, compound 15",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "Methyl 4-(1-(aminooxy)ethyl)benzoate (16)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "according to the general procedure. Off-yellow oil (66.7 mg, 88%)",
+      "evidence_location": "Section 3.2.3 compound 16",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "O-(3-Methoxybenzyl)hydroxylamine (17)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "according to the general procedure. Off-yellow oil (96.4 mg, 89%)",
+      "evidence_location": "Section 3.2.3 compound 17",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "Methyl 4-((aminooxy)methyl)-3,5-dichlorobenzoate (18)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "according to the general procedure (18 h), to afford an off-yellow oil (46.8 mg, 36%)",
+      "evidence_location": "Section 3.2.3 compound 18",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "4-((Aminooxy)methyl)phenol (19)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "according to the general procedure. ... off-yellow oil (99.2 mg, 99%)",
+      "evidence_location": "Section 3.2.3 compound 19",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "O-(Pent-4-yn-1-yl)hydroxylamine (20)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "The filtrate was evaporated without vacuum to afford a volatile colorless oil (40 mg, 62%)",
+      "evidence_location": "Section 3.2.3 compound 20",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "O-(But-3-yn-1-yl)hydroxylamine (21)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "according to the procedure used for the compound 20 to afford a volatile off-yellow oil (62.3 mg, 79%)",
+      "evidence_location": "Section 3.2.3 compound 21",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "O-(Prop-2-yn-1-yl)hydroxylamine (22)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "according to the procedure used for the compound 20 to afford a volatile colorless oil (26.6 mg, 40%)",
+      "evidence_location": "Section 3.2.3 compound 22",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "Methyl 4-((aminooxy)methyl)-2-chlorobenzoate (23)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "the filtrate was evaporated to afford an off-yellow oil (60 mg, 96.5%)",
+      "evidence_location": "Section 3.2.3 compound 23",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "Methyl 4-((aminooxy)methyl)-2-cyanobenzoate (24)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "the filtrate was evaporated to afford an off-yellow oil (49.4 mg, 80%)",
+      "evidence_location": "Section 3.2.3 compound 24",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "Methyl 4-((aminooxy)methyl)-3-fluorobenzoate (25)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "the filtrate was evaporated to afford an off-yellow oil (60 mg, 99%)",
+      "evidence_location": "Section 3.2.3 compound 25",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "Methyl 4-((aminooxy)methyl)benzoate (27)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "according to the general procedure, to afford an off-yellow oil (89.1 mg, 61.23%)",
+      "evidence_location": "Section 3.2.3 compound 27",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "O-(4-Nitrobenzyl)hydroxylamine (28)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "according to the general procedure (3 h). Orange oil (110.0 mg, 98%)",
+      "evidence_location": "Section 3.2.3 compound 28",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "2-Bromo-1-(3,5-difluorophenyl)ethenone (i)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "to afford 14.5 g of a pale yellow oil. 1 H NMR analysis showed the presence of a small quantity of the starting material",
+      "evidence_location": "Section 3.2.4 Synthesis of O-Substituted Hydroxylamines 29-31, intermediate i",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "tert-Butyl (2-(3,5-difluorophenyl)-2-hydroxyethyl)carbamate (iv)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "to afford 4.52 g of the desired product as a pale yellow oil which was sufficiently pure by NMR analysis",
+      "evidence_location": "Section 3.2.4 intermediate iv",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "tert-Butyl (2-(3,5-difluorophenyl)-2-((1,3-dioxoisoindolin-2-yl)oxy)ethyl)carbamate (v)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "to provide the desired compound as a colorless oil (6.92 g, 94%)",
+      "evidence_location": "Section 3.2.4 intermediate v",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "N-(2-(Aminooxy)-2-(3,5-difluorophenyl)ethyl)furan-2-carboxamide (29)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "to afford the title compound as a pale yellow oil (0.27 g, 92% over two steps)",
+      "evidence_location": "Section 3.2.4 compound 29",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "N-(2-(Aminooxy)-2-(3,5-difluorophenyl)ethyl)quinoline-2-carboxamide (30)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "to afford the title compound as a pale yellow oil (0.288 g, 85%)",
+      "evidence_location": "Section 3.2.4 compound 30",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "N-(2-(Aminooxy)-2-(3,5-difluorophenyl)ethyl)thiazole-2-carboxamide (31)",
+      "property": "melting_point",
+      "value_raw": "oil",
+      "evidence_quote": "to afford the title compound as a pale yellow oil (55 mg, 67%)",
+      "evidence_location": "Section 3.2.4 compound 31",
+      "location_type": "prose_mention"
+    },
+    {
+      "compound_name": "1,6-Dihydroxy-4-methyl-5-(1-(((4-(methylthio)benzyl)oxy)imino)ethyl)pyridin-2(1H)-one (33)",
+      "property": "melting_point",
+      "value_raw": "110-115 °C (dec.)",
+      "evidence_quote": "Green solid (100.7 mg, 61%). R f = 0.25 (AcOEt), m.p. 110–115 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 33 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1,6-Dihydroxy-4-methyl-5-(1-(((4-(methylthio)benzyl)oxy)imino)ethyl)pyridin-2(1H)-one (33)",
+      "property": "decomposition",
+      "value_raw": "110-115 °C (dec.)",
+      "evidence_quote": "Green solid (100.7 mg, 61%). R f = 0.25 (AcOEt), m.p. 110–115 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 33 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl-4-(1-(((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)ethyl)benzoate (34)",
+      "property": "melting_point",
+      "value_raw": "130 °C (dec.)",
+      "evidence_quote": "Green solid (92.7 mg, 80%). R f = 0.10 (AcOEt), m.p. 130 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 34 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl-4-(1-(((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)ethyl)benzoate (34)",
+      "property": "decomposition",
+      "value_raw": "130 °C (dec.)",
+      "evidence_quote": "Green solid (92.7 mg, 80%). R f = 0.10 (AcOEt), m.p. 130 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 34 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1,6-Dihydroxy-5-(1-(((3-methoxybenzyl)oxy)imino)ethyl)-4-methylpyridin-2(1H)-one (35)",
+      "property": "melting_point",
+      "value_raw": "120-122 °C (dec.)",
+      "evidence_quote": "Green solid (96.9 mg, 54%). R f = 0.20 (AcOEt), m.p. 120–122 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 35 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1,6-Dihydroxy-5-(1-(((3-methoxybenzyl)oxy)imino)ethyl)-4-methylpyridin-2(1H)-one (35)",
+      "property": "decomposition",
+      "value_raw": "120-122 °C (dec.)",
+      "evidence_quote": "Green solid (96.9 mg, 54%). R f = 0.20 (AcOEt), m.p. 120–122 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 35 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl 3,5-dichloro-4-((((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)methyl)benzoate (36)",
+      "property": "melting_point",
+      "value_raw": "117-119 °C (dec.)",
+      "evidence_quote": "Yellow solid (62.5 mg, 89%). R f = 0.09 (EtOAc/MeOH 3:1), m.p. 117–119 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 36 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl 3,5-dichloro-4-((((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)methyl)benzoate (36)",
+      "property": "decomposition",
+      "value_raw": "117-119 °C (dec.)",
+      "evidence_quote": "Yellow solid (62.5 mg, 89%). R f = 0.09 (EtOAc/MeOH 3:1), m.p. 117–119 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 36 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "N-(2-(3,5-Difluorophenyl)-2-(((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)ethyl)furan-2-carboxamide (37)",
+      "property": "melting_point",
+      "value_raw": "118-120 °C (dec.)",
+      "evidence_quote": "Blue solid (19 mg, 44%). R f = 0.25 (AcOEt), m.p. 118–120 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 37 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "N-(2-(3,5-Difluorophenyl)-2-(((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)ethyl)furan-2-carboxamide (37)",
+      "property": "decomposition",
+      "value_raw": "118-120 °C (dec.)",
+      "evidence_quote": "Blue solid (19 mg, 44%). R f = 0.25 (AcOEt), m.p. 118–120 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 37 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "5-(1-(((3,5-Difluorophenyl)(pyridin-2-yl)methoxy)imino)ethyl)-1,6-dihydroxy-4-methylpyridin-2(1H)-one (38)",
+      "property": "melting_point",
+      "value_raw": "102-104 °C (dec.)",
+      "evidence_quote": "Green solid (46 mg, 44%). R f = 0.25 (AcOEt), m.p. 102–104 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 38 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "5-(1-(((3,5-Difluorophenyl)(pyridin-2-yl)methoxy)imino)ethyl)-1,6-dihydroxy-4-methylpyridin-2(1H)-one (38)",
+      "property": "decomposition",
+      "value_raw": "102-104 °C (dec.)",
+      "evidence_quote": "Green solid (46 mg, 44%). R f = 0.25 (AcOEt), m.p. 102–104 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 38 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1,6-Dihydroxy-5-(1-(((4-hydroxybenzyl)oxy)imino)ethyl)-4-methylpyridin-2(1H)-one (39)",
+      "property": "melting_point",
+      "value_raw": "98-100 °C (dec.)",
+      "evidence_quote": "Hydroscopic red solid (119.9 mg, 97%). R f = 0.25 (AcOEt), m.p. 98–100 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 39 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1,6-Dihydroxy-5-(1-(((4-hydroxybenzyl)oxy)imino)ethyl)-4-methylpyridin-2(1H)-one (39)",
+      "property": "decomposition",
+      "value_raw": "98-100 °C (dec.)",
+      "evidence_quote": "Hydroscopic red solid (119.9 mg, 97%). R f = 0.25 (AcOEt), m.p. 98–100 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 39 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1,6-Dihydroxy-4-methyl-5-(1-((pent-4-yn-1-yloxy)imino)ethyl)pyridin-2(1H)-one (40)",
+      "property": "melting_point",
+      "value_raw": "93-95 °C (dec.)",
+      "evidence_quote": "Green solid (21.2 mg, 28%). R f = 0.30 (1:1 AcOEt:MeOH), mp: 93–95 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 40 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1,6-Dihydroxy-4-methyl-5-(1-((pent-4-yn-1-yloxy)imino)ethyl)pyridin-2(1H)-one (40)",
+      "property": "decomposition",
+      "value_raw": "93-95 °C (dec.)",
+      "evidence_quote": "Green solid (21.2 mg, 28%). R f = 0.30 (1:1 AcOEt:MeOH), mp: 93–95 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 40 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "5-(1-((But-3-yn-1-yloxy)imino)ethyl)-1,6-dihydroxy-4-methylpyridin-2(1H)-one (41)",
+      "property": "melting_point",
+      "value_raw": "86-89 °C (dec.)",
+      "evidence_quote": "Green solid (27 mg, 24%). R f = 0.30 (1:1 AcOEt:MeOH), m.p. 86–89 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 41 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "5-(1-((But-3-yn-1-yloxy)imino)ethyl)-1,6-dihydroxy-4-methylpyridin-2(1H)-one (41)",
+      "property": "decomposition",
+      "value_raw": "86-89 °C (dec.)",
+      "evidence_quote": "Green solid (27 mg, 24%). R f = 0.30 (1:1 AcOEt:MeOH), m.p. 86–89 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 41 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1,6-Dihydroxy-4-methyl-5-(1-((prop-2-yn-1-yloxy)imino)ethyl)pyridin-2(1H)-one (42)",
+      "property": "melting_point",
+      "value_raw": "78-80 °C (dec.)",
+      "evidence_quote": "Green solid (32.3 mg, 54%). R f = 0.30 (1:1 AcOEt:MeOH), m.p. 78–80 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 42 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1,6-Dihydroxy-4-methyl-5-(1-((prop-2-yn-1-yloxy)imino)ethyl)pyridin-2(1H)-one (42)",
+      "property": "decomposition",
+      "value_raw": "78-80 °C (dec.)",
+      "evidence_quote": "Green solid (32.3 mg, 54%). R f = 0.30 (1:1 AcOEt:MeOH), m.p. 78–80 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 42 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2'-Chloro-4'-((((1'-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-5-yl)ethylidene)amino)oxy)methyl)methyl benzoate (43)",
+      "property": "melting_point",
+      "value_raw": "155 °C (dec.)",
+      "evidence_quote": "Green solid (86.4mg, 50.8%). R f = 0.10 (AcOEt), m.p. 155 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 43 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2'-Chloro-4'-((((1'-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-5-yl)ethylidene)amino)oxy)methyl)methyl benzoate (43)",
+      "property": "decomposition",
+      "value_raw": "155 °C (dec.)",
+      "evidence_quote": "Green solid (86.4mg, 50.8%). R f = 0.10 (AcOEt), m.p. 155 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 43 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2'-Cyano-4'-((((1'-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-5-yl)ethylidene)amino)oxy)methyl)methyl benzoate (44)",
+      "property": "melting_point",
+      "value_raw": "115 °C",
+      "evidence_quote": "Blue solid (45mg, 55.6%). R f = 0.10 (AcOEt), m.p. 115 °C",
+      "evidence_location": "Section 3.2 compound 44 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl 4-((((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)methyl)-3-fluorobenzoate (45)",
+      "property": "melting_point",
+      "value_raw": "130 °C (dec.)",
+      "evidence_quote": "Green solid (131.3 mg, 46%). R f = 0.05 (AcOEt), m.p. 130 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 45 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl 4-((((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)methyl)-3-fluorobenzoate (45)",
+      "property": "decomposition",
+      "value_raw": "130 °C (dec.)",
+      "evidence_quote": "Green solid (131.3 mg, 46%). R f = 0.05 (AcOEt), m.p. 130 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 45 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1,6-Dihydroxy-4-methyl-5-(1-((1-phenylethoxy)imino)ethyl)pyridin-2(1H)-one (46)",
+      "property": "melting_point",
+      "value_raw": "130-132 °C",
+      "evidence_quote": "Beige solid (135.0 mg, 67%). R f = 0.08 (EtOAc/MeOH 3:1), m.p. 130–132 °C",
+      "evidence_location": "Section 3.2 compound 46 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "4'-((((1'-(1,2-Dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-5-yl)ethylidene)amino)oxy)methyl)methyl benzoate (47)",
+      "property": "melting_point",
+      "value_raw": "120 °C (dec.)",
+      "evidence_quote": "Green solid (86.4 mg, 50.8%). R f = 0.10 (AcOEt), m.p. 120 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 47 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "4'-((((1'-(1,2-Dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-5-yl)ethylidene)amino)oxy)methyl)methyl benzoate (47)",
+      "property": "decomposition",
+      "value_raw": "120 °C (dec.)",
+      "evidence_quote": "Green solid (86.4 mg, 50.8%). R f = 0.10 (AcOEt), m.p. 120 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 47 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1,6-Dihydroxy-4-methyl-5-(1-(((4-nitrobenzyl)oxy)imino)ethyl)pyridin-2(1H)-one (48)",
+      "property": "melting_point",
+      "value_raw": "105-107 °C",
+      "evidence_quote": "the title compound as a brown solid (212.4 mg, 97%). R f = 0.05 (EtOAc/MeOH 3:1), m.p. 105–107 °C",
+      "evidence_location": "Section 3.2 compound 48 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "N-(2-(3,5-Difluorophenyl)-2-(((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)ethyl)quinoline-2-carboxamide (49)",
+      "property": "melting_point",
+      "value_raw": "108-110 °C (dec.)",
+      "evidence_quote": "Beige solid (36.4 mg, 41%). R f = 0.11 (EtOAc/MeOH 3:1), m.p. 108–110 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 49 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "N-(2-(3,5-Difluorophenyl)-2-(((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)ethyl)quinoline-2-carboxamide (49)",
+      "property": "decomposition",
+      "value_raw": "108-110 °C (dec.)",
+      "evidence_quote": "Beige solid (36.4 mg, 41%). R f = 0.11 (EtOAc/MeOH 3:1), m.p. 108–110 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 49 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "N-(2-(3,5-Difluorophenyl)-2-(((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)ethyl)thiazole-2-carboxamide (50)",
+      "property": "melting_point",
+      "value_raw": "117-119 °C (dec.)",
+      "evidence_quote": "Green solid (69.3 mg, 34%). R f = 0.11 (EtOAc/MeOH 3:1), m.p. 117–119 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 50 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "N-(2-(3,5-Difluorophenyl)-2-(((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)ethyl)thiazole-2-carboxamide (50)",
+      "property": "decomposition",
+      "value_raw": "117-119 °C (dec.)",
+      "evidence_quote": "Green solid (69.3 mg, 34%). R f = 0.11 (EtOAc/MeOH 3:1), m.p. 117–119 °C (dec.)",
+      "evidence_location": "Section 3.2 compound 50 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "6-((4-Methoxybenzyl)oxy)pyrimidine-2,4-diamine (54)",
+      "property": "melting_point",
+      "value_raw": "> 250 °C",
+      "evidence_quote": "White solid (435.4 mg, 85%). R f = 0.32 (EtOAc), m.p. > 250 °C",
+      "evidence_location": "Section 3.2 compound 54 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2,6-Diamino-4-(3-methoxyphenoxy)-1,6-dihydropyrimidine 1-oxide (55)",
+      "property": "melting_point",
+      "value_raw": "> 250 °C (dec.)",
+      "evidence_quote": "White solid (217.6 mg, 41%). R f = 0.27 (3:1 AcOEt: MeOH), m.p. > 250 °C (dec.: 200 °C)",
+      "evidence_location": "Section 3.2 compound 55 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2,6-Diamino-4-(3-methoxyphenoxy)-1,6-dihydropyrimidine 1-oxide (55)",
+      "property": "decomposition",
+      "value_raw": "200 °C",
+      "evidence_quote": "m.p. > 250 °C (dec.: 200 °C)",
+      "evidence_location": "Section 3.2 compound 55 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2,6-Diamino-4-(2',4',5'-trichloro)-1,6-dihydropyrimidine 1-oxide (56)",
+      "property": "melting_point",
+      "value_raw": "135 °C",
+      "evidence_quote": "White solid (120.6 mg, 41%). R f = 0.25 (3:1 AcOEt: MeOH), m.p. 135 °C",
+      "evidence_location": "Section 3.2 compound 56 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2,6-Diamino-4-(2',4'-dichloro)-1,6-dihydropyrimidine 1-oxide (57)",
+      "property": "melting_point",
+      "value_raw": "160 °C",
+      "evidence_quote": "White solid (169.5 mg, 45%). R f = 0.28 (3:1 AcOEt: MeOH), m.p. 160 °C",
+      "evidence_location": "Section 3.2 compound 57 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "2,6-Diamino-4-((4-methoxybenzyl)oxy)pyrimidine 1-oxide (58)",
+      "property": "melting_point",
+      "value_raw": "> 250 °C",
+      "evidence_quote": "White solid (17.8 mg, 6%). R f = 0.25 (EtOAc/MeOH 3:1), m.p. > 250 °C",
+      "evidence_location": "Section 3.2 compound 58 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl 4'-((((1-(2,4,6-Trioxohexahydropyrimidin-5-yl)ethylidene)amino)oxy)methyl)benzoate (59)",
+      "property": "melting_point",
+      "value_raw": "> 250 °C",
+      "evidence_quote": "Beige-brown solid (195 mg, 94.8%). R f = 0.20 (AcOEt), m.p. > 250 °C",
+      "evidence_location": "Section 3.2 compound 59 characterization",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "Methyl 2'-chloro-4'-((((1-(2,4,6-trioxohexahydropyrimidin-5-yl)ethylidene)amino)oxy)methyl)benzoate (60)",
+      "property": "melting_point",
+      "value_raw": "> 250 °C",
+      "evidence_quote": "Beige-brown solid (195 mg, 85.3%). R f = 0.20 (AcOEt), m.p. > 250 °C",
+      "evidence_location": "Section 3.2 compound 60 characterization",
+      "location_type": "main_text"
+    }
+  ]
+}

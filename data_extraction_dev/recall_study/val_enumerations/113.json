@@ -1,0 +1,110 @@
+{
+  "paper_id": "113",
+  "paper_source": "PMC13103808 - Comparative Antinociceptive Evaluation of Hofmeisterin I and Analogues from Hofmeisteria schaffneri in Zebrafish and Mice",
+  "items": [
+    {
+      "compound_name": "1-(2-(Benzyloxy)-4-methylphenyl)ethan-1-one (5)",
+      "property": "mp",
+      "value_raw": "55-56 °C",
+      "evidence_quote": "white crystals (89%) of 5, mp 55-56 °C",
+      "evidence_location": "Section 2.3.1 Synthesis of 1-(2-(Benzyloxy)-4-methylphenyl)ethan-1-one (5)",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "1-(2-(Benzyloxy)-5-bromo-4-methylphenyl)ethan-1-one (6a)",
+      "property": "mp",
+      "value_raw": "72-73 °C",
+      "evidence_quote": "crystals (98%) of 6a, mp 72-73 °C",
+      "evidence_location": "Section 2.3.2 Synthesis of 1-(2-(Benzyloxy)-5-bromo-4-methylphenyl)ethan-1-one (6a)",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "1-(2-(Benzyloxy)-5-chloro-4-methylphenyl)ethan-1-one (6b)",
+      "property": "mp",
+      "value_raw": "76-78 °C",
+      "evidence_quote": "white crystals of 6b (84%), mp 76-78 °C",
+      "evidence_location": "Section 2.3.3 Synthesis of 1-(2-(Benzyloxy)-5-chloro-4-methylphenyl)ethan-1-one (6b)",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "1-(2-(Benzyloxy)-5-bromo-4-methylphenyl)-2-bromoethan-1-one (7a)",
+      "property": "mp",
+      "value_raw": "76-78 °C",
+      "evidence_quote": "crystals of 7a (82%), mp 76-78 °C",
+      "evidence_location": "Section 2.3.4 Synthesis of 1-(2-(Benzyloxy)-5-bromo-4-methylphenyl)-2-bromoethan-1-one (7a)",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "1-(2-(Benzyloxy)-5-chloro-4-methylphenyl)-2-bromoethan-1-one (7b)",
+      "property": "mp",
+      "value_raw": "80-82 °C",
+      "evidence_quote": "1.6 g of white crystals of 7b (89%), mp 80-82 °C",
+      "evidence_location": "Section 2.3.5 Synthesis of 1-(2-(Benzyloxy)-5-chloro-4-methylphenyl)-2-bromoethan-1-one (7b)",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "2-(2-(Benzyloxy)-5-bromo-4-methylphenyl)-2-oxoethyl acetate (8a)",
+      "property": "mp",
+      "value_raw": "86-88 °C",
+      "evidence_quote": "yellow crystals of 8a (78%), mp 86-88 °C",
+      "evidence_location": "Section 2.3.6 Synthesis of 2-(2-(Benzyloxy)-5-bromo-4-methylphenyl)-2-oxoethyl acetate (8a)",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "2-(2-(Benzyloxy)-5-chloro-4-methylphenyl)-2-oxoethyl acetate (8b)",
+      "property": "mp",
+      "value_raw": "90-92 °C",
+      "evidence_quote": "yellow crystals of 8b (63%), mp 90-92 °C",
+      "evidence_location": "Section 2.3.7 Synthesis of 2-(2-(Benzyloxy)-5-chloro-4-methylphenyl)-2-oxoethyl acetate (8b)",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "1-(2-(2-(Benzyloxy)-5-bromo-4-methylphenyl)-2-oxoethyl)pyrrolidine-2,5-dione (11)",
+      "property": "mp",
+      "value_raw": "88-90 °C",
+      "evidence_quote": "550 mg of 11 as a slightly orange solid (66%), mp 88-90 °C",
+      "evidence_location": "Section 2.3.8 Synthesis of 1-(2-(2-(Benzyloxy)-5-bromo-4-methylphenyl)-2-oxoethyl)pyrrolidine-2,5-dione (11)",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "2-(5-Bromo-2-hydroxy-4-methylphenyl)-2-oxoethyl acetate (9a)",
+      "property": "mp",
+      "value_raw": "86-87 °C",
+      "evidence_quote": "1.9 g of 9a as a white crystalline solid (98%), mp 86-87 °C",
+      "evidence_location": "Section 2.3.9 Synthesis of 2-(5-Bromo-2-hydroxy-4-methylphenyl)-2-oxoethyl acetate (9a)",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "2-(5-Chloro-2-hydroxy-4-methylphenyl)-2-oxoethyl acetate (9b)",
+      "property": "mp",
+      "value_raw": "88-89 °C",
+      "evidence_quote": "0.520 g of 9b as a white crystalline solid. (86%), mp 88-89 °C",
+      "evidence_location": "Section 2.3.10 Synthesis of 2-(5-Chloro-2-hydroxy-4-methylphenyl)-2-oxoethyl acetate (9b)",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "1-(2-(5-Bromo-2-hydroxy-4-methylphenyl)-2-oxoethyl)pyrrolidine-2,5-dione (12)",
+      "property": "mp",
+      "value_raw": "87-88 °C",
+      "evidence_quote": "afford 220 mg of 12 (80%), mp 87-88 °C",
+      "evidence_location": "Section 2.3.11 Synthesis of 1-(2-(5-Bromo-2-hydroxy-4-methylphenyl)-2-oxoethyl)pyrrolidine-2,5-dione (12)",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "Hofmeisterin (1)",
+      "property": "mp",
+      "value_raw": "86-87 °C",
+      "evidence_quote": "800 mg of 1 as white crystals (61%), mp 86-87 °C",
+      "evidence_location": "Section 2.3.12 Synthesis of Hofmeisterin (1)",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "2-(2-Acetoxy-4-methylphenyl)-2-oxoethyl acetate (10)",
+      "property": "mp",
+      "value_raw": "46-48 °C",
+      "evidence_quote": "50 mg of 11 as a white solid (99%), mp 46-48 °C",
+      "evidence_location": "Section 2.3.13 Synthesis of 2-(2-Acetoxy-4-methylphenyl)-2-oxoethyl acetate (10)",
+      "location_type": "experimental_section"
+    }
+  ]
+}

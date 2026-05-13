@@ -1,0 +1,204 @@
+{
+  "skill_name": "redox-extraction",
+  "evals": [
+    {
+      "id": 1,
+      "name": "scripts-clean-baseline",
+      "prompt": "Run all the sanity-check scripts in this skill on the file evals/files/clean_baseline.csv. The CSV has 5 evidence-locked rows that should pass every check. Report which checks were run and their results. Do not modify the file.",
+      "expected_output": "All scripts pass with zero flagged rows. The flags.csv produced by run_all_checks.py is empty (header only).",
+      "files": ["evals/files/clean_baseline.csv"],
+      "expectations": [
+        "run_all_checks.py was executed on the clean_baseline.csv file",
+        "Output reports zero rows flagged",
+        "flags.csv contains only the header row",
+        "Output explicitly mentions which checks were run (smiles, voltage_range, conversion_arithmetic, cross_source, plus the in-process checks)"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "scripts-detect-seeded-errors",
+      "prompt": "Run the sanity-check scripts in this skill on evals/files/seeded_errors.csv with --check-dois enabled. The file has 7 rows; rows 1-2 are clean baselines and rows 3-7 each contain a deliberate seeded error of a different type. Identify which rows are flagged and what the issue is for each.",
+      "expected_output": "The scripts flag rows 3-7 and correctly identify the error type for each. Rows 1-2 are NOT flagged.",
+      "files": ["evals/files/seeded_errors.csv"],
+      "expectations": [
+        "run_all_checks.py was executed with --check-dois flag",
+        "Row 3 is flagged for a DOI title mismatch (srep39102 is unrelated to redox chemistry)",
+        "Row 4 is flagged for a conversion-arithmetic error indicating the +0.30 V offset doesn't match any known reference (real Ag/AgCl 3M KCl is +0.21)",
+        "Row 5 is flagged for an invalid SMILES (chemically impossible 4 carbonyls on aromatic ring)",
+        "Row 6 is flagged for a placeholder citation ('Author et al.')",
+        "Row 7 is flagged for reference-electrode/electrolyte inconsistency (Hg/HgO with acidic electrolyte)",
+        "Rows 1 and 2 are NOT flagged",
+        "Output names the script that caught each error"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "find-open-access-known-OA",
+      "prompt": "Use the find_open_access.py script in this skill to find an open-access copy of the paper with DOI 10.1038/srep39101 (Wedege et al. 2016, Scientific Reports). Report all candidate URLs returned.",
+      "expected_output": "At least 2 open-access URLs returned. Includes a URL pointing to nature.com, europepmc.org, pmc.ncbi.nlm.nih.gov, or core.ac.uk.",
+      "files": [],
+      "expectations": [
+        "find_open_access.py was executed",
+        "At least 2 candidate URLs were returned",
+        "At least one URL points to a recognized OA host (nature.com, europepmc, pmc.ncbi, openalex, core.ac.uk)",
+        "Output is concise (under 500 words)"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "extract-from-Wedege-2016-with-provenance",
+      "prompt": "Extract experimental redox-potential data for the four 9,10-anthraquinone-disulfonate isomers (AQDS(2,7), AQDS(1,5), AQDS(1,8), and AQS(2)) from Wedege et al., Sci. Rep. 6, 39101 (2016). Use the extraction protocol in this skill: fetch the paper, record evidence_location and evidence_quote per row, show conversion arithmetic if any, and run the sanity scripts on your output before returning.\n\nReturn a CSV with the standard schema: id, verification_status, molecule, voltage_v_she, voltage_raw, reference_electrode, solvent, ph, n_electrons, data_type, value_directness, source, source_url, evidence_location, evidence_quote, conversion_arithmetic, notes.",
+      "expected_output": "A CSV with at least 9 rows (4 compounds at multiple pH values). All rows have non-empty evidence_location and evidence_quote. Source URL is the Wedege 2016 DOI. Sanity scripts return zero flags on the output.",
+      "files": [],
+      "expectations": [
+        "Output is a CSV with the standard schema (id, verification_status, molecule, ..., conversion_arithmetic, notes)",
+        "At least 9 data rows are returned",
+        "Every row has non-empty evidence_location",
+        "Every row has non-empty evidence_quote",
+        "source_url contains the Wedege 2016 DOI 10.1038/srep39101",
+        "data_type is 'experimental' for all rows",
+        "verification_status is 'pending_verification' or similar (rows haven't gone through Phase 4 yet)",
+        "value_directness is 'direct' for all rows",
+        "Running run_all_checks.py on the output produces zero flags from required_fields, smiles, conversion_arithmetic, placeholder, reference_consistency checks",
+        "The agent ran the sanity scripts as part of its work, not just produced the CSV"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "verify-row-on-self-contained-fixture",
+      "prompt": "Use the verify_row.py script to verify row #1 in evals/files/verify_row_target.csv. Report the programmatic-check verdict.",
+      "expected_output": "verify_row.py reports PASS for the programmatic checks: DOI resolves on CrossRef, title contains chemistry keywords, no SMILES issues. Output also notes the limitation that evidence_quote verification requires a separate PDF fetch.",
+      "files": ["evals/files/verify_row_target.csv"],
+      "expectations": [
+        "verify_row.py was executed on the fixture",
+        "DOI 10.1002/aenm.201501449 was resolved via CrossRef",
+        "CrossRef title is reported (something about viologen/TEMPO redox flow batteries)",
+        "Verdict is PASS for the programmatic checks",
+        "Output notes that evidence_quote verification requires a separate PDF fetch"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "cross-source-disagreement-detection",
+      "prompt": "Run the cross_source_consistency.py script (or run_all_checks.py) on evals/files/cross_source_mismatch.csv with tolerance 0.05 V. The file has three rows for the same molecule (AQDS at pH 0). Two rows agree within 3 mV; the third deviates by ~190 mV. Report what the script flags.",
+      "expected_output": "The script flags row 3 (deviating from the other two). The output names the molecule (AQDS) and shows the spread.",
+      "files": ["evals/files/cross_source_mismatch.csv"],
+      "expectations": [
+        "cross_source_consistency.py (or run_all_checks.py with --skip-cross NOT set) was executed",
+        "Row 3 is flagged for deviating from the group consensus",
+        "Output mentions AQDS as the molecule with the disagreement",
+        "Output shows the spread (~190 mV)",
+        "Rows 1 and 2 are NOT flagged"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "truncated-name-detection",
+      "prompt": "Run run_all_checks.py on evals/files/truncated_name.csv. Row 1 has a molecule name that's just the substituent prefix ('2-iodo') without the parent scaffold. Row 2 is the corrected version with the full name. Report what the script flags.",
+      "expected_output": "Row 1 is flagged for truncated molecule name. Row 2 is NOT flagged.",
+      "files": ["evals/files/truncated_name.csv"],
+      "expectations": [
+        "run_all_checks.py was executed",
+        "Row 1 is flagged with a 'truncated' or 'substituent prefix' message",
+        "Row 2 is NOT flagged",
+        "Output mentions the truncation issue clearly"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "INACCESSIBLE-handling",
+      "prompt": "Extract redox-potential data from a paper with DOI 10.9999/this.doi.does.not.exist (citation 'Smith et al., J. Fake Chem. 2024, 1, 1'). Use the redox-extraction skill protocol. The DOI is intentionally fake — verify it doesn't resolve, then return INACCESSIBLE rather than synthesizing any values from training memory.",
+      "expected_output": "Agent returns INACCESSIBLE (or equivalent stop signal). Zero data rows are produced. Agent verified the DOI doesn't resolve before stopping.",
+      "files": ["evals/files/INACCESSIBLE_test.txt"],
+      "expectations": [
+        "Agent did not produce any extracted CSV rows",
+        "Agent returned 'INACCESSIBLE' or 'inaccessible_source' explicitly in the output",
+        "Agent ran find_open_access.py or crossref_lookup.py to confirm the DOI is bad",
+        "Output does NOT contain hallucinated voltages or evidence_quotes",
+        "Output does NOT use phrases like 'based on my knowledge' or 'from my training' to synthesize a value"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "multi-couple-schema-compliance",
+      "prompt": "Look at evals/files/multi_couple.csv. The file shows the canonical pattern for a molecule with multiple redox couples (methyl viologen has V2+/V+• and V+•/V0). Run run_all_checks.py on the file and confirm both rows pass. Then explain why this schema (one row per couple, with the couple name in the molecule field) is the protocol's required pattern, not an alternative.",
+      "expected_output": "run_all_checks.py reports zero flags. Agent explains why one-row-per-couple is required (cross-source consistency works correctly; voltage_range_check picks the right range; the molecule field carries the couple identifier so downstream tools never confuse the two values).",
+      "files": ["evals/files/multi_couple.csv"],
+      "expectations": [
+        "run_all_checks.py was executed",
+        "Zero flags reported",
+        "Agent explains the rationale for one-row-per-couple",
+        "Agent references at least one downstream consequence (cross-source check, voltage range, etc.)"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "aprotic-vs-aqueous-coexistence",
+      "prompt": "Look at evals/files/aprotic_vs_aqueous.csv. The file shows three rows for 1,4,5,8-tetraamino-9,10-anthraquinone (Disperse Blue 1): one in DMF (-1.080 V) and two aqueous PCET couples (+0.168 V and +0.362 V). Run run_all_checks.py and confirm all three rows pass. Then explain why this is correct (aprotic 1e Q/Q•⁻ vs aqueous 2H+/2e- PCET are different physical processes for the same molecule).",
+      "expected_output": "run_all_checks.py reports zero flags. Agent correctly explains the aprotic-vs-aqueous distinction and why both can coexist.",
+      "files": ["evals/files/aprotic_vs_aqueous.csv"],
+      "expectations": [
+        "run_all_checks.py was executed",
+        "Zero flags reported on the three rows",
+        "Agent explains the aprotic vs aqueous distinction (different physical processes)",
+        "Agent identifies the solvent field as the distinguishing column"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "value-directness-derived-flagging",
+      "prompt": "Look at evals/files/derived_value.csv. Row 1 contains a Fe-gluconate value derived from a cell-voltage subtraction (1.19 V cell - 0.36 V catholyte = -0.83 V). Row 2 is a directly-measured ferrocyanide catholyte value. Verify both rows have correct value_directness ('derived' for row 1, 'direct' for row 2). Run run_all_checks.py to confirm they pass. Then explain why marking derived values explicitly is important.",
+      "expected_output": "Row 1 has value_directness='derived'; row 2 has 'direct'. Both pass run_all_checks. Agent explains the importance of distinguishing derived from direct values.",
+      "files": ["evals/files/derived_value.csv"],
+      "expectations": [
+        "Agent confirmed row 1 value_directness='derived' and row 2 value_directness='direct'",
+        "run_all_checks.py was run and reports zero flags",
+        "Agent explains why distinguishing derived from direct values matters (uncertainty propagation, audit trail, downstream filtering)"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "verifier-prompt-finds-mismatch",
+      "prompt": "Independently verify row #3 in evals/files/cross_source_mismatch.csv using the protocol in references/VERIFICATION_PROMPT_TEMPLATES.md. The row claims AQDS at +0.40 V vs SHE in 1 M H2SO4, cited to DOI 10.1234/fake. Run the relevant scripts (verify_row.py and/or crossref_lookup.py) to check the citation, and report a final verdict using the granular flagged_* vocabulary from VERIFICATION_PROMPT_TEMPLATES.md.",
+      "expected_output": "Verifier reports flagged_doi_unresolvable for the fake DOI 10.1234/fake. The output uses the verdict vocabulary from VERIFICATION_PROMPT_TEMPLATES.md.",
+      "files": ["evals/files/cross_source_mismatch.csv"],
+      "expectations": [
+        "Agent ran verify_row.py or crossref_lookup.py against DOI 10.1234/fake",
+        "Agent reported the DOI as unresolvable or off-topic on CrossRef",
+        "Verdict uses one of the granular labels: flagged_doi_unresolvable, flagged_doi_unrelated_paper, or inaccessible_source",
+        "Agent did NOT silently 'correct' the row to a different value or fabricate metadata for the fake DOI",
+        "Agent referenced VERIFICATION_PROMPT_TEMPLATES.md (or its content) in the workflow"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "calibration-gate-blocks-bad-conversion",
+      "prompt": "You are extracting redox potentials from a hypothetical computational dataset at evals/files/calibration_canonicals_bad_conversion.csv. The dataset has a `raw_value` column. The dataset's documentation claims the conversion to V vs SHE is `E_SHE = 4.42 - raw_value` (subtract-form, absolute scale).\n\nFollow the protocol's bulk-extraction template (Template 2 in references/EXTRACTION_PROMPT_TEMPLATES.md), specifically the calibration spot-check step. The dataset includes canonical molecules (9,10-anthraquinone, 1,4-benzoquinone, methyl viologen, 4-hydroxy-TEMPO, ferrocene) — apply the planned conversion to them and check against literature values. Then decide: extract or stop.\n\nDo NOT proceed to extract if the calibration check fails.",
+      "expected_output": "The agent applies the conversion 4.42 - raw to canonical molecules and finds the values are wildly wrong vs literature (e.g., 9,10-AQ at -1.401 V vs lit -0.44 V — off by ~960 mV). The agent STOPS and does not produce extracted CSV rows. The agent reports the calibration failure and recommends investigating the conversion convention.",
+      "files": ["evals/files/calibration_canonicals_bad_conversion.csv"],
+      "expectations": [
+        "Agent applied the conversion to at least 3 canonical molecules from the dataset",
+        "Agent compared the converted values to literature values for those molecules",
+        "Agent identified that canonical molecules are off by >300 mV vs literature",
+        "Agent STOPPED and did not produce extracted CSV rows",
+        "Agent did not synthesize correct values from training memory to mask the bad conversion",
+        "Agent's output explicitly recommends checking the conversion convention against the dataset's API/schema source"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "calibration-skipped-when-no-canonicals",
+      "prompt": "You are extracting redox potentials from a hypothetical computational dataset at evals/files/calibration_no_canonicals.csv. The dataset has 8 rows of novel scaffolds (no overlap with well-studied canonical molecules) and a `raw_value` column. The dataset's documentation says values should be converted to V vs SHE via `E_SHE = 4.42 - raw_value` (subtract-form, absolute scale).\n\nFollow the protocol's bulk-extraction template (Template 2 in references/EXTRACTION_PROMPT_TEMPLATES.md). When the calibration spot-check is not possible (no canonical molecules in the dataset to compare to literature), the protocol says to PROCEED with extraction but explicitly mark all rows as `unverified_computational` with a note that calibration could not be externally verified.\n\nProduce a CSV of the extracted rows.",
+      "expected_output": "The agent recognizes there are no canonical-molecule anchors in this dataset, so the calibration spot-check cannot fire. The agent proceeds to extract, marking each row as `unverified_computational` and adding a note that the calibration could not be externally spot-checked. Output is a CSV with 8 rows.",
+      "files": ["evals/files/calibration_no_canonicals.csv"],
+      "expectations": [
+        "Agent did NOT stop or refuse to extract",
+        "Agent recognizes that no canonical-molecule anchors exist in this dataset",
+        "Agent produces a CSV with 8 extracted rows",
+        "Every extracted row has verification_status='unverified_computational'",
+        "Every extracted row has a note (in the notes field or in commentary) explaining that calibration could not be externally verified",
+        "Agent applies the documented conversion (4.42 - raw) to each row's voltage_v_she"
+      ]
+    }
+  ]
+}

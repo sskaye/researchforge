@@ -1,0 +1,62 @@
+[
+  {
+    "row_id": "80",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "Identifier and evidence quote match paper_key=164, but the source prints the boiling point as 139.1 ± 0.7 °C at 737.9 mm Hg while value_raw records only 139.1 °C."
+  },
+  {
+    "row_id": "82",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches paper_key=164; Table 8.8 states chlorine dioxide has a boiling point of 11 °C, matching the row."
+  },
+  {
+    "row_id": "86",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches paper_key=164; the glutaraldehyde discussion states melting and boiling points of -14 °C and 187 °C, respectively, matching the boiling-point row."
+  },
+  {
+    "row_id": "398",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC identifier matches the paper directory; Section 3.1 compound PI-1 states 1-Ethoxyethyl-2-bromopropanoate has boiling point 87 °C at 3 mm Hg."
+  },
+  {
+    "row_id": "816",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI and Table 3 match; K10/TMA support-activator gives Tm 133.7 °C, and the paper states polymer thermal properties were measured by DSC."
+  },
+  {
+    "row_id": "819",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI and Table 3 match; K30/TEA support-activator gives Tm 134.5 °C, and the paper states polymer thermal properties were measured by DSC."
+  },
+  {
+    "row_id": "818",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI and Table 3 match; K30/TMA support-activator gives Tm 134.0 °C, and the paper states polymer thermal properties were measured by DSC."
+  },
+  {
+    "row_id": "831",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches the ACS Omega PDF; the nonisothermal DSC results assign the 223.4 °C higher melting peak to SC in the PLLA/PDLA (50/50) blend."
+  },
+  {
+    "row_id": "846",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches the Pharmaceutics PDF; the DSC analysis states an endothermic peak onset at 164 °C assigned to melting of ITR."
+  },
+  {
+    "row_id": "848",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches the Pharmaceutics PDF; the DSC analysis states the ITR-TER 1:2 systems have an onset around 320 °C assigned to excess TER."
+  }
+]

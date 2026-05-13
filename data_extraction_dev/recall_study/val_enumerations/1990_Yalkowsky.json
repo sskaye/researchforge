@@ -1,0 +1,1590 @@
+{
+  "paper_id": "1990_Yalkowsky",
+  "paper_source": "Abramowitz, R.; Yalkowsky, S. H. 'Melting Point, Boiling Point, and Symmetry.' Pharmaceutical Research, Vol. 7, No. 9, 1990, pp. 942-947.",
+  "items": [
+    {
+      "compound_name": "1,2-Dichlorobenzene",
+      "property": "melting_point",
+      "value_raw": "-17",
+      "evidence_quote": "1,2-Dichlorobenzene —-17 179",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Dichlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "179",
+      "evidence_quote": "1,2-Dichlorobenzene —-17 179",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Dichlorobenzene",
+      "property": "melting_point",
+      "value_raw": "-25",
+      "evidence_quote": "1,3-Dichlorobenzene —25 172",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Dichlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "172",
+      "evidence_quote": "1,3-Dichlorobenzene —25 172",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Dichlorobenzene",
+      "property": "melting_point",
+      "value_raw": "53",
+      "evidence_quote": "1,4-Dichlorobenzene 53 175",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Dichlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "175",
+      "evidence_quote": "1,4-Dichlorobenzene 53 175",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Dibromobenzene",
+      "property": "melting_point",
+      "value_raw": "7",
+      "evidence_quote": "1,2-Dibromobenzene 7 225",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Dibromobenzene",
+      "property": "boiling_point",
+      "value_raw": "225",
+      "evidence_quote": "1,2-Dibromobenzene 7 225",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Dibromobenzene",
+      "property": "melting_point",
+      "value_raw": "-7",
+      "evidence_quote": "1,3-Dibromobenzene —7 220",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Dibromobenzene",
+      "property": "boiling_point",
+      "value_raw": "220",
+      "evidence_quote": "1,3-Dibromobenzene —7 220",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Dibromobenzene",
+      "property": "melting_point",
+      "value_raw": "87",
+      "evidence_quote": "1,4-Dibromobenzene 87 220",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Dibromobenzene",
+      "property": "boiling_point",
+      "value_raw": "220",
+      "evidence_quote": "1,4-Dibromobenzene 87 220",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Diiodobenzene",
+      "property": "melting_point",
+      "value_raw": "27",
+      "evidence_quote": "1,2-Diiodobenzene 27 286",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Diiodobenzene",
+      "property": "boiling_point",
+      "value_raw": "286",
+      "evidence_quote": "1,2-Diiodobenzene 27 286",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Diiodobenzene",
+      "property": "melting_point",
+      "value_raw": "40",
+      "evidence_quote": "1,3-Diiodobenzene 40 285",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Diiodobenzene",
+      "property": "boiling_point",
+      "value_raw": "285",
+      "evidence_quote": "1,3-Diiodobenzene 40 285",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Diiodobenzene",
+      "property": "melting_point",
+      "value_raw": "132",
+      "evidence_quote": "1,4-Diiodobenzene 132 285",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Diiodobenzene",
+      "property": "boiling_point",
+      "value_raw": "285",
+      "evidence_quote": "1,4-Diiodobenzene 132 285",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3-Trichlorobenzene",
+      "property": "melting_point",
+      "value_raw": "53",
+      "evidence_quote": "1,2,3-Trichlorobenzene 53 218",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3-Trichlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "218",
+      "evidence_quote": "1,2,3-Trichlorobenzene 53 218",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,4-Trichlorobenzene",
+      "property": "melting_point",
+      "value_raw": "17",
+      "evidence_quote": "1,2,4-Trichlorobenzene 17 213",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,4-Trichlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "213",
+      "evidence_quote": "1,2,4-Trichlorobenzene 17 213",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3,5-Trichlorobenzene",
+      "property": "melting_point",
+      "value_raw": "63",
+      "evidence_quote": "1,3,5-Trichlorobenzene 63 208",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3,5-Trichlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "208",
+      "evidence_quote": "1,3,5-Trichlorobenzene 63 208",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Methylpropylketone",
+      "property": "melting_point",
+      "value_raw": "-78",
+      "evidence_quote": "Methylpropylketone —78 102",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Methylpropylketone",
+      "property": "boiling_point",
+      "value_raw": "102",
+      "evidence_quote": "Methylpropylketone —78 102",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Diethylketone",
+      "property": "melting_point",
+      "value_raw": "-40",
+      "evidence_quote": "Diethylketone — 40 101.7",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Diethylketone",
+      "property": "boiling_point",
+      "value_raw": "101.7",
+      "evidence_quote": "Diethylketone — 40 101.7",
+      "evidence_location": "Table I. Boiling and Melting Points of Isomers",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Benzene",
+      "property": "boiling_point",
+      "value_raw": "353",
+      "evidence_quote": "Benzene 353 279 231 47 1.08 2.3 0",
+      "evidence_location": "Table III. Boiling Point, Melting Point, Predicted Melting Point from Eq. (13), Residual, SIGMAL, EXPAN, and ORTHO for Each Compound in the Analyses",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Benzene",
+      "property": "melting_point",
+      "value_raw": "279",
+      "evidence_quote": "Benzene 353 279 231 47 1.08 2.3 0",
+      "evidence_location": "Table III. Boiling Point, Melting Point, Predicted Melting Point from Eq. (13), Residual, SIGMAL, EXPAN, and ORTHO for Each Compound in the Analyses",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Toluene",
+      "property": "boiling_point",
+      "value_raw": "383",
+      "evidence_quote": "Toluene 383 178 185 —7 0.30 2.8 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Toluene",
+      "property": "melting_point",
+      "value_raw": "178",
+      "evidence_quote": "Toluene 383 178 185 —7 0.30 2.8 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Dimethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "412",
+      "evidence_quote": "1,3-Dimethylbenzene 412 226 221 5 0.30 3.3 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Dimethylbenzene",
+      "property": "melting_point",
+      "value_raw": "226",
+      "evidence_quote": "1,3-Dimethylbenzene 412 226 221 5 0.30 3.3 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Dimethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "417",
+      "evidence_quote": "1,2-Dimethylbenzene 417 248 221 27 0.30 2.4 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Dimethylbenzene",
+      "property": "melting_point",
+      "value_raw": "248",
+      "evidence_quote": "1,2-Dimethylbenzene 417 248 221 27 0.30 2.4 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Dimethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "411",
+      "evidence_quote": "1,4-Dimethylbenzene 411 286 258 28 0.60 3.4 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Dimethylbenzene",
+      "property": "melting_point",
+      "value_raw": "286",
+      "evidence_quote": "1,4-Dimethylbenzene 411 286 258 28 0.60 3.4 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3,5-Trimethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "438",
+      "evidence_quote": "1,3,5-Trimethylbenzene 438 220 281 — 60 0.78 2.8 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3,5-Trimethylbenzene",
+      "property": "melting_point",
+      "value_raw": "220",
+      "evidence_quote": "1,3,5-Trimethylbenzene 438 220 281 — 60 0.78 2.8 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,4-Trimethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "442",
+      "evidence_quote": "1,2,4-Trimethylbenzene 442 229 224 5 0.00 3.0 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,4-Trimethylbenzene",
+      "property": "melting_point",
+      "value_raw": "229",
+      "evidence_quote": "1,2,4-Trimethylbenzene 442 229 224 5 0.00 3.0 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3-Trimethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "449",
+      "evidence_quote": "1,2,3-Trimethylbenzene 449 248 271 — 23 0.30 2.8 3",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3-Trimethylbenzene",
+      "property": "melting_point",
+      "value_raw": "248",
+      "evidence_quote": "1,2,3-Trimethylbenzene 449 248 271 — 23 0.30 2.8 3",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3,5-Tetramethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "471",
+      "evidence_quote": "1,2,3,5-Tetramethylbenzene 471 249 280 — 31 0.30 2.6 3",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3,5-Tetramethylbenzene",
+      "property": "melting_point",
+      "value_raw": "249",
+      "evidence_quote": "1,2,3,5-Tetramethylbenzene 471 249 280 — 31 0.30 2.6 3",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3,4-Tetramethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "478",
+      "evidence_quote": "1,2,3,4-Tetramethylbenzene 478 267 297 — 30 0.30 2.6 4",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3,4-Tetramethylbenzene",
+      "property": "melting_point",
+      "value_raw": "267",
+      "evidence_quote": "1,2,3,4-Tetramethylbenzene 478 267 297 — 30 0.30 2.6 4",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,4,5-Tetramethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "470",
+      "evidence_quote": "1,2,4,5-Tetramethylbenzene 470 352 324 28 0.60 2.6 4",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,4,5-Tetramethylbenzene",
+      "property": "melting_point",
+      "value_raw": "352",
+      "evidence_quote": "1,2,4,5-Tetramethylbenzene 470 352 324 28 0.60 2.6 4",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Pentamethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "503",
+      "evidence_quote": "Pentamethylbenzene 503 327 319 8 0.30 2.3 5",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Pentamethylbenzene",
+      "property": "melting_point",
+      "value_raw": "327",
+      "evidence_quote": "Pentamethylbenzene 503 327 319 8 0.30 2.3 5",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Hexamethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "537",
+      "evidence_quote": "Hexamethylbenzene 537 438 436 2 1.08 2.1 6",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Hexamethylbenzene",
+      "property": "melting_point",
+      "value_raw": "438",
+      "evidence_quote": "Hexamethylbenzene 537 438 436 2 1.08 2.1 6",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Nitrobenzene",
+      "property": "boiling_point",
+      "value_raw": "483",
+      "evidence_quote": "Nitrobenzene 483 279 266 13 0.30 3.0 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Nitrobenzene",
+      "property": "melting_point",
+      "value_raw": "279",
+      "evidence_quote": "Nitrobenzene 483 279 266 13 0.30 3.0 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Nitromethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "495",
+      "evidence_quote": "2-Nitromethylbenzene 495 262 285 — 23 0.30 2.5 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Nitromethylbenzene",
+      "property": "melting_point",
+      "value_raw": "262",
+      "evidence_quote": "2-Nitromethylbenzene 495 262 285 — 23 0.30 2.5 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Nitromethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "505",
+      "evidence_quote": "3-Nitromethylbenzene 505 288 296 —8 0.30 3.4 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Nitromethylbenzene",
+      "property": "melting_point",
+      "value_raw": "288",
+      "evidence_quote": "3-Nitromethylbenzene 505 288 296 —8 0.30 3.4 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Nitromethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "511",
+      "evidence_quote": "4-Nitromethylbenzene 511 324 340 —16 0.60 3.6 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Nitromethylbenzene",
+      "property": "melting_point",
+      "value_raw": "324",
+      "evidence_quote": "4-Nitromethylbenzene 511 324 340 —16 0.60 3.6 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Iodobenzene",
+      "property": "boiling_point",
+      "value_raw": "461",
+      "evidence_quote": "Iodobenzene 461 242 258 — 16 0.30 3.2 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Iodobenzene",
+      "property": "melting_point",
+      "value_raw": "242",
+      "evidence_quote": "Iodobenzene 461 242 258 — 16 0.30 3.2 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Iodomethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "486",
+      "evidence_quote": "3-lodomethylbenzene 486 246 250 —4 0.00 3.4 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Iodomethylbenzene",
+      "property": "melting_point",
+      "value_raw": "246",
+      "evidence_quote": "3-lodomethylbenzene 486 246 250 —4 0.00 3.4 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Iodomethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "484",
+      "evidence_quote": "4-lodomethylbenzene 484 309 294 15 0.30 3.8 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Iodomethylbenzene",
+      "property": "melting_point",
+      "value_raw": "309",
+      "evidence_quote": "4-lodomethylbenzene 484 309 294 15 0.30 3.8 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Diiodobenzene",
+      "property": "boiling_point",
+      "value_raw": "559",
+      "evidence_quote": "1,2-Diiodobenzene 559 300 336 — 36 0.30 2.6 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Diiodobenzene",
+      "property": "melting_point",
+      "value_raw": "300",
+      "evidence_quote": "1,2-Diiodobenzene 559 300 336 — 36 0.30 2.6 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Diiodobenzene",
+      "property": "boiling_point",
+      "value_raw": "558",
+      "evidence_quote": "1,3-Diiodobenzene 558 313 337 —24 0.30 3.4 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Diiodobenzene",
+      "property": "melting_point",
+      "value_raw": "313",
+      "evidence_quote": "1,3-Diiodobenzene 558 313 337 —24 0.30 3.4 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Diiodobenzene",
+      "property": "boiling_point",
+      "value_raw": "558",
+      "evidence_quote": "1,4-Diiodobenzene 558 405 406 —1 0.60 4.5 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Diiodobenzene",
+      "property": "melting_point",
+      "value_raw": "405",
+      "evidence_quote": "1,4-Diiodobenzene 558 405 406 —1 0.60 4.5 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Bromobenzene",
+      "property": "boiling_point",
+      "value_raw": "429",
+      "evidence_quote": "Bromobenzene 429 242 230 12 0.30 3.1 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Bromobenzene",
+      "property": "melting_point",
+      "value_raw": "242",
+      "evidence_quote": "Bromobenzene 429 242 230 12 0.30 3.1 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Methylbromobenzene",
+      "property": "boiling_point",
+      "value_raw": "457",
+      "evidence_quote": "3-Methylbromobenzene 457 233 254 — 20 0.30 3.2 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Methylbromobenzene",
+      "property": "melting_point",
+      "value_raw": "233",
+      "evidence_quote": "3-Methylbromobenzene 457 233 254 — 20 0.30 3.2 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Methylbromobenzene",
+      "property": "boiling_point",
+      "value_raw": "455",
+      "evidence_quote": "2-Methylbromobenzene 455 245 258 — 13 0.30 2.7 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Methylbromobenzene",
+      "property": "melting_point",
+      "value_raw": "245",
+      "evidence_quote": "2-Methylbromobenzene 455 245 258 — 13 0.30 2.7 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Methylbromobenzene",
+      "property": "boiling_point",
+      "value_raw": "458",
+      "evidence_quote": "4-Methylbromobenzene 458 302 305 —4 ~ 0.60 3.7 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Methylbromobenzene",
+      "property": "melting_point",
+      "value_raw": "302",
+      "evidence_quote": "4-Methylbromobenzene 458 302 305 —4 ~ 0.60 3.7 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Bromoiodobenzene",
+      "property": "boiling_point",
+      "value_raw": "525",
+      "evidence_quote": "3-Bromoiodobenzene 525 264 275 —11 0.00 3.3 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Bromoiodobenzene",
+      "property": "melting_point",
+      "value_raw": "264",
+      "evidence_quote": "3-Bromoiodobenzene 525 264 275 —11 0.00 3.3 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Bromoiodobenzene",
+      "property": "boiling_point",
+      "value_raw": "524",
+      "evidence_quote": "4-Bromoiodobenzene 524 365 336 29 0.30 4.2 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Bromoiodobenzene",
+      "property": "melting_point",
+      "value_raw": "365",
+      "evidence_quote": "4-Bromoiodobenzene 524 365 336 29 0.30 4.2 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Dibromobenzene",
+      "property": "boiling_point",
+      "value_raw": "493",
+      "evidence_quote": "3-Dibromobenzene 493 266 279 —13 0.30 3.1 0",
+      "evidence_location": "Table III (note: OCR reads '3-Dibromobenzene'; in context this row is 1,3-Dibromobenzene)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Dibromobenzene",
+      "property": "melting_point",
+      "value_raw": "266",
+      "evidence_quote": "3-Dibromobenzene 493 266 279 —13 0.30 3.1 0",
+      "evidence_location": "Table III (note: OCR reads '3-Dibromobenzene'; in context this row is 1,3-Dibromobenzene)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Dibromobenzene",
+      "property": "boiling_point",
+      "value_raw": "498",
+      "evidence_quote": "2-Dibromobenzene 498 280 290 —10 0.30 2.6 2",
+      "evidence_location": "Table III (note: OCR reads '2-Dibromobenzene'; in context this row is 1,2-Dibromobenzene)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Dibromobenzene",
+      "property": "melting_point",
+      "value_raw": "280",
+      "evidence_quote": "2-Dibromobenzene 498 280 290 —10 0.30 2.6 2",
+      "evidence_location": "Table III (note: OCR reads '2-Dibromobenzene'; in context this row is 1,2-Dibromobenzene)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Dibromobenzene",
+      "property": "boiling_point",
+      "value_raw": "493",
+      "evidence_quote": "4-Dibromobenzene 493 360 342 18 0.60 4.1 0",
+      "evidence_location": "Table III (note: OCR reads '4-Dibromobenzene'; in context this row is 1,4-Dibromobenzene)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Dibromobenzene",
+      "property": "melting_point",
+      "value_raw": "360",
+      "evidence_quote": "4-Dibromobenzene 493 360 342 18 0.60 4.1 0",
+      "evidence_location": "Table III (note: OCR reads '4-Dibromobenzene'; in context this row is 1,4-Dibromobenzene)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3,5-Tribromobenzene",
+      "property": "boiling_point",
+      "value_raw": "544",
+      "evidence_quote": "1,3,5-Tribromobenzene 544 395 357 38 0.78 2.7 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3,5-Tribromobenzene",
+      "property": "melting_point",
+      "value_raw": "395",
+      "evidence_quote": "1,3,5-Tribromobenzene 544 395 357 38 0.78 2.7 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Dimethyl-tetrabromobenzene",
+      "property": "boiling_point",
+      "value_raw": "647",
+      "evidence_quote": "1,2-Dimethyl-tetrabromobenzene 647 535 534 1 1.08 2.5 6",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Dimethyl-tetrabromobenzene",
+      "property": "melting_point",
+      "value_raw": "535",
+      "evidence_quote": "1,2-Dimethyl-tetrabromobenzene 647 535 534 1 1.08 2.5 6",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Chlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "405",
+      "evidence_quote": "Chlorobenzene 405 223 207 16 0.30 3.0 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Chlorobenzene",
+      "property": "melting_point",
+      "value_raw": "223",
+      "evidence_quote": "Chlorobenzene 405 223 207 16 0.30 3.0 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Methylchlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "435",
+      "evidence_quote": "3-Methylchlorobenzene 435 225 233 —7 0.30 3.1 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Methylchlorobenzene",
+      "property": "melting_point",
+      "value_raw": "225",
+      "evidence_quote": "3-Methylchlorobenzene 435 225 233 —7 0.30 3.1 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Methylchlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "431",
+      "evidence_quote": "2-Methylchlorobenzene 431 238 235 3 0.30 2.5 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Methylchlorobenzene",
+      "property": "melting_point",
+      "value_raw": "238",
+      "evidence_quote": "2-Methylchlorobenzene 431 238 235 3 0.30 2.5 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Methylchlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "435",
+      "evidence_quote": "4-Methylchlorobenzene 435 281 283 —3 0.60 3.6 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Methylchlorobenzene",
+      "property": "melting_point",
+      "value_raw": "281",
+      "evidence_quote": "4-Methylchlorobenzene 435 281 283 —3 0.60 3.6 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Chloronitrobenzene",
+      "property": "boiling_point",
+      "value_raw": "518",
+      "evidence_quote": "2-Chloronitrobenzene 518 307 305 3 0.30 2.6 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Chloronitrobenzene",
+      "property": "melting_point",
+      "value_raw": "307",
+      "evidence_quote": "2-Chloronitrobenzene 518 307 305 3 0.30 2.6 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Chloronitrobenzene",
+      "property": "boiling_point",
+      "value_raw": "509",
+      "evidence_quote": "3-Chloronitrobenzene 509 319 294 25 0.30 3.2 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Chloronitrobenzene",
+      "property": "melting_point",
+      "value_raw": "319",
+      "evidence_quote": "3-Chloronitrobenzene 509 319 294 25 0.30 3.2 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Chloronitrobenzene",
+      "property": "boiling_point",
+      "value_raw": "515",
+      "evidence_quote": "4-Chloronitrobenzene $15 357 350 7 0.60 3.8 0",
+      "evidence_location": "Table III (OCR rendered '$15' for 515)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Chloronitrobenzene",
+      "property": "melting_point",
+      "value_raw": "357",
+      "evidence_quote": "4-Chloronitrobenzene $15 357 350 7 0.60 3.8 0",
+      "evidence_location": "Table III (OCR rendered '$15' for 515)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Chloroiodobenzene",
+      "property": "boiling_point",
+      "value_raw": "500",
+      "evidence_quote": "4-Chloroiodobenzene 500 330 314 16 0.30 4.0 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Chloroiodobenzene",
+      "property": "melting_point",
+      "value_raw": "330",
+      "evidence_quote": "4-Chloroiodobenzene 500 330 314 16 0.30 4.0 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Chlorobromobenzene",
+      "property": "boiling_point",
+      "value_raw": "469",
+      "evidence_quote": "3-Chlorobromobenzene 469 251 254 —3 0.30 2.9 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Chlorobromobenzene",
+      "property": "melting_point",
+      "value_raw": "251",
+      "evidence_quote": "3-Chlorobromobenzene 469 251 254 —3 0.30 2.9 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Chlorobromobenzene",
+      "property": "boiling_point",
+      "value_raw": "477",
+      "evidence_quote": "2-Chlorobromobenzene 477 261 277 — 16 0.30 2.7 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Chlorobromobenzene",
+      "property": "melting_point",
+      "value_raw": "261",
+      "evidence_quote": "2-Chlorobromobenzene 477 261 277 — 16 0.30 2.7 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Chlorobromobenzene",
+      "property": "boiling_point",
+      "value_raw": "469",
+      "evidence_quote": "4-Chlorobromobenzene 469 341 320 22 0.60 3.9 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Chlorobromobenzene",
+      "property": "melting_point",
+      "value_raw": "341",
+      "evidence_quote": "4-Chlorobromobenzene 469 341 320 22 0.60 3.9 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Dichlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "445",
+      "evidence_quote": "1,3-Dichlorobenzene 445 248 231 18 0.30 2.8 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Dichlorobenzene",
+      "property": "melting_point",
+      "value_raw": "248",
+      "evidence_quote": "1,3-Dichlorobenzene 445 248 231 18 0.30 2.8 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Dichlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "452",
+      "evidence_quote": "1,2-Dichlorobenzene 452 256 254 3 0.30 2.6 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Dichlorobenzene",
+      "property": "melting_point",
+      "value_raw": "256",
+      "evidence_quote": "1,2-Dichlorobenzene 452 256 254 3 0.30 2.6 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Dichlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "448",
+      "evidence_quote": "1,4-Dichlorobenzene 448 326 298 29 0.60 3.7 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Dichlorobenzene",
+      "property": "melting_point",
+      "value_raw": "326",
+      "evidence_quote": "1,4-Dichlorobenzene 448 326 298 29 0.60 3.7 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3,5-Dichloromethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "474",
+      "evidence_quote": "3,5-Dichloromethylbenzene 474 299 305 —5 0.78 2.7 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3,5-Dichloromethylbenzene",
+      "property": "melting_point",
+      "value_raw": "299",
+      "evidence_quote": "3,5-Dichloromethylbenzene 474 299 305 —5 0.78 2.7 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3,4-Dichloro-1,2-dimethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "507",
+      "evidence_quote": "3,4-Dichloro-1,2-dimethylbenzene 507 349 326 23 0.30 2.8 4",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3,4-Dichloro-1,2-dimethylbenzene",
+      "property": "melting_point",
+      "value_raw": "349",
+      "evidence_quote": "3,4-Dichloro-1,2-dimethylbenzene 507 349 326 23 0.30 2.8 4",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2,4-Dichloromesitylene",
+      "property": "boiling_point",
+      "value_raw": "516",
+      "evidence_quote": "2,4-Dichloromesitylene 516 332 335 —3 0.30 2.5 5",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2,4-Dichloromesitylene",
+      "property": "melting_point",
+      "value_raw": "332",
+      "evidence_quote": "2,4-Dichloromesitylene 516 332 335 —3 0.30 2.5 5",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,4-Trichlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "486",
+      "evidence_quote": "1,2,4-Trichlorobenzene 486 290 269 21 0.00 3.3 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,4-Trichlorobenzene",
+      "property": "melting_point",
+      "value_raw": "290",
+      "evidence_quote": "1,2,4-Trichlorobenzene 486 290 269 21 0.00 3.3 2",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3-Trichlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "491",
+      "evidence_quote": "1,2,3-Trichlorobenzene 491 326 290 36 0.30 2.4 3",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3-Trichlorobenzene",
+      "property": "melting_point",
+      "value_raw": "326",
+      "evidence_quote": "1,2,3-Trichlorobenzene 491 326 290 36 0.30 2.4 3",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3,5-Trichlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "481",
+      "evidence_quote": "1,3,5-Trichlorobenzene 481 336 301 35 0.78 2.4 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3,5-Trichlorobenzene",
+      "property": "melting_point",
+      "value_raw": "336",
+      "evidence_quote": "1,3,5-Trichlorobenzene 481 336 301 35 0.78 2.4 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2,3,4-Trichlorotoluene",
+      "property": "boiling_point",
+      "value_raw": "505",
+      "evidence_quote": "2,3,4-Trichlorotoluene 505 317 326 —9 0.30 2.9 4",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2,3,4-Trichlorotoluene",
+      "property": "melting_point",
+      "value_raw": "317",
+      "evidence_quote": "2,3,4-Trichlorotoluene 505 317 326 —9 0.30 2.9 4",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2,3,5-Trichlorotoluene",
+      "property": "boiling_point",
+      "value_raw": "504",
+      "evidence_quote": "2,3,5-Trichlorotoluene 504 319 315 4 0.30 2.9 3",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2,3,5-Trichlorotoluene",
+      "property": "melting_point",
+      "value_raw": "319",
+      "evidence_quote": "2,3,5-Trichlorotoluene 504 319 315 4 0.30 2.9 3",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3,4-Tetrachlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "527",
+      "evidence_quote": "1,2,3,4-Tetrachlorobenzene 527 320 346 — 26 0.30 3.0 4",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3,4-Tetrachlorobenzene",
+      "property": "melting_point",
+      "value_raw": "320",
+      "evidence_quote": "1,2,3,4-Tetrachlorobenzene 527 320 346 — 26 0.30 3.0 4",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,4,5-Tetrachlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "517",
+      "evidence_quote": "1,2,4,5-Tetrachlorobenzene 517 413 372 41 0.60 3.0 4",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,4,5-Tetrachlorobenzene",
+      "property": "melting_point",
+      "value_raw": "413",
+      "evidence_quote": "1,2,4,5-Tetrachlorobenzene 517 413 372 41 0.60 3.0 4",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Pentachlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "549",
+      "evidence_quote": "Pentachlorobenzene 549 359 366 —6 0.30 2.7 5",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Pentachlorobenzene",
+      "property": "melting_point",
+      "value_raw": "359",
+      "evidence_quote": "Pentachlorobenzene 549 359 366 —6 0.30 2.7 5",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Hexachlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "599",
+      "evidence_quote": "Hexachlorobenzene 599 503 495 9 1.08 2.4 6",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Hexachlorobenzene",
+      "property": "melting_point",
+      "value_raw": "503",
+      "evidence_quote": "Hexachlorobenzene 599 503 495 9 1.08 2.4 6",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Fluorobenzene",
+      "property": "boiling_point",
+      "value_raw": "358",
+      "evidence_quote": "Fluorobenzene 358 232 257 —25 1.08 3.0 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Fluorobenzene",
+      "property": "melting_point",
+      "value_raw": "232",
+      "evidence_quote": "Fluorobenzene 358 232 257 —25 1.08 3.0 0",
+      "evidence_location": "Table III",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Fluoromethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "389",
+      "evidence_quote": "1,3-Fluoromethylbenzene 389 185 196 —|1 0.30 3.0 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Fluoromethylbenzene",
+      "property": "melting_point",
+      "value_raw": "185",
+      "evidence_quote": "1,3-Fluoromethylbenzene 389 185 196 —|1 0.30 3.0 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Fluoromethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "387",
+      "evidence_quote": "1,2-Fluoromethylbenzene 387 211 184 27 0.30 2.7 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Fluoromethylbenzene",
+      "property": "melting_point",
+      "value_raw": "211",
+      "evidence_quote": "1,2-Fluoromethylbenzene 387 211 184 27 0.30 2.7 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Fluoromethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "390",
+      "evidence_quote": "4-Fluoromethylbenzene 390 216 214 2 0.30 3.6 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Fluoromethylbenzene",
+      "property": "melting_point",
+      "value_raw": "216",
+      "evidence_quote": "4-Fluoromethylbenzene 390 216 214 2 0.30 3.6 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Fluoroiodobenzene",
+      "property": "boiling_point",
+      "value_raw": "456",
+      "evidence_quote": "4-Fluoroiodobenzene 456 246 279 — 33 0.30 4.0 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Fluoroiodobenzene",
+      "property": "melting_point",
+      "value_raw": "246",
+      "evidence_quote": "4-Fluoroiodobenzene 456 246 279 — 33 0.30 4.0 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Fluorobromobenzene",
+      "property": "boiling_point",
+      "value_raw": "425",
+      "evidence_quote": "4-Fluorobromobenzene 425 256 252 5 0.30 3.9 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Fluorobromobenzene",
+      "property": "melting_point",
+      "value_raw": "256",
+      "evidence_quote": "4-Fluorobromobenzene 425 256 252 5 0.30 3.9 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Chlorofluorobenzene",
+      "property": "boiling_point",
+      "value_raw": "411",
+      "evidence_quote": "2-Chlorofluorobenzene 411 230 207 23 0.30 2.8 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Chlorofluorobenzene",
+      "property": "melting_point",
+      "value_raw": "230",
+      "evidence_quote": "2-Chlorofluorobenzene 411 230 207 23 0.30 2.8 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Chlorofluorobenzene",
+      "property": "boiling_point",
+      "value_raw": "403",
+      "evidence_quote": "4-Chlorofluorobenzene 403 246 229 17 0.30 3.7 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Chlorofluorobenzene",
+      "property": "melting_point",
+      "value_raw": "246",
+      "evidence_quote": "4-Chlorofluorobenzene 403 246 229 17 0.30 3.7 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Difluorobenzene",
+      "property": "boiling_point",
+      "value_raw": "356",
+      "evidence_quote": "1,3-Difluorobenzene 356 214 250 — 36 1.08 2.8 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,3-Difluorobenzene",
+      "property": "melting_point",
+      "value_raw": "214",
+      "evidence_quote": "1,3-Difluorobenzene 356 214 250 — 36 1.08 2.8 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Difluorobenzene",
+      "property": "boiling_point",
+      "value_raw": "364",
+      "evidence_quote": "1,2-Difluorobenzene 364 239 256 —17 1.08 2.8 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2-Difluorobenzene",
+      "property": "melting_point",
+      "value_raw": "239",
+      "evidence_quote": "1,2-Difluorobenzene 364 239 256 —17 1.08 2.8 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Difluorobenzene",
+      "property": "boiling_point",
+      "value_raw": "368",
+      "evidence_quote": "1,4-Difluorobenzene 368 260 288 —28 1.08 3.7 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,4-Difluorobenzene",
+      "property": "melting_point",
+      "value_raw": "260",
+      "evidence_quote": "1,4-Difluorobenzene 368 260 288 —28 1.08 3.7 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3,5-Tetrachlorobenzene",
+      "property": "boiling_point",
+      "value_raw": "519",
+      "evidence_quote": "1,2,3,5-Tetrachlorobenzene 519 327 328 —] 0.30 3.0 3",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,3,5-Tetrachlorobenzene",
+      "property": "melting_point",
+      "value_raw": "327",
+      "evidence_quote": "1,2,3,5-Tetrachlorobenzene 519 327 328 —] 0.30 3.0 3",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Hexafluorobenzene",
+      "property": "boiling_point",
+      "value_raw": "354",
+      "evidence_quote": "Hexafluorobenzene 354 278 257 22 1.08 3.1 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Hexafluorobenzene",
+      "property": "melting_point",
+      "value_raw": "278",
+      "evidence_quote": "Hexafluorobenzene 354 278 257 22 1.08 3.1 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,4,5-Tetrafluorobenzene",
+      "property": "boiling_point",
+      "value_raw": "362",
+      "evidence_quote": "1,2,4,5-Tetrafluorobenzene 362 277 273 5 1.08 3.4 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1,2,4,5-Tetrafluorobenzene",
+      "property": "melting_point",
+      "value_raw": "277",
+      "evidence_quote": "1,2,4,5-Tetrafluorobenzene 362 277 273 5 1.08 3.4 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1-Fluoro-2,4,6-trimethylbenzene",
+      "property": "boiling_point",
+      "value_raw": "442",
+      "evidence_quote": "1-Fluoro-2,4,6-trimethylbenzene 442 236 281 —44 0.78 2.7 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1-Fluoro-2,4,6-trimethylbenzene",
+      "property": "melting_point",
+      "value_raw": "236",
+      "evidence_quote": "1-Fluoro-2,4,6-trimethylbenzene 442 236 281 —44 0.78 2.7 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Benzonitrile",
+      "property": "boiling_point",
+      "value_raw": "464",
+      "evidence_quote": "Benzonitrile 464 260 275 —15 0.30 3.7 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Benzonitrile",
+      "property": "melting_point",
+      "value_raw": "260",
+      "evidence_quote": "Benzonitrile 464 260 275 —15 0.30 3.7 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Bromobenzonitrile",
+      "property": "boiling_point",
+      "value_raw": "524",
+      "evidence_quote": "2-Bromobenzonitrile $24 329 325 3 0.30 3.1 2",
+      "evidence_location": "Table III (continued) (OCR rendered '$24' for 524)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Bromobenzonitrile",
+      "property": "melting_point",
+      "value_raw": "329",
+      "evidence_quote": "2-Bromobenzonitrile $24 329 325 3 0.30 3.1 2",
+      "evidence_location": "Table III (continued) (OCR rendered '$24' for 524)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Bromobenzonitrile",
+      "property": "boiling_point",
+      "value_raw": "498",
+      "evidence_quote": "3-Bromobenzonitrile 498 312 292 20 0.30 3.4 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Bromobenzonitrile",
+      "property": "melting_point",
+      "value_raw": "312",
+      "evidence_quote": "3-Bromobenzonitrile 498 312 292 20 0.30 3.4 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Bromobenzonitrile",
+      "property": "boiling_point",
+      "value_raw": "508",
+      "evidence_quote": "4-Bromobenzonitrile 508 387 374 13 0.60 4.7 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Bromobenzonitrile",
+      "property": "melting_point",
+      "value_raw": "387",
+      "evidence_quote": "4-Bromobenzonitrile 508 387 374 13 0.60 4.7 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Chlorobenzonitrile",
+      "property": "boiling_point",
+      "value_raw": "505",
+      "evidence_quote": "2-Chlorobenzonitrile 505 316 315 1 0.30 3.2 2",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Chlorobenzonitrile",
+      "property": "melting_point",
+      "value_raw": "316",
+      "evidence_quote": "2-Chlorobenzonitrile 505 316 315 1 0.30 3.2 2",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Chlorobenzonitrile",
+      "property": "boiling_point",
+      "value_raw": "496",
+      "evidence_quote": "4-Chlorobenzonitrile 496 367 359 8 0.60 4.5 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Chlorobenzonitrile",
+      "property": "melting_point",
+      "value_raw": "367",
+      "evidence_quote": "4-Chlorobenzonitrile 496 367 359 8 0.60 4.5 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Fluorobenzonitrile",
+      "property": "boiling_point",
+      "value_raw": "462",
+      "evidence_quote": "4-Fluorobenzonitrile 462 308 285 23 0.30 4.1 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Fluorobenzonitrile",
+      "property": "melting_point",
+      "value_raw": "308",
+      "evidence_quote": "4-Fluorobenzonitrile 462 308 285 23 0.30 4.1 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Methylbenzonitrile",
+      "property": "boiling_point",
+      "value_raw": "478",
+      "evidence_quote": "2-Methylbenzonitrile 478 260 292 — 33 0.30 3.2 2",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2-Methylbenzonitrile",
+      "property": "melting_point",
+      "value_raw": "260",
+      "evidence_quote": "2-Methylbenzonitrile 478 260 292 — 33 0.30 3.2 2",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Methylbenzonitrile",
+      "property": "boiling_point",
+      "value_raw": "486",
+      "evidence_quote": "3-Methylbenzonitrile 486 250 288 — 38 0.30 3.6 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "3-Methylbenzonitrile",
+      "property": "melting_point",
+      "value_raw": "250",
+      "evidence_quote": "3-Methylbenzonitrile 486 250 288 — 38 0.30 3.6 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Methylbenzonitrile",
+      "property": "boiling_point",
+      "value_raw": "491",
+      "evidence_quote": "4-Methylbenzonitrile 491 303 349 —47 0.60 4.3 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "4-Methylbenzonitrile",
+      "property": "melting_point",
+      "value_raw": "303",
+      "evidence_quote": "4-Methylbenzonitrile 491 303 349 —47 0.60 4.3 0",
+      "evidence_location": "Table III (continued)",
+      "location_type": "table"
+    }
+  ]
+}

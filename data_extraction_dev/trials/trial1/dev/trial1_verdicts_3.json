@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "247",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4d quote 'mp: 240-42\u00b0C' present verbatim on p.564 of Molecules 2002 7 554-565; DOI 10.3390/70700554 confirmed in paper."
+  },
+  {
+    "row_id": "363",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'Styrene 145.2 146.7 ...' present in Dearden 2003; MPBPVP column = 146.7; calculated data_type matches; DOI 10.1897/01-363 confirmed."
+  },
+  {
+    "row_id": "130",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.2.2 compound 5 quote 'White solid (225 mg, 30%), R f = 0.28 (AcOEt), mp: 145\u2013148 \u00b0C' present verbatim in Molecules 2024 29 2942; DOI matches."
+  },
+  {
+    "row_id": "236",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6c quote '... 6c): Yield: 73 %; mp: 117-18\u00b0C' present verbatim on p.562; range parsed correctly to 117-118; DOI matches."
+  },
+  {
+    "row_id": "224",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3c quote 'mp: 218-20\u00b0C' present verbatim; range parsed correctly to 218-220; DOI 10.3390/70700554 confirmed."
+  },
+  {
+    "row_id": "123",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '[Glu(OBu)2][HCl], it is the opposite\u2014the hydrochloride has a melting point of about 64 \u00b0C' present in section 2.3 of Molecules 2023 28 7523; DOI matches."
+  },
+  {
+    "row_id": "374",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'Fluorobenzene 85.0 96.7' present in Dearden 2003; exp. column = 85.0 \u00b0C; measured data_type matches; DOI confirmed."
+  },
+  {
+    "row_id": "371",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'Pyrrole 129.8 126.3' present; MPBPVP column = 126.3; calculated data_type matches; DOI confirmed."
+  },
+  {
+    "row_id": "284",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 Tb row Favipiravir STRM column = 618.948 K present in Chemical Data Collections 2022 37 100820; 618.948 \u2212 273.15 = 345.798 \u00b0C arithmetic correct; calculated data_type matches; DOI confirmed."
+  },
+  {
+    "row_id": "153",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 48 quote 'brown solid (212.4 mg, 97%). R f = 0.05 (EtOAc/MeOH 3:1), m.p. 105\u2013107 \u00b0C' present in Section 3.2.5 of Molecules 2024 29 2942; DOI matches."
+  },
+  {
+    "row_id": "18",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 23 (2E,4E)-5-(3-(Cinnamyloxy)phenyl)-N-isobutylpenta-2,4-dienamide; quote 'Mp 131\u2013133 \u00b0C' present in IJMS 2026 27 1716 section 3.1.7; DOI 10.3390/ijms27041716 confirmed."
+  },
+  {
+    "row_id": "9",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 14 (2E,4E)-N-(Adamantan-1-yl)-5-(naphthalen-2-yl)penta-2,4-dienamide; quote 'Mp 84\u201388 \u00b0C' with 0.15 g, 97% yield present; DOI matches."
+  },
+  {
+    "row_id": "324",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'Acetone 56.3 44.8' present in Dearden 2003; exp. column = 56.3; measured data_type matches; DOI confirmed."
+  },
+  {
+    "row_id": "190",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6a quote 'Yield 41 mg (13%); white powder; mp: 255\u2013257 \u00b0C' present in IJMS 2023 24 16359 Section 3.3; DOI 10.3390/ijms242216359 confirmed."
+  },
+  {
+    "row_id": "308",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "BCDMH defined as 1-bromo-3-chloro-5,5-dimethylhydantoin earlier in the chapter; subject pronoun 'It' in 'It is a white crystalline compound ... having a melting point of 159\u2013163 \u00b0C' refers to BCDMH; DOI 10.1016/B978-0-12-803409-5.00008-2 confirmed."
+  },
+  {
+    "row_id": "238",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6e quote '6e): Yield: 81 %; mp: 200-01\u00b0C' present verbatim on p.563; range parsed to 200-201; DOI matches."
+  },
+  {
+    "row_id": "209",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 1f X=H R=4-iPr (= 4-isoC3H7) with mp 199-200 present in Molecules 2003 8 756-769; compound name matches 3-(4-Isopropylphenyl)-2,2-dimethyl-1,2-dihydroquinazoline-4(3H)-thione; DOI 10.3390/81100756 confirmed."
+  },
+  {
+    "row_id": "279",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 Tb row Camostat SIRM column = 771.300 K; 771.300 \u2212 273.15 = 498.150 \u00b0C arithmetic correct; calculated data_type matches; DOI confirmed."
+  },
+  {
+    "row_id": "422",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 7 row '[bItaz][NO3] 85.5[138] 80.1' present; second column (Calc. Tfus from Eq. (16)) = 80.1 \u00b0C; calculated data_type matches; DOI 10.1002/cphc.201100522 confirmed."
+  },
+  {
+    "row_id": "61",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4c quote '5-Acetyl-4-cyclopentylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4c Yield = 38%; mp = 97\u201399 \u00b0C (EtOH)' present in Molecules 2026 31 699 Section 3.1.5; DOI 10.3390/molecules31040699 confirmed."
+  },
+  {
+    "row_id": "136",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11 quote 'White solid (139.8 mg, 79%). R f = 0.12 (CH 2 Cl 2 ), m.p. 165\u2013168 \u00b0C' present in Section 3.2.2 of Molecules 2024 29 2942; DOI matches."
+  },
+  {
+    "row_id": "15",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 20 (2E,4E)-N-(Adamantan-1-yl)-5-(3-phenoxyphenyl)penta-2,4-dienamide; quote 'Mp 174\u2013178 \u00b0C' with 0.21 g, 76% yield present; DOI 10.3390/ijms27041716 confirmed."
+  },
+  {
+    "row_id": "360",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'Quinoline 237.7 240.2' present in Dearden 2003; exp. column = 237.7; measured data_type matches; DOI confirmed."
+  },
+  {
+    "row_id": "307",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper has no DOI, but PMC ID found in directory name (PMC3716435) and citation has journal+year+vol+page. Per updated v1.1 protocol, this is acceptable."
+  },
+  {
+    "row_id": "132",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 7 quote 'White solid (473 mg, 60%). R f = 0.45 (AcOEt), m.p. 104 \u00b0C' present in Section 3.2.2 of Molecules 2024 29 2942; DOI matches."
+  }
+]

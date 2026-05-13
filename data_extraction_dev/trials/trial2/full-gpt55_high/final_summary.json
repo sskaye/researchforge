@@ -1,0 +1,42 @@
+{
+  "final_csv": "/Users/skaye/Claude/Skills/ResearchForge/data_extraction_dev/Trial2-full-gpt55_high/mp_bp_extracted.csv",
+  "rows": 907,
+  "verification_status_counts": {
+    "pending_verification": 861,
+    "verified_extraction": 34,
+    "audit_corrected": 12
+  },
+  "property_counts": {
+    "melting_point": 796,
+    "decomposition": 86,
+    "boiling_point": 10,
+    "DSC_peak": 9,
+    "sublimation": 1,
+    "DSC_onset": 5
+  },
+  "data_type_counts": {
+    "measured": 905,
+    "calculated": 2
+  },
+  "collection_rows": 86,
+  "phase4": {
+    "phase4_sampled_rows": 40,
+    "phase4_verified_extraction": 34,
+    "phase4_flagged_review_initial": 6,
+    "corrections_or_removals": 18,
+    "rows_final": 907,
+    "status_counts": {
+      "pending_verification": 861,
+      "verified_extraction": 34,
+      "audit_corrected": 12
+    },
+    "property_counts": {
+      "melting_point": 796,
+      "decomposition": 86,
+      "boiling_point": 10,
+      "DSC_peak": 9,
+      "sublimation": 1,
+      "DSC_onset": 5
+    }
+  }
+}

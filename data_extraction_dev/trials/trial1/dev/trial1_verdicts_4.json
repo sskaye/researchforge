@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "278",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5 Tb [K] row contains 757.482 under Camostat STRM; quote, conversion (757.482\u2212273.15=484.332), data_type=calculated all confirmed."
+  },
+  {
+    "row_id": "110",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 013 section 3.5 compound 5k: '6-((6-nitrobenzo[d][1,3]dioxol-5-yl)methyl)-6H-benzo[c]chromene (5k). Yield: 68%; Mp: 234 \u25e6C' verbatim in PDF; DOI matches."
+  },
+  {
+    "row_id": "227",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 138 compound 3f: 'Yield: 77 % (Method A), 75 % (Method B); mp: 237-39\u00b0C' verbatim; range 237-239 \u00b0C, measured."
+  },
+  {
+    "row_id": "139",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 020 Section 3.2.5 compound 34: 'Green solid (92.7 mg, 80%). Rf = 0.10 (AcOEt), m.p. 130 \u00b0C (dec.)' verbatim; mp=130 measured."
+  },
+  {
+    "row_id": "251",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5 Tm row literature column [47] for Baricitinib = 487.15 K; 487.15\u2212273.15=214.00 \u00b0C; measured (literature)."
+  },
+  {
+    "row_id": "421",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Krossing 2011 Table 7 row '[bItaz][NO3] 85.5[138] 80.1' under Exp. Tfus column; 85.5 \u00b0C measured; DOI 10.1002/cphc.201100522 confirmed."
+  },
+  {
+    "row_id": "230",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 138 compound 3i: 'Yield: 80 % (Method A), 71 % (Method B); mp: 233-35\u00b0C' verbatim; range 233-235 measured."
+  },
+  {
+    "row_id": "216",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 050 Table 1 row 2c contains '2c C15H10Cl2N2S 321.2 Cl 4-Cl 202-204 76' (NXML flattening); range 202-204 measured."
+  },
+  {
+    "row_id": "71",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 011 section 3.1.6 compound 5h: 'Yield = 42%; mp = 138\u2013140 \u25e6C (EtOH)' verbatim; range 138-140 measured."
+  },
+  {
+    "row_id": "322",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Dearden 2009 Table 2 row 'Acetic acid 118.0 122.3' under b.p. (exp.); 118.0 \u00b0C measured (compiled experimental)."
+  },
+  {
+    "row_id": "244",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 138 compound 4a: 'Yield: 69 % (Method A), 57 % (Method B); mp: 256-58\u00b0C' verbatim; range 256-258 measured."
+  },
+  {
+    "row_id": "253",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5 Tm row SIRM column for Camostat = 468.250 K; 468.250\u2212273.15=195.100 \u00b0C; calculated."
+  },
+  {
+    "row_id": "299",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 141: 'Edward Schunck [35] suggested that indigo, indirubin and dibromoindigo could be distinguished by an observation of their sublimation temperatures: 140, 170 and 190 \u00baC' verbatim; indigo=140 \u00b0C."
+  },
+  {
+    "row_id": "290",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5 second sub-table Tb row STRM col for Thalidomide = 648.734 K; 648.734\u2212273.15=375.584 \u00b0C; calculated."
+  },
+  {
+    "row_id": "280",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5 Tb row STRM column for Chloroquine = 688.550 K; 688.550\u2212273.15=415.400 \u00b0C; calculated."
+  },
+  {
+    "row_id": "427",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Schmittel 2014 (BJOC) compound 2c: 'white solid: mp = 116 \u00b0C, 83% yield (734 mg, 2.07 mmol)' verbatim; DOI 10.3762/bjoc.10.317 confirmed."
+  },
+  {
+    "row_id": "205",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 050 Table 1 row 1b: '1b C16H15ClN2S 302.8 H 4-Cl 238-241 82' (NXML flattening); range 238-241 measured."
+  },
+  {
+    "row_id": "87",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 013 section 3.2 compound 1e: '2\u2032-bromo-5-methoxy-[1,1\u2032-biphenyl]-2-carbaldehyde (1e). Yield: 68%; Mp: 92 \u25e6C' verbatim."
+  },
+  {
+    "row_id": "25",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 010 section 3.1.8 compound 32: 'Reaction time: 16 h. Purified by recrystallization from MeOH. White crystals. Yield: 94%. Mp 246 \u25e6C.' verbatim."
+  },
+  {
+    "row_id": "113",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 013 section 3.5 compound 5n: '6-(3-methyl-4-nitrobenzyl)-6H-benzo[c]chromene (5n). Yield: 69%; Mp: 77 \u25e6C' verbatim."
+  },
+  {
+    "row_id": "334",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Dearden 2009 Table 2 row 'Benzyl chloride 179.5 184.2' under b.p. (exp.); 179.5 \u00b0C measured."
+  },
+  {
+    "row_id": "6",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 010 compound 11: 'by trituration with Et2O affording a white solid (0.16 g, 79% yield). Mp 109\u2013112 \u25e6C.' verbatim; range 109-112 measured."
+  },
+  {
+    "row_id": "332",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Dearden 2009 Table 2 row 'Benzene 80.1 102.2' under b.p. (exp.); 80.1 \u00b0C measured."
+  },
+  {
+    "row_id": "73",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 011 section 3.1.6 compound 5k: 'Yield = 71%; mp = 133\u2013135 \u25e6C (EtOH)' verbatim; range 133-135 measured."
+  },
+  {
+    "row_id": "277",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5 Tb row SIRM column for Baricitinib = 760.077 K; 760.077\u2212273.15=486.927 \u00b0C; calculated."
+  }
+]

@@ -1,0 +1,130 @@
+property_family: melting_boiling_points
+canonical_unit: "°C"
+accepted_units:
+  - "°C"
+  - "C"
+  - "K"
+  - "°F"
+  - "F"
+
+# Each unit's conversion expression to canonical (Celsius)
+unit_conversion:
+  "°C": "value"
+  "C":  "value"
+  "K":  "value - 273.15"
+  "°F": "(value - 32) * 5/9"
+  "F":  "(value - 32) * 5/9"
+
+# Inline-prose property triggers (matched with word boundaries)
+property_triggers:
+  paragraph:
+    # melting-point triggers
+    - "mp"
+    - "m.p."
+    - "Mp"
+    - "M.p."
+    - "M.P."
+    - "M.P"
+    - "melting point"
+    - "melt"
+    - "Tm"
+    - "Tfus"
+    - "T_fus"
+    - "T fus"
+    # boiling-point triggers
+    - "bp"
+    - "b.p."
+    - "Bp"
+    - "B.p."
+    - "B.P."
+    - "B.P"
+    - "boiling point"
+    - "Tb"
+    - "T_b"
+  # Substring patterns expected in NXML table column headers
+  table_headers:
+    - "mp"
+    - "m.p."
+    - "M.p."
+    - "M.P."
+    - "Mp"
+    - "Melting"
+    - "Tm"
+    - "Tfus"
+    - "T_fus"
+    - "bp"
+    - "B.p."
+    - "B.P."
+    - "Bp"
+    - "Boiling"
+    - "Tb"
+    - "T_b"
+
+# Triggers that indicate the property is OUT of scope; candidates near
+# these are not enumerated (they are different thermal events).
+exclusion_triggers:
+  - "Tg"
+  - "glass transition"
+  - "Tc"
+  - "crystallization temperature"
+  - "T crys"
+  - "T cryst"
+  - "RMSE"
+  - "mean error"
+  - "MAE"
+  - "MAPE"
+  - "flash point"
+  - "freezing point"
+  - "decomposition temperature"  # decomp paired with mp is handled differently
+
+# Phrases that hint at data origin (used in classify(), Phase 4)
+data_origin_patterns:
+  measured_by_article:
+    - "was determined on"
+    - "measured by DSC"
+    - "found"
+    - "observed"
+  literature_cited:
+    - "lit."
+    - "literature"
+    - "reported"
+    - r"\[\d+\]"
+  predicted_calculated:
+    - "calculated"
+    - "predicted"
+    - "estimated"
+    - "STRM"
+    - "SIRM"
+    - "ASNN"
+    - "QSPR"
+
+# Relation-modifier phrases adjacent to a numeric value
+relation_triggers:
+  approximate:
+    - "approximately"
+    - "approx."
+    - "ca."
+    - "~"
+    - "≈"
+    - "about"
+  greater_than:
+    - ">"
+    - "more than"
+    - "above"
+  less_than:
+    - "<"
+    - "less than"
+    - "below"
+
+instruments:
+  - "DSC"
+  - "Mettler"
+  - "Gallenkamp"
+  - "Stuart"
+  - "Büchi"
+  - "Reichert"
+  - "capillary"
+  - "Köfler"
+  - "Kofler"
+  - "Thermowar"
+  - "Buchi"

@@ -1,5 +1,6 @@
 # macOS
 .DS_Store
+**/.DS_Store
 
 # Editor / IDE
 .vscode/
@@ -20,3 +21,15 @@ node_modules/
 
 # OS / misc
 Thumbs.db
+
+# Paper corpora — copyrighted journal PDFs/NXML/HTML, must not be committed to a public repo
+# (see data_extraction_dev/README.md for rationale)
+data_extraction_dev/corpora/
+test_data/
+
+# Files staged for deletion during reorgs
+_to_delete/
+**/_to_delete/
+
+# Per-paper symlink indexes pointing at the (gitignored) corpora; dangling outside dev box
+**/phase3_paper_root_index/

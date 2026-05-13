@@ -1,0 +1,222 @@
+{
+  "paper_id": "138",
+  "paper_source": "138_PMC6146434_Annellation_of_Triazole_and_Tetrazole_Systems_onto_Pyrrolo23-dpyrimidines_Synthesis_of_Tet",
+  "items": [
+    {
+      "compound_name": "7,9-Diphenyltetrazolo[1,5-c]pyrrolo-7H-[3,2-e]pyrimidine (3a)",
+      "property": "melting_point",
+      "value_raw": "215-17 C",
+      "evidence_quote": "7,9-Diphenyltetrazolo[1,5-c]pyrrolo-7H-[3,2-e]pyrimidine ( 3a ): Yield: 61 % (Method A), 60 % (Method B); mp: 215-17 C",
+      "evidence_location": "Experimental Section, compound 3a",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7-(4-Fluorophenyl)-9-phenyltetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (3b)",
+      "property": "melting_point",
+      "value_raw": "217-19 C",
+      "evidence_quote": "7-(4-Fluorophenyl)-9-phenyltetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 3b ): Yield: 70 % (Method A), 56 % (Method B); mp: 217-19 C",
+      "evidence_location": "Experimental Section, compound 3b",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7-(4-Chlorophenyl)-9-phenyl-7H-tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (3c)",
+      "property": "melting_point",
+      "value_raw": "218-20 C",
+      "evidence_quote": "7-(4-Chlorophenyl)-9-phenyl-7H-tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 3c ): Yield: 70 % (Method A), 64 % (Method B); mp: 218-20 C",
+      "evidence_location": "Experimental Section, compound 3c",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7-(3-Chloro-4-fluorophenyl)-9-phenyl-7H-tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (3d)",
+      "property": "melting_point",
+      "value_raw": "212-14 C",
+      "evidence_quote": "7-(3-Chloro-4-fluorophenyl)-9-phenyl-7H-tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 3d) : Yield: 64 % (Method A), 63 % (Method B); mp: 212-14 C",
+      "evidence_location": "Experimental Section, compound 3d",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7-Phenyl-9-(4-methoxyphenyl)tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (3e)",
+      "property": "melting_point",
+      "value_raw": "216-18 C",
+      "evidence_quote": "7-Phenyl-9-(4-methoxyphenyl)tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 3e ): Yield: 70 % (Method A), 56 % (Method B); mp: 216-18 C",
+      "evidence_location": "Experimental Section, compound 3e",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7,9-Di(4-methoxyphenyl)tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (3f)",
+      "property": "melting_point",
+      "value_raw": "237-39 C",
+      "evidence_quote": "7,9-Di(4-methoxyphenyl)tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 3f ): Yield: 77 % (Method A), 75 % (Method B); mp: 237-39 C",
+      "evidence_location": "Experimental Section, compound 3f",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7-(4-Fluoropheny)l-9-(4-methoxyphenyl)tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (3g)",
+      "property": "melting_point",
+      "value_raw": "245-47 C",
+      "evidence_quote": "7-(4-Fluoropheny)l-9-(4-methoxyphenyl)tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 3g ): Yield: 63 % (Method A), 61 % (Method B); mp: 245-47 C",
+      "evidence_location": "Experimental Section, compound 3g",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7-(3-Chloro-4-fluorophenyl)-9-(4-methoxyphenyl)tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (3h)",
+      "property": "melting_point",
+      "value_raw": "219-21 C",
+      "evidence_quote": "7-(3-Chloro-4-fluorophenyl)-9-(4-methoxyphenyl)tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 3h ): Yield: 56 % (Method A), 58 % (Method B); mp: 219-21 C",
+      "evidence_location": "Experimental Section, compound 3h",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7-(4-Phenyl)-9-(4-chlorophenyl)-7H-tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (3i)",
+      "property": "melting_point",
+      "value_raw": "233-35 C",
+      "evidence_quote": "7-(4-Phenyl)-9-(4-chlorophenyl)-7H-tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 3i ): Yield: 80 % (Method A), 71 % (Method B); mp: 233-35 C",
+      "evidence_location": "Experimental Section, compound 3i",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7-(4-Fluorophenyl)-9-(4-chlorophenyl)-7H-tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (3j)",
+      "property": "melting_point",
+      "value_raw": "226-28 C",
+      "evidence_quote": "7-(4-Fluorophenyl)-9-(4-chlorophenyl)-7H-tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 3j ): Yield: 67 % (Method A), 66 % (Method B); mp: 226-28 C",
+      "evidence_location": "Experimental Section, compound 3j",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7,9-Di(4-chlorophenyl)-7H-tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (3k)",
+      "property": "melting_point",
+      "value_raw": "224-25 C",
+      "evidence_quote": "7,9-Di(4-chlorophenyl)-7H-tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 3k ): Yield: 77 % (Method A), 70 % (Method B); mp: 224-25 C",
+      "evidence_location": "Experimental Section, compound 3k",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7-(3-Chloro-4-fluoropheny)l-9-(4-chlorophenyl)tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (3l)",
+      "property": "melting_point",
+      "value_raw": "220-22 C",
+      "evidence_quote": "7-(3-Chloro-4-fluoropheny)l-9-(4-chlorophenyl)tetrazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 3l ): Yield: 65 % (Method A), 63 % (Method B); mp: 220-22 C",
+      "evidence_location": "Experimental Section, compound 3l",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1-(4-Chlorophenyl)-N-ethoxymethylene-2-amino-3-cyano-4-phenylpyrrole (6a)",
+      "property": "melting_point",
+      "value_raw": "130-31 C",
+      "evidence_quote": "1-(4-Chlorophenyl)-N-ethoxymethylene-2-amino-3-cyano-4-phenylpyrrole ( 6a ): Yield: 70 %; mp: 130-31 C",
+      "evidence_location": "Experimental Section, compound 6a",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1-Phenyl-N-ethoxymethylene-2-amino-3-cyano-4-(4-methoxyphenyl)pyrrole (6b)",
+      "property": "melting_point",
+      "value_raw": "159-60 C",
+      "evidence_quote": "1-Phenyl-N-ethoxymethylene-2-amino-3-cyano-4-(4-methoxyphenyl)pyrrole ( 6b ): Yield: 72 %; mp: 159-60 C",
+      "evidence_location": "Experimental Section, compound 6b",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1,4-Di(4-methoxyphenyl)-N-ethoxymethylene-2-amino-3-cyanopyrrole (6c)",
+      "property": "melting_point",
+      "value_raw": "117-18 C",
+      "evidence_quote": "1,4-Di(4-methoxyphenyl)-N-ethoxymethylene-2-amino-3-cyanopyrrole ( 6c ): Yield: 73 %; mp: 117-18 C",
+      "evidence_location": "Experimental Section, compound 6c",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1-Phenyl-N-ethoxymethylene-2-amino-3-cyano-4-(4-chlorophenyl)pyrrole (6d)",
+      "property": "melting_point",
+      "value_raw": "167-68 C",
+      "evidence_quote": "1-Phenyl-N-ethoxymethylene-2-amino-3-cyano-4-(4-chlorophenyl)pyrrole ( 6d) : Yield: 70 %; mp: 167- 68 C",
+      "evidence_location": "Experimental Section, compound 6d",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "1,4-Di(4-chlorophenyl)-N-ethoxymethylene-2-amino-3-cyanopyrrole (6e)",
+      "property": "melting_point",
+      "value_raw": "200-01 C",
+      "evidence_quote": "1,4-Di(4-chlorophenyl)-N-ethoxymethylene-2-amino-3-cyanopyrrole ( 6e) : Yield: 81 %; mp: 200-01 C",
+      "evidence_location": "Experimental Section, compound 6e",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "3-Amino-4-imino-5-phenyl-7-(4-chlorophenyl)-7H-pyrrolo[2,3-d]pyrimidine (7a)",
+      "property": "melting_point",
+      "value_raw": "201-02 C",
+      "evidence_quote": "3-Amino-4-imino-5-phenyl-7-(4-chlorophenyl)-7H-pyrrolo[2,3-d]pyrimidine ( 7a ): Yield: 89 %; mp: 201-02 C",
+      "evidence_location": "Experimental Section, compound 7a",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "3-Amino-4-imino-5-(4-methoxyphenyl)-7-phenyl-7H-pyrrolo[2,3-d]pyrimidine (7b)",
+      "property": "melting_point",
+      "value_raw": "193-95 C",
+      "evidence_quote": "3-Amino-4-imino-5-(4-methoxyphenyl)-7-phenyl-7H-pyrrolo[2,3-d]pyrimidine ( 7b ): Yield: 88 %; mp: 193-95 C",
+      "evidence_location": "Experimental Section, compound 7b",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "3-Amino-4-imino-5,7-di(4-methoxyphenyl)-7H-pyrrolo[2,3-d]pyrimidine (7c)",
+      "property": "melting_point",
+      "value_raw": "154-55 C",
+      "evidence_quote": "3-Amino-4-imino-5,7-di(4-methoxyphenyl)-7H-pyrrolo[2,3-d]pyrimidine ( 7c ): Yield: 84 %: mp: 154- 55 C",
+      "evidence_location": "Experimental Section, compound 7c",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "3-Amino-4-imino-5-(4-chlorophenyl)-7-phenyl-7H-pyrrolo[2,3-d]pyrimidine (7d)",
+      "property": "melting_point",
+      "value_raw": "204-06 C",
+      "evidence_quote": "3-Amino-4-imino-5-(4-chlorophenyl)-7-phenyl-7H-pyrrolo[2,3-d]pyrimidine ( 7d ): Yield: 86 %; mp: 204-06 C",
+      "evidence_location": "Experimental Section, compound 7d",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "3-Amino-4-imino-5,7-di(4-chlorophenyl)-7H-pyrrolo[2,3-d]pyrimidine (7e)",
+      "property": "melting_point",
+      "value_raw": "224-25 C",
+      "evidence_quote": "3-Amino-4-imino-5,7-di(4-chlorophenyl)-7H-pyrrolo[2,3-d]pyrimidine ( 7e ): Yield: 70 %; mp: 224- 25 C",
+      "evidence_location": "Experimental Section, compound 7e",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7-(4-Chorophenyl)-9-phenyl-7H-triazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (4a)",
+      "property": "melting_point",
+      "value_raw": "256-58 C",
+      "evidence_quote": "7-(4-Chorophenyl)-9-phenyl-7H-triazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 4a ): Yield: 69 % (Method A), 57 % (Method B); mp: 256-58 C",
+      "evidence_location": "Experimental Section, compound 4a",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7-Phenyl-9-(4-methoxyphenyl)triazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (4b)",
+      "property": "melting_point",
+      "value_raw": "225-26 C",
+      "evidence_quote": "7-Phenyl-9-(4-methoxyphenyl)triazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 4b ): Yield: 55 % (Method A), 62 % (Method B); mp: 225-26 C",
+      "evidence_location": "Experimental Section, compound 4b",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7,9-Di(4-methoxyphenyltriazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (4c)",
+      "property": "melting_point",
+      "value_raw": "204-05 C",
+      "evidence_quote": "7,9-Di(4-methoxyphenyltriazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 4c ): Yield: 85 % (Method A), 75 % (Method B); mp: 204-05 C",
+      "evidence_location": "Experimental Section, compound 4c",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7-(4-Phenyl)-9-(4-chlorophenyl)-7H-triazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (4d)",
+      "property": "melting_point",
+      "value_raw": "240-42 C",
+      "evidence_quote": "7-(4-Phenyl)-9-(4-chlorophenyl)-7H-triazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 4d ): Yield: 70 % (Method A), 72 % (Method B); mp: 240-42 C",
+      "evidence_location": "Experimental Section, compound 4d",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "7,9-Di(4-chlorophenyl)-7H-triazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine (4e)",
+      "property": "melting_point",
+      "value_raw": "237-39 C",
+      "evidence_quote": "7,9-Di(4-chlorophenyl)-7H-triazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine ( 4e ): Yield: 85 % (Method A), 82 % (Method B); mp: 237-39 C",
+      "evidence_location": "Experimental Section, compound 4e",
+      "location_type": "main_text"
+    }
+  ]
+}

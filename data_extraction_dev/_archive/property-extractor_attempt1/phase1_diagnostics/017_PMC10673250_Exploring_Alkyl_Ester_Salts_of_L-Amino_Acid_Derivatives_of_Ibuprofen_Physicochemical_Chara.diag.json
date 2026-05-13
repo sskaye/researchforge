@@ -1,0 +1,65 @@
+{
+  "article_id": "017_PMC10673250_Exploring_Alkyl_Ester_Salts_of_L-Amino_Acid_Derivatives_of_Ibuprofen_Physicochemical_Chara",
+  "source_kind": "pmc_nxml",
+  "available_sources": [
+    "nxml",
+    "text",
+    "pdf"
+  ],
+  "section_count": 18,
+  "section_first_3_headings": [
+    "1. Introduction",
+    "2. Results and Discussion",
+    "3. Materials and Methods"
+  ],
+  "table_count": 4,
+  "table_labels": [
+    "Table 1",
+    "Table 2",
+    "Table 3",
+    "Table 4"
+  ],
+  "table_header_examples": [
+    [
+      "Compound",
+      "Molar Mass (g·mol−1)",
+      "Concentration(g·dm−3)",
+      "Optical Rotation αλT(Arc°)",
+      "Specific Rotation [α]λT",
+      "Molar Rotation [M]λT"
+    ],
+    [
+      "Compound",
+      "Tonset (°C)",
+      "Tmax (°C)",
+      "Tm (°C)(ΔHm (J·g−1))",
+      "Tg (°C)"
+    ],
+    [
+      "(g·dm−3)",
+      "(g IBU·dm−3)"
+    ]
+  ],
+  "caption_count": 12,
+  "doi_candidate_count": 2,
+  "doi_candidates": [
+    {
+      "doi": "10.3390/molecules28227523",
+      "source": "nxml_front_matter"
+    },
+    {
+      "doi": "10.3390/molecules28227523",
+      "source": "pdf_text_first_2_pages"
+    }
+  ],
+  "full_text_length": 453073,
+  "warnings": [],
+  "doi_verification": {
+    "doi": "10.3390/molecules28227523",
+    "doi_evidence": "nxml_front_matter",
+    "doi_verified": true,
+    "warnings": [
+      "doi_verified_across_2_sources"
+    ]
+  }
+}

@@ -1,0 +1,506 @@
+Acid-catalyzed rearrangements in arenes: interconversions in
+the quaterphenyl series
+Sarah L. Skraba-Joiner, Carter J. Holt and Richard P. Johnson*
+
+
+
+
+  Full Research Paper                                                                                                             Open Access
+
+  Address:                                                            Beilstein J. Org. Chem. 2019, 15, 2655–2663.
+  Department of Chemistry and Materials Science Program, University   doi:10.3762/bjoc.15.258
+  of New Hampshire, Durham, NH 03824, USA
+                                                                      Received: 20 June 2019
+  Email:                                                              Accepted: 18 October 2019
+  Richard P. Johnson* - Richard.Johnson@unh.edu                       Published: 06 November 2019
+
+  * Corresponding author                                              This article is part of the thematic issue "Reactive intermediates –
+                                                                      carbocations".
+  Keywords:
+  arenium ion; carbocation; density functional theory; microwave      Guest Editor: S. R. Hare
+  reaction; rearrangement; superacid
+                                                                      © 2019 Skraba-Joiner et al.; licensee Beilstein-Institut.
+                                                                      License and terms: see end of document.
+
+
+
+
+Abstract
+Arenes undergo rearrangement of phenyl, alkyl, halogen and other groups through the intermediacy of ipso arenium ions in which a
+proton is attached at the same carbon as the migrating substituent. Interconversions among the six quaterphenyl isomers have been
+studied here as a model for rearrangements of linear polyphenyls. All reactions were carried out in 1 M CF3SO3H (TfOH) in
+dichloroethane at 150 °C in a microwave reactor for 30–60 min, with product formation assessed by high field NMR analysis.
+Under these reaction conditions, m,p'-quaterphenyl is the equilibrium product. This isomer is unchanged by the reaction conditions
+and all other quaterphenyl isomers rearrange to m,p' as the dominant or sole product. DFT computations with inclusion of implicit
+solvation support a complex network of phenyl and biphenyl shifts, with barriers to rearrangement in the range of 10–21 kcal/mol.
+Consistent with experiments, the lowest energy arenium ion located on this surface is due to protonation of m,p'-quaterphenyl. This
+supports thermodynamic control based on carbocation energies.
+
+
+
+
+Introduction
+Carbocations are enigmatic reactive intermediates of enduring           Every student of organic chemistry is taught the importance of
+importance in chemistry. No other reactive species displays             arenium ions in the classic two step SEAr mechanism for elec-
+such a complex and fascinating collection of molecular rear-            trophilic aromatic substitution. Addition of an electrophile to an
+rangements. Building on a long history, new synthetic applica-          arene leads to a bound species, sometimes called a σ-complex,
+tions [1,2] and explanations of carbocation reaction mecha-             which then loses a proton at the site of substitution to yield the
+nisms [3-6] continue to be discovered. Chemistry in superacid           product [9]. Of course challenges to this simple mechanism
+solutions has played a major role in this field [7,8].                  exist [10-15], including the recent proposal of a one-step
+
+
+                                                                                                                                             2655
+                                                                                               Beilstein J. Org. Chem. 2019, 15, 2655–2663.
+
+
+
+
+process [16]. Reaction dynamics of electrophile–arene π com-          Our interest in this field arose from an accidental rediscovery of
+plexes may also play a role in site selectivity [17]. It is less      rearrangements in the terphenyl series (1–3; Scheme 1), by
+commonly known that arenium ions, like many other types of            heating 1 with AlCl3 – a reaction independently discovered
+carbocations, often rearrange by 1,2-shifts. This leads to a fasci-   twice before [22,23]! We confirmed earlier observations of
+nating collection of rearrangements that can migrate hydrogen,        facile acid-catalyzed interconversion, as well as the fact that
+halogens or more complex substituents around the ring and             m-terphenyl (2) is favored at equilibrium (observed ratio 1:2:3
+even modify the carbon skeleton. Early reports by Baddeley            is <1:69:31) and used theory to explain this product selectivity
+[18] helped to explain odd results from Friedel–Crafts reactions      [25]. This preference is consistent with formation of the most
+[19] and this type of process is sometime referred to as a            stable arenium ion intermediate, as shown by DFT computa-
+Baddeley rearrangement. Many examples of alkyl group migra-           tions.
+tion have been described [19]. Phenyl groups migrate easily and
+degenerate phenyl shifts in biphenyl were confirmed by isotopic       Early studies in this field used AlCl3 as catalyst and it was gen-
+labeling [20,21]. One classic example of arenium ion chemistry        erally assumed that adventitious traces of water generated the
+is the interconversion of terphenyl isomers 1–3 (Scheme 1).           actual catalyst, precise identity unknown. We found these
+This rearrangement was first reported by Allen and Pingert in         "water-promoted" reactions with catalytic AlCl3 to be unreli-
+1942 [22] and then independently rediscovered by Olah and             able. To remove ambiguity about the catalyst and extend the
+Meyer twenty years later [23]. Interconversion of isomers 1–3         temperature range, we developed a more reliable method for
+is believed to occur through the intermediacy of ipso arenium         studying higher temperature carbocation rearrangements. In our
+ions 4–6 which connect through 1,2-phenyl shifts.                     method, we use 1 M (ca. 20% by volume) trifluoromethane-
+                                                                      sulfonic acid (TfOH) as catalyst with dichloroethane as our
+                                                                      preferred solvent. Most importantly, reactions are conducted in
+                                                                      the capped tube of a microwave reactor. With this approach, we
+                                                                      can safely and reproducibly heat reactions to ca. 170 °C, so far
+                                                                      without incident.
+
+                                                                      Other more complex rearrangements are easily observed. In the
+                                                                      binaphthyl series 7–9, three sequential rearrangements occur at
+                                                                      ambient temperature favoring the 2,2'-isomer 9 (97%) at equi-
+                                                                      librium [26]. Aryl shifts occur readily in naphthalene, with beta-
+                                                                      substitution favored at equilibrium. Skeletal rearrangements of
+                                                                      fused arene rings are also possible and can proceed through
+                                                                      several mechanisms. The first example was reported by Dansi
+                                                                      and Salvioni in 1941 in the rearrangement of benz[a]anthracene
+                                                                      to chrysene [27]. We recently studied the rearrangement of
+                                                                      anthracene (10) to phenanthrene (11) [28], finding evidence to
+                                                                      support a complex process, suggested earlier [29], that involves
+                                                                      initial reduction to 1,2,3,4-tetrahydroanthracene, followed by a
+                                                                      pirouette rearrangement of the reduced ring through a spiro-
+                                                                      cyclic intermediate and then re-oxidation to phenanthrene.
+                                                                      These reactions involve a complex series of proton and hydride
+                                                                      transfers.
+
+                                                                      Results and Discussion
+                                                                      Beyond terphenyls, acid-catalyzed rearrangements pose limita-
+                                                                      tions in the synthesis of extended polyphenyls but the factors
+ Scheme 1: Acid-catalyzed rearrangements of arenes.
+                                                                      controlling interconversion of isomers are poorly understood
+                                                                      [30-33]. As one recent example, Jasti and co-workers showed
+The term "ipso" was first proposed by Perrin and Skinner to           that cycloparaphenylenes undergo rapid acid-catalyzed rear-
+explain unusual results in electrophilic substitution reactions;      rangement which precludes using Scholl-type chemistry in this
+this refers to protonation at the site of a substituent [24]. Ipso    series [30]. In the present work, we have explored rearrange-
+protonation is the essential step in arenium ion rearrangements.      ments of quaterphenyls, the next homolog in the paraphenylene
+
+
+                                                                                                                                      2656
+                                                                                              Beilstein J. Org. Chem. 2019, 15, 2655–2663.
+
+
+
+
+ Scheme 2: Rearrangement of quaterphenyl isomers by phenyl shifts.
+
+
+
+series, now with six structural isomers. Scheme 2 summarizes
+interconnections via 1,2-migration of a terminal phenyl group.
+As will be shown below, an internal aryl–aryl bond can also be
+transposed through 1,2-biphenyl migration, with a similar
+network of interconversions. Based on the behavior of terphenyl
+which favors meta substitution at equilibrium, we initially
+hypothesized that m,m'-quaterphenyl (14) would likely be the
+major isomer at equilibrium.
+
+Only brief exploration of quaterphenyl rearrangements had been
+described previously. Isomerization of o,o’-quaterphenyl (17)
+with SnCl4/AlCl3 catalysis has been reported to yield a mixture
+of p,p’- (12), m,p’- (13), and m,m’-quaterphenyl (14) [34].
+
+p,p’-Quaterphenyl (12) and m,m’-quaterphenyl (14) were avail-
+able commercially. To complete the series, samples of m,p’-
+(13), o,p’- (15), o,m’- (16), and o,o’-quaterphenyl (17) were
+synthesized as shown in Scheme 3. Suzuki–Miyaura coupling
+was used to synthesize 13, 15, and 16 from the corresponding
+aryl bromides and boronic acids [35]. o,o’-Quaterphenyl (17)
+                                                                      Scheme 3: Synthesis of quaterphenyl isomers.
+was synthesized by homo-coupling of 2-bromobiphenyl, as pre-
+viously reported [36].
+                                                                     with reaction times of 30 or 60 min. After chromatographic
+Promoting the rearrangement of all quaterphenyl isomers at           purification to remove oligomeric material, product distribu-
+room temperature or in refluxing DCE (84 °C) proved to be            tions were determined by high field 1H NMR, with integration
+difficult because p,p’-quaterphenyl (12) is very poorly soluble      of unique resonances for each isomer. In these reactions, we at-
+in this solvent and higher temperatures were required in some        tribute no special effect due to microwaves. This has been a
+cases to reach equilibrium. In a solution of 1 M TfOH/DCE, 12        subject of some debate in the literature [37,38]. As we have
+forms a colored solution more slowly (ca. 1–2 min) than              demonstrated earlier, the microwave reactor simply provides a
+previous examples we have studied. Heating these reaction mix-       safe and reliable way to heat samples with superacids at temper-
+tures in a microwave reactor allows for the substrate to dissolve    atures well above the normal solvent boiling point.
+in the reaction medium, resulting in a rearrangement. To
+provide a consistent reaction environment, the rearrangement of      The results of quaterphenyl isomerizations are summarized in
+all isomers was studied using a microwave reactor at 150 °C,         Table 1. Initially it was expected that m,m’-quaterphenyl (14)
+
+
+                                                                                                                                     2657
+                                                                                                           Beilstein J. Org. Chem. 2019, 15, 2655–2663.
+
+
+
+
+ Table 1: Product distributions from rearrangement of quaterphenyl isomers.a,b.
+
+    Reactant       Time (min)            12               13               14               15              16               17             Yield
+
+       12               30                –              100                –                –               –                –               70
+       12               60                –              100                –                –               –                –               55
+       13               30                –              100                –                –               –                –               88
+       13               60                –              100                –                –               –                –               75
+       14               30                –               50               50                –               –                –               81
+       14               60                –               67               33                –               –                –               90
+       15               30                –               81               19                –               –                –               70
+       16               30                –               57               43                –               –                –               64
+       17               30                –               60               40                –               –                –               67
+ aAll reactions were carried out in 1 M CF SO H in dichloroethane at 150 °C in a microwave reactor. bYields are total isolated products after flash
+                                          3  3
+ chromatography.
+
+
+
+
+might be the major isomer formed at equilibrium, as previous                    (Scheme 4a). Biphenyl shifts are also possible through proton-
+examples have heavily favored meta-substitution patterns. Con-                  ation at the internal ipso sites (Scheme 4b). This results in a
+trary to this expection, the major product observed in all cases                very complex potential energy surface. Protonation of a termi-
+was m,p’-quaterphenyl (13). In 30 min at 150 °C, p,p’-quater-                   nal phenyl group can also lead to terphenyl migration but this
+phenyl (12) isomerized completely to 13. Under the same                         process is structurally degenerate and was not explored by com-
+conditions, m,m’-quaterphenyl (14) isomerized more slowly,                      putations.
+yielding 13 and 14 in a 50:50 mixture in 30 min. Increased reac-
+tion time with m,m’-quaterphenyl (14) yielded 13 and 14 in a
+67:33 ratio. Starting with o,m’- (16) or o,o’-quaterphenyl (17)
+yielded a mixture of ca. 60% 13 and ca. 40% 14 in 30 min.
+Similarly, o,p’-quaterphenyl (15) isomerized to an 81:19 mix-
+ture of 13:14. When starting with m,p’-quaterphenyl, no rear-
+rangement to 14 was observed, even at increased reaction times.
+
+Minor products with more downfield chemical shifts were also
+observed via 1H NMR of these crude product mixtures; these
+were easily separated from quaterphenyl isomers using flash
+column chromatography. Analysis of the crude product mix-
+tures by MALDI–TOF–MS confirmed these minor products
+could be attributed to oligomerization (m/z = 344, 673).
+
+Our conclusion from this series of experiments is that m,p'-
+quaterphenyl (13) is the equilibrium product from rearrange-
+ment of all of the six isomers. This is most clearly demon-
+strated in the rearrangement of 12 to 13 and the failure of 13 to
+produce other isomers. In some cases, reaction times were                         Scheme 4: Rearrangement of quaterphenyl isomers via (a) 1,2-phe-
+                                                                                  nyl shift and (b) 1,2-biphenyl shift.
+insufficient to fully reach equilibrium.
+
+Computational models for quaterphenyl                                           Both phenyl and biphenyl rearrangement pathways were studied
+rearrangements                                                                  by DFT methods, with inclusion of implicit solvation by the
+While the energy surface for the interconversion of quater-                     polarizable continuum model (PCM). As in our earlier research,
+phenyl isomers initially seems straightforward, there are addi-                 we employed B3LYP/6-31+G(d,p) theory with PCM solvation
+tional modes of rearrangement that must be considered. 1,2-                     in dichloroethane [25,26,28]. As noted earlier by Tantillo, the
+Phenyl shifts are possible to interconvert isomers, occurring                   B3LYP functional provides a very good description of carbo-
+through protonation at the ipso site on the external phenyl rings               cation chemistry [3].
+
+
+                                                                                                                                                      2658
+                                                                                                      Beilstein J. Org. Chem. 2019, 15, 2655–2663.
+
+
+
+
+Figure 1 shows the lowest energy pathways for 1,2-phenyl                   lar π stacking. Very similar results were obtained with M06-2X/
+shifts, while Figure 2 shows those for a 1,2-biphenyl shifts. In           6-311+G(d,p) theory, which also placed 17 as the lowest energy
+each case, the energy reference is arbitrarily chosen as the linear        quaterphenyl isomer. Our results thus do not support thermo-
+ipso cation 12c or 12d for phenyl or biphenyl shift, respective-           dynamic control based on relative energies of the neutral
+ly. Predicted barriers for rearrangements of ipso cations are all          quaterphenyls.
+in the range of 9–22 kcal/mol. Common to both potential
+energy surfaces are the lowest energy non-ipso carbocations                A more plausible scenario is that thermodynamic control
+12a–17a which lie at the bottom on the energy scale. It is note-           applies to carbocation intermediates, with the equilibrium prod-
+worthy that m,p' cation 13a is the lowest energy species pre-              uct determined by the energy of the lowest energy carbocation
+dicted by our calculations. In each diagram, double-headed                 in solution. This is predicted to be 13a. The speed of equilibra-
+vertical arrows show the energy difference between ipso cations            tion for different isomers is determined by the number of re-
+and their non-ipso counterpart which might be formed rapidly               quired steps and their barriers. Thus 12 rearranges to 13 in a
+by secondary 1,2-hydride shifts.                                           phenyl or biphenyl migration, passing through TS7 or TS13, re-
+                                                                           spectively. This rearrangement is complete in our standard
+In principle, the equilibrium product in these complex reactions           30 min reaction time. By contrast, 17 requires three separate
+might correlate with relative energies of the neutral quater-              migration steps to arrive at 13, passing through 16 and 14; this
+phenyl isomers. Reliable heats of formation for quaterphenyls              rearrangement (Table 1) is incomplete during the same reaction
+are unavailable in the literature but these values and other esti-         period.
+mates for relative energies can be predicted by theory. Starting
+with the lowest energy conformer for each quaterphenyl, we                 An unknown factor is the degree of protonation, especially at
+first computed heats of formation using the T1 method [39].                150 °C. We observed earlier by NMR spectroscopy that
+Predicted values (Supporting Information File 1) are narrowly              anthracene is fully protonated at ambient temperature in 1M
+clustered in a range of ca. 2 kcal/mol, with the lowest energy             TfOH but 1,3,5-triphenylbenzene is not [28]. One experimental
+isomer predicted to be o,o'-quaterphenyl (17). This low ranking            observation is that the 1M TfOH/arene reaction solutions
+for the most congested isomer may be attributed to intramolecu-            invariably have a bright color at ambient temperature due to the
+
+
+
+
+ Figure 1: Pathways for terminal 1,2-phenyl shifts in quaterphenyl isomers calculated with IEFPCM(DCE)/B3LYP/6-31+G(d,p) theory. Relative free
+ energies are given in kcal/mol.
+
+
+
+
+                                                                                                                                                 2659
+                                                                                                      Beilstein J. Org. Chem. 2019, 15, 2655–2663.
+
+
+
+
+ Figure 2: Pathways for 1,2-biphenyl shifts in quaterphenyl isomers calculated with IEFPCM(DCE)/B3LYP/6-31+G(d,p) theory. Relative free energies
+ are given in kcal/mol.
+
+
+
+carbocation [40,41]. As these solutions are heated, they become            Conclusion
+much darker in color, implying a higher level of protonation.              Acid-catalyzed interconversions among the six quaterphenyl
+Upon cooling, a more normal color is returned. Full proton-                isomers have been studied in this work as a model for rear-
+ation of 13 at 150 °C would explain thermodynamic control by               rangements of linear polyphenyls. All reactions were carried out
+cationic intermediates.                                                    in 1 M CF 3 SO 3 H (TfOH) in dichloroethane at 150 °C in a
+                                                                           microwave reactor for 30 or 60 min, with product formation
+Our naïve supposition at the outset of this project that m,m'-             assessed by high field NMR analysis. Under these reaction
+quaterphenyl 14 might be favored at equilibrium was unsup-                 conditions, m,p'-quaterphenyl (13) is the equilibrium product.
+ported by experiment, which instead showed the m,p' isomer 13              This isomer is unchanged by the reaction conditions and all
+to be preferred. A comparison of 5a, the lowest energy cation              other quaterphenyl isomers rearrange to m,p' as the dominant or
+from terphenyl rearrangements, with 13a, the corresponding                 sole product. DFT computations with inclusion of implicit
+cation for quaterphenyls, provides a simple explanation. If a              solvation support a complex network of phenyl and biphenyl
+single ring is protonated, greater stability accrues from a para           shifts, with barriers to rearrangement in the range of
+phenyl substituent with meta a close second. The same effect               10–21 kcal/mol. Consistent with experiments, the lowest energy
+should apply to longer polyphenylene chains, resulting in a                arenium ion located on this surface is due to protonation of
+chain of aryl groups that remains mostly para after generating a           m,p'-quaterphenyl. This supports thermodynamic control based
+more basic meta substituted site.                                          on carbocation energies. The same effect may apply to longer
+                                                                           polyphenylene chains, resulting in a chain of aryl groups that
+                                                                           does not fully rearrange but remains mostly para after gener-
+                                                                           ating a more basic meta substituted site.
+
+                                                                           Experimental
+                                                                           General methods. Trifluoromethanesulfonic acid (TfOH, 99%
+                                                                           purity) and dichloroethane (DCE, 99+%) were used as received
+                                                                           from commercial sources. Glassware was oven dried
+
+
+                                                                                                                                             2660
+                                                                                          Beilstein J. Org. Chem. 2019, 15, 2655–2663.
+
+
+
+
+and all reactions were run under a nitrogen atmosphere.           with DCM. The organic extract was washed with water and
+1 H NMR spectra were measured in CDCl using a Varian              brine and dried with Na2SO4. The crude product was purified
+                                          3
+XL-400 MHz spectrometer. Microwave reactions were                 by flash chromatography with hexanes to yield o,p’-quater-
+conducted using a single-mode CEM microwave reactor               phenyl as a white solid (0.55 g, mp 107–109 °C, lit 117–120 °C,
+in 10 mL vessels with temperature monitoring by an external       90% yield). 1H NMR (400 MHz, CDCl3) δ 7.61–7.57 (m, 2H),
+sensor.                                                           7.50–7.40 (m, 8H), 7.35–7.29 (m, 1H), 7.26–7.17 (m, 7H).
+
+General procedure for rearrangement in the microwave              Suzuki–Miyaura coupling to form o,m’-Quaterphenyl (16)
+(MW) reactor. In a similar manner as described in [28], under     [35]: 2-Bromobiphenyl (0.20 g, 0.80 mmol), biphenyl-3-
+a nitrogen atmosphere, the substrate (ca. 4 – 50 mg) and 1,2-     boronic acid (0.25 g, 1.3 mmol), and Pd(PPh 3 ) 4 (0.02 g,
+dichloroethane (DCE, 4 mL) were added to a 10 mL reaction         0.02 mmol) were dissolved in DMF (10 mL). The reaction mix-
+vessel. Trifluoromethanesulfonic acid (TfOH) (0.40 mL,            ture was cooled to 0 °C and purged with nitrogen. A solution of
+4.5 mmol) was added dropwise by syringe; this typically caused    K2CO3 (0.20 g, 1.5 mmol) and water (5 mL) was added via
+formation of a bright color. The reaction mixture was purged      syringe and the reaction mixture was stirred at 0 °C for 5 h. The
+with nitrogen, capped and heated in a microwave reactor. Reac-    product was extracted with DCM, and washed with water,
+tion times represent hold times after a ramp time of ca.          NaOH, and HCl. The organic extract was then washed with
+10 minutes. After cooling, products were isolated by careful      water and brine and dried with Na2SO4. The crude product was
+neutralization with saturated aqueous NaHCO3 and extraction       purified by flash chromatography with hexanes to yield o,m’-
+with dichloromethane. The crude product mixture was purified      quaterphenyl as a white solid (0.085 g, mp 84–86 °C, lit
+by flash chromatography then analyzed using 1H NMR. The           90–91 °C, 33% yield). 1 H NMR (400 MHz, CDCl 3 ) δ
+presence of oligomeric material was assessed on crude isolated    7.52–7.47 (m, 1H), 7.47–7.40 (m, 4H), 7.38–7.29 (m, 6H),
+product through time-of-flight matrix assisted laser desorption   7.29–7.26 (m, 1H), 7.26–7.22 (m, 3H), 7.21–7.15 (m, 3H).
+ionization (MALDI–TOF–MS) mass spectrometry, using sulfur
+as a matrix.                                                      Synthesis of o,o’-quaterphenyl (17) [36]: A solution of
+                                                                  2-bromobiphenyl (0.15 g, 0.65 mmol), magnesium turnings
+Suzuki–Miyaura coupling to form m,p’-quaterphenyl (13)            (0.02 g, 0.69 mmol), and THF (2 mL) was stirred at ambient
+[35]: 4-Biphenylboronic acid (0.18 g, 0.91 mmol) and 1 M          temperature overnight under a nitrogen atmosphere. Additional
+K2CO3 (1.5 mL) were added to a 10 mL Pyrex microwave tube.        THF (4 mL) was added and the reaction mixture was cooled to
+3-Bromobiphenyl (0.07 mL, 0.42 mmol), ethanol (2.3 mL), and       −78 °C via a dry ice/acetone bath. TiCl4 (0.14 g, 0.65 mmol)
+Pd(PPh3)4 (28 mg, 0.24 mmol) were then added. The head-           was added dropwise via syringe and the reaction mixture was
+space was purged with nitrogen and the tube was capped before     warmed to 0 °C via an ice/water bath and stirred for 1 h. The
+the reaction mixture was placed in a microwave reactor            product was extracted with ethyl acetate (3x) and dried with
+(150 °C, 30 min hold time). After the reaction, the mixture was   Na2SO4. The crude product was purified by chromatography
+quenched with 1 M NaOH, extracted with dichloromethane,           with hexanes to yield o,o’-quaterphenyl as a white solid
+washed with water and brine, and dried with Na 2 SO 4 . The       (0.040 g, mp 110–113 °C, lit 116–118 °C, 20% yield). 1H NMR
+organic layer was then concentrated to a brown solid and puri-    (400 MHz, CDCl3) δ 7.4–7.40 (m, 2H), 7.38–7.29 (m, 4H),
+fied by chromatography with hexanes to yield m,p’-quater-         7.18–7.14 (m, 2H), 7.10–7.05 (m, 2H), 7.03–6.96 (m, 4H),
+phenyl (13) as a white solid (0.058 g, mp 163–166 °C, lit         6.62–6.59 (m, 4H).
+167–168 °C, 42% yield); 1 H NMR (400 MHz, CDCl 3 ) δ
+7.87–7.85 (m, 1H), 7.76–7.69 (m, 4H), 7.69–7.64 (m, 4H),          Rearrangement of quaterphenyl isomers in a
+7.64–7.58 (m, 2H), 7.57–7.52 (m, 1H), 7.50–7.45 (m, 4H),          microwave reactor
+7.41–7.35 (m, 2H).                                                p,p’-Quaterphenyl (12): 150 °C, 30 min. Compound 12
+                                                                  (17 mg, 0.06 mmol) was heated in a MW reactor (150 °C,
+Suzuki–Miyaura coupling to form o,p’-quaterphenyl (15)            30 min) according to the general rearrangement procedure. The
+[35]: K 2 CO 3 (0.91 g, 6.6 mmol) and water (7.7 mL) were         crude product was purified via CombiFlash with hexanes to
+combined in a 25 mL round bottom flask which was purged           yield m,p’-quaterphenyl (13) as an off-white solid (12 mg, 70%
+with nitrogen, and cooled to 0 °C. Biphenyl-4-boronic acid        yield).
+(0.89 g, 4.5 mmol) was added, followed by 2-bromobiphenyl
+(0.50 g, 2.2 mmol), DMF (11.5 mL) and Pd(PPh3)4 (0.13 g,          m,p’-Quaterphenyl (13): 150 °C, 30 min. Compound 13
+0.1 mmol). The reaction mixture was stirred at 0 °C for 5 h.      (17 mg, 0.05 mmol) was heated in a MW reactor (150 °C,
+NaOH (1 M, 10 mL) was added and the product was extracted         30 minutes) according to the general rearrangement procedure.
+
+
+                                                                                                                                 2661
+                                                                                                  Beilstein J. Org. Chem. 2019, 15, 2655–2663.
+
+
+
+
+The crude product was filtered over a silica plug with hexanes
+                                                                      Supporting Information
+to yield 13 as an off-white solid (15 mg, 88% yield).
+                                                                      Supporting Information File 1
+150 °C, 1 h. 13 (16 mg, 0.05 mmol) was heated in a MW                 Selected NMR spectra, MALDI spectrum of the product
+reactor (150 °C, 1 h) according to the general rearrangement          mixture, Cartesian coordinates, and summary energetics for
+procedure. The crude product was filtered over a silica plug          all stationary points.
+with hexanes to yield 13 as an off-white solid (12 mg, 75%            [https://www.beilstein-journals.org/bjoc/content/
+yield).                                                               supplementary/1860-5397-15-258-S1.pdf]
+
+m,m’-Quaterphenyl (14): 150 °C, 30 min. Compound 14
+(16 mg, 0.05 mmol) was heated in a MW reactor (150 °C,              Acknowledgements
+30 minutes) according to the general rearrangement procedure.       We are grateful for support from National Science Foundation
+The crude product was purified via CombiFlash with hexanes to       award CHE-1362519. This research used the Extreme Science
+yield an off-white solid (13 mg, 81% yield) consisting of 13        and Engineering Discovery Environment (XSEDE), supported
+(50%) and 14 (50%).                                                 by NSF Grant No. OCI-1053575.
+
+150 °C, 1 h. Compound 12 (10 mg, 0.03 mmol) was heated in a         ORCID® iDs
+MW reactor (150 °C, 1 h) according to the general rearrange-        Sarah L. Skraba-Joiner - https://orcid.org/0000-0002-1545-0608
+ment procedure. The crude product was filtered over a silica        Carter J. Holt - https://orcid.org/0000-0001-7459-353X
+                                                                    Richard P. Johnson - https://orcid.org/0000-0002-1100-6235
+plug with hexanes to yield an off-white solid (9 mg, 90% yield)
+consisting of 13 (67%) and 14 (33%).
+                                                                    References
+o,p’-Quaterphenyl: Compound 15 (10 mg, 0.03 mmol) was               1. Klumpp, D. A. Carbocations. In Organic Reaction Mechanisms ·;
+heated in a MW reactor (150 °C, 30 minutes) according to the           Knipe, A. C., Ed.; John Wiley & Sons, Ltd, 2016; pp 273–319.
+                                                                       doi:10.1002/9781118707838.ch6
+general rearrangement procedure. The crude product was puri-
+                                                                    2. Naredla, R. R.; Klumpp, D. A. Chem. Rev. (Washington, DC, U. S.)
+fied via CombiFlash with hexanes to yield an off-white solid           2013, 113, 6905–6948. doi:10.1021/cr4001385
+(7 mg, 70% yield) consisting of 13 (81%) and 14 (19%). Minor        3. Tantillo, D. J. Angew. Chem., Int. Ed. 2017, 56, 10040–10045.
+products were eluted with ethyl acetate. MALDI–TOF–MS                  doi:10.1002/anie.201702363
+analysis indicated oligomerization (m/z = 344, 673).                4. Sandbeck, D. J. S.; Markewich, D. J.; East, A. L. L. J. Org. Chem.
+                                                                       2016, 81, 1410–1415. doi:10.1021/acs.joc.5b02553
+                                                                    5. Pontes, R. M. Theor. Chem. Acc. 2018, 137, 56.
+o,m’-Quaterphenyl: Compound 16 (28 mg, 0.09 mmol) was
+                                                                       doi:10.1007/s00214-018-2232-1
+heated in a MW reactor (150 °C, 30 minutes) according to the        6. Hare, S. R.; Tantillo, D. J. Beilstein J. Org. Chem. 2016, 12, 377–390.
+general rearrangement procedure. The crude product was                 doi:10.3762/bjoc.12.41
+filtered over a silica plug with hexanes to yield an off-white      7. Prakash, G. K. S. J. Org. Chem. 2006, 71, 3661–3676.
+solid (18 mg, 64% yield) consisting of 13 (57%) and 14 (43%).          doi:10.1021/jo052657e
+                                                                    8. Olah, G. A. J. Org. Chem. 2001, 66, 5943–5957.
+                                                                       doi:10.1021/jo010438x
+o,o’-Quaterphenyl: Compound 17 (6 mg, 0.02 mmol) was                9. Klumpp, D. A. In Arene Chemistry; Mortier, J., Ed.; John Wiley & Sons,
+heated in a MW reactor (150 °C, 30 minutes) according to the           Inc: Hoboken, NJ, 2016; pp 3–31.
+general rearrangement procedure. The crude product was              10. Oliveira, F. G.; Rodrigues, F. L.; de Oliveira, A. V. B.;
+filtered over a silica plug with hexanes to yield an off-white         Marçal, D. V. L. M.; Esteves, P. M. Struct. Chem. 2017, 28, 545–553.
+                                                                       doi:10.1007/s11224-017-0915-1
+solid (4 mg, 67% yield) consisting of 13 (60%) and 14 (40%).
+                                                                    11. Chen, Z.; Mo, Y. J. Chem. Theory Comput. 2013, 9, 4428–4435.
+                                                                       doi:10.1021/ct400618k
+Computational methods: DFT computations on carbocation              12. Freire de Queiroz, J.; Carneiro, J. W. d. M.; Sabino, A. A.;
+intermediates and transition states were carried out with the          Sparrapan, R.; Eberlin, M. N.; Esteves, P. M. J. Org. Chem. 2006, 71,
+B3LYP functional and 6-31+G(d,p) basis set, using the polariz-         6192–6203. doi:10.1021/jo0609475
+able continuum model in dichloroethane to model solvation           13. Esteves, P. M.; Walkimar de Carneiro, J.; Cardoso, S. P.;
+                                                                       Barbosa, A. G. H.; Laali, K. K.; Rasul, G.; Prakash, G. K. S.;
+[42]. Each stationary point was characterized as a minimum or
+                                                                       Olah, G. A. J. Am. Chem. Soc. 2003, 125, 4836–4849.
+transition state by vibrational frequency analysis but the large       doi:10.1021/ja021307w
+number of reaction paths precluded calculation of intrinsic reac-   14. Rosokha, S. V.; Kochi, J. K. J. Org. Chem. 2002, 67, 1727–1737.
+tion coordinates. Reported relative energies are from free             doi:10.1021/jo011072r
+energy calculations at 298 K.
+
+
+                                                                                                                                            2662
+                                                                                                            Beilstein J. Org. Chem. 2019, 15, 2655–2663.
+
+
+
+
+15. Kim, E. K.; Bockman, T. M.; Kochi, J. K. J. Am. Chem. Soc. 1993, 115,        42. Tomasi, J.; Mennucci, B.; Cammi, R. Chem. Rev. 2005, 105,
+   3091–3104. doi:10.1021/ja00061a007                                               2999–3093. doi:10.1021/cr9904009
+16. Galabov, B.; Nalbantova, D.; Schleyer, P. v. R.; Schaefer, H. F., III.
+   Acc. Chem. Res. 2016, 49, 1191–1199.
+   doi:10.1021/acs.accounts.6b00120
+17. Nieves-Quinones, Y.; Singleton, D. A. J. Am. Chem. Soc. 2016, 138,             License and Terms
+   15167–15176. doi:10.1021/jacs.6b07328
+                                                                                   This is an Open Access article under the terms of the
+18. Baddeley, G.; Kenner, J. J. Chem. Soc. 1935, 303–309.
+   doi:10.1039/jr9350000303                                                        Creative Commons Attribution License
+19. Nightingale, D. V. Chem. Rev. 1939, 25, 329–376.                               (http://creativecommons.org/licenses/by/4.0). Please note
+   doi:10.1021/cr60082a001                                                         that the reuse, redistribution and reproduction in particular
+20. Wynberg, H.; Wolf, A. P. J. Am. Chem. Soc. 1963, 85, 3308.                     requires that the authors and source are credited.
+   doi:10.1021/ja00903a064
+21. Necula, A.; Racoveanu-Schiketanz, A.; Gheorghiu, M. D.; Scott, L. T.
+   J. Org. Chem. 1995, 60, 3448–3451. doi:10.1021/jo00116a035
+                                                                                   The license is subject to the Beilstein Journal of Organic
+22. Allen, C. F. H.; Pingert, F. P. J. Am. Chem. Soc. 1942, 64, 1365–1371.         Chemistry terms and conditions:
+   doi:10.1021/ja01258a038                                                         (https://www.beilstein-journals.org/bjoc)
+23. Olah, G. A.; Meyer, M. W. J. Org. Chem. 1962, 27, 3682–3683.
+   doi:10.1021/jo01057a505
+                                                                                   The definitive version of this article is the electronic one
+24. Perrin, C. L.; Skinner, G. A. J. Am. Chem. Soc. 1971, 93, 3389–3394.
+                                                                                   which can be found at:
+   doi:10.1021/ja00743a015
+25. Ajaz, A.; McLaughlin, E. C.; Skraba, S. L.; Thamatam, R.;                      doi:10.3762/bjoc.15.258
+   Johnson, R. P. J. Org. Chem. 2012, 77, 9487–9495.
+   doi:10.1021/jo301848g
+26. Skraba-Joiner, S. L.; McLaughlin, E. C.; Ajaz, A.; Thamatam, R.;
+   Johnson, R. P. J. Org. Chem. 2015, 80, 9578–9583.
+   doi:10.1021/acs.joc.5b01559
+27. Dansi, A.; Salvioni, E. Gazz. Chim. Ital. 1941, 71, 549–552.
+28. Skraba-Joiner, S. L.; Brulet, J. W.; Song, M. K.; Johnson, R. P.
+   J. Org. Chem. 2017, 82, 13076–13083. doi:10.1021/acs.joc.7b02058
+29. Cook, B. R.; Colgrove, S. G. Prepr. - Am. Chem. Soc., Div. Pet. Chem.
+   1994, 39, 372–378.
+30. Sisto, T. J.; Zakharov, L. N.; White, B. M.; Jasti, R. Chem. Sci. 2016, 7,
+   3681–3688. doi:10.1039/c5sc04218f
+31. Ormsby, J. L.; Black, T. D.; Hilton, C. L.; Bharat; King, B. T.
+   Tetrahedron 2008, 64, 11370–11378. doi:10.1016/j.tet.2008.09.105
+32. He, J.; Mathew, S.; Kinney, Z. J.; Warrell, R. M.; Molina, J. S.;
+   Hartley, C. S. Chem. Commun. 2015, 51, 7245–7248.
+   doi:10.1039/c5cc00826c
+33. Mathew, S.; Crandall, L. A.; Ziegler, C. J.; Hartley, C. S.
+   J. Am. Chem. Soc. 2014, 136, 16666–16675. doi:10.1021/ja509902m
+34. Copeland, P. G.; Dean, R. E.; McNeil, D. J. Chem. Soc. 1960,
+   4522–4524. doi:10.1039/jr9600004522
+35. Lima, C. F. R. A. C.; Rodrigues, A. S. M. C.; Silva, V. L. M.;
+   Silva, A. M. S.; Santos, L. M. N. B. F. ChemCatChem 2014, 6,
+   1291–1302. doi:10.1002/cctc.201301080
+36. King, B. T.; Kroulík, J.; Robertson, C. R.; Rempala, P.; Hilton, C. L.;
+   Korinek, J. D.; Gortari, L. M. J. Org. Chem. 2007, 72, 2279–2288.
+   doi:10.1021/jo061515x
+37. Kappe, C. O.; Pieber, B.; Dallinger, D. Angew. Chem., Int. Ed. 2013,
+   52, 1088–1094. doi:10.1002/anie.201204103
+38. Dudley, G. B.; Stiegman, A. E. Chem. Rec. 2018, 18, 381–389.
+   doi:10.1002/tcr.201700044
+39. Ohlinger, W. S.; Klunzinger, P. E.; Deppmeier, B. J.; Hehre, W. J.
+   J. Phys. Chem. A 2009, 113, 2165–2175. doi:10.1021/jp810144q
+40. Garkusha, I.; Fulara, J.; Nagy, A.; Maier, J. P. Astrophys. J. 2011, 728,
+   131. doi:10.1088/0004-637x/728/2/131
+41. Dallinga, G.; Mackor, E. L.; Verrijn Stuart, A. A. Mol. Phys. 1958, 1,
+   123–140. doi:10.1080/00268975800100151
+
+
+
+
+                                                                                                                                                   2663
+

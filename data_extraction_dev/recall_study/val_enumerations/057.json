@@ -1,0 +1,31 @@
+{
+  "paper_id": "057",
+  "paper_source": "/Users/skaye/Claude/Skills/ResearchForge/data_extraction_dev/mp_bp_val_set/057_PMC12573032_Prioritizing_Data_Quality_in_Machine_Learning_for_Thermophysical_Property_Prediction_A_Cas/article_text.txt",
+  "notes": "ML data-quality paper about NBP prediction. The bulk of the paper concerns model architectures, featurization methods, and aggregate performance metrics (MAE, MAPE, R^2, Delta MAPE) on training/validation/test sets of 1259-DIPPR and 4799-SPEED compounds. These aggregate stats are excluded per task instructions. The paper does, however, contain a small number of per-compound NBP values in the Introduction, given as illustrative examples of unreliable SPEED database entries vs literature reference values. Two compounds are named with explicit NBP values: (1) 4-phenyldiazenylbenzene-1,3-diamine, cited at 2535.15 K (from SPEED, flagged as implausible); (2) chlorine, cited at 993.15 K (from SPEED, flagged as wrong) and at 239 K (literature reference value). These are per-compound named values in the main text and should be included in the recall enumeration. No other compounds in the main text carry explicit property values: hexane and propanal are mentioned in the Joback-groups section only to describe their functional group decomposition, with no NBP value reported. No experimental/synthesis section exists (this is a modeling paper). The 376-compound test set, 1259-DIPPR training set, and 4799-SPEED training set values themselves are not enumerated in the main text — only summary statistics are reported. Conclusion: original 0-row emission was INCORRECT; should have been 3.",
+  "items": [
+    {
+      "compound_name": "4-phenyldiazenylbenzene-1,3-diamine",
+      "property": "bp",
+      "value_raw": "2535.15 K",
+      "evidence_quote": "For example, 4-phenyldiazenylbenzene-1,3-diamine is said to have an NBP of 2535.15 K. For this relatively small compound, this value is questionable, as the chemical would likely decompose or combust at a much lower temperature, and thus the number cannot be considered experimental or reliable.",
+      "evidence_location": "Introduction, paragraph discussing SPEED database unreliability",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "chlorine",
+      "property": "bp",
+      "value_raw": "993.15 K",
+      "evidence_quote": "Another example of unreliable data in this set is the NBP of chlorine, which is stated to be 993.15 K—far above the 239 K reported by multiple sources.",
+      "evidence_location": "Introduction, paragraph discussing SPEED database unreliability",
+      "location_type": "main_text"
+    },
+    {
+      "compound_name": "chlorine",
+      "property": "bp",
+      "value_raw": "239 K",
+      "evidence_quote": "Another example of unreliable data in this set is the NBP of chlorine, which is stated to be 993.15 K—far above the 239 K reported by multiple sources.",
+      "evidence_location": "Introduction, paragraph discussing SPEED database unreliability (literature reference value)",
+      "location_type": "main_text"
+    }
+  ]
+}

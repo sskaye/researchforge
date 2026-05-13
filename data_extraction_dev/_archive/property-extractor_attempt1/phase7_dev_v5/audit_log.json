@@ -1,0 +1,527 @@
+{
+  "run_metadata": {
+    "started_at": 1778517998,
+    "input_path": "/sessions/practical-dreamy-pascal/mnt/data_extraction_dev/mp_bp_dev_set",
+    "adapter": "mp_bp",
+    "verifier_prompt_sha256": "55edff7c09beef1fa57a137bf1080d5972f7b3c2dacc1cb8f9b8f2fc503412c1",
+    "seed": 20260511,
+    "random_frac": 0.15,
+    "min_pool": 30,
+    "max_pool": 50,
+    "sanity_threshold": 0.9,
+    "accept_threshold": 0.98
+  },
+  "phases": {
+    "phase4_emit": {
+      "kept": 410,
+      "skipped": 1415
+    },
+    "phase5a_validate_row": {
+      "kept": 410,
+      "dropped": 0,
+      "drop_reasons": {}
+    },
+    "phase5b_coverage_check": {
+      "warning_count": 5,
+      "warned_article_count": 3,
+      "warnings": [
+        {
+          "article_id": "056_PMC12395778_AI-powered_prediction_of_critical_properties_and_boiling_points_a_hybrid_ensemble_learning",
+          "warning": "silent_miss_abstract_mentions_property",
+          "details": "Abstract mentions property keywords but no candidates were enumerated. Check ingestion and find_candidates."
+        },
+        {
+          "article_id": "056_PMC12395778_AI-powered_prediction_of_critical_properties_and_boiling_points_a_hybrid_ensemble_learning",
+          "warning": "property_table_zero_candidates",
+          "details": "Table 'Table 4' headers/caption mention property keywords but no candidates were enumerated for the paper."
+        },
+        {
+          "article_id": "056_PMC12395778_AI-powered_prediction_of_critical_properties_and_boiling_points_a_hybrid_ensemble_learning",
+          "warning": "abstract_claim_far_above_actual",
+          "details": "Abstract claims 150 compounds but emitted+skipped = 0 (0 % of claim)."
+        },
+        {
+          "article_id": "058_PMC4702524_How_accurately_can_we_predict_the_melting_points_of_drug-like_compounds",
+          "warning": "abstract_claim_far_above_actual",
+          "details": "Abstract claims 706 compounds but emitted+skipped = 18 (3 % of claim)."
+        },
+        {
+          "article_id": "064_PMC8697427_Thermodynamic_properties_of_active_pharmaceutical_ingredients_that_are_of_interest_in_COVI",
+          "warning": "abstract_claim_far_above_actual",
+          "details": "Abstract claims 3510 compounds but emitted+skipped = 66 (2 % of claim)."
+        }
+      ]
+    },
+    "phase5c_sample": {
+      "seed": 20260511,
+      "random_frac": 0.15,
+      "min_pool": 30,
+      "max_pool": 50,
+      "total_rows": 410,
+      "stratified_count": 166,
+      "random_count": 62,
+      "top_up_count": 0,
+      "downsampled_count": 178,
+      "audit_pool_size": 50,
+      "coverage_warned_article_count": 3
+    },
+    "phase5d_verification": {
+      "prompt_sha256": "55edff7c09beef1fa57a137bf1080d5972f7b3c2dacc1cb8f9b8f2fc503412c1",
+      "aborted": false,
+      "sanity_rate": 1.0,
+      "pass_count": 50,
+      "fail_count": 0,
+      "error_count": 0,
+      "audited_count": 50
+    },
+    "phase5e_quarantine": {
+      "audit_sample_size": 50,
+      "pass_count": 50,
+      "fail_count": 0,
+      "error_count": 0,
+      "pass_rate": 1.0,
+      "quarantined_count": 0,
+      "status": "accepted"
+    }
+  },
+  "per_article": {
+    "010_PMC12940417_Targeting_TRPA1_with_Novel_Synthetic_Compounds_Based_on_Different_Scaffolds_to_Reduce_Acut": {
+      "candidates_enumerated": 31,
+      "doi": "10.3390/ijms27041716",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "synthesis(1+0+1)",
+        "has_experimental_section",
+        "title_synthesis(2)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 29,
+      "skipped": 2,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 2
+      }
+    },
+    "011_PMC12943719_Discovery_of_Potent_PDE4_Inhibitors_with_32H-Pyridazinone_Scaffold_Synthesis_In_Silico_Stu": {
+      "candidates_enumerated": 55,
+      "doi": "10.3390/molecules31040699",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "synthesis(0+2+0)",
+        "has_experimental_section",
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 52,
+      "skipped": 3,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 3
+      }
+    },
+    "013_PMC12943095_Original_Synthesis_of_Substituted_6H-Benzocchromene_Derivatives_Using_a_TDAE_and_Pd-Cataly": {
+      "candidates_enumerated": 34,
+      "doi": "10.3390/molecules31040706",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "synthesis(0+3+0)",
+        "has_experimental_section",
+        "title_synthesis(2)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 34,
+      "skipped": 0,
+      "by_gate": {}
+    },
+    "017_PMC10673250_Exploring_Alkyl_Ester_Salts_of_L-Amino_Acid_Derivatives_of_Ibuprofen_Physicochemical_Chara": {
+      "candidates_enumerated": 12,
+      "doi": "10.3390/molecules28227523",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "synthesis(0+1+0)",
+        "thermodynamic(3)",
+        "has_experimental_section",
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 9,
+      "skipped": 3,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 3
+      }
+    },
+    "020_PMC11206691_N-Hydroxypiridinedione_A_Privileged_Heterocycle_for_Targeting_the_HBV_RNase_H": {
+      "candidates_enumerated": 39,
+      "doi": "10.3390/molecules29122942",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "synthesis(0+1+0)",
+        "has_experimental_section"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 29,
+      "skipped": 10,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 10
+      }
+    },
+    "026_PMC8332001_Synthesis_of_novel_seco-acyclo-N-diazolyl-thione_nucleosides_analogous_derived_from_acetic": {
+      "candidates_enumerated": 5,
+      "doi": "10.1007/s13738-021-02358-x",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_3_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "synthesis(0+0+1)",
+        "has_experimental_section",
+        "title_synthesis(2)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 3,
+      "skipped": 2,
+      "by_gate": {
+        "identity_token_mismatch": 2
+      }
+    },
+    "028_PMC10671214_Diastereoselective_Synthesis_of_DispiroImidazothiazolotriazine-Pyrrolidin-Oxindoles_and_Th": {
+      "candidates_enumerated": 35,
+      "doi": "10.3390/ijms242216359",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "synthesis(0+2+0)",
+        "has_experimental_section",
+        "title_synthesis(2)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 34,
+      "skipped": 1,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 1
+      }
+    },
+    "050_PMC6146942_Synthesis_Biological_Evaluation_of_Quinazoline-4-thiones": {
+      "candidates_enumerated": 21,
+      "doi": "10.3390/81100756",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 16,
+      "skipped": 5,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 4,
+        "identity_token_mismatch": 1
+      }
+    },
+    "056_PMC12395778_AI-powered_prediction_of_critical_properties_and_boiling_points_a_hybrid_ensemble_learning": {
+      "candidates_enumerated": 0,
+      "doi": "10.1186/s13321-025-01062-9",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_3_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "qspr_prediction",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "review_title(3)",
+        "prediction_keywords(4)"
+      ],
+      "default_data_origin": "predicted_QSPR",
+      "kept": 0,
+      "skipped": 0,
+      "by_gate": {}
+    },
+    "058_PMC4702524_How_accurately_can_we_predict_the_melting_points_of_drug-like_compounds": {
+      "candidates_enumerated": 18,
+      "doi": "10.1021/ci5005288",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "qspr_prediction",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "review_title(1)",
+        "review_abstract(1)",
+        "prediction_keywords(2)"
+      ],
+      "default_data_origin": "predicted_QSPR",
+      "kept": 0,
+      "skipped": 18,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 18
+      }
+    },
+    "064_PMC8697427_Thermodynamic_properties_of_active_pharmaceutical_ingredients_that_are_of_interest_in_COVI": {
+      "candidates_enumerated": 66,
+      "doi": "10.1016/j.cdc.2021.100820",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_3_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "thermodynamic",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "prediction_keywords(1)",
+        "thermodynamic(2)",
+        "title_thermodynamic(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 46,
+      "skipped": 20,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 9,
+        "value_unparseable": 11
+      }
+    },
+    "138_PMC6146434_Annellation_of_Triazole_and_Tetrazole_Systems_onto_Pyrrolo23-dpyrimidines_Synthesis_of_Tet": {
+      "candidates_enumerated": 81,
+      "doi": "10.3390/70700554",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "title_synthesis(2)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 27,
+      "skipped": 54,
+      "by_gate": {
+        "F_dedup": 54
+      }
+    },
+    "141_PMC6236399_Tyrian_Purple_66-Dibromoindigo_and_Related_Compounds": {
+      "candidates_enumerated": 15,
+      "doi": "10.3390/60900736",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [
+        "has_experimental_section",
+        "fallback_experimental_only"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 2,
+      "skipped": 13,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 7,
+        "F_dedup": 6
+      }
+    },
+    "157_PMC3716435_Inclusion_Compounds_of_Dehydrocholic_Acid_with_Solvents": {
+      "candidates_enumerated": 14,
+      "doi": "",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_no_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "thermodynamic",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "synthesis(0+0+1)",
+        "has_experimental_section",
+        "title_thermodynamic(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 0,
+      "skipped": 14,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 14
+      }
+    },
+    "164_PMC7158184_The_Control_of_Microbiological_Problems": {
+      "candidates_enumerated": 29,
+      "doi": "10.1016/B978-0-12-803409-5.00008-2",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_2_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "unknown",
+      "paper_type_confidence": "low",
+      "paper_type_evidence": [],
+      "default_data_origin": "literature_cited",
+      "kept": 2,
+      "skipped": 27,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 27
+      }
+    },
+    "178_PMC11208899_CopperVit_B3_MOF_preparation_characterization_and_catalytic_evaluation_in_a_one-pot_synthe": {
+      "candidates_enumerated": 13,
+      "doi": "10.1039/d4ra03468f",
+      "doi_verified": true,
+      "doi_warnings": [
+        "doi_verified_across_3_sources"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "medium",
+      "paper_type_evidence": [
+        "synthesis(0+3+0)",
+        "has_experimental_section",
+        "title_synthesis(1)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 13,
+      "skipped": 0,
+      "by_gate": {}
+    },
+    "2008_Mitchell_Why Are Some Properties More Difficult To Predict than Others? A Study of QSPR Models of Solubility, Melting Point, and Log P": {
+      "candidates_enumerated": 143,
+      "doi": "10.1021/ci700307p",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "qspr_prediction",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "review_title(1)",
+        "review_abstract(3)",
+        "prediction_keywords(3)"
+      ],
+      "default_data_origin": "predicted_QSPR",
+      "kept": 0,
+      "skipped": 143,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 143
+      }
+    },
+    "2009_Dearden_Quantitative structure‐property relationships for prediction of boiling point": {
+      "candidates_enumerated": 810,
+      "doi": "10.1897/01-363",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "qspr_prediction",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "review_title(2)",
+        "review_abstract(1)",
+        "prediction_keywords(2)",
+        "thermodynamic(1)"
+      ],
+      "default_data_origin": "predicted_QSPR",
+      "kept": 73,
+      "skipped": 737,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 640,
+        "value_unparseable": 20,
+        "F_dedup": 77
+      }
+    },
+    "2011_Krossing_Is Universal, Simple Melting Point Prediction Possible": {
+      "candidates_enumerated": 394,
+      "doi": "10.1002/cphc.201100522",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "qspr_prediction",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "review_title(2)"
+      ],
+      "default_data_origin": "predicted_QSPR",
+      "kept": 36,
+      "skipped": 358,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 318,
+        "F_dedup": 40
+      }
+    },
+    "2014_Schmittel_A one-pot multistep cyclization yielding thiadiazoloimidazole derivatives": {
+      "candidates_enumerated": 10,
+      "doi": "10.3762/bjoc.10.317",
+      "doi_verified": false,
+      "doi_warnings": [
+        "doi_single_source_only"
+      ],
+      "ingestion_warnings": [],
+      "paper_type": "synthesis",
+      "paper_type_confidence": "high",
+      "paper_type_evidence": [
+        "synthesis(2+3+0)",
+        "title_synthesis(3)"
+      ],
+      "default_data_origin": "measured_by_article",
+      "kept": 5,
+      "skipped": 5,
+      "by_gate": {
+        "compound_identity_not_resolvable_from_paper": 5
+      }
+    }
+  },
+  "totals": {
+    "papers": 20,
+    "finished_at": 1778518017,
+    "kept_phase4": 410,
+    "kept_after_validate": 410,
+    "delivered": 410,
+    "skipped": 1415,
+    "pass_rate": 1.0,
+    "status": "ACCEPTED"
+  }
+}

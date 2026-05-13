@@ -1,0 +1,238 @@
+{
+  "paper_id": "2019_Rubstov",
+  "paper_source": "2019_Rubstov_One-pot synthesis of thieno[3,2-e]pyrrolo[1,2-a]pyrimidine derivatives scaffold - A valuable source of PARP-1 inhibitors/article.pdf",
+  "items": [
+    {
+      "compound_name": "Ethyl (E)-2,5-dioxo-1-(2-oxo-2-phenylethylidene)-1,2,4,5,6,7,8,9-octahydrobenzo[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carboxylate (4a)",
+      "property": "melting_point",
+      "value_raw": "253-255 °C",
+      "evidence_quote": "Yellow solid; 1.90 g, 85 % yield; m.p. 253-255 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4a",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "Ethyl (E)-1-(2-(4-methylphenyl)-2-oxoethylidene)-2,5-dioxo-1,2,4,5,6,7,8,9-octahydrobenzo[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carboxylate (4b)",
+      "property": "melting_point",
+      "value_raw": "258-259 °C",
+      "evidence_quote": "Yellow solid; 1.94 g, 84 % yield; m.p. 258-259 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4b",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "Ethyl (E)-1-(2-(4-methoxyphenyl)-2-oxoethylidene)-2,5-dioxo-1,2,4,5,6,7,8,9-octahydrobenzo[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carboxylate (4c)",
+      "property": "melting_point",
+      "value_raw": "253-254 °C",
+      "evidence_quote": "Yellow solid; 2.08 g, 87 % yield; m.p. 253-254 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4c",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "Ethyl (E)-1-(2-(4-chlorophenyl)-2-oxoethylidene)-2,5-dioxo-1,2,4,5,6,7,8,9-octahydrobenzo[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carboxylate (4d)",
+      "property": "melting_point",
+      "value_raw": "264-265 °C",
+      "evidence_quote": "Yellow solid; 1.73 g, 72 % yield; m.p. 264-265 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4d",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "Ethyl (E)-1-(2-(2,4-dimethoxyphenyl)-2-oxoethylidene)-2,5-dioxo-1,2,4,5,6,7,8,9-octahydrobenzo[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carboxylate (4e)",
+      "property": "melting_point",
+      "value_raw": "229-230 °C",
+      "evidence_quote": "Yellow solid; 2.13 g, 84 % yield; m.p. 229-230 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4e",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "Ethyl (E)-1-(3,3-dimethyl-2-oxobutylidene)-2,5-dioxo-1,2,4,5,6,7,8,9-octahydrobenzo[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carboxylate (4f)",
+      "property": "melting_point",
+      "value_raw": "223-224 °C",
+      "evidence_quote": "Yellow solid; 1.50 g, 70 % yield; m.p. 223-224 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4f",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "Ethyl (E)-8-(2-phenyl-2-oxoethylidene)-2,3-dimethyl-4,7-dioxo-4,5,7,8-tetrahydropyrrolo[1,2-a]thieno[3,2-e]pyrimidine-6-carboxylate (4g)",
+      "property": "melting_point",
+      "value_raw": "242-243 °C",
+      "evidence_quote": "Yellow solid; 1.86 g, 88 % yield; m.p. 242-243 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4g",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "Ethyl (E)-8-(2-(4-methylphenyl)-2-oxoethylidene)-2,3-dimethyl-4,7-dioxo-4,5,7,8-tetrahydropyrrolo[1,2-a]thieno[3,2-e]pyrimidine-6-carboxylate (4h)",
+      "property": "melting_point",
+      "value_raw": "246-247 °C",
+      "evidence_quote": "Yellow solid; 1.87 g, 86 % yield; m.p. 246-247 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4h",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "Ethyl (E)-8-(2-(4-methoxyphenyl)-2-oxoethylidene)-2,3-dimethyl-4,7-dioxo-4,5,7,8-tetrahydropyrrolo[1,2-a]thieno[3,2-e]pyrimidine-6-carboxylate (4i)",
+      "property": "melting_point",
+      "value_raw": "253-254 °C",
+      "evidence_quote": "Yellow solid; 2.10 g, 93 % yield; m.p. 253-254 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4i",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "Ethyl (E)-8-(2-(4-chlorophenyl)-2-oxoethylidene)-2,3-dimethyl-4,7-dioxo-4,5,7,8-tetrahydropyrrolo[1,2-a]thieno[3,2-e]pyrimidine-6-carboxylate (4j)",
+      "property": "melting_point",
+      "value_raw": "250-251 °C",
+      "evidence_quote": "Yellow solid; 1.71 g, 75 % yield; m.p. 250-251 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4j",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "Ethyl (E)-2,5-dioxo-1-(2-oxo-2-phenylethylidene)-1,2,4,5,7,8,9,10-octahydro-6H-cyclohepta[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carboxylate (4k)",
+      "property": "melting_point",
+      "value_raw": "256-257 °C",
+      "evidence_quote": "Yellow solid; 1.83 g, 79 % yield; m.p. 256-257 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4k",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "Ethyl (E)-2,5-dioxo-1-(2-oxo-2-phenylethylidene)-1,2,4,5,6,7,8,9,10,11-decahydrocycloocta[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carboxylate (4l)",
+      "property": "melting_point",
+      "value_raw": "243-244 °C",
+      "evidence_quote": "Yellow solid; 1.81 g, 76 % yield; m.p. 243-244 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4l",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "Ethyl (E)-4,7-dioxo-8-(2-oxo-2-phenylethylidene)-3-phenyl-4,5,7,8-tetrahydropyrrolo[1,2-a]thieno[3,2-e]pyrimidine-6-carboxylate (4m)",
+      "property": "melting_point",
+      "value_raw": "231-232 °C",
+      "evidence_quote": "Yellow solid; 1.95 g, 83 % yield; m.p. 231-232 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4m",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "(E)-2,5-dioxo-1-(2-oxo-2-phenylethylidene)-1,2,4,5,6,7,8,9-octahydrobenzo[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carboxamide (4n)",
+      "property": "melting_point",
+      "value_raw": "283-285 °C",
+      "evidence_quote": "Yellow solid; 1.89 g, 92 % yield; m.p. 283-285 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4n",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "(E)-1-(2-(4-methoxyphenyl)-2-oxoethylidene)-2,5-dioxo-1,2,4,5,6,7,8,9-octahydrobenzo[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carboxamide (4o)",
+      "property": "melting_point",
+      "value_raw": "287-288 °C",
+      "evidence_quote": "Yellow solid; 2.15 g, 96 % yield; m.p. 287-288 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4o",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "(E)-2,5-dioxo-1-(2-oxo-2-phenylethylidene)-1,2,4,5,6,7,8,9-octahydrobenzo[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carbonitrile (4p)",
+      "property": "melting_point",
+      "value_raw": "186-187 °C",
+      "evidence_quote": "Yellow solid; 1.76 g, 88 % yield; m.p. 186-187 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4p",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "(E)-1-(2-(4-methoxyphenyl)-2-oxoethylidene)-2,5-dioxo-1,2,4,5,6,7,8,9-octahydrobenzo[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carbonitrile (4q)",
+      "property": "melting_point",
+      "value_raw": "192-194 °C",
+      "evidence_quote": "Yellow solid; 1.94 g, 90 % yield; m.p. 192-194 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4q",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "(E)-2,3-dimethyl-4,7-dioxo-8-(2-oxo-2-(p-tolyl)ethylidene)-4,5,7,8-tetrahydropyrrolo[1,2-a]thieno[3,2-e]pyrimidine-6-carbonitrile (4r)",
+      "property": "melting_point",
+      "value_raw": "205-206 °C",
+      "evidence_quote": "Yellow solid; 1.69 g, 87 % yield; m.p. 205-206 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4r",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "(E)-8-(2-(4-methoxyphenyl)-2-oxoethylidene)-2,3-dimethyl-4,7-dioxo-4,5,7,8-tetrahydropyrrolo[1,2-a]thieno[3,2-e]pyrimidine-6-carbonitrile (4s)",
+      "property": "melting_point",
+      "value_raw": "209-210 °C",
+      "evidence_quote": "Yellow solid; 1.80 g, 89 % yield; m.p. 209-210 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4s",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "(E)-2,5-dioxo-1-(2-oxo-2-phenylethylidene)-1,2,4,5,7,8,9,10-octahydro-6H-cyclohepta[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carbonitrile (4t)",
+      "property": "melting_point",
+      "value_raw": "284-285 °C",
+      "evidence_quote": "Yellow solid; 1.76 g, 85 % yield; m.p. 284-285 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4t",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "(E)-2,5-dioxo-1-(2-oxo-2-(p-tolyl)ethylidene)-1,2,4,5,7,8,9,10-octahydro-6H-cyclohepta[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carbonitrile (4u)",
+      "property": "melting_point",
+      "value_raw": "289-290 °C",
+      "evidence_quote": "Yellow solid; 1.91 g, 89 % yield; m.p. 289-290 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4u",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "(E)-1-(2-(4-methoxyphenyl)-2-oxoethylidene)-2,5-dioxo-1,2,4,5,7,8,9,10-octahydro-6H-cyclohepta[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carbonitrile (4v)",
+      "property": "melting_point",
+      "value_raw": "278-279 °C",
+      "evidence_quote": "Yellow solid; 1.8 g, 81 % yield; m.p. 278-279 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4v",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "(E)-2,5-dioxo-1-(2-oxo-2-phenylethylidene)-1,2,4,5,6,7,8,9,10,11-decahydrocycloocta[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carbonitrile (4w)",
+      "property": "melting_point",
+      "value_raw": "296-297 °C",
+      "evidence_quote": "Yellow solid; 1.81 g, 87 % yield; m.p. 296-297 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 4w",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "2-((3-(ethoxycarbonyl)-4,5,6,7-tetrahydrobenzo[b]thiophen-2-yl)amino)-4-oxo-4-phenylbut-2-enoic acid (7a)",
+      "property": "melting_point",
+      "value_raw": "189-190 °C",
+      "evidence_quote": "Red solid; 1.88 g, 95 % yield; m.p. 189-190 °С (ethanol).",
+      "evidence_location": "Experimental Section, characterization of compound 7a",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "ethyl (E)-2-((2-oxo-5-phenylfuran-3(2H)-ylidene)amino)-4,5,6,7-tetrahydrobenzo[b]thiophene-3-carboxylate (9a)",
+      "property": "melting_point",
+      "value_raw": "168-170 °C",
+      "evidence_quote": "Dark red solid; 1.64 g, 86 % yield; m.p. 168-170 °С (toluene).",
+      "evidence_location": "Experimental Section, characterization of compound 9a",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "ethyl (E)-2-amino-1-(3-(ethoxycarbonyl)-4,5,6,7-tetrahydrobenzo[b]thiophen-2-yl)-4-oxo-5-(2-oxo-2-phenylethylidene)-4,5-dihydro-1H-pyrrole-3-carboxylate (5)",
+      "property": "melting_point",
+      "value_raw": "216-217 °C",
+      "evidence_quote": "White solid; 2.22 g, 90 % yield; m.p. 216-217 °С (dioxane).",
+      "evidence_location": "Experimental Section, characterization of compound 5",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "potassium (2Z,4Z)-2-cyano-1-ethoxy-4-((3-(ethoxycarbonyl)-4,5,6,7-tetrahydrobenzo[b]thiophen-2-yl)amino)-1,6-dioxo-6-phenylhexa-2,4-dien-3-olate (6)",
+      "property": "melting_point",
+      "value_raw": "215-216 °C",
+      "evidence_quote": "Yellow solid; 0.87 g, 82 % yield; m.p. 215-216 °С (dioxane).",
+      "evidence_location": "Experimental Section, characterization of compound 6",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "ethyl 1-(2-(4-methoxyphenyl)-2-oxoethyl)-2,5-dioxo-1,2,4,5,6,7,8,9-octahydrobenzo[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carboxylate (11)",
+      "property": "melting_point",
+      "value_raw": "206-208 °C",
+      "evidence_quote": "White solid; 0.34 g, 70 % yield; m.p. 206-208 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 11",
+      "location_type": "experimental_section"
+    },
+    {
+      "compound_name": "ethyl 2,5-dioxo-1,2,4,5,6,7,8,9-octahydrobenzo[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carboxylate (13)",
+      "property": "melting_point",
+      "value_raw": "275-277 °C",
+      "evidence_quote": "White solid; 0.44 g, 83 % yield; m.p. 275-277 °С (acetonitrile).",
+      "evidence_location": "Experimental Section, characterization of compound 13",
+      "location_type": "experimental_section"
+    }
+  ]
+}

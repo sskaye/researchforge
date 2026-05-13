@@ -1,0 +1,92 @@
+[
+  {
+    "row_id": "1632",
+    "verdict": "verified_extraction",
+    "reason": "Compound and values confirmed in OCR of Table III (page 4 of scanned PDF). 4-Methylchlorobenzene (=4-chlorotoluene) row reads BP 435, MP 281 K. Row position is #38 from table start (counting Benzene as row 1). Conversion arithmetic 435 - 273.15 = 161.85 °C is correct.",
+    "details": "OCR text: '4-Methylchlorobenzene 435 281 283 -3 0.60 3.6 0'. The compound name in the paper is '4-Methylchlorobenzene' which is synonymous with 4-chlorotoluene. Row count 38 verified by counting from row 1 (Benzene) in Table III."
+  },
+  {
+    "row_id": "1927",
+    "verdict": "verified_extraction",
+    "reason": "Sulindac melting point 183 °C confirmed in pdftotext extraction of 2009 Yalkowsky paper. Text extracted: 'Sulindac ... 356 183'.",
+    "details": "Line 2329 of extracted text: 'Sulindac'; surrounding lines show '356' (MW or LogP) and '183' (melting point in °C). Matches Table 1 row for sulindac."
+  },
+  {
+    "row_id": "1637",
+    "verdict": "verified_extraction",
+    "reason": "4-Chloronitrobenzene BP 515, MP 357 K confirmed in OCR of Table III. Row position is #41. Conversion arithmetic 357 - 273.15 = 83.85 °C is correct.",
+    "details": "OCR text line 51 of page 4: '4-Chloronitrobenzene 515 357 350 7 0.60 3.8 0'. Row 41 counted from Benzene=row1. Evidence quote 'BP 515 MP 357' matches."
+  },
+  {
+    "row_id": "1905",
+    "verdict": "verified_extraction",
+    "reason": "Nisoldipine melting point 152 °C confirmed in pdftotext of 2009 Yalkowsky paper. Text: 'Nisoldipine ... 388 152'.",
+    "details": "Line 1795: 'Nisoldipine'; surrounding lines confirm MW/related value 388 and melting point 152 °C. Consistent with Table 1 row 55."
+  },
+  {
+    "row_id": "1890",
+    "verdict": "verified_extraction",
+    "reason": "Imipramine melting point 175 °C confirmed in pdftotext of 2009 Yalkowsky paper. Text: 'Imipramine ... 280 175'.",
+    "details": "Line 1429: 'Imipramine'; surrounding lines show 280 and 175. Consistent with Table 1 row 40."
+  },
+  {
+    "row_id": "2360",
+    "verdict": "verified_extraction",
+    "reason": "1-Undecanol DSC peak 17.5 °C confirmed in Table 5 of muller_2020 PDF. CAS 112-42-5 confirmed. Full row values match evidence_quote.",
+    "details": "Table 5 row: '1-Undecanol ... 112-42-5 ... Alcohol ... 206.62 ± 3.94 / 14.5 ± 0.27 / 17.5 ± 0.15 / 10.35–11.54 / 82.5 ± 11.71'. Evidence quote matches this row exactly."
+  },
+  {
+    "row_id": "2316",
+    "verdict": "verified_extraction",
+    "reason": "Eutectic Tm of 100 °C for Ag(GN)2(BF4)/Ag(PN)2(BF4) at x=0.46 confirmed in li_2025 PDF. Evidence quote matches verbatim.",
+    "details": "PDF lines 266-267: 'A horizontal line (CD) is a solidus line by plotting the eutectic Tm at 100 °C, also recognized as the eutectic temperature (Te).' Eutectic composition x=0.46 confirmed at line 277 listing compositions tested."
+  },
+  {
+    "row_id": "2386",
+    "verdict": "verified_extraction",
+    "reason": "PEG 10000 DSC peak 62.1 °C confirmed in Table 5 of muller_2020 PDF. CAS 25322-68-3 confirmed.",
+    "details": "Table 5 row: 'PEG 10000 ... 25322-68-3 ... Organic ... 179.8 ± 3.03 / 59.3 ± 0.3 / 62.1 ± 0.12 / 46.52–50.14 / 364.8 ± 1.18'. Evidence quote matches."
+  },
+  {
+    "row_id": "2376",
+    "verdict": "flagged_review",
+    "reason": "The compound_name is 'methyl octadecanoate' and the value 40.1 °C is correct for methyl octadecanoate in Table 5. However, the evidence_quote in the record cites the 'Ethyl octadecanoate' row (CAS 111-61-5, peak 34.5 °C), not the methyl octadecanoate row. The quote and the compound/value do not correspond to the same row.",
+    "details": "Table 5 verified: Methyl octadecanoate (CAS 112-61-8) has DSC peak 40.1 ± 0.06 °C. Ethyl octadecanoate (CAS 111-61-5) has DSC peak 34.5 ± 0 °C. The evidence_quote contains the ethyl row numbers (188.74 ± 1.49, 32.3 ± 0.08, 34.5 ± 0, 30.74–30.79, 149.4 ± 17.28) which belong to ethyl octadecanoate, not methyl. The value_celsius 40.1 is from the correct compound but the quoted evidence is from the wrong row."
+  },
+  {
+    "row_id": "2520",
+    "verdict": "verified_extraction",
+    "reason": "Melting temperatures of fatty alcohols 313, 334, 347 K for TD, OD, DC confirmed in chmielewska_2020 PDF. Additional in-text confirmation 'initially low melting point of TD (40 °C)' also verified.",
+    "details": "PDF lines 1143-1147: 'are 313, 334, and 347 K for TD, OD, and DC, respectively'. Line 2494: 'initially low melting point of TD (40 ◦C)'. Conversion 313 - 273.15 = 39.85 ≈ 40 °C is correct."
+  },
+  {
+    "row_id": "2540",
+    "verdict": "verified_extraction",
+    "reason": "Piroxicam melting point 198-200 °C confirmed in Table 2 of khan_2017 PDF. Value appears in 'Melting point coformer' column for the Piroxicam row.",
+    "details": "Table 2 (lines 546-620 of extracted PDF text) shows Piroxicam as Drug/Coformer with '198-200' in the Melting point coformer column. While the column label is 'coformer' and Piroxicam is the drug, this is how the paper tabulates Piroxicam's own melting point as reference. The value 198-200 is unambiguously associated with Piroxicam in the table."
+  },
+  {
+    "row_id": "2434",
+    "verdict": "verified_extraction",
+    "reason": "Compound M6 (2-((4-(4-Bromophenyl)-5-Cyano-6-Oxo-1,6-Dihydropyrimidin-2-yl)Thio)-N-(4-(N,N-Diethylsulfamoyl)Phenyl)Acetamide) with mp 242–245 °C, 696 mg, 93% confirmed in khalifa_2024 PDF experimental section.",
+    "details": "PDF lines 10395-10450: compound labeled '(M6)' with full IUPAC name matching, followed by 'White powder, mp 242–245 °C, 696 mg, 93%.' Evidence quote matches verbatim. Midpoint value_celsius 243.5 = (242+245)/2 is correct."
+  },
+  {
+    "row_id": "2499",
+    "verdict": "flagged_review",
+    "reason": "The file 'plourde_2002_oxaspiro_spirolactone' is a 2002 Molecules paper (doi: 10.3390/70315) about 6-Methoxy-1-oxaspiro[4,5]deca-6,9-diene-8-one, NOT a 2024 Beilstein J Org Chem paper about (E)-9-Benzylidene-7-phenyl-1-oxa-7-azaspiro[4.4]non-3-ene-2,6,8-trione. The claimed compound, journal, year (2024), and evidence quote ('mp 231.4-231.6 °C') do not appear anywhere in the plourde_2002 file. Wrong source file — cannot verify.",
+    "details": "plourde_2002 PDF title: 'Synthesis of 6-Methoxy-1-oxaspiro[4,5]deca-6,9-diene-8-one', published Molecules 2002. No mention of '231', 'benzylidene', 'azaspiro', or the stated compound anywhere in the text. The source attribution is incorrect — there is no Beilstein 2024 paper in the collection matching this row."
+  },
+  {
+    "row_id": "2423",
+    "verdict": "flagged_review",
+    "reason": "M.p. 164–165 °C is found in huang_2026 PDF but it belongs to compound (Sp)-4a, which is a bisphosphine OXIDE intermediate, not the final bisphosphine ligand. The row describes the compound as 'Bisphosphine ligand' which is inaccurate — 4a is the phosphine oxide precursor to the actual ligand (Sp)-5a (which has M.p. 105–106 °C).",
+    "details": "PDF line 309: '(Sp)-4a. 661 mg, 87% yield; white solid; M.p. 164–165 °C'. The compound (Sp)-4a is named '...bis(2,1-phenylene)bis(diphenylphosphine oxide)' — the 'oxide' in the name indicates this is NOT the free phosphine ligand. Final bisphosphine ligand (Sp)-5a has M.p. 105–106 °C. The mp value 164–165 and quote are present in the paper but the compound type description is incorrect."
+  },
+  {
+    "row_id": "1498",
+    "verdict": "verified_extraction",
+    "reason": "Compound 13 (O-(ethyl)-2-((2-oxopropyl)selanyl)benzoate) with mp 60–61 °C confirmed in PMC11206731 article_text.txt experimental section.",
+    "details": "article_text.txt: 'O-(ethyl)-2-((2-oxopropyl)selanyl)benzoate 13 Yield: 70%; mp 60–61 °C'. Evidence quote matches. Midpoint value_celsius 60.5 = (60+61)/2 is correct."
+  }
+]

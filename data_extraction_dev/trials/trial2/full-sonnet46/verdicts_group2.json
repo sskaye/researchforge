@@ -1,0 +1,92 @@
+[
+  {
+    "row_id": "768",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in article_text.txt of PMC12985466; compound name, value_raw '77-80 °C', and context all match exactly."
+  },
+  {
+    "row_id": "651",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 in PMC3127127 (ijms12042448) contains '1-octanol ... 195.2' under BP (Exp.) column, and the table title 'Experimental and calculated boiling points (BP) of 58 saturated alcohols' matches the evidence_location exactly."
+  },
+  {
+    "row_id": "780",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in article_text.txt of PMC12943180; complex (S)-3 described as black solid with m.p. 216-218 °C (decomposition) matches value_raw exactly."
+  },
+  {
+    "row_id": "737",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in PMC12986465 (molecules31050844); compound 6e '6-fluoro-5-(4-butylpiperazin-1-yl)-1H-benzo[d]imidazole' with M.P. 140-142 °C matches compound_name and value_raw."
+  },
+  {
+    "row_id": "637",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found in PMC3685236; '3-Hydroxy-2,2-dimethyl-(4-methoxyphenyl)butanoic acid; C13H18O4; Mw=238.28; Melting point: 120 °C' matches compound_name and value_raw exactly."
+  },
+  {
+    "row_id": "822",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in PMC12937307 (Antibiotics 15(2):127); synthesis of compound 4b 'N-[(3,5-dimetyl-4-iodo-1H-pyrazol-1-yl)-methyl]-4-chloroaniline (4b) ... Yield 70%; mp 156-157 °C' matches compound_name and value_raw."
+  },
+  {
+    "row_id": "838",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "Paper (PMC10763787) states 'mp = 112±2 °C' in experimental text; the value_raw '112-114 °C' is present only in Table 2 (not in the evidence_quote passage cited), so the quoted text and the stored value_raw are internally inconsistent — the quote contains ±2 notation while value_raw encodes it as a range."
+  },
+  {
+    "row_id": "870",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in PMC4058676 (ph4071032); '2-Ethoxy benzimidazolo-[1,2-c]quinazoline (7) ... M.p. 191-192 °C; yield 85%. Anal. for C16H13N3O (m.w. 263)' matches compound_name and value_raw."
+  },
+  {
+    "row_id": "874",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in PMC4058676 (ph4071032); '2-(3-Ethoxy-5-phenyl-4H-1,2,4-triazolo-4-yl)benzoic acid (11) ... M.p. 101-102 °C; yield 80%. Anal. for C17H15N3O3 (m.w. 309)' matches compound_name and value_raw."
+  },
+  {
+    "row_id": "946",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in PMC6146422 (10.3390/70800681); compound 2i 'Yield 49 %; M.p. 273-275°C' matches compound_name and value_raw exactly."
+  },
+  {
+    "row_id": "1156",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found in PMC13103808; 'The residue was purified by recrystallization from ethyl acetate to afford 220 mg of 12 (80%), mp 87-88 °C' matches value_raw '87-88°C' exactly."
+  },
+  {
+    "row_id": "994",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table II in PMC6146903 (10.3390/80800622) contains '12 120°C, EtOH 52.5 C20H19N3OS2 (381)' matching value_raw '120°C' and the molecular formula C20H19N3OS2 (MW 381) confirms compound identity."
+  },
+  {
+    "row_id": "1145",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in PMC10912861; synthesis of 5-hydroxy-3-phenyl-1H-pyrazole-1-carbothioamide gives 'Yield: 78 %; m.p:160 °C' matching compound_name and value_raw."
+  },
+  {
+    "row_id": "1048",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The evidence_quote text is present in PMC6146420 but documents compounds 1a, 1b, and anti-1e (not compound 1f); compound 1f mp 201-202°C appears in an adjacent sentence. The stored evidence_quote does not contain the value_raw '201-202°C' nor mention compound 1f, making the quote-to-value linkage incorrect."
+  },
+  {
+    "row_id": "1168",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in PMC13093879; compound 12j (4-fluorophenyl variant) 'Brown solid; yield: 74%; MP = 239-241 °C' matches value_raw. Note: DB compound_name contains '7-methoxy' which is a simplification; the actual IUPAC name has '7-((triazolylmethoxy))' but the compound label '12j' and mp value are correct."
+  }
+]

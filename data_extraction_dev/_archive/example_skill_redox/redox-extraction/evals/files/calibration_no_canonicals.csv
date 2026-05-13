@@ -1,0 +1,9 @@
+id,molecule,raw_value,smiles,family
+1,scaffold-novel-A,5.621,Nc1cc(N)c2nc(N)cc(N)c2n1,unknown
+2,scaffold-novel-B,4.943,Oc1cnc2c(O)c(=O)nc2c1=O,unknown
+3,scaffold-novel-C,5.172,c1cc(F)c2nc3c(O)c(O)cc3nc2c1,unknown
+4,scaffold-novel-D,3.881,O=C1c2cc(F)c(F)c(F)c2C(=O)c2c(F)c(F)c(F)cc21,unknown
+5,scaffold-novel-E,4.061,Nc1ccc(N)c(c12)cc3c(c2N)cc(N)cc3,unknown
+6,scaffold-novel-F,5.510,c1cc2c(c1)C(=O)c1cc(F)c(F)c(F)c1C2=O,unknown
+7,scaffold-novel-G,6.220,c1cc2nc3cc(O)c(O)nc3nc2cc1,unknown
+8,scaffold-novel-H,4.880,O=C1c2cc(N)c(N)c(N)c2C(=O)c2c(N)c(N)c(N)cc21,unknown

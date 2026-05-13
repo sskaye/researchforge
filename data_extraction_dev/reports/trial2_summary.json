@@ -1,0 +1,40 @@
+{
+  "Trial2-full-gpt55_high": {
+    "n": 100,
+    "pass": 86,
+    "fail": 14,
+    "ci_lo": 77.9,
+    "ci_hi": 91.5,
+    "reasons": {
+      "flagged_compound_name_truncated": 7,
+      "flagged_evidence_quote_not_found": 4,
+      "flagged_compound_mismatch": 2,
+      "flagged_value_mismatch": 1
+    }
+  },
+  "Trial2-full-opus47": {
+    "n": 100,
+    "pass": 98,
+    "fail": 2,
+    "ci_lo": 93.0,
+    "ci_hi": 99.4,
+    "reasons": {
+      "flagged_evidence_quote_not_found": 2
+    }
+  },
+  "Trial2-full-sonnet46": {
+    "n": 100,
+    "pass": 55,
+    "fail": 45,
+    "ci_lo": 45.2,
+    "ci_hi": 64.4,
+    "reasons": {
+      "flagged_evidence_quote_not_found": 22,
+      "flagged_compound_mismatch": 8,
+      "flagged_compound_name_truncated": 8,
+      "flagged_doi_unrelated_paper": 4,
+      "flagged_paper_unreadable": 2,
+      "flagged_missing_value_celsius": 1
+    }
+  }
+}

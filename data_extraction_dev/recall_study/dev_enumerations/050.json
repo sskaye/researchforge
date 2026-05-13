@@ -1,0 +1,158 @@
+{
+  "paper_id": "050",
+  "paper_source": "050_PMC6146942_Synthesis_Biological_Evaluation_of_Quinazoline-4-thiones",
+  "items": [
+    {
+      "compound_name": "1a (2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione, X=H, R=H)",
+      "property": "melting point",
+      "value_raw": "212-214 °C",
+      "evidence_quote": "1a C 16 H 16 N 2 S 268.4 H H 212-214 a 78",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1b (2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione, X=H, R=4-Cl)",
+      "property": "melting point",
+      "value_raw": "238-241 °C",
+      "evidence_quote": "1b C 16 H 15 ClN 2 S 302.8 H 4-Cl 238-241 82",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1c (2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione, X=H, R=3,4-Cl2)",
+      "property": "melting point",
+      "value_raw": "199-201 °C",
+      "evidence_quote": "1c C 16 H 14 Cl 2 N 2 337.3 H 3,4-Cl 2 199-201 86",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1d (2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione, X=H, R=4-CH3)",
+      "property": "melting point",
+      "value_raw": "229-231 °C",
+      "evidence_quote": "1d C 17 H 18 N 2 S 282.4 H 4-CH 3 229-231 80",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1e (2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione, X=H, R=4-C2H5)",
+      "property": "melting point",
+      "value_raw": "187-188 °C",
+      "evidence_quote": "1e C 18 H 20 N 2 S 296.4 H 4-C 2 H 5 187-188 76",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1f (2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione, X=H, R=4-isoC3H7)",
+      "property": "melting point",
+      "value_raw": "199-200 °C",
+      "evidence_quote": "1f C 19 H 22 N 2 S 310.5 H 4-isoC 3 H 7 199-200 85",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1g (2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione, X=Cl, R=H)",
+      "property": "melting point",
+      "value_raw": "218-219 °C",
+      "evidence_quote": "1g C 16 H 15 ClN 2 S 337.3 Cl H 218-219 83",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1h (2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione, X=Cl, R=3-Cl)",
+      "property": "melting point",
+      "value_raw": "157-158 °C",
+      "evidence_quote": "1h C 16 H 14 Cl 2 N 2 S 337.3 Cl 3-Cl 157-158 77",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1i (2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione, X=Cl, R=3,4-Cl2)",
+      "property": "melting point",
+      "value_raw": "189-190 °C",
+      "evidence_quote": "1i C 16 H 13 Cl 3 N 2 S 371.7 Cl 3,4-Cl 2 189-190 81",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1j (2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione, X=Cl, R=4-isoC3H7)",
+      "property": "melting point",
+      "value_raw": "205-207 °C",
+      "evidence_quote": "1j C 19 H 21 ClN 2 S 344.9 Cl 4-isoC 3 H 7 205-207 79",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1k (2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione, X=Cl, R=4-C4H9)",
+      "property": "melting point",
+      "value_raw": "183-184 °C",
+      "evidence_quote": "1k C 20 H 23 ClN 2 S 358.9 Cl 4-C 4 H 9 183-184 82",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2a (2-methyl-3-phenylquinazoline-4(3H)-thione, X=Cl, R=H)",
+      "property": "melting point",
+      "value_raw": "153-154 °C",
+      "evidence_quote": "2a C 15 H 11 ClN 2 S 286.8 Cl H 153-154 69",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2b (2-methyl-3-phenylquinazoline-4(3H)-thione, X=Cl, R=3-Cl)",
+      "property": "melting point",
+      "value_raw": "172-173 °C",
+      "evidence_quote": "2b C 15 H 10 Cl 2 N 2 S 321.2 Cl 3-Cl 172-173 74",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2c (2-methyl-3-phenylquinazoline-4(3H)-thione, X=Cl, R=4-Cl)",
+      "property": "melting point",
+      "value_raw": "202-204 °C",
+      "evidence_quote": "2c C 15 H 10 Cl 2 N 2 S 321.2 Cl 4-Cl 202-204 76",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2d (2-methyl-3-phenylquinazoline-4(3H)-thione, X=Cl, R=4-Br)",
+      "property": "melting point",
+      "value_raw": "212-214 °C",
+      "evidence_quote": "2d C 15 H 10 BrClN 2 S 365.7 Cl 4-Br 212-214 73",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2e (2-methyl-3-phenylquinazoline-4(3H)-thione, X=Cl, R=4-CH3)",
+      "property": "melting point",
+      "value_raw": "157-158 °C",
+      "evidence_quote": "2e C 16 H 13 ClN 2 S (300.8) Cl 4-CH 3 157-158 70",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2f (2-methyl-3-phenylquinazoline-4(3H)-thione, X=Cl, R=4-isoC3H7)",
+      "property": "melting point",
+      "value_raw": "135-136 °C",
+      "evidence_quote": "2f C 18 H 17 ClN 2 S 328.9 Cl 4-isoC 3 H 7 135-136 68",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "2g (2-methyl-3-phenylquinazoline-4(3H)-thione, X=Cl, R=4-OCH3)",
+      "property": "melting point",
+      "value_raw": "145-146 °C",
+      "evidence_quote": "2g C 16 H 13 ClN 2 OS 316.8 Cl 4-OCH 3 145-146 59",
+      "evidence_location": "Table 1 (Analytical data of 2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thiones (1) and 2-methyl-3-phenylquinazoline-4(3H)-thiones (2))",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "1a (2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione, X=H, R=H)",
+      "property": "melting point (literature reference)",
+      "value_raw": "212-214 °C",
+      "evidence_quote": "a Reference [ 41 ] reports m.p. 212–214°C for compound 1a .",
+      "evidence_location": "Table 1, footnote (a)",
+      "location_type": "table_footnote"
+    }
+  ]
+}

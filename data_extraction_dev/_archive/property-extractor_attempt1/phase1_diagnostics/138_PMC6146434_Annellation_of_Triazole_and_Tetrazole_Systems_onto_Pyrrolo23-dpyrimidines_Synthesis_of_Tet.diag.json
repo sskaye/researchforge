@@ -1,0 +1,48 @@
+{
+  "article_id": "138_PMC6146434_Annellation_of_Triazole_and_Tetrazole_Systems_onto_Pyrrolo23-dpyrimidines_Synthesis_of_Tet",
+  "source_kind": "pmc_nxml",
+  "available_sources": [
+    "nxml",
+    "text",
+    "pdf"
+  ],
+  "section_count": 4,
+  "section_first_3_headings": [
+    "Introduction",
+    "Results and Discussion",
+    "Antibacterial activity"
+  ],
+  "table_count": 1,
+  "table_labels": [
+    "Table 1"
+  ],
+  "table_header_examples": [
+    [
+      "Compd.",
+      "E. coli",
+      "E. entericus",
+      "P. aeruginosa",
+      "S. typhi",
+      "S. aureous",
+      "B. subtilis"
+    ]
+  ],
+  "caption_count": 1,
+  "doi_candidate_count": 1,
+  "doi_candidates": [
+    {
+      "doi": "10.3390/70700554",
+      "source": "nxml_front_matter"
+    }
+  ],
+  "full_text_length": 92000,
+  "warnings": [],
+  "doi_verification": {
+    "doi": "10.3390/70700554",
+    "doi_evidence": "nxml_front_matter",
+    "doi_verified": false,
+    "warnings": [
+      "doi_single_source_only"
+    ]
+  }
+}

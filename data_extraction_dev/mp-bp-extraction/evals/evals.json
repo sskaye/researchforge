@@ -1,0 +1,107 @@
+{
+  "skill": "mp-bp-extraction",
+  "version": "v1",
+  "evals": [
+    {
+      "name": "scripts-clean-baseline",
+      "description": "Five evidence-locked rows that exercise edge cases (range conversion, °F conversion, calculated value, very high mp, very low bp). All should pass every sanity check.",
+      "type": "deterministic",
+      "command": "python3 scripts/run_all_checks.py evals/files/clean_baseline.csv",
+      "expected_exit_code": 0,
+      "expected_stdout_contains": ["Loaded 5 rows"]
+    },
+    {
+      "name": "scripts-detect-seeded-errors",
+      "description": "Eleven rows with deliberately seeded errors of distinct types — bare code, truncated name, value out of range, wrong arithmetic, placeholder citation, empty name, implausible SMILES, intra-paper duplicate, plus two truncated-indicated-hydrogen-locant cases ('H-Indeno...' and 'H-Pyrrolo...' that should be '7H-Indeno...' / '1H-Pyrrolo...'). Run_all_checks should flag every error.",
+      "type": "deterministic",
+      "command": "python3 scripts/run_all_checks.py evals/files/seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "bare paper-local code",
+        "truncated",
+        "exceeds",
+        "arithmetic",
+        "placeholder citation",
+        "missing compound_name",
+        "duplicate group",
+        "indicated-hydrogen locant"
+      ]
+    },
+    {
+      "name": "csv-quote-lint-detects-unquoted-commas",
+      "description": "A 3-row fixture where row 2 has an unquoted comma in the compound_name field (N-(2,5-Dimethyl...). csv_quote_lint.py should detect this by column count mismatch OR by data_type carrying an unexpected value. Row 1 (no commas) and row 3 (commas properly quoted) should pass.",
+      "type": "deterministic",
+      "command": "python3 scripts/csv_quote_lint.py evals/files/malformed_csv_quoting.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "row 2",
+        "column count"
+      ]
+    },
+    {
+      "name": "validate-compound-name-detects-truncated-locant",
+      "description": "Specific check: 'H-Indeno[2,1-c]Quinolin-7-One' and 'H-Pyrrolo[3,2-d]pyrimidine' should be flagged as truncated-indicated-hydrogen-locant — real names are '7H-Indeno...' and '1H-Pyrrolo...' with a leading digit before the H.",
+      "type": "deterministic",
+      "command": "python3 scripts/validate_compound_name.py evals/files/seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "indicated-hydrogen locant"
+      ]
+    },
+    {
+      "name": "value-range-helium-tungsten-edge",
+      "description": "Values at the extremes of the plausible range — helium bp ~ -269 °C, tungsten mp ~ 3422 °C — should NOT be flagged.",
+      "type": "deterministic",
+      "command": "python3 scripts/value_range_check.py evals/files/clean_baseline.csv",
+      "expected_exit_code": 0
+    },
+    {
+      "name": "unit-conversion-arithmetic-K",
+      "description": "Verify K → °C arithmetic on a clean baseline (Camostat 492.478 K → 219.328 °C). Should pass.",
+      "type": "deterministic",
+      "command": "python3 scripts/unit_conversion_arithmetic.py evals/files/clean_baseline.csv",
+      "expected_exit_code": 0
+    },
+    {
+      "name": "unit-conversion-arithmetic-F",
+      "description": "Verify °F → °C arithmetic on a clean baseline (tungsten 6191.6 °F → 3422 °C). Should pass.",
+      "type": "deterministic",
+      "command": "python3 scripts/unit_conversion_arithmetic.py evals/files/clean_baseline.csv",
+      "expected_exit_code": 0
+    },
+    {
+      "name": "validate-compound-name-flags-bare-code",
+      "description": "validate_compound_name.py flags 'compound 3' and '5-acetyl-' as invalid names.",
+      "type": "deterministic",
+      "command": "python3 scripts/validate_compound_name.py evals/files/seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": ["bare paper-local code", "truncated"]
+    },
+    {
+      "name": "dedup-within-paper-flags-duplicate",
+      "description": "dedup_within_paper.py flags two rows in seeded_errors.csv (rows 8 and 9) as duplicates within the same paper.",
+      "type": "deterministic",
+      "command": "python3 scripts/dedup_within_paper.py evals/files/seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": ["duplicate group"]
+    },
+    {
+      "name": "INACCESSIBLE-handling",
+      "description": "Agent given a paper directory with no readable files must flag with `flagged_paper_unreadable` rather than emit fabricated rows. (Agent-based eval — needs the skill-creator harness.)",
+      "type": "agent",
+      "instructions": "Apply the EXTRACTION_PROMPT_TEMPLATES.md Template 1 to a paper subdirectory containing only an empty article.pdf. The agent must NOT emit any data rows. It should emit either zero rows or one row with verification_status=flagged_review and notes containing flagged_paper_unreadable."
+    },
+    {
+      "name": "extract-from-known-paper-with-provenance",
+      "description": "Apply the EXTRACTION_PROMPT_TEMPLATES.md Template 1 to a known paper subdirectory. Confirm: every emitted row has a non-empty evidence_quote; the quote is verbatim present in the paper file; data_type is correctly measured vs calculated.",
+      "type": "agent",
+      "instructions": "Apply Template 1 to {known_paper_subdir}. After extraction, run scripts/run_all_checks.py with --paper-root. Expected: zero flags."
+    },
+    {
+      "name": "verifier-prompt-detects-fabrication",
+      "description": "Independent verifier correctly flags a row whose evidence_quote is not in the paper file.",
+      "type": "agent",
+      "instructions": "Build a CSV with one correct row plus one row whose evidence_quote is a plausible-sounding string that doesn't actually appear in the paper. Apply VERIFICATION_PROMPT_TEMPLATES.md to both rows. The verifier must verify the first and flag the second with flagged_evidence_quote_not_found."
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "1282",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote present verbatim in article_layout.txt for compound 14b; measured mp 252-254 °C → 253.0 °C midpoint correct; identifier (DOI 10.3390/ijms25126803) confirmed."
+  },
+  {
+    "row_id": "932",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Recovered 3β-methoxy-cholest-5-ene (2) (15.8 mg), m.p. 81-83 C' verbatim present; measured mp 81-83 °C → 82.0 °C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "1016",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present in experimental section for compound 9b; measured mp > 300 °C with relation '>' correct; DOI matches."
+  },
+  {
+    "row_id": "940",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 8b; measured mp 90-92 °C → 91.0 °C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "490",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 5; measured mp 72-73 °C → 72.5 °C midpoint correct (degree symbol present without C); DOI matches."
+  },
+  {
+    "row_id": "123",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 4a (uses non-breaking hyphens consistent with the source); measured mp 166-168 °C → 167.0 °C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "445",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 9c; measured mp 75-77 °C → 76.0 °C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "1301",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 8j; measured mp 155-156 °C → 155.5 °C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "377",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 7; measured mp 173-174 °C → 173.5 °C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "850",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 15; measured mp >300 °C with relation '>' correct; DOI matches."
+  },
+  {
+    "row_id": "1225",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Anthraquinone: mp 284°;' verbatim present; measured mp 284 °C correct; PMC ID PMC6236387 matches directory."
+  },
+  {
+    "row_id": "180",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 22; measured mp 247-248 °C → 247.5 °C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "904",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 11; measured mp 201 °C correct (paper uses ' o C' for degree); DOI matches."
+  },
+  {
+    "row_id": "644",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 6a; measured mp 151-152 °C → 151.5 °C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "704",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote contains 'ºC' with U+00BA masculine ordinal indicator; the paper has 'm.p.138°C' with U+00B0 degree sign. Not verbatim under NFC normalization. Value 138 °C and compound 17a are otherwise correct."
+  },
+  {
+    "row_id": "917",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 6; measured mp 206-208 °C → 207.0 °C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "581",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present; 'Chloroquine estimated T m ... 385.54 K' is the calculated value; conversion 385.54 - 273.15 = 112.39 °C correct; data_type 'calculated' (SIRM model) consistent with paper wording 'estimated'."
+  },
+  {
+    "row_id": "519",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 2f quote verbatim present; series 2 = 2-methyl-quinazoline-4(3H)-thiones; X=Cl, R=4-isoC3H7 = 4-isopropylphenyl matches compound name; mp 135-136 °C → 135.5 °C midpoint correct."
+  },
+  {
+    "row_id": "589",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present; 543.15 K is the reported experimental T_m by Vu et al. [57] (not the paper's estimate); data_type 'measured' correct; conversion 543.15 - 273.15 = 270.00 °C correct."
+  },
+  {
+    "row_id": "839",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for phosphonium salt 2a; measured mp 191-192 °C → 191.5 °C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "469",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 6; measured mp 156-158 °C → 157.0 °C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "1067",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 7; measured mp 305-306 °C → 305.5 °C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "470",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 7; measured mp 280-282 °C → 281.0 °C midpoint correct; DOI matches."
+  },
+  {
+    "row_id": "513",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 1k quote verbatim present; series 1 = 2,2-dimethyl-1,2-dihydroquinazoline-4(3H)-thiones; X=Cl, R=4-C4H9 = 4-butylphenyl matches compound name; mp 183-184 °C → 183.5 °C midpoint correct."
+  },
+  {
+    "row_id": "64",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 6h; measured mp 111-114 °C → 112.5 °C midpoint correct; DOI matches."
+  }
+]

@@ -1,0 +1,601 @@
+#!/usr/bin/env python3
+"""Build batch_pmc_00_results.csv from extracted mp/bp data."""
+import csv
+import os
+
+OUT = "/sessions/practical-gifted-babbage/mnt/data_extraction_dev/Trial2-full-opus47/batches/batch_pmc_00_results.csv"
+# Local writable version
+LOCAL_OUT = "/Users/skaye/Claude/Skills/ResearchForge/data_extraction_dev/Trial2-full-opus47/batches/batch_pmc_00_results.csv"
+
+ROWS = []
+_nid = [0]
+
+def add(compound_name, prop, vc, vmin, vmax, vraw, relation, dtype, source, source_url, eloc, equote, conv="", notes=""):
+    _nid[0] += 1
+    ROWS.append({
+        'id': _nid[0],
+        'verification_status': 'pending_verification',
+        'compound_name': compound_name,
+        'compound_smiles': '',
+        'property': prop,
+        'value_celsius': vc,
+        'value_celsius_min': vmin,
+        'value_celsius_max': vmax,
+        'value_raw': vraw,
+        'relation': relation,
+        'data_type': dtype,
+        'source': source,
+        'source_url': source_url,
+        'evidence_location': eloc,
+        'evidence_quote': equote,
+        'conversion_arithmetic': conv,
+        'notes': notes,
+    })
+
+# =============== PAPER 001 (PMC12938810) ===============
+src1 = "Antioxidants (Basel) 2026 15(2) 217"
+url1 = "https://doi.org/10.3390/antiox15020217"
+
+p1 = [
+    ("N′-(1-(p-tolyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide",
+     "decomposition", 272, "", "", "272 °C (dec.)", "AL1",
+     "Synthesis of N′-(1-(p-tolyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide ( AL1 ). M.p.: 272 °C (dec.)."),
+    ("N′-(1-(4-isobutylphenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide",
+     "decomposition", 230, "", "", "230 °C (dec.)", "AL2",
+     "Synthesis of N′-(1-(4-isobutylphenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide ( AL2 ). M.p.: 230 °C (dec.)."),
+    ("N′-(1-(4-aminophenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide",
+     "decomposition", 284, "", "", "284 °C (dec.)", "AL3",
+     "Synthesis of N′-(1-(4-aminophenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide( AL3 ). M.p.: 284 °C (dec.)."),
+    ("N′-(1-(3-aminophenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide",
+     "decomposition", 231.5, "", "", "231.5 °C (dec.)", "AL4",
+     "Synthesis of N′-(1-(3-aminophenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide ( AL4 ). M.p.: 231.5 °C (dec.)."),
+    ("N′-(1-(4-chlorophenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide",
+     "decomposition", 275.5, "", "", "275.5 °C (dec.)", "AL5",
+     "Synthesis of N′-(1-(4-chlorophenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide ( AL5 ). M.p.: 275.5 °C (dec.)."),
+    ("N′-(1-(4-bromophenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide",
+     "decomposition", 264.5, "", "", "264.5 °C (dec.)", "AL6",
+     "Synthesis of N′-(1-(4-bromophenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide ( AL6 ). M.p.: 264.5 °C (dec.)."),
+    ("N′-(1-(4-nitrophenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide",
+     "melting_point", 220.5, 220, 221, "220–221 °C", "AL8",
+     "Synthesis of N′-(1-(4-nitrophenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide ( AL8 ). M.p.: 220–221 °C."),
+    ("N′-(1-(3,4,5-trimethoxyphenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide",
+     "melting_point", 227.25, 227, 227.5, "227–227.5 °C", "AL9",
+     "Synthesis of N′-(1-(3,4,5-trimethoxyphenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide ( AL9 ). M.p.: 227–227.5 °C."),
+    ("N′-(1-(4-fluorophenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide",
+     "melting_point", 222, 221.5, 222.5, "221.5–222.5 °C", "AL10",
+     "Synthesis of N′-(1-(4-fluorophenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide ( AL10 ). M.p.: 221.5–222.5 °C."),
+]
+for entry in p1:
+    if len(entry) == 8:
+        name, prop, vc, mn, mx, raw, code, q = entry
+        add(name, prop, vc, mn, mx, raw, "=", "measured", src1, url1,
+            f"Sect. 2 Synthesis ¶ {code}", q, "", code)
+    else:
+        name, prop, vc, mn, mx, raw, code, q = entry
+        add(name, prop, vc, mn, mx, raw, "=", "measured", src1, url1,
+            f"Sect. 2 Synthesis ¶ {code}", q, "", code)
+
+# =============== PAPER 003 (PMC12943044) ===============
+src3 = "Pharmaceuticals (Basel) 2026 19(2) 230"
+url3 = "https://doi.org/10.3390/ph19020230"
+
+p3 = [
+    ("2-(8-Hydroxyquinolin-5-yl)isoindoline-1,3-dione", 266.5, 265, 268, "265–268 °C",
+     "2", "2-(8-Hydroxyquinolin-5-yl)isoindoline-1,3-dione ( 2 ) Brown powder (245 mg, 85% yield); m.p. 265–268 °C;", "melting_point", ""),
+    ("2-(8-Hydroxyquinolin-5-yl)-4-methoxyisoindoline-1,3-dione", 251.5, 250, 253, "250–253 °C",
+     "4", "2-(8-Hydroxyquinolin-5-yl)-4-methoxyisoindoline-1,3-dione ( 4 ) Brown powder (288 mg, 90% yield); m.p. 250–253 °C;", "melting_point", ""),
+    ("2-(8-Hydroxyquinolin-5-yl)-5-methoxyisoindoline-1,3-dione", 244.5, 242, 247, "242–247 °C",
+     "5", "2-(8-Hydroxyquinolin-5-yl)-5-methoxyisoindoline-1,3-dione ( 5 ) Black powder (288 mg, 90% yield); m.p. 242–247 °C;", "melting_point", ""),
+    ("2-(8-Hydroxy-7-(piperidin-1-ylmethyl)quinolin-5-yl)isoindoline-1,3-dione", 211, 209, 213, "209–213 °C",
+     "6a", "2-(8-Hydroxy-7-(piperidin-1-ylmethyl)quinolin-5-yl)isoindoline-1,3-dione ( 6a ) Dark brown powder (28 mg, 73% yield); m.p. 209–213 °C;", "melting_point", ""),
+    ("2-(8-Hydroxy-7-((4-methylpiperazin-1-yl)methyl)quinolin-5-yl)isoindoline-1,3-dione", 257, 255, 259, "255–259 °C",
+     "6b", "2-(8-Hydroxy-7-((4-methylpiperazin-1-yl)methyl)quinolin-5-yl)isoindoline-1,3-dione ( 6b ) Brown powder (36 mg, 88% yield); m.p. 255–259 °C;", "melting_point", ""),
+    ("2-(8-Hydroxy-7-(piperidin-1-ylmethyl)quinolin-5-yl)-4-nitroisoindoline-1,3-dione", 239, 238, 240, "238–240 °C (decomp.)",
+     "7a", "2-(8-Hydroxy-7-(piperidin-1-ylmethyl)quinolin-5-yl)-4-nitroisoindoline-1,3-dione ( 7a ) Brown powder (25 mg, 55% yield); m.p. 238–240 °C (decomp.);", "decomposition", ""),
+    ("2-(8-Hydroxy-7-((4-methylpiperazin-1-yl)methyl)quinolin-5-yl)-4-nitroisoindoline-1,3-dione", 268.5, 267, 270, "267–270 °C (decomp.)",
+     "7b", "2-(8-Hydroxy-7-((4-methylpiperazin-1-yl)methyl)quinolin-5-yl)-4-nitroisoindoline-1,3-dione ( 7b ) Brown powder (33 mg, 75% yield); m.p. 267–270 °C (decomp.);", "decomposition", ""),
+    ("2-(8-Hydroxy-7-(morpholinomethyl)quinolin-5-yl)-4-nitroisoindoline-1,3-dione", 220.5, 219, 222, "219–222 °C",
+     "7c", "2-(8-Hydroxy-7-(morpholinomethyl)quinolin-5-yl)-4-nitroisoindoline-1,3-dione ( 7c ) Brown powder (30 mg, 70% yield); m.p. 219–222 °C;", "melting_point", ""),
+    ("2-(8-Hydroxy-7-(piperidin-1-ylmethyl)quinolin-5-yl)-4-methoxyisoindoline-1,3-dione", 211, 209, 213, "209–213 °C",
+     "8a", "2-(8-Hydroxy-7-(piperidin-1-ylmethyl)quinolin-5-yl)-4-methoxyisoindoline-1,3-dione ( 8a ) Brown powder (24 mg, 57% yield); m.p. 209–213 °C;", "melting_point", ""),
+    ("2-(8-Hydroxy-7-((4-methylpiperazin-1-yl)methyl)quinolin-5-yl)-4-methoxyisoindoline-1,3-dione", 223, 221, 225, "221–225 °C",
+     "8b", "2-(8-Hydroxy-7-((4-methylpiperazin-1-yl)methyl)quinolin-5-yl)-4-methoxyisoindoline-1,3-dione ( 8b ) Brown powder (25 mg, 60% yield); m.p. 221–225 °C;", "melting_point", ""),
+    ("2-(8-Hydroxy-7-(morpholinomethyl)quinolin-5-yl)-4-methoxyisoindoline-1,3-dione", 223.5, 222, 225, "222–225 °C",
+     "8c", "2-(8-Hydroxy-7-(morpholinomethyl)quinolin-5-yl)-4-methoxyisoindoline-1,3-dione ( 8c ) Brown powder (30 mg, 72% yield); m.p. 222–225 °C;", "melting_point", ""),
+    ("2-(8-Hydroxy-7-(piperidin-1-ylmethyl)quinolin-5-yl)-5-methoxyisoindoline-1,3-dione", 186, 184, 188, "184–188 °C",
+     "9a", "2-(8-Hydroxy-7-(piperidin-1-ylmethyl)quinolin-5-yl)-5-methoxyisoindoline-1,3-dione ( 9a ) Dark brown powder (25 mg, 60% yield); m.p. 184–188 °C;", "melting_point", ""),
+    ("2-(8-Hydroxy-7-((4-methylpiperazin-1-yl)methyl)quinolin-5-yl)-5-methoxyisoindoline-1,3-dione", 230, 228, 232, "228–232 °C",
+     "9b", "2-(8-Hydroxy-7-((4-methylpiperazin-1-yl)methyl)quinolin-5-yl)-5-methoxyisoindoline-1,3-dione ( 9b ) Brown powder (30 mg, 70% yield); m.p. 228–232 °C;", "melting_point", ""),
+]
+for name, mid, mn, mx, raw, code, q, prop, _ in p3:
+    add(name, prop, mid, mn, mx, raw, "=", "measured", src3, url3,
+        f"Sect. 3.1 Synthesis ¶ compound {code}", q, "", f"compound {code}")
+
+# =============== PAPER 004 (PMC13084458) ===============
+src4 = "ACS Omega 2024 11(14) 21903-21925"
+url4 = "https://doi.org/10.1021/acsomega.5c12576"
+
+p4 = [
+    ("N,4-Diphenylpiperazine-1-carbothioamide", 160.38, "3a",
+     "N,4-Diphenylpiperazine-1-carbothioamide (3a) White solid; 160.38 °C;"),
+    ("N-Benzyl-4-phenylpiperazine-1-carbothioamide", 180.33, "3b",
+     "N-Benzyl-4-phenylpiperazine-1-carbothioamide (3b) White solid; 180.33 °C;"),
+    ("N-Phenethyl-4-phenylpiperazine-1-carbothioamide", 141.97, "3c",
+     "N-Phenethyl-4-phenylpiperazine-1-carbothioamide (3c) White solid; 141.97 °C;"),
+    ("4-Phenyl-N-(3,4,5-trimethoxyphenyl)piperazine-1-carbothioamide", 204.90, "3d",
+     "(3d) White solid; 204.90 °C;"),
+    ("4-(4-Hydroxyphenyl)-N-phenylpiperazine-1-carbothioamide", 196.83, "3e",
+     "4-(4-Hydroxyphenyl)- N -phenylpiperazine-1-carbothioamide (3e) White solid; 196.83 °C;"),
+    ("N-Benzyl-4-(4-hydroxyphenyl)piperazine-1-carbothioamide", 164.61, "3f",
+     "N-Benzyl-4-(4-hydroxyphenyl)­piperazine-1-carbothioamide (3f) Brown solid; 164.61 °C;"),
+    ("4-(4-Hydroxyphenyl)-N-phenethylpiperazine-1-carbothioamide", 191.55, "3g",
+     "4-(4-Hydroxyphenyl)-N-phenethylpiperazine-1-carbothioamide (3g) White solid; 191.55 °C;"),
+    ("4-(4-Hydroxyphenyl)-N-(3,4,5-trimethoxyphenyl)piperazine-1-carbothioamide", 236.51, "3h",
+     "(3h) White solid; 236.51 °C;"),
+    ("4-(2-Chlorophenyl)-N-phenylpiperazine-1-carbothioamide", 175.78, "3i",
+     "4-(2-Chlorophenyl)- N -phenylpiperazine-1-carbothioamide (3i) White solid; 175.78 °C;"),
+    ("N-Benzyl-4-(2-chlorophenyl)piperazine-1-carbothioamide", 111.40, "3j",
+     "N-Benzyl-4-(2-chlorophenyl)­piperazine-1-carbothioamide (3j) White solid; 111.40 °C;"),
+    ("4-(2-Chlorophenyl)-N-phenethylpiperazine-1-carbothioamide", 111.76, "3k",
+     "4-(2-Chlorophenyl)-N-phenethylpiperazine-1-carbothioamide (3k) White solid; 111.76 °C;"),
+    ("4-(2-Chlorophenyl)-N-(3,4,5-trimethoxyphenyl)piperazine-1-carbothioamide", 180.66, "3l",
+     "(3l) White solid; 180.66"),
+    ("4-Benzhydryl-N-phenylpiperazine-1-carbothioamide", 216.60, "3m",
+     "4-Benzhydryl- N -phenylpiperazine-1-carbothioamide (3m) White solid; 216.60 °C;"),
+    ("4-Benzhydryl-N-benzylpiperazine-1-carbothioamide", 156.54, "3n",
+     "4-Benzhydryl-N-benzylpiperazine-1-carbothioamide (3n) White solid; 156.54 °C;"),
+    ("4-Benzhydryl-N-phenethylpiperazine-1-carbothioamide", 138.93, "3o",
+     "4-Benzhydryl-N-phenethylpiperazine-1-carbothioamide (3o) White solid; 138.93 °C;"),
+    ("4-Benzhydryl-N-(3,4,5-trimethoxyphenyl)piperazine-1-carbothioamide", 151.96, "3p",
+     "(3p) White solid; 151.96 °C;"),
+]
+for name, mp, code, q in p4:
+    add(name, "melting_point", mp, "", "", f"{mp} °C", "=", "measured", src4, url4,
+        f"Sect. Methods compound description ¶ {code}", q, "", f"compound {code}")
+
+# =============== PAPER 005 (PMC12987641) ===============
+src5 = "ChemMedChem 2026 21(5) e202500751"
+url5 = "https://doi.org/10.1002/cmdc.202500751"
+
+p5 = [
+    ("Diphenyl(6-Phenyl-6,6a,7,11b-Tetrahydro-5H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide",
+     233, 232, 234, "232–234°C", "9a", "9a as a white solid, mp 232–234°C"),
+    ("Diphenyl(6-(4-Fluorophenyl)-6,6a,7,11b-Tetrahydro-5H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide",
+     201, 200, 202, "200°C–202°C", "9b", "9b as a white solid, mp 200°C"),
+    ("Diphenyl(6-(4-(Trifluoromethyl)Phenyl)-6,6a,7,11b-Tetrahydro-5H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide",
+     235, 234, 236, "234–236°C", "9c", "9c as a yellow solid mp 234–236°C"),
+    ("Diphenyl(6-(4-Nitrophenyl)-6,6a,7,11b-Tetrahydro-5H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide",
+     212.5, 212, 213, "212–213°C", "9d", "9d as a yellow solid, mp 212–213°C"),
+    ("Diphenyl(6-(3-Methoxyphenyl)-6,6a,7,11b-Tetrahydro-5H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide",
+     134.5, 134, 135, "134–135°C", "9f", "9f as a yellow solid, mp 134–135°C"),
+    ("Diphenyl(6-(3-Fluorophenyl)-6,6a,7,11b-Tetrahydro-5H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide",
+     208, 207, 209, "207°C–209°C", "9g", "9g as a yellow solid, mp 207°C"),
+    ("Diphenyl(6-(3-Nitrophenyl)-6,6a,7,11b-Tetrahydro-5H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide",
+     229.5, 228, 231, "228–231°C", "9h", "9h as a yellow solid, mp 228–231°C"),
+    ("Diphenyl(6-(2,4-Difluorophenyl)-6,6a,7,11b-Tetrahydro-5H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide",
+     126.5, 126, 127, "126–127°C", "9i", "9i as a white solid, mp 126–127°C"),
+    ("Diphenyl(6-(Naphthalen-1-Yl)-6,6a,7,11b-Tetrahydro-5H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide",
+     268, 267, 269, "267–269°C", "9j", "9j as a white solid, mp 267–269°C"),
+    ("Diphenyl(6-(Naphthalen-2-Yl)-6,6a,7,11b-Tetrahydro-5H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide",
+     223, 222, 224, "222–224°C", "9k", "9k as a light"),
+    ("Diphenyl(6-(Pyridin-2-Yl)-6,6a,7,11b-Tetrahydro-5H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide",
+     215, 214, 216, "214–216°C", "9l", "9l as a brown solid, mp 214–216°C"),
+    ("Diphenyl(6-(Pyridin-4-Yl)-6,6a,7,11b-Tetrahydro-5H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide",
+     220.5, 219, 222, "219–222°C", "9m", "9 m as a yellow solid, mp 219–222°C"),
+    ("Diphenyl(6-(4-Methoxyphenyl)-7H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide",
+     212.5, 212, 213, "212–213°C", "10e", "10e as a yellow solid, mp 212–213°C"),
+    ("4-(Diphenylphosphoryl)-6-Phenyl-7H-Indeno[2,1-c]Quinolin-7-One",
+     274.5, 274, 275, "274–275°C", "11a", "11a as a yellow solid, mp 274"),
+    ("4-(Diphenylphosphoryl)-6-(4-(Trifluoromethyl)Phenyl)-7H-Indeno[2,1-c]Quinolin-7-One",
+     308.5, 308, 309, "308°C–309°C", "11c", "11c as a yellow solid, mp 308°C"),
+    ("4-(Diphenylphosphoryl)-6-(4-Nitrophenyl)-7H-Indeno[2,1-c]Quinolin-7-One",
+     295.5, 295, 296, "295°C–296°C", "11d", "11d as an orange solid, mp 295°C"),
+    ("4-(Diphenylphosphoryl)-6-(4-Methoxyphenyl)-7H-Indeno[2,1-c]Quinolin-7-One",
+     275.5, 275, 276, "275–276°C", "11e", "11e as a yellow solid, mp 275–276°C"),
+    ("4-(Diphenylphosphoryl)-6-(3-Methoxyphenyl)-7H-Indeno[2,1-c]Quinolin-7-One",
+     284, 283, 285, "283°C–285°C", "11f", "11f as a yellow solid, mp 283°C"),
+    ("4-(Diphenylphosphoryl)-6-(3-Fluorophenyl)-7H-Indeno[2,1-c]Quinolin-7-One",
+     271.5, 270, 273, "270°C–273°C", "11g", "11g as a yellow solid, mp 270°C"),
+    ("4-(Diphenylphosphoryl)-6-(3-Nitrophenyl)-7H-Indeno[2,1-c]Quinolin-7-One",
+     172, 171, 173, "171°C–173°C", "11h", "11hr as a yellow solid, mp 171°C"),
+    ("4-(Diphenylphosphoryl)-6-(2,4-Difluorophenyl)-7H-Indeno[2,1-c]Quinolin-7-One",
+     182.5, 182, 183, "182°C–183°C", "11i", "11i as an orange solid, mp 182°C"),
+    ("4-(Diphenylphosphoryl)-6-(Naphthalen-2-Yl)-7H-Indeno[2,1-c]Quinolin-7-One",
+     213.5, 213, 214, "213°C", "11k", "11k as a yellow solid, mp 213°C"),
+    ("4-(Diphenylphosphoryl)-6-(Pyridin-2-Yl)-7H-Indeno[2,1-c]Quinolin-7-One",
+     269.5, 268, 271, "268°C", "11l", "11l as a yellow solid, mp 268°C"),
+    ("4-(Diphenylphosphoryl)-6-(Pyridin-4-Yl)-7H-Indeno[2,1-c]Quinolin-7-One",
+     288.5, 287, 290, "287°C–290°C", "11m", "11 m as a yellow solid, mp 287–290°C"),
+]
+for name, mid, mn, mx, raw, code, q in p5:
+    add(name, "melting_point", mid, mn, mx, raw, "=", "measured", src5, url5,
+        f"Sect. 6.2.2 ¶ {code}", q, "", f"compound {code}")
+
+# =============== PAPER 006 (PMC13006720) ===============
+src6 = "Arch Pharm (Weinheim) 2026 359(3) e70227"
+url6 = "https://doi.org/10.1002/ardp.70227"
+
+p6 = [
+    ("1-[5-(5-Nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]-N-phenylpiperidine-4-carboxamide", 255, 254, 256, "254°C–256°C", "8",
+     "( 8 ): Yellow solid, mp 254°C–256°C."),
+    ("N-Benzyl-1-[5-(5-nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidine-4-carboxamide", 272, 271, 273, "271°C", "9",
+     "( 9 ): Orange solid, mp 271°C"),
+    ("1-[5-(5-Nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]-N-phenethylpiperidine-4-carboxamide", 291, 289, 293, "289°C–293°C", "10",
+     "( 10 ): Orange solid, mp 289°C–293°C."),
+    ("1-[5-(5-Nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]-N-(3-phenylpropyl)piperidine-4-carboxamide", 306.5, 305, 308, "305°C–308°C", "11",
+     "( 11 ): Orange solid, mp 305°C–308°C."),
+    ("{1-[5-(5-Nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidin-4-yl}(pyrrolidin-1-yl)methanone", 244, 243, 245, "243°C", "12",
+     "( 12 ): Orange solid, mp 243°C"),
+    ("{1-[5-(5-Nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidin-4-yl}(piperidin-1-yl)methanone", 253, 252, 254, "252°C", "13",
+     "( 13 ): Orange solid, mp 252°C"),
+    ("(4-Methylpiperidin-1-yl){1-[5-(5-nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidin-4-yl}methanone", 269, 268, 270, "268°C–270°C", "14",
+     "( 14 ): Orange solid, mp 268°C–270°C."),
+    ("[1,4′-Bipiperidin]-1′-yl{1-[5-(5-nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidin-4-yl}methanone", 289.5, 288, 291, "288°C–291°C", "15",
+     "( 15 ): Yellow solid, mp 288°C–291°C."),
+    ("Morpholino{1-[5-(5-nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidin-4-yl}methanone", 270, 269, 271, "269°C", "16",
+     "( 16 ): Yellow solid, mp 269°C"),
+    ("(4-Methylpiperazin-1-yl){1-[5-(5-nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidin-4-yl}methanone", 277.5, 276, 279, "276°C–279°C", "17",
+     "( 17 ): Orange solid, mp 276°C–279°C."),
+    ("N-Cyclohexyl-1-[5-(5-nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidine-4-carboxamide", 250, 248, 252, "248°C–252°C", "18",
+     "( 18 ): Orange solid, mp 248°C–252°C."),
+    ("N-Ethyl-1-[5-(5-nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidine-4-carboxamide", 218.5, 217, 220, "217°C–220°C", "19",
+     "( 19 ): Orange solid, mp 217°C–220°C."),
+    ("N-Isopropyl-1-[5-(5-nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidine-4-carboxamide", 229, 228, 230, "228°C–230°C", "20",
+     "( 20 ): Orange solid, mp 228°C–230°C."),
+]
+for name, mid, mn, mx, raw, code, q in p6:
+    add(name, "melting_point", mid, mn, mx, raw, "=", "measured", src6, url6,
+        f"Sect. Synthesis ¶ ({code})", q, "", f"compound {code}")
+
+# =============== PAPER 007 (PMC13093257) ===============
+src7 = "RSC Adv 2024 16(22) 20224-20240"
+url7 = "https://doi.org/10.1039/d6ra00514d"
+
+add("2-(3-nitrophenyl)imidazo[1,2-a]pyridine",
+    "melting_point", 208, 207, 209, "207–209 °C", "=", "measured", src7, url7,
+    "Sect. 2.3.1 Synthesis of 2-(3-nitrophenyl)imidazo[1,2-a]pyridine",
+    "yield: 85.60%, MP: 207",
+    "", "product (3); mp range 207-209 °C")
+
+# =============== PAPER 009 (PMC12943507) ===============
+src9 = "Pharmaceuticals (Basel) 2026 19(2) 239"
+url9 = "pmc:PMC12943507"
+
+p9 = [
+    ("3,5-Diamino-4-(Phenyldiazenyl)-N-Tosyl-1H-Pyrazole-1-Carboxamide", 206.5, 206, 207, "206–207 °C", "5a",
+     "3,5-Diamino-4-(Phenyldiazenyl)-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5a ) Yield: 76.6%; Color: yellow solid; Melting Point: 206–207 °C;"),
+    ("3,5-Diamino-4-[(4-Chlorophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide", 295.5, 295, 296, "295–296 °C", "5b",
+     "3,5-Diamino-4-[(4-Chlorophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5b ) Yield: 73.2%; Color: light yellow solid; Melting Point: 295–296 °C;"),
+    ("3,5-Diamino-4-[(4-Fluorophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide", 215.5, 215, 216, "215–216 °C", "5c",
+     "3,5-Diamino-4-[(4-Fluorophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5c ) Yield: 67.6%; Color: yellow solid; Melting Point: 215–216 °C;"),
+    ("3,5-Diamino-4-[(4-Methoxyphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide", 173.5, 173, 174, "173–174 °C", "5d",
+     "3,5-Diamino-4-[(4-Methoxyphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5d ) Yield: 72.8%; Color: light yellow solid; Melting Point: 173–174 °C;"),
+    ("3,5-Diamino-4-[(4-Nitrophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide", 246.5, 246, 247, "246–247 °C", "5e",
+     "3,5-Diamino-4-[(4-Nitrophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5e ) Yield: 65.2%; Color: dark red solid; Melting Point: 246–247 °C;"),
+    ("3,5-Diamino-4-[(4-Acetylphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide", 183.5, 183, 184, "183–184 °C", "5f",
+     "3,5-Diamino-4-[(4-Acetylphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5f ) Yield: 65.9%; Color: brown solid; Melting Point: 183–184 °C;"),
+    ("3,5-Diamino-4-[(4-Hydroxyphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide", 216.5, 216, 217, "216–217 °C", "5g",
+     "3,5-Diamino-4-[(4-Hydroxyphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5g ) Yield: 67.7%; Color: yellow solid; Melting Point: 216–217 °C;"),
+    ("3,5-Diamino-4-[(3-Nitrophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide", 214.5, 214, 215, "214–215 °C", "5h",
+     "3,5-Diamino-4-[(3-Nitrophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5h ) Yield: 72.3%; Color: light orange solid; Melting Point: 214–215 °C;"),
+    ("3,5-Diamino-4-[(2-Methyl-4-Nitrophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide", 219.5, 219, 220, "219–220 °C", "5i",
+     "3,5-Diamino-4-[(2-Methyl-4-Nitrophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5i ) Yield: 68.4%; Color: reddish solid; Melting Point: 219–220 °C;"),
+    ("3,5-Diamino-4-[(3,4-Dichlorophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide", 291.5, 291, 292, "291–292 °C", "5j",
+     "3,5-Diamino-4-[(3,4-Dichlorophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5j ) Yield: 79.6%; Color: yellow solid; Melting Point: 291"),
+    ("3,5-Diamino-4-[(3,4-Dimethoxyphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide", 169.5, 169, 170, "169–170 °C", "5k",
+     "3,5-Diamino-4-[(3,4-Dimethoxyphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5k ) Yield: 85.2%; Color: light green solid; Melting Point: 169"),
+    ("3,5-Diamino-4-[(3,5-Dimethylphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide", 228.5, 228, 229, "228–229 °C", "5l",
+     "3,5-Diamino-4-[(3,5-Dimethylphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5l ) Yield: 69.6%; Color: light yellow solid; Melting Point: 228–229 °C;"),
+    ("3,5-Diamino-4-[(Perfluorophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide", 203.5, 203, 204, "203–204 °C", "5m",
+     "3,5-Diamino-4-[(Perfluorophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5m ) Yield: 87.6%; Color: light yellow solid; Melting Point: 203"),
+]
+for name, mid, mn, mx, raw, code, q in p9:
+    add(name, "melting_point", mid, mn, mx, raw, "=", "measured", src9, url9,
+        f"Sect. 3.2 Synthesis ¶ {code}", q, "", f"compound {code}")
+
+# =============== PAPER 011 (PMC12943719) ===============
+src11 = "Molecules 2026 31(4) 699"
+url11 = "pmc:PMC12943719"
+
+p11 = [
+    ("5-Acetyl-2-ethyl-6-phenyl-4-phenylaminopyridazin-3(2H)-one", 188, 187, 189, "187–189 °C (EtOH)", "2a",
+     "5-Acetyl-2-ethyl-6-phenyl-4-phenylaminopyridazin-3(2H)-one, 2a Yield = 43%; mp = 187–189 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(3-fluorophenylamino)-6-phenylpyridazin-3(2H)-one", 174.5, 174, 175, "174–175 °C (EtOH)", "2b",
+     "5-Acetyl-2-ethyl-4-(3-fluorophenylamino)-6-phenylpyridazin-3(2H)-one, 2b Yield = 52%; mp = 174–175 °C (EtOH);"),
+    ("5-Acetyl-4-(3-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one", 186.5, 186, 187, "186–187 °C (EtOH)", "2c",
+     "5-Acetyl-4-(3-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2c Yield = 64%; mp = 186–187 °C (EtOH);"),
+    ("5-Acetyl-4-(3-bromophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one", 189.5, 189, 190, "189–190 °C (EtOH)", "2d",
+     "5-Acetyl-4-(3-bromophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2d Yield = 65%; mp = 189–190 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(3-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one", 158.5, 158, 159, "158–159 °C (EtOH)", "2e",
+     "5-Acetyl-2-ethyl-4-(3-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2e Yield = 54%; mp = 158–159 °C (EtOH);"),
+    ("3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)-benzonitrile", 226.5, 226, 227, "226–227 °C (EtOH)", "2f",
+     "3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)-benzonitrile, 2f Yield = 53%; mp = 226–227 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-6-phenyl-4-(3-trifluoromethylphenylamino)pyridazin-3(2H)-one", 158, 157, 159, "157–159 °C (EtOH)", "2g",
+     "5-Acetyl-2-ethyl-6-phenyl-4-(3-trifluoromethylphenylamino)pyridazin-3(2H)-one, 2g Yield = 35%; mp = 157–159 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(3-hydroxyphenylamino)-6-phenylpyridazin-3(2H)-one", 186, 185, 187, "185–187 °C (EtOH)", "2h",
+     "5-Acetyl-2-ethyl-4-(3-hydroxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2h Yield = 22%; mp = 185–187 °C (EtOH);"),
+    ("3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)benzoic Acid", 263, 262, 264, "262–264 °C (EtOH)", "2i",
+     "3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)benzoic Acid, 2i Yield = 77%; mp = 262–264 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(2-fluorophenylamino)-6-phenylpyridazin-3(2H)-one", 185, 184, 186, "184–186 °C (EtOH)", "2j",
+     "5-Acetyl-2-ethyl-4-(2-fluorophenylamino)-6-phenylpyridazin-3(2H)-one, 2j Yield = 43%; mp = 184–186 °C (EtOH);"),
+    ("5-Acetyl-4-(4-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one", 183.5, 183, 184, "183–184 °C (EtOH)", "2k",
+     "5-Acetyl-4-(4-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2k Yield = 64%; mp = 183–184 °C (EtOH);"),
+    ("5-Acetyl-4-(4-bromophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one", 185.5, 185, 186, "185–186 °C (EtOH)", "2l",
+     "5-Acetyl-4-(4-bromophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2l Yield = 70%; mp = 185–186 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(4-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one", 161.5, 161, 162, "161–162 °C (EtOH)", "2m",
+     "5-Acetyl-2-ethyl-4-(4-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2m Yield = 67%; mp = 161–162 °C (EtOH);"),
+    ("4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)benzoic Acid", 252, "", "", "252 °C dec. (EtOH)", "2n",
+     "4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)benzoic Acid, 2n [ 36 ] Yield = 77%; mp = 252 °C dec. (EtOH);", "decomposition"),
+    ("4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydro-pyridazin-4-ylamino)benzoic Acid Ethyl Ester", 172, 171, 173, "171–173 °C (EtOH)", "2o",
+     "4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydro-pyridazin-4-ylamino)benzoic Acid Ethyl Ester, 2o Yield = 40%; mp = 171–173 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(4-nitrophenylamino)-6-phenylpyridazin-3(2H)-one", 210, 209, 211, "209–211 °C (EtOH)", "2p",
+     "5-Acetyl-2-ethyl-4-(4-nitrophenylamino)-6-phenylpyridazin-3(2H)-one, 2p Yield = 73%; mp = 209–211 °C (EtOH);"),
+    ("3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydro-pyridazin-4-ylamino)-benzonitrile", 204.5, 204, 205, "204–205 °C (EtOH)", "2q",
+     "3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydro-pyridazin-4-ylamino)-benzonitrile, 2q Yield = 80%; mp = 204–205 °C (EtOH);"),
+    ("5-Acetyl-4-(benzo[1,3]dioxol-5-ylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one", 190, 189, 191, "189–191 °C (EtOH)", "2r",
+     "5-Acetyl-4-(benzo [1,3]dioxol-5-ylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2r Yield = 66%; mp = 189–191 °C (EtOH);"),
+    ("5-Acetyl-4-(3-chloro-4-methoxyphenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one", 181, 180, 182, "180–182 °C (EtOH)", "2s",
+     "5-Acetyl-4-(3-chloro-4-methoxyphenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2s Yield = 64%; mp = 180–182 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-6-phenyl-4-(pyridin-3-ylamino)pyridazin-3(2H)-one", 185.5, 185, 186, "185–186 °C (EtOH)", "3a",
+     "5-Acetyl-2-ethyl-6-phenyl-4-(pyridin-3-ylamino)pyridazin-3(2H)-one, 3a Yield = 26%; mp = 185–186 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-6-phenyl-4-(quinolin-8-ylamino)pyridazin-3(2H)-one", 179.5, 179, 180, "179–180 °C (EtOH)", "3b",
+     "5-Acetyl-2-ethyl-6-phenyl-4-(quinolin-8-ylamino)pyridazin-3(2H)-one, 3b Yield = 75%; mp = 179–180 °C (EtOH);"),
+    ("4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)naphthalene-1-carboxylic Acid", 259, 258, 260, "258–260 °C (EtOH)", "3c",
+     "4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)naphthalene-1-carboxylic Acid, 3c Yield = 54%; mp = 258–260 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(6-hydroxynaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one", 235.5, 235, 236, "235–236 °C (EtOH)", "3d",
+     "5-Acetyl-2-ethyl-4-(6-hydroxynaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one, 3d Yield = 76%; mp = 235–236 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(5-hydroxynaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one", 235, 234, 236, "234–236 °C (EtOH)", "3e",
+     "5 -Acetyl-2-ethyl-4-(5-hydroxynaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one, 3e Yield = 24%; mp = 234–236 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-6-phenyl-4-(quinolin-5-ylamino)pyridazin-3(2H)-one", 220.5, 220, 221, "220–221 °C (EtOH)", "3f",
+     "5-Acetyl-2-ethyl-6-phenyl-4-(quinolin-5-ylamino)pyridazin-3(2H)-one, 3f Yield = 75%; mp = 220–221 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(4-nitronaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one", 185.5, 185, 186, "185–186 °C (EtOH)", "3g",
+     "5-Acetyl-2-ethyl-4-(4-nitronaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one, 3g Yield = 11%; mp = 185–186 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(8-hydroxyquinolin-5-ylamino)-6-phenylpyridazin-3(2H)-one", 261.5, 261, 262, "261–262 °C (EtOH)", "3h",
+     "5-Acetyl-2-ethyl-4-(8-hydroxyquinolin-5-ylamino)-6-phenylpyridazin-3(2H)-one, 3h Yield = 90%; mp = 261–262 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(8-fluoroquinolin-5-ylamino)-6-phenylpyridazin-3(2H)-one", 217.5, 217, 218, "217–218 °C (EtOH)", "3i",
+     "5-Acetyl-2-ethyl-4-(8-fluoroquinolin-5-ylamino)-6-phenylpyridazin-3(2H)-one, 3i Yield = 71%; mp = 217–218 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-ethylamino-6-phenylpyridazin-3(2H)-one", 113.5, 113, 114, "113–114 °C (EtOH)", "4a",
+     "5-Acetyl-2-ethyl-4-ethylamino-6-phenylpyridazin-3(2H)-one, 4a Yield = 30%; mp = 113–114 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-isopropylamino-6-phenylpyridazin-3(2H)-one", 81.5, 80, 83, "80–83 °C (EtOH)", "4b",
+     "5-Acetyl-2-ethyl-4-isopropylamino-6-phenylpyridazin-3(2H)-one, 4b Yield = 56%; mp = 80–83 °C (EtOH);"),
+    ("5-Acetyl-4-cyclopentylamino-2-ethyl-6-phenylpyridazin-3(2H)-one", 98, 97, 99, "97–99 °C (EtOH)", "4c",
+     "5-Acetyl-4-cyclopentylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4c Yield = 38%; mp = 97–99 °C (EtOH);"),
+    ("5-Acetyl-4-cyclohexylamino-2-ethyl-6-phenylpyridazin-3(2H)-one", 124, 123, 125, "123–125 °C (EtOH)", "4d",
+     "5-Acetyl-4-cyclohexylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4d Yield = 34%; mp = 123–125 °C (EtOH);"),
+    ("5-Acetyl-4-cycloheptylamino-2-ethyl-6-phenylpyridazin-3(2H)-one", 99, 98, 100, "98–100 °C (EtOH)", "4e",
+     "5-Acetyl-4-cycloheptylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4e Yield = 36%; mp = 98–100 °C (EtOH);"),
+    ("5-Acetyl-4-butylamino-2-ethyl-6-phenylpyridazin-3(2H)-one", 68, 67, 69, "67–69 °C (EtOH)", "4g",
+     "5-Acetyl-4-butylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4g Yield = 48%; mp = 67–69 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(4-methoxybenzylamino)-6-phenylpyridazin-3(2H)-one", 106.5, 106, 107, "106–107 °C (EtOH)", "5a",
+     "5-Acetyl-2-ethyl-4-(4-methoxybenzylamino)-6-phenylpyridazin-3(2H)-one, 5a Yield = 57%; mp = 106–107 °C (EtOH);"),
+    ("5-Acetyl-4-(4-chlorobenzylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one", 132, 131, 133, "131–133 °C (EtOH)", "5b",
+     "5-Acetyl-4-(4-chlorobenzylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 5b Yield = 59%; mp = 131–133 °C (EtOH);"),
+    ("5-Acetyl-4-[2-(3,4-dimethoxyphenyl)ethylamino]-2-ethyl-6-phenylpyridazin-3(2H)-one", 111.5, 111, 112, "111–112 °C (EtOH)", "5c",
+     "5-Acetyl-4-[2-(3,4-dimethoxyphenyl)ethylamino]-2-ethyl-6-phenylpyridazin-3(2H)-one, 5c Yield = 48%; mp = 111–112 °C (EtOH);"),
+    ("4-[(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)-methyl]benzoic Acid", 194, 193, 195, "193–195 °C (EtOH)", "5d",
+     "4-[(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)-methyl]benzoic Acid, 5d Yield = 52%; mp = 193–195 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(2-methoxybenzylamino)-6-phenylpyridazin-3(2H)-one", 98, 97, 99, "97–99 °C (EtOH)", "5e",
+     "5-Acetyl-2-ethyl-4-(2-methoxybenzylamino)-6-phenylpyridazin-3(2H)-one, 5e Yield = 47%; mp = 97–99 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-3-ylmethyl)-amino]pyridazin-3(2H)-one", 163.5, 163, 164, "163–164 °C (EtOH)", "5g",
+     "5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-3-ylmethyl)-amino]pyridazin-3(2H)-one, 5g Yield = 57%; mp = 163–164 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-2-ylmethyl)-amino]pyridazin-3(2H)-one", 139, 138, 140, "138–140 °C (EtOH)", "5h",
+     "5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-2-ylmethyl)-amino]pyridazin-3(2H)-one, 5h Yield = 42%; mp = 138–140 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-4-ylmethyl)amino]pyridazin-3(2H)-one", 150.5, 150, 151, "150–151 °C (EtOH)", "5i",
+     "5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-4-ylmethyl)amino]pyridazin-3(2H)-one, 5i Yield = 50%; mp = 150–151 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-6-phenyl-4-[(thiophen-3-ylmethyl)-amino]pyridazin-3(2H)-one", 134, 133, 135, "133–135 °C (EtOH)", "5k",
+     "5-Acetyl-2-ethyl-6-phenyl-4-[(thiophen-3-ylmethyl)-amino]pyridazin-3(2H)-one, 5k Yield = 71%; mp = 133–135 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-[(4-methylisoxazol-3-ylmethyl)-amino]-6-phenylpyridazin-3(2H)-one", 114, 113, 115, "113–115 °C (EtOH)", "5l",
+     "5-Acetyl-2-ethyl-4-[(4-methylisoxazol-3-ylmethyl)-amino]-6-phenylpyridazin-3(2H)-one, 5l Yield = 47%; mp = 113–115 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(3-nitrophenylamino)-6-phenylpyridazin-3(2H)-one", 242.5, 242, 243, "242–243 °C (EtOH)", "2t",
+     "5-Acetyl-2-ethyl-4-(3-nitrophenylamino)-6-phenylpyridazin-3(2H)-one, 2t Yield = 40%; mp = 242–243 °C (EtOH);"),
+    ("5-Acetyl-4-(2-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one", 177.5, 177, 178, "177–178 °C (EtOH)", "2u",
+     "5-Acetyl-4-(2-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2u Yield = 43%; mp = 177–178 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(2-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one", 206, 205, 207, "205–207 °C (EtOH)", "2v",
+     "5-Acetyl-2-ethyl-4-(2-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2v Yield = 30%; mp = 205–207 °C (EtOH);"),
+    ("5-Acetyl-4-(3,5-difluorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one", 244, 243, 245, "243–245 °C (EtOH)", "2w",
+     "5-Acetyl-4-(3,5-difluorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2w Yield = 54%; mp = 243–245 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-(naphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one", 197, 196, 198, "196–198 °C (EtOH)", "3l",
+     "5-Acetyl-2-ethyl-4-(naphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one, 3l Yield = 51%; mp = 196–198 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-4-phenoxy-6-phenylpyridazin-3(2H)-one", 91.5, 90, 93, "90–93 °C (EtOH)", "10a",
+     "5-Acetyl-2-ethyl-4-phenoxy-6-phenylpyridazin-3(2H)-one, 10a Yield = 64%; mp = 90–93 °C (EtOH);"),
+    ("5-Acetyl-2-ethyl-6-phenyl-4-phenylsulfanylpyridazin-3(2H)-one", 108, 107, 109, "107–109 °C (EtOH)", "10b",
+     "5-Acetyl-2-ethyl-6-phenyl-4-phenylsulfanylpyridazin-3(2H)-one, 10b Yield = 68%; mp = 107–109 °C (EtOH);"),
+]
+for entry in p11:
+    if len(entry) == 8:
+        name, mid, mn, mx, raw, code, q, prop = entry
+    else:
+        name, mid, mn, mx, raw, code, q = entry
+        prop = "melting_point"
+    add(name, prop, mid, mn, mx, raw, "=", "measured", src11, url11,
+        f"Sect. Synthesis ¶ {code}", q, "", f"compound {code}")
+
+# =============== PAPER 013 (PMC12943095) ===============
+src13 = "Molecules 2026 31(4) 706"
+url13 = "pmc:PMC12943095"
+
+p13 = [
+    ("2′-bromo-[1,1′-biphenyl]-2-carbaldehyde", 80, "1a",
+     "2′-bromo-[1,1′-biphenyl]-2-carbaldehyde ( 1a ). Yield: 48%; Mp: 80"),
+    ("6-(2′-bromophenyl)benzo[d][1,3]dioxole-5-carbaldehyde", 93, "1d",
+     "6-(2′-bromophenyl)benzo[ d ][1,3]dioxole-5-carbaldehyde ( 1d ). Yield: 65%; Mp: 93 °C;"),
+    ("2′-bromo-5-methoxy-[1,1′-biphenyl]-2-carbaldehyde", 92, "1e",
+     "2′-bromo-5-methoxy-[1,1′-biphenyl]-2-carbaldehyde ( 1e ). Yield: 68%; Mp: 92 °C;"),
+    ("2′-bromo-4-nitro-[1,1′-biphenyl]-2-carbaldehyde", 85, "1h",
+     "2′-bromo-4-nitro-[1,1′-biphenyl]-2-carbaldehyde ( 1h ). Yield: 78%; Mp: 85 °C;"),
+    ("1-(2′-bromo-[1,1′-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol", 101, "3a",
+     "1-(2′-bromo-[1,1′-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol ( 3a ). Yield: 84%; Mp: 101 °C;"),
+    ("1-(2′-bromo-4-methoxy-[1,1′-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol", 68, "3b",
+     "1-(2′-bromo-4-methoxy-[1,1′-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol ( 3b ). Yield: 76%; Mp: 68 °C;"),
+    ("1-(2′-bromo-5-methyl-[1,1′-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol", 67, "3c",
+     "1-(2′-bromo-5-methyl-[1,1′-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol ( 3c ). Yield: 62%; Mp: 67 °C;"),
+    ("1-(6-(2-bromophenyl)benzo[d][1,3]dioxol-5-yl)-2-(4-nitrophenyl)ethan-1-ol", 168, "3d",
+     "1-(6-(2-bromophenyl)benzo[ d ][1,3]dioxol-5-yl)-2-(4-nitrophenyl)ethan-1-ol ( 3d ). Yield: 58%; Mp: 168 °C;"),
+    ("1-(2′-bromo-5-chloro-[1,1′-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol", 116, "3f",
+     "1-(2′-bromo-5-chloro-[1,1′-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol ( 3f ). Yield: 69%; Mp: 116 °C;"),
+    ("1-(2′-bromo-4-fluoro-[1,1′-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol", 150, "3g",
+     "1-(2′-bromo-4-fluoro-[1,1′-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol ( 3g ). Yield: 65%; Mp: 150 °C;"),
+    ("1-(2′-bromo-5-fluoro-[1,1′-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol", 112, "3i",
+     "1-(2′-bromo-5-fluoro-[1,1′-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol ( 3i ). Yield: 76%; Mp: 112 °C;"),
+    ("1-(2′-bromo-[1,1′-biphenyl]-2-yl)-2-(2-nitrophenyl)ethan-1-ol", 95, "4b",
+     "1-(2′-bromo-[1,1′-biphenyl]-2-yl)-2-(2-nitrophenyl)ethan-1-ol ( 4b ). Yield: 64%; Mp: 95 °C;"),
+    ("1-(2′-bromo-[1,1′-biphenyl]-2-yl)-2-(4,5-dimethoxy-2-nitrophenyl)ethan-1-ol", 76, "4d",
+     "1-(2′-bromo-[1,1′-biphenyl]-2-yl)-2-(4,5-dimethoxy-2-nitrophenyl)ethan-1-ol ( 4d ). Yield: 67%; Mp: 76 °C"),
+    ("1-(2′-bromo-[1,1′-biphenyl]-2-yl)-2-(3-methoxy-4-nitrophenyl)ethan-1-ol", 76, "4e",
+     "1-(2′-bromo-[1,1′-biphenyl]-2-yl)-2-(3-methoxy-4-nitrophenyl)ethan-1-ol ( 4e ). Yield: 80%; Mp: 76 °C;"),
+    ("1-(2′-bromo-[1,1′-biphenyl]-2-yl)-2-(4′-nitro-[1,1′-biphenyl]-4-yl)ethan-1-ol", 138, "4k",
+     "1-(2′-bromo-[1,1′-biphenyl]-2-yl)-2-(4′-nitro-[1,1′-biphenyl]-4-yl)ethan-1-ol ( 4k ). Yield: 82%; Mp: 138 °C;"),
+    ("6-(4-nitrobenzyl)-6H-benzo[c]chromene", 113, "5a",
+     "6-(4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5a ). Yield: 88%; Mp: 113 °C;"),
+    ("8-methoxy-6-(4-nitrobenzyl)-6H-benzo[c]chromene", 130, "5b",
+     "8-methoxy-6-(4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5b ). Yield: 47%; Mp: 130 °C;"),
+    ("9-methyl-6-(4-nitrobenzyl)-6H-benzo[c]chromene", 133, "5c",
+     "9-methyl-6-(4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5c ). Yield: 37%; Mp: 133 °C;"),
+    ("6-(4-nitrobenzyl)-6H-[1,3]dioxolo[4′,5′:4,5]benzo[1,2-c]chromene", 186, "5d",
+     "6-(4-nitrobenzyl)-6 H -[1,3]dioxolo[4′,5′:4,5]benzo[1,2- c ]chromene ( 5d ). Yield: 80%; Mp: 186 °C;"),
+    ("9-methoxy-6-(4-nitrobenzyl)-6H-benzo[c]chromene", 123, "5e",
+     "9-methoxy-6-(4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5e ). Yield: 55%; Mp: 123 °C;"),
+    ("9-chloro-6-(4-nitrobenzyl)-6H-benzo[c]chromene", 138, "5f",
+     "9-chloro-6-(4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5f ). Yield: 77%; Mp: 138 °C;"),
+    ("8-fluoro-6-(4-nitrobenzyl)-6H-benzo[c]chromene", 132, "5g",
+     "8-fluoro-6-(4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5g ). Yield: 80%; Mp: 132 °C;"),
+    ("8-nitro-6-(4-nitrobenzyl)-6H-benzo[c]chromene", 235, "5h",
+     "8-nitro-6-(4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5h ). Yield: 79%; Mp: 235 °C;"),
+    ("9-fluoro-6-(4-nitrobenzyl)-6H-benzo[c]chromene", 144, "5i",
+     "9-fluoro-6-(4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5i ). Yield: 91%; Mp: 144 °C;"),
+    ("6-(2-nitrobenzyl)-6H-benzo[c]chromene", 154, "5j",
+     "6-(2-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5j ). Yield: 79%; Mp: 154 °C;"),
+    ("6-((6-nitrobenzo[d][1,3]dioxol-5-yl)methyl)-6H-benzo[c]chromene", 234, "5k",
+     "6-((6-nitrobenzo[ d ][1,3]dioxol-5-yl)methyl)-6 H -benzo[ c ]chromene ( 5k ). Yield: 68%; Mp: 234 °C;"),
+    ("6-(4,5-dimethoxy-2-nitrobenzyl)-6H-benzo[c]chromene", 170, "5l",
+     "6-(4,5-dimethoxy-2-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5l ). Yield: 87%; Mp: 170 °C;"),
+    ("6-(3-methoxy-4-nitrobenzyl)-6H-benzo[c]chromene", 84, "5m",
+     "6-(3-methoxy-4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5m ). Yield: 71%; Mp: 84 °C;"),
+    ("6-(3-methyl-4-nitrobenzyl)-6H-benzo[c]chromene", 77, "5n",
+     "6-(3-methyl-4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5n ). Yield: 69%; Mp: 77 °C;"),
+    ("6-(5-methyl-2-nitrobenzyl)-6H-benzo[c]chromene", 187, "5o",
+     "6-(5-methyl-2-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5o ). Yield: 66%; Mp: 187 °C;"),
+    ("6-(5-methoxy-2-nitrobenzyl)-6H-benzo[c]chromene", 170, "5p",
+     "6-(5-methoxy-2-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5p ). Yield: 49%; Mp: 170 °C;"),
+    ("6-((3-nitro-[1,1′-biphenyl]-4-yl)methyl)-6H-benzo[c]chromene", 140, "5q",
+     "6-((3-nitro-[1,1′-biphenyl]-4-yl)methyl)-6 H -benzo[ c ]chromene ( 5q ). Yield: 75%; Mp: 140 °C;"),
+    ("6-(3-fluoro-4-nitrobenzyl)-6H-benzo[c]chromene", 91, "5r",
+     "6-(3-fluoro-4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5r ). Yield: 71%; Mp: 91 °C;"),
+    ("6-((4′-nitro-[1,1′-biphenyl]-4-yl)methyl)-6H-benzo[c]chromene", 157, "5s",
+     "6-((4′-nitro-[1,1′-biphenyl]-4-yl)methyl)-6 H -benzo[ c ]chromene ( 5s ). Yield: 70%; Mp: 157 °C;"),
+]
+for name, mp, code, q in p13:
+    add(name, "melting_point", mp, "", "", f"{mp} °C", "=", "measured", src13, url13,
+        f"Sect. Synthesis ¶ ({code})", q, "", f"compound {code}")
+
+# =============== PAPER 014 (PMC12943640) ===============
+src14 = "Pharmaceuticals (Basel) 2026 19(2) 256"
+url14 = "pmc:PMC12943640"
+
+add("Aminomethylenebisphosphonic acid", "melting_point", 259, 258, 260, "258–260 °C", "=", "measured", src14, url14,
+    "Sect. Synthesis ¶ compound 1",
+    "Aminomethylenebisphosphonic acid ( 1 ) was obtained from methylbenzylamine as a white solid (85% yield from reaction with p -aminobenzylamine); m.p. 258–260 °C;",
+    "", "compound 1")
+
+# =============== PAPER 015 (PMC12943364) ===============
+src15 = "Molecules 2026 31(4) 696"
+url15 = "pmc:PMC12943364"
+
+p15 = [
+    ("(R)-2-((5-Fluoro-2-(5-fluoro-1H-pyrrolo[2,3-b]pyridin-3-yl)pyrimidin-4-yl)amino)-N,N,2-trimethylbutanamide",
+     206, 205, 207, "205–207 °C", "PB02",
+     "to afford a white solid PB02 with a melting point of 205"),
+    ("(S)-2-((5-Fluoro-2-(5-fluoro-1H-pyrrolo[2,3-b]pyridin-3-yl)pyrimidin-4-yl)amino)-2-methylbutan-1-ol",
+     215, 214, 216, "214–216 °C", "PB03",
+     "afford a white solid PB03 (63 mg, 0.19 mmol, yield 73%) with a melting point of 214"),
+    ("(R)-N2-(5-Fluoro-2-(5-fluoro-1H-pyrrolo[2,3-b]pyridin-3-yl)pyrimidin-4-yl)-2-methylbutane-1,2-diamine",
+     188, 187, 189, "187–189 °C", "PB04",
+     "afford a white solid PB04 (316 mg, 0.95 mmol, yield 95%) with a melting point of 187–189 °C."),
+    ("(1R,2S)-2-((5-Fluoro-2-(5-fluoro-1H-pyrrolo[2,3-b]pyridin-3-yl)pyrimidin-4-yl)amino)cyclohexan-1-ol",
+     220, 219, 221, "219–221 °C", "PB05",
+     "afford a white solid PB05 (373 mg, 1.08 mmol, yield 80%) with a melting point of 219"),
+    ("(1S,2S)-2-((5-Fluoro-2-(5-fluoro-1H-pyrrolo[2,3-b]pyridin-3-yl)pyrimidin-4-yl)amino)cyclohexan-1-ol",
+     208, 207, 209, "207–209 °C", "PB01",
+     "afford a white solid PB01 (252 mg, 0.73 mmol, yield 73%) with a melting point of 207"),
+]
+for name, mid, mn, mx, raw, code, q in p15:
+    add(name, "melting_point", mid, mn, mx, raw, "=", "measured", src15, url15,
+        f"Sect. 4.1 Synthesis ¶ {code}", q, "", f"compound {code}")
+
+# =============== PAPER 017 (PMC10673250) — Table 2 ===============
+src17 = "Molecules 2023 28(22) 7523"
+url17 = "pmc:PMC10673250"
+
+p17_text_quote_t2 = "Compound T onset (°C) T max (°C) T m (°C) (ΔH m (J·g −1 )) T g (°C) [Glu(OEt) 2 ][HCl] 168.3 193.3 100.90 (61.300) −25.07 [Glu(Opr) 2 ][HCl] 170.5 193.4 91.12 (68.596) −34.59 [Glu(OiPr) 2 ][HCl] 174.4 202.5 45.72 (11.887) −22.13 [Glu(OBu) 2 ][HCl] 172.8 192.1 63.47 (44.402) −41.14 [Glu(O sec -Bu) 2 ][HCl] 181.5 207.5 51.69 (29.590) −38.75 [Glu(OPent) 2 ][HCl] 169.5 189.6 69.24 (54.587) −44.82 [Glu(OEt)][IBU] 194.2 228.3 50.43 (16.867) −49.89 [Glu(OPr)][IBU] 199.7 230.8 59.02 (33.058) −48.94 [Glu(OiPr)][IBU] 222.9 239.7 - −47.53 [Glu(OBu)][IBU] 206.8 247.7 71.05 (1.983) −52.49"
+
+# Each row: Tm in column 4
+p17 = [
+    ("[Glu(OEt)2][HCl]", 100.90, "[Glu(OEt) 2 ][HCl] 168.3 193.3 100.90"),
+    ("[Glu(OPr)2][HCl]", 91.12, "[Glu(Opr) 2 ][HCl] 170.5 193.4 91.12"),
+    ("[Glu(OiPr)2][HCl]", 45.72, "[Glu(OiPr) 2 ][HCl] 174.4 202.5 45.72"),
+    ("[Glu(OBu)2][HCl]", 63.47, "[Glu(OBu) 2 ][HCl] 172.8 192.1 63.47"),
+    ("[Glu(O sec-Bu)2][HCl]", 51.69, "[Glu(O sec -Bu) 2 ][HCl] 181.5 207.5 51.69"),
+    ("[Glu(OPent)2][HCl]", 69.24, "[Glu(OPent) 2 ][HCl] 169.5 189.6 69.24"),
+    ("[Glu(OEt)][IBU]", 50.43, "[Glu(OEt)][IBU] 194.2 228.3 50.43"),
+    ("[Glu(OPr)][IBU]", 59.02, "[Glu(OPr)][IBU] 199.7 230.8 59.02"),
+    ("[Glu(OBu)][IBU]", 71.05, "[Glu(OBu)][IBU] 206.8 247.7 71.05"),
+]
+for name, mp, q in p17:
+    add(name, "melting_point", mp, "", "", f"{mp} °C", "=", "measured", src17, url17,
+        f"Table 2 row {name}", q, "", "DSC Tm from Table 2")
+
+# T onset values (decomposition onsets from TGA) — paper labels them T_onset of thermal degradation
+# Treat as decomposition
+p17_onset = [
+    ("[Glu(OEt)2][HCl]", 168.3, "[Glu(OEt) 2 ][HCl] 168.3 193.3"),
+    ("[Glu(OPr)2][HCl]", 170.5, "[Glu(Opr) 2 ][HCl] 170.5 193.4"),
+    ("[Glu(OiPr)2][HCl]", 174.4, "[Glu(OiPr) 2 ][HCl] 174.4 202.5"),
+    ("[Glu(OBu)2][HCl]", 172.8, "[Glu(OBu) 2 ][HCl] 172.8 192.1"),
+    ("[Glu(O sec-Bu)2][HCl]", 181.5, "[Glu(O sec -Bu) 2 ][HCl] 181.5 207.5"),
+    ("[Glu(OPent)2][HCl]", 169.5, "[Glu(OPent) 2 ][HCl] 169.5 189.6"),
+    ("[Glu(OEt)][IBU]", 194.2, "[Glu(OEt)][IBU] 194.2 228.3"),
+    ("[Glu(OPr)][IBU]", 199.7, "[Glu(OPr)][IBU] 199.7 230.8"),
+    ("[Glu(OiPr)][IBU]", 222.9, "[Glu(OiPr)][IBU] 222.9 239.7"),
+    ("[Glu(OBu)][IBU]", 206.8, "[Glu(OBu)][IBU] 206.8 247.7"),
+    ("[Glu(O sec-Bu)][IBU]", 204.2, "[Glu(O sec -Bu)][IBU] 204.2 241.9"),
+    ("[Glu(OPent)][IBU]", 206.9, "[Glu(OPent)][IBU] 206.9 245.1"),
+]
+for name, ton, q in p17_onset:
+    add(name, "decomposition", ton, "", "", f"{ton} °C", "=", "measured", src17, url17,
+        f"Table 2 row {name} T_onset",
+        q, "", "T_onset of thermal degradation (TGA)")
+
+# =============== PAPER 018 (PMC10672206) ===============
+src18 = "Materials (Basel) 2023 16(22) 7060"
+url18 = "pmc:PMC10672206"
+
+add("Chol-phthalonitrile", "melting_point", 186, "", "", "186 °C", "=", "measured", src18, url18,
+    "Sect. Synthesis ¶ Chol-phthalonitrile",
+    "the melting point of Chol-phthalonitrile was measured as 186 °C.",
+    "", "")
+
+add("Chol-ZnPc", "melting_point", 300, "", "", ">300 °C", ">", "measured", src18, url18,
+    "Sect. Synthesis ¶ Chol-ZnPc",
+    "the melting point of Chol-ZnPc was found to be higher than 300 °C.",
+    "", "value reported as greater than 300 °C; lower bound used")
+
+# ============================================
+# Write CSV
+# ============================================
+fieldnames = ['id','verification_status','compound_name','compound_smiles','property','value_celsius',
+              'value_celsius_min','value_celsius_max','value_raw','relation','data_type','source',
+              'source_url','evidence_location','evidence_quote','conversion_arithmetic','notes']
+
+# Write CSV (workspace only)
+for out in [OUT]:
+    try:
+        os.makedirs(os.path.dirname(out), exist_ok=True)
+    except Exception:
+        pass
+    with open(out, 'w', newline='', encoding='utf-8') as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
+        w.writeheader()
+        for r in ROWS:
+            w.writerow(r)
+
+print(f"Wrote {len(ROWS)} rows")

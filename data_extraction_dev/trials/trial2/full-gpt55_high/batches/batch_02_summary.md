@@ -1,0 +1,35 @@
+# Batch 02 extraction summary
+
+Rows emitted: 80
+
+Flagged rows: 0
+
+Notes: Extracted rows have readable local source text and verbatim evidence quotes. Rows with quote-location failures, bare-code-only names, or ambiguous product binding were dropped rather than guessed.
+
+- 003_PMC12943044_Design_and_Biological_Evaluation_of_Mannich-Modified_8-HydroxyquinolinePhthalimide_Hybrids: 16 row(s)
+- 011_PMC12943719_Discovery_of_Potent_PDE4_Inhibitors_with_32H-Pyridazinone_Scaffold_Synthesis_In_Silico_Stu: 0 row(s)
+- 020_PMC11206691_N-Hydroxypiridinedione_A_Privileged_Heterocycle_for_Targeting_the_HBV_RNase_H: 26 row(s)
+- 029_PMC9486790_Synthesis_and_pesticidal_activity_of_new_134-oxadiazole_thioether_compounds_containing_a_t: 0 row(s)
+- 037_PMC6264548_Synthesis_Acidity_Constants_and_Tautomeric_Structure_of_the_Diazonium_Coupling_Products_of: 0 row(s)
+- 045_PMC6264237_Studies_on_the_Synthesis_of_DMAP_Derivatives_by_Diastereoselective_Ugi_Reactions: 14 row(s)
+- 053_PMC6147013_Synthesis_of_Novel_3H-Quinazolin-4-ones_Containing_Pyrazolinone_Pyrazole_and_Pyrimidinone_: 15 row(s)
+- 061_PMC2603525_Simultaneous_feature_selection_and_parameter_optimisation_using_an_artificial_ant_colony_c: 0 row(s)
+- 071_PMC12943180_PdIIProlinate_Prolinium_and_PdIILysGly_Complexes_Catalyzed_the_Enantioselective_Aldol_Mori: 0 row(s)
+- 080_PMC9903363_Practical_Design_of_36-Di-tert-butyldiphenyldibenzofulvene_Derivatives_with_Enhanced_Aggre: 0 row(s)
+- 089_PMC6147034_A_Facile_Procedure_for_the_Generation_of_Dichlorocarbene_from_the_Reaction_of_Carbon_Tetra: 0 row(s)
+- 097_PMC6146420_Synthesis_of_56-Dihydropyridin-21H-ones_15688a-Hexa-hydroisoquinolin-32H-ones_and_4a56788a: 0 row(s)
+- 107_PMC6236460_Sensitized_Photooxygenation_of_Cholesterol_and_Pseudo-_cholesterol_Derivatives_via_Singlet: 0 row(s)
+- 119_PMC12943680_Biological_Effects_of_Novel_Synthetic_Guanidine_Derivatives_Targeting_Leishmania_Viannia_b: 2 row(s)
+- 127_PMC9749625_Synthesis_of_Schiff_Bases_and_Isoindolyl-_and_Thiazolyl-Substituted_Quinolines_from_6-Amin: 2 row(s)
+- 136_PMC6236352_Synthesis_of_the_New_Type_of_Water-Soluble_Ligand_NN-Bis-_diphenylphosphinomethyl-2-aminoe: 0 row(s)
+- 147_PMC13104637_Advanced_oral_drug_delivery_systems_Current_challenges_and_emerging_technologies: 1 row(s)
+- 156_PMC7123108_Cordycepin_A_Biotherapeutic_Molecule_from_Medicinal_Mushroom: 1 row(s)
+- 165_PMC6236387_Intramolecular_Acylation_of_Aryl-_and_Aroyl-Aliphatic_Acids_by_the_Action_of_Pyrophosphory: 1 row(s)
+- 173_PMC10914095_Capture_of_mechanically_interlocked_molecules_by_rhodium-mediated_terminal_alkyne_dimerisa: 2 row(s)
+- 181_PMC10806150_Mushroom_tyrosinase_enzyme_catalysis_synthesis_of_larvicidal_active_geranylacetone_derivat: 0 row(s)
+- materials_inorganic/liang_2024_organic_inorganic_eutectic_satp: 0 row(s)
+- materials_inorganic/wei_2019_ap_an_tagn_decomposition: 0 row(s)
+- measurement_prediction/olsen_2001_vapor-pressure-prediction: 0 row(s)
+- organic_synthesis/huang_2026_paracyclophane_ligands: 0 row(s)
+- organic_synthesis/rios_2026_dhpm_vorinostat: 0 row(s)
+- pharma_cocrystals/fini_2013_diclofenac_salts_polymorphism: 0 row(s)

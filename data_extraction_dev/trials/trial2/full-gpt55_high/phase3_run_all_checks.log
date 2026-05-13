@@ -1,0 +1,19 @@
+Loaded 907 rows from /Users/skaye/Claude/Skills/ResearchForge/data_extraction_dev/Trial2-full-gpt55_high/mp_bp_extracted.csv
+  required-field check: 0 flagged
+  csv_quote_lint.py: exit=0
+  validate_compound_name.py: exit=0
+  value_range_check.py: exit=0
+  unit_conversion_arithmetic.py: exit=0
+  verify_doi.py: exit=0
+  verify_evidence_quote.py: exit=0
+  dedup_within_paper.py: exit=0
+
+⚠️  WARNING: Phase 4 independent verification has not been run.
+    861/907 rows are still 'pending_verification'.
+    Phase 3 deterministic checks alone do NOT measure audit quality.
+    Per SKILL.md, Phase 4 (fresh-context agent re-audit) is MANDATORY
+    before declaring the output ready. Reports should not claim
+    audit pass rates without Phase 4 evidence.
+
+# header has 17 columns: ['id', 'verification_status', 'compound_name', 'compound_smiles', 'property', 'value_celsius', 'value_celsius_min', 'value_celsius_max', 'value_raw', 'relation', 'data_type', 'source', 'source_url', 'evidence_location', 'evidence_quote', 'conversion_arithmetic', 'notes']
+# Indexed 5047 DOIs and 164 PMC IDs across 178 paper subdirs

@@ -1,0 +1,56 @@
+{
+  "article_id": "157_PMC3716435_Inclusion_Compounds_of_Dehydrocholic_Acid_with_Solvents",
+  "source_kind": "pmc_nxml",
+  "available_sources": [
+    "nxml",
+    "text",
+    "pdf"
+  ],
+  "section_count": 7,
+  "section_first_3_headings": [
+    "1. Introduction",
+    "2. Results and Discussion",
+    "2. Results and Discussion > 2.1 Inclusion compounds"
+  ],
+  "table_count": 3,
+  "table_labels": [
+    "Table 1",
+    "Table 2",
+    "Table 3"
+  ],
+  "table_header_examples": [
+    [
+      "Guest",
+      "",
+      "Host :guest ratio",
+      "Selected 1H NMR resonancesa"
+    ],
+    [
+      "Compound",
+      "Guest νXO (cm−1)",
+      "1 νCO (cm−1)"
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "caption_count": 7,
+  "doi_candidate_count": 0,
+  "doi_candidates": [],
+  "full_text_length": 63338,
+  "warnings": [],
+  "doi_verification": {
+    "doi": "",
+    "doi_evidence": "",
+    "doi_verified": false,
+    "warnings": [
+      "doi_no_sources"
+    ]
+  }
+}

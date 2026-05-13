@@ -1,0 +1,542 @@
+{
+  "paper_id": "098",
+  "paper_source": "/Users/skaye/Claude/Skills/ResearchForge/data_extraction_dev/mp_bp_val_set/098_PMC6146883_Microwave_Assisted_Synthesis_Part_1_Rapid_Solventless_Synthesis_of_3-Substituted_Coumarins/article_text.txt",
+  "items": [
+    {
+      "compound_name": "1-(3-Benzocoumarinyl)-3-dimethylamino-2-propen-1-one (2)",
+      "property": "mp",
+      "value_raw": "157 C",
+      "evidence_quote": "Compound 2 was obtained as orange crystals (Method A: 85%; Method B: 95%), mp 157°C",
+      "evidence_location": "Experimental, General Procedures for the Preparation of compound 1 and 2",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "3,7-Bis-(2-hydroxyphenyl)-4H-dicyclopenta[b,d]pyrrole-1,5-dione (7)",
+      "property": "mp",
+      "value_raw": "245 C",
+      "evidence_quote": "Compound 7 was obtained as dark yellow crystals (85%), mp 245°C",
+      "evidence_location": "Experimental, General Procedure for the Preparation of 7 and 10",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "3,7-Bis-(3-hydroxynaphthalen-4-yl)-4H-dicyclopenta[b,d]pyrrole-1,5-dione (10)",
+      "property": "mp",
+      "value_raw": "200 C",
+      "evidence_quote": "Compound 10 was obtained as buff crystals (96%), mp 200°C",
+      "evidence_location": "Experimental, General Procedure for the Preparation of 7 and 10",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-(Benzocoumarin-3'-yl)-5-(3-benzocoumarinoyl)pyridine (8)",
+      "property": "mp",
+      "value_raw": "220 C",
+      "evidence_quote": "recrystallized from ethanol to give 8 as buff crystals (64%), mp 220°C",
+      "evidence_location": "Experimental, Procedure for the Preparation of compound 8",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "1-Acetyl-3,5-di(3-coumarinoyl)benzene (12)",
+      "property": "mp",
+      "value_raw": "178 C",
+      "evidence_quote": "Compound 12 was obtained as buff crystals (66%), mp 178°C",
+      "evidence_location": "Experimental, General Procedure for the Preparation of 12, 15 and 16",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "1-Acetyl-3,5-di(3-benzocoumarinoyl)benzene (15)",
+      "property": "mp",
+      "value_raw": ">300 C",
+      "evidence_quote": "Compound 15 was obtained as buff crystals (49%), mp >300°C",
+      "evidence_location": "Experimental, General Procedure for the Preparation of 12, 15 and 16",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "1,3-Diacetyl-5-(3-benzocoumarinoyl)benzene (16)",
+      "property": "mp",
+      "value_raw": ">300 C",
+      "evidence_quote": "Compound 16 was obtained as buff crystals (45%), mp >300°C",
+      "evidence_location": "Experimental, General Procedure for the Preparation of 12, 15 and 16",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "5-(3-Coumarinoyl)-2-methylpyridine (17)",
+      "property": "mp",
+      "value_raw": "200 C",
+      "evidence_quote": "Compound 17 was obtained as brown crystals (45%), mp 200°C",
+      "evidence_location": "Experimental, Preparation of compound 17 and compound 5",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "5-(Coumarin-3'-yl)-1,2,4-triazolo[4,3-a]pyrimidine (18)",
+      "property": "mp",
+      "value_raw": "252 C",
+      "evidence_quote": "Compound 18 was obtained as pale brown crystals (65%), mp 252°C",
+      "evidence_location": "Experimental, Reaction with 3(5)1,2,4-aminotriazole and aminocyclohexenothiophene",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "5-(Benzocoumarin-3'-yl)-[1,2,4]triazolo-[4,3-a]pyrimidine (22)",
+      "property": "mp",
+      "value_raw": "273 C",
+      "evidence_quote": "Compound 22 was obtained as yellow crystals (74%), mp 273 °C, microwave (90%)",
+      "evidence_location": "Experimental, Reaction with 3(5)1,2,4-aminotriazole and aminocyclohexenothiophene",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-[3-Oxo-3-(2-oxo-2H-chromen-3-yl)-propenylamino]-4,5,6,7-tetrahydrobenzo[b]thiophene-3-carboxylic acid ethyl ester (19)",
+      "property": "mp",
+      "value_raw": "202 C",
+      "evidence_quote": "Compound 19 was obtained as light red crystals (45%) mp 202°C; microwave (69%) mp 202°C",
+      "evidence_location": "Experimental, Reaction with 3(5)1,2,4-aminotriazole and aminocyclohexenothiophene (Method A)",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-[3-Oxo-3-(2-oxo-2H-chromen-3-yl)-propenylamino]-4,5,6,7-tetrahydrobenzo[b]thiophene-3-carboxylic acid ethyl ester (19)",
+      "property": "mp",
+      "value_raw": "202 C",
+      "evidence_quote": "Compound 19 was obtained as light red crystals (45%) mp 202°C; microwave (69%) mp 202°C",
+      "evidence_location": "Experimental, Reaction with 3(5)1,2,4-aminotriazole and aminocyclohexenothiophene (microwave)",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "3-(Coumarin-3'-yl)-pyrazole (20)",
+      "property": "mp",
+      "value_raw": "235 C",
+      "evidence_quote": "Compound 20 was obtained as light brown crystals (60%), mp 235°C",
+      "evidence_location": "Experimental, Reaction of Compounds 1, 2 with Hydrazines",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "3-(Benzocoumarin-3'-yl)-pyrazole (23) [labeled as compound 25 in text]",
+      "property": "mp",
+      "value_raw": "256 C",
+      "evidence_quote": "Compound 25 was obtained as yellow crystals (65%), mp 256°C, microwave (69%), mp 254°C",
+      "evidence_location": "Experimental, Reaction of Compounds 1, 2 with Hydrazines (Method A)",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "3-(Benzocoumarin-3'-yl)-pyrazole (23) [labeled as compound 25 in text]",
+      "property": "mp",
+      "value_raw": "254 C",
+      "evidence_quote": "Compound 25 was obtained as yellow crystals (65%), mp 256°C, microwave (69%), mp 254°C",
+      "evidence_location": "Experimental, Reaction of Compounds 1, 2 with Hydrazines (microwave)",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "3-(Benzocoumarin-3'-yl)-1-phenylpyrazole (24)",
+      "property": "mp",
+      "value_raw": "230 C",
+      "evidence_quote": "Compound 24 was obtained as dark yellow crystals (59%), mp 230°C, microwave (61%), mp 231°C",
+      "evidence_location": "Experimental, Reaction of Compounds 1, 2 with Hydrazines (Method A)",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "3-(Benzocoumarin-3'-yl)-1-phenylpyrazole (24)",
+      "property": "mp",
+      "value_raw": "231 C",
+      "evidence_quote": "Compound 24 was obtained as dark yellow crystals (59%), mp 230°C, microwave (61%), mp 231°C",
+      "evidence_location": "Experimental, Reaction of Compounds 1, 2 with Hydrazines (microwave)",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-Amino-4-(coumarin-3'-yl)pyrimidine (21)",
+      "property": "mp",
+      "value_raw": "194 C",
+      "evidence_quote": "Compound 21 was obtained as dark yellow crystals (45%), mp 194°C, microwave (60%), mp 194°C",
+      "evidence_location": "Experimental, Reaction with Guanidine Hydrochloride (Method A)",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "2-Amino-4-(coumarin-3'-yl)pyrimidine (21)",
+      "property": "mp",
+      "value_raw": "194 C",
+      "evidence_quote": "Compound 21 was obtained as dark yellow crystals (45%), mp 194°C, microwave (60%), mp 194°C",
+      "evidence_location": "Experimental, Reaction with Guanidine Hydrochloride (microwave)",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "3-Benzamido-6-(benzocoumarin-3'-yl)pyran-2-one (26)",
+      "property": "mp",
+      "value_raw": "254 C",
+      "evidence_quote": "Compound 26 was obtained as red crystals (60%), mp 254 °C, and microwave (90%)",
+      "evidence_location": "Experimental, Preparation of compound 26",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "3-(Benzocoumarin-3'-yl)-2-cyano-5-dimethylamino-2,4-pentadienoic amide (27)",
+      "property": "mp",
+      "value_raw": "250 C",
+      "evidence_quote": "Compound 27 was obtained as dark red crystals (45%), mp 250 °C, and microwave (60%)",
+      "evidence_location": "Experimental, Preparation of compound 27",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "6-Benzoyl-3-(coumarin-3'-yl)isoxazole (28)",
+      "property": "mp",
+      "value_raw": "165 C",
+      "evidence_quote": "Compound 28 was obtained as dark yellow crystals (41%), mp 165°C, microwave (54%)",
+      "evidence_location": "Experimental, Preparation of compounds 28, 31 and 33",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "6-Benzoyl-3-(benzocoumarin-3'-yl)isoxazole (31)",
+      "property": "mp",
+      "value_raw": "190 C",
+      "evidence_quote": "Compound 31 was obtained as yellowish green crystals (45%), mp 190°C, microwave (54%)",
+      "evidence_location": "Experimental, Preparation of compounds 28, 31 and 33",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "3-Acetyl-4-(benzocoumarin-3'-yl)-1-phenylpyrazole (33)",
+      "property": "mp",
+      "value_raw": "228 C",
+      "evidence_quote": "Compound 33 was obtained as dark yellow crystals (43%), mp 228 °C, microwave (55%)",
+      "evidence_location": "Experimental, Preparation of compounds 28, 31 and 33",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "4-(Coumarin-3'-yl)-7-phenylisoxazolo[3,4-d]pyridazine (30)",
+      "property": "mp",
+      "value_raw": "245 C",
+      "evidence_quote": "Compound 30 was obtained as dark yellow crystals (71%), mp 245 °C",
+      "evidence_location": "Experimental, Preparation of compounds 30, 32 and 34",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "4-(Benzocoumarin-3'-yl)-7-phenylisoxazolo[3,4-d]pyridazine (32)",
+      "property": "mp",
+      "value_raw": "189 C",
+      "evidence_quote": "Compound 32 was obtained as yellow crystals (74%), mp 189 °C",
+      "evidence_location": "Experimental, Preparation of compounds 30, 32 and 34",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "4-(Benzocoumarin-3'-yl)-7-methyl-2-phenyl-pyrazolo[3,4-d]pyridazine (34)",
+      "property": "mp",
+      "value_raw": "230 C",
+      "evidence_quote": "Compound 34 was obtained as orange crystals (73%), mp 230°C",
+      "evidence_location": "Experimental, Preparation of compounds 30, 32 and 34",
+      "location_type": "experimental_text"
+    },
+    {
+      "compound_name": "Compound 1",
+      "property": "mp",
+      "value_raw": "165 C",
+      "evidence_quote": "1 360 5 75 96 165 165",
+      "evidence_location": "Table 1, row for product 1, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 1",
+      "property": "mp",
+      "value_raw": "165 C",
+      "evidence_quote": "1 360 5 75 96 165 165",
+      "evidence_location": "Table 1, row for product 1, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 2",
+      "property": "mp",
+      "value_raw": "157 C",
+      "evidence_quote": "2 360 5 73 95 157 157",
+      "evidence_location": "Table 1, row for product 2, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 2",
+      "property": "mp",
+      "value_raw": "157 C",
+      "evidence_quote": "2 360 5 73 95 157 157",
+      "evidence_location": "Table 1, row for product 2, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 5",
+      "property": "mp",
+      "value_raw": "265 C",
+      "evidence_quote": "5 30 2 65 55 265 267",
+      "evidence_location": "Table 1, row for product 5, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 5",
+      "property": "mp",
+      "value_raw": "267 C",
+      "evidence_quote": "5 30 2 65 55 265 267",
+      "evidence_location": "Table 1, row for product 5, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 7",
+      "property": "mp",
+      "value_raw": "245 C",
+      "evidence_quote": "7 - 5 - 85 - 245",
+      "evidence_location": "Table 1, row for product 7, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 8",
+      "property": "mp",
+      "value_raw": "220 C",
+      "evidence_quote": "8 120 - 64 - 220 -",
+      "evidence_location": "Table 1, row for product 8, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 10",
+      "property": "mp",
+      "value_raw": "200 C",
+      "evidence_quote": "10 - 3 - 96 - 200",
+      "evidence_location": "Table 1, row for product 10, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 12",
+      "property": "mp",
+      "value_raw": "178 C",
+      "evidence_quote": "12 120 - 66 - 178 -",
+      "evidence_location": "Table 1, row for product 12, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 15",
+      "property": "mp",
+      "value_raw": ">300 C",
+      "evidence_quote": "15 120 - 49 - >300 -",
+      "evidence_location": "Table 1, row for product 15, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 16",
+      "property": "mp",
+      "value_raw": ">300 C",
+      "evidence_quote": "16 120 - 45 - >300 -",
+      "evidence_location": "Table 1, row for product 16, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 17",
+      "property": "mp",
+      "value_raw": "200 C",
+      "evidence_quote": "17 - 2 - 45 - 200",
+      "evidence_location": "Table 1, row for product 17, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 18",
+      "property": "mp",
+      "value_raw": "250 C",
+      "evidence_quote": "18 360 5 70 65 250 [8] 252",
+      "evidence_location": "Table 1, row for product 18, solvent column (literature reference [8])",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 18",
+      "property": "mp",
+      "value_raw": "252 C",
+      "evidence_quote": "18 360 5 70 65 250 [8] 252",
+      "evidence_location": "Table 1, row for product 18, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 19",
+      "property": "mp",
+      "value_raw": "202 C",
+      "evidence_quote": "19 120 5 45 69 202 202",
+      "evidence_location": "Table 1, row for product 19, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 19",
+      "property": "mp",
+      "value_raw": "202 C",
+      "evidence_quote": "19 120 5 45 69 202 202",
+      "evidence_location": "Table 1, row for product 19, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 20",
+      "property": "mp",
+      "value_raw": "237 C",
+      "evidence_quote": "20 240 5 60 60 237 [8] 235",
+      "evidence_location": "Table 1, row for product 20, solvent column (literature reference [8])",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 20",
+      "property": "mp",
+      "value_raw": "235 C",
+      "evidence_quote": "20 240 5 60 60 237 [8] 235",
+      "evidence_location": "Table 1, row for product 20, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 21",
+      "property": "mp",
+      "value_raw": "194 C",
+      "evidence_quote": "21 180 25 45 60 194 194",
+      "evidence_location": "Table 1, row for product 21, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 21",
+      "property": "mp",
+      "value_raw": "194 C",
+      "evidence_quote": "21 180 25 45 60 194 194",
+      "evidence_location": "Table 1, row for product 21, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 22",
+      "property": "mp",
+      "value_raw": "273 C",
+      "evidence_quote": "22 120 5 74 90 273 273",
+      "evidence_location": "Table 1, row for product 22, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 22",
+      "property": "mp",
+      "value_raw": "273 C",
+      "evidence_quote": "22 120 5 74 90 273 273",
+      "evidence_location": "Table 1, row for product 22, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 23",
+      "property": "mp",
+      "value_raw": "256 C",
+      "evidence_quote": "23 240 5 65 69 256 254",
+      "evidence_location": "Table 1, row for product 23, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 23",
+      "property": "mp",
+      "value_raw": "254 C",
+      "evidence_quote": "23 240 5 65 69 256 254",
+      "evidence_location": "Table 1, row for product 23, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 24",
+      "property": "mp",
+      "value_raw": "230 C",
+      "evidence_quote": "24 240 5 59 61 230 231",
+      "evidence_location": "Table 1, row for product 24, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 24",
+      "property": "mp",
+      "value_raw": "231 C",
+      "evidence_quote": "24 240 5 59 61 230 231",
+      "evidence_location": "Table 1, row for product 24, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 26",
+      "property": "mp",
+      "value_raw": "254 C",
+      "evidence_quote": "26 60 5 60 90 254 254",
+      "evidence_location": "Table 1, row for product 26, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 26",
+      "property": "mp",
+      "value_raw": "254 C",
+      "evidence_quote": "26 60 5 60 90 254 254",
+      "evidence_location": "Table 1, row for product 26, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 27",
+      "property": "mp",
+      "value_raw": "250 C",
+      "evidence_quote": "27 120 1 45 60 250 250",
+      "evidence_location": "Table 1, row for product 27, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 27",
+      "property": "mp",
+      "value_raw": "250 C",
+      "evidence_quote": "27 120 1 45 60 250 250",
+      "evidence_location": "Table 1, row for product 27, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 29 (table label; likely compound 28)",
+      "property": "mp",
+      "value_raw": "165 C",
+      "evidence_quote": "29 1440 10 41 54 165 165",
+      "evidence_location": "Table 1, row for product 29, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 29 (table label; likely compound 28)",
+      "property": "mp",
+      "value_raw": "165 C",
+      "evidence_quote": "29 1440 10 41 54 165 165",
+      "evidence_location": "Table 1, row for product 29, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 30",
+      "property": "mp",
+      "value_raw": "245 C",
+      "evidence_quote": "30 180 - 71 - 245 -",
+      "evidence_location": "Table 1, row for product 30, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 32",
+      "property": "mp",
+      "value_raw": "190 C",
+      "evidence_quote": "32 1440 10 45 54 190 190",
+      "evidence_location": "Table 1, row for product 32, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 32",
+      "property": "mp",
+      "value_raw": "190 C",
+      "evidence_quote": "32 1440 10 45 54 190 190",
+      "evidence_location": "Table 1, row for product 32, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 33",
+      "property": "mp",
+      "value_raw": "189 C",
+      "evidence_quote": "33 180 - 74 - 189 -",
+      "evidence_location": "Table 1, row for product 33, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 34",
+      "property": "mp",
+      "value_raw": "228 C",
+      "evidence_quote": "34 1440 10 43 55 228 228",
+      "evidence_location": "Table 1, row for product 34, solvent column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 34",
+      "property": "mp",
+      "value_raw": "228 C",
+      "evidence_quote": "34 1440 10 43 55 228 228",
+      "evidence_location": "Table 1, row for product 34, microwave column",
+      "location_type": "table"
+    },
+    {
+      "compound_name": "Compound 35",
+      "property": "mp",
+      "value_raw": "230 C",
+      "evidence_quote": "35 180 - 73 - 230 -",
+      "evidence_location": "Table 1, row for product 35, solvent column",
+      "location_type": "table"
+    }
+  ]
+}

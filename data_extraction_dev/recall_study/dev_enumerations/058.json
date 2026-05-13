@@ -1,0 +1,25 @@
+{
+  "paper_id": "058_PMC4702524",
+  "title": "How Accurately Can We Predict the Melting Points of Drug-like Compounds?",
+  "doi": "10.1021/ci5005288",
+  "paper_type": "modeling/QSPR study — aggregate-stats only",
+  "enumeration_method": "Full read of article_text.txt + NXML inspection of all 7 tables + grep for common compound names (aspirin/caffeine/benzene/etc.) + grep for '°C' and 'melting point' contexts",
+  "rows": [],
+  "total_count": 0,
+  "notes": [
+    "This paper develops a consensus QSPR model for predicting MPs of drug-like compounds.",
+    "It uses four large data sets (Bergström n=277, Bradley n=3041, OCHEM n=21883, Enamine n=22404) totaling >47k compounds.",
+    "The paper itself contains NO per-compound MP values with named compounds. All 7 tables report aggregate statistics:",
+    "  - Table 1: RMSE of OCHEM-trained models across test sets (RMSE numbers only)",
+    "  - Table 2: RMSE of Enamine-trained models across test sets (RMSE numbers only)",
+    "  - Table 3: Counts of outlying compounds at various p-value thresholds",
+    "  - Table 4: Examples of functional/reactive groups overrepresented in outliers (graphic; group names like 'carboxylic acid', not compounds)",
+    "  - Table 5: Estimated vs calculated RMSE per data set",
+    "  - Table 6: Consensus model RMSEs across train/test combinations",
+    "  - Table 7: Cross-validated RMSE of final model split by drug-like/outside interval",
+    "Mentions of specific temperatures (e.g. '17 °C', '150 °C', '50–250 °C', '<0 °C') are bounds, distribution descriptors, or RMSE numbers — never a MP measurement of a named compound.",
+    "All actual MP data for the 47k+ compounds is hosted externally at http://ochem.eu/article/55638 — not in this article or its NXML/text.",
+    "No common drug-like compounds (aspirin, caffeine, paracetamol, etc.) are mentioned by name anywhere in the article body.",
+    "Conclusion: 0 was correct."
+  ]
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "345",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Diethyl ether row 'Diethyl ether 34.5 47.0' present verbatim in Dearden Table; 47.0 is the MPBPVP (calculated) column."
+  },
+  {
+    "row_id": "323",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Acetic acid row '118.0 122.3' present verbatim in Dearden Table; 122.3 is the MPBPVP (calculated) bp column."
+  },
+  {
+    "row_id": "114",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper contains '6-(5-methyl-2-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5o ). Yield: 66%; Mp: 187 \u00b0C' matching the quote modulo whitespace/symbol differences."
+  },
+  {
+    "row_id": "121",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper has '...butyl derivatives (50.43, 59.02, 71.05 \u00b0C, respectively)'; 71.05 corresponds to butyl ester [Glu(OBu)][IBU]."
+  },
+  {
+    "row_id": "407",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Krossing Table 6 row '[N2,2,2,2][AlCl4] 239.0[132] 139.4' matches verbatim; Exp. Tfus column is measured (literature ref)."
+  },
+  {
+    "row_id": "101",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper contains '8-methoxy-6-(4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5b ). Yield: 47%; Mp: 130 \u00b0C' matching the quote."
+  },
+  {
+    "row_id": "134",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9 'Methyl 4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)-6\u2032-chlorobenzoate' yields 'White solid (150.5 mg, 86%). R f = 0.53 (CH 2 Cl 2 ), m.p. 165\u2013168 \u00b0C' verbatim."
+  },
+  {
+    "row_id": "210",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row '1h C 16 H 14 Cl 2 N 2 S 337.3 Cl 3-Cl 157-158 77' present verbatim; mp column = 157-158."
+  },
+  {
+    "row_id": "382",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Acetic acid row contains '16.6 221.3 35.3 20.7' verbatim; 16.6 is mp (exp.) column = measured."
+  },
+  {
+    "row_id": "214",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row '2a C 15 H 11 ClN 2 S 286.8 Cl H 153-154 69' present verbatim; mp = 153-154."
+  },
+  {
+    "row_id": "115",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper contains '6-(5-methoxy-2-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5p ). Yield: 49%; Mp: 170 \u00b0C' matching the quote."
+  },
+  {
+    "row_id": "68",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5d 4-[(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)-methyl]benzoic Acid has 'Yield = 52%; mp = 193\u2013195 \u00b0C (EtOH)' verbatim."
+  },
+  {
+    "row_id": "159",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 57 '2,6-Diamino-4-(2\u2032,4\u2032-dichloro)-1,6-dihydropyrimidine 1-oxide' has 'White solid (169.5 mg, 45%). R f = 0.28 (3:1 AcOEt: MeOH), m.p. 160 \u00b0C' verbatim."
+  },
+  {
+    "row_id": "276",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 Baricitinib STRM Tb = 794.469 K verbatim; column header confirms STRM calculated; 794.469-273.15 = 521.319 \u00b0C arithmetic correct."
+  },
+  {
+    "row_id": "305",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper has no DOI, but PMC ID found in directory name (PMC3716435) and citation has journal+year+vol+page. Per updated v1.1 protocol, this is acceptable."
+  },
+  {
+    "row_id": "288",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 Hydroxychloroquine STRM Tb = 681.390 K verbatim (third Tb value in second compound block); arithmetic 681.390-273.15 = 408.240 correct; calculated (STRM)."
+  },
+  {
+    "row_id": "327",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Acetonitrile row '81.7 71.8' present verbatim; 71.8 is MPBPVP (calculated) bp column."
+  },
+  {
+    "row_id": "417",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Krossing Table 7 row '[MMPyr][NTf2] 124.7[134\u2013136] 73.6' matches verbatim; Exp. Tfus column = measured (lit ref)."
+  },
+  {
+    "row_id": "47",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2r '5-Acetyl-4-(benzo [1,3]dioxol-5-ylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one' has 'Yield = 66%; mp = 189\u2013191 \u00b0C (EtOH)' verbatim."
+  },
+  {
+    "row_id": "77",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2u '5-Acetyl-4-(2-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one' has 'Yield = 43%; mp = 177\u2013178 \u00b0C (EtOH)' verbatim."
+  },
+  {
+    "row_id": "264",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 Fingolimod STRM Tm = 398.693 K verbatim; arithmetic 398.693-273.15 = 125.543 correct; calculated (STRM)."
+  },
+  {
+    "row_id": "131",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6 '2-(Pent-4-yn-1-yloxy)isoindoline-1,3-dione' has 'White solid (528 mg, 64%). R f = 0.5 (AcOEt), m.p. 80\u201382 \u00b0C' verbatim."
+  },
+  {
+    "row_id": "302",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper has no DOI, but PMC ID found in directory name (PMC3716435) and citation has journal+year+vol+page. Per updated v1.1 protocol, this is acceptable."
+  },
+  {
+    "row_id": "202",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11f long IUPAC name with 'Yield 239 mg (70%); white powder; mp: 239\u2013241 \u00b0C' verbatim in Section 3.4."
+  },
+  {
+    "row_id": "149",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 44 '2\u2032-Cyano-4\u2032-((((1\u2032-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-5-yl)ethylidene)amino)oxy)methyl)methyl benzoate' has 'Blue solid (45mg, 55.6%). R f = 0.10 (AcOEt), m.p. 115 \u00b0C' verbatim."
+  }
+]

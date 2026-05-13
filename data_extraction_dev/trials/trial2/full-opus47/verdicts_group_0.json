@@ -1,0 +1,18 @@
+[
+  {"row_id": "16", "verdict": "verified_extraction", "reason": "", "details": "Row found verbatim in SI2.pdf line 14 of the compiled QSPR dataset; 5,5-dimethylbarbiturate Expt. Tm = 278.0."},
+  {"row_id": "275", "verdict": "verified_extraction", "reason": "", "details": "Quote 'Mp: 234 °C' present for compound 5k in PMC12943095 article_text.txt."},
+  {"row_id": "472", "verdict": "verified_extraction", "reason": "", "details": "Quote verbatim in PMC4058664 under '4-Benzyl-2-hydroxymethyl-2H-phthalazin-1-one (2)' characterization."},
+  {"row_id": "662", "verdict": "verified_extraction", "reason": "", "details": "Table 1 row for compound 1k (X=Cl, R=4-C4H9) shows mp 183-184; compound name matches."},
+  {"row_id": "834", "verdict": "verified_extraction", "reason": "", "details": "Compound 6a Heck product 3-(4-hydroxyphenyl)cyclohex-2-en-1-one mp 150-152 °C confirmed verbatim."},
+  {"row_id": "850", "verdict": "verified_extraction", "reason": "", "details": "Synthesis of N-[(1H-pyrazol-1-yl)-methyl]-2,4-dichloroaniline (6a) with Yield 68%; mp 103-105 °C present verbatim."},
+  {"row_id": "1063", "verdict": "verified_extraction", "reason": "", "details": "Compound 5b m.p. 214°C present verbatim in PMC6236359 experimental section."},
+  {"row_id": "1140", "verdict": "verified_extraction", "reason": "", "details": "Quote for compound 4c '1-(fluoro(nitro)methyl)-2-(4-fluorophenyl)-1,2,3,4-tetrahydroisoquinoline ... mp = 85-95 o C' present verbatim."},
+  {"row_id": "1279", "verdict": "verified_extraction", "reason": "", "details": "Quote 'mp: 204-05°C' verbatim for compound 4c '7,9-Di(4-methoxyphenyltriazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine'."},
+  {"row_id": "1316", "verdict": "verified_extraction", "reason": "", "details": "Section 3.4 Spectral Data 'Soulattrin (1) Yellow crystals; m.p. 180-181 °C' present verbatim."},
+  {"row_id": "1424", "verdict": "verified_extraction", "reason": "", "details": "Compound 12 (O-(methyl)-2-((2-oxopropyl)selanyl)benzoate) 'Yield: 74%; mp 74-75 °C' present verbatim."},
+  {"row_id": "1464", "verdict": "verified_extraction", "reason": "", "details": "PDF pdftotext of gemini_2023 contains 'imidazol-3-ium) bromide (4b). White solid, m. p. = 96-98 °C,' verbatim."},
+  {"row_id": "1585", "verdict": "verified_extraction", "reason": "", "details": "Compound 3a section in norouzi_2024 PDF shows 'Dibenzo[b,f][1,4]oxazepine (3a)' and 'Yellow crystals; yield: 683 mg (70%); mp 69-71 °C' verbatim."},
+  {"row_id": "1672", "verdict": "verified_extraction", "reason": "", "details": "Quote present verbatim; anti-1e maps to Scheme 1 entry e) R1+R2=-(CH2)4-, R3=R5=H, R4=Ph; mp 156-157 °C."},
+  {"row_id": "1760", "verdict": "verified_extraction", "reason": "", "details": "Figure 13 number cluster including OM55 T-history value 54.8 °C is verbatim; corroborated by Table 2 OM55 PLUSS Tm=54.8."},
+  {"row_id": "1846", "verdict": "verified_extraction", "reason": "", "details": "5-Octyldibenzo[b,f][1,7]naphthyridin-6(5H)-one (2a) characterization: 'Mp 85.1-86.6 ºC' present verbatim in nakanishi PDF."}
+]

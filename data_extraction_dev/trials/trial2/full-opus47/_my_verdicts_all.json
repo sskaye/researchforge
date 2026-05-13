@@ -1,0 +1,602 @@
+[
+  {
+    "row_id": "691",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 12a quote 'Orange yellow crystals; yield 0.83 g (43 %); M.p. 285-286 o C' verbatim present at experimental section of Molecules 8(4) 363-373 (10.3390/80400363, PMC6147013)."
+  },
+  {
+    "row_id": "1574",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Glycoside 3c with mp 193.8-195.8 \u00b0C verbatim present in wang_2026_glucosamine_glycosides paper (md24020084); compound name and value confirmed."
+  },
+  {
+    "row_id": "585",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11b 1,2-Bis(...ethyl...)disulfide with mp 118-120 \u00b0C verbatim in PMC6264341 experimental section; compound name (11b ethyl-linker) matches the chosen disulfide."
+  },
+  {
+    "row_id": "1701",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "LiNO3\u00b73H2O 30 \u00b0C is in Table 1 of chen_2024 hydrated salt paper (10.3390/nano14131077); table column 'Melting Temperature (\u00b0C)'; literature value cited from ref [43] \u2014 measured."
+  },
+  {
+    "row_id": "336",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11 (methyl 4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)-3-fluorobenzoate) appears with 'White solid (139.8 mg, 79%). Rf = 0.12 (CH2Cl2), m.p. 165-168 \u00b0C' verbatim in PMC11206691 (Molecules 29(12) 2942)."
+  },
+  {
+    "row_id": "945",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2f (3-(2-furanyl)-6-(3-chlorophenyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole) Yield 66%; M.p.207-209\u00b0C verbatim in PMC6146422 (Molecules 7(8) 681)."
+  },
+  {
+    "row_id": "948",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2i (3-(2-furanyl)-6-(2-hydroxyphenyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole) Yield 49%; M.p. 273-275\u00b0C verbatim in PMC6146422 (same paper as row 945)."
+  },
+  {
+    "row_id": "100",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "2,2,4-trimethylpentane appears in Table 1.2 'Experimental melting points for some octanes' with -107 \u00b0C in 2005 Yalkowsky dissertation; legacy identifier OK; measured/experimental column confirmed."
+  },
+  {
+    "row_id": "765",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "2,6-dime-4-heptanol row 54 in Table 5 'BP (Exp.) 178.0' in PMC3127127 (Int J Mol Sci 12 2448); abbreviated name in table; measured column confirmed."
+  },
+  {
+    "row_id": "1846",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2a 5-Octyldibenzo[b,f][1,7]naphthyridin-6(5H)-one with 'Mp 85.1-86.6 \u00baC' verbatim in nakanishi_2024 (bjoc.20.269) SI experimental section."
+  },
+  {
+    "row_id": "421",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5e methyl spiro carboxylate with 'white powder; mp: 305-307 \u00b0C' verbatim in PMC10671214 (ijms242216359)."
+  },
+  {
+    "row_id": "809",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 14 6-Methyl-1-(4-methylbenzyl)... 'as a white solid (300 mg, 75.75%), mp = 230-232 \u00b0C' verbatim in PMC12984852 (ijms27052306)."
+  },
+  {
+    "row_id": "233",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5a 5-Acetyl-2-ethyl-4-...pyridazin-3(2H)-one with 'mp = 106-107 \u00b0C (EtOH)' verbatim in PMC12943719."
+  },
+  {
+    "row_id": "1128",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 12h with 'Cream solid; yield: 68%; MP = 212-214 \u00b0C' verbatim in PMC13093879 (d5ra09311b RSC Adv); compound name matches the bis-triazole bis-amide ether structure of 12h."
+  },
+  {
+    "row_id": "80",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The evidence_quote 'Dark red solid;' is verbatim in 2019 Rubtsov paper but does not contain the mp value; the full sentence is 'Dark red solid; 1.64 g, 86 % yield; m.p. 168-170 \u00b0\u0421 (toluene).' The quote is truncated and omits the measurement \u2014 fails Step 4 (quote must support the value)."
+  },
+  {
+    "row_id": "729",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "3-hexanol row 18 in Table 5 'BP (Exp.) 135.4' in PMC3127127 (Int J Mol Sci 12 2448); measured column confirmed."
+  },
+  {
+    "row_id": "1774",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5h N-Cyclohexyl-7-iodo-4-(2-nitrobenzyl)-5-oxo-2-phenyl... 'Yellow solid (61%, 759 mg). M.p. 95-96 \u00baC. Rf = 0.34' verbatim in gomezayuso_2024 (bjoc.20.154)."
+  },
+  {
+    "row_id": "1540",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4d 1,8-Naphthyridin-2(1H)-one with 'A yellow solid; mp = 198-200.5 \u00b0C' verbatim in kim_2026 (acsomega.5c13222)."
+  },
+  {
+    "row_id": "501",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound V5 (paper labels as '(V)5') with 'Yield, 67%, dark yellow crystalline solid, mp 235-237 \u00b0C' verbatim in PMC7148931 (jscs.2011.04.001)."
+  },
+  {
+    "row_id": "902",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4j with 'Yield 22.5%; m.p.139-141\u00b0C' verbatim in PMC6146888 (Molecules 8(1) 186); compound name matches."
+  },
+  {
+    "row_id": "1322",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "B3 = 1,7-Dithio-4,10,13-trioxocyclopentadecane 'yellow crystal. Melting point: 63-64 \u00b0C' verbatim in PMC6264337 (10.3390/molecules16108670)."
+  },
+  {
+    "row_id": "534",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 13a morpholine-derived amide 'Colorless crystals (0.30 g, 73%); mp 91 \u00b0C' verbatim in PMC6259131 (10.3390/molecules15106759)."
+  },
+  {
+    "row_id": "1801",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound M1 2-((5-Cyano-6-Oxo-4-Phenyl-1,6-Dihydropyrimidin-2-yl)thio)... 'White powder, mp 207-210, 601 mg, 93%' verbatim in khalifa_2024 (molecules29194778)."
+  },
+  {
+    "row_id": "423",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5g (ethyl spiro carboxylate) with 'white powder; mp: >300 \u00b0C' verbatim in PMC10671214 (ijms242216359); relation '>' and value 300 correct."
+  },
+  {
+    "row_id": "1754",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PEG 10000 row in Table 5 of muller_2020 (ma13204486): melting onset 59.3, melting peak 62.1 \u00b0C \u2014 value 62.1 corresponds to the Melting Peak column; CAS 25322-68-3 confirmed; measured."
+  },
+  {
+    "row_id": "640",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'm.p. 92-93\u00b0C' verbatim present in Experimental for compound 6 in paper PMC6236381; compound name matches Experimental section heading."
+  },
+  {
+    "row_id": "1100",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'm.p.Mp 154-156 \u00b0C' verbatim present (paper has this typo) for compound 18 in Molecules 2001 6(8) paper; compound is 3-(2-oxopropyl)-5-hydroxy-1H-indole-2-carboxylic acid ethyl ester."
+  },
+  {
+    "row_id": "1405",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'White solid; yield: 74% (220 mg); mp: 200\u2013202 \u00b0C' verbatim present in experimental section of ijms25126803 for compound 14c."
+  },
+  {
+    "row_id": "610",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'm.p. 88-92 \u00b0C' present verbatim for compound 5b in PMC6146956 Experimental (whitespace tolerance for 'm.p.88-92' vs paper's 'm.p. 88-92')."
+  },
+  {
+    "row_id": "40",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'pale red solid (mp 55-57' verbatim present for compound 20e in 2013 Zhou JMC EPAC2 paper; mp 55-57 \u00b0C confirmed."
+  },
+  {
+    "row_id": "641",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'm.p. 109-110\u00b0C' verbatim present for compound 3 (the diazahexane title ligand) in PMC6236381 Experimental."
+  },
+  {
+    "row_id": "1850",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'polymorph GW-3 shows a melting point of 139 \u25e6 C' verbatim present in Section 3.3 DSC of bock_2024 cardarine paper."
+  },
+  {
+    "row_id": "1105",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'm.p. 324-326 C' verbatim present in Experimental for DCA (9,10-Dicyanoanthracene) in 10.3390/60100052."
+  },
+  {
+    "row_id": "1136",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '(12p) Brown solid; yield: 73%; MP = 228\u2013230 \u00b0C' verbatim present in Sect. 4.1 of d5ra09311b for compound 12p."
+  },
+  {
+    "row_id": "1228",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '(6i) Yield: 65%; mp 215\u2013217 \u00b0C' verbatim present in Sect. 3.1.1 of d4ra07810a; compound 6i matches."
+  },
+  {
+    "row_id": "1343",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'It is a white crystalline powder having melting point of 124.5 \u00b0C' verbatim present in DBNPA section of Bajpai 2015 textbook chapter."
+  },
+  {
+    "row_id": "1738",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote present in Table 5 of muller_2020 (ma13204486); -22.2 \u00b0C is the DSC melting peak for propionic acid, data_type=measured confirmed."
+  },
+  {
+    "row_id": "823",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim present for compound 3a in molecules31050862 Experimental: 'Yellowish crystals, m.p. 134\u2013136 \u00b0C (iPrOH)'."
+  },
+  {
+    "row_id": "1048",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Compound 24 was obtained as dark yellow crystals (59%), mp 230\u00b0C' verbatim present in 10.3390/80700541 Experimental."
+  },
+  {
+    "row_id": "528",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Colorless crystals (0.37 g, 93%); mp 152-153 \u00b0C' verbatim present for compound 7b in molecules15106759."
+  },
+  {
+    "row_id": "1057",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'm.p. 134-135 \u00b0C' verbatim present for tosylhydrazone of compound 4 (4-TS) in 10.3390/60300194."
+  },
+  {
+    "row_id": "1095",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '(m.p. 86-88 \u00b0C)' verbatim present for compound 36 (4-Amino-3-phenyl triazole) in 10.3390/60500481; 4H vs 1H notation refers to same compound."
+  },
+  {
+    "row_id": "434",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'white powder; mp: 258-260 \u00b0C' verbatim present for compound 11a in ijms242216359 Experimental."
+  },
+  {
+    "row_id": "1104",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'm.p. 81-82 C' verbatim present for 3\u03b2-methoxy-cholest-5-ene (compound 2) in 10.3390/60100052 Experimental."
+  },
+  {
+    "row_id": "1150",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '(14): ...; mp 46\u201349 \u00b0C;' verbatim present for compound 14 in molecules31050796 Sect 3.4."
+  },
+  {
+    "row_id": "1712",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Na2 S2 O3 \u00b75H2 O          49        220' verbatim present in chen_2024 (nano14131077) Table 1; mp value 49\u00b0C confirmed."
+  },
+  {
+    "row_id": "407",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'white powder; mp: 261-263 \u00b0C' verbatim present for compound 4c in ijms242216359 Experimental."
+  },
+  {
+    "row_id": "1317",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Yellow needles; m.p. 157\u2013158 \u00b0C (Lit. 160.5 \u00b0C)[ 12 ]' verbatim present for Caloxanthone B in molecules16053999 Sect 3.4; 157-158 is authors' measured value."
+  },
+  {
+    "row_id": "505",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Yield, 53%, dark brown crystalline solid, mp 263-265 \u00b0C' verbatim present for compound V9 in jscs.2011.04.001 Experimental."
+  },
+  {
+    "row_id": "1330",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '1 \u00b70.5 AC (clathrate A) 6.0 6.7 86.2 244 56 30.2' verbatim present in Table 3 of PMC3716435; 244\u00b0C is Host melting T_m of dehydrocholic acid (compound 1)."
+  },
+  {
+    "row_id": "1650",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 8 of PMC6146921 confirms row 1 'methanol' with Bp exp (oC) = 64.70; column header indicates measured."
+  },
+  {
+    "row_id": "595",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6263281 (Ginkgolic Acid) compound 9c described as yellowish powder, Mp 75\u201377 \u00b0C; quote verbatim."
+  },
+  {
+    "row_id": "1264",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper (Molecules 2002 7(7) 554) gives compound 3g 'mp: 245-47\u00b0C' verbatim; CSV midpoint 246 reasonable. Compound name typo in paper ('Fluoropheny)l') is reflected in evidence_quote."
+  },
+  {
+    "row_id": "1535",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "kim_2026 paper section 4.2.15 gives compound 2o '3-Methylquinolin-2(1H)-one (2o).25 A white solid; m.p. = 233\u2212234 \u00b0C'; minor omission of superscript ref 25 acceptable."
+  },
+  {
+    "row_id": "431",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC10671214 compound 6g, 'white powder; mp: 281\u2013283 \u00b0C' verbatim (en dash folded to ASCII)."
+  },
+  {
+    "row_id": "1577",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "yanovich_2024 (bjoc.20.48) compound 2c, 'White solid, mp 165.1\u2013165.2 \u00b0C' verbatim."
+  },
+  {
+    "row_id": "873",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC4058676 compound 4b, 'Brown crystals from ethanol; m.p. 133\u2013134 \u00b0C; yield 80%' verbatim."
+  },
+  {
+    "row_id": "118",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC12938810 (antiox15020217) compound AL10, 'M.p.: 221.5\u2013222.5 \u00b0C' verbatim."
+  },
+  {
+    "row_id": "1660",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6146921 Table 12 row 1 cyclopropane with Obsd (oC) = -32.8; measured column header confirmed."
+  },
+  {
+    "row_id": "1155",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC12943243 compound 15b, 'Yield 71%, pale yellow solid, mp 252\u2013254 \u00b0C' verbatim."
+  },
+  {
+    "row_id": "914",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6146877 compound 3e, 'Light orange crystals from dioxane; m.p. 240\u00b0C; yield 30%' verbatim."
+  },
+  {
+    "row_id": "889",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC5445742 compound 2j characterization line ends with 'm.p.: 67\u201368 \u00b0C'; pattern in paper is that m.p. follows characterization for the compound named earlier in the same block; matches structure."
+  },
+  {
+    "row_id": "547",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6193216 compound 6b, 'Brown solid; yield: 0.074 g (47%); mp 188 \u00b0\u0421' verbatim (with Cyrillic \u0421 matching paper)."
+  },
+  {
+    "row_id": "984",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6146903 compound 2 (4,4'-diacetyldiphenyl sulphide), 'm.p 90-92\u00b0C' verbatim."
+  },
+  {
+    "row_id": "562",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6264548 title compound 5, 'mp = 260 \u00b0C' verbatim; colourless crystals."
+  },
+  {
+    "row_id": "616",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6146472 compound 3b, 'm.p. 131.5-133\u00b0C' verbatim; midpoint 132.25 \u00b0C correct."
+  },
+  {
+    "row_id": "195",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC12943507 compound 5j, paper text shows 'Melting Point: 291\u2013292 \u00b0C'; CSV evidence_quote truncated at '291' is verbatim partial substring; value 291-292 correctly recorded."
+  },
+  {
+    "row_id": "120",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC12943044 compound 4, 'Brown powder (288 mg, 90% yield); m.p. 250\u2013253 \u00b0C' verbatim."
+  },
+  {
+    "row_id": "43",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "2013_Zhou paper (jm3014162) compound 20i (HJC0350), section header '2,4-Dimethyl-1-(2,4,6-trimethylbenzenesulfonyl)-1H-pyrrole (20i)' and 'pale red solid (mp 98-100 \u00b0C)' confirmed."
+  },
+  {
+    "row_id": "70",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "2019_Rubstov paper (acs.joc.9b00711) compound 4m, 'Yellow solid; 1.95 g, 83 % yield; m.p. 231-232 \u00b0\u0421' verbatim."
+  },
+  {
+    "row_id": "1782",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "gomezayuso_2024 (bjoc.20.154) compound 9j, 'Pink Solid (65%, 277 mg) (crystallized in iPrOH). M.p. = 201 \u2013 202' verbatim; midpoint 201.5 correct."
+  },
+  {
+    "row_id": "1320",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6263260 (molecules16053999) Friedelin (5), 'White needles; m.p. 245\u2013246 \u00b0C (Lit. 246\u2013248 \u00b0C)[2]' verbatim."
+  },
+  {
+    "row_id": "1590",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "norouzi_2024 (bjoc.20.241) compound 4a (3-(Cyclohexylamino)-2-phenyldibenzo[b,f]pyrrolo[1,2-d][1,4]oxazepine-1-carbonitrile), 'Yellowish orange powder; yield: 161 mg (75%); mp 87-89 \u00b0C' verbatim."
+  },
+  {
+    "row_id": "1786",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "gomezayuso_2024 (bjoc.20.154) compound 9o, 'Pale brown solid (71%, 823 mg) (crystallized in iPrOH). M.p. = 221 \u2013 222 \u00baC' confirmed; CSV quote truncated mid-sentence at 'M.p.' is verbatim substring."
+  },
+  {
+    "row_id": "1391",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC11209911 (acsomega.4c03241) compound 26b-1, 'white solid from 26b (4.444 g, 7.849 mmol). [\u03b1]D25 = +2.00 (MeOH, c = 0.5); mp: 55\u201357 \u00b0C' verbatim."
+  },
+  {
+    "row_id": "1688",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 of paper 097 (Molecules 2002 7(2):124-128) lists trans-4e mp 183-4 \u00b0C; quote is verbatim from Table 1 header row."
+  },
+  {
+    "row_id": "32",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 2013_Zhou EPAC2: section header '4-(2,4,6-Trimethylbenzenesulfonyl)phenol (10)' followed by 'desired product (306 mg, 92%) as a white solid (mp 180-181 \u00b0C)' confirms value and compound."
+  },
+  {
+    "row_id": "1123",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 114 (PMC13093879) section for compound 12c states 'Brown solid; yield: 65%; MP = 230\u2013232 \u00b0C' \u2014 quote verbatim, compound matches."
+  },
+  {
+    "row_id": "1435",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 181 (PMC10806150) section 2.2.4 for compound 1d: 'White Solid; mp: 147\u00b0C\u2013149\u00b0C' \u2014 quote verbatim."
+  },
+  {
+    "row_id": "965",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 092 (PMC6236407, 10.3390/60900784) experimental section for compound 7c-HCl: 'Hydrochloride m.p. 216-219\u00b0C' \u2014 quote verbatim; compound name (quinazolidin-4(3H)-one) matches paper text."
+  },
+  {
+    "row_id": "763",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 062 Table 5 row 52: '2,2-dime-3-pentanol 8.5139 3.0843 136.0 131.1 4.9' \u2014 column 'BP (Exp.)' = 136.0 matches; data_type=measured correct (Exp.)."
+  },
+  {
+    "row_id": "252",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 013 (PMC12943095) section: '2\u2032-bromo-5-methoxy-[1,1\u2032-biphenyl]-2-carbaldehyde ( 1e ). Yield: 68%; Mp: 92 \u00b0C;' \u2014 quote verbatim, compound matches."
+  },
+  {
+    "row_id": "760",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 062 Table 5 row 49: '3,3-dime-2-butanol 7.1667 2.9846 120.0 119.1 0.9' \u2014 BP (Exp.) = 120.0 \u00b0C; data_type measured correct."
+  },
+  {
+    "row_id": "503",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 033 (PMC7148931, 10.1016/j.jscs.2011.04.001) for compound V7: 'Yield, 85%, light brown crystalline solid, mp 201\u2013203 \u00b0C' \u2014 quote verbatim (en-dash vs ASCII hyphen permitted)."
+  },
+  {
+    "row_id": "877",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 083 (PMC4058676) compound 5a: 'Dark brown crystals from light petroleum (100\u2013120 \u00b0C); m.p. 91\u201392 \u00b0C; yield 90%' \u2014 quote verbatim, compound and value match."
+  },
+  {
+    "row_id": "1500",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper fernandes_2018_pyridazine_suzuki section for 3d: 'Yellow solid (28%). Mp: 249\u2013252 \u00b0C' \u2014 quote verbatim (hyphen folding); compound 3d matches."
+  },
+  {
+    "row_id": "1053",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 099 (PMC6236343, 10.3390/60300194) experimental section: 'pale yellow crystals, m.p. 137-140 \u00b0C' for 3,5-dinitrobenzoyl derivative \u2014 quote verbatim."
+  },
+  {
+    "row_id": "1465",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper gemini_2023_il_surfactants_cu2o (10.1039/D3RA04646J) section for 4c: 'imidazol-3-ium) bromide (4c). O\ufb00-white solid, m. p. = 128\u2013130 \u00b0' \u2014 quote verbatim, compound and value match."
+  },
+  {
+    "row_id": "359",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 020 (PMC11206691) compound 58: 'White solid (17.8 mg, 6%). R f = 0.25 (EtOAc/MeOH 3:1), m.p. > 250 \u00b0C' \u2014 quote verbatim, relation '>' correct."
+  },
+  {
+    "row_id": "363",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 021 (PMC10673159) compound 10b: 'Yield: 27% as an off-white solid. mp 116 \u00b0C' \u2014 quote verbatim, compound name matches the paper's R-quaterphenyl methanone."
+  },
+  {
+    "row_id": "1038",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 098 (PMC6146883) compound 21: 'Compound 21 was obtained as dark yellow crystals (45%), mp 194\u00b0C' \u2014 quote verbatim."
+  },
+  {
+    "row_id": "545",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 036 (PMC6193216, 10.1055/s-0036-1589496) compound 5d: 'mp 118 \u00b0\u0421 (dec)' \u2014 quote verbatim; data_type 'decomposition' correctly classified."
+  },
+  {
+    "row_id": "579",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 038 (PMC6264341) compound 2a: 'mp: 80\u201382 \u00b0C' \u2014 quote verbatim; compound 8-(4-((5'-(Methylthio)-2,2'-bithiophen-5-ylthio)methyl)-1H-1,2,3-triazol-1-yl)octane-1-thiol matches."
+  },
+  {
+    "row_id": "1064",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 102 (PMC6236359, 10.3390/60400300) compound 6a: 'm.p. 255\u00b0C' \u2014 quote verbatim, compound 10H-benzo[i]quino[2,3,4-kl]acridin-10-one matches."
+  },
+  {
+    "row_id": "1171",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 119 (PMC12943680, 10.3390/molecules31040629) for FURL-TB: 'White solid; yield 74.12%; mp: 127.0\u2013127.3 \u00b0C' \u2014 quote verbatim; midpoint 127.15 \u00b0C correct."
+  },
+  {
+    "row_id": "435",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 028 (PMC10671214, 10.3390/ijms242216359) compound 11b: 'white powder; mp: 234\u2013235 \u00b0C' \u2014 quote verbatim, compound name corresponds to dispiro structure."
+  },
+  {
+    "row_id": "950",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 090 (PMC6146422, 10.3390/70800681) compound 2k: 'Yield 62 %; M.p.115-117\u00b0C' \u2014 quote 'M.p.115-117\u00b0C' verbatim, compound 3-(2-furanyl)-6-phenyloxymethyl-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole matches."
+  },
+  {
+    "row_id": "1864",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper liu_2024_matrine_salts_thermal (10.3390/molecules29030567) Section 2 results: '102.90 \u00b0C and 140.90 \u00b0C, which are between' \u2014 quote verbatim; 140.90 \u00b0C is the second endothermic peak of MAT-SAL-H2O salt monohydrate. Note: source label says 'Pharmaceuticals' but DOI is in Molecules; DOI identifier matches paper, Q6 passes."
+  },
+  {
+    "row_id": "1109",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 113 (PMC13103808, 10.1021/acsomega.6c01037) section 2.3.1 for compound 5: 'to afford 6.2 g of white crystals (89%) of 5 , mp 55\u201356 \u00b0C' \u2014 quote verbatim, compound matches."
+  },
+  {
+    "row_id": "1608",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Paper khan_2017_piroxicam_cocrystal Table 2 lists 'Piroxicam-sodium acetate ... 324 (coformer mp)' but the row's evidence_quote 'Piroxicam-sodium acetate ... Melting point coformer 324' is a paraphrase with ellipsis (...) joining tokens that are not adjacent in the paper; this is not a verbatim string. The value 324 \u00b0C and data_type=measured are otherwise correct."
+  }
+]

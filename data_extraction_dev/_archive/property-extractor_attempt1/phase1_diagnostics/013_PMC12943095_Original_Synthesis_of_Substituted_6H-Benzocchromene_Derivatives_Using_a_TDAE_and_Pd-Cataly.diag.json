@@ -1,0 +1,68 @@
+{
+  "article_id": "013_PMC12943095_Original_Synthesis_of_Substituted_6H-Benzocchromene_Derivatives_Using_a_TDAE_and_Pd-Cataly",
+  "source_kind": "pmc_nxml",
+  "available_sources": [
+    "nxml",
+    "text",
+    "pdf"
+  ],
+  "section_count": 9,
+  "section_first_3_headings": [
+    "1. Introduction",
+    "2. Results and Discussion",
+    "3. Materials and Methods"
+  ],
+  "table_count": 4,
+  "table_labels": [
+    "Table 1",
+    "Table 2",
+    "Table 3",
+    "Table 4"
+  ],
+  "table_header_examples": [
+    [
+      "Entry a",
+      "R1",
+      "Product",
+      "Yield b (%)"
+    ],
+    [
+      "Entry a",
+      "R2",
+      "Product",
+      "Yield b (%)"
+    ],
+    [
+      "Entry a",
+      "Catalyst",
+      "Ligand",
+      "Base",
+      "Solvent",
+      "Temperature (°C)",
+      "Time (h)",
+      "Yield b (%)"
+    ]
+  ],
+  "caption_count": 10,
+  "doi_candidate_count": 2,
+  "doi_candidates": [
+    {
+      "doi": "10.3390/molecules31040706",
+      "source": "nxml_front_matter"
+    },
+    {
+      "doi": "10.3390/molecules31040706",
+      "source": "pdf_text_first_2_pages"
+    }
+  ],
+  "full_text_length": 284791,
+  "warnings": [],
+  "doi_verification": {
+    "doi": "10.3390/molecules31040706",
+    "doi_evidence": "nxml_front_matter",
+    "doi_verified": true,
+    "warnings": [
+      "doi_verified_across_2_sources"
+    ]
+  }
+}

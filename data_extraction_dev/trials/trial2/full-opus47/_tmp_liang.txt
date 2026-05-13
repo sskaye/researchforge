@@ -1,0 +1,1466 @@
+Article
+
+Preparation and Thermal Performance Study of a Novel
+Organic–Inorganic Eutectic Phase Change Material Based on
+Sodium Acetate Trihydrate and Polyethylene Glycol for
+Heat Recovery
+Wanchun Sun 1, *, Xuyan Xu 2 , Tao Zhang 1 , Zhijiang Wu 1 and Yansheng Xu 1
+
+                                         1   School of Energy and Automotive Engineering, Shunde Polytechnic, Foshan 528300, China;
+                                             23088@sdpt.edu.cn (T.Z.); 10669@sdpt.edu.cn (Z.W.); 10222@sdpt.edu.cn (Y.X.)
+                                         2   Department of Industrial Engineering, Tsinghua University, Beijing 100084, China;
+                                             xuxy19@mails.tsinghua.edu.cn
+                                         *   Correspondence: 20123@sdpt.edu.cn
+
+
+                                         Abstract: A novel organic–inorganic eutectic phase change material (PCM) based on
+                                         sodium acetate trihydrate (SAT) and polyethylene glycol (PEG) was developed to meet the
+                                         needs of heat recovery and building heating. Three kinds of PEG with different molecular
+                                         weights were selected to form organic–inorganic eutectic PCM with SAT. The thermal
+                                         properties of three series of SAT-PEG eutectic PCM were compared based on DSC results,
+                                         focusing on the impact of PEG addition on the phase change temperature and enthalpy of
+                                         SAT, as well as the melting uniformity. The inhibitory effects of two nucleating agents on
+                                         the supercooling of SAT-PEG eutectic PCM were systematically investigated. The effect of
+                                         PEG on the crystallization behavior of SAT was studied using a metallographic microscope.
+                                         To evaluate the thermal reliability of the SAT-PEG eutectic PCM, 600 cycles of melting–
+                                         solidification experiments were conducted. Experimental results show that SAT can form
+                                         eutectic PCMs with PEG200, PEG600, and PEG6000, respectively, with high enthalpy and
+                                         excellent melting uniformity. The phase change temperature ranged from 55 ◦ C to 60 ◦ C
+                                         and the enthalpy was as high as 250–280 kJ/kg. The results of the cooling curves show that
+Academic Editor: Kinga Pielichowska      10 wt% tetrasodium pyrophosphate decahydrate (TPD) can reduce the supercooling degree
+Received: 21 November 2024               to less than 1 ◦ C. Significantly, all three series of SAT-PEG eutectic PCMs exhibit exceptional
+Revised: 25 December 2024                thermal reliability after 600 cycles of melting–solidification, with shifts in the phase change
+Accepted: 29 December 2024
+                                         temperatures and enthalpies of less than 4%. XRD diffraction patterns showed that SAT,
+Published: 3 January 2025
+                                         PEG, and TPD were physically mixed without a chemical reaction to form new substances.
+Citation: Sun, W.; Xu, X.; Zhang, T.;
+                                         Microscopic images reveal that the addition of PEG preserves the original needle-shaped
+Wu, Z.; Xu, Y. Preparation and
+                                         crystal morphology of SAT while reducing its crystal size. The rapid formation of small
+Thermal Performance Study of a Novel
+Organic–Inorganic Eutectic Phase
+                                         crystals can provide more nucleation points and expedite crystallization, thereby enhancing
+Change Material Based on Sodium          the heat release capabilities of the PCM.
+Acetate Trihydrate and Polyethylene
+Glycol for Heat Recovery. Materials      Keywords: phase change material; sodium acetate trihydrate; polyethylene glycol; organic–
+2025, 18, 164. https://doi.org/          inorganic eutectic PCM; expanded graphite
+10.3390/ma18010164
+
+Copyright: © 2025 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article   1. Introduction
+distributed under the terms and
+                                              According to comprehensive statistics, global energy consumption is showing a sus-
+conditions of the Creative Commons
+Attribution (CC BY) license
+                                         tained upward trend [1]. However, the reliance on fossil fuels is no longer sufficient to
+(https://creativecommons.org/            meet the continuously increasing energy demand. It is widely recognized that the reserves
+licenses/by/4.0/).                       of fossil fuels are depleting rapidly, and their combustion process significantly pollutes
+
+
+Materials 2025, 18, 164                                                                                       https://doi.org/10.3390/ma18010164
+Materials 2025, 18, 164                                                                                             2 of 16
+
+
+
+                          the environment [2]. Consequently, the utilization of renewable energy has received great
+                          attention from the scientific community and the industrial sector due to its environmen-
+                          tally friendly and pollution-free characteristics compared to fossil fuels [3]. Currently,
+                          the utilization of renewable energy faces challenges such as high initial costs and low
+                          efficiency, making it imperative to focus on improving utilization rates and reducing energy
+                          waste. In both developed and developing countries, the operations of buildings account for
+                          over 40% of global energy consumption and contribute to one-third of global greenhouse
+                          gas emissions [4]. Most of this energy is used for HVAC systems to provide comfortable
+                          indoor thermal environments, stable hot water supply, and hygienic living conditions
+                          for occupants [5]. In order to get on track with the Net Zero Emissions of the building
+                          sector, it is imperative to enhance the efficiency of renewable energy sources such as solar
+                          energy, biomass, and geothermal energy or utilize medium-temperature waste heat from
+                          the industrial sector for building heating. These strategies will effectively reduce reliance on
+                          fossil fuels, promote energy conservation in the building sector, and significantly mitigate
+                          carbon emissions.
+                                Thermal energy storage (TES) technology based on phase change materials (PCMs)
+                          offers an efficient solution to the spatial and temporal disparities in heat distribution [6].
+                          PCMs possess the capacity to absorb and release heat via the process of melting and solidifi-
+                          cation within a specific temperature range during phase transition, allowing for the effective
+                          storage and transportation of thermal energy. Nowadays, PCMs are widely used in indoor
+                          heating and cooling [7], refrigerated transport and distribution applications [8], trans-
+                          portation [9], the thermal management of electronics [10], photovoltaic/thermal (PV/T)
+                          systems [11], heat pump systems [12,13], and so on. Common PCMs can be classified
+                          into two major categories: organic and inorganic. In the low-temperature application
+                          range (0–80 ◦ C), organic PCMs represented by paraffin exhibit advantages such as suitable
+                          phase change temperature, high phase change enthalpy, and exceptional thermal reliabil-
+                          ity [14]. However, careful consideration must be given to safety concerns and economic
+                          costs when applying PCMs to buildings. Despite the aforementioned advantages of paraf-
+                          fin, its flammability and high cost constrain its widespread utilization [15]. On the other
+                          hand, inorganic PCMs represented by inorganic hydrated salts have the advantages of low
+                          cost, non-flammability, and high enthalpy [16]. For space heating and hot water supply
+                          in buildings, PCMs with a phase change temperature within the range of 50–60 ◦ C are
+                          required. Among the inorganic hydrated salts meeting the aforementioned phase change
+                          temperature requirements, sodium acetate trihydrate (SAT) shows good development
+                          prospects due to its appropriate phase change temperature, high phase change enthalpy
+                          (271.09 kJ/kg), cost-effectiveness, and non-flammability [17]. However, the published
+                          literature indicates that SAT has a high supercooling degree of up to 75 ◦ C and severe
+                          phase separation, leading to a considerable reduction in its service life [18,19]. Adding
+                          nucleating agents and thickeners is a common approach to solving the above problems [20].
+                          Li et al. [21] prepared a composite PCM based on SAT with carboxymethylcellulose (CMC)
+                          and disodium hydrogen phosphate dodecahydrate (DHPD) as thickeners and nucleating
+                          agents to solve the phase separation and supercooling problems. The experimental results
+                          showed that when the contents of CMC and DSP were both 4 wt%, the supercooling degree
+                          of the composite PCM was only 0.96 ◦ C. Hua et al. [22] compared the supercooling sup-
+                          pression effects of six nucleating agents on SAT, including disodium hydrogen phosphate
+                          (DSP), tetrasodium pyrophosphate decahydrate (TPD), anhydrous sodium acetate (SAA),
+                          sodium tetraborate decahydrate (STD), and sodium metasilicate nonahydrate (SMN). It
+                          was found that DSP could be an effective nucleating agent for SAT. When the addition of
+                          DSP was 2 wt%, the supercooling degree of SAT was reduced to about 2 ◦ C. And 1–1.5 wt%
+                          of xanthan gum (XG) could effectively suppress the phase separation of SAT. Furthermore,
+Materials 2025, 18, 164                                                                                          3 of 16
+
+
+
+                          Wang et al. [23] demonstrated experimentally that TPD could effectively mitigate the super-
+                          cooling phenomenon of SAT. On the other hand, the incorporation of nanoparticles, such as
+                          carbon nanotubes [24], nano copper [25], AlN nanoparticles [26], Ti2 O3 [27], and α-Al2 O3 ,
+                          has also demonstrated efficacy in mitigating the supercooling of SAT, with the minimum
+                          value reaching 0.4 ◦ C [28].
+                                In addition, taking SAT as the main phase change material and then introducing a small
+                          amount of organic matter to construct an organic–inorganic eutectic phase change system
+                          is also a method to optimize the thermal properties of SAT. Wu et al. [29] developed a novel
+                          composite PCM composed of SAT, acetamide, and micron/nano-aluminum nitride. They
+                          found that acetamide could co-melt with SAT and reduce the melting point of SAT to meet
+                          the need of heat storage in solar heat pump systems. The above composite PCM exhibited
+                          a high latent heat of 222.6 kJ/kg. Fu et al. [30] investigated the thermal properties of an
+                          organic–inorganic eutectic mixture composed of SAT and urea. They found that the addition
+                          of 8% urea could make the SAT-urea mixture have a suitable phase change temperature
+                          (47.84 ◦ C) and maintain high latent heat (223.1 kJ/kg), while reducing the supercooling
+                          temperature to 1.54 ◦ C. In our previous research work [31], an SAT-urea-DHPD eutectic
+                          phase change system was constructed and its thermophysical properties were studied,
+                          including the effects of urea on the melting consistency, phase change temperature, and
+                          enthalpy of SAT. It was found that the addition of urea could effectively improve the melting
+                          uniformity of SAT and help to improve the phase separation phenomenon. In other words,
+                          appropriate organic PCMs can fully leverage their benefits of consistent melting behavior
+                          and exceptional thermal reliability to collaboratively establish a co-melting phase change
+                          system with inorganic hydrated salt SAT, thereby overcoming the inherent drawbacks of
+                          SAT such as significant supercooling and serious phase separation.
+                                In the current work, a novel organic–inorganic hybrid PCM system composed of SAT
+                          and polyethylene glycol (PEG) was developed. PEG is an oligomer (molecular weight
+                          below 20,000) with a broad range of phase change temperatures (−55 ◦ C to 100 ◦ C), de-
+                          pendent on its molecular weight. It offers the advantages of high phase change enthalpy,
+                          excellent thermal stability, absence of phase separation, and non-toxicity [32,33]. Signifi-
+                          cantly, its high water solubility contributes to optimizing the co-melting effect of organic
+                          and inorganic phases. PEG200, PEG600, and PEG6000 were selected to construct organic–
+                          inorganic eutectic PCMs with inorganic hydrated salt SAT. The effect of PEG addition on the
+                          phase change thermal properties of SAT was systematically investigated, including phase
+                          change temperature, enthalpy, and melting uniformity. The influence of PEG with different
+                          molecular weights on the thermal properties of SAT was compared. Next, based on the
+                          measurement results of the cooling curves, the nucleating agents for the novel SAT-PEG
+                          eutectic PCM were screened and their addition amounts were optimized. The investigated
+                          nucleating agents included DHPD and TPD. In order to study the crystallization behavior
+                          of SAT-PEG eutectic PCM more clearly, its crystal morphology and size were characterized
+                          using a metallographic microscope. In addition, expanded graphite was introduced as a
+                          porous carrier to adsorb the SAT-PEG eutectic PCM to prepare the composite PCM. The
+                          microstructures of expanded graphite and composite materials were characterized via scan-
+                          ning electron microscopy. Finally, 600 melting solidification experiments were conducted
+                          on the SAT-PEG eutectic PCM to further investigate the improvement effect of organic
+                          phase PEG on the thermal reliability of SAT.
+
+                          2. Materials and Methods
+                          2.1. Materials and Reagents
+                              Sodium acetate trihydrate (SAT, CH3 COONa·3H2 O, AR), Polyethylene glycol 6000
+                          (PEG6000, AR), disodium hydrogen phosphate dodecahydrate (DHPD, Na2 HPO4 ·12H2 O,
+Materials 2025, 18, 164                                                                                            4 of 16
+
+
+
+                          AR), and tetrasodium pyrophosphate decahydrate (TPD, Na4 P2 O7 ·10H2 O, AR) were pur-
+                          chased from Tianjin Kemiou Chemical Reagent Co., Ltd. (Tianjin, China). Polyethylene
+                          glycol 200 (PEG200, AR) and Polyethylene glycol 600 (PEG600, AR) were purchased from
+                          China National Pharmaceutical Group Chemical Reagent Co., Ltd. (Shanghai, China).
+                          Expanded graphite (EG, 100 meshes) was purchased from Qingdao Furuite graphite Co.,
+                          Ltd. and Dao Technologies Ltd. (Qingdao, China).
+
+                          2.2. Preparation
+                          2.2.1. SAT-Polyethylene Glycol (PEG) Eutectic PCM
+                               The SAT-PEG eutectic PCM was prepared using the mixed heating method. The
+                          specific steps were as follows: Firstly, SAT and PEG were weighed accurately according
+                          to the preset proportion and placed in a reagent bottle. Then, the temperature of the blast
+                          drying oven was set at 70 ◦ C, and the reagent bottle was put in after the cap was tightened
+                          for heating. When 80% of the samples in the reagent bottle melted into a liquid state, the
+                          reagent bottle was taken out and placed in a water bath at 70 ◦ C for stirring. The melting of
+                          the samples was accelerated by means of water bath heating and stirring. Finally, when
+                          no solid particles were observable in the reagent bottle, the nucleating agent was added.
+                          Under continuous stirring and heating, the PCM sample achieved a uniformly molten state,
+                          and the SAT-PEG eutectic PCM was obtained.
+
+                          2.2.2. SAT-Polyethylene Glycol (PEG)/Expanded Graphite Composite PCM
+                               The preparation steps of the composite PCM consisting of the SAT-PEG eutectic PCM
+                          and expanded graphite were as follows: Firstly, the eutectic PCM was placed in a blast
+                          drying oven at 70 ◦ C for heating, while the weighed expanded graphite was placed into a
+                          high-temperature-resistant PE bag. Then, the molten eutectic PCM was poured into the
+                          PE bag, and a glass rod was employed to uniformly blend the PCM and the expanded
+                          graphite. During the mixing process, if the eutectic PCM solidified, the PE bag was sealed
+                          properly and placed in the blast drying oven for reheating and then mixing was resumed.
+                          The above steps were repeated until no eutectic PCM was observable on the wall of the PE
+                          bag, and the SAT-PEG/expanded graphite composite PCM was obtained.
+
+                          2.3. Characterization
+                               The phase change thermophysical properties of the samples were characterized using a
+                          differential scanning calorimeter (DSC). The specific steps are as follows: firstly, 8–12 mg of
+                          the sample was weighed using an analytical balance. The container for loading the sample
+                          was an aluminum crucible matching the measurement equipment (NETZSCH, DSC214,
+                          Shanghai, China). For liquid samples, a disposable dropper was used for aspiration, and
+                          for solid samples, a stainless steel spoon was used for scooping. Next, the crucible with the
+                          sample was sealed and placed at a specific position in the measurement chamber. Then, the
+                          thermophysical properties of the sample were measured under a nitrogen atmosphere. The
+                          temperature measurement range was 0–90 ◦ C, and the heating rate was 5 ◦ C/min [34–36].
+                          The flow rates of nitrogen purge gas and guard gas were 40 mL/min and 60 mL/min,
+                          respectively. Finally, once the measurement was completed, the data file was loaded into
+                          DSC 214 Proteus 1.0 software for analysis to read the thermophysical property data such as
+                          the phase change temperature and enthalpy value.
+                               The structure of the sample was characterized using X-ray diffraction patterns (XRD,
+                          Rigaku Smart Lab SE, Tokyo, Japan). The crystals structure of the SAT-PEG sample was
+                          characterized using a metallographic microscope (DM2700M, Leica, Wetzlar, German). The
+                          microstructures of expanded graphite and composite PCMs were characterized using a scan-
+                          ning electron microscope (TESCAN MIRA LMS, Teskin (China) Co., Ltd., Shanghai, China).
+                          characterized using a metallographic microscope (DM2700M, Leica, Wetzlar, German).
+                          The microstructures of expanded graphite and composite PCMs were characterized using
+                          a scanning electron microscope (TESCAN MIRA LMS, Teskin (China) Co., Ltd., Shanghai,
+Materials 2025, 18, 164                                                                                   5 of 16
+                          China).
+
+                          2.4. Evaluation of Supercooling Degree and Thermal Reliability
+                            2.4. Evaluation of Supercooling Degree and Thermal Reliability
+                                The experimental setup for measuring the cooling curve of the sample is depicted in
+                                  The experimental setup for measuring the cooling curve of the sample is depicted
+                          Figure 1. The measurement equipment includes a high-low temperature alternating damp
+                            in Figure 1. The measurement equipment includes a high-low temperature alternating
+                          heat test chamber (HT-SC-80B, Huitai Machine CO., Ltd., Dongguan, China), a data ac-
+                            damp heat test chamber (HT-SC-80B, Huitai Machine CO., Ltd., Dongguan, China), a
+                          quisition instrument (Keysight DAQ970A, Santa Rosa, CA, USA), and a computer.
+                            data acquisition instrument (Keysight DAQ970A, Santa Rosa, CA, USA), and a computer.
+                          Among them, the test chamber is used to control the ambient temperature of the sample.
+                           Among them, the test chamber is used to control the ambient temperature of the sample.
+                          The data acquisition instrument measures and collects the temperature data of the sample
+                           The data acquisition instrument measures and collects the temperature data of the sample
+                          through K-type thermocouples and uploads the temperature data to the computer. The
+                            through K-type thermocouples and uploads the temperature data to the computer. The
+                          measurement steps are as follows: firstly, 50 g of the sample was weighed and placed in a
+                            measurement steps are as follows: firstly, 50 g of the sample was weighed and placed in a
+                          reagent bottle; two K-type thermocouples were installed prior to tightening the bottle cap.
+                            reagent bottle; two K-type thermocouples were installed prior to tightening the bottle cap.
+                          Then, the sample was placed in the test chamber, and the chamber temperature changed
+                           Then, the sample was placed in the test chamber, and the chamber temperature changed
+                          in accordance with the set procedure. During the experiment, the chamber temperature
+                            in accordance with the set procedure. During the experiment, the chamber temperature
+                          was first heated from room temperature to 80 ◦°C, maintained at this temperature for 1 h
+                           was first heated from room temperature to 80 C, maintained at this temperature for 1 h to
+                          to ensure the complete melting of the sample, and then cooled from◦80 °C to       0 °C, main-
+                            ensure the complete melting of the sample, and then cooled from 80 C to 0 ◦ C, maintained
+                          tained at this temperature for 1 h to ensure the complete solidification of the sample. Both
+                            at this temperature for 1 h to ensure the complete solidification of the sample. Both the
+                          the heating and cooling rates were◦ 1 °C/min. Finally, the temperature data were exported
+                            heating and cooling rates were 1 C/min. Finally, the temperature data were exported from
+                          from the analysis software on the computer and organized to obtain the cooling curve
+                            the analysis software on the computer and organized to obtain the cooling curve diagram
+                          diagram of the sample.
+                            of the sample.
+
+
+
+
+                                      Schematicdiagram
+                           Figure1.1.Schematic
+                          Figure                diagramofofthe
+                                                            theexperimental
+                                                                experimentalapparatus
+                                                                             apparatusfor
+                                                                                       formeasuring
+                                                                                           measuringthe
+                                                                                                     thecooling
+                                                                                                         coolingcurve.
+                                                                                                                 curve.
+
+                                  Themelting–solidification
+                                The    melting–solidificationcycling
+                                                                  cycling test
+                                                                          test was
+                                                                                was also
+                                                                                     also performed
+                                                                                           performed by by controlling
+                                                                                                             controllingthethechamber
+                                                                                                                                cham-
+                            temperature    to realize  the  repeated   melting   and  solidification of  the
+                          ber temperature to realize the repeated melting and solidification of the sample.   sample.   In  the In
+                                                                                                                                cycling
+                                                                                                                                   the
+                            experiment,    the  weight   of   each  sample   was   controlled   within   10–15
+                          cycling experiment, the weight of each sample was controlled within 10–15 g to achieve  g  to achieve   rapid
+                            melting
+                          rapid      and solidification.
+                                   melting                   The temperature
+                                            and solidification.                  control control
+                                                                    The temperature       programprogram
+                                                                                                    of the testof chamber    was set as
+                                                                                                                   the test chamber
+                            follows:  the chamber    temperature      was  heated   from  room   temperature     to  80 ◦ C at a rate of
+                          was set as follows: the chamber temperature was heated from room temperature to 80 °C
+                                ◦ C/min, maintained at 80 ◦ C for 20 min, and then cooled from 80 ◦ C to 0 ◦ C at a rate of
+                          at1.5
+                             a rate of 1.5 °C/min, maintained at 80 °C for 20 min, and then cooled from 80 °C to 0 °C
+                            1.5 ◦ C/min and maintained at 0 ◦ C for 20 min.
+                          at a rate of 1.5 °C/min and maintained at 0 °C for 20 min.
+                                  Theprecision
+                                The    precisionofofthe
+                                                      theinstruments
+                                                           instrumentsand andthetheuncertainties
+                                                                                     uncertaintiesofofthe
+                                                                                                        themeasured
+                                                                                                              measuredparameters
+                                                                                                                           parameters
+                            during  characterization    are  listed in Table 1, which   were  analyzed    in
+                          during characterization are listed in Table 1, which were analyzed in our previous our  previous   work   [31].
+                                                                                                                                 work
+                            The The
+                          [31].   uncertainties of the
+                                     uncertainties    ofmeasured
+                                                         the measured parameters   were were
+                                                                           parameters     analyzed   basedbased
+                                                                                                analyzed      on theon Evaluation
+                                                                                                                         the Evalua-and
+                            Expression   of Measurement        Uncertainty  (JJF1059-2012)    [37,38]. For
+                          tion and Expression of Measurement Uncertainty (JJF1059-2012) [37,38]. For the     the parameters     directly
+                            measured by the operator (the geometry dimension of the test room and the supercooling
+                            degree of the samples), the uncertainties werescalculated using the Type A evaluation
+                                                                                                  N
+                           method. The calculation formula is u A ( x ) =                  1
+                                                                                       N ( N −1) ∑
+                                                                                                     ( xi − x )2 , where xi and x are
+                                                                                                i =1
+                           the measured and average values of the parameters, respectively, and N is the number
+                           of measurements. For the parameters measured by the instrument, the uncertainties are
+Materials 2025, 18, 164                                                                                                               6 of 16
+
+
+
+                                calculated using the Type B evaluation method (u B = ka , where a is the instrument precision;
+                                                                         √
+                                k is the coverage factor and its value is 3).
+
+                                Table 1. Instrument precision and uncertainties of measured parameters.
+
+ Instrument                                         Precision       Measured Parameter                              Uncertainty
+ Differential scanning calorimeter                                  Melting points and latent heats of
+                                                    ±1%                                                             ±0.58% (Type B)
+ (NETZSCH, DSC214, Shanghai, China)                                 PCM samples
+ High-low alternate temperature chamber
+                                                                    Ambient temperature when
+ (HT-SC-80B, Huitai Machine Co., Ltd.,              ±1.5 ◦ C                                                        ±0.87 ◦ C (Type B)
+                                                                    measuring the cooling curves
+ Dongguan, China)
+ Data logger (Keysight DAQ970A, Santa                               Supercooling degree of PCM samples              ±0.10 ◦ C (Type A)
+                                                    ±0.5 ◦ C
+ Rosa, CA, USA)                                                     Temperature curve of each test point            ±0.29 ◦ C (Type B)
+
+
+                                3. Results and Discussion
+                                3.1. Phase Change Properties of SAT-Polyethylene Glycol Eutectic PCMs
+                                             In order to improve the melting homogeneity of SAT, PEG200, PEG600, and PEG6000
+                                       were adopted as organic phases to construct organic–inorganic eutectic PCMs with inor-
+                                       ganic phase SAT, respectively. The organic–inorganic eutectic PCMs were prepared by
+                                       heating and mixing organic and inorganic components. The eutectic PCMs are referred to
+                                       as SAT-PEG200, SAT-PEG600, and SAT-PEG6000, respectively. The sample images of the
+                                       SAT-PEG eutectic PCMs are shown in Figure 2. The numbers written on the reagent bottles
+                                       in the picture indicate the mass fraction of PEG. Due to the addition of PEG200, PEG600,
+                                       and PEG6000, inorganic hydrated salt SAT shows improved homogeneity in the molten
+                                       state, and its transparency decreases with the increase in the molecular weight of PEG.
+                                       This phenomenon is related to the phase change temperature of PEG: with the increase in
+                                       molecular weight, the phase change temperature of PEG gradually increases. Photographs
+                                       of the PEG200, PEG600, and PEG6000 samples at different ambient temperatures (15 ◦ C,
+                                       45 ◦ C, and 85 ◦ C) are shown in Figure 3. Owing to the fact that the phase change tempera-
+                                       ture of PEG200 is about −65 ◦ C, the DSC instrument used in this study cannot satisfy the
+                                       measurement conditions. The DSC curves of PEG600 and PEG6000 used in the experiments
+                                       are presented in Figure 4. At a room temperature of 15 ◦ C, PEG200 and PEG600 are in a
+                                       liquid state while PEG6000 is a waxy solid. As the molecular weight increases, the viscosity
+                                       of PEG also increases. Consequently, in the SAT-PEG eutectic phase-change system, em-
+   Materials 2025, 18, x FOR PEER REVIEW                                                                            7 of 17
+                                       ploying a higher molecular weight PEG will progressively augment the enhancement effect
+                                       on the uniformity of the sodium acetate system, but the fluidity will gradually diminish.
+
+
+                                 a                                          b
+
+
+
+
+                                                       c
+
+
+
+
+                                           Images   of organic–inorganic
+                                                       the organic–inorganic   SAT-PEG    eutectic PCM   in the                          ◦
+                                Figure2.2.
+                                Figure   Images of the                   SAT-PEG eutectic PCM  in the molten statemolten   state
+                                                                                                                   (at 70 °C): (a) (at 70 C):
+                                (a) SAT-PEG200;
+                                SAT-PEG200;      (b) SAT-PEG600;
+                                            (b) SAT-PEG600;        (c) SAT-PEG6000.
+                                                            (c) SAT-PEG6000.
+Materials 2025, 18, 164                                                                                                       7 of(a)
+                                                                                                                                   16
+                                   Figure 2. Images of the organic–inorganic SAT-PEG eutectic PCM in the molten state (at 70 °C):
+                                   SAT-PEG200; (b) SAT-PEG600; (c) SAT-PEG6000.
+
+
+
+
+                                        Figure
+                   Materials 2025, 18, xFigure 3. Photographs
+                                         FOR PEER
+                                               3.  REVIEW
+                                                  Photographs of PEG200,
+                                                              of PEG200, PEG600, and PEG6000
+                                                                         PEG600, and PEG6000 samples
+                                                                                             samples at
+                                                                                                     at diﬀerent
+                                                                                                        different ambient
+                                                                                                                  ambient temperatures
+                                                                                                                          temperatures
+                                   (15 ◦°C,
+                                   (15      45 ◦°C,
+                                         C, 45   C, and
+                                                    and 85
+                                                        85 °C).
+                                                           ◦ C).
+
+
+                                         The DSC test results of the SAT-PEG eutectic PCM samples in three series after the
+                                   first melting–solidification cycle are presented in Figure 4, with detailed data listed in
+                                   Table 2. As depicted in Figure 4, all three molecular weight PEG200, PEG600, and
+                                   PEG6000 can form a eutectic with SAT and maintain the phase change temperature within
+                                   the range of 50–60 °C. In Figure 4a, it is evident that an increase in the amount of added
+                                   PEG200 leads to a gradual leftward shift of the phase change peak for the SAT-PEG200
+                                   eutectic PCM. This trend is consistent with the thermal property data provided in Table
+                                   2, where both the phase change temperature and enthalpy of SAT-PEG200 eutectic PCM
+                                   exhibit a decreasing trend. Similar observations hold true for SAT-PEG600 and SAT-
+                                   PEG6000 eutectic PCM. Based on the data analysis presented in Table 2, it is evident that
+                                   the addition of PEG200, PEG600, and PEG6000 has a negligible eﬀect on reducing the
+                                   phase change enthalpy of SAT. Even at a high concentration of 6 wt% for PEG6000, the
+                                   resulting SAT-PEG6000 eutectic PCM still exhibits a substantial enthalpy value of 253.7
+                                   kJ/kg. It can be concluded that the incorporation of organic phase PEG can eﬀectively
+                                   mitigate the inherent limitations of SAT phase separation and enhance its practical utility.
+                                   In order to further optimize the thermal performance of the SAT-PEG eutectic PCM, a
+                                   selection of nucleating agents and determination of their addition amount are carried out
+                                   based on the SAT-PEG200 (6 wt%) eutectic PCM in the next section.
+
+
+
+
+                                                  Figureof4.the
+                                   Figure 4. DSC curves      DSC  curves of the organic–inorganic
+                                                                organic–inorganic                 eutectic
+                                                                                   eutectic PCMs of        PCMs of (a)
+                                                                                                    (a) SAT-PEG200,  (b)SAT-PEG200,
+                                                                                                                         SAT-PEG600,(b) SAT-P
+                                   and (c) SAT-PEG6000.
+                                                  and (c) SAT-PEG6000.
+
+                                        The DSC test  results
+                                                   Table 2. DSCof test
+                                                                  the results
+                                                                       SAT-PEG    eutectic PCM
+                                                                              of SAT-PEG         samples
+                                                                                           eutectic PCMs. in three series after the first
+                                   melting–solidification cycle are presented in Figure 4, with detailed data listed in Table 2.
+                                   As depicted in Figure    4, allPCMs
+                                                                   three molecularMassweight
+                                                                                        Fraction   of
+                                                                                               PEG200,    Phase Change
+                                                                                                        PEG600,     and PEG6000 can    Enthalpy
+                                                       Eutectic
+                                                                                     PEG (wt%)         Temperature (°C)                 (kJ/kg)
+                                   form a eutectic with SAT and maintain the phase change temperature within the range of
+                                                                                           2                    57.1
+                                   50–60 ◦ C. In Figure 4a, it is evident that an increase in the amount of added PEG200 leads
+                                                                                                                                          247.7
+                                                                                           4                    56.6                      239.2
+                                   to a gradual leftward shift of the phase change peak for the SAT-PEG200 eutectic PCM.
+                                                        SAT-PEG200                         6                    55.6                      234.7
+                                   This trend is consistent with the thermal property data provided in Table 2, where both the
+                                                                                           8                    55.8                      211.4
+                                   phase change temperature and enthalpy of SAT-PEG200 eutectic PCM exhibit a decreasing
+                                                                                          10                    55.2                      210.9
+                                   trend. Similar observations hold true for SAT-PEG600 and SAT-PEG6000 eutectic PCM.
+                                                                                           2                    57.3                      291.9
+                                   Based on the data analysis presented in Table 2, it is evident that the addition of PEG200,
+                                                                                           4                    59.9                      279.7
+                                   PEG600, and PEG6000 has a negligible effect on reducing the phase change enthalpy of SAT.
+                                                        SAT-PEG600                         6                    59.3                      271.1
+                                   Even at a high concentration of 6 wt% for PEG6000, the resulting SAT-PEG6000 eutectic
+                                                                                           8                    58.8                      261.2
+                                   PCM still exhibits a substantial enthalpy value of 253.7 kJ/kg. It can be concluded that
+                                                                                          10                    57.5                      255.3
+                                   the incorporation of organic phase PEG can effectively mitigate the inherent limitations
+                                                                                           2                    58.0                      269.4
+                                                                                           4                    57.9                      268.1
+                                                        SAT-PEG6000                        6                    57.9                      253.7
+                                                                                           8                    57.4                      239.7
+                                                                                          10                    57.3                      237.5
+Materials 2025, 18, 164                                                                                                 8 of 16
+
+
+
+                              of SAT phase separation and enhance its practical utility. In order to further optimize the
+                              thermal performance of the SAT-PEG eutectic PCM, a selection of nucleating agents and
+                              determination of their addition amount are carried out based on the SAT-PEG200 (6 wt%)
+                              eutectic PCM in the next section.
+
+                              Table 2. DSC test results of SAT-PEG eutectic PCMs.
+
+                                                          Mass Fraction of       Phase Change
+                                  Eutectic PCMs                                                         Enthalpy (kJ/kg)
+                                                            PEG (wt%)           Temperature (◦ C)
+                                                                   2                   57.1                    247.7
+                                                                   4                   56.6                    239.2
+                                   SAT-PEG200                      6                   55.6                    234.7
+                                                                   8                   55.8                    211.4
+                                                                  10                   55.2                    210.9
+                                                                   2                   57.3                    291.9
+                                                                   4                   59.9                    279.7
+                                   SAT-PEG600                      6                   59.3                    271.1
+                                                                   8                   58.8                    261.2
+                                                                  10                   57.5                    255.3
+                                                                   2                   58.0                    269.4
+                                                                   4                   57.9                    268.1
+                                   SAT-PEG6000                     6                   57.9                    253.7
+                                                                   8                   57.4                    239.7
+                                                                  10                   57.3                    237.5
+
+                              3.2. Selection of Nucleating Agents for the SAT-PEG Eutectic PCMs
+ Materials 2025, 18, x FOR PEER REVIEW Taking SAT-PEG200 (6 wt%) as the base eutectic PCM, the influences of two nucleating
+                                                                                                                      9 of 17
+                              agents, including disodium hydrogen phosphate dodecahydrate (DHPD) and tetrasodium
+                              pyrophosphate decahydrate (TPD), on the supercooling degree of the eutectic PCM were
+                              investigated.
+                               eutectic PCMThewerecooling curves are
+                                                    investigated. Theshown
+                                                                      coolingincurves
+                                                                                Figureare
+                                                                                       5 and the in
+                                                                                          shown   specific
+                                                                                                    Figuredata are
+                                                                                                           5 and   listed
+                                                                                                                 the      in
+                                                                                                                     specific
+                              Table 3.
+                               data are listed in Table 3.
+
+
+
+
+                              Figure 5. Cooling curves of the SAT-PEG 200 eutectic PCM containing the nucleating agent of
+                                Figure 5. Cooling curves of the SAT-PEG 200 eutectic PCM containing the nucleating agent of (a)
+                              (a) DHPD and (b) TPD.
+                                DHPD and (b) TPD.
+                                   Based on the experimental results presented in Figure 5 and Table 3, it can be seen
+                               Table 3. Specific data of cooling curves.
+                              that TPD shows a better supercooling degree inhibition effect. When the mass fraction
+                              of the nucleating
+                                      Nucleatingagent
+                                                 Agentattains 10 wt%,
+                                                                  Massthe  supercooling
+                                                                         Fraction (wt%) degree of SAT-PEG200
+                                                                                             Supercooling       is as(°C)
+                                                                                                            Degree    low
+                                     ◦
+                              as 0.1 C. To verify the inhibitory effect of TPD
+                                                                             2 on the other two eutectic PCMs,
+                                                                                                          -      namely
+                              SAT-PEG600 and SAT-PEG6000, cooling curve4 tests were conducted on the samples
+                                                                                                          -         of the
+                              above two eutectic
+                                           DHPD PCMs with 10 wt% TPD added.  6      The addition amount4.5of the organic
+                                                                             8                           1.4
+                                                                            10                           1.2
+                                                                             2                           7.3
+                                                                             4                           7.1
+                                            TPD                              6                           5.8
+Materials 2025, 18, 164                                                                                                    9 of 16
+
+
+
+                                 phase remains at 6 wt%, and the results are depicted in Figure 6. As can be observed
+                                 from Figure 6, TPD is capable of eliminating the supercooling degrees of both SAT-PEG600
+                                 and SAT-PEG6000 eutectic PCMs. Consequently, tetrasodium pyrophosphate decahydrate
+                                 (TPD) was determined as the nucleating agent for the SAT-PEG series eutectic PCMs.
+
+                                 Table 3. Specific data of cooling curves.
+
+                                        Nucleating Agent                Mass Fraction (wt%)       Supercooling Degree (◦ C)
+                                                                                 2                              -
+                                                                                 4                              -
+                                              DHPD                               6                             4.5
+                                                                                 8                             1.4
+                                                                                10                             1.2
+                                                                                 2                             7.3
+                                                                                 4                             7.1
+                                               TPD                               6                             5.8
+Materials 2025, 18, x FOR PEER REVIEW                                            8                             2.4       10 of 17
+                                                                                10                             0.1
+
+
+
+
+                                 Figure 6.6.Cooling
+                                 Figure      Coolingcurves of the
+                                                       curves  of SAT-PEG600 and SAT-PEG6000
+                                                                   the SAT-PEG600            eutectic PCMs
+                                                                                   and SAT-PEG6000          containing
+                                                                                                       eutectic PCMs nucleating
+                                                                                                                       containing
+                                 agent of 10 wt%  TPD.
+                                 nucleating agent of 10 wt% TPD.
+
+                                 3.3. Microstructure of SAT-PEG Eutectic PCM
+                                 3.3. Microstructure of SAT-PEG Eutectic PCM
+                                       In order to observe the crystal morphology of the SAT-PEG eutectic PCM, a metal-
+                                       In order to observe the crystal morphology of the SAT-PEG eutectic PCM, a
+                                 lographic microscope (DM2700M, Leica, Germany) was used to observe the crystals of
+                                 metallographic microscope (DM2700M, Leica, Germany) was used to observe the crystals
+                                 SAT, PEG, and the organic–inorganic eutectic PCM. The SAT-PEG6000 eutectic PCM was
+                                 of SAT, PEG, and the organic–inorganic eutectic PCM. The SAT-PEG6000 eutectic PCM
+                                 selected as the characterization object. Figure 7 shows the crystals of sodium acetate trihy-
+                                 was selected as the characterization object. Figure 7 shows the crystals of sodium acetate
+                                 drate, which are needle shaped. During the crystallization process, the crystals interlace
+                                 trihydrate, which are needle shaped. During the crystallization process, the crystals
+                                 and overlap with each other, growing radially from the nucleation point. The crystal
+                                 interlace and overlap with each other, growing radially from the nucleation point. The
+                                 size is between 500 and 1000 µm. Figure 8 shows the crystals of PEG6000, whose crystal
+                                 crystal size is between 500 and 1000 µm. Figure 8 shows the crystals of PEG6000, whose
+                                 morphology is polygonal and clustered together under the microscope. Figure 9 shows
+                                 crystal morphology is polygonal and clustered together under the microscope. Figure 9
+                                 the crystals of SAT-PEG6000 eutectic PCM. Since the addition amount of PEG6000 is only
+                                 shows the crystals of SAT-PEG6000 eutectic PCM. Since the addition amount of PEG6000
+                                 6 wt%, the crystals of PEG6000 are uniformly dispersed among the crystals of SAT, as
+                                 is only 6 wt%, the crystals of PEG6000 are uniformly dispersed among the crystals of SAT,
+                                 shown in Figure 8a,b. As shown in Figure 8b, a few polygonal crystals can be observed
+                                 as shown in Figure 8a,b. As shown in Figure 8b, a few polygonal crystals can be observed
+                                 among a pile of needle-shaped crystals. The addition of PEG6000 does not change the
+                                 among a pile of needle-shaped crystals. The addition of PEG6000 does not change the
+                                 original needle-shaped morphology of SAT. As can be seen from Figure 8a, the crystals
+                                 original needle-shaped morphology of SAT. As can be seen from Figure 8a, the crystals of
+                                 of the SAT-PEG6000 eutectic PCM still exhibit a long needle-shaped form, but their size
+                                 the SAT-PEG6000 eutectic PCM still exhibit a long needle-shaped form, but their size has
+                                 has changed, with the crystal size ranging from 200 to 500 µm. This indicates that the
+                                 changed, with the crystal size ranging from 200 to 500 µm. This indicates that the organic
+                                 organic phase PEG6000 can reduce the crystal size of the inorganic hydrated salt SAT. The
+                                 phase PEG6000 can reduce the crystal size of the inorganic hydrated salt SAT. The rapid
+                                 rapid formation of small crystals will provide more nucleation points for the crystallization
+                                 formation of small crystals will provide more nucleation points for the crystallization of
+                                 the hydrated salt SAT, thereby accelerating its crystallization rate. This is because the
+                                 organic substance PEG with a larger crystal size is capable of providing a framework for
+                                 the inorganic hydrated salt SAT and tilizeng its relatively high electronegativity to pair
+                                 with Na+ of the inorganic hydrated salt SAT, oﬀering nucleation sites and reducing the
+                                    original needle-shaped morphology of SAT. As can be seen from Figure 8a, the crystals of
+                                    the SAT-PEG6000 eutectic PCM still exhibit a long needle-shaped form, but their size has
+                                    changed, with the crystal size ranging from 200 to 500 µm. This indicates that the organic
+Materials 2025, 18, 164                                                                                                             10 of 16
+                                    phase PEG6000 can reduce the crystal size of the inorganic hydrated salt SAT. The rapid
+                                    formation of small crystals will provide more nucleation points for the crystallization of
+                                   ofthe
+                                       thehydrated
+                                           hydratedsalt
+                                                     saltSAT,
+                                                          SAT, thereby
+                                                                thereby accelerating
+                                                                         accelerating its      crystallization rate.
+                                                                                          its crystallization   rate. This
+                                                                                                                      This isisbecause
+                                                                                                                                becausethe
+                                                                                                                                         the
+                                    organic  substance   PEG  with  a larger   crystal  size   is capable  of providing   a
+                                   organic substance PEG with a larger crystal size is capable of providing a framework for framework     for
+                                    theinorganic
+                                   the   inorganichydrated
+                                                    hydratedsalt
+                                                              saltSAT
+                                                                   SATandandutilizing
+                                                                                 tilizengits
+                                                                                           itsrelatively
+                                                                                                relativelyhigh
+                                                                                                           highelectronegativity
+                                                                                                                 electronegativitytotopair
+                                                                                                                                        pair
+                                    with   Na+  of the inorganic  hydrated    salt   SAT,  oﬀering    nucleation   sites and
+                                   with Na+ of the inorganic hydrated salt SAT, offering nucleation sites and reducing the     reducing  the
+                                    interfacialenergy,
+                                   interfacial  energy,thereby
+                                                         therebyfacilitating
+                                                                  facilitatingthe
+                                                                                therapid
+                                                                                      rapidgeneration
+                                                                                             generationofofSATSAT  crystals.
+                                                                                                                 crystals.
+
+
+                                      a                                                   b
+
+
+
+
+    Materials
+    Materials 2025,
+              2025, 18,
+                    18, x
+                        x FOR
+                          FOR PEER
+                              PEER REVIEW
+                                        Figure7.7.Microscopic
+                                   REVIEW         Microscopicimages
+                                                              imagesofofSAT
+                                                                         SATcrystals
+                                                                             crystalsWith
+                                                                                      Witha ascale
+                                                                                              scaleofof500
+                                                                                                        500µm
+                                                                                                            µm(a,b    represent11
+                                                                                                                (a,brepresent 11  of
+                                                                                                                                  of 17
+                                                                                                                                 sampled
+                                                                                                                                     17 images
+                                      Figure                                                                                  sampled
+                                    images
+                                   from     from diﬀerent
+                                        different          locations).
+                                                  locations).
+
+
+                                     aa                                             b
+                                                                                    b
+
+
+
+
+                                   Figure
+                                   Figure 8.
+                                   Figure 8. Microscopic
+                                          8. Microscopicimages
+                                             Microscopic images of
+                                                                of PEG6000
+                                                           images  PEG6000 crystals
+                                                                   of PEG6000       with
+                                                                               crystals
+                                                                           crystals      aa scale
+                                                                                    with with   a of
+                                                                                            scale    (a)
+                                                                                                     (a) 200
+                                                                                                  scale
+                                                                                                  of         µm;
+                                                                                                         of (a)
+                                                                                                         200 µm; (b)
+                                                                                                                200  500
+                                                                                                                     500 µm.
+                                                                                                                 (b)µm;  (b) 500 µm.
+                                                                                                                         µm.
+
+
+
+                                     aa                                             b
+                                                                                    b
+
+
+
+
+                                   Figure 9. Microscopic images of SAT-PEG6000 eutectic PCM crystals with a scale of (a) 500 µm; (b)
+                                    Figure 9.
+                                   Figure  9.Microscopic
+                                              Microscopicimages of SAT-PEG6000
+                                                           images              eutecticeutectic
+                                                                    of SAT-PEG6000      PCM crystals
+                                                                                                PCM with a scale
+                                                                                                     crystals    of (a)
+                                                                                                              with   a 500  µm;
+                                                                                                                        scale of(b)
+                                                                                                                                 (a) 500 µm;
+                                    200 µm.
+                                    200 µm.
+                                   (b) 200 µm.
+                                          To further verify whether a chemical reaction occurred during the preparation of the
+                                          To further
+                                          To   furtherverify whether
+                                                        verify   whether  a chemical  reaction
+                                                                               a chemical       occurred
+                                                                                             reaction     during the
+                                                                                                        occurred       preparation
+                                                                                                                    during           of the
+                                                                                                                               the preparation    of
+                                    SAT-PEG6000 eutectic
+                                    SAT-PEG6000       eutectic PCM,
+                                                               PCM, X-rayX-ray diﬀraction
+                                                                                 diﬀraction characterization
+                                                                                             characterization was
+                                                                                                                was carried
+                                                                                                                      carried out
+                                                                                                                                out on
+                                                                                                                                    on the
+                                                                                                                                         the
+                                   the   SAT-PEG6000
+                                    inorganic
+                                                          eutectic     PCM,     X-ray  diffraction  characterization     was    carried   out on the
+                                    inorganic hydrated
+                                                 hydrated salt
+                                                           salt SAT,
+                                                                SAT, thethe nucleating
+                                                                             nucleating agent
+                                                                                         agent TPD,
+                                                                                                TPD, the
+                                                                                                      the organic
+                                                                                                          organic phase
+                                                                                                                    phase PEG6000,
+                                                                                                                           PEG6000, and and
+                                   inorganic
+                                    the          hydrated    salt SAT,     the  nucleating    agent10,
+                                                                                                     TPD,   the organic     phase PEG6000,      and
+                                    the SAT-PEG6000 eutectic PCM. As shown in Figure 10, no new diﬀraction peaks
+                                         SAT-PEG6000     eutectic   PCM.     As  shown   in Figure      no new    diﬀraction   peaks were
+                                                                                                                                      were
+                                   the   SAT-PEG6000
+                                    generated              eutectic     PCM.     As shown     in Figure   10, no   new   diffraction    peaks  were
+                                    generated in in the
+                                                    the XRD
+                                                        XRD pattern
+                                                             pattern of of the
+                                                                           the SAT-PEG6000
+                                                                                SAT-PEG6000 eutectic
+                                                                                                eutectic PCM.
+                                                                                                         PCM. This
+                                                                                                               This implies
+                                                                                                                     implies that
+                                                                                                                               that among
+                                                                                                                                    among
+                                   generated
+                                    SAT,          in the XRD    pattern     of the SAT-PEG6000       eutectic  PCM.     This
+                                    SAT, TPD, and PEG6000, it is merely a physical blend and no chemical reaction occurs.
+                                           TPD,    and PEG6000,   it  is  merely  a physical   blend and  no  chemical        implies
+                                                                                                                         reaction       that among
+                                                                                                                                    occurs.
+                                   SAT,
+                                    This  TPD,    and  PEG6000,    it  is merely   a physical   blend  and  no   chemical
+                                    This is in mutual correspondence with the phenomenon that the crystal form of the
+                                          is  in  mutual  correspondence        with  the  phenomenon     that  the  crystalreaction
+                                                                                                                              form   of occurs.
+                                                                                                                                         the    This
+                                    eutectic
+                                   iseutectic PCM
+                                       in mutual     observed  under
+                                              PCM correspondence         the
+                                                     observed under thewith  metallographic    microscope
+                                                                                  the phenomenon
+                                                                             metallographic                 does
+                                                                                                        thatdoes
+                                                                                               microscope         not
+                                                                                                              thenot   change.
+                                                                                                                   crystal   form of the eutectic
+                                                                                                                       change.
+                                   PCM observed under the metallographic microscope does not change.
+Materials 2025, 18, 164                                                                                                                                      11 of 16
+    Materials 2025, 18, x FOR PEER REVIEW                                                                                                        12 of 17
+
+
+
+
+      Materials 2025, 18, x FOR PEER REVIEW                                                                                                12 of 17
+
+
+
+
+                                      Figure 10.
+                                      Figure 10.XRD
+                                                 XRDdiﬀraction patterns
+                                                     diffraction        of SAT,
+                                                                 patterns       PEG6000,
+                                                                            of SAT,      TPD,TPD,
+                                                                                    PEG6000, and SAT-PEG6000-TPD eutectic eutectic
+                                                                                                  and SAT-PEG6000-TPD     PCM. PCM.
+
+                                      3.4.
+                                      3.4. Microstructure
+                                           Microstructure
+                                       Figure                and
+                                                           and
+                                              10. XRD diﬀraction  Thermal
+                                                                Thermal
+                                                                 patterns     Reliability
+                                                                          Reliability
+                                                                          of SAT,     of theofTPD,
+                                                                                  PEG6000,     the Composite
+                                                                                              Composite  PCM PCM
+                                                                                                   and SAT-PEG6000-TPD eutectic PCM.
+                                            To further
+                                                 furtherenhance
+                                                              enhance    thethe
+                                                                              thermal
+                                                                                  thermalconductivity
+                                                                                              conductivity of theofSAT-PEG6000
+                                                                                                                      the SAT-PEG6000   eutecticeutectic
+                                                                                                                                                    PCM and  PCM and
+                                       3.4. Microstructure
+                                       meet   the requirements
+                                                    requirementsand Thermal     Reliability
+                                                                         for rapid
+                                                                              rapid    heatofstorage
+                                                                                                the Composite
+                                                                                              storage            PCM applications in waste heat
+                                                                                                         and release
+                                                                                                                release
+                                      meet   the                        for           heat              and               applications in waste heat recovery
+                                            To further
+                                       recovery   systems,  enhance    the thermal
+                                                                 100-mesh     expanded conductivity
+                                                                                             graphite   of
+                                                                                                        wastheused
+                                                                                                                SAT-PEG6000        eutectic   PCM and
+                                      systems,      100-mesh         expanded         graphite       was   used     asasaa thermal
+                                                                                                                             thermal   conductive
+                                                                                                                                          conductive   carrier
+                                                                                                                                                           carrier and
+                                       meet   the  requirements        for   rapid   heat   storage   and    release
+                                       and compounded with the SAT-PEG6000 eutectic PCM to prepare a carbon-based     applications      in  waste    heat
+                                      compounded with the SAT-PEG6000 eutectic PCM to prepare a carbon-based composite
+                                       recovery systems,
+                                       composite      phase 100-mesh         expanded(PCM).
+                                                                 change material          graphiteAs  was  used asina thermal
+                                                                                                         shown          Figure 11, conductive
+                                                                                                                                        a layered carrier
+                                                                                                                                                       porous
+                                      phase
+                                       and     change material
+                                             compounded           with    (PCM).
+                                                                         the         As shown
+                                                                               SAT-PEG6000           in Figure
+                                                                                                   eutectic   PCM  11,
+                                                                                                                     to  aprepare
+                                                                                                                            layereda porous        microstructure of
+                                                                                                                                         carbon-based
+                                       microstructure of expanded graphite can be observed under the scanning electron
+                                      expanded
+                                       composite graphite
+                                                     phase change  can be observed           under    the scanning        electron    microscope.porousThis provides
+                                       microscope.     This providesmaterial          (PCM).
+                                                                            a carbon-based        As shown      in Figure
+                                                                                                  carrier for the   SAT-PEG600011, a layered
+                                                                                                                                         eutectic   PCM and
+                                       microstructure
+                                      ainhibits
+                                         carbon-based        of  expanded
+                                                               carrier    for  graphite
+                                                                               the         can
+                                                                                    SAT-PEG6000   be  observed
+                                                                                                          eutectic under
+                                                                                                                      PCM     the  scanning
+                                                                                                                                 and  inhibits  electron
+                                                                                                                                                   the  fluidity of the
+                                                 the fluidity of the material in the molten state, thereby expanding the application
+                                       microscope.
+                                      material    in   Thismolten
+                                                      the     provides     a carbon-based
+                                                                        state,   thereby       carrier for the
+                                                                                             expanding       the SAT-PEG6000
+                                                                                                                  application       eutectic
+                                                                                                                                    scope    ofPCM
+                                                                                                                                                the  and
+                                                                                                                                                      composite   PCM.
+                                       scope of the composite PCM. Figure 12 shows the SEM images of the SAT-
+                                       inhibits the fluidity of the material in the molten state, thereby expanding the application
+                                      Figure    12 shows thegraphite
+                                       PEG6000/expanded              SEM images         of the
+                                                                                composite      PCM.SAT-PEG6000/expanded
+                                                                                                       It can be observed that graphite              composite PCM.
+                                                                                                                                        the SAT-PEG6000
+                                       scope of the composite PCM. Figure 12 shows the SEM images of the SAT-
+                                      It can
+                                       eutecticbe  observed
+                                                  PCM              that
+                                                            nucleates      the
+                                                                           and  SAT-PEG6000
+                                                                                 crystallizes within  eutectic    PCM
+                                                                                                            the pores
+                                       PEG6000/expanded graphite composite PCM. It can be observed that the SAT-PEG6000
+                                                                                                                           nucleates
+                                                                                                                           of   expanded   and   crystallizes
+                                                                                                                                               graphite   and within
+                                       ultimately
+                                      the  poresPCM
+                                       eutectic      fills  the
+                                                    of expanded   porous    architecture
+                                                           nucleates graphite                of  the
+                                                                                      and ultimately
+                                                                         and crystallizes            expanded
+                                                                                               within thefills     graphite.
+                                                                                                                  theofporous
+                                                                                                              pores              Owing
+                                                                                                                           expanded        to the
+                                                                                                                                   architecture    constraint
+                                                                                                                                         graphite andof the expanded
+                                       imposed
+                                       ultimatelyby
+                                      graphite.     fillsthe
+                                                    Owing  thepore    structure
+                                                                 to the
+                                                                porous    constraintof expanded
+                                                                          architecture   imposed      graphite,     the structure
+                                                                                                       by thegraphite.
+                                                                                          of the expanded        pore     growth
+                                                                                                                            Owing space
+                                                                                                                                     toofthe  for the phase
+                                                                                                                                           expanded
+                                                                                                                                              constraint  graphite, the
+                                       change
+                                      growth     material
+                                       imposedspace
+                                                  by thefor    crystals
+                                                              pore         is restricted.
+                                                                 thestructure
+                                                                      phase       of expanded
+                                                                                change        Consequently,
+                                                                                           material graphite,
+                                                                                                       crystals   the
+                                                                                                                the     crystals
+                                                                                                                   isgrowth         of Consequently,
+                                                                                                                                 space
+                                                                                                                       restricted.     the
+                                                                                                                                         for SAT-PEG6000
+                                                                                                                                              the phase the crystals
+                                       eutectic
+                                       change    PCM exhibit
+                                                 material            theisphenomenon
+                                                              crystals       restricted.     of small crystals
+                                                                                           Consequently,            coalescing
+                                                                                                               the crystals        intoSAT-PEG6000
+                                                                                                                                of small
+                                                                                                                                   the    blocks under the
+                                      of  the SAT-PEG6000            eutectic     PCM exhibit        the phenomenon             of          crystals coalescing into
+                                       scanning
+                                       eutectic PCMelectron     microscope.
+                                                          exhibit   the phenomenon of small crystals coalescing into blocks under the
+                                      blocks under the scanning electron microscope.
+                                       scanning electron microscope.
+
+
+
+
+                                      Figure 11. SEM images of 100-mesh expanded graphite with different magnification factors:
+                                      (a) 10,000 times and (b) 2000 times.
+      Materials 2025, 18, x FOR PEER REVIEW                                                                                                      13 of 17
+
+
+
+Materials 2025, 18, 164                                                                                                                                             12 of 16
+                                           Figure 11. SEM images of 100-mesh expanded graphite with diﬀerent magnification factors: (a)
+                                           10,000 times and (b) 2000 times.
+                          Materials 2025, 18, x FOR PEER REVIEW                                                                                             13 of 17
+
+
+
+
+                                                           Figure 11. SEM images of 100-mesh expanded graphite with diﬀerent magnification factors: (a)
+                                                           10,000 times and (b) 2000 times.
+
+
+
+
+                                           Figure 12.
+                                          Figure  12.SEM
+                                                      SEMimages
+                                                             images of SAT-PEG6000/expanded
+                                                                       of SAT-PEG6000/expanded  graphitegraphite
+                                                                                                         compositecomposite
+                                                                                                                   PCM with diﬀerent
+                                                                                                                            PCM with different magnifi-
+                                           magnification factors: (a) 10,000 times and (b) 2000
+                                          cation factors: (a) 10,000 times and (b) 2000 times.  times.
+
+                                                In
+                                                In practical
+                                                     practical  applications,
+                                                                    applications,   the recycling     performance
+                                                                                          the recycling                of phase change
+                                                                                                               performance        of phase  materials
+                                                                                                                                                change  is of
+                                                                                                                                                           materials is of
+                                           great significance,
+                                                            Figure as   it determines
+                                                                    12. SEM                 the service life and graphite
+                                                                               images of SAT-PEG6000/expanded          application   eﬀect
+                                                                                                                               composite  PCMof with
+                                                                                                                                                 the diﬀerent
+                                                                                                                                                      phase
+                                          great significance, as it determines the service life and application effect of the phase change
+                                           change heat storage        module.
+                                                            magnification         Therefore,
+                                                                             factors: (a) 10,000in  thisand
+                                                                                                 times    work,  a high-
+                                                                                                            (b) 2000      and low-temperature humid
+                                                                                                                     times.
+                                          heat
+                                           heat storage
+                                                 cycling test module.
+                                                                 chamberTherefore,
+                                                                                was employed  in this     work, a600
+                                                                                                     to conduct      high-    and low-temperature
+                                                                                                                        melting–solidification      cycling humid heat
+                                          cycling    test chamber
+                                           experiments            In  practical
+                                                            on the thermal        applications,
+                                                                           was employed            the  recycling
+                                                                                                   to conduct of
+                                                                                    reliability performance        performance
+                                                                                                                    600the        of  phase   change
+                                                                                                                          melting–solidification
+                                                                                                                             SAT-PEG eutectic PCMs.   materials
+                                                                                                                                                           cyclingis ofexperi-
+                                                            great significance, as it determines the service life and application eﬀect of the phase
+                                          ments    on the
+                                           Moreover,           thermal
+                                                         the phase     changereliability
+                                                                                  temperature performance
+                                                                                                    and enthalpy  of value
+                                                                                                                      the SAT-PEG         eutectic
+                                                                                                                             of the eutectic   PCMsPCMs.
+                                                                                                                                                       after Moreover,
+                                                            change heat storage module. Therefore, in this work, a high- and low-temperature humid
+                                           the phase
+                                          the  cycling change
+                                                          tests weretemperature
+                                                                        tested using DSC.  and   The   DSC curves
+                                                                                                  enthalpy      value areofshown
+                                                                                                                            the    in FigurePCMs
+                                                                                                                                  eutectic      13, andafter
+                                                                                                                                                          the the cycling
+                                                            heat cycling test chamber was employed to conduct 600 melting–solidification cycling
+                                           data  are  listed
+                                          tests were tested    in  Table    4.  After
+                                                                      usingonDSC.       conducting
+                                                                                          The DSC       600   melting–solidification
+                                                                                                         curves    are shown             experiments,      all the data are
+                                                            experiments           the thermal      reliability  performance     of in
+                                                                                                                                   the Figure
+                                                                                                                                         SAT-PEG  13,eutectic
+                                                                                                                                                       and      PCMs.
+                                           three types of SAT-PEG eutectic PCMs demonstrated remarkable cyclic thermal
+                                          listed in Table       4. After
+                                                            Moreover,     theconducting
+                                                                                phase change600        melting–solidification
+                                                                                                 temperature     and enthalpy valueexperiments,             all three
+                                                                                                                                         of the eutectic PCMs     after types
+                                           reliability: thethephase
+                                                                cycling
+                                                                       change
+                                                                           tests
+                                                                                   temperature
+                                                                                 were    tested
+                                                                                                     of DSC.
+                                                                                                 using
+                                                                                                         the SAT-PEG200
+                                                                                                               The  DSC
+                                                                                                                              eutectic
+                                                                                                                          curves  are
+                                                                                                                                         PCMinshifted
+                                                                                                                                       shown      Figure
+                                                                                                                                                           by
+                                                                                                                                                           13, and  thephase
+                                          of SAT-PEG
+                                           4.89%,  and the   eutectic
+                                                              enthalpy    PCMs
+                                                                            value    demonstrated
+                                                                                     decreased             remarkable
+                                                                                                   by conducting
+                                                                                                       1.47%;   the phase   cyclic thermal
+                                                                                                                            change    temperature reliability:
+                                                                                                                                                      of the      the
+                                                            data   are listed   in Table    4. After                 600 melting–solidification     experiments,     all
+                                          change
+                                           SAT-PEG600temperature
+                                                            eutectic
+                                                            three      PCM
+                                                                     types
+                                                                          of ofthe   SAT-PEG200
+                                                                                shifted
+                                                                                  SAT-PEG by 0.69%,    and
+                                                                                                eutectic
+                                                                                                          eutectic   PCM value
+                                                                                                             the enthalpy
+                                                                                                            PCMs
+                                                                                                                             shifted
+                                                                                                                    demonstrated
+                                                                                                                                        by 4.89%,
+                                                                                                                                    decreased
+                                                                                                                                       remarkable
+                                                                                                                                                       and the enthalpy
+                                                                                                                                                  by 9.60%;
+                                                                                                                                                     cyclic thermal
+                                          value   decreased
+                                           the phase    change     by 1.47%;
+                                                                   temperature
+                                                            reliability:  the phasethe   phase
+                                                                                     of change
+                                                                                         the       change temperature
+                                                                                              SAT-PEG6000
+                                                                                                  temperature    eutectic  PCMofshifted
+                                                                                                                  of the SAT-PEG200 the SAT-PEG600
+                                                                                                                                            by 0.52%,
+                                                                                                                                          eutectic  PCM  and eutectic
+                                                                                                                                                            shifted  by PCM
+                                           the enthalpy
+                                          shifted           value
+                                                    by 0.69%,       decreased
+                                                            4.89%,andand the       by 5.35%.
+                                                                                 enthalpy
+                                                                           the enthalpy        value
+                                                                                            value        decreased
+                                                                                                    decreased          by 9.60%;
+                                                                                                                 by 1.47%;  the phasethechange
+                                                                                                                                          phasetemperature
+                                                                                                                                                   change temperature
+                                                                                                                                                                 of the
+                                                     SAT-PEG600
+                                          of the SAT-PEG6000      eutectic PCM
+                                                                eutectic   PCM shifted by 0.69%,
+                                                                                 shifted         and the and
+                                                                                            by 0.52%,    enthalpy
+                                                                                                              the value decreased
+                                                                                                                   enthalpy       by 9.60%;
+                                                                                                                              value   decreased
+                                                     the phase change temperature of the SAT-PEG6000 eutectic PCM shifted by 0.52%, and
+                                          by 5.35%. the enthalpy value decreased by 5.35%.
+
+
+
+
+                             Materials 2025, 18, x FOR PEER REVIEW                                                                                              14 of 17
+
+
+
+
+                                          Figure 13. DSC   Figure   13. DSC
+                                                              results         results kinds
+                                                                         of three      of threeofkinds of SAT-PEG
+                                                                                                   SAT-PEG        eutectic
+                                                                                                              eutectic     PCMsbefore
+                                                                                                                        PCMs      before and
+                                                                                                                                         andafter
+                                                                                                                                              aftermelting–
+                                                                                                                                                      melting–
+                                                           solidification cycling experiments: (a) SAT-PEG200 eutectic PCM; (b) SAT-PEG600 eutectic PCM; (c)
+                                          solidification cycling experiments: (a) SAT-PEG200 eutectic PCM; (b) SAT-PEG600 eutectic PCM;
+                                                           SAT-PEG6000 eutectic PCM.
+                                          (c) SAT-PEG6000 eutectic PCM.
+                                                                  Table 4. DSC test results of SAT-PEG eutectic PCMs before and after melting–solidification cycling
+                                                                  experiments.
+
+                                                                                                 Phase change                                Enthalpy
+                                                                                                Temperature (°C)                              (kJ/kg)
+                                                                   Eutectic PCMs
+                                                                                                 After 300   After 600                       After 300 After 600
+Materials 2025, 18, 164                                                                                                     13 of 16
+
+
+
+                                 Table 4. DSC test results of SAT-PEG eutectic PCMs before and after melting–solidification cycling
+                                 experiments.
+
+                                                                Phase Change                              Enthalpy
+                                                               Temperature (◦ C)                           (kJ/kg)
+                                  Eutectic PCMs
+                                                                   After 300    After 600                 After 300    After 600
+                                                       Before                                 Before
+                                                                    Cycles       Cycles                    Cycles       Cycles
+                                      SAT-PEG200
+                                                        55.2             57.1      57.9        210.9        218.5        207.8
+                                      −10 wt% TPD
+                                      SAT-PEG600
+                                                        57.5             57.2      57.9        255.3        236.8        230.8
+                                      −10 wt% TPD
+                                      SAT-PEG6000
+                                                        57.3             57.4      57.6        237.5        203.4        224.8
+                                      −10 wt% TPD
+
+
+                                      Table 5 compares the phase change performance of different PCMs based on SAT, and
+                                 the data are collected from reported references and this study. It can be seen that as the
+                                 eutectic component of SAT, PEG can well preserve the initial phase change temperature
+                                 and enthalpy of pure SAT. From an economic point of view, the use of expanded graphite,
+                                 nano-copper, and nano-AlN in composite PCMs will significantly increase the material
+                                 costs of PCM products. If nanoparticles are added to solve the supercooling phenomenon
+                                 of SAT, they can be replaced with low-cost DHPD or TPD. However, the addition of carbon
+                                 materials or metal nanoparticles can significantly improve the thermal conductivity of PCM
+                                 composites. Therefore, it is reasonable to select and optimize the content of the eutectic
+                                 composition of PCM according to the requirement of phase change temperature, enthalpy,
+                                 thermal conductivity and the limitation of cost budget.
+
+                                 Table 5. Comparison of the phase change performance of PCMs based on SAT.
+
+                                                           Phase Change         Enthalpy      The Number of Cycles in the
+                      PCM Composition
+                                                          Temperature (◦ C)      (kJ/kg)     Melting Solidification Experiment
+           SAT/CMC/Nano-Cu/NaCl                                  55.88             231.2                      20
+               SAT/SiC/EG [25]                                     58              240.6                     200
+      SAT/Acetamide/micron/nano AlN [29]                         47.3              222.6                     100
+ SAT/Urea/DHPD/CMC/EG/Carbon nanotubes [31]                      55.8              180.1                     300
+      SAT/Acetamide/EG/DHPD/CMC [39]                              51.6             235.5                     200
+           SAT/Nano MgO/CMC [40]                                   58              240.8                       -
+             SAT-PEG200-TPD-CMC                                  55.2              210.9                     600
+             SAT-PEG600-TPD-CMC                                  57.5              255.3                     600
+            SAT-PEG6000-TPD-CMC                                   57.3             237.5                     600
+
+
+                                 4. Conclusions
+                                      In this work, a novel eutectic PCM based on SAT and PEG with excellent phase
+                                 change performance was developed for heat recovery and building heat supply. The effects
+                                 of organic PEG on the phase change thermal properties, melting uniformity and crystal
+                                 morphology of inorganic hydrated salt SAT were investigated using DSC, microscopic
+                                 images, and XRD diffraction patterns. The nucleating agents for the novel eutectic PCM
+                                 were selected and the optimal addition was determined using cooling curves. According to
+                                 the experimental results and the above discussion, the following conclusions can be drawn.
+                                 1.     Organic compound PEG can form a eutectic with inorganic hydrated salt SAT to
+                                        construct an organic–inorganic eutectic PCM system with good melting homogene-
+                                        ity. This significantly improves the phase separation of SAT. Meanwhile, the phase
+                                        change temperature of 55–60 ◦ C and high enthalpy value of 250–280 kJ/kg of SAT are
+                                        effectively retained.
+Materials 2025, 18, 164                                                                                                             14 of 16
+
+
+
+                                   2.    For the novel SAT-PEG eutectic PCM, TPD demonstrates superior supercooling sup-
+                                         pression compared to DHPD. The addition of 10 wt% TPD can effectively reduce
+                                         the supercooling degree of the three SAT-PEG eutectic PCMs (PEG200, PEG600, and
+                                         PEG6000) to within 1 ◦ C.
+                                   3.    Microscopic images show that the SAT-PEG eutectic PCM still maintains the needle-
+                                         shaped crystal morphology of SAT, and the introduction of PEG can reduce the
+                                         crystal size of SAT. The rapid formation of small crystals will provide more nucleation
+                                         points for crystallization, accelerate the crystallization rate, and reduce crystallization
+                                         resistance, which will contribute to the rapid heat release of PCM.
+                                   4.    After 600 melting–solidification experiments, the SAT-PEG200, SAT-PEG600, and
+                                         SAT-PEG6000 eutectic PCMs all showed excellent thermal reliability, and the shifts in
+                                         phase change temperature and enthalpy were within 4%.
+
+
+                                   Author Contributions: Data curation, X.X.; formal analysis, W.S.; investigation, W.S. and X.X.;
+                                   methodology, T.Z. and Y.X.; visualization, Z.W.; writing—original draft, W.S. All authors have read
+                                   and agreed to the published version of the manuscript.
+
+                                   Funding: This work was supported by the Guangdong Natural Science Foundation (2021A1515110317
+                                   and 2023A1515140189).
+
+                                   Data Availability Statement: The original contributions presented in this study are included in the
+                                   article. Further inquiries can be directed to the corresponding author.
+
+                                   Conflicts of Interest: The authors declare no conflicts of interest.
+
+References
+1.    Wang, K.; Shi, X.; He, Q. Thermodynamic analysis of novel carbon dioxide pumped-thermal energy storage system. Appl. Therm.
+      Eng. 2024, 255, 123969. [CrossRef]
+2.    Gu, H.; Chen, Y.; Yao, X.; Huang, L.; Zou, D. Review on heat pump (HP) coupled with phase change material (PCM) for thermal
+      energy storage. Chem. Eng. J. 2023, 455, 140701. [CrossRef]
+3.    Ismail, A.; Wang, J.; Abiodun Salami, B.; Oyedele, L.O.; Otukogbe, G.K. Microencapsulated phase change materials for enhanced
+      thermal energy storage performance in construction materials: A critical review. Constr. Build. Mater. 2023, 401, 132877. [CrossRef]
+4.    Shahsavar, A. Numerical investigation of the performance of a PCM-based renewable and exhaust heat recovery system for
+      building applications. Energy 2024, 286, 129659. [CrossRef]
+5.    Tang, H.; Wu, J.; Chen, W.; Li, C. Building energy saving of a rotatable radiative cooling-photovoltaic system by alternate
+      utilization of solar energy and radiative cooling. Energy Build. 2024, 316, 114350. [CrossRef]
+6.    Yu, J.; Liu, X.; Rao, Z. Biomimetic phase change capsules with conch shell structures for improving thermal energy storage
+      efficiency. J. Energy Storage 2024, 90, 111725. [CrossRef]
+7.    Gao, J.; Xiao, J.; Xiong, W.; Yan, T.; Xu, X.; Zhou, C. Analysis of active heat storage and release characteristics of embedded
+      capillary dual-effect PCM plate based on solar thermal energy and sky radiation cooling. Appl. Therm. Eng. 2025, 262, 125215.
+      [CrossRef]
+8.    Nicolalde, J.F.; Martinez-Gómez, J.; Guerrero, V.H.; Chico-Proano, A. Experimental performance of avocado seed oil as a bio-based
+      phase change material for refrigeration applications. Int. J. Refrig. 2024, 168, 632–647. [CrossRef]
+9.    Calati, M.; Hooman, K.; Mancin, S. Thermal storage based on phase change materials (PCMs) for refrigerated transport and
+      distribution applications along the cold chain: A review. Int. J. Thermofluids 2022, 16, 100224. [CrossRef]
+10.   Chang, S.; Liu, B.; Meng, Y.; Gao, X.; Li, X.; Hu, H.; Pan, C.; Zhang, L.; Lei, R. Experimental and numerical investigations on heat
+      transfer characteristics of cascaded PCM heat sinks for thermal management of electronics. Appl. Therm. Eng. 2025, 262, 125279.
+      [CrossRef]
+11.   Peng, Q.; Li, D.; Sun, X.; Li, J.; Zhou, Y.; Zeng, L. Experimental and numerical investigation on photovoltaic/thermal characteristics
+      of an integrated PV/T-PCM system with metal fin and heat exchange pipe. Renew. Energy 2025, 239, 122113. [CrossRef]
+12.   Li, Y.; Liang, J.; Chen, W.; Wu, Z.; Yin, H. Optimal design of a solar-assisted heat pump system with PCM tank for swimming
+      pool utilization. Renew. Energy 2024, 240, 122272. [CrossRef]
+13.   Li, Y.; Liu, C.; Liang, J.; Yin, H. Parametric studies and structural optimization of a PCM tank integrated with CO2 heat pumps.
+      Renew. Energy 2025, 238, 121928. [CrossRef]
+Materials 2025, 18, 164                                                                                                           15 of 16
+
+
+
+14.   Bharathiraja, R.; Ramkumar, T.; Selvakumar, M. Studies on the thermal characteristics of nano-enhanced paraffin wax phase
+      change material (PCM) for thermal storage applications. J. Energy Storage 2023, 73, 109216. [CrossRef]
+15.   Bharathiraja, R.; Ramkumar, T.; Selvakumar, M.; Radhika, N. Thermal characteristics enhancement of Paraffin Wax Phase Change
+      Material (PCM) for thermal storage applications. Renew. Energy 2024, 222, 119986. [CrossRef]
+16.   Mombeki Pea, H.J.; An, Z.; Du, X.; Hou, W.; Zhang, D.; Liu, X. Experimental and analytical studies on latent heat of hydrated
+      salt/modified EG-based form-stable composite PCMs for energy storage application. Renew. Energy 2024, 222, 119978. [CrossRef]
+17.   Man, X.; Lu, H.; Xu, Q.; Wang, C.; Ling, Z. Preparation and thermal property enhancement of sodium acetate trihydrate-lithium
+      chloride-potassium chloride expanded graphite composite phase change materials. Sol. Energy Mater. Sol. Cells 2024, 266, 112695.
+      [CrossRef]
+18.   Li, W.; Zhao, J.; Wang, J.; Li, S.; Zhang, X.; Zhao, J. Review of sodium acetate trihydrate as phase change material: Mechanism
+      analysis, modification scheme and application. J. Energy Storage 2024, 97, 112923. [CrossRef]
+19.   Dong, C.; Jia, S.; Lu, F.; Wu, S.; Chen, W. Experimental study on the electrically-triggered crystallization behavior of supercooled
+      copper foam-based and expanded graphite-based sodium acetate trihydrate. Sol. Energy Mater. Sol. Cells 2024, 269, 112766.
+      [CrossRef]
+20.   Mao, J.; Dong, X.; Hou, P.; Lian, H. Preparation research of novel composite phase change materials based on sodium acetate
+      trihydrate. Appl. Therm. Eng. 2017, 118, 817–825. [CrossRef]
+21.   Li, B.; Ren, B.; Tian, J.; Yu, J.; Wang, B.; Wang, Y. Preparation of a novel sodium acetate trihydrate-based composite phase change
+      material and thermal performance of its integration in a coil-type thermal energy storage unit for heat pump system. J. Energy
+      Storage 2024, 88, 111648. [CrossRef]
+22.   Hua, W.; Zhang, X.; Muthoka, M.J.; Han, X. Preparation and Performance Analysis of Modified Sodium Acetate Trihydrate.
+      Materials 2018, 11, 1016. [CrossRef] [PubMed]
+23.   Wang, Y.; Yu, K.; Peng, H.; Ling, X. Preparation and thermal properties of sodium acetate trihydrate as a novel phase change
+      material for energy storage. Energy 2019, 167, 269–274. [CrossRef]
+24.   Yang, H.; Bao, X.; Cui, H.; Lo, T.Y.; Chen, X. Optimization of supercooling, thermal conductivity, photothermal conversion,
+      and phase change temperature of sodium acetate trihydrate for thermal energy storage applications. Energy 2022, 254, 124280.
+      [CrossRef]
+25.   Zhang, Z.; Duan, Z.; Chen, D.; Xie, Y.; Cao, X.; Wang, J. Sodium acetate trihydrate-based composite phase change material with
+      enhanced thermal performance for energy storage. J. Energy Storage 2021, 34, 102186. [CrossRef]
+26.   Hu, P.; Lu, D.-J.; Fan, X.-Y.; Zhou, X.; Chen, Z.-S. Phase change performance of sodium acetate trihydrate with AlN nanoparticles
+      and CMC. Sol. Energy Mater. Sol. Cells 2011, 95, 2645–2649. [CrossRef]
+27.   Ramya, D.; Siva Chandran, S.; Naveenkumar, M.; Vignesh, T.; Pratheep, V.G.; Sandeep Kumar, S. Characteristics of a solar-driven
+      phase change material with sodium acetate trihydrate and Ti2 O3 particle composite. Mater. Today Proc. 2022, 69, 1470–1477.
+      [CrossRef]
+28.   Yang, H.; Yan, Y.; Hu, Z. Synthesis of spherical α-alumina and its effect on the performances of phase change materials based on
+      sodium acetate trihydrate. Mater. Res. Express 2019, 6, 115111. [CrossRef]
+29.   Wu, F.; Lin, Z.; Xu, T.; Chen, J.; Huang, G.; Wu, H.; Zhou, X.; Wang, D.; Liu, Y.; Hu, J. Development and thermal properties of a
+      novel sodium acetate trihydrate-Acetamide-micron/nano aluminum nitride composite phase change material. Mater. Des. 2020,
+      196, 109113. [CrossRef]
+30.   Fu, W.; Zou, T.; Liang, X.; Wang, S.; Gao, X.; Zhang, Z.; Fang, Y. Thermal properties and thermal conductivity enhancement of
+      composite phase change material using sodium acetate trihydrate–urea/expanded graphite for radiant floor heating system.
+      Appl. Therm. Eng. 2018, 138, 618–626. [CrossRef]
+31.   Sun, W.; Liang, G.; Feng, F.; He, H.; Gao, Z. Study on sodium acetate trihydrate-expand graphite-carbon nanotubes composite
+      phase change materials with enhanced thermal conductivity for waste heat recovery. J. Energy Storage 2022, 55, 105857. [CrossRef]
+32.   Sun, J.; Zhao, J.; Zhang, W.; Xu, J.; Wang, B.; Wang, X.; Zhou, J.; Guo, H.; Liu, Y. Composites with a Novel Core–shell
+      Structural Expanded Perlite/Polyethylene glycol Composite PCM as Novel Green Energy Storage Composites for Building
+      Energy Conservation. Appl. Energy 2023, 330, 120363. [CrossRef]
+33.   Guo, X.; Wei, K.; Ni, T.; Shi, W.; Dai, C.; Zhao, Z.; Gu, Z. Preparation and performance analysis of polyethylene glycol/epoxy
+      resin composite phase change material. J. Energy Storage 2024, 88, 111525. [CrossRef]
+34.   Kim, Y.U.; Yang, S.; Kim, S. Thermal characteristics of cementitious building materials with carbon and PCM for improved heat
+      storage performance. Constr. Build. Mater. 2024, 449, 138550. [CrossRef]
+35.   Ju, S.; Miao, Y.; Shi, J.; Wang, L.; Wang, F.; Liu, Z.; Jiang, J. Thermal storage cementitious materials containing SiO2-coated
+      cenosphere@bio-based PCMs: Microstructural, mechanical, and thermal properties. Constr. Build. Mater. 2024, 437, 137005.
+      [CrossRef]
+36.   He, Z.; Ma, H.; Lu, S. Preparation and thermal performance study of a novel hydrated salt composite PCM for space heating.
+      J. Energy Storage 2024, 90, 111906. [CrossRef]
+Materials 2025, 18, 164                                                                                                        16 of 16
+
+
+
+37.   Sun, W.; Zhang, Y.; Ling, Z.; Fang, X.; Zhang, Z. Experimental investigation on the thermal performance of double-layer PCM
+      radiant floor system containing two types of inorganic composite PCMs. Energy Build. 2020, 211, 109806. [CrossRef]
+38.   JJF1059-2012; Evaluation and Expression of Uncertainty in Measurement. Meteorlogical Industry Standard of the People’s
+      Republic of China: Beijing, China, 2012.
+39.   Yang, G.; Xiao, X.; Wang, Y. Preparation and thermal characterization of composite PCMs with modified melting temperature
+      encapsulated in cascade energy storage device for solar heat pump. J. Energy Storage 2025, 106, 114500. [CrossRef]
+40.   Manoj Kumar, P.; Karuna, M.S.; Sureshkumar, M.S.; Lal Rinawa, M.; Sakthivel, R.; Muthukumar, K.; Kathir Malavan, E. Evaluating
+      the effect of magnesium oxide nanoparticles on the thermal energy storage characteristics of the inorganic PCM. Mater. Today
+      Proc. 2023. [CrossRef]
+
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.
+

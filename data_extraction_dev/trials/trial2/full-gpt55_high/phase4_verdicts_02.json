@@ -1,0 +1,62 @@
+[
+  {
+    "row_id": "849",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches the Weng 2020 Pharmaceutics paper; the DSC discussion states an onset at 195 C for the ITR-TER cocrystal phase from slurring/slurry samples, with no conversion required."
+  },
+  {
+    "row_id": "913",
+    "verdict": "flagged_review",
+    "reason": "flagged_doi_unrelated_paper",
+    "details": "The cited file is the imepitoin polymorphism paper in Molecules 2024, 29, 1724 with DOI 10.3390/molecules29081724, while the row cites Pharmaceutics 2024, 16, 496 and DOI 10.3390/pharmaceutics16040496."
+  },
+  {
+    "row_id": "844",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches the Weng 2020 Pharmaceutics paper; the DSC analysis identifies TER as terephthalic acid and states it melted with sublimation at around 350 C."
+  },
+  {
+    "row_id": "424",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches the Russ. J. Org. Chem. paper; the experimental characterization for compound 1b gives the named compound with mp 254 C (decomp.), matching the row."
+  },
+  {
+    "row_id": "608",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches the Molecules 2023 paper; Table 2 lists [Glu(Osec-Bu)2][HCl] with Tonset 181.5 C, defined as the onset temperature of thermal degradation."
+  },
+  {
+    "row_id": "181",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches the Molecules 2024 paper; the compound 35 characterization gives the full named compound and m.p. 120-122 C (dec.), whose midpoint is 121.0 C."
+  },
+  {
+    "row_id": "600",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches the Molecules 2023 paper; Table 2 lists [Glu(Opr)2][HCl] with Tmax 193.4 C, defined as the temperature of fastest decomposition."
+  },
+  {
+    "row_id": "892",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches the Molecules 2020 paper; Table 3 lists the [Ch][Ib]/[Ch][2mb] eutectic mixture with melting point 54 C and composition 0.51/0.49."
+  },
+  {
+    "row_id": "903",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches the Adv. Pharm. Bull. paper; Table 2 lists Piroxicam-Nicotinamide with cocrystal melting point (1:1) 162-165 C, midpoint 163.5 C."
+  },
+  {
+    "row_id": "910",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI matches the Nanomaterials 2024 paper; Table 1 lists CaCl2.6H2O with melting temperature 28 C in the representative hydrated salt PCM table."
+  }
+]

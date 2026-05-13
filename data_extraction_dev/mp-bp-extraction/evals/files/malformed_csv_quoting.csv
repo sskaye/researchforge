@@ -1,0 +1,4 @@
+id,verification_status,compound_name,compound_smiles,property,value_celsius,value_celsius_min,value_celsius_max,value_raw,relation,data_type,source,source_url,evidence_location,evidence_quote,conversion_arithmetic,notes
+1,pending_verification,ibuprofen,,melting_point,76.0,,,76 °C,=,measured,Test Paper 2024,https://doi.org/10.0000/test,Table 1,"ibuprofen mp 76 °C",,Row 1 is well-formed
+2,pending_verification,N-(2,5-Dimethylhexylamino)methylenebisphosphonic acid,,melting_point,232.5,,,231-234 °C,=,measured,Test Paper 2024,https://doi.org/10.0000/test,Table 1,"compound 17 mp 231-234 °C",,Row 2 has UNQUOTED comma in compound_name — should be flagged by csv_quote_lint
+3,pending_verification,"3-(4-Chlorophenyl)-2,2-dimethyl-quinazoline",,melting_point,239.5,,,238-241 °C,=,measured,Test Paper 2024,https://doi.org/10.0000/test,Table 1,"compound 1c mp 238-241 °C",,Row 3 has comma in compound_name but is correctly quoted — should NOT be flagged

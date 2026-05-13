@@ -1,0 +1,30 @@
+{
+  "article_id": "2008_Mitchell_Why Are Some Properties More Difficult To Predict than Others? A Study of QSPR Models of Solubility, Melting Point, and Log P",
+  "source_kind": "loose_pdf",
+  "available_sources": [
+    "pdf"
+  ],
+  "section_count": 0,
+  "section_first_3_headings": [],
+  "table_count": 0,
+  "table_labels": [],
+  "table_header_examples": [],
+  "caption_count": 0,
+  "doi_candidate_count": 1,
+  "doi_candidates": [
+    {
+      "doi": "10.1021/ci700307p",
+      "source": "pdf_text_first_2_pages"
+    }
+  ],
+  "full_text_length": 149444,
+  "warnings": [],
+  "doi_verification": {
+    "doi": "10.1021/ci700307p",
+    "doi_evidence": "pdf_text_first_2_pages",
+    "doi_verified": false,
+    "warnings": [
+      "doi_single_source_only"
+    ]
+  }
+}

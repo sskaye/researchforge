@@ -1,0 +1,182 @@
+{
+  "paper_id": "023",
+  "paper_source": "/Users/skaye/Claude/Skills/ResearchForge/data_extraction_dev/mp_bp_val_set/023_PMC9790764_Synthesis_and_Properties_of_13-Disubstituted_Ureas_and_Their_Isosteric_Analogs_Containing_/article_text.txt",
+  "items": [
+    {
+      "compound_name": "1,1'-(Ethane-1,2-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4a)",
+      "property": "mp",
+      "value_raw": "212.7",
+      "evidence_quote": "4a 2 498.74 5.30 212.7 98",
+      "evidence_location": "Table 1. Lipophilicity coefficients, melting points, and yield of compounds 4",
+      "location_type": "table_text"
+    },
+    {
+      "compound_name": "1,1'-(Propane-1,3-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4b)",
+      "property": "mp",
+      "value_raw": "163.7",
+      "evidence_quote": "4b 3 512.77 5.58 163.7 99",
+      "evidence_location": "Table 1. Lipophilicity coefficients, melting points, and yield of compounds 4",
+      "location_type": "table_text"
+    },
+    {
+      "compound_name": "1,1'-(Butane-1,4-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4c)",
+      "property": "mp",
+      "value_raw": "143.5",
+      "evidence_quote": "4c 4 526.81 5.84 143.5 63",
+      "evidence_location": "Table 1. Lipophilicity coefficients, melting points, and yield of compounds 4",
+      "location_type": "table_text"
+    },
+    {
+      "compound_name": "1,1'-(Pentane-1,5-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4d)",
+      "property": "mp",
+      "value_raw": "127.1",
+      "evidence_quote": "4d 5 540.82 6.35 127.1 76",
+      "evidence_location": "Table 1. Lipophilicity coefficients, melting points, and yield of compounds 4",
+      "location_type": "table_text"
+    },
+    {
+      "compound_name": "1,1'-(Hexane-1,6-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4e)",
+      "property": "mp",
+      "value_raw": "128.9",
+      "evidence_quote": "4e 6 554.85 6.86 128.9 98",
+      "evidence_location": "Table 1. Lipophilicity coefficients, melting points, and yield of compounds 4",
+      "location_type": "table_text"
+    },
+    {
+      "compound_name": "1,1'-(Heptane-1,7-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4f)",
+      "property": "mp",
+      "value_raw": "120.4",
+      "evidence_quote": "4f 7 568.89 7.36 120.4 71",
+      "evidence_location": "Table 1. Lipophilicity coefficients, melting points, and yield of compounds 4",
+      "location_type": "table_text"
+    },
+    {
+      "compound_name": "1,1'-(Octane-1,8-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4g)",
+      "property": "mp",
+      "value_raw": "109.9",
+      "evidence_quote": "4g 8 582.92 7.87 109.9 79",
+      "evidence_location": "Table 1. Lipophilicity coefficients, melting points, and yield of compounds 4",
+      "location_type": "table_text"
+    },
+    {
+      "compound_name": "1,1'-(Decane-1,10-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4h)",
+      "property": "mp",
+      "value_raw": "99.6",
+      "evidence_quote": "4h 10 610.96 8.63 99.6 94",
+      "evidence_location": "Table 1. Lipophilicity coefficients, melting points, and yield of compounds 4",
+      "location_type": "table_text"
+    },
+    {
+      "compound_name": "4-[(4-{3-[(3,5-Dimethyladamantan-1-yl)methyl]ureido}cyclohexyl)oxy]benzoic acid (4i)",
+      "property": "mp",
+      "value_raw": "240.1",
+      "evidence_quote": "4i 454.6 5.32 240.1 63",
+      "evidence_location": "Table 1. Lipophilicity coefficients, melting points, and yield of compounds 4",
+      "location_type": "table_text"
+    },
+    {
+      "compound_name": "1,1'-(Ethane-1,2-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4a)",
+      "property": "mp",
+      "value_raw": "212.7°C",
+      "evidence_quote": "The product was purified by recrystallization from ethanol. Yield 0.219 g (98%), mp 212.7°C.",
+      "evidence_location": "EXPERIMENTAL section, characterization of compound 4a",
+      "location_type": "body_text"
+    },
+    {
+      "compound_name": "1,1'-(Propane-1,3-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4b)",
+      "property": "mp",
+      "value_raw": "163.5°C",
+      "evidence_quote": "1,1'-(Propane-1,3-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4b) was prepared similarly to compound 4a from 0.2 g of compound 2 and 0.034 g of 1,3-diaminopropane ( 3b ). Yield 0.232 g (99%), mp 163.5°C.",
+      "evidence_location": "EXPERIMENTAL section, characterization of compound 4b",
+      "location_type": "body_text"
+    },
+    {
+      "compound_name": "1,1'-(Butane-1,4-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4c)",
+      "property": "mp",
+      "value_raw": "143.5°C",
+      "evidence_quote": "Yield 0.153 g (63%), mp 143.5°C.",
+      "evidence_location": "EXPERIMENTAL section, characterization of compound 4c",
+      "location_type": "body_text"
+    },
+    {
+      "compound_name": "1,1'-(Pentane-1,5-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4d)",
+      "property": "mp",
+      "value_raw": "127.1°C",
+      "evidence_quote": "Yield 0.188 g (76%), mp 127.1°C.",
+      "evidence_location": "EXPERIMENTAL section, characterization of compound 4d",
+      "location_type": "body_text"
+    },
+    {
+      "compound_name": "1,1'-(Hexane-1,6-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4e)",
+      "property": "mp",
+      "value_raw": "128.9°C",
+      "evidence_quote": "Yield 0.247 g (98%), mp 128.9°C.",
+      "evidence_location": "EXPERIMENTAL section, characterization of compound 4e",
+      "location_type": "body_text"
+    },
+    {
+      "compound_name": "1,1'-(Heptane-1,7-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4f)",
+      "property": "mp",
+      "value_raw": "120.4°C",
+      "evidence_quote": "Yield 0.184 g (71%), mp 120.4°C.",
+      "evidence_location": "EXPERIMENTAL section, characterization of compound 4f",
+      "location_type": "body_text"
+    },
+    {
+      "compound_name": "1,1'-(Octane-1,8-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4g)",
+      "property": "mp",
+      "value_raw": "109.9°C",
+      "evidence_quote": "Yield 0.210 g (79%), mp 109.9°C.",
+      "evidence_location": "EXPERIMENTAL section, characterization of compound 4g",
+      "location_type": "body_text"
+    },
+    {
+      "compound_name": "1,1'-(Decane-1,10-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea} (4h)",
+      "property": "mp",
+      "value_raw": "99.6°C",
+      "evidence_quote": "Yield 0.263 g (94%), mp 99.6°C.",
+      "evidence_location": "EXPERIMENTAL section, characterization of compound 4h",
+      "location_type": "body_text"
+    },
+    {
+      "compound_name": "4-[(4-{3-[(3,5-Dimethyladamantan-1-yl)methyl]ureido}cyclohexyl)oxy]benzoic acid (4i)",
+      "property": "mp",
+      "value_raw": "240.1°C",
+      "evidence_quote": "Yield 0.260 g (63%), mp 240.1°C.",
+      "evidence_location": "EXPERIMENTAL section, characterization of compound 4i",
+      "location_type": "body_text"
+    },
+    {
+      "compound_name": "diureas 4a-4h (series)",
+      "property": "mp",
+      "value_raw": "212°C at n = 2 to 99°C at n = 10",
+      "evidence_quote": "However, for diureas 4a-4h , a linear decrease in the melting point is observed with increasing number of methylene bridges: from 212°C at n = 2 to 99°C at n = 10.",
+      "evidence_location": "RESULTS AND DISCUSSION section",
+      "location_type": "body_text"
+    },
+    {
+      "compound_name": "1,3-disubstituted diureas (series, synthesized in this paper)",
+      "property": "mp",
+      "value_raw": "99-212°C",
+      "evidence_quote": "The melting points of the synthesized 1,3-disubstituted diureas span the range 99-212°C vs 240.1°C for the lead compound obtained from trans -4-amino(cyclohexyloxy)benzoic acid.",
+      "evidence_location": "CONCLUSIONS section",
+      "location_type": "body_text"
+    },
+    {
+      "compound_name": "lead compound (4i, from trans-4-amino(cyclohexyloxy)benzoic acid)",
+      "property": "mp",
+      "value_raw": "240.1°C",
+      "evidence_quote": "The melting points of the synthesized 1,3-disubstituted diureas span the range 99-212°C vs 240.1°C for the lead compound obtained from trans -4-amino(cyclohexyloxy)benzoic acid.",
+      "evidence_location": "CONCLUSIONS section",
+      "location_type": "body_text"
+    },
+    {
+      "compound_name": "analogous diureas derived from (adamantan-1-yl)methyl isocyanate (comparison/reference series)",
+      "property": "mp",
+      "value_raw": "155-243°C",
+      "evidence_quote": "The introduction of methylene substituents in the bridgehead positions of the adamantane core made it possible to decrease the melting point of diureas 4a-4h by 19-115°C compared to those of analogous diureas derived from (adamantan-1-yl)methyl isocyanate (155-243°C) (Fig. 4 ).",
+      "evidence_location": "RESULTS AND DISCUSSION section",
+      "location_type": "body_text"
+    }
+  ]
+}

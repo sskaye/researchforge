@@ -1,0 +1,62 @@
+{
+  "article_id": "020_PMC11206691_N-Hydroxypiridinedione_A_Privileged_Heterocycle_for_Targeting_the_HBV_RNase_H",
+  "source_kind": "pmc_nxml",
+  "available_sources": [
+    "nxml",
+    "text",
+    "pdf"
+  ],
+  "section_count": 25,
+  "section_first_3_headings": [
+    "1. Introduction",
+    "2. Results and Discussion",
+    "2. Results and Discussion > 2.1. Chemistry"
+  ],
+  "table_count": 2,
+  "table_labels": [
+    "Table 1",
+    "Table 2"
+  ],
+  "table_header_examples": [
+    [
+      "a/a",
+      "Structure",
+      "logP 1",
+      "logD 2",
+      "tPSA 3",
+      "Fsp3 4",
+      "Docking Score 5",
+      "EC50 6",
+      "CC50 6",
+      "SI 7"
+    ],
+    [
+      "Compound No.",
+      "-",
+      "cm/s",
+      "Interpretation"
+    ]
+  ],
+  "caption_count": 8,
+  "doi_candidate_count": 2,
+  "doi_candidates": [
+    {
+      "doi": "10.3390/molecules29122942",
+      "source": "nxml_front_matter"
+    },
+    {
+      "doi": "10.3390/molecules29122942",
+      "source": "pdf_text_first_2_pages"
+    }
+  ],
+  "full_text_length": 723811,
+  "warnings": [],
+  "doi_verification": {
+    "doi": "10.3390/molecules29122942",
+    "doi_evidence": "nxml_front_matter",
+    "doi_verified": true,
+    "warnings": [
+      "doi_verified_across_2_sources"
+    ]
+  }
+}

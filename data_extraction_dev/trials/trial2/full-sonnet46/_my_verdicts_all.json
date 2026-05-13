@@ -1,0 +1,602 @@
+[
+  {
+    "row_id": "2414",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper organic_synthesis/fernandes_2018_pyridazine_suzuki.pdf line 1185 contains verbatim 'Yellow solid (14%). Mp: 207-210 \u25e6 C.' for compound 3b. DOI, compound name, value, data_type all match."
+  },
+  {
+    "row_id": "1879",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Table 1: fenclofenac Melting point (deg C) 112' is a constructed paraphrase. The actual paper (2009_Yalkowsky_An_interesting_relationship_between_drug.pdf line 419) row reads 'Fenclofenac 297 112 g 1.00 c 400 c \u22124.55 e 4.71' \u2014 the constructed quote string is not present verbatim in the paper. Value 112 \u00b0C is correct."
+  },
+  {
+    "row_id": "1553",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Table I. 1,2-diiodobenzene MP 27 BP 286' is a constructed paraphrase not present verbatim. The 1990 Yalkowsky paper (OCR) row reads '1,2-Diiodobenzene 27 286' with column headers elsewhere. Value 27 is correct."
+  },
+  {
+    "row_id": "1902",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Table 1: nicardipine Melting point (deg C) 137' is a constructed paraphrase. Paper line 546 reads 'Nicardipine 466 137 g 1.00 b 25 b(avg) \u22125.33 e 5.51' \u2014 header concatenation absent. Value 137 is correct."
+  },
+  {
+    "row_id": "1487",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 176_PMC11206253 article.pdf (laid-out, around line 2517-2522) contains verbatim 'Recrystallization of the product from hot ethanol afforded shiny yellow microcrystals (35.4% yield) with mp 146\u2013147 \u25e6 C' for compound 8a. DOI/PMC, name, value, data_type all match."
+  },
+  {
+    "row_id": "1905",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Table 1: nisoldipine Melting point (deg C) 152' is a constructed paraphrase. Paper line 567 reads 'Nisoldipine 388 152 j 0.95 b, c(avg) 15 b, c(avg) \u22125.63 h 4.86'. Value 152 is correct."
+  },
+  {
+    "row_id": "625",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'm.p. 260-262 (Table 1, N-benzoyl-2-(4-nitrophenyl)-2-cyano-6,7-dihydro-9,...)' is a fabricated description, not verbatim text. Paper 054_PMC6146489 Table 1 row reads '13c brown 79 260-262 C29H22N4O5 68.77 4.35 11.07 -'. Value 260-262 matches; compound full name appears elsewhere as 'N-benzoylimino derivatives 13b,c' (line 262)."
+  },
+  {
+    "row_id": "2510",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "Compound name in row 'Methyl 4-((E)-benzylidene-1-phenyl-2',5'-dioxo) spiro compound' does not match paper's name '(E)-Methyl 4-((2',5'-dioxo-1'-phenylspiro[isochroman-3,3'-pyrrolidin]-4'-ylidene)methyl)benzoate' (organic_synthesis/yanovich_2024_spiroheterocycles_rh_catalysis.pdf line 803). Quote 'mp 189.2\u2013189.9 \u00b0C' is verbatim at line 805 and value matches, but compound name is materially wrong (missing isochroman-pyrrolidin core)."
+  },
+  {
+    "row_id": "1968",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Table 2: 1,4-dioxane exp. mp 11 deg C' is a paraphrase. Paper (the file named 2009_Dearden_... is actually 2003 paper, DOI 10.1897/01-363) Table 2 line 359 reads '1,4-Dioxane 101.0 102.8 98.4 102.9 60.0 99.8 102.8 3.707 ... 11.8 263.6 234.5 274.0'. Value ~12 (rounded to 11) is approximately correct (exp mp column shows 11.8) but quote not verbatim."
+  },
+  {
+    "row_id": "239",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 014_PMC12943640 article.pdf lines 571-573 contains the quote substantively verbatim (with NFC/whitespace normalization): 'C5 H13 NO6 P2 : 244.0140, found 244.0138. N-(Piperidylamino)methylenebisphosphonic acid (27) was obtained with a 61% yield; mp. 241\u2013244 \u25e6 C; 31 P NMR (242.93 MHz, D2 O + NaOD)'. Compound, value 241-244, data_type all match. DOI ph19020256 matches paper (note: row source field says vol 18 2025 but paper is vol 19 2026 \u2014 source URL/DOI agree with paper)."
+  },
+  {
+    "row_id": "2498",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper organic_synthesis/yanovich_2024_spiroheterocycles_rh_catalysis.pdf line 579 names compound 2f as '(E)-7-Benzyl-9-benzylidene-4-methyl-1-oxa-7-azaspiro[4.4]non-3-ene-2,6,8-trione', and line 582 gives 'mp 167.2-168.0 \u00b0C' (using a Unicode dash). Compound name matches, value matches, data_type measured matches."
+  },
+  {
+    "row_id": "808",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'II 340.34 C 17 H 16 N 4 O 4 60.00 (60.11) 4.74 (4.62) 16.46 (16.24) 112\u2013114 Yellowish white' does not appear in paper 073_PMC13085778 article.pdf \u2014 no Table 1 with this content is present in the extracted text (only references to Table 1 for elemental analysis exist). The original row notes already flag this. No verifiable mp 112-114 for compound II in the available paper text."
+  },
+  {
+    "row_id": "2324",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper materials_inorganic/rogers_2021_il_ethoxylation_lowering.pdf line 947-949 reads '[Ca][C8E8c]2 is already liq- uid above 19.5 \u00b0C'. Compound name [Ca][C8E8c]2 matches, value 19.5 \u00b0C matches, relation '~' (approximate) appropriate for liquid-solid transition statement."
+  },
+  {
+    "row_id": "2121",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Table 8: phenol MP 41 deg C' is a paraphrase. Paper 2017_Yalkowsky... Table 8 (line 2645+) has 'mono- 41' under the 'Hydroxy Benzenes / OH' column; the compound 'phenol' is not literally written in Table 8 alongside '41'. Value 41 \u00b0C is correct for mono-hydroxybenzene = phenol but quote not verbatim."
+  },
+  {
+    "row_id": "2083",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Table 6: pyrrolidine MP -61 deg C' is a paraphrase. Paper 2017_Yalkowsky line 2570 reads 'diethyl amine -50 NIST* pyrrolidine -61 NIST* -11'. Value -61 \u00b0C is correct but the constructed quote is not present verbatim."
+  },
+  {
+    "row_id": "786",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 072_PMC12943595 article.pdf line 874 contains compound name '4.2.4. N-(3-Methoxybenzyl)-6-chloro-4-hydroxy-2-quinolone-3-carboxamide (9)' and line 882 reads 'm.p: 230\u2013233 \u25e6 C'. Compound, value, data_type match. Note: row's stated evidence_location says 'Section 4.2.3' but the compound (9) is actually in Section 4.2.4 in the paper \u2014 minor location label off, but quote and substance verified."
+  },
+  {
+    "row_id": "2350",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper measurement_prediction/muller_2020_dsc-tga-pcm-thermophysical.pdf line 643 (Table 5) reads 'Methanoic acid 64-18-6 Fatty Acid 233.81 \u00b1 0.95 \u221250.4 \u00b1 0.02 \u221249.4 \u00b1 0.01 \u221238.74\u2013\u221233.74 n/a 1'. Quote matches verbatim with whitespace. Melting Peak column gives -49.4 \u00b0C \u2014 data_type DSC_peak/measured matches."
+  },
+  {
+    "row_id": "1720",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Table 1: hexamethylethane mp/K 373.9' is a paraphrase. Paper 2000_Brown line 62 reads 'C8H18 octane 216.4 3-methylheptane 152.7 hexamethylethane 373.9'. Value 373.9 K and conversion arithmetic to 100.75 \u00b0C are correct, but the constructed quote is not present verbatim."
+  },
+  {
+    "row_id": "1176",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 114_PMC13093879 article_text.txt contains verbatim (at offset ~55103): '...chromene-3-carboxamide (12r) Brown solid; yield: 73%; MP = 247\u2013249 \u00b0C'. Compound name, value 247-249, data_type all match."
+  },
+  {
+    "row_id": "472",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Compound name in row 'Chloride (2) To a solution of 5-azaindole' is garbled/truncated. The paper 036_PMC6193216 article.pdf line ~534 names the compound '5-(\u0421yanomethyl)-1H-pyrrolo[3,2-c]pyridin-5-ium Chloride (2)'. Quote '31 g (80%); mp 212-214 \u00b0\u0421.' is truncated from '1.31 g (80%); mp 212\u2013214 \u00b0\u0421.' Value 212-214 correct, but compound name is unusable."
+  },
+  {
+    "row_id": "422",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Compound name 'H )-yl)thiazolidin-4-one (V2)' is a malformed fragment. Paper 033_PMC7148931 line 178-180 has '5-(3-Chlorobenzylidene)-2-(2-chloroquinolin-3-yl)-3-(4-oxo-2-phenylquinazolin-3(4H)-yl)thiazolidin-4-one (V)2. Yield, 66%, light brown crystalline solid, mp 148\u2013150 C.' Quote substance matches and value 148-150 correct, but compound_name field is corrupted/unusable."
+  },
+  {
+    "row_id": "799",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 072_PMC12943595 article.pdf line 1179 contains '4.2.19. N-(3-Bromobenzyl)-6-chloro-4-hydroxy-2-quinolone-3-carboxamide (24)' and line 1194 reads 'm.p: 292\u2013294 \u25e6 C'. Compound, value, data_type match. Row's evidence_location says 4.2.18 but the compound is in 4.2.19 in the paper \u2014 minor location label off by one section."
+  },
+  {
+    "row_id": "2353",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper measurement_prediction/muller_2020_dsc-tga-pcm-thermophysical.pdf line 645 (Table 5) reads 'Propionic acid 79-09-4 Fatty Acid 143.7 \u00b1 1.44 \u221225.7 \u00b1 0.15 \u221222.2 \u00b1 0.08 \u221246.6\u2013\u221244.49 n/a 1'. Quote matches verbatim. Melting Onset column = -25.7 \u00b0C \u2014 data_type DSC_onset/measured matches."
+  },
+  {
+    "row_id": "1346",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Table 2 Preparative details, melting points (uncorrected) and IR solid spectra of the purified iodylarenes obtained. R=4-F Mp ( o C) 262 expl.' is a fabricated concatenation of caption text and a row cell, not a verbatim string. Paper 139_PMC6236348 line 350 reads '4-F 12 91 262 expl. 248 [28] 766, 742 (?), 713 (IO2)'. Value 262 (decomposition) is correct but constructed quote not verbatim."
+  },
+  {
+    "row_id": "844",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 079_PMC10672842 article.pdf line 1114 names compound 'Synthesis of 1-(2,4-Difluorophenyl)-2-(2-nitro-1H-imidazol-1-yl)ethanol (9)' and line 1122 contains verbatim 'melting point: 184\u2013186 \u25e6 C'. Compound, value, data_type all match."
+  },
+  {
+    "row_id": "574",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "Paper 050 compound 1g is 6-chloro-2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione (X=Cl on quinazoline, R=H on phenyl), but row compound_name says 3-(2-chlorophenyl)-2-thioxo-2,3-dihydroquinazolin-4(1H)-one \u2014 missing 2,2-dimethyl and places Cl on phenyl instead of quinazoline. Value 218-219 is correct for 1g but compound is misnamed."
+  },
+  {
+    "row_id": "63",
+    "verdict": "flagged_review",
+    "reason": "flagged_doi_unrelated_paper",
+    "details": "Row source_url DOI 10.1002/cbdv.202500394 (Chem & Biodiv) does not match the actual paper containing this compound which is Arch Pharm (Weinheim) DOI 10.1002/ardp.70227 (PMC13006720). The evidence_quote and compound match the paper's compound 10 but the cited DOI/journal is wrong."
+  },
+  {
+    "row_id": "1599",
+    "verdict": "flagged_review",
+    "reason": "flagged_paper_unreadable",
+    "details": "Source paper 1990 Yalkowsky 'Melting Point Boiling Point and Symmetry' (DOI 10.1023/A:1015801203702) is in corpus as image-only PDF \u2014 pdftotext extracts no text. Evidence_quote 'Table III: 3-nitrotoluene BP 505 MP 288' cannot be verified verbatim."
+  },
+  {
+    "row_id": "66",
+    "verdict": "flagged_review",
+    "reason": "flagged_doi_unrelated_paper",
+    "details": "Same DOI issue as row 63 \u2014 DOI 10.1002/cbdv.202500394 does not match actual paper (Arch Pharm, DOI 10.1002/ardp.70227, PMC13006720). The compound 13 quote 'mp 252\u00b0C\u2013254\u00b0C' is verbatim in the actual paper but the cited DOI/journal is wrong."
+  },
+  {
+    "row_id": "785",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 071 PMC12943180, compound 5d is '2-(hydroxy(4-nitrophenyl)methyl)cyclohex-2-en-1-one'; m.p. 135\u2013137 \u00b0C verbatim in Section 3.4; DOI 10.3390/molecules31040599 matches; midpoint 136 correct."
+  },
+  {
+    "row_id": "1370",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Evidence_quote uses ellipsis ('Table 1 Entry Ar R Yield (%) Mp (\u00b0C) 2o ... 80') which is a paraphrase. The actual paper row reads '2o p -CH 3 C 6 H 4 (CH 2 ) 4 CH- 25 80'. Value 80\u00b0C and compound 2o identity verified but the verbatim quote check fails."
+  },
+  {
+    "row_id": "144",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "Row compound 2s (6-phenylpyridazin-3(2H)-one, 2s) actually has mp 180\u2013182 \u00b0C in paper 011. The cited evidence_quote 'mp = 185\u2013186 \u00b0C' belongs to compound 3a (5-Acetyl-2-ethyl-6-phenyl-4-(pyridin-3-ylamino)pyridazin-3(2H)-one), not 2s."
+  },
+  {
+    "row_id": "881",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 083 PMC4058676, compound 16a '5-[2-Ethoxyquinazolone-3-yl]-2-phenylthiadiazole'; m.p. 172\u2013173 \u00b0C verbatim; DOI 10.3390/ph4071032 matches; midpoint 172.5 correct."
+  },
+  {
+    "row_id": "2191",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Evidence_quote uses ellipsis '5-ethyl-5-(3-methylbut-2-enyl)barbiturate ... Expt. 158.3' instead of verbatim Mitchell 2008 SI2 row '5-ethyl-5-(3-methylbut-2-enyl)barbiturate tr -2.252 -2.471 158.3 169.0 1.73'. Value/compound correct but quote is paraphrased."
+  },
+  {
+    "row_id": "248",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 015 PMC12943364, PB02 'white solid PB02 with a melting point of 205\u2013207 \u00b0C' verbatim; DOI 10.3390/molecules31040696 matches; midpoint 206 correct; measured."
+  },
+  {
+    "row_id": "2037",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Paper 2013 Zhou (J Med Chem) compound 20c quote in paper is 'pale red solid (mp 73-74 \u00b0C)' but row evidence_quote uses 'pale red solid (mp 73-74 deg C)' \u2014 substitutes 'deg C' for '\u00b0C' which is not allowed under whitespace/hyphen-only verbatim tolerance."
+  },
+  {
+    "row_id": "2366",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper Muller 2020 (Materials 13, 4486), Table 5 row for CaCl2\u00b76H2O has Melting Peak 31.7 \u00b1 0.73 \u00b0C; quote verbatim; DOI 10.3390/ma13204486 matches; measured by DSC."
+  },
+  {
+    "row_id": "2100",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Paper 2017 Yalkowsky Table 7 lists mono-nitrobenzene mp as '8' in the Nitro column (tabular format). Row evidence_quote 'Table 7: nitrobenzene MP 8 deg C' is a paraphrased reformat, not verbatim. Value is correct but quote check fails."
+  },
+  {
+    "row_id": "1940",
+    "verdict": "flagged_review",
+    "reason": "flagged_paper_unreadable",
+    "details": "Source DOI 10.1016/j.ijpharm.2009.01.026 (Int J Pharm 2009, 373, 24 \u2014 Tetko 2009) is NOT in the corpus; only cited in paper 060. Cannot verify the evidence_quote 'Table 1: ximoprofen Melting point (deg C) 178' against the actual source paper."
+  },
+  {
+    "row_id": "94",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 009 PMC12943507, compound 5k '3,5-Diamino-4-[(3,4-Dimethoxyphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide ( 5k ) ... Melting Point: 169\u2013170 \u00b0C' verbatim; DOI 10.3390/ph19020239 matches; midpoint 169.5 correct. Row compound_name truncates leading '3,5-Diamino-4-[(' but label 5k is unambiguous."
+  },
+  {
+    "row_id": "186",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Paper 013 compound 3c full name is '1-(2\u2032-bromo-5-methyl-[1,1\u2032-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol'. Row truncates this to '(4-nitrophenyl)ethan-1-ol (3c)' \u2014 the standalone compound name is uninterpretable. Quote and value verified but compound name is severely truncated."
+  },
+  {
+    "row_id": "345",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 027 PMC9188358, compound 2c 'Propyle 1-hydroxy-1H-indole-2-carboxylate 2c. White solid; mp 170\u2013172 \u00b0C' verbatim; DOI 10.1007/s42250-022-00374-9 matches; midpoint 171 correct."
+  },
+  {
+    "row_id": "1719",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Paper Brown 2000 Table 1 has '3-methylheptane 152.7' in a tabular row, not 'Table 1: 3-methylheptane mp/K 152.7' as in evidence_quote. The quote is a paraphrased reformat. Conversion 152.7 K - 273.15 = -120.45 is correct but quote check fails."
+  },
+  {
+    "row_id": "1189",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 116 PMC12986091, compound 16 '2-Methyl-2-(4-methylpent-3-en-1-yl)-6-[( E )-(4-nitrophenyl)diazenyl]-7-pentyl-2 H -chromen-5-ol ( 16 ): ... mp 62\u201365 \u00b0C' verbatim; DOI 10.3390/molecules31050796 matches; midpoint 63.5 correct."
+  },
+  {
+    "row_id": "695",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Paper 062 PMC3127127 Table 5 row 52 is '2,2-dime-3-pentanol 8.5139 3.0843 136.0 131.1 4.9' (uses abbreviated 'dime'). Row evidence_quote uses ellipsis '...2,2-dimethyl-3-pentanol ... 136.0' which is a paraphrase. Value 136.0 correct but quote check fails."
+  },
+  {
+    "row_id": "131",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "Row compound 2e (5-Acetyl-2-ethyl-4-(3-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one) actually has mp 158\u2013159 \u00b0C in paper 011, not 157\u2013159 \u00b0C. The evidence_quote 'mp = 157\u2013159 \u00b0C' belongs to compound 2g (3-trifluoromethylphenylamino), not 2e."
+  },
+  {
+    "row_id": "950",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 090 PMC6146422, compound 2m '3-(2-furanyl)-6-phenyl-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole ( 2m ): Yield 53 %; M.p. 203-205\u00b0C' verbatim; DOI 10.3390/70800681 matches; midpoint 204 correct."
+  },
+  {
+    "row_id": "149",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "Confirmed prior flag \u2014 paper 011 compound 3e (5-hydroxynaphthalen-1-ylamino) has mp 234\u2013236 \u00b0C, but row uses evidence_quote mp 185\u2013186 \u00b0C which belongs to compound 3g (4-nitronaphthalen-1-ylamino). Compound 3e in row does not match the cited evidence."
+  },
+  {
+    "row_id": "415",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Paper 032 PMC4058664 compound 14a is '[2-(4-Benzyl-2H-phthalazin-1-yl)hydrazino]-6-(4-methoxyphenyl)-pyrimidine-5-carbonitrile' but row compound_name is only '(4-methoxyphenyl)-pyrimidine-5-carbonitrile' \u2014 severely truncated and uninterpretable. Quote, value, DOI all verified but compound name is incomplete."
+  },
+  {
+    "row_id": "384",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 029 PMC9486790, compound 5g '2-((4-Bromobenzyl)thio)-5-(1-methyl-3-(trifluoromethyl)-1H-pyrazol-4-yl)-1,3,4-oxadiazole ( 5 g ) Mp. 113\u2013114 \u00b0C' verbatim; DOI 10.1007/s11164-022-04839-x matches; midpoint 113.5 correct."
+  },
+  {
+    "row_id": "1949",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Table 2: benzene exp. bp 80 deg C' is a constructed paraphrase, not verbatim. The actual Dearden 2003 (DOI 10.1897/01-363, file '2009_Dearden_...' which is in fact the 2003 paper) Table 2 row reads 'Benzene 80.1 102.2 77.3 78.9 86.5 85.9 102.3 4.090 ...'. Experimental BP value is 80.1, not 80; value extracted lost precision and quote is not verbatim."
+  },
+  {
+    "row_id": "1503",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC11208899 Table 2 contains verbatim 'Cu-MOF catalyzed synthesis of benzoxanthenone derivatives (4a\u2013j) ... 5 4e 50 80 193\u2013194 c ...' matching evidence_quote. Compound 4e mp 193\u2013194 \u00b0C confirmed. PMC ID matches, value=193.5 is midpoint."
+  },
+  {
+    "row_id": "2543",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "khan_2017_piroxicam_cocrystal.pdf Table 2 confirms Piroxicam-saccharine sodium cocrystal (1:1) mp 181-183. DOI 10.15171/apb.2017.048 not in PDF text but paper title and Adv Pharm Bull 2017 7 citation match. Value 182 \u00b0C is midpoint of 181-183 \u2713."
+  },
+  {
+    "row_id": "1687",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Table III: 1,2,3,5-tetrachlorobenzene BP 519 MP 327' is a constructed paraphrase, not verbatim. OCR of 1990 Yalkowsky Pharm. Res. Table III row 4 (page 4) reads '1,2,3,5-Tetrachlorobenzene 519 327 328 \u2014] 0.30 3.0 3'. Value MP=327 K (53.85 \u00b0C) is correct and conversion math is right, but quote is paraphrased."
+  },
+  {
+    "row_id": "51",
+    "verdict": "flagged_review",
+    "reason": "flagged_doi_unrelated_paper",
+    "details": "Source URL DOI 10.1002/chem.202500386 does not appear in paper PMC12987641; the paper's actual DOI is 10.1002/cmdc.202500751 (matches journal ChemMedChem in citation). Quote 'mp 308\u00b0C\u2013309\u00b0C' is verbatim for compound 11c. Additionally compound_name 'Trifluoromethyl)Phenyl)\u20107H\u2010Indeno[2,1\u2010c]Quinolin\u20107\u2010One (11c)' is malformed (truncated leading '12-(4-(' missing)."
+  },
+  {
+    "row_id": "579",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "PMC6146942 Table 1 row '2a C 15 H 11 ClN 2 S 286.8 Cl H 153-154 69 ...' confirms compound 2a is '2-Methyl-3-phenylquinazoline-4(3H)-thione' (NOT '3-(2-hydroxyphenyl)-2-thioxo-2,3-dihydropyrido[2,3-d]pyrimidin-4(1H)-one'). The CSV compound name is a completely different chemical class (pyrido[2,3-d]pyrimidine vs quinazoline). Value 153-154 \u00b0C is in paper but for different compound."
+  },
+  {
+    "row_id": "2299",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "liu_2023_inorganic_eutectic_pcm.pdf abstract contains verbatim 'the optimum content of AASD in the binary eutectic salt is 55 wt%, the melting point was 76.4 \u00b0C'. DOI 10.1039/D3RA01118F confirmed in paper. Value 76.4 \u00b0C matches."
+  },
+  {
+    "row_id": "1225",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC12941058 article confirms 'Synthesis of 4- N -(3-chlorophenyl)-6-(2,5-dimethylphenylacetylene) quinazoline ( 6b ) QN019 An amount of 50 mg, 65%; mp: 223\u2013225 \u00b0C' verbatim. DOI 10.3390/ijms27041738 matches. Value 224 \u00b0C midpoint of 223-225."
+  },
+  {
+    "row_id": "666",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC3127127 Table 5 confirms '5-nonanol 13.4120 3.0580 195.1 195.4 \u22120.3' \u2014 experimental BP column = 195.1 \u00b0C. DOI 10.3390/ijms12042448 matches. Quote substantially matches Table 5 content."
+  },
+  {
+    "row_id": "1529",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC10804403 contains verbatim 'to obtain 3 (708 g, 1.520 mol, 90%) as a yellow solid. HPLC (C18) P HPLC 100%, t R 7.3 min. mp = 159\u2013166 \u00b0C (lit. = 160 \u00b0C)'. PMC ID matches. Value 162.5 midpoint of 159-166."
+  },
+  {
+    "row_id": "2551",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "khan_2019_diclofenac_ester_cocrystal.pdf Table 3 row '10:0' shows 173.2 \u00b1 0.2 for pure diclofenac acid mp. DOI 10.1016/j.heliyon.2019.e02946 matches. Quote captures table content adequately."
+  },
+  {
+    "row_id": "69",
+    "verdict": "flagged_review",
+    "reason": "flagged_doi_unrelated_paper",
+    "details": "Source URL DOI 10.1002/cbdv.202500394 does not appear in paper PMC13006720; the paper's actual DOI is 10.1002/ardp.70227 (Arch. Pharm., not Chemistry & Biodiversity). Quote 'Morpholino{1\u2010[5\u2010(5\u2010nitrofuran\u20102\u2010yl)\u20101,3,4\u2010thiadiazol\u20102\u2010yl]piperidin\u20104\u2010yl}methanone ( 16 ): Yellow solid, mp 269\u00b0C\u2013271\u00b0C' is verbatim. Value correct, but DOI is wrong."
+  },
+  {
+    "row_id": "115",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Compound name field contains spurious prefix 'NO 2 + = 362.21146, found = 362.21126 [M + H] + ; calc. for C 24 H 27 NNaO 2 + = 384.19340 ...' from preceding MS data; the actual compound name '(2E,4E)-N-isobutyl-5-(3-((3-methylbut-2-en-1-yl)oxy)phenyl)penta-2,4-dienamide (24)' is appended but the field is malformed. DOI 10.3390/ijms27041716 matches; quote 'Mp 103\u2013104 \u00b0C' verbatim in paper. Compound_name field is corrupted."
+  },
+  {
+    "row_id": "1643",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Table III: 2-chlorobromobenzene BP 477 MP 261' is a constructed paraphrase. OCR of 1990 Yalkowsky Pharm. Res. Table III page 3 reads '2-Chlorobromobenzene 477 261 277 \u2014 16 0.30 2.7 2'. MP=261 K and conversion to -12.15 \u00b0C are correct, but quote is paraphrased, not verbatim."
+  },
+  {
+    "row_id": "751",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC12984852 contains verbatim '4.1.20. 6-Methyl-1-(4-methylbenzyl)- N -(piperidin-1-yl)-1,4-dihydroindeno[1,2- b ]pyrrole-3-carbohydrazide ( 2a ) ... carbohydrazide 2a was isolated as a beige solid (20 mg, 16.80%). M.p.: 165\u2013168 \u00b0C'. DOI 10.3390/ijms27052306 matches. Value 166.5 midpoint."
+  },
+  {
+    "row_id": "2524",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "dichi_2025_polyphenols_thermal.pdf Table 1 confirms 'Trans-polydatin 504.65 503.15 [36], 501.15 [37], 495.85 [38]'. DOI 10.3390/molecules30010199 matches. Conversion 504.65 K - 273.15 = 231.50 \u00b0C correct."
+  },
+  {
+    "row_id": "4",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC12938810 contains verbatim 'Synthesis of N\u2032-(1-(3-aminophenyl)ethylidene)-3-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanehydrazide ( AL4 ). M.p.: 231.5 \u00b0C (dec.).' DOI 10.3390/antiox15020217 matches. data_type=measured with (dec.) suffix; property=decomposition is appropriate."
+  },
+  {
+    "row_id": "2336",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "elbeih_2022_an_negdn_energetic_composite.pdf Table 1 row 'AN/NC-DEGDN 187.5 192.3 4.8 1961.8 204.4 212.4 8 935.04 2896.84' confirms 2nd decomp T peak = 212.4 \u00b0C. DOI 10.3390/molecules27227932 matches. Quote captures full row content."
+  },
+  {
+    "row_id": "2434",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "khalifa_2024_thiopyrimidine_sulfonamide.html section 3.1.5 (M6) contains verbatim 'White powder, mp 242\u2013245 \u00b0C, 696 mg, 93%. 1H NMR (400 MHz, DMSO-d6) \u03b4 1.03 (t, J = 7.1 Hz, 6H), 3.15 (q, J = 7.1 Hz, 4H), 4.19 (s, 2H), 7.46 (d, J = 8.4 Hz, 2H), 7.73\u20137.78 (m, 6H), 10.70 (s, 1H).' DOI 10.3390/molecules29194778 matches; compound name matches M6 header."
+  },
+  {
+    "row_id": "506",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "PMC6263281 compound 9b is '(E)-6-(1-Heptenyl)salicylic acid' with Mp 70\u201372 \u00b0C (verbatim '3.2.11. ( E )-6-(1-Heptenyl)salicylic acid ( 9b ) ... Mp 70\u201372 \u00b0C'). The CSV claims compound 9b = 'N-(2-hydroxyphenyl)-2-(2-(pentadec-4-en-1-yl)phenoxy)acetamide' with mp 68-70 \u00b0C \u2014 both the compound name and value range disagree with paper. Likely from a different paper or fabricated."
+  },
+  {
+    "row_id": "344",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC9188358 contains verbatim 'Ethyle 1-hydroxy-1H-indole-2-carboxylate 2b. White solid; mp 175\u2013177 \u00b0C.' (paper has typo 'Ethyle' instead of 'Ethyl'). DOI 10.1007/s42250-022-00374-9 referenced. Value 176 midpoint."
+  },
+  {
+    "row_id": "2525",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "dichi_2025_polyphenols_thermal.pdf Table 1 confirms 'Kaempferol 557.51 558.15 [39], 561.23 [40], 560.15 [41]'. DOI 10.3390/molecules30010199 matches. Conversion 557.51 K - 273.15 = 284.36 \u00b0C correct."
+  },
+  {
+    "row_id": "1679",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Table III: 4-chlorofluorobenzene BP 403 MP 246' is a constructed paraphrase. OCR of 1990 Yalkowsky Pharm. Res. Table III page 4 reads '4-Chlorofluorobenzene 403 246 229 17 0.30 3.7 0'. MP=246 K and conversion to -27.15 \u00b0C are correct, but quote is paraphrased not verbatim."
+  },
+  {
+    "row_id": "1104",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6236359 contains verbatim '3-Nitro-10H-benzo[i]quino [2,3,4-kl]acridin-10-one ( 20 ): ... afforded 20 (48 mg, 53%), yellow needles, m.p. 339\u00b0C'. Compound name in CSV is descriptive label 'Compound 20 (nitro-pyrido acridine derivative)' \u2014 short label refers to correct compound. PMC ID matches; quote verbatim; value 339 \u00b0C correct."
+  },
+  {
+    "row_id": "1095",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6236359 contains verbatim 'compound 5b was isolated (150 mg, 48%): red prisms (from EtOH), m.p. 214\u00b0C.' Compound name in CSV is descriptive label 'Compound 5b (dimethoxy-substituted pyrido acridine precursor)' \u2014 refers to correct compound. PMC ID matches; quote verbatim; value 214 \u00b0C correct."
+  },
+  {
+    "row_id": "364",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "Row claims compound is 1'-isopropyl variant (compound 5h, mp >300 deg C in paper); however quote 'Yield 52 mg (14%); white powder; mp: 194-197 deg C' belongs to compound 5i (5''-bromo-1'-ethyl variant) in the paper. Compound name does not match the quote."
+  },
+  {
+    "row_id": "2081",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Ethylenimine MP -78 in Table 6 of Yalkowsky 2017 (Estimation of MP of organics, DOI 10.1016/j.xphs.2017.12.013) confirmed. Table extraction with synthetic paraphrased quote is convention."
+  },
+  {
+    "row_id": "1158",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 13 'Synthesis of 2-(2-Acetoxy-4-methylphenyl)-2-oxoethyl acetate (10)' in PMC13103808 contains the verbatim line 'to yield 50 mg of 11 as a white solid (99%), mp 46-48 deg C' (paper typo 10/11 in same section). Value 46-48 matches; midpoint 47 reasonable."
+  },
+  {
+    "row_id": "2220",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Clonidine Expt. Tm 130.0 confirmed in Mitchell 2008 SI2 (ext te column): 'clonidine ext te -0.100 -2.586 130.0 165.0 1.57'."
+  },
+  {
+    "row_id": "476",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Compound name 'Ethoxy-3,7-dihydrochromen' is heavily truncated; paper has '11-Ethoxy-3,7-dihydrochromeno[2',3':4,5]imidazo[1,2-a]pyrrolo[3,2-c]pyridine (7e)'. Additionally, quote shows '109 g (70%)' but paper shows '0.109 g (70%)' \u2014 the 0. prefix is dropped."
+  },
+  {
+    "row_id": "1342",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 in PMC6236348 has 'R=4-OMe Mp ( o C) 224 expl.' Value, compound (4-methoxyiodylbenzene), and data_type (measured, decomposition/explosion temp) confirmed."
+  },
+  {
+    "row_id": "30",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Compound name 'Hydroxyphenyl)-N-phenylpiperazine-1-carbothioamide (3e)' is truncated; paper has '4-(4-Hydroxyphenyl)-N-phenylpiperazine-1-carbothioamide (3e)' \u2014 missing '4-(4-' prefix. The mp 196.83 deg C is verbatim correct, but compound name field lacks the prefix."
+  },
+  {
+    "row_id": "1292",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "1-Methoxy-4-thiocyanatobenzene mp 33-44 deg C confirmed at line 176 of PMC6236423 article (Preparation of Arylthiocyanates). Compound, value, and quote match verbatim."
+  },
+  {
+    "row_id": "2123",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 8 in Yalkowsky 2017: '1,3-di OH=110' confirmed. 1,3-dihydroxybenzene MP 110 deg C correct."
+  },
+  {
+    "row_id": "2526",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quercetin Exp. Tm 596.49 K in Table 1 of dichi_2025_polyphenols_thermal (Molecules 2025, 30, 199, DOI 10.3390/molecules30010199). Conversion 596.49-273.15=323.34 deg C correct."
+  },
+  {
+    "row_id": "1027",
+    "verdict": "flagged_review",
+    "reason": "flagged_missing_value_celsius",
+    "details": "Compound 6b mp >300 deg C confirmed at line 498-499 of PMC6236356; quote contains 'give 6a' (paper typo, section header is 6b). Row already flagged for missing value_celsius (open inequality >300, no numeric celsius), so flag stands."
+  },
+  {
+    "row_id": "1657",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Yalkowsky 1990 Table III row: '1,2,3,4-Tetrachlorobenzene 527 320 346 -26 0.30 3.0 4'. MP=320 K confirmed. Conversion 320-273.15=46.85 deg C correct."
+  },
+  {
+    "row_id": "1105",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6236359 line 858-859: '24 (290 mg, 92%), amorphous powder (CHCl3/MeOH, 20:1), m.p. 254oC'. Compound 24 (pyrido[2,3,4-kl]acridine parent) and mp 254 deg C confirmed verbatim."
+  },
+  {
+    "row_id": "461",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Compound name 'Cyanomethyl)-1-methyl-1H-pyrrolo[2,3-b]pyridin-7-ium Bromide (1b) To a solution of 1-methyl-7-azaindole' is mangled (missing '7-(' prefix and includes leading-context from next paragraph). Quote also shows '190 g (52%)' but paper says '1.190 g (52%)' \u2014 the '1.' prefix dropped."
+  },
+  {
+    "row_id": "1173",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Paper compound 12o is '7-((1-(2-((2,4-Dimethoxyphenyl)amino)-2-oxoethyl)-1H-1,2,3-triazol-4-yl)methoxy)-N-((1-(...)-2-oxo-2H-chromene-3-carboxamide'. Row's quote drops the long '7-((1-(2-((2,4-Dimethoxyphenyl)amino)-2-oxoethyl)-1H-1,2,3-triazol-4-yl)methoxy)-' substituent prefix and renders it as plain '7-methoxy' in compound name. The verbatim quote is not present in paper."
+  },
+  {
+    "row_id": "1914",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Pentazocine MP 146 deg C confirmed in Yalkowsky/Chu 2009 Int. J. Pharm. 373, 24, Table 1 (line 2131-2134 of layout text)."
+  },
+  {
+    "row_id": "2321",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "[TEA][C12E4c] T_Decomp = 234 deg C confirmed in Table 1 of rogers_2021_il_ethoxylation (Molecules 2021, 26, 4034, DOI 10.3390/molecules26134034). Value, compound, and decomposition data_type all verified."
+  },
+  {
+    "row_id": "2212",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Benzoic acid Expt. Tm 122.4 confirmed in Mitchell 2008 SI2 training set ('tr' column): 'benzoic acid tr -1.567 -1.346 122.4 129.3 1.87'."
+  },
+  {
+    "row_id": "1068",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6146883 line 515: 'Compound 18 was obtained as pale brown crystals (65%), mp 252 deg C' confirmed verbatim. Value, compound, data_type all correct."
+  },
+  {
+    "row_id": "1073",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6146883 line 550: 'Compound 25 was obtained as yellow crystals (65%), mp 256 deg C, microwave (69%), mp 254 deg C' confirmed verbatim. Row uses 256 deg C (conventional product); microwave value 254 is an alternative method."
+  },
+  {
+    "row_id": "1635",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Yalkowsky 1990 Table III: '3-Chloronitrobenzene 509 319 294 25 0.30 3.2 0'. MP=319 K confirmed. Conversion 319-273.15=45.85 deg C correct."
+  },
+  {
+    "row_id": "1941",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Xipamide MP 256 deg C confirmed in Yalkowsky/Chu 2009 Int. J. Pharm. 373, 24, Table 1 (line 2711-2714 of layout text)."
+  },
+  {
+    "row_id": "1459",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.19 of PMC11206658 (Molecules 29, 2917): '1-(4-((4-Chlorophenyl)(phenyl)methyl)-3-phenylisoquinolin-2(1H)-yl)ethan-1-one (4af) Yield 96% (62.0 mg, 0.138 mmol); white solid; mp 205.5-233.9 deg C (CHCl3)'. Compound, value, and quote all verbatim match."
+  },
+  {
+    "row_id": "207",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC12943095 line 802: '6-(3-methoxy-4-nitrobenzyl)-6H-benzo[c]chromene (5m). Yield: 71%; Mp: 84 deg C'. Value 84 deg C confirmed. Compound name in row drops only the '6-' position label, identity unambiguous (5m)."
+  },
+  {
+    "row_id": "1786",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Jain/Yalkowsky 2005 (Estimation of MP of organic compounds) Table 1.1 row 9: 'Alkanes -53' confirmed for n-alkane chain length 9 (nonane)."
+  }
+]

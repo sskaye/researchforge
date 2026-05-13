@@ -1,0 +1,62 @@
+[
+  {
+    "row_id": "58",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote found verbatim in source file; compound 11k (naphthalen-2-yl indenoquinolinone) correctly identified; value_raw 'mp 213°C' matches text 'mp 213°C‐214°C'; compound_name matches section header.",
+    "details": "Dir 005 (PMC12987641); quote at char 83420 confirms compound 11k with mp 213°C‐214°C."
+  },
+  {
+    "row_id": "13",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote found verbatim in source file; compound 4 (2-(8-Hydroxyquinolin-5-yl)-4-methoxyisoindoline-1,3-dione) correctly identified; value_raw 'm.p. 250–253 °C' matches text exactly.",
+    "details": "Dir 003 (PMC12943044); quote 'ound m/z = 336.06113. 2-(8-Hydroxyquinolin-5-yl)-4-methoxyisoindoline-1,3-dione ( 4 ) Brown powder (288 mg, 90% yield); m.p. 250–253 °C; 1 H NMR' found verbatim."
+  },
+  {
+    "row_id": "149",
+    "verdict": "flagged_review",
+    "reason": "Compound_name mismatch: compound_name states '5-hydroxynaphthalen-1-ylamino' (compound 3e, mp 234–236 °C) but evidence_quote and value_raw (mp 185–186 °C) belong to compound 3g (4-nitronaphthalen-1-ylamino); the mp value is correct for 3g but the compound_name is wrong.",
+    "details": "Dir 011 (PMC12943719); text confirms 3g (4-nitronaphthalen) has mp = 185–186 °C while 3e (5-hydroxynaphthalen) has mp = 234–236 °C; evidence_quote is verbatim for 3g."
+  },
+  {
+    "row_id": "133",
+    "verdict": "flagged_review",
+    "reason": "Compound_name mismatch: compound_name states compound 2g (trifluoromethylphenylamino, actual mp = 157–159 °C) but evidence_quote and value_raw (mp 262–264 °C) belong to compound 2i (3-(benzoic acid) derivative); the mp value is correct for 2i but the compound_name is wrong.",
+    "details": "Dir 011 (PMC12943719); text confirms 2g has mp = 157–159 °C while 2i has mp = 262–264 °C; evidence_quote is verbatim for 2i not 2g."
+  },
+  {
+    "row_id": "120",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote found verbatim in source file; compound 30 ((E)-N-(Adamantan-1-yl)-3-(4-bromophenyl)acrylamide) correctly identified; value_raw 'Mp 232–233 °C' matches text exactly.",
+    "details": "Dir 010 (PMC12940417); quote 'henyl)acrylamide ( 30 ) [ 53 ] Reaction time: 16 h. Yellow solid which was purified by trituration with PE. Yield: 93%. Mp 232–233 °C.' found verbatim."
+  },
+  {
+    "row_id": "310",
+    "verdict": "flagged_review",
+    "reason": "Evidence quote 'mp 186 °C.' not found anywhere in the source paper (PMC11206691); compound_name 'Yield: 49% as an off-white solid.' is not a valid compound name; the paper contains no mp of 186 °C.",
+    "details": "Dir 020 (PMC11206691); exhaustive search of all melting points in article_text.txt found no 186 °C value; compound_name field appears to contain a yield/description fragment rather than a compound name."
+  },
+  {
+    "row_id": "463",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote '119 g (35%); mp 240 °С (dec).' found verbatim; compound is 6-Bromo-3-(7H-pyrrolo[2,3-b]pyridin-7-yl)-2H-chromen-2-one (4b); compound_name is a truncated but correct partial name; value_raw '240 °C' matches.",
+    "details": "Dir 036 (PMC6193216); compound_name lacks '6-' prefix and '-2-one' suffix but core structure matches; full compound name in text is '6-Bromo-3-(7 H -pyrrolo[2,3- b ]pyridin-7-yl)-2 H -chromen-2-one (4b)'."
+  },
+  {
+    "row_id": "301",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote '32 (EtOAc), m.' found verbatim in source; compound 54 (6-((4-Methoxybenzyl)oxy)pyrimidine-2,4-diamine) confirmed; value_raw '> 250 °C. 1' matches text 'm.p. > 250 °C. 1 H NMR'; though evidence_quote is heavily truncated, the mp value and compound identity are correct.",
+    "details": "Dir 020 (PMC11206691); text reads 'White solid (435.4 mg, 85%). R f = 0.32 (EtOAc), m.p. > 250 °C. 1 H NMR...'; compound name and value confirmed."
+  },
+  {
+    "row_id": "448",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote '33 g, 75%); mp 93 °C, IR (KBr disk): 3283, 3072, 2981, 1761, 1707, 1680, 1649, 1610, 1572, 1545, 1523 cm -1' found verbatim; compound 6f (Methyl-2-[2-(5-benzyl-4-phenyl-4H-[1,2,4]triazol-3-thio)-acetylamino]-3-methyl-butyrate) confirmed; value_raw '93 °C' matches.",
+    "details": "Dir 035 (PMC6259131); compound 6f from l-Val has mp 93 °C; compound_name matches the valine-derived triazolyl acetamide product 6f in the paper."
+  },
+  {
+    "row_id": "464",
+    "verdict": "verified_extraction",
+    "reason": "Evidence quote '120 g (42%); mp 150 °С (dec).' found verbatim; compound is 6-Methoxy-3-(7H-pyrrolo[2,3-b]pyridin-7-yl)-2H-chromen-2-one (4c); compound_name is truncated but correct; value_raw '150 °C' matches.",
+    "details": "Dir 036 (PMC6193216); compound_name lacks '6-' prefix and '-2-one' suffix but core structure matches; full compound name in text is '6-Methoxy-3-(7 H -pyrrolo[2,3- b ]pyridin-7-yl)-2 H -chromen-2-one (4c)'."
+  }
+]

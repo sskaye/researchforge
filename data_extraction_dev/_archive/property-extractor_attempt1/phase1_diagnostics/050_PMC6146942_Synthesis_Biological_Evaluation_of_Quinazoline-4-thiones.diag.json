@@ -1,0 +1,62 @@
+{
+  "article_id": "050_PMC6146942_Synthesis_Biological_Evaluation_of_Quinazoline-4-thiones",
+  "source_kind": "pmc_nxml",
+  "available_sources": [
+    "nxml",
+    "text",
+    "pdf"
+  ],
+  "section_count": 9,
+  "section_first_3_headings": [
+    "Introduction",
+    "Results and Discussion",
+    "Results and Discussion > Chemistry"
+  ],
+  "table_count": 5,
+  "table_labels": [
+    "",
+    "Table 1",
+    "Table 2",
+    "Table 3",
+    "Table 4"
+  ],
+  "table_header_examples": [
+    [
+      "Compound",
+      "X",
+      "R",
+      "Compound",
+      "X",
+      "R"
+    ],
+    [
+      "C",
+      "H",
+      "N",
+      "S"
+    ],
+    [
+      "Compd.",
+      "1H-NMR δ (ppm), J (Hz)",
+      "13C-NMR δ (ppm)"
+    ]
+  ],
+  "caption_count": 4,
+  "doi_candidate_count": 1,
+  "doi_candidates": [
+    {
+      "doi": "10.3390/81100756",
+      "source": "nxml_front_matter"
+    }
+  ],
+  "full_text_length": 126164,
+  "warnings": [],
+  "doi_verification": {
+    "doi": "10.3390/81100756",
+    "doi_evidence": "nxml_front_matter",
+    "doi_verified": false,
+    "warnings": [
+      "doi_single_source_only"
+    ]
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "011": {
+    "enum_total": 59,
+    "extr_total": 55,
+    "oils_skipped": 3,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 19,
+    "tp": 36,
+    "fn": 1,
+    "recall_pct": 97.3,
+    "fn_examples": [
+      [
+        "4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyri",
+        "252 \u00b0C dec. (EtOH)",
+        "main_text"
+      ]
+    ]
+  },
+  "020": {
+    "enum_total": 74,
+    "extr_total": 39,
+    "oils_skipped": 19,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 9,
+    "tp": 30,
+    "fn": 16,
+    "recall_pct": 65.2,
+    "fn_examples": [
+      [
+        "1,6-Dihydroxy-4-methyl-5-(1-(((4-(methylthio)benzy",
+        "110-115 \u00b0C (dec.)",
+        "main_text"
+      ],
+      [
+        "Methyl-4-(1-(((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6",
+        "130 \u00b0C (dec.)",
+        "main_text"
+      ],
+      [
+        "1,6-Dihydroxy-5-(1-(((3-methoxybenzyl)oxy)imino)et",
+        "120-122 \u00b0C (dec.)",
+        "main_text"
+      ],
+      [
+        "Methyl 3,5-dichloro-4-((((1-(1,2-dihydroxy-4-methy",
+        "117-119 \u00b0C (dec.)",
+        "main_text"
+      ],
+      [
+        "N-(2-(3,5-Difluorophenyl)-2-(((1-(1,2-dihydroxy-4-",
+        "118-120 \u00b0C (dec.)",
+        "main_text"
+      ]
+    ]
+  },
+  "064": {
+    "enum_total": 57,
+    "extr_total": 45,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 18,
+    "tp": 39,
+    "fn": 0,
+    "recall_pct": 100.0,
+    "fn_examples": []
+  },
+  "138": {
+    "enum_total": 27,
+    "extr_total": 27,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 5,
+    "tp": 22,
+    "fn": 0,
+    "recall_pct": 100.0,
+    "fn_examples": []
+  },
+  "050": {
+    "enum_total": 19,
+    "extr_total": 19,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 4,
+    "tp": 14,
+    "fn": 1,
+    "recall_pct": 93.3,
+    "fn_examples": [
+      [
+        "1a (2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4",
+        "212-214 \u00b0C",
+        "table_footnote"
+      ]
+    ]
+  },
+  "2009_Dearden": {
+    "enum_total": 1100,
+    "extr_total": 65,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 429,
+    "tp": 63,
+    "fn": 608,
+    "recall_pct": 9.4,
+    "fn_examples": [
+      [
+        "Acetic acid",
+        "221.3",
+        "table"
+      ],
+      [
+        "Acetic acid",
+        "35.3",
+        "table"
+      ],
+      [
+        "Acetic acid",
+        "20.7",
+        "table"
+      ],
+      [
+        "Acetone",
+        "294.3",
+        "table"
+      ],
+      [
+        "Acetone",
+        "293.6",
+        "table"
+      ]
+    ]
+  },
+  "056": {
+    "enum_total": 0,
+    "extr_total": 0,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 0,
+    "tp": 0,
+    "fn": 0,
+    "recall_pct": null,
+    "fn_examples": []
+  },
+  "058": {
+    "enum_total": 0,
+    "extr_total": 0,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 0,
+    "tp": 0,
+    "fn": 0,
+    "recall_pct": null,
+    "fn_examples": []
+  },
+  "khalifa_2024": {
+    "enum_total": 30,
+    "extr_total": 30,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 9,
+    "tp": 21,
+    "fn": 0,
+    "recall_pct": 100.0,
+    "fn_examples": []
+  },
+  "2019_Rubstov": {
+    "enum_total": 29,
+    "extr_total": 29,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 2,
+    "tp": 27,
+    "fn": 0,
+    "recall_pct": 100.0,
+    "fn_examples": []
+  },
+  "chen_2024": {
+    "enum_total": 29,
+    "extr_total": 29,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 1,
+    "tp": 28,
+    "fn": 0,
+    "recall_pct": 100.0,
+    "fn_examples": []
+  },
+  "1990_Yalkowsky": {
+    "enum_total": 198,
+    "extr_total": 42,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 3,
+    "tp": 15,
+    "fn": 180,
+    "recall_pct": 7.7,
+    "fn_examples": [
+      [
+        "1,2-Diiodobenzene",
+        "27",
+        "table"
+      ],
+      [
+        "1,2-Diiodobenzene",
+        "286",
+        "table"
+      ],
+      [
+        "1,3-Diiodobenzene",
+        "40",
+        "table"
+      ],
+      [
+        "1,3-Diiodobenzene",
+        "285",
+        "table"
+      ],
+      [
+        "1,4-Diiodobenzene",
+        "132",
+        "table"
+      ]
+    ]
+  },
+  "098": {
+    "enum_total": 67,
+    "extr_total": 25,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 46,
+    "tp": 19,
+    "fn": 2,
+    "recall_pct": 90.5,
+    "fn_examples": [
+      [
+        "Compound 5",
+        "265 C",
+        "table"
+      ],
+      [
+        "Compound 5",
+        "267 C",
+        "table"
+      ]
+    ]
+  },
+  "023": {
+    "enum_total": 22,
+    "extr_total": 9,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 10,
+    "tp": 9,
+    "fn": 3,
+    "recall_pct": 75.0,
+    "fn_examples": [
+      [
+        "diureas 4a-4h (series)",
+        "212\u00b0C at n = 2 to 99\u00b0C at n = 10",
+        "body_text"
+      ],
+      [
+        "1,3-disubstituted diureas (series, synthesized in ",
+        "99-212\u00b0C",
+        "body_text"
+      ],
+      [
+        "analogous diureas derived from (adamantan-1-yl)met",
+        "155-243\u00b0C",
+        "body_text"
+      ]
+    ]
+  },
+  "113": {
+    "enum_total": 13,
+    "extr_total": 13,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 4,
+    "tp": 9,
+    "fn": 0,
+    "recall_pct": 100.0,
+    "fn_examples": []
+  },
+  "057": {
+    "enum_total": 3,
+    "extr_total": 0,
+    "oils_skipped": 0,
+    "figsi_skipped": 0,
+    "duplicates_skipped": 0,
+    "tp": 0,
+    "fn": 3,
+    "recall_pct": 0.0,
+    "fn_examples": [
+      [
+        "4-phenyldiazenylbenzene-1,3-diamine",
+        "2535.15 K",
+        "main_text"
+      ],
+      [
+        "chlorine",
+        "993.15 K",
+        "main_text"
+      ],
+      [
+        "chlorine",
+        "239 K",
+        "main_text"
+      ]
+    ]
+  }
+}

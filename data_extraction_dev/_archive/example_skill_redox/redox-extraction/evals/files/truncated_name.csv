@@ -1,0 +1,3 @@
+id,verification_status,molecule,voltage_v_she,voltage_raw,reference_electrode,solvent,ph,n_electrons,data_type,value_directness,source,source_url,evidence_location,evidence_quote,conversion_arithmetic,notes
+1,pending_verification,2-iodo,-0.20,-0.20 V vs SHE,SHE,1 M H2SO4,0,2,experimental,direct,"J. Mater. Chem. A 2019, 7, 9023","https://doi.org/10.1039/C9TA03219C","SI Table","2-iodo entry",,"DELIBERATE SEED: molecule name is just the substituent prefix; missing parent scaffold (anthraquinone) — should flag"
+2,pending_verification,2-iodoanthraquinone,-0.20,-0.20 V vs SHE,SHE,1 M H2SO4,0,2,experimental,direct,"J. Mater. Chem. A 2019, 7, 9023","https://doi.org/10.1039/C9TA03219C","SI Table","2-iodoanthraquinone entry",,"clean version of row 1 — should NOT flag"

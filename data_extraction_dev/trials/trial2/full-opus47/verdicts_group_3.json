@@ -1,0 +1,92 @@
+[
+  {
+    "row_id": "66",
+    "verdict": "flagged_review",
+    "reason": "flagged_doi_unrelated_paper",
+    "details": "paper_dir points to '2019_Johnson_Acid-catalyzed rearrangements in arenes' (quaterphenyl rearrangements by Skraba-Joiner/Holt/Johnson), but extracted compound (ethyl ...thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-6-carboxylate 4i, mp 253-254) and cited source (Rubtsov et al., J Org Chem 2019, doi 10.1021/acs.joc.9b00711) belong to an entirely different paper. Quote 'Yellow solid; 2.10 g, 93 % yield; m.p.' not found in the PDF."
+  },
+  {
+    "row_id": "263",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found verbatim in PMC12943095 article_text.txt; compound 4e, mp 76 °C confirmed."
+  },
+  {
+    "row_id": "513",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in PMC6259447; compound 6 = Methyl 2-benzamido-2-(4-chloro-2-fluorophenylamino)acetate, 152-154 °C (midpoint 153) confirmed."
+  },
+  {
+    "row_id": "537",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'mp 203 °С' verbatim in PMC6193216; Cyrillic С (U+0421) noted; compound 1a = 7-(Cyanomethyl)-1H-pyrrolo[2,3-b]pyridin-7-ium chloride confirmed."
+  },
+  {
+    "row_id": "750",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 row '39 3-me-3-hexanol 9.8161 3.1882 142.4 142.2 0.2' present verbatim; column position confirmed as experimental Bp; abbreviated name maps to 3-methyl-3-hexanol."
+  },
+  {
+    "row_id": "925",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Orange crystals from ethanol; m.p. 137°C; yield 50%' in PMC6146877 alongside compound 9d (4-(2-Cyanophenylazo)-3-(2-furyl)-1-phenylpyrazole)."
+  },
+  {
+    "row_id": "1039",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Compound 26 was obtained as red crystals (60%), mp 254 °C' verbatim in PMC6146883."
+  },
+  {
+    "row_id": "1226",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '(6g) Yield: 72%; mp 191–193 °C' verbatim in PMC11843914 immediately after '4-((2-(Benzo[d]thiazole-2-carbonyl)hydrazono)methyl)phenyl ethanesulfonate'."
+  },
+  {
+    "row_id": "1352",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '2-Coumaranone : mp 49°' verbatim in PMC6236387 spectral data."
+  },
+  {
+    "row_id": "1427",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote substring present after whitespace normalization (paper has 'R f = 0.50 (8 : 2 petroleum ether/EtOAc); mp = 185-187 °C' under compound 4i header in PMC11208899)."
+  },
+  {
+    "row_id": "1474",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "HTML file is a Europe PMC landing page (empty), but adjacent PDF contains the Table 2 row 'SAT-PEG200  6  55.6  234.7' verbatim. Compound and value confirmed."
+  },
+  {
+    "row_id": "1497",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '5-(6′-Thiophen-2′′-yl)pyridazin-3′-yl)thiophene-2-carbaldehyde 3a. Light brown solid (28%). Mp: 247-250 °C.' present verbatim in HTML body of fernandes_2018 paper."
+  },
+  {
+    "row_id": "1663",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 12 row '15 cyclohexane 80.738 75.50 5.24 76.05 4.68 84.36 -3.62' verified in PMC6146921; Obsd Bp 80.738 °C for cyclohexane confirmed."
+  },
+  {
+    "row_id": "1767",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote present in alsayari_2021 HTML body after unicode/whitespace normalization; paper text reads 'precipitate 8 was filtered, washed with H2 O, and dried: yield 90%; mp 120–121 °C' (extraction transcribes degree as '◦' but compound 8 and 120-121 °C match)."
+  },
+  {
+    "row_id": "1834",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'compound 5k (196 mg, 54%) was isolated as a yellow solid, Mp 133.2 °C, Rf (n-' verbatim in ledermann_2023 SI PDF section 3.1.11 (compound 5k = 3-Iodo-1,5-dimethyl-2-(p-tolyl)-1H-indole)."
+  }
+]

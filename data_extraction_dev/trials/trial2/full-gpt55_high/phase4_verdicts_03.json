@@ -1,0 +1,62 @@
+[
+  {
+    "row_id": "692",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The paper identifier and value context match compound 2a, but the claimed quote is not verbatim under the allowed normalization: the source has the compound name without the inserted spaces and reports \"m.p. 70–73◦C.\""
+  },
+  {
+    "row_id": "883",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI matches the Molecules 2020 paper, and Table 1 reports choline acetate [Ch][Ac] with Td, 5%, N2 = 178 °C; property, value, relation, and measured data_type match."
+  },
+  {
+    "row_id": "912",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI matches the Pharmaceutics 2020 paper, and the DSC discussion states a sharp endothermic peak at 198 °C for the ITR-TER new phase, supporting the cocrystal melting-point row."
+  },
+  {
+    "row_id": "881",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI matches the Molecules 2020 paper, and Table 1 reports choline isovalerate [Ch][Iv] with Tm = 61 °C; compound, value, property, and measured data_type match."
+  },
+  {
+    "row_id": "855",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI matches the Molecules 2024 paper, and Section 3.1.3 reports compound 2a as a white solid with m.p. 70-73 °C; the midpoint and range fields are correct."
+  },
+  {
+    "row_id": "901",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI matches the Adv Pharm Bull 2017 paper, and Table 2 reports the piroxicam-saccharine sodium 1:1 cocrystal melting point as 181-183 °C; the 182.0 °C midpoint is correct."
+  },
+  {
+    "row_id": "871",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI matches the Molecules 2025 paper, and Table 1 reports experimental Tm = 524.84 K for (-)-Epicatechin; 524.84 K - 273.15 = 251.69 °C is correct."
+  },
+  {
+    "row_id": "618",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI matches the Molecules 2023 paper, and Table 2 reports [Glu(OPr)][IBU] with T_max = 230.8 °C, defined as the temperature of fastest decomposition."
+  },
+  {
+    "row_id": "187",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI matches the Molecules 2024 paper, and the compound 42 characterization paragraph reports the named compound as a green solid with m.p. 78-80 °C (dec.)."
+  },
+  {
+    "row_id": "809",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI matches the RSC Advances 2025 paper, and the compound 6i experimental entry reports mp 215-217 °C for the stated benzothiazolecarbohydrazide sulfonate."
+  }
+]
