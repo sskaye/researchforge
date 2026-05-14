@@ -1,0 +1,602 @@
+[
+  {
+    "row_id": "1324",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/71100840 found in paper. Quote 'mp 158-159.5 \u00b0C' is a contiguous substring in compound 18 experimental write-up."
+  },
+  {
+    "row_id": "1088",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote stitches the compound-8 heading 'sulphide (8)' directly with 'm.p >300\u00b0C (decomp.), yield 75%' but the paper has several sentences of method-A procedural text between '( 8 ).' and 'm.p >300\u00b0C', so the quote is not a contiguous substring."
+  },
+  {
+    "row_id": "648",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/80400363 confirmed; quote 'Pale yellow crystals; yield 2.17 g (60 %); M.p. 153-155 o C' is a contiguous substring in the experimental section for compound 8a."
+  },
+  {
+    "row_id": "365",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules28227590 confirmed; quote for compound 10n with 'mp 110 \u00b0C' is a contiguous substring."
+  },
+  {
+    "row_id": "1269",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/ijms27041738 confirmed; quote for compound 6a (QN017) 'mp: 200-202 \u00b0C' is contiguous in the synthesis section."
+  },
+  {
+    "row_id": "1479",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '5a ) Yellow solid (0.390 g, 97%), mp: 178-180 \u00b0C; 1 H NMR (500' is a contiguous substring for compound 5a; DOI 10.1021/acsbiomedchemau.4c00060 confirmed."
+  },
+  {
+    "row_id": "537",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1055/s-0036-1589496 confirmed; quote for compound 8a '(8a) Beige solid; yield: 0.077 g (57%); mp 280-283 \u00b0\u0421 (dec)' is a contiguous substring."
+  },
+  {
+    "row_id": "669",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Self-flag is correct: the quote concatenates the Table 1 header tokens 'Compd. no. Color Yield % m.p.\u00b0C solvent Mol. formula Mol. Wt. % Analysis Calcd. (Found) C H N S' with the 10b body row, but in the actual table the header precedes many other rows before reaching 10b's data, so the construction is not a contiguous substring."
+  },
+  {
+    "row_id": "1488",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote for compound 5j 'Yellow solid (0.361 g, 84%), mp: 208-210 \u00b0C' is a contiguous substring; full IUPAC name precedes it on the same line."
+  },
+  {
+    "row_id": "1415",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Self-flag is correct: while Table 1 entries 2q and 4 are adjacent in the body, the leading 'Table 1 Entry Ar R Yield (%) Mp (\u00b0C)' header is separated from those rows by entries 2a-2p, so the stitched quote is not contiguous."
+  },
+  {
+    "row_id": "1156",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote stitches 'tosylhydrazone of 9-formyl-tricyclo[6.2.1.0 2,7 ]undeca-2,4,6,9-tetraene ( 4 ).' directly with 'The residue was recrystallised from ethanol to give the product as colourless needles (0.6 g, 61%) m.p. 134-135 \u00b0C', but the paper has procedural sentences between them, so the quote is not a contiguous substring."
+  },
+  {
+    "row_id": "784",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/ijms12042448 confirmed; Table 5 row '41 2-et-1-butanol 8.2639 2.7417 146.5' is a contiguous substring; column = BP (Exp.), so data_type=measured is correct."
+  },
+  {
+    "row_id": "179",
+    "verdict": "flagged_review",
+    "reason": "flagged_doi_unrelated_paper",
+    "details": "Row claims source_url 10.1002/chem.202500195 but the paper folder's text has DOI 10.1002/cmdc.202500922 (ChemMedChem). The compound text 'mp 165\u00b0C-167\u00b0C' for 4b does exist in the paper, but the DOI in the row does not appear in the paper."
+  },
+  {
+    "row_id": "254",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules28227523 confirmed; Table 2 row for [Glu(Opr)2][HCl] with T_m 91.12 \u00b0C is a contiguous substring including the column header tokens."
+  },
+  {
+    "row_id": "1167",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote stitches '4-Chloro-6-phenylamino-thieno[3,2-d]-1,2,3-triazin-7-carbonitrile ( 11 ).' directly with 'recrystallized from ethanol as white needles; m.p. 201 o C', but the paper has procedural sentences (sodium-nitrite addition, stirring 2h, etc.) between them, so the quote is not a contiguous substring."
+  },
+  {
+    "row_id": "1185",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/60100052 confirmed; quote '12 mg of cholest-6-en-3\u03b2, 5\u03b1-diol ( 1a ), recrystallized from methanol, m.p. 147-148 C (ref: 147-148 C [ 15 ])' is contiguous."
+  },
+  {
+    "row_id": "1413",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Self-flag is correct: same Table 1 header-construction issue as rows 1412/1415 \u2014 entries 2n and 2o are adjacent body cells, but the leading 'Table 1 Entry Ar R Yield (%) Mp (\u00b0C)' header is separated by many other rows so the stitched quote is not contiguous."
+  },
+  {
+    "row_id": "1490",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '5l ) Yellow solid (0.438 g, 93%), mp: 200-210 \u00b0C; 1 H NMR (500' is a contiguous substring; compound 5l in paper preceded by full IUPAC name."
+  },
+  {
+    "row_id": "1192",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1021/acsomega.6c01037 confirmed; quote 'recrystallized from ethanol to afford 1.6 g of white crystals of 6b (84%), mp 76-78 \u00b0C' is contiguous."
+  },
+  {
+    "row_id": "1139",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/80700541 confirmed; quote 'Compound 21 was obtained as dark yellow crystals (45%), mp 194\u00b0C, microwave (60%), mp 194\u00b0C' is contiguous in experimental section."
+  },
+  {
+    "row_id": "462",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/ph4081158 confirmed; full quote for compound 7 'A mixture of compound 6...mp 130-132 \u00b0C' is a contiguous substring."
+  },
+  {
+    "row_id": "1210",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1039/d5ra09311b confirmed; quote ending 'chromene-3-carboxamide (12h) Cream solid; yield: 68%; MP = 212-214 \u00b0C' is contiguous."
+  },
+  {
+    "row_id": "1412",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Self-flag is correct: same Table 1 header-construction issue \u2014 entries 2m and 2n are adjacent in the body, but the 'Table 1 Entry Ar R Yield (%) Mp (\u00b0C)' header is separated from them by other rows so the stitched quote is not contiguous."
+  },
+  {
+    "row_id": "1550",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1134/S1070428022030101 confirmed; quote 'yellow powder, mp 270\u00b0C (decomp.)' is contiguous in the experimental description for compound 3a, whose IUPAC name matches the row."
+  },
+  {
+    "row_id": "789",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/ijms12042448 confirmed; Table 5 row '46 2,3-dime-1-butanol 7.8889 2.7417 149.0' is a contiguous substring; BP (Exp.) column = measured."
+  },
+  {
+    "row_id": "364",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 10m; mp 122 \u00b0C confirmed."
+  },
+  {
+    "row_id": "1492",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 5n (tribromophenyl); mp 200\u2013202 \u00b0C confirmed."
+  },
+  {
+    "row_id": "1352",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote contains 'mp: 245-47\u00b0C' (chemistry shorthand) but value_raw is 'mp: 245-247\u00b0C' \u2014 numeric value '245-247' is NOT in the quote verbatim."
+  },
+  {
+    "row_id": "1202",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "Paper's compound 10 is '2-(2-Acetoxy-4-methylphenyl)-2-oxoethyl acetate' (acetoxy), not '2-(2-hydroxy-4-methylphenyl)-2-oxoethyl acetate' (hydroxy) as listed; section 2.3.13 yields 50 mg of '11' (typo for 10) mp 46\u201348 \u00b0C."
+  },
+  {
+    "row_id": "288",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 11a; mp 274\u2013275 \u00b0C confirmed."
+  },
+  {
+    "row_id": "717",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote is constructed: Table 8 caption + header is in paper, '21.3-methyl-1-pentanol 152.40' is in paper, but they are NOT adjacent \u2014 the header is followed by '1. methanol 64.70...' and 19 more rows before reaching 3-methyl-1-pentanol. Templated/stitched quote."
+  },
+  {
+    "row_id": "959",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 4e; m.p. 105\u2013106 \u00b0C confirmed."
+  },
+  {
+    "row_id": "510",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 6h; mp 111 \u00b0C confirmed."
+  },
+  {
+    "row_id": "1485",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote effectively verbatim in paper for compound 5g; mp 150\u2013152 \u00b0C confirmed (CSV writes '1H', paper writes '1 H' \u2014 equivalent under chemistry whitespace-normalization)."
+  },
+  {
+    "row_id": "1556",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'AgBF4 ... PN (122 mg, 1 mmol). \u03bdCN: 2277 cm\u22121, Tm: 120 \u00b0C' verbatim in li_2025_coordination_polymer_eutectic.pdf; DOI 10.1021/jacs.4c15317 present."
+  },
+  {
+    "row_id": "337",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 37; m.p. 118\u2013120 \u00b0C (dec.) confirmed."
+  },
+  {
+    "row_id": "1129",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 10; mp 200 \u00b0C confirmed."
+  },
+  {
+    "row_id": "30",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Compound name 'Hydroxyphenyl)- N -phenylpiperazine-1-carbothioamide (3e)' missing leading '4-(4-' prefix; paper name is '4-(4-Hydroxyphenyl)-N-phenylpiperazine-1-carbothioamide'."
+  },
+  {
+    "row_id": "355",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 10d; mp 91 \u00b0C confirmed."
+  },
+  {
+    "row_id": "83",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 6i; mp 121\u2013124 \u00b0C confirmed."
+  },
+  {
+    "row_id": "338",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 38; m.p. 102\u2013104 \u00b0C (dec.) confirmed."
+  },
+  {
+    "row_id": "1274",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 6; mp 210\u2013212 \u00b0C confirmed."
+  },
+  {
+    "row_id": "551",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 5a; mp 80\u201382 \u00b0C confirmed."
+  },
+  {
+    "row_id": "110",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 19; Mp 133\u2013135 \u00b0C confirmed."
+  },
+  {
+    "row_id": "1429",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Stigmasterol ( 6 ) White needles; m.p. 155\u2013157 \u00b0C (Lit. 168\u2013169 \u00b0C)' verbatim in PMC6263260."
+  },
+  {
+    "row_id": "550",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 4c; mp 84\u201386 \u00b0C confirmed."
+  },
+  {
+    "row_id": "485",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound V6; mp 292\u2013293 \u00b0C confirmed."
+  },
+  {
+    "row_id": "913",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'Schiff base III: mp 224 \u00b0C (Table 1)' is templated/constructed \u2014 neither 'Schiff base III' nor '224' nor 'mp' appear in the paper's article_text.txt, article.nxml, or PDF."
+  },
+  {
+    "row_id": "227",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 15; mp. 193\u2013195 \u00b0C confirmed."
+  },
+  {
+    "row_id": "183",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper for compound 1h; Mp: 85 \u00b0C confirmed."
+  },
+  {
+    "row_id": "568",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Mp 40-42 \u00b0C' for (Z)-6-(1-Nonenyl)salicylic acid (8c) verified verbatim in paper 039 (DOI 10.3390/molecules16054059); value and compound match."
+  },
+  {
+    "row_id": "615",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'mp (acetone): 218-221 \u00b0C' for compound 4d verified verbatim in paper 049 (DOI 10.3390/80500444); compound 4d = 2'-Amino-6'-methoxy-pyrimido[5',4':16,17]androst-5-en-3beta-ol matches."
+  },
+  {
+    "row_id": "208",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Paper has '6-(3-methyl-4-nitrobenzyl)-6H-benzo[c]chromene (5n)' but CSV compound_name drops the leading '6-' giving '(3-methyl-4-nitrobenzyl)-6H-benzo[c]chromene (5n)'. Agent self-flagged correctly."
+  },
+  {
+    "row_id": "1533",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'O-(methyl)-2-((2-oxopropyl)selanyl)benzoate 12 Yield: 74%; mp 74-75 \u00b0C' verified verbatim in paper 177; DOI 10.3390/molecules29122866, value, compound all match."
+  },
+  {
+    "row_id": "1204",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verified verbatim in paper 114 (DOI 10.1039/d5ra09311b); compound 12b matches, MP 222-225 \u00b0C present."
+  },
+  {
+    "row_id": "1125",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'm.p. 70-2 \u00b0C' (= 70-72\u00b0C) for Na-formyl-16-beta-formyloxyaspidospermidine 7a verified verbatim in paper 096 (DOI 10.3390/61000803)."
+  },
+  {
+    "row_id": "1464",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote elides middle sentence; paper has 'Glutaraldehyde is an amber-colored liquid usually supplied in solutions of acidic pH. As with other aldehydes, the two aldehyde groups react readily under suitable conditions, particularly with proteins. It is miscible with water and having melting and boiling points -14 \u00b0C and 187 \u00b0C, respectively.' CSV quote joins two non-adjacent spans."
+  },
+  {
+    "row_id": "218",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'N-(n-Nonylamino)methylenebisphosphonic acid (6) ... mp. 279-280 \u00b0C' verified verbatim in paper 014 (DOI 10.3390/ph19020256); compound, value, and DOI all match."
+  },
+  {
+    "row_id": "1389",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '4-Me 8 80 226 expl. 229 dec. [27] 766, 741 (?), 717 (IO2).' verified verbatim in paper 139 Table 2; 4-methyliodylbenzene matches R=4-Me column header; decomposition 226 expl. confirmed. DOI 10.3390/61100881 confirmed."
+  },
+  {
+    "row_id": "1068",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper has '( 8a ) Base 8a was obtained in 69% yield, m.p. 54-56\u00b0C (methanol)'; CSV quote differs only by parenthesis whitespace artifact '(8a)' vs '( 8a )'. Content matches; compound 8a, value 54-56\u00b0C, and DOI 10.3390/60900784 confirmed."
+  },
+  {
+    "row_id": "558",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote for compound 11a with mp 122-124 \u00b0C verified verbatim in paper 038 (DOI 10.3390/molecules16108758); IUPAC name in quote matches compound_name."
+  },
+  {
+    "row_id": "1268",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Synthesis of N-(4-fluorophenyl)-6-iodoquinazoline-4-amine (5b) ... mp: 275-277 \u00b0C' verified verbatim in paper 123 (DOI 10.3390/ijms27041738)."
+  },
+  {
+    "row_id": "1014",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'pyrimidine (6): Orange crystals from ethanol; m.p. 258\u00b0C; yield 25% (method A)' verified verbatim in paper 087 (DOI 10.3390/81200910); compound 6 matches."
+  },
+  {
+    "row_id": "755",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '12 2-butanol 5.2222 2.7854 99.6' from Table 5 verified verbatim in paper 062 (DOI 10.3390/ijms12042448); 2-butanol BP 99.6\u00b0C matches."
+  },
+  {
+    "row_id": "193",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Quote for compound (4e) with Mp 76 \u00b0C is verbatim in paper 013 (DOI 10.3390/molecules31040706), but compound_name '(3-methoxy-4-nitrophenyl)ethan-1-ol (4e)' is severely truncated from the actual paper name '1-(2'-bromo-[1,1'-biphenyl]-2-yl)-2-(3-methoxy-4-nitrophenyl)ethan-1-ol (4e)'."
+  },
+  {
+    "row_id": "493",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper has 'Ethyl 2-benzamido-2-(p-tolylamino)acetate ( 3' ): Yield 80%; Solid, m.p. 164-166 \u00b0C (ether/hexane)' (curly apostrophe in paper, straight in CSV). Content matches verbatim modulo typography; compound 3' and value 164-166 \u00b0C confirmed."
+  },
+  {
+    "row_id": "886",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "CSV quote starts 'compound (3f) Orange crystals, m.p. 166-169 \u00b0C (iPrOH)' but paper has '2-((6-Chloro-1,2,4,5-tetrazin-3-yl)amino)-N-(2-(3-methoxyphenoxy)phenyl)acetamide ( 3f ) Orange crystals, m.p. 166-169 \u00b0C ( iPrOH)'. The literal word 'compound' is NOT present in the paper before '(3f)'; quote is reconstructed/templated, not verbatim."
+  },
+  {
+    "row_id": "1523",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'naphtho[2,3-d]thiazole-4,9-dione (1.0 mmol) with 0.17 g of piperazine (2.0 mmol) in 50% yield. Mp: 214-215 \u00b0C.' verified verbatim in paper 175 (DOI 10.3390/molecules29122777); value 214-215 \u00b0C confirmed."
+  },
+  {
+    "row_id": "991",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '-fluorophenyl)-o,o-diisopropylphosphonate (4b). Yield 68.0%; m.p.117-118\u00b0C' verified verbatim in paper 086 (DOI 10.3390/80100186); compound 4b and value 117-118\u00b0C confirmed."
+  },
+  {
+    "row_id": "259",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verified verbatim in paper 017 (DOI 10.3390/molecules28227523); 'ethyl, propyl, and butyl derivatives (50.43, 59.02, 71.05 \u00b0C, respectively)' confirms 50.43\u00b0C for ethyl ester [Glu(OEt)][IBU]; DSC-measured value, data_type measured appropriate."
+  },
+  {
+    "row_id": "115",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_ms_fragment",
+    "details": "compound_name field contains MS fragment text prepended to actual compound name; correct compound is '(2E,4E)-N-isobutyl-5-(3-((3-methylbut-2-en-1-yl)oxy)phenyl)penta-2,4-dienamide (24)'. Agent self-flagged correctly; quote and value 103-104 \u00b0C otherwise verified verbatim in paper 010 (DOI 10.3390/ijms27041716)."
+  },
+  {
+    "row_id": "512",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote for Methyl-2-(2-[2-(5-benzyl-4-phenyl-4H-[1,2,4]triazol-3-thio)-acetylamino]-acetylamino)-acetate (10a) with mp 78-80 \u00b0C verified verbatim in paper 035 (DOI 10.3390/molecules15106759)."
+  },
+  {
+    "row_id": "1376",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '3-Cl B 68 156-58 153.1-154.7 [20] 2.02 (s, 6H, MeCO2), 7.41-8.10 (m, 4H, ArH).' verified verbatim in paper 139 Table 1; [3-(diacetoxyiodo)chlorobenzene] R=3-Cl matches; value 156-58 = 156-158\u00b0C confirmed."
+  },
+  {
+    "row_id": "750",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '7 1-heptanol 10.1183 2.6611 176.3' from Table 5 verified verbatim in paper 062 (DOI 10.3390/ijms12042448); 1-heptanol BP 176.3 \u00b0C confirmed."
+  },
+  {
+    "row_id": "486",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '2-(2-Chloroquinolin-3-yl)-5-(2-hydroxybenzylidene)-3-(4-oxo-2-phenylquinazolin-3(4H)-yl)thiazolidin-4-one (V) 7 Yield, 85%, light brown crystalline solid, mp 201-203 \u00b0C' verified verbatim in paper 033 (DOI 10.1016/j.jscs.2011.04.001)."
+  },
+  {
+    "row_id": "1069",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Evidence quote 'dihydrophthalazine-1,4-dione dihydrochloride Hydrochloride m.p. 215-218 \u00b0C' is constructed and non-contiguous; the literal string 'dihydrochloride Hydrochloride' does not appear in the paper."
+  },
+  {
+    "row_id": "383",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI present, quote 'recrystallized from methanol (0.4 g, 80%); mp: 68 \u00b0C' verbatim for compound 4."
+  },
+  {
+    "row_id": "561",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI molecules16108758 present; quote 'Yield 66%; brown yellowish solid; C 42 H 56 N 6 S 10 ; mp: 125-127 C' verbatim for compound 12a."
+  },
+  {
+    "row_id": "1579",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI ma13204486 present; table row for 1-tetradecanol with 37.3 \u00b1 0.04 verbatim in PDF (DSC onset, measured)."
+  },
+  {
+    "row_id": "810",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI PMC8697427 present; full Tm sequence in Table 5 verbatim; 415 K converts correctly to 141.85 C for Umifenovir; self-flag was unwarranted."
+  },
+  {
+    "row_id": "465",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI ph4081158 present; quote 'Green crystals, 70%, 0.09 g. mp 242-243 C' verbatim for 10c."
+  },
+  {
+    "row_id": "771",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI ijms12042448 present; Table 5 row '3-me-1-butanol 6.4444 2.6420 131.2' verbatim."
+  },
+  {
+    "row_id": "642",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 60900728 present; quote 'desired compound 17 in 60% yield; m p 129-131 C' verbatim."
+  },
+  {
+    "row_id": "1368",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 70700554 present; quote 'Yield: 69 % (Method A), 57 % (Method B); mp: 256-58 C' verbatim."
+  },
+  {
+    "row_id": "1567",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI acsomega.3c05165 present; quote 'the melting temperature of the formed HC was found to be significantly high (Tm = 187.5 C)' verbatim."
+  },
+  {
+    "row_id": "1246",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI molecules31040595 present; quote 'Yield 62%, pale yellow solid, mp 126-128 C' verbatim for 17a."
+  },
+  {
+    "row_id": "1555",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI jacs.4c15317 present; quote present across a PDF line wrap, matches after whitespace normalization for compound 1."
+  },
+  {
+    "row_id": "892",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'compound 5d white solid 89% yield; m.p. 135-137 C' is paraphrased/non-contiguous. Actual: 'white solid was obtained with a yield of 89%; m.p. 135-137 C'."
+  },
+  {
+    "row_id": "1627",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI acsomega.5c13222 present; quote 'm.p. = 221-222 C. Rf = 0.15 (ethyl acetate/hexane = 1:1)' verbatim."
+  },
+  {
+    "row_id": "388",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI s42250-022-00374-9 present; quote 'Propyle 1-hydroxy-1H-indole-2-carboxylate 2c. White solid; mp 170-172 C' verbatim."
+  },
+  {
+    "row_id": "1170",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 71000756 present; quote 'golden yellow crystals; m.p. 197 o C' verbatim for compound 14."
+  },
+  {
+    "row_id": "494",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI molecules15129354 present; quote 'Yield 90%; Solid, m.p. 128-130 C (ether/hexane)' verbatim."
+  },
+  {
+    "row_id": "309",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI ardp.70227 present; quote '( 17 ): Orange solid, mp 276\u00b0C-279\u00b0C' matches with hyphen folding (paper uses en-dash 276\u00b0C-279\u00b0C)."
+  },
+  {
+    "row_id": "315",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI cmdc.202500922 present; quote '(2c) White solid (425 mg, yield 80%): mp 162\u00b0C-164\u00b0C' matches paper after en-dash hyphen folding."
+  },
+  {
+    "row_id": "607",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 70700534 present; quote 'sticky white powder (WARNING: irritant!), m.p. 82 C (decomp.)' verbatim for compound 1."
+  },
+  {
+    "row_id": "300",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI ardp.70227 present; quote '( 8 ): Yellow solid, mp 254\u00b0C-256\u00b0C' matches paper after hyphen folding."
+  },
+  {
+    "row_id": "1280",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI s13065-025-01402-8 present; quote 'A white precipitate was obtained in a yield of 68%; mp 153-155 C' verbatim for 10e."
+  },
+  {
+    "row_id": "731",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote concatenates Table 8 header with row 35 directly, skipping rows 1-34 (~2000 chars). Non-contiguous; agent self-flag was correct. Value 156.80 itself is correct in the paper."
+  },
+  {
+    "row_id": "1525",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI molecules29122839 present; quote 'shiny yellow needles (65% yield) with mp 140-141 C and optical rotation' verbatim for 8b."
+  },
+  {
+    "row_id": "507",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI molecules15106759 present; quote 'Colorless crystals (0.23 g, 52%); mp 101 C' verbatim for 6e."
+  }
+]

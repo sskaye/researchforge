@@ -1,0 +1,152 @@
+[
+  {
+    "id": "458",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Quote verbatim in article_text.txt; compound matches IUPAC for 4c; mp 84-86 °C confirmed."
+  },
+  {
+    "id": "1219",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "URL https://doi.org/10.1134/S1070428022030101 not directly in NXML, but paper is the Russ. J. Org. Chem. isatin-derivatives article (PMC9007260). Compound 4b mp >300 °C verbatim in experimental."
+  },
+  {
+    "id": "1304",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 24d white solid mp 139-141 °C confirmed in J Med Chem 2013 (Chen/Zhou et al., jm3014162); compound name correct."
+  },
+  {
+    "id": "748",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 22 'Compound 22 was obtained as yellow crystals (74%), mp 273 °C' verbatim in Molecules 2003, 8(7), 541-555; compound name accurate for benzocoumarin triazolopyrimidine."
+  },
+  {
+    "id": "490",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 3a m.p. 127-129 °C verbatim in 4H-pyran-4-one aldoxime synthesis paper (PMC6146472)."
+  },
+  {
+    "id": "692",
+    "verdict": "fail",
+    "flags": ["flagged_evidence_quote_not_found"],
+    "notes": "Paper text has 'M.p.162-163 o C' (no space after M.p., 'o' instead of '°'); evidence_quote 'M.p. 162-163 oC' contains period+space-after-M.p. that does not appear in the article_text.txt. Quote is close but not a contiguous verbatim substring of the source text. value_raw 'M.p. 162-163 °C' formatting differs from paper."
+  },
+  {
+    "id": "747",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 21 'Compound 21 was obtained as dark yellow crystals (45%), mp 194°C' verbatim. Compound name correct for 2-amino-4-(coumarin-3'-yl)pyrimidine."
+  },
+  {
+    "id": "1148",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 4af 'mp 205.5-233.9 °C' verbatim in Molecules 2024, 29, 2917; value_celsius midpoint 219.7 correctly derived from range; compound name accurate."
+  },
+  {
+    "id": "385",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 14b 'mp 274-275 °C' verbatim in Pharmaceuticals 2011 phthalazine paper (PMC4058664); compound name as written in paper (with typo 'chorophenyl' carried verbatim)."
+  },
+  {
+    "id": "1101",
+    "verdict": "fail",
+    "flags": ["flagged_evidence_quote_not_found"],
+    "notes": "Evidence quote 'H ( 1 ) 96 6( 1X )' is a Table-1 row excerpt from the NXML-flattened text. value_raw '96 °C' contains '°C' which is NOT present in the evidence_quote — the °C/oC unit lives in the column header 'Azide dec. temp. (oC)' rather than the cell text. Per the rule that value_raw must appear in the quote, this fails."
+  },
+  {
+    "id": "43",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 9a (indenoquinolinyl phosphine oxide) 'mp 232-234°C' verbatim in ChemMedChem 2026, 21(5):e202500751; compound name accurate."
+  },
+  {
+    "id": "722",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 3 (16-hydroxy-1,2-dehydrovincadifformine) m.p. 109-110 °C verbatim in Molecules 2001, 6(10), 803-814."
+  },
+  {
+    "id": "1326",
+    "verdict": "fail",
+    "flags": ["flagged_evidence_quote_not_found"],
+    "notes": "Paper contains Cyrillic 'С' (U+0421) in '250-251 °С'; evidence_quote uses Latin 'C'. Under normalize_text, value_raw '250-251 °C' (Latin C) does not match paper's '250-251 °С' (Cyrillic С). The quote also straddles a column break with newline. Borderline — numeric value 250-251 is real and present, only the °C unit character is Cyrillic vs Latin."
+  },
+  {
+    "id": "349",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 5j 'Mp. 94-95 °C' verbatim in Res Chem Intermed 2022 oxadiazole paper (PMC9486790)."
+  },
+  {
+    "id": "1251",
+    "verdict": "fail",
+    "flags": ["flagged_data_type_mismatch"],
+    "notes": "Brown 2000 'Melting Point and Molecular Symmetry' (J Chem Educ) is a compilation paper that tabulates published literature melting points to illustrate symmetry vs Tm trends. The phenanthrene 372.4 K value in Table 1 is a literature-collected value, not a primary measurement by the authors. data_type='measured' is incorrect; should be 'literature'. (Quote and unit conversion 372.4 K - 273.15 = 99.25 °C are accurate.)"
+  },
+  {
+    "id": "140",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 1a (2'-bromo-[1,1'-biphenyl]-2-carbaldehyde) 'Mp: 80 °C' verbatim in Molecules 2026, 31(4):706 (PMC12943095)."
+  },
+  {
+    "id": "882",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 17c (tacrine-coumarin hybrid) mp 129-131 °C verbatim in Molecules 2026, 31(4), 595 (PMC12943243); compound name matches."
+  },
+  {
+    "id": "701",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 2e methyl N-[4'-methylphenylsulphonyl-DL-valinyl]anthranilate m.p. 170 °C verbatim in Molecules 2001, 6(3), 267-278 (PMC6236356)."
+  },
+  {
+    "id": "1175",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 5c 2-thiomorpholinonaphtho[2,3-d]thiazole-4,9-dione Mp: 245-246 °C verbatim in Molecules 2024, 29, 2777 (PMC11206905)."
+  },
+  {
+    "id": "781",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 17a (10H,11H,12H-dihydroquino[2,3,4-kl]acridine) m.p. 186 °C verbatim in Molecules 2001, 6(4), 300-322 (PMC6236359)."
+  },
+  {
+    "id": "1347",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 3 (bicyclic from dehydrofluorination of 2) 'A white solid, mp 230-232 °C, (0.87 g, >95% yield) was obtained' verbatim across PDF column wrap in J Org Chem 2021, 86, 3882-3889 (Moncho/Rozen). Substring check fails only because of PDF newline/column splits inside the embedded quote — the verbatim text is present after whitespace normalization (manually confirmed at line 338 of pdftotext output)."
+  },
+  {
+    "id": "499",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 4c '(1R) N-(1-(N-tert-Butylcarbamoyl)-1-(4-(dimethylamino)pyridyn-3-yl)methyl)-L-t-leucine methyl ester' m.p. 165-166 °C verbatim in Molecules 2011 (PMC6264237)."
+  },
+  {
+    "id": "809",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 6 (2-(5-hydroxy-2-nitrophenyl)-4,6-dimethyl-1,2-dihydropyridine-3,5-dicarboxylic acid diethyl ester) m.p. 206-208 °C verbatim in Molecules 2001, 6(8), 683-693 (PMC6236365)."
+  },
+  {
+    "id": "150",
+    "verdict": "pass",
+    "flags": [],
+    "notes": "Compound 3i (1-(2'-bromo-5-fluoro-[1,1'-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol) Mp: 112 °C verbatim in Molecules 2026, 31(4):706 (PMC12943095)."
+  },
+  {
+    "id": "222",
+    "verdict": "fail",
+    "flags": ["flagged_evidence_quote_not_found"],
+    "notes": "Evidence quote '[Glu(OBu)][IBU] 206.8 247.7 71.05 (1.983) -' is a Table 2 row excerpt. value_raw '71.05 °C' contains '°C' that is NOT in the evidence_quote — the unit lives in the column header (Tm or similar). The numeric 71.05 is in the quote but the verbatim string '71.05 °C' is not. Same class of failure as id=1101."
+  }
+]

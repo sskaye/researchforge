@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "149",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present in the paper file; compound 8, mp 216-217 o C, measured data type, and midpoint 216.5 C are supported."
+  },
+  {
+    "row_id": "422",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in the readable HTML text for compound M11; DOI is present; mp 230-233 º C, measured data type, and midpoint 231.5 C are supported."
+  },
+  {
+    "row_id": "303",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; compound 13a, mp 128-130 C, measured data type, and midpoint 129.0 C are supported."
+  },
+  {
+    "row_id": "177",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt under the synthesis of 6-iodo-4-chloroquinazoline (4); DOI is present; mp 188-191 C and midpoint 189.5 C are supported."
+  },
+  {
+    "row_id": "268",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; compound 5f, mp 210-212 C, measured data type, and midpoint 211.0 C are supported."
+  },
+  {
+    "row_id": "231",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; Soulattrin (1), m.p. 180-181 C, measured data type, and midpoint 180.5 C are supported."
+  },
+  {
+    "row_id": "17",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; compound 6c, m.p. 226-229 C, measured data type, and midpoint 227.5 C are supported."
+  },
+  {
+    "row_id": "445",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Raw HTML quote found in the supplied HTML file; DOI is present; compound (E)-7h, Mp 138-139 C, measured data type, and midpoint 138.5 C are supported."
+  },
+  {
+    "row_id": "412",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in the readable HTML text for compound M1; DOI is present; mp 207-210 with Celsius inferred from section convention, measured data type, and midpoint 208.5 C are supported."
+  },
+  {
+    "row_id": "66",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; Quinolin-2-ol, mp 193-195 C, measured data type, and midpoint 194.0 C are supported."
+  },
+  {
+    "row_id": "112",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; compound 6b, M.P. 118-120 C, measured data type, and midpoint 119.0 C are supported."
+  },
+  {
+    "row_id": "62",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; compound 2c, mp 170-172 C, measured data type, and midpoint 171.0 C are supported."
+  },
+  {
+    "row_id": "55",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; compound 5m, Melting Point 203-204 C, measured data type, and midpoint 203.5 C are supported."
+  },
+  {
+    "row_id": "44",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; compound 5b, Melting Point 295-296 C, measured data type, and midpoint 295.5 C are supported."
+  },
+  {
+    "row_id": "116",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; compound 6f, M.P. 130-132 C, measured data type, and midpoint 131.0 C are supported."
+  },
+  {
+    "row_id": "27",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; the characterization section records melting points and supports N,4-Diphenylpiperazine-1-carbothioamide at 160.38 C as measured."
+  },
+  {
+    "row_id": "123",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; Table 1 binds compound III to bis(2,4-dihydroxybenzylidene)-1,3-diaminopropane with M.P. 89-91 C and midpoint 90.0 C."
+  },
+  {
+    "row_id": "416",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in the readable HTML text for compound M5; DOI is present; mp 216-219 C, measured data type, and midpoint 217.5 C are supported."
+  },
+  {
+    "row_id": "425",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in the readable HTML text for compound M14; DOI is present; mp 198-200 C, measured data type, and midpoint 199.0 C are supported."
+  },
+  {
+    "row_id": "80",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt Table 1 row 9; DOI is present; methyl 2-benzamido-2-(benzylamino)acetate (9) is bound to 104-106 C with midpoint 105.0 C."
+  },
+  {
+    "row_id": "250",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; PMC identifier is present and no DOI is provided in metadata; Philinopgenin C (3), mp 216.5-217.5 C, and midpoint 217.0 C are supported."
+  },
+  {
+    "row_id": "19",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; compound 7b is bound to m.p. 267-270 C with decomp. noted immediately after the value, and midpoint 268.5 C is supported."
+  },
+  {
+    "row_id": "163",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; compound 5, m.p. 243 o C, measured data type, and value 243.0 C are supported."
+  },
+  {
+    "row_id": "340",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote found in article_text.txt; DOI is present; compound 4b is bound to mp >300 C (decomp.), relation >, decomposition property, and measured data type."
+  },
+  {
+    "row_id": "444",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Raw HTML quote found in the supplied HTML file; DOI is present; compound 7e, Mp 99-100 C, measured data type, and midpoint 99.5 C are supported."
+  }
+]

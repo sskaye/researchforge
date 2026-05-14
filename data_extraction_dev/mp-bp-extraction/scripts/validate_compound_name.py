@@ -55,10 +55,118 @@ _TRUNCATED_LOCANT_PREFIX = re.compile(
 )
 
 
+# v1.5: terminal unfinished-suffix tokens. Names that end in these tokens
+# without a trailing 'e' or terminal punctuation are usually one or two
+# characters short — caused by a PDF wrap or a column-boundary cut.
+# Observed in Trial-2 gpt55_high (rows ending in "...Carboxamid",
+# "...Carbo", "carbonitril", "sulfonamid").
+_TERMINAL_UNFINISHED = re.compile(
+    r"("
+    r"carboxamid|carbo|carbonitril|sulfonamid|carbohydrid|"
+    r"carboxylat|sulfonat|phosphat|phosphonat|"
+    r"carbothioamid|carboxamidin|sulfanyl"
+    r")$",
+    re.IGNORECASE,
+)
+
+# v1.5: names ending in a dangling hyphen or apostrophe (e.g.,
+# "Phenyl(6'-", "8-(1-(3-(5'-") — dangling locants left mid-substituent.
+_DANGLING_TAIL = re.compile(r"[\-'`’′]\s*$")
+
+# Note: an earlier v1.5 draft included a "leading open-paren = truncation"
+# rule. We dropped it because legitimate IUPAC names routinely start with
+# parenthesized stereo / optical descriptors like (E)-, (-)-, (R,S)-,
+# (2E,4E)-, (SS,S)-. Sonnet's actual failure mode (missing leading
+# "4-(4-" substituent block) is already caught by the bracket-balance
+# check below, since dropping the leading "4-(" produces a name with
+# more closing parens than opening parens.
+
+# v1.5: procedure-text contamination. If the compound name contains
+# experimental-procedure words, it's almost certainly a sentence that
+# bled into the name field rather than a compound.
+#
+# Note: 'yielded', 'mixture', 'solution', 'residue' are NOT here. They
+# appear in legitimate chemistry annotations ("(4l/4m mixture)",
+# "isomer mixture", "as an aqueous solution"). The list focuses on
+# words that are almost never part of a compound name.
+_PROCEDURE_WORDS = re.compile(
+    r"\b(afforded?|stirred|heated|cooled|filtered|added\s+to|"
+    r"reaction|distilled|crystallized|recrystalliz|"
+    r"NMR\s|IR\s|HRMS|m\.?\s*p\.?\s*=|mp\s*=)\b",
+    re.IGNORECASE,
+)
+
+
+# v1.6: elemental-analysis prefix contamination. Some agents capture the
+# elemental-analysis line preceding the compound name and prepend it.
+# Pattern: "C, NN.NN; H, N.NN; N, N.NN. (rest of name)" or variants
+# with semicolon or comma separators.
+# Observed in Trial-3 Opus rows 364, 365, 493.
+_EA_PREFIX = re.compile(
+    r"^\s*[CHNOSP]\s*,\s*\d{1,3}\.\d{1,2}\s*[;,]\s*"
+    r"[CHNOSP]\s*,\s*\d{1,3}\.\d{1,2}",
+)
+
+# v1.6: leading paper-local code prefix. Pattern: "5 (IUPAC name)" or
+# "11h (IUPAC name)" — a numeric/alphanumeric code followed by the real
+# name in parens. The Phase-6e strip-leading-prefix rule existed in the
+# regex-based predecessor; reinstated here.
+# Observed in Trial-3 Opus row 920.
+_LEADING_CODE_PREFIX = re.compile(
+    r"^\s*\d{1,3}[a-z]?\s+\(",
+)
+
+# v1.6: procedure-text at the start of the compound_name field. The
+# _PROCEDURE_WORDS check above fires anywhere in the name; this check
+# specifically catches the "name field starts with procedure text" case
+# (e.g., "(Yield 94%),"), which is almost always a sentence-fragment
+# capture rather than a chemistry name.
+# Observed in Trial-3 Opus row 530.
+_PROCEDURE_AT_START = re.compile(
+    r"^\s*\(?\s*(Yield|Y\.|White|Yellow|Brown|Pale|Pink|Orange|Red|Dark|"
+    r"Colorless|Crystalline|Amorphous|solid|powder|crystals?)\b",
+    re.IGNORECASE,
+)
+
+
+def _has_balanced_brackets(s: str) -> str | None:
+    """Return error string if parens / brackets / braces / primes don't
+    balance in the compound name."""
+    for open_ch, close_ch, label in (
+        ("(", ")", "parens"),
+        ("[", "]", "brackets"),
+        ("{", "}", "braces"),
+    ):
+        if s.count(open_ch) != s.count(close_ch):
+            return (f"unbalanced {label} ({s.count(open_ch)} open vs. "
+                    f"{s.count(close_ch)} close)")
+    # Primes/apostrophes: rough check that they appear in pairs after the
+    # first character. A single trailing prime is a tell of "5'-" or "6'-"
+    # dangling locants. Allow even counts; flag a lone trailing prime.
+    n_primes = s.count("'") + s.count("’") + s.count("′")
+    if n_primes % 2 == 1 and re.search(r"[\-(][^()\-]*['’′]\s*$", s):
+        return "unmatched trailing prime/apostrophe (dangling locant)"
+    return None
+
+
 def check_name_shape(name: str) -> str | None:
     if not name or not name.strip():
         return "compound_name is empty"
     n = name.strip()
+    # v1.6: elemental-analysis prefix contamination (must run early so
+    # the EA prefix doesn't confuse other checks).
+    if _EA_PREFIX.match(n):
+        return (f"compound_name has elemental-analysis prefix contamination "
+                f"(e.g., 'C, NN.NN; H, N.NN'): {n[:60]!r}")
+    # v1.6: leading paper-local code prefix (e.g., "5 (IUPAC name)").
+    if _LEADING_CODE_PREFIX.match(n):
+        return (f"compound_name starts with a paper-local code prefix "
+                f"(e.g., '5 (IUPAC name)'): {n[:60]!r} — strip the code "
+                f"or move it to the trailing parenthesized label")
+    # v1.6: procedure-text-at-start (e.g., "(Yield 94%),", "White solid,").
+    if _PROCEDURE_AT_START.match(n):
+        return (f"compound_name starts with procedure-text / appearance "
+                f"description rather than a chemistry name: {n[:60]!r}")
     if _BARE_CODE.match(n):
         return f"compound_name is a bare paper-local code: {n!r}"
     if _BARE_NUMBER.match(n):
@@ -69,10 +177,49 @@ def check_name_shape(name: str) -> str | None:
         return (f"compound_name appears truncated at an indicated-hydrogen "
                 f"locant; expected leading digit before the H- "
                 f"(name starts with {n[:30]!r})")
+    # v1.5: dangling trailing hyphen/apostrophe = mid-substituent cut.
+    if _DANGLING_TAIL.search(n):
+        return (f"compound_name ends with a dangling hyphen/prime "
+                f"(mid-substituent truncation): {n[-30:]!r}")
+    # v1.5: terminal unfinished-suffix tokens (Carboxamid, Carbo, etc.).
+    nl_strip = n.rstrip(".,; ").lower()
+    m = _TERMINAL_UNFINISHED.search(nl_strip)
+    if m:
+        suffix = m.group(1)
+        # 'sulfanyl' is the only one in the list that's a real suffix on
+        # its own (e.g., "methylsulfanyl-..."); it only flags when at
+        # the absolute end. Same for 'carbo' which is a frequent cut of
+        # 'carboxamide' / 'carbonate' / etc.
+        return (f"compound_name ends in unfinished suffix token "
+                f"{suffix!r}; likely truncated mid-token: {n[-40:]!r}")
+    # v1.5: bracket/paren/prime balance.
+    bal = _has_balanced_brackets(n)
+    if bal:
+        return f"compound_name has {bal}: {n[:60]!r}"
+    # v1.5: procedure-text contamination.
+    pm = _PROCEDURE_WORDS.search(n)
+    if pm:
+        return (f"compound_name contains procedure-text token "
+                f"{pm.group(0)!r}; experimental paragraph leaked into "
+                f"name field: {n[:80]!r}")
     # Truncated substituent prefix: name ends in "-<suffix>" or "<suffix>"
     # where suffix is in the truncated set AND the name has no recognizable
     # parent scaffold (no -ane, -ene, -ine, -one, -ole, etc. heteroatom hint).
     nl = n.lower().rstrip(".,; ")
+    # Legitimate -phenyl-family parent names that the suffix check would
+    # otherwise mis-flag (biphenyl, terphenyl, quaterphenyl, diphenyl,
+    # triphenyl scaffolds are real IUPAC parents).
+    if re.search(r"\b(?:bi|ter|quater|di|tri|tetra)phenyl\b", nl):
+        return None
+    # Common "-yl" parent compounds where the trailing -yl is part of the
+    # name, not a substituent prefix indicating truncation. Treat these
+    # endings as legitimate parents.
+    _YL_PARENT_NAMES = (
+        "binaphthyl", "naphthyl", "anthryl", "phenanthryl",
+        "biphenyl", "terphenyl", "quaterphenyl",
+    )
+    if any(nl.endswith(p) for p in _YL_PARENT_NAMES):
+        return None
     for suf in _TRUNCATED_SUFFIXES:
         if nl.endswith("-" + suf) or nl.endswith(suf):
             # Allow if the name also contains a parent indicator

@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "183",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "The evidence quote is present and supports compound 4a, but the paper prints the range as \"Mp = 174-76°C\" while value_raw is recorded as \"174-176°C\"."
+  },
+  {
+    "row_id": "244",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports Mesuasinone m.p. 118-119 °C as a measured melting point."
+  },
+  {
+    "row_id": "21",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports compound 8a m.p. 209-213 °C as a measured melting point."
+  },
+  {
+    "row_id": "108",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 is present and supports Hydroxychloroquine literature Tm 367.1 K; the conversion 367.1 - 273.15 = 93.95 °C is correct."
+  },
+  {
+    "row_id": "58",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports Chol-ZnPc melting point higher than 300 °C with relation >."
+  },
+  {
+    "row_id": "247",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports Betulinic acid m.p. 290-291 °C as a measured melting point."
+  },
+  {
+    "row_id": "275",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports compound 5m mp 200-202 °C as a measured melting point."
+  },
+  {
+    "row_id": "165",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports 4-Amino-3-phenyl-1H-1,2,4-triazole (36) m.p. 86-88 °C."
+  },
+  {
+    "row_id": "398",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The raw HTML quote is present and supports 3,3-Dichloro-4-(chloromethyl)-1-phenylpyrrolidin-2-one (2d) m.p. 127-130 °C."
+  },
+  {
+    "row_id": "181",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports compound 2 mp 326-327°C as a measured melting point."
+  },
+  {
+    "row_id": "115",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports compound 6e M.P. 140-142 °C as a measured melting point."
+  },
+  {
+    "row_id": "30",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports compound 3d 204.90 °C in the compound characterization section."
+  },
+  {
+    "row_id": "312",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports compound 5b Mp 307-308 °C as a measured melting point."
+  },
+  {
+    "row_id": "4",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports AL4 M.p. 231.5 °C (dec.) as a measured melting/decomposition point."
+  },
+  {
+    "row_id": "241",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 is present and supports the 50 mol% NbCl5 ionic mixture melting point of 57 °C; pmc:PMC3692303 matches the supplied paper."
+  },
+  {
+    "row_id": "37",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports compound 3k 111.76 °C in the compound characterization section."
+  },
+  {
+    "row_id": "298",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports compound 10a mp 171-173 °C as a measured melting point."
+  },
+  {
+    "row_id": "343",
+    "verdict": "flagged_review",
+    "reason": "flagged_metadata_mismatch",
+    "details": "The PDF text contains DOI 10.3762/bjoc.10.317 and the quote supports the value, but source_url is legacy:manifest_178 rather than the DOI URL."
+  },
+  {
+    "row_id": "419",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The compound and value are present in the HTML, but the evidence_quote is a tag-stripped readable rendering and is not present in the raw HTML with only whitespace/hyphen normalization."
+  },
+  {
+    "row_id": "98",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports compound 5b m.p. 88-92 °C as a measured melting point."
+  },
+  {
+    "row_id": "317",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports compound 12 mp 74-75 °C as a measured melting point."
+  },
+  {
+    "row_id": "173",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports compound 15a mp 226-228 °C as a measured melting point."
+  },
+  {
+    "row_id": "92",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports compound 7a mp 44-46 °C as a measured melting point."
+  },
+  {
+    "row_id": "264",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports compound 5b mp 180-200 °C as a measured melting point."
+  },
+  {
+    "row_id": "233",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The quote is present in article_text.txt and supports Caloxanthone C m.p. 210-212 °C as a measured melting point."
+  }
+]

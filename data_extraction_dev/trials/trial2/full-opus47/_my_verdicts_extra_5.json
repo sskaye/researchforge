@@ -1,0 +1,127 @@
+[
+  {
+    "id": "1785",
+    "verdict": "pass",
+    "notes": "DOI 10.3762/bjoc.20.154 present; quote \"M.p. = 187 \u2013 188 \u00baC.\" found verbatim in paper (gomezayuso_2024). Compound 9n correctly identified. Value 187-188 \u00b0C \u2192 187.5 mean ok."
+  },
+  {
+    "id": "853",
+    "verdict": "pass",
+    "notes": "PMC12937307 present in paper; quote \"Yield 93%; mp 136\u2013138 \u00b0C\" found verbatim; compound 6d matches."
+  },
+  {
+    "id": "383",
+    "verdict": "pass",
+    "notes": "Paper text contains \"Yield 0.210 g (79%), mp 109.9\u00b0C.\" (one less space before \u00b0C); under whitespace-folded matching this is a contiguous substring match. Compound 4g and value 109.9 \u00b0C are correct."
+  },
+  {
+    "id": "1736",
+    "verdict": "pass",
+    "notes": "Quote found verbatim in muller_2020 Table 5; methanoic acid CAS 64-18-6; column mapping correct: Enthalpy=233.81, Onset=-50.4, Peak=-49.4; row uses Peak=-49.4 \u00b0C; data_type=measured (DSC)."
+  },
+  {
+    "id": "1642",
+    "verdict": "flagged_doi_unrelated_paper",
+    "notes": "Source URL DOI 10.3390/molecules30010055 not in any paper. Polydatin/504.65 data appears in dichi_2025 polyphenols paper (DOI 10.3390/molecules30010199) \u2014 different DOI. Quote also templated (not a contiguous substring)."
+  },
+  {
+    "id": "1853",
+    "verdict": "flagged_doi_unrelated_paper",
+    "notes": "Source URL DOI 10.3390/molecules25225314 not in paper text. Paper containing the verbatim quote (chmielewska_2020) has DOI 10.3390/pharmaceutics12111098."
+  },
+  {
+    "id": "256",
+    "verdict": "pass",
+    "notes": "PMC12943095 in paper; quote found verbatim; compound 3c, value 67 \u00b0C correct."
+  },
+  {
+    "id": "1830",
+    "verdict": "pass",
+    "notes": "DOI 10.3762/bjoc.19.99 present in paper (ledermann_2023); quote found verbatim; compound 5f, mp 207.2 \u00b0C correct."
+  },
+  {
+    "id": "1263",
+    "verdict": "pass",
+    "notes": "PMC6146434 paper; quote with \"mp: 237-39\u00b0C\" found verbatim; compound 3f. value 237-39 = 237-239 acceptable shorthand; data_type measured."
+  },
+  {
+    "id": "1662",
+    "verdict": "pass",
+    "notes": "PMC6146921 in paper; quote \"5 cyclopentane 49.262 48.20 1.06 43.20 6.06 52.5 -3.24\" matches Table 12 row; bp value 49.262 \u00b0C from \"Obsd\" column; compiled experimental data with citation to Estrada ref."
+  },
+  {
+    "id": "1410",
+    "verdict": "pass",
+    "notes": "DOI 10.3390/molecules29122777 present; quote \"Recrystallization with MeOH produced orange needles. Mp: 245\u2013246 \u00b0C\" found verbatim; compound 5c correct."
+  },
+  {
+    "id": "178",
+    "verdict": "pass",
+    "notes": "DOI 10.1002/ardp.70227 present; quote \"( 14 ): Orange solid, mp 268\u00b0C\u2013270\u00b0C.\" found verbatim; compound 14 correct."
+  },
+  {
+    "id": "1339",
+    "verdict": "pass",
+    "notes": "PMC7158184 review chapter; quote \"Boiling point of 11 \u00b0C\" found verbatim; chlorine dioxide; value 11 \u00b0C. Note: source is review book chapter; data_type=measured but is compiled from literature."
+  },
+  {
+    "id": "780",
+    "verdict": "pass",
+    "notes": "DOI 10.3390/molecules31050844 present; quote with \"M.P.: 143\u2013145 \u00b0C\" found verbatim; compound 4c correct."
+  },
+  {
+    "id": "75",
+    "verdict": "pass",
+    "notes": "DOI 10.1021/acs.joc.9b00711 paper present; quote \"Yellow solid; 1.69 g, 87 % yield; m.p. 205-206\" found verbatim; compound 4r mp 205-206 \u00b0C correct."
+  },
+  {
+    "id": "463",
+    "verdict": "pass",
+    "notes": "DOI 10.1055/s-0036-1588731 present in PMC6193241 paper; quote \"light-brown solid; mp 109-111 \u00b0C\" found verbatim; compound 7a correct."
+  },
+  {
+    "id": "130",
+    "verdict": "pass",
+    "notes": "DOI 10.3390/ph19020230 (paper PMC12943044) present; quote with compound 9a \"(25 mg, 60% yield); m.p. 184\u2013188 \u00b0C;\" found verbatim; correct."
+  },
+  {
+    "id": "755",
+    "verdict": "pass",
+    "notes": "PMC3127127 paper; quote \"44 2,2-dime-1-propanol 5.0000 2.7347 113.1 104.8 8.3\" matches Table 5 row; BP 113.1 \u00b0C; compound abbreviated \"2,2-dime-1-propanol\" = 2,2-dimethyl-1-propanol (neopentyl alcohol). Compound name in row uses full IUPAC."
+  },
+  {
+    "id": "1077",
+    "verdict": "pass",
+    "notes": "DOI 10.3390/71000756 (paper PMC6146533) present; quote \"m.p. 243 o C\" found verbatim; compound 5 / 6-Phenylamino-4-benzalaminothieno[3,2-d]pyrimidin-7-carbonitrile."
+  },
+  {
+    "id": "1571",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Quote with compound name + MW + MP is split across two PDF columns in rios_2026 paper; not a contiguous substring. DOI 10.1039/d6ra00701e is present but quote is not a verbatim contiguous match."
+  },
+  {
+    "id": "1253",
+    "verdict": "pass",
+    "notes": "DOI 10.3390/70400382 paper PMC6146437 present; quote with compound 4E \"mp 115 \u00b0C (ethanol)\" found verbatim; correct."
+  },
+  {
+    "id": "1063",
+    "verdict": "pass",
+    "notes": "DOI 10.3390/60400300 paper PMC6236359 present; quote \"m.p. 214\u00b0C\" found verbatim; compound 5b correct."
+  },
+  {
+    "id": "1152",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Quote \"(16): ...; mp 62\u201365 \u00b0C;\" contains literal ellipsis joining non-adjacent spans, which is prohibited per v1.5 standards."
+  },
+  {
+    "id": "1469",
+    "verdict": "pass",
+    "notes": "DOI 10.1021/jacs.4c15317 present; quote \"scanning calorimetry (DSC, Figure S4): 147 \u00b0C\" found verbatim; compound Ag(GN)2(BF4) coordination polymer 1; DSC Tm."
+  },
+  {
+    "id": "1451",
+    "verdict": "pass",
+    "notes": "DOI 10.1134/S1070428022030101 paper PMC9007260 present; quote \"orange powder, mp 228\u00b0C\" found verbatim; compound 1c correct."
+  }
+]

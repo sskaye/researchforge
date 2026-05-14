@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "152",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied Molecules paper; the quoted compound 10b span is present in article_text.txt and supports 207-208 °C as a measured melting point."
+  },
+  {
+    "row_id": "322",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied paper; the BOD-AP characterization quote is present and supports Mp: 203-205 °C as a measured melting point."
+  },
+  {
+    "row_id": "78",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied Molecules paper; Table 1 row 7 binds compound 7 to 173-174 °C, giving the stated midpoint."
+  },
+  {
+    "row_id": "138",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The quoted span is present near the Ia synthesis and contains 287-288 °C, but the claimed evidence_quote itself does not contain the compound name or the Ia label required for quote support."
+  },
+  {
+    "row_id": "38",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied ACS Omega paper; the compound 3l characterization quote is present and supports 180.66 °C as a measured melting point."
+  },
+  {
+    "row_id": "105",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied Chemical Data Collections paper; Table 5 binds Dexamethasone to the literature Tm value 524.15 K, and 524.15 K - 273.15 = 251.00 °C."
+  },
+  {
+    "row_id": "350",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The legacy PDF source contains the o,m'-quaterphenyl (16) synthesis paragraph and supports mp 84-86 °C; the legacy source_url is acceptable because the notes identify the original DOI absence."
+  },
+  {
+    "row_id": "343",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The legacy PDF source contains the 1,1'-(1,2-phenylene)bis(3-benzylthiourea) (1b) characterization and supports mp = 159 °C."
+  },
+  {
+    "row_id": "233",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied Molecules paper; the Caloxanthone C spectral-data quote is present and supports m.p. 210-212 °C."
+  },
+  {
+    "row_id": "170",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied RSC Advances paper; the compound 12b characterization quote is present and supports MP = 222-225 °C."
+  },
+  {
+    "row_id": "351",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The legacy PDF source contains the o,o'-quaterphenyl (17) synthesis paragraph and supports mp 110-113 °C; the legacy source_url is acceptable because the notes identify the original DOI absence."
+  },
+  {
+    "row_id": "217",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied Molecules paper; the compound 4a characterization quote is present and supports the printed shorthand range mp: 256-58 °C as 256-258 °C."
+  },
+  {
+    "row_id": "368",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The supplied PDF named in the notes contains Table 3, where [Ch][Ac]/[Ch][Ib] is bound to Tm,eu 41 °C; the legacy source_url is acceptable with the complete citation and source notes."
+  },
+  {
+    "row_id": "169",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied ACS Omega paper; the synthesis paragraph for compound 5 is present and supports mp 55-56 °C."
+  },
+  {
+    "row_id": "300",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied IJMS paper; the compound 11b characterization quote is present and supports mp 202-204 °C."
+  },
+  {
+    "row_id": "223",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied Molecules paper; the Tyrindolinone spectral-data quote is present and supports mp 117 °C."
+  },
+  {
+    "row_id": "201",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied Molecules paper; the compound 3g characterization quote is present and supports the printed shorthand range mp: 245-47 °C as 245-247 °C."
+  },
+  {
+    "row_id": "115",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied Molecules paper; the compound 6e characterization quote is present and supports M.P.: 140-142 °C."
+  },
+  {
+    "row_id": "256",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied Molecules paper; the Anthrone spectral-data quote is present and supports mp 152° as a melting point."
+  },
+  {
+    "row_id": "242",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The PMC identifier is supported by the source directory name; Table 1 binds the 40 mol% NbCl5 ionic mixture row to melting point 36 °C."
+  },
+  {
+    "row_id": "35",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied ACS Omega paper; the compound 3i characterization quote is present and supports 175.78 °C as a measured melting point."
+  },
+  {
+    "row_id": "324",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied Molecules review; the quote binds PG2-C18 full ester to mp 59.4 °C, and compiled literature values are acceptable as measured data_type."
+  },
+  {
+    "row_id": "415",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied HTML paper; the M4 characterization text is present and supports mp 205-208 °C."
+  },
+  {
+    "row_id": "58",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied Materials paper; the Chol-ZnPc synthesis quote is present and supports a melting point higher than 300 °C with relation >."
+  },
+  {
+    "row_id": "84",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI appears in the supplied Molecules paper; the compound 7b characterization quote is present and supports mp 152-153 °C."
+  }
+]

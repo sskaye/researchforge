@@ -1,0 +1,110 @@
+L156
+5-Acetyl-2-ethyl-6-phenyl-4-phenylaminopyridazin-3(2H)-one, 2a Yield = 43%; mp = 187–189 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.40 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.70 (s, 3H, COCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.20 (m, 10H, Ar), 8.21(exch br s, 1H, NH).
+L160
+5-Acetyl-2-ethyl-4-(3-fluorophenylamino)-6-phenylpyridazin-3(2H)-one, 2b Yield = 52%; mp = 174–175 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.45 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.75 (s, 3H, COCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 6.80 (m, 3H, Ar), 7.30 (m, 6H, Ar), 8.
+L164
+5-Acetyl-4-(3-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2c Yield = 64%; mp = 186–187 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.50 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.80 (s, 3H, COCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.20 (m, 4H, Ar), 7.40 (s, 5H, Ar), 8.
+L168
+5-Acetyl-4-(3-bromophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2d Yield = 65%; mp = 189–190 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.50 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.80 (s, 3H, COCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.20 (m, 4H, Ar), 7.40 (m, 5H, Ar), 8.2
+L171
+5-Acetyl-2-ethyl-4-(3-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2e Yield = 54%; mp = 158–159 °C (EtOH); 1 H-NMR (400 MHz, DMSO- d 6 ) δ 1.33 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.71 (s, 3H, COCH 3 ), 3.68 (s, 3H, OCH 3 ), 4.16 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 6.65 (m, 3H,
+L175
+3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)-benzonitrile, 2f Yield = 53%; mp = 226–227 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.44 (t, 3H, CH 2 CH 3 , J = 7.3 Hz), 1.78 (s, 3H, COCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.1 Hz), 7.40 (m, 9H, Ar), 8.64 (exc
+L179
+5-Acetyl-2-ethyl-6-phenyl-4-(3-trifluoromethylphenylamino)pyridazin-3(2H)-one, 2g Yield = 35%; mp = 157–159 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.50 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.70 (s, 3H, COCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.40 (m, 9H, Ar), 8.40 (exch 
+L183
+5-Acetyl-2-ethyl-4-(3-hydroxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2h Yield = 22%; mp = 185–187 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.50 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.80 (s, 3H, COCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 6.60 (m, 3H, Ar), 7.40 (m, 6H, Ar), 8
+L187
+3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)benzoic Acid, 2i Yield = 77%; mp = 262–264 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.40 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.80 (s, 3H, COCH 3 ), 4.40 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.30 (m, 6H, Ar), 7.80 (s, 1
+L191
+5-Acetyl-2-ethyl-4-(2-fluorophenylamino)-6-phenylpyridazin-3(2H)-one, 2j Yield = 43%; mp = 184–186 °C (EtOH); 1 H-NMR (400 MHz, DMSO- d 6 ) δ 1.32 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.58 (s, 3H, COCH 3 ), 4.16 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.15 (m, 6H, Ar), 7.35 (m, 3H, Ar),
+L195
+5-Acetyl-4-(4-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2k Yield = 64%; mp = 183–184 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.51 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.80 (s, 3H, COCH 3 ), 4.29 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.00 (d, 2H, Ar, J = 8.4 Hz), 7.35 (d,
+L199
+5-Acetyl-4-(4-bromophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2l Yield = 70%; mp = 185–186 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.30 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.80 (s, 3H, COCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 6.90 (d, 2H, Ar, J = 8.3 Hz), 7.30 (d, 
+L203
+5-Acetyl-2-ethyl-4-(4-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2m Yield = 67%; mp = 161–162 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.45 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.70 (s, 3H, COCH 3 ), 3.80 (s, 3H, OCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 6.80 (d, 2H, Ar
+L207
+4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)benzoic Acid, 2n [ 36 ] Yield = 77%; mp = 252 °C dec.
+L212
+4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydro-pyridazin-4-ylamino)benzoic Acid Ethyl Ester, 2o Yield = 40%; mp = 171–173 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.48 (m, 6H, 3H CH 2 CH 3 + 3H OCH 2 CH 3 ), 1.80 (s, 3H, COCH 3 ), 4.32 (m, 4H, 2H CH 2 CH 3 + 2H OCH 2 CH 3 ), 7
+L216
+5-Acetyl-2-ethyl-4-(4-nitrophenylamino)-6-phenylpyridazin-3(2H)-one, 2p Yield = 73%; mp = 209–211 °C (EtOH); 1 H-NMR (400 MHz, DMSO- d 6 ) δ 1.34 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 2.04 (s, 3H, COCH 3 ), 4.19 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.04 (d, 2H, Ar, J = 8.4 Hz), 7.40 (
+L220
+3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydro-pyridazin-4-ylamino)-benzonitrile, 2q Yield = 80%; mp = 204–205 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.44 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.87 (s, 3H, COCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.06 (d, 2H, Ar, J = 8.3 H
+L224
+5-Acetyl-4-(benzo [1,3]dioxol-5-ylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2r Yield = 66%; mp = 189–191 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.50 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.70 (s, 3H, COCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 6.00 (s, 2H, OCH 2 O), 6.60 (m
+L228
+5-Acetyl-4-(3-chloro-4-methoxyphenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2s Yield = 64%; mp = 180–182 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.50 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.70 (s, 3H, COCH 3 ), 3.90 (s, 3H, OCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.65 (
+L239
+5-Acetyl-2-ethyl-6-phenyl-4-(pyridin-3-ylamino)pyridazin-3(2H)-one, 3a Yield = 26%; mp = 185–186 °C (EtOH); 1 H-NMR (400 MHz, DMSO- d 6 ) δ 1.34 (m, 3H, CH 2 CH 3 ), 1.72 (s, 3H, COCH 3 ), 4.18 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.29 (m, 3H, Ar), 7.41 (m, 4H, Ar), 8.26 (m, 1H, 
+L243
+5-Acetyl-2-ethyl-6-phenyl-4-(quinolin-8-ylamino)pyridazin-3(2H)-one, 3b Yield = 75%; mp = 179–180 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.49 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.75 (s, 3H, COCH 3 ), 4.34 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.25 (m, 1H, Ar), 7.45 (m, 7H, Ar), 7.5
+L247
+4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)naphthalene-1-carboxylic Acid, 3c Yield = 54%; mp = 258–260 °C (EtOH); 1 H-NMR (400 MHz, DMSO- d 6 ) δ 1.38 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.41 (s, 3H, COCH 3 ), 4.21 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.24 (m,
+L251
+5-Acetyl-2-ethyl-4-(6-hydroxynaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one, 3d Yield = 76%; mp = 235–236 °C (EtOH); 1 H-NMR (400 MHz, DMSO- d 6 ) δ 1.21 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.37 (s, 3H, COCH 3 ), 4.21 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 6.98 (d, 1H, Ar, J = 7.0 
+L255
+5 -Acetyl-2-ethyl-4-(5-hydroxynaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one, 3e Yield = 24%; mp = 234–236 °C (EtOH); 1 H-NMR (400 MHz, DMSO-d6) δ 1.18 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.37 (s, 3H, COCH 3 ), 4.22 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 6.89 (m, 2H, Ar), 7.36 (m, 
+L259
+5-Acetyl-2-ethyl-6-phenyl-4-(quinolin-5-ylamino)pyridazin-3(2H)-one, 3f Yield = 75%; mp = 220–221 °C (EtOH); 1 H-NMR (400 MHz, DMSO- d 6 ) δ 1.31 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.38 (s, 3H, COCH 3 ), 4.22 (q, 2H, CH 2 CH 3 , J = 7.2 Hz); 7.22 (m, 2H, Ar), 7.38 (m, 4H, Ar), 
+L263
+5-Acetyl-2-ethyl-4-(4-nitronaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one, 3g Yield = 11%; mp = 185–186 °C (EtOH); 1 H-NMR (400 MHz, DMSO- d 6 ) δ 1.37 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.71 (s, 3H, COCH 3 ), 4.22 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.18 (m, 1H, Ar), 7.40 (m, 
+L267
+5-Acetyl-2-ethyl-4-(8-hydroxyquinolin-5-ylamino)-6-phenylpyridazin-3(2H)-one, 3h Yield = 90%; mp = 261–262 °C (EtOH); 1 H-NMR (400 MHz, DMSO- d 6 ) δ 1.25 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.37 (s, 3H, COCH 3 ), 4.20 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 6.90 (d, 1H, Ar, J = 8.2 Hz
+L271
+5-Acetyl-2-ethyl-4-(8-fluoroquinolin-5-ylamino)-6-phenylpyridazin-3(2H)-one, 3i Yield = 71%; mp = 217–218 °C (EtOH); 1 H-NMR (400 MHz, DMSO- d 6 ) δ 1.35 (m, 6H, 3H CH 2 CH 3 + 3H COCH 3 ), 4.21 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.22 (m, 5H, Ar), 7.58 (m, 2H, Ar), 7.87 (d, 1H,
+L280
+Yield = 73%; mp = 264–265 °C (EtOH); 1 H-NMR (400 MHz, DMSO- d 6 ) δ 1.37 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.41 (s, 3H, COCH 3 ), 4.21 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.25 (m, 2H, Ar), 7.42 (m, 3H, Ar), 7.48 (m, 2H, Ar), 7.65 (m, 1H, Ar), 7.96 (d, 1H, Ar, J = 8.2 Hz), 8.35 (
+L290
+5-Acetyl-2-ethyl-4-ethylamino-6-phenylpyridazin-3(2H)-one, 4a Yield = 30%; mp = 113–114 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.30 (t, 3H, NHCH 2 CH 3 , J = 7.2 Hz), 1.50 (t, 3H, N CH 2 CH 3 , J = 7.2 Hz), 1.90 (s, 3H, COCH 3 ), 3.30 (q, 2H, NH CH 2 CH 3 , J = 7.2 Hz), 4.31
+L294
+5-Acetyl-2-ethyl-4-isopropylamino-6-phenylpyridazin-3(2H)-one, 4b Yield = 56%; mp = 80–83 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.30 (m, 6H, CH( CH 3 ) 2 ), 1.50 (t, 3H, NCH 2 CH 3 , J = 7.2 Hz), 1.88 (s, 3H, COCH 3 ), 4.38 (m, 3H, 2H N CH 2 CH 3 + 1H CH (CH 3 ) 2 ), 7.60 (
+L298
+5-Acetyl-4-cyclopentylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4c Yield = 38%; mp = 97–99 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.41 (t, 3H, NCH 2 CH 3 , J = 7.2 Hz), 1.65 (m, 6H, cC 5 H 9 ), 1.85 (s, 3H, COCH 3 ), 1.95 (m, 2H, cC 5 H 9 ), 4.21 (q, 2H, N CH 2 CH 3 , J = 7
+L302
+5-Acetyl-4-cyclohexylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4d Yield = 34%; mp = 123–125 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.44 (m, 8H, 3H NCH 2 CH 3 + 5H cC 6 H 11 ), 1.72 (m, 3H, cC 6 H 11 ), 1.85 (s, 3H, COCH 3 ), 2.02 (m, 2H, cC 6 H 11 ), 4.28 (q, 2H, NCH 2 CH 3
+L306
+5-Acetyl-4-cycloheptylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4e Yield = 36%; mp = 98–100 °C (EtOH); 1H-NMR (400 MHz, CDCl 3 ) δ 1.40 (t, 3H, NCH 2 CH 3 , J = 7.2 Hz), 1.62 (m, 8H, cC 7 H 13 ), 1.83 (s, 3H, COCH 3 ), 1.98 (m, 4H, cC 7 H 13 ), 4.15 (m, 3H, 2H N CH 2 CH 3 + 
+L314
+5-Acetyl-4-butylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4g Yield = 48%; mp = 67–69 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 0.95 (t, 3H, CH 3 (CH 2 ) 3 , J = 7.2 Hz), 1.42 (t, 3H, NCH 2 CH 3 , J = 7.2 Hz), 1.68 (m, 4H, ( CH 2 ) 2 CH 3 ), 1.88 (s, 3H, COCH 3 ), 3.23 (m, 2H, 
+L325
+5-Acetyl-2-ethyl-4-(4-methoxybenzylamino)-6-phenylpyridazin-3(2H)-one, 5a Yield = 57%; mp = 106–107 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.40 (t, 3H, NCH 2 CH 3 , J = 7.2 Hz), 1.55 (s, 3H, COCH 3 ), 3.82 (s, 3H, OCH 3 ), 4.25 (q, 2H, N CH 2 CH 3 , J = 7.2 Hz), 4.40 (d, 2H,
+L329
+5-Acetyl-4-(4-chlorobenzylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 5b Yield = 59%; mp = 131–133 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.38 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.52 (s, 3H, COCH 3 ), 4.25 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 4.60 (d, 2H, NH CH 2 , J = 6.2 Hz), 7.
+L333
+5-Acetyl-4-[2-(3,4-dimethoxyphenyl)ethylamino]-2-ethyl-6-phenylpyridazin-3(2H)-one, 5c Yield = 48%; mp = 111–112 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.39 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.85 (s, 3H, COCH 3 ), 2.88 (t, 2H, NHCH 2 CH 2 , J = 7.1 Hz), 3.59 (m, 2H, NH CH 2 C
+L337
+4-[(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)-methyl]benzoic Acid, 5d Yield = 52%; mp = 193–195 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.41 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.50 (s, 3H, COCH 3 ), 4.25 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 4.65 (d, 2H, NH CH 
+L341
+5-Acetyl-2-ethyl-4-(2-methoxybenzylamino)-6-phenylpyridazin-3(2H)-one, 5e Yield = 47%; mp = 97–99 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.40 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.70 (s, 3H, COCH 3 ), 3.85 (s, 3H, OCH 3 ), 4.20 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 4.60 (d, 2H, NH C
+L349
+5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-3-ylmethyl)-amino]pyridazin-3(2H)-one, 5g Yield = 57%; mp = 163–164 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.42 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.57 (s, 3H, COCH 3 ), 4.24 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 4.72 (d, 2H, NH CH 2 , J = 6.5 
+L353
+5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-2-ylmethyl)-amino]pyridazin-3(2H)-one, 5h Yield = 42%; mp = 138–140 °C (EtOH); 1H-NMR (400 MHz, CDCl 3 ) δ 1.43 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.81 (s, 3H, COCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 4.70 (d, 2H, NH CH 2 , J = 6.4 H
+L357
+5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-4-ylmethyl)amino]pyridazin-3(2H)-one, 5i Yield = 50%; mp = 150–151 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.40 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.55 (s, 3H, COCH 3 ), 4.24 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 4.75 (d, 2H, NH CH 2 , J = 6.3 H
+L365
+5-Acetyl-2-ethyl-6-phenyl-4-[(thiophen-3-ylmethyl)-amino]pyridazin-3(2H)-one, 5k Yield = 71%; mp = 133–135 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.40 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.58 (s, 3H, COCH 3 ), 4.22 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 4.58 (d, 2H, NH CH 2 , J = 6.5
+L369
+5-Acetyl-2-ethyl-4-[(4-methylisoxazol-3-ylmethyl)-amino]-6-phenylpyridazin-3(2H)-one, 5l Yield = 47%; mp = 113–115 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.40 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.80 (s, 3H, COCH 3 ), 2.40 (s, 3H, CH 3 ), 4.20 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 4
+L376
+Yield = 89%; mp = 149–151 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.41 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.78 (s, 3H, COCH 3 ), 4.24 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.42 (s, 5H, Ar), 8.20 (exch br s, 2H, NH 2 ).
+L384
+5-Acetyl-2-ethyl-4-(3-nitrophenylamino)-6-phenylpyridazin-3(2H)-one, 2t Yield = 40%; mp = 242–243 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.45 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.78 (s, 3H, COCH 3 ), 4.31 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.45 (m, 7H, Ar), 7.84 (s, 1H, Ar), 8.0
+L388
+5-Acetyl-4-(2-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2u Yield = 43%; mp = 177–178 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.32 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.57 (s, 3H, COCH 3 ), 4.16 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.20 (m, 3H, Ar), 7.28 (m, 2H, Ar), 7.
+L392
+5-Acetyl-2-ethyl-4-(2-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2v Yield = 30%; mp = 205–207 °C (EtOH); 1 H-NMR (400 MHz, DMSO- d 6 ) δ 1.33 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.52 (s, 3H, COCH 3 ), 3.73 (s, 3H, CH 3 ), 4.16 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 6.85 (t, 1H, 
+L396
+5-Acetyl-4-(3,5-difluorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2w Yield = 54%; mp = 243–245 °C (EtOH); 1H-NMR (400 MHz, CDCl 3 ) δ 1.44 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.80 (s, 3H, COCH 3 ), 4.31 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 6.59 (m, 3H, Ar), 7.40 (m, 5H, Ar),
+L400
+5-Acetyl-2-ethyl-4-(naphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one, 3l Yield = 51%; mp = 196–198 °C (EtOH); 1H-NMR (400 MHz, CDCl 3 ) δ 1.23 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.52 (s, 3H, COCH 3 ), 4.36 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 6.85 (t, 1H, Ar, J = 7.9 Hz), 7.34 (m,
+L409
+Yield = 34%; mp = 215–216 °C (EtOH); 1 H-NMR (400 MHz, DMSO- d 6 ) δ 1.36 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.43 (s, 3H, COCH 3 ), 2.22 (s, 3H, CH 3 Ar), 4.18 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.25 (m, 3H, Ar), 7.40 (m, 3H, Ar), 8.22 (s, 1H, Ar), 8.25 (d, 1H, Ar, J = 5.0 Hz), 8
+L417
+Yield = 36%; mp = 127–128 °C (EtOH); 1H-NMR (400 MHz, CDCl 3 ) δ 1.43 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 1.90 (s, 3H, COCH 3 ), 4.38 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.15 (m, 4H, Ar), 7.43 (s, 5H, Ar).
+L424
+5-Acetyl-2-ethyl-4-phenoxy-6-phenylpyridazin-3(2H)-one, 10a Yield = 64%; mp = 90–93 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.44 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 2.33 (s, 3H, COCH 3 ), 4.30 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.04 (d, 2H, Ar, J = 8.4 Hz), 7.15 (t, 1H, Ar, J = 7.
+L428
+5-Acetyl-2-ethyl-6-phenyl-4-phenylsulfanylpyridazin-3(2H)-one, 10b Yield = 68%; mp = 107–109 °C (EtOH); 1 H-NMR (400 MHz, CDCl 3 ) δ 1.41 (t, 3H, CH 2 CH 3 , J = 7.2 Hz), 2.12 (s, 3H, COCH 3 ), 4.27 (q, 2H, CH 2 CH 3 , J = 7.2 Hz), 7.32 (m, 3H, Ar), 7.43 (m, 7H, Ar).

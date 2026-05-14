@@ -1,0 +1,749 @@
+pmc Pharmaceuticals (Basel) Pharmaceuticals (Basel) pharmaceuticals Pharmaceuticals 1424-8247 MDPI 41754798 12943640 10.3390/ph19020256 pharmaceuticals-19-00256 Article Probing the Hydrophobic Part of Analogues of the Incadronate-Evidence of Their Interaction with Immunological System of Sheep https://orcid.org/0000-0002-9210-9841 Chmielewska Ewa Conceptualization Methodology Validation Formal analysis Investigation Writing – review & editing Visualization Supervision 1 * https://orcid.org/0000-0003-4980-6606 Wietrzyk Joanna Methodology Validation Formal analysis Investigation 2 Kuryszko Jan Methodology Formal analysis Investigation 3 † Kiełbowicz Zdzisław Methodology Formal analysis Investigation 3 † https://orcid.org/0000-0001-8019-4797 Kafarski Paweł Conceptualization Validation Writing – original draft Supervision Funding acquisition 4 Moreau Emmanuel Academic Editor 1 Department of Bioorganic Chemistry, Faculty of Chemistry, Wrocław University of Science and Technology, Wybrzeże Wyspiańskiego 27, 50-370 Wrocław, Poland 2 Laboratory of Experimental Anticancer Therapy, Department of Experimental Oncology, Ludwik Hirszfeld Institute of Immunology and Experimental Therapy Polish Academy of Sciences, Rudolfa Weigla 12, 53-114 Wrocław, Poland; joanna.wietrzyk@hirszfeld.pl 3 The Faculty of Veterinary Medicine, Wrocław University of Environmental and Life Sciences, Norwida 31, 50-375 Wrocław, Poland; jan.kuryszko@upwr.edu.pl (J.K.); zdzislaw.kielbowicz@upwr.edu.pl (Z.K.) 4 Department of Chemistry, Faculty of Agriculture and Forestry, University of Warmia and Mazury, Plac Łódzki 4, 10-721 Olsztyn, Poland; pawel.kafarski@uwm.edu.pl * Correspondence: ewa.chmielewska@pwr.edu.pl ; Tel.: +48-71-320-29-77 † Jan Kuryszko and Zdzisław Kiełbowicz passed away.
+01 2 2026 2 2026 19 2 256 08 1 2026 25 1 2026 30 1 2026 © 2026 by the authors.
+2026 https://creativecommons.org/licenses/by/4.0/ Licensee MDPI, Basel, Switzerland.
+This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license .
+Background : Thirty-five analogues of a promising antiosteoporotic drug, incadronate, have been synthesized and evaluated for their antiproliferative activity against mouse macrophage-like J774E cells.
+These cells originated from identical precursors as osteoclasts and served to select the most active compounds.
+Two of them, n -heptyl- and n -octyl-aminomethylenebispohosphonic acids, were then used for the medication of sheep with induced osteoporosis.
+They demonstrated mild antiosteoporotic activity that was documented using bone histopathology.
+Additionally, a decrease in the immunological response to Corynebacterium pseudotuberculosis was observed as a major side effect accompanied by this medication.
+Methods : Aminomethylenebisphosphonates may be obtained in the three-component reaction of aliphatic amine, triethyl orthoformate and diethyl phosphite with the further acid hydrolysis of crude esters.
+The obtained N -substituted alkiloaminomethylenebisphosphonic acids are presented alongside with their in vitro activity toward mouse macrophages J774E.
+Results : The new families of aminomethylenebisphosphonic compounds synthesized by our approach may be of practical importance due to the significant cytotoxic activity in the cell cultures investigated.
+Two of them were chosen for further evaluation in the treatment of induced osteoporosis in sheep.
+Conclusions : In vivo studies confirmed the mild therapeutic effects of compounds 4 ( N -( n -heptylamino)methylenebisphosphonic acid and 5 ( N -( n -octylamino)methylenebisphosphonic acid; however, they are not suitable analogues of incadronate for consideration as potential drugs.
+aminomethylenebisphosphonates synthesis of aminobisphosphonic acids osteoporosis sheep model ovariectomy biological activity of amino- gem -bisphosphonates preclinical studies bone remodeling sheep Wrocław Research Center EIT+ under the project ‘‘Biotechnologies and advanced medical technologies––BioMed’’ (POIG 01.01.02-02-003/08-00 financed by the European Regional Development Fund (Operational Programme Innovative Economy, 1.1.2) These studies were in part supported by the Wrocław Research Center EIT+ under the project ‘‘Biotechnologies and advanced medical technologies––BioMed’’ (POIG 01.01.02-02-003/08-00 financed by the European Regional Development Fund (Operational Programme Innovative Economy, 1.1.2).
+1.
+Introduction Osteoporosis is a chronic, progressive, multifactorial skeletal disorder characterized by decreased bone mass and deteriorated bone microarchitecture.
+These changes result in an increased risk of fracture.
+Osteoporosis is a common disease that affects 1 in 3 women and 1 in 12 men.
+Currently, there are an estimated 200 million women and 14 million men with osteoporosis or low bone mass worldwide [ 1 ].
+The lifetime risk of fracture related to osteoporosis is nearly 40% at the age of 50.
+Osteoporosis and the resulting fractures represent a significant public health burden [ 2 , 3 , 4 , 5 , 6 ].
+Healthy skeletal bone is continually remodeled (broken and subsequently replaced).
+Physiological bone remodeling is a highly coordinated process that is responsible for bone resorption and formation.
+This process is necessary to repair damaged bone and maintain mineral homeostasis.
+Approximately 5% of the bone surface is remodeled at any one time.
+This process is controlled by osteoblasts and osteoclasts.
+Osteoblasts generate new bone tissue, while osteoclasts break down bone tissue [ 7 , 8 , 9 , 10 ].
+Bone remodeling is dependent on various hormones, including parathyroid hormone, calcitriol, calcitonin, estrogen, testosterone, growth hormone, insulin-like growth factor, thyroid hormone, and cortisol [ 11 , 12 , 13 ].
+Dietary calcium and vitamin D are also important for bone health.
+Osteoporosis-related bone loss occurs when bone resorption prevails under bone formation.
+Bisphosphonates are the most common drugs for the treatment of osteoporosis.
+They slow bone loss by decreasing bone resorption [ 14 , 15 ] and are administered both orally and intravenously.
+They are divided into two classes, the low potency non-nitrogen containing bisphosphonates and the potent nitrogen-containing bisphosphonates.
+The pharmacology of potent nitrogen-containing bisphosphonates is complex [ 16 ].
+Their primary mechanism relays on the inhibition of the osteoclastic resorption of bone by both the promotion of the formation of the adenosine triphosphate analogue that induces apoptosis and the inhibition of farnesyl diphosphonate synthase.
+This inhibition results in the deregulation of intracellular transport, cytoskeletal organization and cell proliferation and results in the inhibition of osteoclast function [ 17 , 18 ].
+Bisphosphonates bind to bone and are internalized by osteoclasts to inhibit resorption.
+They are incorporated into newly formed bone and can persist for several years through multiple cycles of bone resorption and deposition.
+Bisphosphonates have a half-life of more than 10 years.
+Treatment over 10 years would result in a cumulative effect.
+Extended treatment may be detrimental to bone health by preventing the cyclic changes required to maintain normal bone architecture [ 19 , 20 , 21 ].
+Patients are continuously exposed to the pharmacological effects of the drug long after stopping the medication.
+Osteonecrosis of the jaw is a rare but recognized side effect resulting from long-term bisphosphonate use [ 22 , 23 , 24 ].
+The binding affinity of any bisphosphonate to hydroxyapatite will predict the likelihood of its attachment to bone and the duration of the attachment.
+Previous research revealed a complex network of interactions between these compounds and hydroxyapatite.
+These interactions involve phosphonic acid moieties, hydroxyl groups, and nitrogen moieties with a dependence on their position in an alkyl fragment or heterocyclic ring [ 17 ].
+Hydroxyl groups are present in most commercialized drugs ( Scheme 1 ) and enhance drug binding to bone.
+The removal of this group may result in weaker binding and a shorter persistence of the drug in bone [ 25 ].
+Incadronate (Bisphonal), also known as cimadronate ( Scheme 1 ), is an example of this type of drug that was applied for the treatment of malignancy-associated hypercalcemia in Japan [ 26 , 27 , 28 ].
+In this paper, a series of N -alkyl- and N -cycloalkylaminomethylenebisphosphonates, which are considered as analogues of incadronate, have been synthesized and examined for their antiproliferative activity against a mouse macrophage J774E derived cell sub-line [ 29 ].
+The most active compounds were used to heal fractures in sheep with steroid-induced osteoporosis [ 30 ].
+These animals were chosen because of their similarity of sheep bones to human ones in regard to their architecture, anisotropy, bone and joint organization and mechanisms of bone regeneration [ 31 , 32 ].
+The metabolic rate of sheep (based on oxygen consumption per gramme of body weight) is closer to that of man than a rat or dog model [ 33 ].
+2.
+Results 2.1.
+Chemistry The aminomethylenebisphosphonates were prepared by the classic three-component reaction between a primary or secondary amine, triethyl orthoformate, and diethyl phosphite, which was followed by acid hydrolysis of the obtained esters ( Scheme 2 ) [ 34 ].
+The structures of the final N -substituted aminomethylenebisphosphonic acids are presented with their in vitro activity toward mouse macrophage J774E in Table 1 .
+This general procedure also resulted in a high yield of the model compound incadronate.
+2.2.
+Influence of Mouse Macrophage J774E on Proliferation The antiproliferative activity on in vitro cell cultures was examined to detect the antiosteoporotic activity of bisphosphonates.
+Mouse macrophage-like J774E cells, originating from the identical precursors as osteoclasts, were used.
+The choice of these line was prompted by the fact that murine macrophage cell line, J744E, is standardly used to initially screen the immunomodulatory activity of some natural compounds [ 35 ] and is standardly used as an osteoclast surrogate in the preliminary screening for antiosteoporotic compounds [ 29 ].
+Cells, frozen in liquid nitrogen, are available from the bank of cell lines of the Polish Academy of Sciences in Wrocław.
+These cells were sensitive to aminomethylenebisphosphonates because of the induction of apoptosis [ 36 , 37 ].
+( Table 1 ).
+This sensitivity allowed us to determine the effect of these compounds on J774E growth and to select the most active compounds for in vivo studies.
+The results are presented as IC 50 values (the concentration of the tested agent that inhibits the proliferation of the cancer cell population by 50%).
+The J774E culture was sensitive to the action of the studied aminomethylenebisphosphonates ( Table 1 ).
+The most straightforward structure–activity relationship was obtained for linear alkanes with a bisphosphonate nitrogen atom substitution.
+These surfactant-like compounds ( 4 – 11 ) are strong inhibitors of J774E proliferation (an order of magnitude more potent than incadronate).
+The activity is independent of the hydrophobicity of the bisphosphonate.
+This finding is supported by the weaker activity of compounds 12 – 16 .
+These compounds are substituted at nitrogen by branched alkyl chains of a similar number of carbon atoms.
+The homologues of incadronate, compounds 17 , 18 and 20 , are equipped with the parent compound.
+The cyclopropyl derivative 17 is more than twice as active as the n -propyl bearing compound 2 .
+Generally, the antiproliferative activity of analogues of incadronate is less dependent on the hydrophobicity of the N substituent than on its shape, although these differences are non-indicative.
+2.3.
+In Vivo Evaluation of Compounds 4 and 5 Based on the literature data, sheep have proven invaluable in osteoporosis research [ 38 , 39 ].
+The mechanical properties of the macro- and microarchitecture of bone and the similar reaction to ovariectomy in sheep and humans are of high similarity, making ovariectomized sheep a suitable in vivo model.
+Moreover, osteoporosis induction in sheep is a simple and safe surgical approach, and sheep also have easy husbandry needs and a compliant nature.
+The human and sheep skeleton are similar in regard to estrogen deficiency and specific therapeutic agents.
+The advantages related to sheep use are many: the skeleton size and mechanical features of are similar to humans: older sheep show Haversian bone remodeling, they are genetically more human-like than rodents, and sheep show sex hormone profiles comparable to women.
+Merino sheep have an almost continuous the estrous cycle, they are relatively easy to handle and maintain, and they present fewer ethical concerns than other non-human primates [ 40 , 41 , 42 , 43 , 44 ].
+Osteoporosis was induced in female Merino sheep by a separately described regimen [ 45 ] (ovariectomy followed by controlled methylprednisolone treatment) [ 31 , 46 , 47 , 48 , 49 ].
+The level of bone loss was determined by bone mineral density using quantitative computed tomography (QCT) (64-row DISCOVERY 690 CT scanner made by GE ® , Waukesha, WI, USA) and X-ray microtomography (SkySkan 1172, 100kV, Bruker ® , Kontich, Belgium).
+Forty days after the last steroid administration, a bone biopsy was performed.
+Bone biopsies were taken using diamond-tipped trephine needles that were 9 mm in diameter.
+For the procedure, the animals were premedicated with xylazine at a dose of 0.25 mg/kg body weight, into a vein.
+Bone biopsies were placed in physiological fluid in tubes and transported for micro-CT examination.
+An ultrastructural and histological analysis of bone slides revealed that the described method of induction of osteoporosis in sheep was successful (see Figure 1 for representative examples).
+Compounds 4 and 5 were tested on female sheep with induced osteoporosis.
+They were chosen taking into consideration their high activity in vitro (higher than incadronate) and aqueous solubility suitable for drug formulation.
+Additionally, compound 4 is a formal isomer of incadronate.
+Bisphosphonate administration began after three months after ovariectomy.
+An aqueous solution of sodium salt of bisphosphonate (35 mg/sheep) was administered weekly, using a probe directly into the rumen.
+The first three doses were 150 mg per sheep, while the next six were 300 mg per sheep.
+In total, nine doses were administered to each sheep.
+The animals were then sacrificed (30 days after bisphosphonates therapy), and the bone samples from the mandible, humerus, radius, ulna, femur, tibia and pelvis were collected for histology.
+The activity experiments of compounds 4 and 5 were performed independently at time intervals.
+Mild antiosteoporotic activity of compounds 4 and 5 was observed from the induction of repair processes, but the speed of recovery was not satisfactory as indicated by preliminary histopathological examination ( Figure 2 and Figure 3 ) as well as histomorphometry analysis.
+Anyway, despite the short period of healing, some positive effect were observed; however, it might be not assumed that repair processes dominate when using these two bisphosphonates.
+This seems to disqualify them as drug candidates.
+Furthermore, sheep medication with compounds 4 and 5 was accompanied by severe side effects.
+Animals lost their fleece, and some weight loss was observed during the initial treatment period despite the fact that no significant deviations from the biochemical norms and hormonal markers were observed on blood tests.
+Sheep treated with compound 4 suffered caseous lymphadenitis in the late phase of the medication, resulting in outcomes ranging from skin injury to animal death.
+This result may be attributed to the decreased immunological response to Corynebacterium pseudotuberculosis , which is the causal agent of this infectious disease [ 50 , 51 ].
+Although it is well known that bisphosphonates interfere with immunological system [ 52 ], this is a surprising finding since data from the literature indicate that it is a common osteoporosis treatment that rather boosts immunologic response [ 53 ].
+3.
+Discussion A series of simple analogues of incadronate have been obtained and screened for their antiproliferative activity toward macrophage-like J774E cells.
+This in vitro antiproliferative test relied on the induction of cell apoptosis.
+Most of the analogues appeared to be active in this test.
+Unexpectedly, it was found that the hydrophobicity of the N -substituents does not influence their activity.
+Although in vitro studies did not provide a clear indication for selection of the most active compounds, two of them were chosen for further evaluation in the treatment of induced osteoporosis in sheep.
+In vitro studies confirmed not satisfactory, mild therapeutic effects of compounds 4 and 5 , and thus they are not suitable for consideration as potential drugs.
+Therefore, the search for novel antiosteoporotic bisphosphonates within this group of compounds should consider the introduction of functional groups, improving their solubility and/or modifying their binding to bone hydroxyapatite.
+Furthermore, the observed side effects and induction of caseous lymphadenitis by the compound suggest that the search for novel drugs in this class of compounds should be treated with some reservation.
+4.
+Materials and Methods 4.1.
+General Information All solvents and reagents that were purchased from commercial suppliers were of analytical grade and used without further purification.
+Unless otherwise specified, the solvents were removed with a rotary evaporator.
+The 1 H-, 31 P-, and 13 C-NMR spectroscopic experiments were performed on a Bruker Avance II Ultrashield Plus (Bruker, Rheinstetten, Germany) operating at 600.58 MHz ( 1 H), 243.12 MHz ( 31 P{ 1 H}), and 151.016 MHz ( 13 C) and a JEOL JNM-ECZ 400S Research FT NMR Spectrometer (JEOL Ltd., Tokyo, Japan) operating at 399.78 MHz ( 1 H), 161.83 MHz ( 31 P{ 1 H}), and 100.53 ( 13 C).
+Measurements were made in D 2 O, and solutions of D 2 O + NaOD at 300K, and all the solvents were supplied by Merck Life Science (Darmstadt, Germany).
+The chemical shifts are reported in ppm relative to TMS and 85% H 3 PO 4 , used as external standards, and the coupling constants are reported in Hz.
+The melting points were determined on an SRS Melting Point Apparatus OptiMelt MPA 100 (Stanford Research Systems, Sunnyvale, CA, USA) and are reported uncorrected.
+The purity of all test compounds was higher than 95% by 1 H NMR and LC-MS.
+The mass spectra were recorded at the Faculty of Chemistry, Wroclaw University of Science and Technology, using a Waters Aquity UPLC and Waters Xevo G3 QTof mass spectrometer (method of electrospray ionization, ESI) (Waters, Milford, MA, USA).
+4.2.
+Chemistry—Synthetic Procedure A mixture of amine (0.03 mol), triethyl phosphite (0.062 mol) and triethyl orthoformate (0.031 mol) was heated (120 °C) for 8–14 h with constant stirring a Radleys Carousel 6 Plus parallel synthesis reaction station (Saffron Walden, Essex, United Kingdom).
+The volatile components of the reaction mixture were evaporated, and the resulting crude product as oil was hydrolyzed with 6 N hydrochloric acid (20 mL) by refluxing for 12 h.
+The crude bisphosphonic acids were obtained by the evaporation of solvents (oils) and further purified by crystallization from hot water or a hot water–ethanol (80/20) mixture.
+In some cases, during hot crystallization, activated carbon was used to decolorize the solutions, which were filtered off under reduced pressure.
+Crystal growth was observed after the solution was cool.
+In the case of acids 6 – 11 , upon evaporation of the aqueous hydrochloric acid solution, the product was observed as solid.
+In this case, the resulting crude bisphosphonic acid was not crystallized because of its complete insolubility in water or alcohol.
+These products were washed with water.
+Aminomethylenebisphosphonic acid ( 1 ) was obtained from methylbenzylamine as a white solid (85% yield from reaction with p -aminobenzylamine); m.p.
+258–260 °C; 31 P NMR (243.12 MHz, D 2 O + NaOD, ppm): δ = 18.21; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 2.45 (1H, t, J = 17.4 Hz, CHP); 13 C NMR (151.02 MHz, D 2 O + NaOD, ppm) δ: 50.80 (t, J = 127.9 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for CH 7 NO 6 P 2 : 189.9670, found: 189.9671.
+N -(n-Propylamino)methylenebisphosphonic acid ( 2 ) was obtained with a 43% yield; mp.
+225–227 °C; 31 P NMR (242.97 MHz, D 2 O + NaOD, ppm): δ = 18.08; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.52 (t, J = 7.42 Hz, 2H); 1.08 (dd, J 1 = 7.41 Hz, J 2 = 14.79, 1H), 2.18 (t, J = 17.08 Hz, 1H, CHP), 2.35 (t, J = 7.38 Hz, 1H); 13 C NMR (151.02 MHz, D 2 O + NaOD, ppm) δ: 11.23, 22.53, 52.81, 59.33 (t, J = 129.27 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 4 H 13 NO 6 P 2 : 232.0140, found: 232.0142.
+N -(n-Pentylamino)methylenebisphosphonic acid ( 3 ) was obtained with a 61% yield; mp.
+200 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 17.63 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: (t, J = 7.38 Hz, 3H), 0.67–0.71 (m, 3H), 1.08–1.18 (m, 2H),1.34–1.44 (m, 1H), 2.39 (t, J = 17.56 Hz, 1H, CHP), 2.62 (t, J = 5.64 Hz, 2H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 22.14, 25.70, 38.57, 49.53, 49.58, 59.80 (t, J = 128.87 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 6 H 17 NO 6 P 2 : 260.0453, found: 232.0452.
+N -(n-Heptylamino)methylenebisphosphonic acid ( 4 ) was obtained with a 72% yield; mp.
+212–213 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 14.91 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.76 (t, J = 6.89 Hz, 3H), 1.15–1.20 (m, 4H); 1.21–1.27 (m, 4H), 1.43 (dt, J 1 = 7.25 Hz, J 2 = 14.17, 2H), 2.60 (t, J = 17.30 Hz, 1H, CHP), 2.84 (t, J = 7.53 Hz, 2H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 13.43, 21.98, 26.39, 28.46, 28.70, 31.01, 50.99, 59.46 (t, J = 125.32 HZ, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 8 H 21 NO 6 P 2 : 288.0766, found 288.0765.
+N -(n-Octylamino)methylenebisphosphonic acid ( 5 ) was obtained with a 67% yield; mp.
+202 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 18.07 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.49 (t, J = 6.79 Hz, 3H), 0.85–0.96 (m, 10H), 1.04–1.1.10 (m, 2H), 2.18 (t, J = 17.05 Hz, 1H, CHP), 2.38 (7, J = 7.48 Hz, 2H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 13.43, 21.91, 26.65, 28.34, 28.79, 29.59, 31.02, 51.32, 59.65 (t, J = 132.10 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 9 H 23 NO 6 P 2 : 302.0922, found 302.0927.
+N -(n-Nonylamino)methylenebisphosphonic acid ( 6 ) was obtained with a 85% yield; mp.
+279–280 °C; 31 P NMR (242.93 MHz, solid) δ: 13.40 ppm; 13 C NMR (150.91 MHz, solid) δ: 20.01, 29.13, 32.97, 35.45, 36.14, 36.64, 37.01, 39.33, 56.77, 60.73 (t, J = 120.03 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 10 H 25 NO 6 P 2 : 316.1079, found 316.1063.
+N -(n-Decylamino)methylenebisphosphonic acid ( 7 ) was obtained with a 90% yield; mp.
+200 °C; 31 P NMR (242.93 MHz, solid) δ: 12.44 ppm; 13 C NMR (150.91 MHz, solid) δ: 19.83, 29.96, 30.65, 32.39 (d, J = 55.29 Hz), 35.91, 36.80, 38.03, 38.68, 39.31, 53.48, 59.86 (d, J = 104.73 Hz, C P), 60.95 (d, J = 104.73 Hz, CP 2 ).
+N -(n-Undecylamino)methylenebisphosphonic acid ( 8 ) was obtained with a 86% yield; mp.
+205 °C; 31 P NMR (242.93 MHz, solid) δ: 9.29 ppm; 13 C NMR (150.91 MHz, solid) δ: 17.08, 26.94, 27.68, 29.12, 29.90, 32.38, 34.30, 35.19, 37.24, 54.13, 578.49 (t, J = 122.22 Hz, CP 2 ).
+N -(n-Dodecylamino)methylenebisphosphonic acid ( 9 ) was obtained as a white solid with a 89% yield; mp.
+> 300 °C; 31 P NMR (242.93, solid) δ = 10.15; 13 C NMR (150.91 MHz, solid) δ: 19.73, 29.90, 32.30, 33.47, 34.74, 36.53, 37.50, 37.79, 38.59, 39.55, 40.35, 57.19, 60.66 (t, J = 106.40 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 13 H 31 NO 6 P 2 : 358.1549, found 358.1408.
+N -(n-Tridecylamino)methylenebisphosphonic acid ( 10 ) was obtained with a 52% yield; mp.
+> 300 °C; 31 P NMR (242.93 MHz, solid) δ: 5.69 ppm; 13 C NMR (150.91 MHz, solid) δ: 20.09, 30.15, 30.97, 32.23, 33.00, 33.56, 35.43, 37.41, 38.16, 38.59, 39.12, 40.22, 40.42, 57.25, 61.05 (dd, J = 112.49 Hz, CP 2 ).
+N -(n-Tetradecylamino)methylenebisphosphonic acid ( 11 ) was obtained with a 49% yield; mp.
+> 300 °C; 31 P NMR (242.93 MHz, solid) δ: 18.99 ppm; 13 C NMR (150.91 MHz, solid) δ: 19.01, 27.22, 31.99, 33.74, 36.31, 36.72, 37.25, 56.65, 60.64 (t, J = 111.40 Hz, CP 2 ).
+N -(Isopropylamino)methylenebisphosphonic acid ( 12 ) was obtained with a 49% yield; mp.
+225–227 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.99 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.77 (d, J = 6.29 Hz, 6H); 2.54 (t, J = 17.56 Hz, 1H, CHP), 2.93–2.99 (m, 1H); 13 C NMR (150.91 MHz,) δ: 21.78, 47.16, 55.26 (t, J = 129.80 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − Calcd for C 4 H 13 NO 6 P 2 : 232.0140, found: 232.0143.
+N -(Isobutylamino)methylenebisphosphonic acid ( 13 ) was obtained with a 58% yield; mp.
+215–216 °C; 31 P NMR{ 1 H} (243.12 MHz D 2 O + NaOD) δ: 7.92 and 8.02 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.93 (d, J = 6.72 Hz, 6H); 1.97 (dt, J 1 = 6.86 Hz, J 2 = 13.73 Hz, 1H), 3.12 (d, J = 7.18 Hz, 1H), 3.26 (t, J = 17.22 Hz, 1H, CHP); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 19.39, 20.17, 27.53, 58.90 (t, J = 246.01 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 5 H 15 NO 6 P 2 : 246.0296, found 246.0289.
+N -(Isopentylamino)methylenebisphosphonic acid ( 14 ) was obtained as a white solid with a 46% yield; mp.
+185–187 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 18.18 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.42 (d, J = 6.61 Hz, 6H); 0.87 (dd, J 1 = 7.21 Hz, J 2 = 14.85 Hz, 2H), 1.13 (dt, J 1 = 6.64, J 2 = 13.30 Hz, 1H), 2.08 (t, J = 16.86 Hz, 1H, CHP), 2.31 (t, J = 7.60 Hz, 2H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 22.21, 25.45, 38.61, 49.20, 59.48 (t, J = 129.14 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 6 H 17 NO 6 P 2 : 260.0453, found 260.0465.
+N -(Isohexylamino)methylenebisphosphonic acid ( 15 ) was obtained with a 41% yield; mp.
+193–195 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.89 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.96 (d, J = 10.35 Hz, 3H), 1.08 (d, J = 10.91 Hz, 3H), 1.35–1.46 (m, 1H), 1.47–1.61 (m, 2H), 1.78–1.94 (m, 2H), 2.77 (t, J = 17.26 Hz, 1H, CHP), 2.87–3.16 (m, 2H); HRMS (TOF MS ESI − ): [M − H] − calcd for C 7 H 19 NO 6 P 2 : 274.0609, found: 274.
+0620 and [M − CH 3 ] − 260.0448.
+N -2-(6-Methylhexylamino)methylenebisphosphonic acid ( 16 ) was obtained with a 34% yield; mp.
+244–24 °C; 31 P NMR{ 1 H} (243.12 MHz D 2 O + NaOD) δ: 17.74 and 17.87 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.65 (dd, J 1 = 2.26 Hz, J 2 = 6.63, 6H), 0.82 (d, J = 6.32 Hz, 3H), 0.91–1.01 (m, 3H), 1.02–1.15 (m, 2H), 1.29–1.41 (m, 2H), 2.62 (t, J = 17.60 Hz, 1H, CHP), 2.87–2.92 (m, 1H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 18.41, 21.92, 22.12, 23.17, 27.20, 36.28, 38.78, 52.01, 55.21 (t, J = 125.83 Hz, CP 2 ); HRMS (TOF MS ESI − ): calcd for C 9 H 23 NO 6 P 2 : 302.0922, found: 302.0297 [M − H] − ; calcd: 605.1922, found: 605.1945 [2M − H] − ; calcd: 908.2922, found: 908.2953 [3M − H] − .
+N -(2,5-Dimethylhexylamino)methylenebisphosphonic acid ( 17 ) was obtained with a 31% yield; mp.
+231–234 °C; 31 P NMR{ 1 H} (243.12 MHz D 2 O + NaOD) δ: 18.03 and 18.15 ppm 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.59 (d, J = 6.59 Hz, 6H); 0.76 (d, J = 6.24 Hz, 3H), 0.87–0.93 (m, 3H), 0.97–1.06 (m, 2H), 1.23–1.32 (m, 2H), 2.56 (t, J = 17.57 Hz, 1H, CHP), 2.78–2.86 (m, 1H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 18.53, 21.97, 22.16, 23.18, 27.22, 36.36, 51.96, 55.26 (t, J = 128.98 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 9 H 23 NO 6 P 2 : 302.0922, found 302.0927.
+N -(Cyclopropylo)methylenebisphosphonic acid ( 18 ) was obtained with a 56% yield; mp.
+224–226 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 8.07 ppm 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) with amine δ: 1.44–1.56 (m, 1H), 1.63–1.79 (m, 2H), 2.97 (t, J = 18.72 Hz, 1H, CHP), 3.48 (t, J = 5.13 Hz, 2H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 21.26, 24.90, 53.66, 67.03 (t, J = 114.06 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 4 H 11 NO 6 P 2 : 229.9983, found 229.8729.
+N -(Cyclopentylo)methylenebisphosphonic acid ( 19 ) was obtained with a 66% yield; mp.
+210–211 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.70 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.67 (t, J = 7.36 Hz, 3H), 1.06–1.13 (m, 2H), 1.21 (dt, J = 7.39, J = 14.98, 2H), 2.35 (t, J = 17.34 Hz, 1H, CHP), 2.55 (t, J = 7.43 Hz, 2H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 13.54, 19.97, 31.73, 50.89, 50.92, 59.70 (t, J = 129.41 Hz, CP 2 );HRMS (TOF MS ESI − ): [M − H] − calcd for C 6 H 15 NO 6 P 2 : 258.0296, found 258.0286.
+N -(Cyclohexylamino)methylenebisphosphonic acid ( 20 ) was obtained with a 42% yield; mp.
+214–215 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 14.76 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.97–1.09 (m, 3H), 1.12–1.21 (m, 2H), 1.49 (d, J = 12.64 Hz, 1H), 1.62 (d, J = 13.30 Hz, 2H),1.93 (d, J = 9.98 Hz, 2H), 2.87 (d, J = 17.23 Hz, 2H, CHP), 3.01–3.05 (m, 1H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 13.54, 19.97, 31.73, 50.92, 59.70 (t, J = 129.41 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 7 H 17 NO 6 P 2 : 272.0453, found 272.0620.
+N -(Cycloheptylamino)methylenebisphosphonic acid (incadronate) ( 21 ) was obtained with a 63% yield; mp.
+225 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 8.07 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 1.46–1.63 (m, 6H), 1.66–1.81 (m, 4H), 2.11–2.19 (m, 2H), 3.59 (t, J = 18.23 Hz, 1H, CHP), 3.67–3.75 (m, 1H), 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 24.49, 25.42, 31.46, 54.71 (t, J = 124.27 Hz, CP 2 ), 56.15; HRMS (TOF MS ESI − ): [M − H] − calcd for C 8 H 19 NO 6 P 2 : 286.0609, found 286.0597.
+N -(Cyclooctylamino)methylenebisphosphonic acid ( 22 ) was obtained with a 54% yield; mp.
+247–248 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 18.45 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 1.02–1.10 (m, 7H), 1.20–1.26 (m, 3H), 1.28–1.31 (m, 2H), 1.46–1.50 (m, 2H), 2.42 (t, J = 17.40 Hz, 1H, CHP), 2.79 (dt, J 1 = 3.64 Hz, J 2 = 17.40 Hz, 1H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 23.57, 25.19, 36.97, 31.01, 55.10 (t, J = 129.38 Hz, C P 2 ), 56.03; HRMS (TOF MS ESI − ): [M − H] − calcd for C 9 H 21 NO 6 P 2 : 300.0766, found 300.0768.
+N,N -(Di-n-propylamino)methylenebisphosphonic acid ( 23 ) was obtained with a 35% yield; mp.
+206–208 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.31 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm): δ: 0.71 (t, J = 7.37 Hz, 6H), 1.25–1.34 (m, 4H), 2.43 (t, J = 17.57 Hz, 1H, CHP), 2.47–2.62 (m, 4H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 11.06, 11.10, 22.40, 22.48, 52.85, 52.91, 59.43 (t, J = 114.06Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 7 H 19 NO 6 P 2 274.0610, found 274.0618.
+N,N -(Di-n-cyclohexylamino)methylenebisphosphonic acid ( 24 ) was obtained with a 46% yield; mp.
+209–211 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 17.18 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.97–1.04 (m, 6H), 1.20 (q, J = 12.50 Hz, 4H), 1.37 (q, J = 11.19 Hz, 4H), 1.45 (d, J = 12.82 Hz, 2H), 1.63 (d, J = 12.99 Hz, 4H), 3.32 (t, J = 20.36 Hz, 1H, CHP), 3.47 (q, J = 7.05 Hz, 2H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 24.46, 25.37, 31.23 (d, J = 35.59 Hz), 54, 67 (t, J = 123.97 Hz, CP 2 ), 56.18; HRMS (TOF MS ESI − ): [M − H] − calcd for C 13 H 27 NO 6 P 2 : 387.1239, found 387.1232.
+N -Ethyl- N -(cyclohexylamino)methylenebisphosphonic acid ( 25 ) was obtained with a 40% yield; mp.
+199–201 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 9.89 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.86–0.92 (m, 1H); 0.93–0.97 (m, 2H), 0.97 (t, J = 7.24 Hz, 3H), 1.05 (dt, J 1 = 9.95, J 2 - = 12.00 Hz, 2H), 1.27 (d, J = 12.93 Hz, 1H), 1.47 (d, J = 13.19 Hz, 2H), 1.89 (d, J = 10.75 Hz, 2H), 3.05 (t, J = 19.70 Hz, 1H, CHP), 3.19 (q, J = 7.21 Hz, 2H), 3.30 (dt, J 1 = 3.08 Hz, J 2 = 11.33 Hz, 1H), 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 13.88, 24.64, 24.71, 29.53, 46.28, 61.33 (t, J = 115.08 HZ, CP 2 ) , 64.54; HRMS (TOF MS ESI − ): [M − H] − calcd for C 9 H 21 NO 6 P 2 : 300.0766, found 300.0768.
+N -(Pyrrolidylamino)methylenebisphosphonic acid ( 26 ) was obtained with a 21% yield; mp.
+149–151 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 11.12 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 1.74–1.84 (m, 4H), 3.13 (t, J = 17.42 Hz, 1H, CHP), 3.30–3.42 (m, 4H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 22.96, 52.32, 62.02 (t, J = 169.03 HZ, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 5 H 13 NO 6 P 2 : 244.0140, found 244.0138.
+N -(Piperidylamino)methylenebisphosphonic acid ( 27 ) was obtained with a 61% yield; mp.
+241–244 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 8.07 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 1.44–1.56 (m, 2H); 1.63–1.80 (m, 4H), 2.97 (t, J = 18.72 Hz, 1H, CHP), 3.48 (t, J = 5.12 Hz, 4H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 21.26, 24.90, 53.66, 67.03 (t, J = 141.06 HZ, C P 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 6 H 15 NO 6 P 2 : 258.0296, 516.0592 [2M − H] −, found 258.0286, 515.9357 [2M − H] − .
+N -(Azepanylamino)methylenebisphosphonic acid ( 28 ) was obtained with an 85% yield; mp.
+235–236 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 8.65 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 1.47–1.55 (m, 4H), 1.67–1.75 (m, 4H), 2.98 (t, J = 18.64 Hz, 1H, CHP), 3.46 (t, J = 5.34, 4H); HRMS (TOF MS ESI − ): [M − H] − calcd for C 7 H 17 NO 6 P 2 : 272.0453, found: 272.0463.
+N-(Azocinylamino)methylenebisphosphonic acid ( 29 ) was obtained with a 44% yield; mp.
+230–231 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 8.03 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.49–1.50 (m, 2H), 1.54–1.62 (m, 4H), 1.71–1.80 (m, 4H), 3.04 (t, J = 18.68 Hz, 1H, CHP), 3.49 (t, J = 5.76, 4H); HRMS (TOF MS ESI − ): [M − H] − calcd for C 8 H 19 NO 6 P 2 : 286.0610, found: 286.0642.
+N -(4-Methypiperidylamino)methylenebisphosphonic acid ( 30 ) was obtained with a 69% yield; mp.
+225–228 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.05 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.40 (d, J = 6.04 Hz, 6H), 1.29–1.38 (m, 3H), 0.58–0.65 (m, 2H), 0.83–0.94 (m, 2H), 1.11 (d, J = 11.80 Hz, 2H), 2.34 (t, J = 21.44 Hz, 1H, CHP), 2.53 (d, J = 7.30 Hz 4H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 21.46, 29.21, 34.23, 51.13, 66.68 (t, J = 121.03 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 6 H 15 NO 6 P 2 : 258.0296, found 258.0286.
+N -(2,6-Dimethylpiperidylamino)methylenebisphosphonic acid ( 31 ) was obtained with a 49% yield; mp.
+225–228 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 7.93 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 1.27 (d, J = 6.04 Hz, 6H), 1.29–1.38 (m, 3H), 1.41–1.49 (m, 1H), 1.75 (d, J = 13.49 Hz, 2H), 3.52 (t, J = 23.52 Hz, 1H, CHP), 3.57–3.61 (m, 2H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 20.37, 21.01, 33.18, 59.90 (d, J = 4.20 H), 61.77 (t, J = 113.43 Hz, CP 2 ); HRMS (TOF MS ESI − ): [M − H] − calcd for C 8 H 19 NO 6 P 2 : 286.0610, found 286.0619.
+N -(3,5-Dimethylpiperidylamino)methylenebisphosphonic acid ( 32 ) was obtained with a 57% yield; mp.
+229–230 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.14 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.67 (d, J = 6.17 Hz, 6H), 2.28 (t, J = 21.52 Hz, 1H, CHP), 2.33 (t, J = 11.05 Hz, 2H), 2.51 (d, J = 11.305 Hz, 2H) 3.19–3.30 (m, 2H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 18.19, 56.70, 65.84 (t, J = 122.22 Hz, CP 2 ), 72.86; HRMS (TOF MS ESI − ): [M − H] − calcd for C 8 H 19 NO 6 P 2 : 286.0610, found 286.0619.
+N -(2-Ethylpiperidylamino)methylenebisphosphonic acid ( 33 ) was obtained with a 42% yield; mp.
+205–207 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 10.41 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.68 (t, J = 6.63 Hz, 3H), 1.20–1.29 (m, 2H), 1.33–1.50 (m, 2H), 1.52–1.62 (m, 2H), 1.69 (dd, J 1 = 11.10 Hz, 2H), 3.17–3.29 (m, 1H), 3.30 (t J = 19.56 Hz, 1H, CHP), 3.48–3.60 (m, 2H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 7.46, 22.32, 23.54, 24.78, 29.24, 58.84 (t, J = 114.66 Hz, CP 2 ), 62.99; HRMS (TOF MS ESI − ): [M − H] − calcd for C 8 H 19 NO 6 P 2 : 286.0609, found 286.0619.
+N -(Morpholino)methylenebisphosphonic acid ( 34 ) was obtained with a 64% yield; mp.
+248 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 16.16 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 2.71 (t, J = 22.09 Hz, 1H, CHP), 3.00 (t, J = 4.20 Hz, 2H), 3.61 (t, J = 4.50 Hz, 2H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 51.12, 66.67 (t, J = 123.30 Hz, CP 2 ), 67.58; HRMS (TOF MS ESI − ): [M − H] − calcd for C 5 H 13 NO 7 P 2 : 260.0089, found 260.0081.
+Cis – 2,6-dimethyl- N -(morpholino)methylenebisphosphonic acid ( 35 ) was obtained with a 59% yield; mp.
+222 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.14 ppm; 1 H NMR (600.58 MHz, D 2 O + NaOD, ppm) δ: 0.67 (d, J = 6.17 Hz, 2H), 2.30 (t, J = 21.52 Hz, 1H, CHP), 2.33 (t, J = 11.05 Hz, 2H) 3.19–3.30 (m, 2H); 13 C NMR (150.91 MHz, D 2 O + NaOD) δ: 18.19, 56.70, 65.84 (t, J = 122.22 Hz, CP 2 ), 72.86; HRMS (TOF MS ESI − ): [M − H] − calcd for C 7 H 17 NO 7 P 2 : 288.0402, found 288.0405.
+4.3.
+Antiproliferative Activity 4.3.1.
+Cell Culture Mycoplasma-free J744E cell lines were purchased from the European Collection of Authenticated Cell Cultures (ECACC, Salisbury, England) and maintained at the Institute of Immunology and Experimental Therapy (IIET, Wroclaw, Poland).
+Cells were thawed in a water bath at 37 °C with gentle stirring and placed in the culture of an Eagle medium (Life Technologies, Warszawa, Poland).
+Then, they were passaged twice a week in RPMI—1640 growth medium: 10% ( v / v ) FBS, 100 μg/mL streptomycin, 100 U/mL penicillin and 2 mM L-glutamine) in Petri dishes monitoring their growth under a microscope.
+The cells were separated from the bottom and collected from the culture vessel.
+Cell densities were counted in a Bürker chamber using a drop of cell suspension 1:1 in trypan blue.
+All cell lines were cultured during all experiments in a humid atmosphere at 37 °C and 5% CO 2 and passaged twice a week using EDTA–trypsin solution (pH 8; IIET, Wroclaw, Poland) as a detachment agent.
+4.3.2.
+SRB Antiproliferative Assay Twenty-four hours before addition of the tested compounds, the cells were seeded in 96-well plates (Sarstedt AG & Co.
+KG, Nümbrecht, Germany) in an appropriate culture medium.
+After 24 h, 100 µL of the tested compound in culture medium (10 −3 , 10 −4 , 10 −5 , 10 −6 M) was added.
+The plates were incubated at 37 °C under a wet atmosphere saturated with 5% CO 2 .
+The in vitro cytotoxic effects of all bisphosphonates were examined using a colorimetric test (MTT assay) after 72 h exposure of the cultured cells to their varying concentrations [ 54 ].
+Then, 20 µL aliquot of MTT solution (MTT: 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyl tetrazolium bromide) was added to each well and incubated for 4 h.
+After incubation, 80 µL of the lysing mixture was added to each well (lysing mixture: 225 mL of dimethylformamide, 67.5 g of sodium dodecyl sulfate and 275 mL of distilled water).
+The optical densities of the samples were determined after 24 h using a Multiskan RC photometer (Labsystems, Helsinki, Finland) at 570 nm.
+Cells were treated with each compound using at least four concentrations in the range of 1000 µM–1 µM for 72 h.
+Then, 0.2 M NaOH, used as a stock solution solvent, was tested for antiproliferative activity, and it did not affect the cell proliferation at 1 mM, which was the highest concentration used in the compound solutions.
+Each concentration of compounds was tested in triplicate in a single experiment, and each experiment was repeated at least three times independently.
+The results are presented as the mean IC 50 ± standard deviation (SD) calculated using the Prolab-3 system based on Cheburator 0.4 software [ 55 ].
+4.4.
+Studies on Healing Effect on Sheep Each bisphosphonate was tested on a group of seven sheep, aged 5–6 years, weighing 45–60 kg.
+To monitor the changes that occur in the animals participating in the experiment, a positive control group (PP) and a negative control group (PN) were created.
+The negative control group consisted of one sheep that did not undergo ovariectomy and was not subjected to steroid therapy.
+This was a healthy sheep, in which it was possible to observe the correct histological image of the bone tissue.
+The positive control was one sheep that underwent ovariectomy and steroid therapy and was not treated with new bisphosphonic acid.
+This group aimed to enable the observation of the development process of osteoporosis similar to postmenopausal osteoporosis.
+The research group consisted of five bisphosphonate-treated sheep after the induction of osteoporosis and steroid therapy.
+The animals were kept in groups of two in small boxes (10 m 2 ).
+Animals from both control groups were kept under the same conditions as sheep from the test groups and were given the same food.
+This housing restricted their physical activity and access to sunlight.
+The sheep were fed twice a day with hay and had unrestricted access to water.
+Two weeks after the ovariectomy (surgical removal of both ovaries), a low-calcium diet and the methylprednisolone administration were started at a dose of 250 mg/sheep.
+Before administering the drug, radiological examinations of the tibia and humerus of each sheep were performed in two projections, lateral and sagittal, in order to visualize the structure of the bone.
+Subsequent doses of methylprednisolone were administered every 20 days at a reduced dose of 150 mg/sheep.
+In total, the sheep received the steroid drug four times.
+All animals were weighed every 10 days, and blood samples were collected for biochemical, morphological, hormonal, and bone turnover markers every 10 days.
+In addition, X-ray examination were performed in a standing position to monitor the changes in bone microstructure.
+Three months after induction of the osteoporosis, the administration of the tested bisphosphonate began.
+The aqueous solution of bisphosphonate (35 mg/sheep) was administered to the animals weekly using a probe directly into the rumen for a period of 9 weeks.
+The first three doses were 150 mg per sheep, while the next six were 300 mg per sheep.
+Each sheep received nine doses of bisphosphonate.
+During bisphosphonate therapy, radiological and hematological tests (biochemistry and biochemical profiles) were performed every 10 days.
+Euthanasia was performed on the 30th day after the end of bisphosphonate therapy with an intravenous high dose (60 mg/kg body weight) of pentobarbital (Morbital ® , BioWet, Puławy, Poland).
+The animals were sacrificed, and the bone samples from the mandible, humerus, radius, ulna, femur, tibia, and pelvic bone were collected for histology.
+4.5.
+Histological Studies For histological examination, fragments of the femur, humerus, lumbar vertebra, and mandible were collected from each sheep.
+Bone samples were fixed in 4% formalin solution and decalcified by successive bathing in 10% sodium versenate, distilled water, a mixture of formic and citric acids, and distilled water.
+Then, they were dehydrated and stored in paraffin.
+The bone segments were sectioned with a microtone to 6–7 μm slides for histomorphometry analysis.
+The samples were fixed for 3 h in a 3.5% solution of glutaralaldehyde in phosphate buffer (0.1 M, pH between 7.2 and 7.4), washed thoroughly with buffer and then fixed with a solution containing 1.0% osmium tetroxide in buffer.
+After drying (ethanol–acetone), the samples were submerged in Epon 812.
+Bone slides were stained using four methods (Delafield method with hematoxylin and eosin (HiE), Van Gieson procedure, Goldner–Masson procedure and von Koss procedure and analyzed using transmission microscopy (Tesla BS-500, Brno, Czech Republic).
+HiE staining is a survey method that allows observation of the overall morphology of bone tissue.
+This method allowed for the observation of differences between healthy and osteoporotic bone tissue as well as between the two study groups.
+The use of van Gieson staining in morphometry enabled the counting of primary and secondary osteons as well as the measurement of the thickness of the systemic and intersystemic lamellae of bone tissue.
+The purpose of this method was to perform measurements that allowed for a statistical assessment of changes that occurred in all study groups.
+Goldner–Masson and von Koss staining was used to assess the degree of bone mineralization.
+Due to the decalcification process that precedes staining, the Goldner–Masson and von Koss methods should be considered qualitative, not quantitative.
+Since all sections were treated identically, it was assumed that the amount of calcium released during the decalcification baths was the same.
+After preliminary histological analysis, morphometry of the structures that form bone tissue was performed.
+The parameters for primary and secondary osteons considered included the number of primary and secondary osteons in the field of view at 200x magnification and the thickness of the systemic and intersystemic laminae.
+Statistically significant differences were observed at the 5% level between the treated animals and each control group indicating progress in curation.
+The data obtained were statistically analyzed using the Statistica 9.1 package from StatSoft Inc (Tulsa, OK, USA).
+They were subjected to an analysis of variance (ANOVA).
+If the analysis of variance allowed the rejection of the hypothesis of equal means in all groups, further analysis (post hoc) was performed using the Tukey test for groups of different sizes to determine which groups had statistically significant differences at the 5% level.
+5.
+Patents International patents application: WO/2015/159153 A1; 22 October 2015, Novel bisphosphonates and their use.
+Polish patent application: PL407922 (A1); 16 April 2014, Nowe bisfosfoniany i ich zastosowanie.
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s).
+MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+Supplementary Materials The following supporting information can be downloaded at https://www.mdpi.com/article/10.3390/ph19020256/s1 , containing copies of 1 H-NMR, 31 P-NMR, 13 C-NMR, HRMS spectra of all synthesized compounds.
+Author Contributions Conceptualization, E.C.
+and P.K.; synthesis of all compounds, E.C.; methodology, E.C., J.W., J.K.
+and Z.K.; antiproliferative studies, J.W.; in vivo evaluation, Z.K.; histology, J.K.; validation, E.C.
+and P.K.; formal analysis, E.C., J.W.
+and Z.K.; investigation, E.C.; writing—original draft preparation, P.K.; writing—review and editing, E.C.; visualization, J.K.; supervision, E.C.
+All authors have read and agreed to the published version of the manuscript.
+Institutional Review Board Statement Approval for the study was granted by the Second Ethical Committee for Animal Experiments at the Wrocław University of Environmental and Life Sciences (approval number 85/2009, date of approval: 27 July 2009).
+All procedures were performed in a facility approved by the Association for Assessment and Accreditation of Laboratory Animal Care (AAALAC) International.
+Informed Consent Statement Not applicable.
+Data Availability Statement The original contributions presented in this study are included in the article/ Supplementary Materials .
+Further inquiries can be directed to the corresponding author.
+Conflicts of Interest The authors declare no conflicts of interest.
+References 1.
+Sözen T.
+Özışık L.
+Başaran N.C.
+An overview and management of osteoporosis Eur.
+J.
+Rhuematol.
+2017 4 46 56 10.5152/eurjrheum.2016.048 2.
+Harvey N.
+Dennison E.
+Cooper C.
+Osteoporosis: Impact on health and economics Nat.
+Rev.
+Rheumatol.
+2010 6 99 105 10.1038/nrrheum.2009.260 20125177 3.
+Curtis E.M.
+Dennison E.
+Cooper C.
+Harvey N.C.
+Osteoporosis in 2022: Care gaps to screening and personalised medicine Best.
+Pract.
+Res.
+Clin.
+Rheumatol.
+2022 36 101754 10.1016/j.berh.2022.101754 35691824 4.
+De Villers T.J.
+Goldstein S.R.
+Bone health 2022: An update Czlimacteric 2022 25 1 3 10.1080/13697137.2021.1965408 5.
+Das S.
+Crockett J.C.
+Osteoporosis—A current view of pharmacological prevention and treatment Drug Des.
+Dev.
+Ther.
+2013 7 435 448 10.2147/DDDT.S31504 6.
+Li S.-S.
+He S.-H.
+Xie P.Y.
+Li W.
+Zhang X.X.
+Li T.-F.
+Li D.-F.
+Recent progresses in the treatment of osteoporosis Front.
+Pharmacol.
+2021 12 717065 10.3389/fphar.2021.717065 34366868 7.
+Crockett J.C.
+Rogers M.J.
+Coxon F.P.
+Hocking L.J.
+Helfrich M.P.
+Bone remodelling at a glance J.
+Cell Sci.
+2011 124 991 998 10.1242/jcs.063032 21402872 8.
+Boyce B.F.
+Rosenberg E.
+de Papp A.E.
+Duong L.T.
+The osteoclast, bone remodelling and treatment of metabolic bone disease Eur.
+J.
+Clin.
+Investig.
+2012 42 1332 1341 10.1111/j.1365-2362.2012.02717.x 22998735 9.
+Raggatt L.J.
+Partridge N.C.
+Cellular and molecular mechanisms of bone remodeling J.
+Biol.
+Chem.
+2010 285 25103 25108 10.1074/jbc.R109.041087 20501658 10.
+Feng X.
+McDonald J.M.
+Disorders of bone remodeling Annu.
+Rev.
+Pathol.
+2011 6 121 145 10.1146/annurev-pathol-011110-130203 20936937 11.
+Bolamperti S.
+Villa I.
+Rubinacci A.
+Bone remodeling: An operational process ensuring survival and bone mechanical competence Bone Res.
+2022 10 48 10.1038/s41413-022-00219-8 35851054 12.
+Marinho Maciel G.B.
+Marinho Maciel R.
+Cadematori Danesi C.
+Bone cells and their role in physiological remodeling Mol.
+Biol.
+Rep.
+2023 50 2857 2863 10.1007/s11033-022-08190-7 36609750 13.
+Wang L.
+You X.
+Zhang L.
+Zhang C.
+Zou W.
+Mechanical regulation of bone remodeling Bone Ras.
+2022 10 16 10.1038/s41413-022-00190-4 35181672 14.
+Russell R.G.G.
+Bisphosphonates from bench to bedside Ann.
+N.
+Y.
+Acad.
+Sci.
+2006 1068 367 401 10.1196/annals.1346.041 16831938 15.
+Whitaker M.
+Guo J.
+Kehoe T.
+Benson G.
+Bisphosphonates for osteoporosis—where do we go from here? N.
+Engl.
+J.
+Med.
+2012 366 2048 2051 10.1056/NEJMp1202619 22571168 16.
+Marcinkowska-Suchowierska E.
+Walicka M.
+Pharmacological therapy of osteoporosis with bisphosphonates—For whom, what kind, and for how long? Reumatologia 2014 52 238 246 10.5114/reum.2014.44703 17.
+Roelofs A.J.
+Thompson K.
+Ebetino F.H.
+Rogers M.J.
+Coxon F.P.
+Bisphosphonates: Molecular mechanisms of action and effects on bone cells, monocytes and macrophages Curr.
+Pharm.
+Des.
+2010 16 2950 2960 10.2174/138161210793563635 20722616 18.
+Russell R.G.G.
+Watts N.B.
+Ebetino F.H.
+Rogers M.J.
+Mechanisms of action of bisphosphonates: Similarities and differences and their potential influence on clinical efficacy Osteoporos.
+Int.
+2008 19 733 759 10.1007/s00198-007-0540-8 18214569 19.
+Watts N.B.
+Diab D.L.
+Long-term use of bisphosphonates in osteoporosis J.
+Clin.
+Endocrinol.
+Metab.
+2010 95 1555 1565 10.1210/jc.2009-1947 20173017 20.
+Kamath A.F.
+Current controversies in bisphopshonate therapy Orthopedics 2009 32 473 10.3928/01477447-20090527-03 19634857 21.
+Papapoulos S.E.
+Bone diseases: Bisphosphonates in osteoporosis—Beyond 5 years Nat.
+Rev.
+Rheumatol.
+2013 9 263 264 10.1038/nrrheum.2013.57 23591488 22.
+Białożyk-Mularska K.
+Roszkowski K.
+Biphosphonates-related osteonecrosis of the jaw Med.
+Res.
+J.
+2019 4 58 62 10.5603/MRJ.a2018.0038 23.
+Lončar Brzak B.
+Horvat Aleksijević L.
+Vindiš E.
+Kordić I.
+Granić M.
+Vidović Juras D.
+Andabak Rogulj A.
+Osteonecrosis of the jaw Dent.
+J.
+2023 11 23 10.3390/dj11010023 36661560 24.
+Kim G.-M.
+Moon S.-Y.
+You J.-S.
+Kim G.-Y.
+Oh J.-S.
+Medication-related osteonecrosis of the jaws: A Literature review J.
+Oral Med.
+Pain 2022 47 1 9 10.14476/jomp.2022.47.1.1 25.
+Coffman A.A.
+Basta-Pljakic J.
+Guerra R.M.
+Ebetino F.H.
+Lundy M.W.
+Majeska R.J.
+Schaffler M.B.
+A Bisphosphonate with a low hydroxyapatite binding affinity prevents bone loss in mice after ovariectomy and reverses rapidly with treatment cessation JBMR Plus 2021 5 e10476 10.1002/jbm4.10476 33869992 26.
+Mashida T.
+Tanizawa T.
+Takahashi H.E.
+Takano Y.
+Nishida S.
+Mori S.
+Norimatsu H.
+Effects of single and concurrent intermittent administration of human parathyroid hormone and bisphosphonate cimadronate on bonemineral densities of femur in ovariectomized rats J.
+Bone Miner.
+Metab.
+1995 13 17 22 10.1007/BF01771800 27.
+Nishikawa N.
+Yamamoto M.
+Murakami T.
+Akatsu T.
+Kugai N.
+Nagata N.
+A third-generation bisphosphonate, YM175, inhibits osteoclast formation in murine cocultures by inhibiting proliferation of precursor cells via supporting cell-dependent mechanisms J.
+Bone Miner.
+Res.
+1998 13 986 995 10.1359/jbmr.1998.13.6.986 9626630 28.
+Kim S.-B.
+Lee J.S.
+Kim H.T.
+Im Y.H.
+Kim T.W.
+Ryoo B.Y.
+Park Y.H.
+Park J.O.
+Park K.
+Katoh H.
+Clinical evaluation of incadronate in korean patients with malignancy-associated hypercalcemia: An open-label, multicenter study Curr.
+Ther.
+Res.
+Clin.
+Exp.
+2007 68 193 204 10.1016/j.curtheres.2007.06.004 24683210 29.
+Rogers T.L.
+Holen I.
+Tumour macrophages as potential targets of bisphosphonates J.
+Transl.
+Med.
+2011 9 177 10.1186/1479-5876-9-177 22005011 30.
+Kiełbowicz Z.
+Piątek A.
+Bieżyński J.
+Skrzypczak P.
+Kuropka P.
+Kuryszko J.
+Nikodem A.
+Kafarski P.
+Pezowicz C.
+The experimental osteoporosis in sheep—Clinical approach Pol.
+J.
+Vet.
+Sci.
+2015 18 645 654 10.1515/pjvs-2015-0083 26618599 31.
+Nuss K.M.R.
+Auer J.A.
+Boos A.
+von Rechenberg B.
+An animal model in sheep for biocompatibility testing of biomaterials in cancellous bones BMC Mucoskelet.
+Disord.
+2006 7 67 10.1186/1471-2474-7-67 32.
+Pearce A.I.
+Richards R.G.
+Milz S.
+Schneider E.
+Pearce S.G.
+Animals models for implant biomaterial research in bone: A review Eur.
+Cells Mat.
+2007 13 1 10 10.22203/eCM.v013a01 17334975 33.
+Genco C.A.
+Van Dyke T.
+Amar S.
+Animal models for Porphyromonas gingivalis-mediated periodontal disease Trends Microbiol.
+1998 6 444 449 10.1016/S0966-842X(98)01363-8 9846362 34.
+Coxon F.P.
+Thompson K.
+Roelofs A.J.
+Ebetino F.H.
+Rogers M.J.
+Visualizing mineral binding and uptake of bisphosphonate by osteoclasts and non-resorbing cells Bone 2008 42 848 860 10.1016/j.bone.2007.12.225 18325866 35.
+Merly I.
+Smith S.L.
+Murine RAW 264.7 cell line as an immune target: Are we missing something? Immunopharmacol.
+Immunotoxicol.
+2017 39 55 58 10.1080/08923973.2017.1282511 28152640 36.
+Luckman S.P.
+Coxon F.P.
+Ebetino F.H.
+Graham R.
+Russell G.
+Rogers M.J.
+Heterocycle-containing bisphosphonates cause apoptosis and inhibit bone resorption by preventing protein prenylation: Evidence from structure-activity relationships in J774 macrophages J.
+Bone Miner.
+Res.
+1998 13 1668 1678 10.1359/jbmr.1998.13.11.1668 9797474 37.
+Rogers M.J.
+Crockett J.C.
+Coxon F.P.
+Mönkkönen J.
+Biochemical and molecular mechanisms of action of bisphosphonates Bone 2011 49 34 41 10.1016/j.bone.2010.11.008 21111853 38.
+Oheim R.
+Schinke T.
+Amling M.
+Pogoda P.
+Can we induce osteoporosis in animals comparable to the human situation? Injury 2016 47 S3 S9 10.1016/S0020-1383(16)30002-X 39.
+Dias I.R.
+Camassa J.A.
+Bordelo J.A.
+Babo P.S.
+Viegas C.A.
+Dourado N.
+Reis R.L.
+Gomes M.E.
+Preclinical and Translational Studies in Small Ruminants (Sheep and Goat) as Models for Osteoporosis Research Curr.
+Osteoporos Rep.
+2018 16 182 197 10.1007/s11914-018-0431-2 29460175 40.
+Cabrera D.
+Kruger M.
+Wolber F.M.
+Roy N.C.
+Fraser K.
+Effects of short- and long-term glucocorticoid-induced osteoporosis on plasma metabolome and lipidome of ovariectomized sheep BMC Musculoskelet.
+Disord.
+2020 21 349 10.1186/s12891-020-03362-7 32503480 41.
+Coelho C.A.
+Bordelo J.P.
+Camassa J.A.
+Barros V.A.
+Babo P.S.
+Gomes M.E.
+Reis R.L.
+Azevedo J.T.D.E.
+Requicha J.F.
+FaÍsca P.
+Evaluation of hematology, general serum biochemistry, bone turnover markers and bone marrow cytology in a glucocorticoid treated ovariectomized sheep model for osteoporosis research An.
+Acad.
+Bras.
+Cienc.
+2020 92 e20200435 10.1590/0001-3765202020200435 33295580 42.
+Rupp M.
+Biehl C.
+Malhan D.
+Hassan F.
+Attia S.
+Rosch S.
+Schäfer A.B.
+McMahon E.
+Kampschulte M.
+Heiss C.
+Large Animal Model of Osteoporotic Defect Healing: An Alternative to Metaphyseal Defect Model Life 2021 11 254 10.3390/life11030254 33808560 43.
+Turner A.S.
+The sheep as a model for osteoporosis in humans Vet.
+J.
+2002 163 232 239 10.1053/tvjl.2001.0642 12090765 44.
+Zarrinkalam M.R.
+Beard H.
+Schultz C.G.
+Moore R.J.
+Validation of the sheep as a large animal model for the study of vertebral osteoporosis Eur.
+Spine J.
+2009 18 244 253 10.1007/s00586-008-0813-8 19015899 45.
+Kiełbowicz Z.
+Piątek A.
+Bieżyński J.
+Skrzypczak P.
+Chmielewska E.
+Kafarski P.
+Kuryszko J.
+Improvement of large animal model for studying osteoporosis Bull.
+Vet.
+Inst.
+Pulawy 2015 59 123 128 10.1515/bvip-2015-0018 46.
+Kiełbowicz Z.
+Piątek A.
+Kuropka P.
+Mytnik E.
+Nikodem A.
+Bieżyński J.
+Skrzypczak P.
+Pezowicz C.
+Kuryszko J.
+Reichert P.
+Experimental osteoporosis in sheep—Mechanical and histological approach Pol.
+J.
+Vet.
+Sci.
+2016 19 109 118 10.1515/pjvs-2016-0014 27096794 47.
+Lill C.A.
+Flügel A.K.
+Schneider E.
+Sheep model for fracture treatment in osteoporotic bone: A pilot study about different induction regimens J.
+Orthop.
+Trauma.
+2000 14 559 565 10.1097/00005131-200011000-00007 11149502 48.
+Klopfenstein Bregger M.D.
+Schawalder P.
+Rahn B.
+Eckhardt C.
+Schneider E.
+Lill C.A.
+Optimization of corticosteroid induced osteoporosis in ovariectomized sheep.
+A bone histomorphometric study Vet.
+Comp.
+Orthop.
+Traumatol.
+2007 20 18 23 10.1055/s-0037-1616582 17364091 49.
+Marcinkowska E.
+Kutner A.
+Radzikowski C.
+Cell differentiating and anti-proliferative activity of side-chain modified analogues of 1,25-dihydroxyvitamin D3 J.
+Steroid Biochem.
+Mol.
+Bio.
+1998 67 71 78 10.1016/S0960-0760(98)00065-X 9780032 50.
+Bastos B.L.
+Dias Portela R.W.
+Dorella F.A.
+Ribeiro D.
+Seyffert N.
+de Paula Castro T.L.
+Miyoshi A.
+Oliveira S.C.
+Meyer R.
+Azevedo V.
+Corynebacterium pseudotuberculosis: Immunological responses in animal models and zoonotic potential J.
+Clin.
+Cell Immunol.
+2012 S4 005 10.4172/2155-9899.S4-005 51.
+Severini M.
+Ranucci D.
+Miraglia D.
+Cenci Goga B.T.
+Pseudotuberculosis in sheep as a concern of veterinary public health Vet.
+Res.
+Commun.
+2003 27 315 318 10.1023/B:VERC.0000014169.09662.0e 14535419 52.
+He J.
+Zhou Q.
+Jia X.
+Zhou P.
+Cgen L.
+Immune-related expression profiles of bisphosphonates-related osteonecrosis of the jaw in multiple myeloma Pharmazie 2021 76 159 164 10.1691/ph.2021.01013 33849701 53.
+Munoz M.A.
+Fletcher E.K.
+Skinner O.P.
+Jurczyluk J.
+Kristiano E.
+Hodson M.P.
+Sun S.
+Ebetino F.H.
+Croucher D.R.
+Hansbro P.M.
+Bisphosphonate drugs have actions in the lung and inhibit the mevalonate pathway in alveolar macrophages Elife 2021 10 e72430 10.7554/eLife.72430 34967731 54.
+Skehan P.
+Storeng R.
+Scudiero D.
+Monks A.
+McMahon J.
+Vistica D.
+Warren J.T.
+Bokesch H.
+Kenney S.
+Boyd M.R.
+New colorimetric cytotoxicity assay for anticancer-drug screening J.
+Natl.
+Cancer Inst.
+1990 82 1107 1112 10.1093/jnci/82.13.1107 2359136 55.
+Nevozhay D.
+Cheburator software for automatically calculating drug inhibitory concentrations from in vitro screening assays PLoS ONE 2014 9 e106186 10.1371/journal.pone.0106186 25184280 Figures, Schemes and Table pharmaceuticals-19-00256-sch001_Scheme 1 Scheme 1 Structures of the bisphosphonates used in the treatment of osteoporosis.
+pharmaceuticals-19-00256-sch002_Scheme 2 Scheme 2 Three-component reaction applied to the synthesis of aminomethylenebisphosphonates.
+Figure 1 Histological picture of the corpus of the humerus bone from sheep with induced osteoporosis: staining with the Delafield method; magnification 400×.
+Numerous small osteons are visible containing 2–3 lamellae (arrow).
+The central canal is relatively large in respect to the osteon size; BM—interstitial lamellae, OP—primary osteon, OS—osteoresorption zone.
+Figure 2 Histological picture of different samples of the corpus of the humerus bone from animals receiving compound 4 : staining with the Delafield method; magnification 200× ( left panel ) and 400× ( right panel ).
+Large secondary osteons indicate progress in bone tissue healing; OW—secondary osteon.
+Figure 3 Histological picture of the same sample of the corpus of the humerus bone from sheep receiving bisphosphonate 5 : staining with the Delafield method; magnification 200× ( left panel ) and 400× ( right panel ).
+A large increase in the development multilamellar osteons with a relatively large canal size is observed; OS—osteoresorption zone, FO—forming osteon.
+pharmaceuticals-19-00256-t001_Table 1 Table 1 Structures of the obtained bisphosphonates and their activity against mouse macrophages J774E (concentration resulting in a 50% inhibition of proliferation).
+Structure Compound IC 50 * ± SD [µM] R 1 R 2 1 H H 318 ± 26 2 n -propyl H 750 ± 13 3 n -pentyl H 400 ± 27 4 n -heptyl H 20 ± 42 5 n -octyl H 13 ± 41 6 n -nonyl H 11 ± 84 7 n -decyl H 30 ± 32 8 n -undecyl H 32 ± 40 9 n -dodecyl H 32 ± 24 10 n -tridecyl H 32 ± 19 11 n -tetradecyl H 18 ± 20 12 i -propyl H 310 ± 42 13 i -butyl H 312 ± 38 14 i -pentyl H 308 ± 44 15 i -hexyl H 391 ± 49 16 i -oct-1-yl H 360 ± 43 17 2,5-dimethylhexyl H IN ** 18 cyclopropyl H 280 ± 7 19 cyclopentyl H 331 ± 12 20 cyclohexyl H 420 ± 40 21 (Incadronate) cycloheptyl H 254 ± 93 22 cyclooktyl H 240 ± 20 23 n -propyl n -propyl IN ** 24 n -cyclohexyl n -cyclohexyl IN ** 25 cyclohexyl ethyl IN ** 26 (CH 2 ) 4 300 ± 75 27 (CH 2 ) 5 284 ± 67 28 (CH 2 ) 6 201 ± 15 29 (CH 2 ) 7 345 ± 28 30 (CH 2 ) 2 CH(CH 3) (CH 2 ) 2 201 ± 15 31 CH 3 CH(CH 2 ) 3 CHCH 3 IN ** 32 CH 2 CH(CH) 3 CH 2 CH(CH) 3 CH 2 IN ** 33 CH 2 (CH 2 ) 3 CHCH 2 CH 3 IN ** 34 (CH 2 ) 2 O(CH 2 ) 2 275 ± 35 35 CH 2 CH(CH 3 )OCH(CH 3 )(CH 2 ) 2 3195 ± 28 * IC 50 values were determined at concentrations in the range of 1–1000 μg/mL.
+Values are mean ± standard deviation (SD) from at least three experiments performed in triplicates.
+** IN—inactive.

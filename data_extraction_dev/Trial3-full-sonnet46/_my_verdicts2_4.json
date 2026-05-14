@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "1280",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim (case differences only). Q2: value mp 153-155 in quote. Q3: compound name present in quote. Q4: value matches. Q5: correct compound. Q6: PMC11844072 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "464",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 236-237 in quote. Q3: \"compound 10b\" in quote. Q4: value matches. Q5: correct compound. Q6: PMC4058664 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "338",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 102-104 in quote. Q3: compound name in quote. Q4: value matches including (dec.). Q5: correct compound. Q6: PMC11206691 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "1344",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 47 in quote. Q3: compound name \"trans-2,5-diisopropyl-B-borolane\" present in quote (spaced form). Q4: b.p. 47 matches. Q5: correct compound (14). Q6: PMC6236339 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "420",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_not_in_quote",
+    "details": "Q1: verbatim pass. Q2: 253-255 in quote. Q3 FAIL: compound code (11c) appears immediately before the quote in the paper but is absent from the evidence_quote itself. Quote starts \"white powder; mp: 253-255 \u00b0C\" with no compound identifier. Q5: attribution confirmed correct from paper context. Q7: measured correct."
+  },
+  {
+    "row_id": "1492",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 200-202 in quote. Q3: compound code \"5n\" present at start of quote as \"5n )\". Q4: value matches. Q5: correct compound confirmed from paper. Q6: PMC11843341 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "1332",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_verbatim",
+    "details": "Q1 FAIL: quote begins with \"(1R,2R)-(-)-1,2-diaminocyclohexane condensation product (compound 2)\" which does not appear verbatim in the paper. The paper says \"Synthesis of N,N'-(1R,2R)-(-)-1,2-cyclohexylenebis(2-hydroxyacetophenonylideneimine) (2)\". The second half of the quote (\"Recrystallization from absolute ethanol...mp: 144-145\u00b0C\") IS verbatim but the opening is a fabricated paraphrase."
+  },
+  {
+    "row_id": "472",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 294-295 in quote. Q3: compound name core in quote. Q4: value matches. Q5: correct compound. Q6: PMC4058664 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "1528",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_not_in_quote",
+    "details": "Q1: verbatim pass. Q2: 146-147 in quote. Q3 FAIL: compound code (8f) and compound name appear immediately before the quote in paper (\"2-(3-Acetyl-1-(4-bromophenyl)-5-((S)-4-chlorophenyl)-1,2,4-triazolo-4-yl)-2-deoxy-1,3,4,6-tetraacetyl-beta-D-glucose (8f) The product comprised...\") but the evidence_quote starts with \"shiny greenish-yellow needles\" with no compound identifier. Q5: attribution confirmed correct from context."
+  },
+  {
+    "row_id": "1489",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 210-212 in quote. Q3: compound code \"5k\" present at start of quote as \"5k )\". Q4: value matches. Q5: correct compound confirmed. Q6: PMC11843341 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "392",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 193-195 in quote. Q3: \"Quinolin-2-ol\" in quote. Q4: value matches. Q5: correct compound. Q6: PMC9188358 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "271",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_not_in_quote",
+    "details": "Q1: verbatim pass (found in article_text.txt). Q2: 218-220 in quote. Q3 FAIL: compound name \"4-(5-ethyl-2,4-dihydroxyphenyl)-2-hydroxy-5,7,8-trimethylbenzo[e][1,2]oxaphosphinine 2-oxide (2g)\" appears immediately before the quote in the paper but is absent from evidence_quote. Quote starts \"shed with 20 mL of diethyl ether...\" mid-sentence. Q5: attribution confirmed correct from context."
+  },
+  {
+    "row_id": "397",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_not_in_quote",
+    "details": "Q1: verbatim pass. Q2: 260-261 in quote. Q3 FAIL: compound code (4e) appears immediately before quote in paper but is absent from evidence_quote. Quote starts \"white powder; mp: 260-261 \u00b0C\" with no compound identifier. Q5: attribution confirmed correct."
+  },
+  {
+    "row_id": "468",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 280-281 in quote. Q3: compound name in quote \"(10f)\". Q4: value matches. Q5: correct compound. Q6: PMC4058664 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "376",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 240 in quote. Q3: \"SalicylaldehydeThiosemicarbaze\" in quote \u2014 truncated/merged form of \"Salicylaldehyde Thiosemicarbazone\", clearly identifiable. Q4: value 240 \u00b0C matches. Q5: correct compound. Q6: PMC10113129 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "35",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 156.54 in quote (implicit, value from experimental). Q3: compound name fragment in quote. Q4: value matches. Q5: correct compound. Q6: PMC13084458 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "238",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 149-151 in quote. Q3: compound name in quote. Q4: value matches. Q5: correct compound. Q6: PMC12943640 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "655",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_not_in_quote",
+    "details": "Q1: verbatim pass. Q2: 259-261 in quote. Q3 FAIL: compound code (9d) and full compound name appear immediately before the quote in the paper but are absent from evidence_quote. Quote starts \"Orange yellow crystals; yield 2.16 g (42 %);\" with no compound identifier. Q5: attribution confirmed correct from paper context."
+  },
+  {
+    "row_id": "388",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 170-172 in quote. Q3: \"Propyle 1-hydroxy-1H-indole-2-carboxylate\" in quote \u2014 paper has typo \"Propyle\" vs compound name \"Propyl\", compound clearly identifiable. Q4: value matches. Q5: correct compound. Q6: PMC9188358 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "557",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 74-76 in quote. Q3: compound name present in quote. Q4: value matches. Q5: correct compound. Q6: PMC6264341 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "636",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 109-111 in quote. Q3: compound name in quote (\"2-Deoxy-2-(5-nitro-2-furamido)-1,3,4,6-tetra-O-acetyl-\u03b2-D-glucopyranoside\"). Q4: value matches (mp 109-111 \u00b0C; \"m p\" spacing in paper is equivalent). Q5: correct compound. Q6: PMC6236391 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "688",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 142 in quote. Q3: compound name in quote. Q4: value matches. Q5: correct compound. Q6: PMC3685236 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "183",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 85 in quote. Q3: compound name fragment in quote. Q4: value matches. Q5: correct compound. Q6: PMC12943095 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "496",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim. Q2: 152-154 in quote. Q3: compound name in quote. Q4: value matches. Q5: correct compound. Q6: PMC6259447 confirmed. Q7: measured correct. Q8: no conversion."
+  },
+  {
+    "row_id": "330",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1: quote found verbatim after prime/dash normalization (paper uses U+2032 PRIME for 6\u2032 and en-dash for range). Q2: 165-168 in quote. Q3: compound name present in quote. Q4: value matches. Q5: correct compound. Q6: PMC11206691 confirmed. Q7: measured correct. Q8: no conversion."
+  }
+]

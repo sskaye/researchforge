@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "226",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present in the paper, and the experimental section quote supports cyanohydrin 2 with mp 119-121 °C and measured data type."
+  },
+  {
+    "row_id": "294",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "The source characterization for compound 26b reads (2R,4R,E), while the row and claimed quote identify (2S,4S,E); the claimed quote is not present as stated."
+  },
+  {
+    "row_id": "248",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The PMC source and spectral data section support Philinopgenin A with mp 208.5-208.5 °C as a measured melting point."
+  },
+  {
+    "row_id": "355",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The PDF text supports compound 2 and mp 285-286 °C, but the asserted quote is not present under whitespace and hyphen normalization because the source text line-breaks/hyphenates the compound name differently."
+  },
+  {
+    "row_id": "40",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the characterization section supports 4-Benzhydryl-N-benzylpiperazine-1-carbothioamide (3n) as a white solid with 156.54 °C in the melting-point context."
+  },
+  {
+    "row_id": "366",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The specified paper_path is an HTML Europe PMC shell with no article text; the asserted Ag(AN)(OTf) quote and 148 °C value are not present in that source file."
+  },
+  {
+    "row_id": "16",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the characterization text supports compound 6b with m.p. 255-259 °C as a measured melting point."
+  },
+  {
+    "row_id": "231",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the spectral data section supports Soulattrin (1) with m.p. 180-181 °C as measured."
+  },
+  {
+    "row_id": "186",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the characterization text supports compound 4E with mp 115 °C as a measured melting point."
+  },
+  {
+    "row_id": "109",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, Table 5 binds Thalidomide to the literature Tm value 543.15 K, and the conversion to 270.00 °C is correct."
+  },
+  {
+    "row_id": "206",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "The source quote prints the melting range as mp: 220-22°C for compound 3l, but the row's value_raw is expanded to 220-222 °C rather than matching the printed raw value."
+  },
+  {
+    "row_id": "122",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and Table 1 compound II binds bis(3-nitrobenzylidene)-1,3-diaminopropane to M.P. 112-114 °C with measured data type."
+  },
+  {
+    "row_id": "214",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "The source quote prints the melting range as mp: 154- 55°C for compound 7c, but the row's value_raw is expanded to 154-155 °C rather than matching the printed raw value."
+  },
+  {
+    "row_id": "179",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the section for compound 6b supports mp 232-234 °C as a measured melting point."
+  },
+  {
+    "row_id": "440",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the HTML visible text supports compound 7 with Mp: 105-106 o C as measured."
+  },
+  {
+    "row_id": "254",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the spectral data section supports Caledonixanthone G (8) with melting point 201°C as measured."
+  },
+  {
+    "row_id": "319",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the characterization text supports compound 4h with mp = 180-182 °C as measured."
+  },
+  {
+    "row_id": "27",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the characterization section supports N,4-Diphenylpiperazine-1-carbothioamide (3a) with 160.38 °C in the melting-point context."
+  },
+  {
+    "row_id": "285",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the experimental section binds compound 4c to the silyl ester MPA analogue context with Mp: 48-50 °C as measured."
+  },
+  {
+    "row_id": "62",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the characterization text supports Propyle 1-hydroxy-1H-indole-2-carboxylate 2c with mp 170-172 °C as measured."
+  },
+  {
+    "row_id": "135",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "The source section identifies the compound as 1-(2,4-Difluorophenyl)-2-(1H-1,2,4-triazol-1-yl)ethanol (10), while the row uses the generic name fluorinated nitroazole derivative and the quote lacks the row compound name."
+  },
+  {
+    "row_id": "103",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, Table 5 binds Camostat to the literature Tm value 467.15 K, and the conversion to 194.00 °C is correct."
+  },
+  {
+    "row_id": "5",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the synthesis section supports compound AL5 with M.p. 275.5 °C (dec.) as measured decomposition/melting behavior."
+  },
+  {
+    "row_id": "302",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the section for compound 12a supports mp 244-246 °C as a measured melting point."
+  },
+  {
+    "row_id": "112",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The DOI is present, and the characterization section supports compound 6b with M.P. 118-120 °C as measured."
+  }
+]

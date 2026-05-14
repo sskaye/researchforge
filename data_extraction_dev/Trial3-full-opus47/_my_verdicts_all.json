@@ -1,0 +1,602 @@
+[
+  {
+    "row_id": "1324",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PDF text contains the quote verbatim; DOI 10.1021/acs.joc.9b00711 confirmed; compound 4h matched; value 246-247 \u00b0\u0421 present."
+  },
+  {
+    "row_id": "1088",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains 'Stigmasterol ( 6 ). White needles. m.p. 155-156 \u00b0C' verbatim; DOI 10.3390/molecules15106733 confirmed."
+  },
+  {
+    "row_id": "648",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains the compound 2l characterization with 'M.p. 162-164\u00b0C'; DOI 10.3390/70800681 confirmed."
+  },
+  {
+    "row_id": "365",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Quote and value verified in paper for compound 7f (mp 96 \u00b0C); however compound_name field has a stray 'C, 50.73; H, 5.72; N, 8.42.' elemental-analysis prefix attached to the IUPAC name."
+  },
+  {
+    "row_id": "1269",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Sharik 2006 PDF contains the quote verbatim across a line break; compound 21a, mp 49-51 \u00b0C; DOI 10.1021/jo061443+ confirmed."
+  },
+  {
+    "row_id": "537",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains compound 9b with 'M.p. 308-310 o C'; PMC6147013 found in article-id."
+  },
+  {
+    "row_id": "669",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains compound 8c characterization with 'm.p. 111-113 \u00b0C'; DOI 10.3390/60900784 confirmed."
+  },
+  {
+    "row_id": "1156",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains the 26d characterization with 'mp: 104\u2013106 \u00b0C'; DOI 10.1021/acsomega.4c03241 confirmed."
+  },
+  {
+    "row_id": "784",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains 'afford 24 (290 mg, 92%), amorphous powder (CHCl3/MeOH, 20:1), m.p. 254\u00b0C'; DOI 10.3390/60400300 confirmed."
+  },
+  {
+    "row_id": "179",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains N-(n-Nonylamino)methylenebisphosphonic acid (6) characterization with 'mp. 279\u2013280 \u00b0C'; DOI 10.3390/ph19020256 confirmed."
+  },
+  {
+    "row_id": "254",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains compound 39 (N-hydroxypyridinedione) with 'm.p. 98\u2013100 \u00b0C (dec.)'; data_type measured + decomposition relation appropriate; DOI 10.3390/molecules29122942 confirmed."
+  },
+  {
+    "row_id": "1167",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains compound 13b with 'mp:135\u2013137 \u00b0C'; DOI 10.3390/ijms25126803 confirmed."
+  },
+  {
+    "row_id": "1185",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains compound 8g with 'mp 146\u2013148 \u00b0C'; DOI 10.3390/molecules29122839 confirmed."
+  },
+  {
+    "row_id": "1192",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains 'title compound, BOD-AP, was obtained as orange solid (84.3 mg, 70%). Mp: 203\u2013205 \u00b0C'; DOI 10.55730/1300-0527.3325 confirmed."
+  },
+  {
+    "row_id": "1139",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains compound 5o with 'mp: 210\u2013212 \u00b0C'; DOI 10.1021/acsbiomedchemau.4c00060 confirmed."
+  },
+  {
+    "row_id": "462",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains compound 2b with 'mp: 79\u201381 \u00b0C' and PMC6264341 article-id."
+  },
+  {
+    "row_id": "1210",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains compound 1b with 'mp 254\u00b0C (decomp.)'; DOI 10.1134/S1070428022030101 confirmed via PMC9007260."
+  },
+  {
+    "row_id": "789",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains compound 5 with 'm.p. 243 o C' recrystallized from pyridine; DOI 10.3390/71000756 confirmed."
+  },
+  {
+    "row_id": "364",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_truncated",
+    "details": "Quote and value verified in paper for compound 7e (mp 115-116 \u00b0C); however compound_name field has a stray 'C, 50.90; H, 5.81; N, 8.25.' elemental-analysis prefix attached to the IUPAC name."
+  },
+  {
+    "row_id": "1352",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PDF text contains 'A white solid, mp 219\u2212221 \u00b0C, (0.58 g, >95% yield)' for Bicyclic 10; DOI 10.1021/acs.joc.0c02731 confirmed in Moncho 2021 PDF."
+  },
+  {
+    "row_id": "1202",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains compound 1j with 'mp: 123\u00b0C\u2013127\u00b0C'; both numeric tokens 123 and 127 present in quote; DOI 10.3389/fchem.2023.1303479 confirmed."
+  },
+  {
+    "row_id": "288",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains compound 4f with 'mp 120.4\u00b0C'; DOI 10.1134/S107042802211001X confirmed via PMC9790764."
+  },
+  {
+    "row_id": "717",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains 'pale yellow crystals (66%), m.p. > 300\u00b0C' for compound 7 (alternate prep); DOI 10.3390/60300267 confirmed."
+  },
+  {
+    "row_id": "959",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains compound 2a characterization with 'mp 91\u201393 o C'; DOI 10.3390/71000767 confirmed."
+  },
+  {
+    "row_id": "510",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "NXML contains compound 6 with 'white needles (m.p. 92-93\u00b0C'; PMC6236381 article-id present."
+  },
+  {
+    "row_id": "337",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11d quote 'mp: 244\u2013246 \u00b0C' found verbatim in paper PMC10671214; DOI suffix 242216359 present."
+  },
+  {
+    "row_id": "1129",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5e quote 'Yellow solid (0.392 g, 88%), mp: 240\u2013242 \u00b0C' found contiguous in paper PMC11843341; DOI present."
+  },
+  {
+    "row_id": "30",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3d quote 'White solid; 204.90 \u00b0C' found verbatim in paper PMC13084458; DOI acsomega.5c12576 present."
+  },
+  {
+    "row_id": "355",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2b quote with 'mp 34\u201336 \u00b0C' found verbatim in paper PMC6193367; PMC ID present."
+  },
+  {
+    "row_id": "83",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6b quote 'Yield 96%. mp 132\u2013134 \u00b0C' found in paper PMC12944436; DOI ph19020198 present."
+  },
+  {
+    "row_id": "338",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11e quote 'mp: 231\u2013232 \u00b0C' found verbatim in paper PMC10671214; DOI present."
+  },
+  {
+    "row_id": "1274",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote 'afforded 0.010 g (90%) of a light yellow solid,\\nmp 120\u2013124 \u00b0C' is split by an 'NIH-PA Author Manuscript' watermark in the source PDF \u2014 the two halves are not contiguous in the paper text even after whitespace normalization."
+  },
+  {
+    "row_id": "551",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Melting point: 136 \u00b0C' for 3-Hydroxy-3-(4-biphenylyl)butanoic acid found verbatim in paper PMC3685236."
+  },
+  {
+    "row_id": "110",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 13 quote ending 'Mp 227\u2013230 \u00b0C' found contiguous in paper PMC12940417; DOI ijms27041716 present."
+  },
+  {
+    "row_id": "550",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Melting point: 162 \u00b0C' for 3-Hydroxy-2,2-dimethyl-3,3-diphenylpropanoic acid found verbatim in paper PMC3685236."
+  },
+  {
+    "row_id": "485",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9g quote ending 'Mp 130\u2013132 \u00b0C' found verbatim in paper PMC6263281."
+  },
+  {
+    "row_id": "913",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5b quote 'An amount of 657 mg, 90%; mp: 275\u2013277 \u00b0C' found in paper PMC12941058; DOI ijms27041738 present."
+  },
+  {
+    "row_id": "227",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2c quote ending 'm.p. 289\u2212291 \u00b0C' found contiguous in paper PMC11203683; DOI ijms25126327 present."
+  },
+  {
+    "row_id": "183",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10 quote 'mp. > 300 \u00b0C' found verbatim in paper PMC12943640; DOI ph19020256 present."
+  },
+  {
+    "row_id": "568",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4g quote 'M.P.: 187\u2013189 \u00b0C' found verbatim in paper PMC12986465; DOI molecules31050844 present."
+  },
+  {
+    "row_id": "615",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8a quote 'Brown crystals from ethanol; m.p. 168\u00b0C' found verbatim in paper PMC6146877; DOI 81200910 present."
+  },
+  {
+    "row_id": "208",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 35 quote 'mp. 222 \u00b0C' found verbatim in paper PMC12943640; DOI ph19020256 present."
+  },
+  {
+    "row_id": "1204",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9 quote 'mp = 294\u2013296 \u00b0C (lit. = 295\u2013297 \u00b0C)' found verbatim in paper PMC10804403; DOI oprd.3c00205 present."
+  },
+  {
+    "row_id": "1125",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5a quote 'Yellow solid (0.390 g, 97%), mp: 178\u2013180 \u00b0C' found verbatim in paper PMC11843341."
+  },
+  {
+    "row_id": "218",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row '[Glu(O sec -Bu) 2 ][HCl] 181.5 207.5 51.69 (29.590) \u2212' found verbatim in paper PMC10673250; 51.69 is the Tm value."
+  },
+  {
+    "row_id": "1068",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 3 row substring '1c 42 176' found in paper PMC6147071; mp value 176 in the mp column; compound 1c."
+  },
+  {
+    "row_id": "558",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Melting point: 89 \u00b0C' for 3-Hydroxy-2,2-dimethyl-3-phenylbutanoic acid found verbatim in paper PMC3685236."
+  },
+  {
+    "row_id": "1268",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 20c quote 'gave 0.95 g (80%) of a yellow oil; mp 147\u2013150 \u00b0C' confirmed in 2006_Sharik paper (DOI jo061443+); the quote begins after watermarked context and reads contiguous in the PDF body."
+  },
+  {
+    "row_id": "1014",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6c quote 'Yield: 73 %; mp: 117-18\u00b0C' found verbatim in paper PMC6146434; DOI 70700554 present. Note paper prints '117-18' which the row interprets as 117-118 range."
+  },
+  {
+    "row_id": "755",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Long methods-section quote ending 'Compound 33 was obtained as dark yellow crystals (43%), mp 228 \u00b0C' verified as a contiguous substring in paper PMC6146883; DOI 80700541 present."
+  },
+  {
+    "row_id": "193",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper; DOI 10.3390/ph19020256 present; compound 20 N-(Cyclohexylamino)methylenebisphosphonic acid with mp 214-215 \u00b0C confirmed; value_celsius=214.5 = midpoint of 214-215 range."
+  },
+  {
+    "row_id": "493",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "Quote and value are verbatim in paper and the dioxime compound 7a mp 138 \u00b0C is correct, but compound_name field has elemental-analysis prefix 'C, 77.27; H, 5.49; N, 5.11.' prepended to the actual chemical name, making the compound_name field malformed."
+  },
+  {
+    "row_id": "886",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Compound 4a-I (0.57 g, 56%, mp 218 \u00b0C)' present; DOI 10.1021/acsomega.5c11955 present; compound code 4a-I (dispiro trans pyrazole-cyclotriphosphazene hybrid) identified."
+  },
+  {
+    "row_id": "991",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper; DOI 10.3390/60300244 present; bp 85 \u00b0C at 60 mmHg for compound 6 (2,7-dimethyl-2,6-octadiene); reduced-pressure bp correctly noted."
+  },
+  {
+    "row_id": "259",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Long quote verbatim in paper; DOI 10.3390/molecules29122942 present; compound 44 mp 115 \u00b0C confirmed."
+  },
+  {
+    "row_id": "115",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper; DOI 10.3390/ijms27041716 present; compound 18 mp 227-229 \u00b0C confirmed (multiple compounds in paper share Mp 227-229 \u00b0C but quote uniquely identifies compound 18 via penta-2,4-dienamide context)."
+  },
+  {
+    "row_id": "512",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Long quote substring present (ends at 'm.p. 82\u00b0C (dec' which matches paper's 'm.p. 82\u00b0C (decomp.)'); compound 1 = 2-(bromomethyl)benzothiazole; decomposition at 82 \u00b0C; compound_name has leading 'Synthesis of' prefix but compound is identifiable."
+  },
+  {
+    "row_id": "750",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "Quote present and value 256\u00b0C verbatim, but the quote header lists compounds 23 and 24 ('3-(Benzocumarin-3'-yl)-pyrazole' and its 1-phenyl analog); mp 256\u00b0C in the quote belongs to 'Compound 25' (a different compound), not compound 23 which has mp 235\u00b0C; compound_name '3-(Benzocumarin-3'-yl)-pyrazole' is compound 23, but the value 256\u00b0C belongs to compound 25 \u2014 there is a label/value mismatch."
+  },
+  {
+    "row_id": "486",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim; PMC6146472 (folder/metadata) identifies paper; compound 5a mp 102-106 \u00b0C confirmed; midpoint 104 \u00b0C correct."
+  },
+  {
+    "row_id": "1069",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote '1e 48 172' verbatim in Table 3 row; DOI 10.3390/81000735 present; compound 1e (furo[3,4-b][1,4]diazepine derivative), 48% yield, mp 172 \u00b0C."
+  },
+  {
+    "row_id": "383",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper; PMC4058664 paper identified; compound 13 mp 234-235 \u00b0C confirmed; midpoint 234.5 correct."
+  },
+  {
+    "row_id": "561",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper; PMC3685236 paper identified; 2-(1'-(1'-Hydroxycyclohexyl))butanoic acid melting point 86 \u00b0C confirmed."
+  },
+  {
+    "row_id": "810",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper; DOI 10.3390/60800683 present; compound 7 (Hantzsch product) mp 158-160 \u00b0C confirmed; midpoint 159 \u00b0C correct."
+  },
+  {
+    "row_id": "465",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim; PMC6264341 paper identified; compound 3b mp 74-76 \u00b0C confirmed; midpoint 75 correct."
+  },
+  {
+    "row_id": "771",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper; DOI 10.3390/60400300 present; compound 4b mp 138 \u00b0C confirmed."
+  },
+  {
+    "row_id": "642",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim; DOI 10.3390/70800681 present; compound 2f mp 207-209 \u00b0C confirmed; midpoint 208 correct."
+  },
+  {
+    "row_id": "1246",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'C 8 H1 6    ethylcyclohexane      161.9' verbatim in pdftotext of Brown 2000; ethylcyclohexane mp 161.9 K; conversion 161.9 - 273.15 = -111.25 \u00b0C correct; Table 1 measured values."
+  },
+  {
+    "row_id": "892",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper; DOI 10.3390/molecules31040629 present; FURL-G4 mp 116.2-117.6 \u00b0C confirmed; midpoint 116.9 correct."
+  },
+  {
+    "row_id": "388",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper; PMC4058664 paper identified; compound 17 (Methyl 2-(4-(4-benzylphthalazin-1-ylamino)benzamido)-3-ethoxyacrolate) mp 175-177 \u00b0C confirmed; midpoint 176 correct."
+  },
+  {
+    "row_id": "1170",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper; DOI 10.3390/ijms25126803 present; compound 14b mp 252-254 \u00b0C confirmed; midpoint 253.0 correct."
+  },
+  {
+    "row_id": "494",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote verbatim in paper; PMC6146455 paper identified; compound 6 (dimethyl 2,4-diphenylquinazoline-6,7-dicarboxylate) mp 156-158 \u00b0C confirmed; midpoint 157 correct."
+  },
+  {
+    "row_id": "309",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'Quinolin-2-ol. White solid; mp 193-195 \u00b0C' verbatim in paper; DOI 10.1007/s42250-022-00374-9 present; midpoint 194.0 correct."
+  },
+  {
+    "row_id": "315",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Long IUPAC name quote verbatim in paper; DOI 10.3390/ijms242216359 present; compound 4f mp 222-225 \u00b0C confirmed; midpoint 223.5 correct."
+  },
+  {
+    "row_id": "607",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'thiophene-3-carboxylic acid ethyl ester ( 3a ). Dark red crystals from ethanol; m.p. 174\u00b0C' verbatim in paper; DOI 10.3390/81200910 present; compound 3a mp 174 \u00b0C confirmed."
+  },
+  {
+    "row_id": "300",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Long quote verbatim in paper; DOI 10.1007/s13738-021-02358-x present; 5-methyl-1,3,4-oxadiazole-2(3H)-thione (4) mp 68 \u00b0C confirmed."
+  },
+  {
+    "row_id": "1280",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1021/jm3014162 present in paper; compound 5a (1,3,5-Trimethyl-2-(2,4,5-trimethylbenzenesulfonyl)benzene) with mp 147-148 \u00b0C confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "731",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/70200124 present; compound 1f m.p. 201-202\u00b0C present in Experimental section; long quote matches verbatim including N-(3-Oxoalkyl)amides list."
+  },
+  {
+    "row_id": "507",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI molecules16108815 present; compound 4l with m.p. 145 \u00b0C for the diastereomer mixture confirmed; quote matches."
+  },
+  {
+    "row_id": "474",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI molecules16054059 present; (Z)-6-(1-Heptenyl)salicylic acid (8b) Mp 55-56 \u00b0C confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "240",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI molecules29122942 present; compound 5 (2-((4-Hydroxybenzyl)oxy)isoindoline-1,3-dione) mp 145-148 \u00b0C confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "1224",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Brown 2000 J. Chem. Educ. Vol. 77 No. 6 June 2000 p.724 confirmed; octane 216.4 K in Table 1; conversion 216.4-273.15 = -56.75 \u00b0C correct; quote 'C8 H1 8 octane 216.4' matches table layout."
+  },
+  {
+    "row_id": "971",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/71100840 present; 4,5,6,7-Tetrachloro-2,2-diphenyl-1,3-benzodioxole (14) mp 152-153 \u00b0C confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "361",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI s-0036-1588731 present; tert-Butyl 6-Chloro-3-[(E)-2-nitrovinyl]-1H-indole-1-carboxylate (9e) mp 130-132 \u00b0C confirmed; quote matches verbatim including elemental-analysis prefix."
+  },
+  {
+    "row_id": "981",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/70700511 present; N,N'-(1R,2R)-(-)-1,2-cyclohexylenebis(2-hydroxyacetophenonylideneimine) (2) mp 144-145\u00b0C confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "229",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI ijms25126327 present; compound 2e (4-(5-bromo-2,4-dihydroxyphenyl)-2-hydroxy-5,7,8-trimethyl-3,4-dihydrobenzo[e][1,2]oxaphosphinine 2-oxide) m.p. 268-270 \u00b0C confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "708",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/60300267 present; 3-Amino-2-[1'-(4-methylphenylsulphonamido)-1'-(iso-butyl)methyl]quinazolin-4(3H)-one (3f) m.p. 170\u00b0C confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "897",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI ijms27052445 present; compound 5a (1-Benzoyl-4-(4-chlorophenyl)-2-oxo-1,2,5,10-tetrahydrobenzo[g]quinoline-3-carbonitrile) MP > 300 \u00b0C confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "768",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 60300194 present; compound 12 m.p. 221-223 \u00b0C as colourless solid (156 mg, 64%) confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "373",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI ph4081158 (PMC4058664) present; Ethyl (4-benzyl-1-oxo-1H-phthalazin-2-yl)acetate (6) mp 76-78 \u00b0C as violet crystals confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "694",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/70100096 present; 3-(4-Methylphenyl)-2-phenyl-3,4-dihydroquinazolin-4-imine (10b) 0.21g (48%); M.p. 207-208\u00b0C confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "529",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "Paper reports compound 18 with m p 124-126 \u00b0C (measured) and (lit [13] m p 123-125 \u00b0C); CSV chose the literature reference value 123-125 \u00b0C and labelled it as 'measured', but the actually-measured value in this paper is 124-126 \u00b0C."
+  },
+  {
+    "row_id": "215",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI molecules28227523 present; Table 2 row '[Glu(Opr) 2 ][HCl] 170.5 193.4 91.12 (68.596) \u2212' confirms Tm = 91.12 \u00b0C; quote matches verbatim."
+  },
+  {
+    "row_id": "780",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 60400300 present; compound 14 N-(4-methoxyaniline)-5-hydroxy-1,4-naphthoquinone m.p. 211\u00b0C as red crystals confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "1076",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC11831906 confirmed in folder/metadata; Mannose triflate (melting point: 118-120oC) in abstract; quote matches verbatim."
+  },
+  {
+    "row_id": "392",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC7148931 confirmed in paper; compound V3 thiazolidin-4-one mp 244-246 \u00b0C off yellow crystalline solid 79% yield confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "560",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC3685236 confirmed; 3-Hydroxy-3,3-diphenylpropanoic acid; C15H14O3; Mw=242.09; Melting point: 217 \u00b0C confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "761",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 60300194 present; compound 3 (9-(Acetoxymethylidene)-1,4-dihydro-1,4-methanonaphthalene) m.p. 78-79 \u00b0C as pale yellow crystals confirmed; long synthetic-procedure quote matches verbatim."
+  },
+  {
+    "row_id": "149",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI molecules31040706 present; compound 3g (1-(2'-bromo-4-fluoro-[1,1'-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol) Yield 65%; Mp: 150 \u00b0C confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "317",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI ijms242216359 present; compound 4h dispiro[imidazo... pyrrolidine-2',3''-indoline]-4'-carboxylate Yield 544 mg (80%); white powder; mp: 209-210 \u00b0C confirmed; quote matches verbatim."
+  },
+  {
+    "row_id": "154",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI molecules31040706 present; compound 4k (1-(2'-bromo-[1,1'-biphenyl]-2-yl)-2-(4'-nitro-[1,1'-biphenyl]-4-yl)ethan-1-ol) Yield 82%; Mp: 138 \u00b0C confirmed; quote matches verbatim."
+  }
+]

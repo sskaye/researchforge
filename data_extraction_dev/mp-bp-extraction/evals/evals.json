@@ -102,6 +102,74 @@
       "description": "Independent verifier correctly flags a row whose evidence_quote is not in the paper file.",
       "type": "agent",
       "instructions": "Build a CSV with one correct row plus one row whose evidence_quote is a plausible-sounding string that doesn't actually appear in the paper. Apply VERIFICATION_PROMPT_TEMPLATES.md to both rows. The verifier must verify the first and flag the second with flagged_evidence_quote_not_found."
+    },
+    {
+      "name": "v15-quote-support-lint-detects-missing-value-in-quote",
+      "description": "v1.5: quote_support_lint should hard-fail on rows where the quote is verbatim present in the paper but does not contain the numeric value (the 'Dark red solid;' Opus row 80 failure mode, and the GPT-5.5 masthead failure mode).",
+      "type": "deterministic",
+      "command": "python3 scripts/quote_support_lint.py evals/files/v15_seeded_errors.csv 2>&1 | grep -v advisory",
+      "expected_stdout_contains": [
+        "row 4: evidence_quote does not contain any numeric token",
+        "row 5: evidence_quote does not contain any numeric token"
+      ]
+    },
+    {
+      "name": "v16-quote-template-lint-deprecated",
+      "description": "v1.6: quote_template_lint.py is a deprecated no-op. Confirm it exits 0 with a deprecation notice. Ellipsis and template-quote checks were removed because they affected verifiability (Tier 2), not correctness (Tier 1), and forced agents to drop correct rows.",
+      "type": "deterministic",
+      "command": "python3 scripts/quote_template_lint.py evals/files/v15_seeded_errors.csv",
+      "expected_exit_code": 0
+    },
+    {
+      "name": "v16-compound-name-EA-prefix-detection",
+      "description": "v1.6: validate_compound_name flags rows with elemental-analysis line prepended to the compound name (e.g., 'C, 50.73; H, 5.72; N, 8.42. (IUPAC name)'). Caught 3 of T3 Opus's original failures and ~140 contaminated rows across the full corpus.",
+      "type": "deterministic",
+      "command": "python3 scripts/validate_compound_name.py evals/files/v15_seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "row 16: compound_name has elemental-analysis prefix contamination"
+      ]
+    },
+    {
+      "name": "v16-compound-name-leading-code-prefix-detection",
+      "description": "v1.6: validate_compound_name flags rows where the compound_name field starts with a paper-local code prefix like '6 (IUPAC name)'. This is the Phase 6e leading-context-prefix pattern; restored as an active lint in v1.6.",
+      "type": "deterministic",
+      "command": "python3 scripts/validate_compound_name.py evals/files/v15_seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "row 17: compound_name starts with a paper-local code prefix"
+      ]
+    },
+    {
+      "name": "v16-compound-name-procedure-at-start-detection",
+      "description": "v1.6: validate_compound_name flags rows where compound_name begins with procedure-text or appearance description (Yield, White, Yellow, solid, powder, etc.) rather than chemistry.",
+      "type": "deterministic",
+      "command": "python3 scripts/validate_compound_name.py evals/files/v15_seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "row 18: compound_name starts with procedure-text"
+      ]
+    },
+    {
+      "name": "v15-compound-name-shape-expanded",
+      "description": "v1.5: validate_compound_name extends to terminal unfinished-suffix tokens (Carboxamid), dangling hyphen/prime tails, unbalanced parens, narrow procedure-text contamination. Crucially: must NOT false-positive on legitimate parenthesized stereo descriptors (E)-, (S,S)-, (-)-.",
+      "type": "deterministic",
+      "command": "python3 scripts/validate_compound_name.py evals/files/v15_seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "row 9: compound_name ends in unfinished suffix token",
+        "row 10: compound_name ends with a dangling hyphen/prime",
+        "row 11: compound_name has unbalanced parens",
+        "row 12: compound_name contains procedure-text token"
+      ]
+    },
+    {
+      "name": "v15-stereo-descriptors-not-flagged",
+      "description": "v1.5: legitimate IUPAC stereo / optical descriptors that start with '(' must NOT be flagged by validate_compound_name. Rows 13-15 of v15_seeded_errors are (E)-, (S,S)-, and (-)- patterns and should pass through cleanly. This is a guard against the false-positive pattern observed in the initial v1.5 draft (which had a too-broad leading-paren rule).",
+      "type": "deterministic",
+      "command": "python3 evals/check_no_stereo_false_positives.py",
+      "expected_exit_code": 0,
+      "expected_stdout_contains": ["UNEXPECTED FAILURES: NONE"]
     }
   ]
 }

@@ -1,0 +1,875 @@
+pmc ChemMedChem ChemMedChem 10.1002/(ISSN)1860-7187 CMDC Chemmedchem 1860-7179 1860-7187 John Wiley and Sons Inc.
+Hoboken 41824917 12987640 10.1002/cmdc.202500922 CMDC70214 Research Article Research Article Modulation of Tau Protein Neurotoxic Hallmarks by Novel σ 1 R Agonists/HDAC Inhibitor Dual‐Acting Compounds Fallica Antonino N.
+https://orcid.org/0000-0003-1899-8414 1 2 3 [Link] Barbaraci Carla https://orcid.org/0000-0002-6155-6702 1 [Link] Ruiz‐Cantero M.
+Carmen https://orcid.org/0000-0001-6968-0946 4 Scarlatti Arianna https://orcid.org/0009-0000-8407-1671 5 Coco Alessandro 1 Giordano Giorgia 1 La Mantia Alfonsina 1 Prezzavento Orazio 1 Di Stefano Antonio https://orcid.org/0000-0002-3042-2234 6 Cacciatore Ivana https://orcid.org/0000-0001-6253-0443 6 Siano Giacomo https://orcid.org/0000-0003-4320-5631 7 Cattaneo Antonino 5 Pasquinucci Lorella 1 Cobos Enrique J.
+8 Di Primio Cristina https://orcid.org/0000-0003-2140-3696 7 cristina.diprimio@cnr.it Amata Emanuele https://orcid.org/0000-0002-4750-3479 1 eamata@unict.it Marrazzo Agostino https://orcid.org/0000-0002-8728-8857 1 1 Department of Drug and Health Sciences University of Catania Catania Italy 2 Institute for Bioengineering of Catalonia (IBEC) The Barcelona Institute of Science and Technology Barcelona Spain 3 Barcelona Institute for Global Health (ISGlobal) Hospital Clínic‐Universitat de Barcelona Barcelona Spain 4 Laboratori de Química Farmacèutica Facultat de Farmàcia i Ciències de l’Alimentació Universitat de Barcelona Barcelona Spain 5 Laboratorio di Biologia Bio@SNS Scuola Normale Superiore di Pisa Pisa Italy 6 Department of Pharmacy University “G.
+d’Annunzio” of Chieti‐Pescara Chieti Scalo Italy 7 Italian National Research Council (CNR) Institute of Neuroscience Pisa Italy 8 Department of Pharmacology and Neurosciences Institute (Biomedical Research Center) and Biosanitary Research Institute ibs.GRANADA University of Granada Granada Spain * Cristina Di Primio ( cristina.diprimio@cnr.it ) | Emanuele Amata ( eamata@unict.it ) Antonino N.
+Fallica and Carla Barbaraci contributed equally to this study.
+13 3 2026 13 3 2026 21 5 10.1002/cmdc.v21.5 e202500922 20 1 2026 16 10 2025 20 1 2026 © 2026 The Author(s).
+ChemMedChem published by Wiley‐VCH GmbH https://creativecommons.org/licenses/by/4.0/ This is an open access article under the terms of the http://creativecommons.org/licenses/by/4.0/ License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
+Neurodegenerative diseases, like Alzheimer's disease (AD), are characterized by the accumulation of tau aggregates, leading to neuronal dysfunction and cognitive decline.
+This study explores the development of dual‐acting compounds combining sigma‐1 receptor ( σ 1 R) agonists and histone deacetylase inhibitors (HDACi) to target these pathological mechanisms.
+Compounds 2d and 3a demonstrated high affinity for σ 1 R and significantly reduced tau aggregation and phosphorylation in vitro, notably at the AT8 epitope.
+These dual‐acting compounds destabilized tau aggregates, increased tau solubility, and showed favorable pharmacokinetic properties, with compound 2d exhibiting enhanced chemical stability and longer half‐life than 3a .
+In vivo, both compounds confirmed a σ 1 R agonist profile by reversing the effect of the σ 1 R antagonist BD‐1063.
+This dual‐action approach, acting on both HDAC and σ 1 R pathways, holds significant potential for treating tauopathies.
+While further optimization and clinical evaluation are needed, these findings provide a strong foundation for the continued development of multimodal therapies for neurodegenerative diseases treatment.
+This study explores the development of dual‐acting compounds combining σ 1 R agonists and histone deacetylase inhibitors (HDACi).
+Key findings include compound 2d and 3a 's high affinity for σ 1 R and favorable pharmacokinetic profile and an in vivo determined σ 1 R agonist profile by reversing the effect of the σ 1 R antagonist BD‐1063.
+Compounds 2d and 3a also reduced tau aggregation and phosphorylation, notably at the AT8 epitope, and determined tau aggregates destabilization and increased tau solubility.
+This dual‐action approach, acting on both HDAC and σ 1 R pathways, holds significant potential for treating tauopathies.
+© 2026 WILEY‐VCH GmbH σ 1R agonists dual‐acting compounds HDAC inhibitors neurodegenerative diseases neuroprotection phenylbutyric acid sigma receptors ( σ Rs) tau protein valproic acid Ministero dell’Università e della Ricerca P20224L3NK 2022Z3BBPE 2022HRS4YB source-schema-version-number 2.0 cover-date 13 March 2026 details-of-publishers-convertor Converter:WILEY_ML3GV2_TO_JATSPMC version:6.7.1 mode:remove_FC converted:13.03.2026 1 Introduction Neurodegenerative diseases include a multitude of pathologies that chronically affect the nervous system.
+They are generally characterized by neuronal loss of function due to oxidative stress, mitochondrial damage, altered energy metabolism, inflammation, cell death, and dysfunctional proteostasis [ 1 , 2 , 3 , 4 ].
+Among the various neurodegenerative diseases, dementia is currently considered a serious problem from a socioeconomic and health perspective, with an estimated 132 million cases expected by 2050 [ 5 ].
+Patients affected by neurodegenerative diseases suffer from behavioral disorders and/or progressive cognitive decline [ 6 ].
+These symptoms are the result of the neurotoxic effects caused by the deposition in the brain of protein aggregates.
+Specifically, in Alzheimer's disease (AD), these aggregates are represented by amyloid beta (Aβ) plaques and neurofibrillary tangles, the main component of which is the microtubule‐associated protein tau [ 7 ], whose main physiological role in neuronal cells involves, among many others, stabilization of axonal microtubule [ 8 ].
+Post‐translational modifications of the tau protein, such as hyperphosphorylation and O ‐glycosylation, determine protein misfolding which impairs proper binding to axonal microtubules, leading to the formation of insoluble aggregates responsible for the neuronal degeneration exerted by this protein in AD and other tauopathies [ 7 , 9 , 10 , 11 ].
+In addition, in AD, Aβ and tau proteins have been shown to mutually cooperate in the onset of neuronal damage.
+Indeed, Aβ can regulate the kinase‐dependent phosphorylation of tau and its oligomerization state and aggregation, whereas tau contributes to Aβ excitotoxic effects mediated by its binding to postsynaptic N ‐methyl‐D‐aspartate receptor (NMDAR) [ 12 ].
+Moreover, the interplay between these two proteins also seems to play a role in the transcription of genes implicated in synaptic functions [ 13 , 14 ].
+Considering the vast number of players involved in the etiopathogenesis of neurodegenerative diseases, the search for effective therapeutic agents has been quite unsuccessful in the last 20 years, with only two disease‐modifying agents approved from the FDA in 2021 and 2023, namely the monoclonal antibodies (mAbs) aducanumab and lecanemab for AD treatment, and four candidates in phase III clinical trials for tau‐related pathologies [ 15 , 16 , 17 ].
+Therefore, the discovery of novel compounds able to contemporarily modulate the function of multiple targets and mechanisms of pathogenesis would be highly recommended.
+Since their discovery as a distinct and unique family of proteins, σ Rs represented a valuable target for the treatment of central nervous system (CNS)‐related pathologies, pain, and cancer [ 18 , 19 , 20 ].
+σ Rs are a class of chaperone proteins that have been classified as σ 1 R and σ 2 R on the basis of their molecular weight, structure, mechanisms of activation, and biological function [ 21 ].
+After its structural elucidation in 2016 [ 22 ], the σ 1 R has been described as a trimer composed of three protomers with a single transmembrane domain and located at the mitochondria‐associated membrane (MAM), where it is tightly associated with GRP78/BiP protein at the interface of the endoplasmic reticulum (ER) [ 23 ].
+Following ER stress or binding to a positive modulator, i.e., a σ 1 R agonist, the protein unties BiP and undergoes a different oligomerization state that allows it to modulate Ca 2+ influx through stabilization of inositol trisphosphate (IP 3 ) receptors and to interact with different client proteins in the ER or the plasma membrane, such as kinases, voltage‐gated ion channels, and GPCRs [ 24 ].
+Very recently, the identity and crystal structure of the σ 2 R have finally been elucidated [ 25 ].
+The σ 2 R, also referred to as the ER resident protein TMEM97, is a homodimer made of two protomers with four transmembrane domains and possesses sterol isomerase activity.
+The protein forms a ternary complex with progesterone receptor membrane component 1 (PGRMC1) and low density lipoprotein (LDL), which facilitates LDL internalization and appears to play a role in cholesterol homeostasis [ 26 ].
+The therapeutic potential of σ R targeting reflects the receptor anatomical distribution and the pharmacological response obtained after the interaction with the ligand, which allows the distinction between agonists or antagonists on the basis of the phenotypic observations obtained in vivo in σ 1 R or σ 2 R knock out (KO) mice or in behavioral pharmacological assays [ 27 ].
+Specifically, σ 1 R agonists and σ 2 R antagonists have shown to exert neuroprotective effects [ 28 , 29 , 30 , 31 , 32 , 33 ].
+The activation of σ 1 R has been shown to reduce Aβ accumulation and to counteract A β ‐induced oxidative stress in vivo [ 34 , 35 ].
+Furthermore, it enhances the activity of the glutamatergic and cholinergic systems, leading to improved anti‐amnesic effects [ 36 ].
+Additionally, it promotes axon growth and prevents tau hyperphosphorylation.
+This is achieved through myristic acid‐dependent inactivation of the p35/CDK5/p25 pathway and a reduction in glycogen synthase kinase‐3 beta (GSK‐3 β ) activity [ 37 , 38 , 39 ].
+Overall, these observations are in agreement with the increased accumulation of σ 1 R in protein aggregates found in different neurodegenerative disorders, suggesting an adaptive neuroprotective response of the organism, whereas a decreased density of σ 1 R noticed through imaging studies and in postmortem brains of AD‐affected patients further confirms a σ 1 R‐dependent pathological development [ 40 , 41 ].
+As regards σ 2 R, it has been proven that compounds possessing an antagonist pharmacological profile prevent the binding of Aβ oligomers to neurons and synapse loss [ 42 ].
+Figure 1 reports the most representative σ R ligands investigated in neurodegenerative disease, as well as compounds that were further evaluated in clinical trials [ 43 , 44 ].
+FIGURE 1 Chemical structures of (A) representative σ 1 R agonists; (B,C) σ 1 R agonists and σ 2 R antagonists evaluated in clinical trials, respectively (ClinicalTrials.gov, accessed on 27/11/2024) for the treatment of neurodegenerative diseases.
+© 2026 WILEY‐VCH GmbH Epigenetic modulation has gained considerable attention as another feasible strategy for the treatment of neurodegenerative diseases [ 45 ].
+The histone acetyltransferase (HAT) and histone deacetylase (HDAC) enzyme families are responsible for chromatin relaxation or compaction through fine‐tuning the acetylation or deacetylation of lysine residues in histone proteins, respectively [ 46 ].
+Consequently, HAT activity promotes DNA elongation and gene expression, while HDACs exert an opposite effect.
+The HDAC family has been extensively studied and shown to represent a druggable target.
+The 18 currently known HDAC enzymes have been classified into four classes based on their structural similarity to yeast HDACs.
+Interestingly, classes I–III are also able to regulate the acetylation state of nonhistone proteins such as α ‐tubulin, whose deacetylation can impair microtubule stability [ 47 ].
+Additionally, HDAC enzymatic activity can directly or indirectly promote tau cytotoxicity and neurodegeneration in an isoform‐dependent manner [ 48 , 49 , 50 , 51 , 52 ].
+Therefore, there is a consensus that HDAC inhibition could represent another pursuable strategy for treating multifactorial pathologies [ 53 ].
+On these grounds, and considering our previous works based on the development of σ R/HDACi hybrids [ 54 , 55 , 56 , 57 ], we propose a novel series of dual‐acting compounds designed by linking a σ R binding moiety to a selected HDACi.
+The novel dual‐acting compounds have been evaluated for their binding properties to σ Rs and their chemical stability in vitro.
+Moreover, we assessed the σ R pharmacological profile in vivo.
+Finally, in vitro experiments were carried out to demonstrate the reduction of neurotoxic effects ascribable to tau phosphorylation and aggregation.
+2 Results and Discussion 2.1 Rational Design and Synthesis The new σ R/HDACi dual‐acting compounds were designed taking into account the σ R pharmacophore, consisting of two hydrophobic regions that can contract hydrophobic interactions inside the σ R binding pocket appropriately spaced by a central amine protonated at physiologically pH.
+To this end, we selected benzyl‐piperidine or benzyl‐piperazine derivatives as one of the two hydrophobic amines required for σ Rs binding, whereas the HDACis valproic acid (VPA) and the chemical chaperone phenylbutyric acid (PHB) were chosen as second hydrophobic moiety and linked to the previous scaffolds through an hydrolyzable ester or an amide functional group (Figure 2 ).
+VPA and PHB were selected as HDACi in light of their proven antiamnesic, neuroprotective, and tau‐phosphorylation inhibitory efficacies in vitro and in in vivo experimental models of neurodegeneration [ 58 , 59 , 60 , 61 , 62 , 63 , 64 , 65 ].
+This design strategy allows the dual‐acting compounds to bind σ Rs; on the other hand, HDAC inhibition will only occur after hydrolysis since the dual‐acting compounds itself does not possess the structural features required for HDACi, such as the presence of a Zn 2+ binding group [ 66 ].
+FIGURE 2 Design strategy adopted for the design of σ R/HDACi dual‐acting compounds.
+© 2026 WILEY‐VCH GmbH The synthetic strategy developed for the preparation of final compounds 2a – d , 3a , b , and 4a , b is depicted in Scheme 1 .
+It involves a single reaction step in which the desired amides or esters are obtained by reaction of 4‐amino‐ or 4‐hydroxy‐ N ‐benzylpiperidine derivatives or N ‐benzylpiperazine with VPA and PHB acyl chlorides in dry THF at room temperature for 24 h.
+SCHEME 1 Synthetic strategy for the synthesis of target compounds 2a–d , 3a, b , and 4a,b .
+Reagent and conditions: (i) 4‐phenylbutanoyl chloride or 2‐propylpentanoyl chloride, TEA, dry THF, 0°C, then rt, 24 h.
+© 2026 WILEY‐VCH GmbH 2.2 Pharmacological Studies 2.2.1 Radioligand Binding Assays The synthesized compounds were evaluated for their affinity at both σ Rs through radioligand binding assay.
+Results are reported in Table 1 .
+As a general trend, all compounds displayed high affinity for the σ 1 R, with K i values always below 10 nM, whereas they showed moderate (compounds 2a,b ) to negligible affinity for the σ 2 R.
+In addition, almost all phenylbutyric derivatives exhibited better affinity values for both receptors.
+Among the 4‐substituted‐ N ‐benzyl piperidine derivatives, the insertion of a methyl substituent to the amino group in the 4‐position of the N ‐benzylpiperidine provided compounds 2a and 2b showing high affinity for both receptor subtypes.
+On the other hand, the removal of the methyl group (compounds 2c,d ), led to secondary amides whose K i σ 1 values were superimposable with those obtained for compounds 2a,b , whereas the affinity for the σ 2 R was drastically reduced ( 2a vs.
+2c , and 2b vs.
+2d , respectively).
+In the 4‐hydroxy‐ N ‐benzylpiperidine derivatives (compounds 3a,b ), the selectivity toward the σ 1 R was retained, with valproic derivative 3b exhibiting better affinity for σ 1 R than its phenylbutyric derivative 3a .
+Compounds 4a,b differ from the previous molecules for the aliphatic heterocyclic portion used for the formation of the amide bond; indeed, they possess an N ‐benzylpiperazine scaffold instead of the 4‐substituted‐ N ‐benzylpiperidine core.
+Both compounds showed high affinity and selectivity for the σ 1 R with compound 4a having a slightly higher affinity for the σ 1 R when compared to 4b .
+TABLE 1 Binding affinities values of compounds 2a–d, 3a, b, and 4a,b for σ Rs.
+K i (nM) ± SD a Compound X R σ 1 R σ 2 R K i σ 2 R/ σ 1 R 2a CHNCH 3 ‐(CH 2 ) 3 Ph 1.2 ± 0.2 20 ± 2 16.7 2b CHNCH 3 ‐CH(CH 2 CH 2 CH 3 ) 2 3.2 ± 0.3 25 ± 1 7.8 2c CHNH ‐(CH 2 ) 3 Ph 1.9 ± 0.3 95 ± 6 50 2d CHNH ‐CH(CH 2 CH 2 CH 3 ) 2 4.0 ± 0.3 535 ± 19 135 3a CHO ‐(CH 2 ) 3 Ph 9.0 ± 0.7 1844 ± 50 205 3b CHO ‐CH(CH 2 CH 2 CH 3 ) 2 3.9 ± 0.5 549 ± 18 141 4a N ‐(CH 2 ) 3 Ph 2.9 ± 0.2 >5000 >1724 4b N ‐CH(CH 2 CH 2 CH 3 ) 2 8.3 ± 1.5 >5000 >602 Haloperidol b 2.6 ± 0.4 77 ± 18 (+)‐PTZ b 4.3 ± 0.5 1465 ± 224 — DTG b 124 ± 19 18 ± 1 — BD1063 b 14 ± 2.7 204 ± 31 — Abbreviations: (+)‐PTZ, (+)‐pentazocine; DTG, di‐o‐tolylguanidine.
+a Each value is the mean ± SD of at least two experiments performed in duplicate.
+b Taken from reference [ 67 ].
+© 2026 WILEY‐VCH GmbH 2.2.2 Sigma Receptor Pharmacological Profile: Effects of Compounds 2d, 3a,b, and 4a,b on Loperamide‐Induced Antinociception As it is known that σ 1 R antagonism enhances peripheral opioid analgesia [ 68 , 69 , 70 ] and that σ 1 R agonism reverses this effect, we tested whether compounds 2d , 3a,b , and 4a,b mirrored the effects of the σ 1 R antagonist BD‐1063 or the σ 1 R agonist PRE‐084 on antinociception induced by the peripheral opioid agonist loperamide in vivo.
+The effect of the treatments was evaluated in mice by monitoring the struggle response latency to a nociceptive mechanical stimulus applied to the paw.
+The subcutaneous administration of loperamide 4 mg/kg induced a minimal nonsignificant increase in the response latency to the nociceptive stimulation, in comparison to the values from animals treated with its solvent (Figure S9A).
+BD‐1063 was used as a σ 1 R reference antagonist.
+A dose of 100 µg of this compound was administered intraplantarly (i.pl.) to loperamide‐treated animals, producing a highly significant increase in the antinociceptive effect (Figure S9A).
+In contrast to BD‐1063, the i.pl.
+administration of 100 µg of the compounds 2d , 3a,b , and 4a,b was unable to enhance the effect of loperamide (Figure S9).
+Therefore, these compounds do not appear to induce σ 1 R antagonistic effects.
+We then coadministered BD‐1063 with the prototypic σ 1 R agonist PRE‐084 (75 µg, i.pl.) and found that the effect of BD‐1063 on the enhancement of loperamide‐induced antinociception completely disappeared (Figure S9B).
+We followed a similar approach and coadministered compounds 2d , 3a,b , and 4a,b with BD‐1063.
+Compounds 2d , 3a,b , and 4b completely reversed the effect induced by BD‐1063 on loperamide‐induced antinociception and therefore mirrored the effect of PRE‐084.
+However, the coadministration of compound 4a could not modify at all the effect induced by BD‐1063 (Figure S9B).
+To monitor for possible systemic effects induced by the i.pl.
+administration of BD‐1063, PRE‐084 and compounds 2d , 3a,b and 4a,b , we also evaluated the paw contralateral to the injection, and we did not find any apparent variation in the response latency of loperamide‐treated mice (data not shown).
+In summary, our data suggest that compounds 2d , 3a,b , and 4b induce σ 1 R agonistic effects when administered in vivo, while the compound 4a appears to be inactive on σ 1 Rs (as it did not mirror the effect of either σ 1 antagonism or agonism).
+2.2.3 Sigma‐1 Receptor Agonist and HDAC Inhibitors Synergically Act to Destabilize the Structure of Tau Aggregates It has been widely reported that HDACi and σ 1 R agonists have a neuroprotective effect against neurodegeneration; for this reason, we evaluated whether their combination could prevent tau‐related pathology [ 28 , 71 ].
+We employed the cell‐based aggregation screening assay that we previously developed to test the effect on tau aggregation [ 72 , 73 ].
+In summary, reporter cells express the FRET‐based CST P301S biosensor, enabling real‐time monitoring of tau conformational changes under various conditions in live cells.
+In healthy cells, the protein adopts a hairpin conformation while bound to microtubules (MTs), resulting in a FRET signal localized to MTs.
+However, in response to destabilization stimuli (e.g., the presence of tau seeds in the medium), tau dissociates from MTs and assumes an extended conformation, leading to a loss of the FRET signal.
+Upon aggregation, the FRET signal is detectable in the insoluble cytoplasmic inclusions [ 72 ].
+Here, we analyzed the mean Normalized FRET (NFRET) of intracellular aggregates that is informative of their stability.
+To evaluate if our system is sensitive to σ R agonists and HDACi and if they can prevent tau aggregation, we tested reference drugs in our reported cells.
+First, we individually tested the HDACi VPA and PHB, and the σ 1 R agonist PRE‐084 in reporter cells.
+As shown in Figure 3 , the treatment with VPA, PHB, or PRE‐084 does not modulate the NFRET signal.
+On the contrary, the combination of HDACi (VPA or PHB) and σ 1 R agonist PRE‐084 showed a significant reduction in NFRET signal by 13% and 22%, respectively, indicating a synergistic effect on tau aggregate destabilization.
+Of note, when PHB and PRE‐084 are used in combination, PHB is active at lower concentrations than when used alone (Table S1).
+FIGURE 3 CST P301S aggregates stability is reduced by the synergic activity of HDACi and σ 1 R agonist.
+(A) NFRET representative images in control cells (CTRL, N = 167), in cells treated with VPA ( N = 42), PRE‐084 ( N = 49), PHB ( N = 60), PRE‐084 combined with VPA ( N = 40), PRE‐084 combined with PHB ( N = 40).
+All cells have been treated with seeds to induce tau aggregation.
+The concentration of drugs is reported in Table S1.
+CFP (cyan), YFP (yellow), and NFRET (false color).
+Scale bar = 20 μM.
+(B) Violin plot of NFRET values of tau aggregates.
+Kruskal–Wallis ANOVA and Mann–Whitney test: *** p < 0.001.
+© 2026 WILEY‐VCH GmbH We further tested the anti‐aggregation activity of the σ 1 R antagonist BD‐1047 and BD‐1063 and we observed that the NFRET signal was comparable to the control (Figure S10).
+Previous observations lead us to screen novel drugs that combine HDACi and σ 1 R agonists activities: 2a – d , 3a , b , and 4b .
+Reporter cells showed a significative reduction of NFRET signal, with particularly promising outcomes observed for compounds 2a , 2d , and 3a,b (Figures 4A and S11).
+Compounds 2d and 3a have been selected for further in‐depth characterization (Figure 4 ).
+In cells treated with these molecules, we observed FRET positive aggregates smaller than control cells, indicating a significant reduction in aggregates cohesion compared to control cells (Figure 4A,B ).
+To evaluate the amount of amyloid β ‐sheets in treated cells, we employed the dye K114 and found a reduction of amyloidogenic structures compared to the control (Figure 4C–E ).
+By anti‐tau immunofluorescence, we analyzed the aggregates size, revealing a noticeable reduction upon administration of the drugs (Figure 4D,E ).
+FIGURE 4 The stability, size and amyloidogenic structures of CST P301S aggregates are highly reduced by 2d and 3a treatment.
+(A) Violin plot of NFRET analysis of tau aggregates in untreated cells (CTRL, N = 189), treated with 2d ( N = 85), or 3a ( N = 115).
+All cells have been exposed to seeds to induce tau aggregation.
+The concentration of drugs is reported in Table S1.
+Kruskal–Wallis ANOVA and Mann–Whitney test: ** p < 0.01, *** p < 0.001.
+(B) NFRET measured in cells treated with 2d or 3a .
+CFP (cyan), YFP (yellow), and NFRET (false color).
+Scale bar = 20 μm.
+(C,D) Violin plot of the analysis of K114 fluorescence intensity and aggregates size.
+(E) K114 and tau immunostaining of untreated cells (CTRL), cells treated with 2d or 3a .
+K114 (yellow), tau13 (green), and TOTO‐3 (red).
+© 2026 WILEY‐VCH GmbH Altogether these findings suggest that compounds 2d and 3a may exert a therapeutic impact on tau aggregation by acting on tau solubility and phosphorylation profile that are considered key drivers of aggregation.
+Notably, tau aggregates are characterized by insolubility, resistance to detergents, and hyperphosphorylation at pathological epitopes.
+To investigate these tau pathological hallmarks, we performed cellular fractionation and immunoblot experiments.
+In control cells, displaying abundant aggregates, tau predominantly accumulated in the insoluble fraction.
+However, treated cells exhibited a significant increase in soluble tau and a reduction in insoluble tau (Figure 5A ) confirming the efficacy of the two drugs in counteracting tau aggregation.
+FIGURE 5 Compounds 3a and 2d lead to the reduction of tau in the insoluble fraction and to the decreased phosphorylation at AT8 epitope.
+(A) Western blot and relative quantification of total tau in soluble and insoluble fraction in control cells (CTRL), and in cells treated with 2d or 3a .
+All cells have been exposed to seeds to induce tau aggregation.
+Kruskal–Wallis ANOVA and Mann–Whitney test: * p < 0.05.
+(B) Western blot and relative quantification of phosphorylated tau epitope AT8 in control cells (CTRL), cells treated with 2d or 3a .
+(C) Western blot quantification of phosphorylated tau epitope AT100 and p231 in control cells and in cells treated with 2d or 3a .
+© 2026 WILEY‐VCH GmbH It is well‐known that tau hyperphosphorylation stabilizes tau aggregates [ 74 ]; for this reason, we investigated the effect of the two compounds on the phosphorylation of pathological epitopes, such as AT8 epitope (Ser 202/Thr 205), AT100 (Thr 212/Ser 214), and p231.
+Remarkably, we found a significant reduction at AT8 (Figure 5B ,C), a key epitope that mediates tau aggregation and stability [ 75 ].
+2.3 Stability Studies Considering the results obtained in vitro, we evaluated the chemical and enzymatic stabilities of compounds 2d and 3a .
+Experiments were carried out at 37°C in simulated gastric fluid (hydrochloric acid buffer, pH 1.3), phosphate buffer (pH 7.4), and human plasma as shown in Table 2 .
+Results revealed that both compounds were stable in the acidic environment since t1/2 values were higher than 50 h.
+Compound 2d was more stable at pH 7.4 compared to 3a , with the latter presenting an ester linkage more sensible to the basic environment.
+Similarly, these data were also confirmed by the kinetic analysis performed in human plasma (Table 2 ).
+Compound 3a underwent immediate hydrolysis, while compound 2d showed high stability in human plasma for at least 24 h.
+These data suggest that the presence of an amide junction in compound 2d affords a high chemical stability in all tested environments, and therefore, it could be absorbed by the intestinal tract reaching the target sites without any immediate chemical degradation.
+TABLE 2 Chemical and enzymatic stabilities of 2d and 3a.
+Stability 2d 3a t 1/2 , h K obs , h −1 t 1/2 , h K obs , h −1 Chemical pH 1.3 60.26 (±0.89) 0.0115 (±0.001) 50.58 (±1.32) 0.0137 (±0.003) pH 7.4 33.97 (±0.34) 0.0204 (±0.003) 7.17 (±0.43) 0.0966 (±0.001) Enzymatic Human plasma Stable Immediate hydrolysis Note: Values are the means of three different experiments; the standard deviation is given in parentheses.
+Abbreviations: t 1/2 , the time required for the concentration of a drug to decrease by 50%; K obs , the observed rate constant is a linear function of the drug concentration indicating that the reaction is first‐order in metabolites.
+© 2026 WILEY‐VCH GmbH 2.4 In Silico ADME Profile Taking into account that the designed σ 1 R agonists/HDACi dual‐acting compounds should exert their mechanism in the CNS, we performed a preliminary in silico ADME evaluation for compounds 2d and 3a using the free tool SwissADME ( http://swissadme.ch ).
+The analysis was run considering both compounds as hydrochloric salts as they have been used in this form for biological studies.
+The detailed data obtained with the analysis are detailed in Figures S12–S14.
+Both compounds displayed a moderate solubility and an acceptable hydrophilic/hydrophobic profile, with cLogP values of 3.42 for 2d and 3.67 for 3a .
+The topological surface area (TPSA) for both compounds was around 30 Å 2 , which suggests intestinal permeability.
+In addition, blood–brain barrier (BBB) permeation was confirmed by the in silico analysis; the result is in agreement with the TPSA values, as BBB‐permeable drugs usually have TPSA values lower than 60–70 Å 2 [ 76 ].
+The Brain or IntestinaL EstimateD (BOILED‐Egg) model hinted that both compounds are P‐gp substrates and inhibitors.
+Finally, cytochrome inhibition was predicted for CYP3A4 and CYP2D6, while CYP2C19 and CYP2C9 are expected to retain their activity.
+3 Conclusions In this work, we demonstrated that the utilization of σ 1 R agonists/HDAC inhibitor dual‐acting compounds represents a promising therapeutic strategy for addressing multifactorial pathologies that are dependent on an imbalanced activity of tau proteins.
+Our findings showed that these dual‐acting compounds possess a high affinity for σ 1 Rs, with compounds 2d and 3a exhibiting particularly promising pharmacological profiles.
+Notably, both compounds synergistically reduced tau aggregation and destabilized tau aggregates in vitro, significantly diminishing amyloidogenic structures and preventing pathological phosphorylation at critical epitopes, such as AT8.
+The combined actions of σ 1 R agonism and HDAC inhibition enhanced tau aggregate destabilization, resulting in smaller, less stable aggregates, a crucial therapeutic goal in tauopathies.
+Furthermore, both compounds shifted tau from the insoluble to the soluble fraction, highlighting their potential to mitigate tau‐driven neurotoxicity.
+Beyond their neuroprotective effects, compounds 2d and 3a also demonstrated favorable chemical stability and pharmacokinetic properties.
+Compound 2d exhibited stability across various conditions and a prolonged half‐life in human plasma, further supporting its therapeutic potential.
+In vivo pharmacological studies further confirmed the σ 1 R agonist activity of these compounds, as both 2d and 3a reversed the effects of a σ 1 R antagonist in an antinociception model.
+This reinforces their σ 1 R‐dependent activity and aligns with previous reports on the neuroprotective effects of σ 1 R activation in neurodegenerative diseases.
+The dual modulation of both HDAC and σ 1 R pathways suggests a complementary mechanism of action that could enhance neuroprotection in tau‐driven disorders, such as AD.
+Future investigations in disease‐relevant animal models, such as tauopathy or Alzheimer's disease, will be necessary to further assess the therapeutic potential of these dual‐acting compounds.
+In conclusion, this study provides robust evidence that σ 1 R agonists/HDACi dual‐acting compounds hold significant potential as therapeutic agents for tauopathies and other neurodegenerative diseases.
+By targeting both σ 1 R and HDAC pathways, these dual‐acting compounds address several critical aspects at the molecular level that are typical of tauopathies.
+While the preclinical data are encouraging, further in vivo studies and optimization of pharmacokinetic properties are essential to fully realize the therapeutic potential of these compounds.
+Nevertheless, the findings of this study establish a solid foundation for the continued development of σ 1 R agonists/HDACi dual‐acting compounds, offering a promising avenue for more effective treatments against neurodegenerative disorders.
+4 Experimental Section 4.1 General Remarks Reagent‐grade chemicals were purchased from Sigma–Aldrich or Fluorochem and were used without further purification.
+All reactions were monitored by thin‐layer chromatography (TLC) which was performed on silica gel Merck 60 F 254 plates; spots were visualized by UV light ( λ = 254 and 366 nm) and iodine chamber.
+Melting points were determined on a Büchi B‐450 apparatus in glass capillary tubes and are uncorrected.
+Flash chromatography purification was performed on a Merck silica gel 60, 0.040−0.063 mm (230−400 mesh), stationary phase using glass columns with a diameter between 1 and 4 cm.
+Nuclear magnetic resonance spectra ( 1 H NMR and 13 C NMR) were obtained on 400 MHz Brucker or 500 MHz Varian INOVA spectrometers using CDCl 3 with a 0.03% of TMS or DMSO‐ d 6 as deuterated solvent.
+Coupling constants ( J ) are reported in hertz.
+Signal multiplicities are characterized as s (singlet), d (doublet), t (triplet), q (quartet), m (multiplet), and br (broad).
+HRMS spectra were performed using a Vanquish UHPLC system coupled with an Orbitrap Exploris 120 mass spectrometer (Thermo Scientific).
+MS full scan acquisitions were performed in positive ion mode, in the m/z range 150.0–800.0.
+HCD gas on fragmentation method was used, settled in enhanced resolution, with a maximum injection time of 50 ns.
+Purities of all compounds were >95% as determined by microanalysis (C, H, N) that was performed on a Carlo Erba instrument model E1110; all the results agreed within ±0.4% of the theoretical values.
+No unexpected or unusually high safety hazards were encountered.
+4.2 Synthetic Procedures 4.2.1 General Procedure for the Synthesis of Compounds 2a–d, 3a,b, and 4a,b A solution of the specific acid chloride (1 eq) diluted in anhydrous THF (9 mL) was dropped at 0°C to a solution of TEA (1 eq) and N ‐benzylpiperidine or N ‐benzylpiperazine starting material (1 eq) dissolved in anhydrous THF (4 mL).
+The reaction was stirred at room temperature for 24 h in a nitrogen atmosphere.
+After this time, a saturated aqueous NaHCO 3 solution (10 mL) was added to the reaction mixture, followed by EtOAc.
+The organic phase was washed three times with a saturated NaHCO 3 solution; the organic phase was dried with anhydrous Na 2 SO 4 and concentrated under reduced pressure.
+The crude product was purified by flash chromatography using a gradient mixture of chloroform/ethanol as eluent.
+The obtained product was converted to its hydrochloride salt by addition of 1 M HCl in ethanol, precipitated with Et 2 O, filtered, and dried under vacuum.
+4.2.1.1 N‐(1‐Benzylpiperidin‐4‐yl)‐N‐Methyl‐4‐Phenylbutanamide (2a) White solid (458 mg, yield 88%): mp 169°C–171°C; 1 H NMR (hydrochloride salt, 400 MHz, DMSO‐ d 6 ): mixture of two conformers (approximately 65:35) δ 11.32 (s, 0.34H, NH), 11.19 (s, 0.62H, NH), 7.65–7.62 (m, 2H, ArH), 7.47–7.42 (m, 3H, ArH), 7.29–7.25 (m, 2H, ArH), 7.20–7.14 (m, 3H, ArH), 4.60–4.51 (m, 0.81H, CH), 4.25, 4.24 (2s overlapped, 2H, ArC H 2 N), 3.94–3.88 (m, 0.35H, CHN), 3.33–3.29 (m, 2H, H‐piperidine), 3.11–2.92 (m, 2H, H‐piperidine), 2.75 (s, 2.07H, NCH 3 ), 2.66 (s, 1.09H, NCH 3 ), 2.57 (t, J = 8.0 Hz, 2H, COCH 2 CH 2 CH 2 ), 2.39–2.15 (m, 4H, COCH 2 + H‐piperidine), 1.81–1.69 (m, 3H, COCH 2 CH 2 CH 2 + H‐piperidine), 1.60–1.57 (m, 1H, H‐piperidine); 13 C NMR (125 MHz, CDCl 3 ): δ 172.30, 172.19, 141.73, 141.61, 138.24, 137.92, 129.00, 128.93, 128.36, 128.25, 128.19, 128.12, 128.06, 127.00, 126.88, 125.78, 125.70, 62.88, 62.73, 54.94, 52.81, 52.66, 50.43, 35.19, 33.11, 32.45, 29.84, 29.32, 28.74, 27.09, 26.96, 26.41.
+HRMS (ESI): m/z [M + H] + calcd for C 23 H 30 N 2 O 351.2392, found 351.2485.
+Anal.
+Calcd.
+For C 23 H 30 N 2 O·HCl: C, 71.39; H, 8.08; N, 7.24.
+Found: C, 71.30; H, 8.07; N, 7.25.
+4.2.1.2 N‐(1‐Benzylpiperidin‐4‐yl)‐N‐Methyl‐2‐Propylpentanamide (2b) White solid (375 mg, yield 75%): mp 170°C–173°C; 1 H NMR (500 MHz, CDCl 3 ): mixture of two conformers (approximately 71:39) δ 7.34–7.23 (m, 5H, ArH), 4.62–4.55 (m, 0.70H, CHN), 3.75–3.71 (m, 0.28H, CHN), 3.52 (s, 2H, ArC H 2 N), 3.00–2.95 (m, 2H, H‐piperidine), 2.89 (s, 2.01H, NCH 3 ), 2.83 (s, 1.08H, NCH 3 ), 2.68–2.62 (m, 1H, COCH), 2.13 (td, J = 11.5 Hz, 2.0 Hz, 1.32H, H‐piperidine), 2.04 (td, J = 11.5 Hz, 2.0 Hz, 0.70H), 1.92 (qd, J = 12.5 Hz, 3.5 Hz, 0.70H, H‐piperidine), 1.77 (qd, J = 12.5 Hz, 3.5 Hz, 1.30H, H‐piperidine), 1.68–1.52 (m, 2H + 2H, H‐piperazine + CH 2 CH 2 CH 3 ), 1.41–1.34 (m, 2H, CH 2 CH 2 CH 3 ), 1.30–1.17 (m, 4H, 2 × CH 2 CH 2 CH 3 ), 0.89–0.86 (m, 6H, 2 × CH 2 CH 2 CH 3 ); 13 C NMR (125 MHz, CDCl 3 ): δ 176.16, 175.89, 137.85, 137.73, 129.08, 128.94, 128.11, 128.09, 127.00, 62.76, 62.73, 54.75, 52.88, 52,77, 50.43, 41.35, 40.88, 35.53, 35.37, 30.20, 29.53, 28.63, 27.43, 20.77, 20.61, 14.12.
+HRMS (ESI): m/z [M + H] + calcd for C 21 H 34 N 2 O 331.2705, found 331.2798.
+Anal.
+Calcd.
+for C 21 H 34 N 2 O·HCl: C, 68.73; H, 9.61; N, 7.63.
+Found: C, 68.76; H, 9.59; N, 7.63.
+4.2.1.3 N‐(1‐Benzylpiperidin‐4‐yl)‐4‐Phenylbutanamide Hydrochloride (2c) White solid (425 mg, yield 80%): mp 162°C–164°C; 1 H NMR (400 MHz, DMSO‐ d 6 ): mixture of two conformers (approximately 80:20) δ 11.19 (s, 0.75H, NH), 11.07 (s, 0.19H, NH), 8.20 (d, J = 8.0 Hz, 0.18H, CONH), 8.07 (d, J = 8.0 Hz, 0.75H), 7.67–7.62 (m, 2H, ArH), 7.47–7.42 (m, 3H, ArH), 7.29–7.24 (m, 2H, ArH), 7.19–7.14 (m, 3H, ArH), 4.27 (d, J = 5.5 Hz, 0.44H, ArCH 2 N), 4.22 (d, J = 5.5 Hz, 1.48H, ArCH 2 N), 3.98–3.94 (m, 0.19H, CH), 3.78–3.68 (m, 0.79H, CH), 3.27–3.10 (m, 2H, H‐piperidine), 3.02–2.93 (m, 2H, H‐piperidine), 2.59–2.52 (m, 2H, COCH 2 CH 2 C H 2 ), 2.17 (t, J = 7.6 Hz, 0.42H, COCH 2 ), 2.06 (t, J = 7.6 Hz, 1.89H, COCH 2 ), 1.90–1.72 (m, 6H, COCH 2 C H 2 CH 2 + H‐piperidine); 13 C NMR (125 MHz, DMSO‐ d 6 ): δ 171.83, 171.47, 141.78, 141.73, 131.43, 131.28, 129.94, 129.88, 129.31, 128.71, 128.65, 128.27, 128.24, 125.71, 58.65, 50.35, 46.76, 43.96, 40.42, 34.86, 34.68, 34.62, 28.29, 27.08, 27.00, 26.10.
+HRMS (ESI): m/z [M + H] + calcd for C 22 H 28 N 2 O 337.2235, found 337.2331.
+Anal.
+Calcd.
+for C 22 H 28 N 2 O·HCl: C, 70.85; H, 7.84; N, 7.51.
+Found: C, 70.93; H, 7.82; N, 7.52.
+4.2.1.4 N‐(1‐Benzylpiperidin‐4‐yl)‐2‐Propylpentanamide Hydrochloride (2d) White solid (349 mg, yield 70%): mp 164°C–165°C; 1 H NMR (400 MHz, DMSO‐ d 6 ): mixture of two conformers (approximately 82:18) δ 11.14 (s, 0.75H, NH), 11.03 (s, 0.17H, NH), 8.12 (d, J = 7.2 Hz, 0.16H, CONH), 8.04 (d, J = 7.2 Hz, 0.76H, CONH), 7.66–7.62 (m, 2H, ArH), 7.46–7.42 (m, 3H, ArH), 4.28 (d, J = 5.2 Hz, 0.36H, ArCH 2 N), 4.22 (d, J = 5.2 Hz, 1.52H, ArCH 2 N), 4.00–3.96 (m, 0.16H, CH), 3.80–3.70 (m, 0.78H, CH), 3.27–3.24 (m, 2H, H‐piperidine), 3.19–3.16 (br m, 0.58H, H‐piperidine), 3.02–2.92 (m, 1.58H, H‐piperidine), 2.30–2.24 (m, 0.18H, H‐piperidine), 2.16–2.11 (m, 0.83H, H‐piperidine), 2.07–1.99 (m, 0.37H, H‐piperidine), 1.89–1.75 (m, 3.52H, H‐piperidine), 1.47–1.33 (m, 2H, CH 2 CH 2 CH 3 ), 1.27–1.09 (m, 6H, CH 2 CH 2 CH 3 + 2 × CH 2 CH 2 CH 3 ), 0.84–0.80 (m, 6H, 2 × CH 2 CH 2 CH 3 ); 13 C NMR (125 MHz, DMSO‐ d 6 ): δ 174.48, 131.32, 129.81, 129.42, 128.74, 58.89, 50.59, 46.95, 44.96, 43.73, 34.79, 28.51, 26.00, 20.10, 13.95.
+HRMS (ESI): m/z [M + H] + calcd for C 20 H 32 N 2 O 317.2548, found 317.2640.
+Anal.
+Calcd.
+for C 20 H 32 N 2 O·HCl: C, 68.06; H, 9.42; N, 7.94.
+Found: C, 67.95; H, 9.41; N, 7.92.
+4.2.1.5 1‐Benzylpiperidin‐4‐yl 4‐Phenylbutanoate Hydrochloride (3a) White solid (450 mg, yield 85%): mp 141°C–143°C; 1 H NMR (400 MHz, DMSO‐ d 6 ): mixture of two conformers (approximately 50:50) δ 11.41 (br s, 0.48H, NH), 11.30 (br s, 0.48H, NH), 7.67–7.63 (m, 2H, ArH), 7.45–7.42 (m, 3H, ArH), 7.31–7.25 (m, 2H, ArH), 7.21–7.15 (m, 3H, ArH), 4.98–4.95 (br m, 0.5H, CHO), 4.85–4.77 (m, 0.5H, CHO), 4.30 (d, J = 5.2 Hz, 1H, ArCH A CH B N), 4.25 (d, J = 5.2 Hz, 1H, ArCH A CH B N), 3.32–3.29 (m, 1H, H‐piperidine), 3.20–3.16 (m, 1H, H‐piperidine), 3.08–2.95 (m, 2H, H‐piperidine), 2.60–2.55 (m, 2H, COCH 2 CH 2 CH 2 ), 2.33–2.27 (m, 2H, COCH 2 CH 2 CH 2 ), 2.23–2.15 (m, 1H, H‐piperidine), 2.07–2.00 (m, 2H, H‐piperidine), 1.91–1.76 (m, 3H, H‐piperidine + CH 2 CH 2 CH 2 ); 13 C NMR (125 MHz, DMSO‐ d 6 ): δ 171.99, 171.80, 141.26, 131.43, 131.37, 129.88, 129.72, 129.32, 128.63, 128.30, 125.85, 67.57, 64.17, 58.50, 58.13, 49.12, 46.54, 34.30, 34.20, 33.09, 32.92, 27.27, 26.17, 26.01.
+HRMS (ESI): m/z [M + H] + calcd for C 22 H 27 N 2 O 338.2075, found 338.2165.
+Anal.
+Calcd.
+for C 22 H 27 N 2 O·HCl: C, 70.67; H, 7.55; N, 3.75.
+Found: C, 70.75; H, 7.55; N, 3.77.
+4.2.1.6 1‐Benzylpiperidin‐4‐yl 2‐Propylpentanoate Hydrochloride (3b) White solid (363 mg, yield 73%): mp 143°C–145°C; 1 H NMR (400 MHz, DMSO‐ d 6 ): mixture of two conformers (approximately 50:50) δ 11.37 (s, 1H, NH), 7.67–7.63 (m, 2H, ArH), 7.46–7.43 (m, 3H, ArH), 5.01–4.98 (br m, 0.5H, CHO), 4.88–4.80 (m, 0.5H, CHO), 4.33 (d, J = 4.8 Hz, 1H, ArCH A CH B N), 4.25 (d, J = 5.2 Hz, 1H, ArCH A CH B N), 3.31–3.23 (m, 2H, H‐piperidine), 3.09–2.90 (m, 2H, H‐piperidine), 2.37–2.28 (m, 1H, COCH), 2.25–2.17 (m, 1H, H‐piperidine), 2.05–1.93 (m, 2H, H‐piperidine), 1.88–1.84 (m, 1H, H‐piperidine), 1.53–1.32 (m, 4H, 2×CH 2 CH 2 CH 3 ), 1.26–1.15 (m, 4H, 2 × CH 2 CH 2 CH 3 ), 0.84 (t, J = 7.2 Hz, 6H, 2×CH 2 CH 2 CH 3 ); 13 C NMR (125 MHz, DMSO‐ d 6 ): δ 174.75, 174.33, 131.53, 131.33, 129.88, 129.53, 129.31, 128.64, 128.60, 67.40, 63.86, 58.35, 58.17, 49.14, 46.32, 44.45, 44.33, 34.06, 33.90, 27.35, 26.32, 19.94, 13.76.
+HRMS (ESI): m/z [M + H] + calcd for C 20 H 31 NO 318.2388, found 318.2480.
+Anal.
+Calcd.
+for C 20 H 31 NO·HCl: C, 67.87; H, 9.11; N, 3.96.
+Found: C, 67.79; H, 9.09; N, 3.97.
+4.2.1.7 1‐(4‐Benzylpiperazin‐1‐yl)‐4‐Phenylbutan‐1‐One (4a) White solid (443 mg, yield 81%).
+mp 166°C–168°C; 1 H NMR (500 MHz, CDCl 3 ): δ 7.34–7.17 (m, 10H, ArH), 3.62 (t, J = 5.0 Hz, 2H, H‐piperazine), 3.51 (s, 2H, ArCH 2 N), 3.38 (t, J = 5.0 Hz, 2H, H‐piperazine), 2.67 (t, J = 7.5 Hz, 2H, COCH 2 CH 2 CH 2 ), 2.42–2.37 (m, 4H, H‐piperazine), 2.30 (t, J = 7.5 Hz, 2H, CH 2 CH 2 CH 2 ), 1.99–1.93 (m, 2H, CH 2 CH 2 CH 2 ); 13 C NMR (125 MHz, CDCl 3 ): δ 171.15, 141.67, 129.10, 128.45, 128.34, 128.31, 127.26, 125.89, 62.85, 53.10, 52.79, 45.46, 41.51, 35.31, 32.32, 26.68.
+HRMS (ESI): m/z [M + H] + calcd for C 21 H 26 N 2 O 323.2079, found 323.2173.
+Anal.
+Calcd.
+for C 21 H 26 N 2 O·HCl: C, 70.28; H, 7.58; N, 7.81.
+Found: C, 70.33; H, 7.57; N, 7.82.
+4.2.1.8 1‐(4‐Benzylpiperazin‐1‐yl)‐2‐Propylpentan‐1‐One (4b) White solid (356 mg, yield 69%).
+mp 165°C–167°C; 1 H NMR (500 MHz, CDCl 3 ): δ 7.32–7.24 (m, 5H, ArH), 3.67 (t, J = 5.0 Hz, 2H, H‐piperazine), 3.45 (t, J = 5.0 Hz, 2H, H‐piperazine), 3.51 (s, 2H, ArCH 2 N), 2.68–2.62 (m, 1H, CH), 2.43–2.40 (m, 4H, H‐piperazine), 1.68–1.60 (m, 2H, C H 2 CH 2 CH 3 ), 1.40–1.18 (m, 6H, C H 2 CH 2 CH 3 + 2 × CH 2 CH 2 CH 3 ), 0.88 (t, 6H, J = 7.5 Hz, 2×CH 2 CH 2 CH 3 ); 13 C NMR (125 MHz, CDCl 3 ): δ 174.61, 137.59, 128.98, 128.21, 127.15, 62.75, 53.40, 53.07, 45.57, 41.62, 40.19, 35.21, 20.72, 14.11.
+HRMS (ESI): m/z [M + H] + calcd for C 19 H 30 N 2 O 303.2392, found 323.2483.
+Anal.
+Calcd.
+for C 19 H 30 N 2 O·HCl: C, 67.33; H, 9.22; N, 8.27.
+Found: C, 67.41; H, 9.21; N, 8.27.
+4.3 Pharmacological Studies 4.3.1 Radioligand Binding Assays The σ 1 R and σ 2 R binding studies were performed according to the literature [ 77 , 78 ].
+Briefly, for the σ 1 R binding assay, guinea pig brain membranes (400 μL, 500 μg protein) were incubated for 150 min at 37°C with 3 nM of the radiolabeled ligand [ 3 H]‐(+)‐pentazocine (45 Ci/mmol) and increasing concentrations of tested compounds in 50 mM Tris‐HCl (pH 7.4) to a total volume of 1 mL.
+Nonspecific binding was assessed in the presence of 10 μM unlabeled haloperidol.
+Moreover, σ 2 R binding assays were made according to the following protocol: the guinea pig brain membranes (300 μL, 360 μg protein) were incubated for 120 min at room temperature with 3 nM [ 3 H]‐DTG (31 Ci/mmol) in the presence of 0.4 mM radiolabeled ligand (+)‐SKF10,047 to block the σ 1 R sites.
+The incubation was performed in 50 mM Tris‐HCl (pH 8.0) to a total volume of 0.5 mL with increasing concentrations of each test compound.
+Nonspecific binding was evaluated in the presence of 5 μM DTG.
+Each sample was filtered through Whatman GF/B glass fibber filters, which were presoaked for 1 h in a 0.5% poly(ethylenimine) solution, using a Millipore filter apparatus.
+Filters were washed twice with 4 mL of ice‐cold buffer.
+Radioactivity was counted in 4 mL of “Ultima Gold MV” in a 1414 WinSpectral PerkinElmer Wallac or Beckman LS6500 scintillation counter.
+Inhibition constants ( K i values) were calculated using the EBDA/LIGAND program purchased from Elsevier/Biosoft.
+4.3.2 In Vivo Pharmacology: Pharmacological Modulation of Loperamide‐Induced Antinociception Female CD1 mice (Charles River, Barcelona, Spain) were used in all experiments.
+The experiments were performed during the light phase (from 9:00 a.m.
+to 3:00 p.m.).
+Animal care was provided in accordance with institutional (Research Ethics Committee of the University of Granada, Granada, Spain), regional (Junta de Andalucía, Spain), and international standards (European Communities Council directive 2010/63).
+Approval for the animal protocols was granted by Junta de Andalucía (24/06/2021/100).
+Loperamide hydrochloride (Sigma–Aldrich) was dissolved in 1% dimethylsulfoxide (DMSO) (Merck KGaA, Darmstadt, Germany) in ultrapure water and injected subcutaneously into the interscapular area in a volume of 5 mL/kg 30 min before behavioral testing.
+BD‐1063 (1‐[2‐(3,4‐dichlorophenyl)ethyl]‐4‐methylpiperazine dihydrochloride), PRE‐084 (2‐[4‐morpholinethyl]1‐phenylcyclohexanecarboxylate hydrochloride) (both from DC Chemicals, Shanghai, China), and compounds 2d , 3a,b , and 4a,b were dissolved in sterile physiologic saline (0.9% NaCl).
+All these compounds (or their solvent) were administered intraplantarly (i.pl.) into the right hind paw in a volume of 20 μL using a 1710 TLL Hamilton microsyringe (Teknokroma, Barcelona, Spain) with a 30 1/2 ‐gauge needle.
+The i.pl.
+injection was made 5 min before nociceptive testing to minimize systemic absorption of the compounds.
+When BD‐1063 was associated with PRE‐084 or with compounds 2d , 3a,b , and 4a,b , drugs were dissolved in the same solution and injected together to avoid paw lesions from multiple injections.
+Nociceptive stimulation of the hind paw of the animals was made with an Analgesimeter (Model 37 215, Ugo‐Basile, Varese, Italy) as previously described [ 68 , 69 , 70 ].
+After drug administration, mice were gently pincer grasped between the thumb and index fingers by the skin above the interscapular area.
+Then, a blunt cone‐shaped paw‐presser was applied at a constant intensity of 450 g to the dorsal surface of the hind paw until the animal showed a struggle response.
+The struggle latency was measured with a chronometer.
+Evaluations were done twice alternately to each hind paw at intervals of 1 min between stimulations.
+4.3.3 In Vitro Studies 4.3.3.1 Cell Culture and Transfection HeLa cells were routinely cultured in Dulbecco's modified Eagle's medium (DMEM) low glucose (Euroclone) supplemented with 10% fetal bovine serum (FBS), 100 U/mL penicillin, and 100 g/mL streptomycin.
+For FRET and immunofluorescence analysis, cells were seeded the day before the experiment in glass bottom plates (WillCo‐dish) at a density of 4 x 10 4 cells per well.
+For western blot, cells were seeded in six‐well plates at 2 x 10 5 cells per well.
+Effectene transfection reagent (QIAGEN) was used to transfect DNA in HeLa cells according to the manufacturer's instructions.
+4.3.3.2 Drug Treatment and Tau Seeding The day after transfection, drugs, from stock solutions in DMSO, were added to the cell medium at working concentrations reported in Table S1.
+Tau aggregation was induced as previously described [ 72 ].
+The following day, 1.2 μg of tauP301S seeds was administered to cells in WillCo‐dishes using 300 μL of Opti‐MEM Reduced Serum Medium and 2 μL of Lipofectamine 2000 transfection reagent (ThermoFisher Scientific).
+After 2 h of treatment, the medium was replaced with DMEM low glucose supplemented with drugs.
+In the 6‐well plate, 3 μg of tau P301S seeds, 600 μL of Opti‐MEM Reduced Serum Medium, and 5 μL of Lipofectamine 2000 were used.
+4.3.3.3 Immunofluorescence and Staining For IF experiments, cells were fixed with ice‐cold 100% methanol for 5 min.
+Cell membranes were permeabilized (0.1% Triton‐X100 in PBS) and samples were blocked (1% wt/vol BSA, 0.1% Tween in PBS) and incubated with the primary antibody mouse anti‐tau (tau‐13, Santa Cruz Biotechnology) O/N, 4°C, and with fluorophore‐conjugated secondary antibodies (Alexa Fluor 488, ThermoFisher Scientific).
+Slides were mounted with VECTASHIELD mounting medium (Vector Laboratories).
+For K114 and TOTO‐3 staining, cells were fixed and permeabilized as described above.
+Samples were incubated with 1 μM K114 (Sigma–Aldrich) and 1:5000 TOTO‐3 (ThermoFisher Scientific) in PBS for 10 min.
+Slides were mounted with VECTASHIELD mounting medium (Vector Laboratories).
+4.3.3.4 Microscopy and FRET Images were acquired with Zeiss Laser Scanning (LSM) 880 confocal microscope (Carl Zeiss, Jena, Germany) equipped with GaAsP (Gallium:Arsenide:Phosphide) detectors and the DIC 63X apochromatic oil immersion objective (1.4 NA) 63× Apochromat oil immersion (1.4 NA) DIC objective.
+For FRET experiments on living cells, the TCS SL laser‐scanning confocal microscope (Leica Microsystems, Wetzlar, Germany) with a 63×/1.4 NA HCX PL APO oil immersion objective was used for images acquisition.
+An Argon laser was used for EYFP ( λ = 514 nm) and ECFP ( λ = 458 nm).
+The donor (ECFP) fluorescent emission was collected in the donor channel (between 470 and 500 nm) and in the FRET channel (between 530 and 600 nm).
+The acceptor fluorescent emission (EYFP) was collected in the acceptor channel (between 530 and 600 nm).
+To reduce the bleed‐through between donor, acceptor, and FRET channels, fluorophores were excited consecutively.
+FRET images were obtained applying Youvan's method [ 79 ]: FRET index = IFRET − BTD × ID − BTA × I IA.
+The reported images of the FRET, donor, and acceptor channels were achieved after background subtraction from IFRET, ID, and IA, respectively.
+BTD and BTA represent the contribution of donor and acceptor emission bleed‐through to FRET, respectively.
+To determine BTD parameter, images in FRET and donor channels were acquired in cells transfected with the pECFP plasmid that only express the donor and using the “FRET and Colocalization Analyzer” on ImageJ (Hachet‐Haas et al., 2006).
+To determine BTA parameter, as for BTD, images in FRET and acceptor channels were acquired in cells transfected with the pEYFP plasmid that only express the acceptor and were subjected to the same process on ImageJ.
+In our experimental conditions, we consider BTD = 0.1 and BTA = 0.2.
+We reported Normalized FRET (NFRET) images, obtained with the ImageJ plugin “pixFRET” [ 80 ] by applying: NFRET = F index/donor.
+4.3.3.5 Western Blot and Subcellular Fractionation Total protein extracts were obtained by using lysis buffer (Tris‐HCl 20 mM pH 7.5, NaCl 20 mM, glycerol 10%, NP‐40 1%, EDTA 10 mM) complemented with phosphatase and protease inhibitors.
+Proteins were quantified by Bradford protein assay (Bio‐Rad Protein Assay Dye).
+20 μg were loaded for each sample.
+Protein separation was obtained by SDS‐PAGE, and Hybond‐C‐Extra nitrocellulose membranes (Amersham Biosciences) were used for electroblotting.
+Membranes were blocked with EveryBlot Blocking Buffer (Bio‐Rad).
+Soluble lysis buffer (PBS, 1% TritonX‐100) and insoluble lysis buffer (PBS, 1% TritonX‐100 and 1% SDS), supplemented with phosphatase and protease inhibitors, were used to separate the soluble fraction from the insoluble one.
+The soluble fraction was obtained by resuspending the collected cells in the soluble lysis buffer and centrifuging at 16,000 g for 15 min.
+The pellet was resuspended in the insoluble lysis buffer, sonicated, and boiled.
+The primary antibodies used for performing the experiments consisted of mouse anti‐tau (tau‐13, Santa Cruz Biotechnology), mouse anti‐tau (tau‐5, Abcam), mouse anti‐AT8 (ThermoFisher Scientific), rabbit anti‐p231 (ThermoFisher Scientific), mouse anti‐AT100 (ThermoFisher Scientific), mouse anti‐GAPDH (Fitzgerald), and rabbit anti‐histone H2B (Santa Cruz Biotechnology).
+The HRP‐conjugated secondary antibodies for Western blot analysis were anti‐mouse and anti‐rabbit (Santa Cruz Biotechnology).
+Western blot quantification was performed using ImageJ software.
+4.3.3.6 Statistical Analysis In FRET, immunofluorescence, and western blot analysis, statistical significance was assessed by the nonparametric Kruskal–Wallis test followed by pairwise Mann–Whitney test using Origin (OriginLab, Northampton, MA).
+In bar‐plots, values are reported as the mean ± SEM.
+Significance is represented as * for p < 0.05, ** for p < 0.01, and *** for p < 0.001.
+Statistical analysis for behavioral analyses were carried out with a one‐way analysis of variance (ANOVA) followed by a Bonferroni post hoc test.
+ANOVA was performed with the SigmaPlot 12.0 program.
+The differences between values were considered significant when the p value was below 0.05.
+4.4 Chemical Stability 4.4.1 Chromatographic Conditions The chromatographic analyses were performed using Agilent 1260 Infinity II HPLC (Agilent, Santa Clara, CA, USA) composed by a 1260 Infinity II Quaternary Pump (model G7111A), 1260 Infinity II auto‐sampler (model G7129A), a 1260 Infinity II Multicolumn Thermostat (model G7116A), and a 1260 Infinity II Diode Array Detector (model G7115A).
+Data were acquired and integrated using Agilent OpenLAB CDS LC ChemStation as software.
+Analyses were carried out using a ZORBAX Eclipse Plus‐C18 (4.6 × 100 mm i.d., particle size 3.5 μm, Agilent, Santa Clara, USA), and working at 20°C.
+Samples were run by water (A) and acetonitrile (B), enriched with trifluoroacetic (0.1% v/v) in a gradient elution mode starting from 90% of (A) to 10% of (B) over 15 min.
+The injection volume was 20 µL and the flow rate was 1.0 mL/min.
+The UV detector was set at 254 nm.
+4.4.2 Kinetic of Chemical Hydrolysis Phosphate buffer (PBS, 0.125 M, pH 7.4) and hydrochloric buffer (0.02 M, pH 1.3) were used to evaluate the chemical stability of the selected compounds.
+Compound 2d or 3a was added to thermostated (37°C ± 0.5°C) aqueous buffer solution to reach a final concentration of 500 mM.
+At established time points, samples (250 μL) were withdrawn and injected in HPLC.
+Pseudo‐first‐order rate constants ( K obs ) for the compounds’ hydrolysis were calculated from the slopes of the linear plots of natural logarithm (ln % residual compound) against time [ 81 ].
+The analyses were held in triplicate and the mean values of the rate constants were calculated.
+4.4.3 Kinetics of Enzymatic Hydrolysis Human plasma was obtained from 3H Biomedical (Uppsala, Sweden, Europe).
+Plasma fractions (1.6 mL) were diluted with 400 µL of PBS (pH 7.4) and 50 µL of 15 mg/mL stock solution of 2d or 3a was added.
+Studies were performed at 37 ± 0.5°C using a shaking bath.
+Aliquots (50 µL) were taken at established time points and treated with cold acetonitrile (100 µL).
+Samples were centrifugated for 5 min at 6000 rpm, and then the supernatants were collected and analyzed by HPLC.
+The percentage of residual compound was expressed as natural logarithm (ln %) and plotted as a function of time.
+Author Contributions Antonino N.
+Fallica: investigation, writing – original draft, writing – review and editing.
+Carla Barbaraci: investigation, writing – original draft, writing – review and editing.
+M.
+Carmen Ruiz‐Cantero: investigation.
+Arianna Scarlatti: investigation, data curation.
+Alessandro Coco: investigation, data curation.
+Giorgia Giordano: investigation.
+Alfonsina La Mantia: investigation.
+Orazio Prezzavento: investigation, methodology, data curation.
+Antonio Di Stefano: investigation, methodology, writing – original draft.
+Ivana Cacciatore: investigation, methodology, writing – original draft.
+Giacomo Siano: investigation.
+Antonino Cattaneo: investigation, methodology.
+Lorella Pasquinucci: data curation, supervision.
+Enrique J.
+Cobos: methodology, data curation, writing – original draft, writing – review and editing.
+Cristina Di Primio: investigation, methodology, writing – original draft, writing – review and editing, supervision.
+Emanuele Amata: data curation, supervision, writing – original draft, writing – review and editing.
+Agostino Marrazzo: conceptualization, methodology, writing – original draft, writing – review and editing, funding acquisition, supervision.
+Supporting Information Additional supporting information can be found online in the Supporting Information section.
+Supporting Fig.
+S1: 1 H NMR (400 MHz, DMSO‐d 6 ) (hydrochloride salt) and 13 C NMR (125 MHz, CDCl 3 ) (free base) for N‐(1‐Benzylpiperidin‐4‐yl)‐N‐methyl‐4‐phenylbutanamide ( 2a ).
+Supporting Fig.
+S2: 1 H NMR (500 MHz, CDCl 3 ) and 13 C (125 MHz, CDCl 3 ) for N‐(1‐Benzylpiperidin‐4‐yl)‐N‐methyl‐2‐propylpentanamide ( 2b ).
+Supporting Fig.
+S3: 1 H NMR (400 MHz, DMSO‐d 6 ) and 13 C NMR (125 MHz, DMSO‐d 6 ) for N‐(1‐Benzylpiperidin‐4‐yl)‐4‐phenylbutanamide hydrochloride ( 2c ).
+Supporting Fig.
+S4: 1 H NMR (400 MHz, DMSO‐d 6 ) and 13 C NMR (125 MHz, DMSO‐d 6 ) for N‐(1‐Benzylpiperidin‐4‐yl)‐2‐propylpentanamide hydrochloride ( 2d ).
+Supporting Fig.
+S5: 1 H (400 MHz, DMSO‐d 6 ) and 13 C (125 MHz, DMSO‐d 6 ) for 1‐Benzylpiperidin‐4‐yl 4‐phenylbutanoate hydrochloride ( 3a ).
+Supporting Fig.
+S6: 1 H NMR (400 MHz, DMSO‐d 6 ) and 13 C NMR (125 MHz, DMSO‐d 6 ) for 1‐Benzylpiperidin‐4‐yl 2‐propylpentanoate hydrochloride ( 3b ).
+Supporting Fig.
+S7: 1 H (500 MHz, CDCl 3 ) and 13 C (125 MHz, CDCl 3 ) for 1‐(4‐Benzylpiperazin‐1‐yl)‐4‐phenylbutan‐1‐one ( 4a ).
+Supporting Fig.
+S8: 1 H (500 MHz, CDCl 3 ) and 13 C (125 MHz, CDCl 3 ) for 1‐(4‐Benzylpiperazin‐1‐yl)‐2‐propylpentan‐1‐one ( 4b ).
+Supporting Fig .
+S9 : Effects of compounds 2d , 3a,b and 4a,b on loperamide‐induced antinociception.
+The results represent the struggle response latency during stimulation with 450 g pressure in mice treated subcutaneously (s.c.) with loperamide (4 mg/kg) or its solvent (1% DMSO in ultrapure water) and intraplantarally (i.pl.) administered with the σ 1 R ligands.
+( A ) Response latency to mechanical stimulation in the paw i.pl.
+injected with the σ 1 R antagonist BD‐1063 (BD), the compounds 2d , 3a,b and 4a,b (100 μg) or their solvent (saline).
+( B ) Effect of the i.pl.
+coadministration of BD (100 µg) with the σ 1 R agonist PRE‐084 (PRE; 75 μg) or the compounds 2d , 3a,b and 4a,b (100 µg).
+Each bar and vertical line represents the mean ± SEM of values obtained in 6−8 animals.
+(A and B) One‐way analysis of variance (ANOVA) followed by the Bonferroni test was used to determine statistically significant differences between the values obtained in the group treated with the solvent of the drugs and the rest of the groups (** p < 0.01), between the values of loperamide‐treated mice injected with the σ 1 R ligands or their solvent (## p < 0.01), and (B) between the values from loperamide‐treated mice injected with BD alone and coadministered with PRE‐084 or compounds 2d , 3a,b and 4a,b (†† p < 0.01).
+Supporting Fig.
+S10: NFRET of σ 1 R antagonists BD‐1047 or BD‐1063.
+( A ) NFRET in cells treated with BD‐1047 or BD‐1063.
+CFP (cyan), YFP (yellow) and NFRET (false color).
+Scale bar = 20 μm.
+( B ) Violin plot of NFRET analysis of aggregates in control cells (CTRL, N =31), in cells treated with BD‐1047 (N = 30), BD‐1063 (N = 32).
+Supporting Fig.
+S11: NFRET of compound 2a – c , 3b , 4b .
+( A ) NFRET in cells treated with 2a – c , 3b , or 4b .
+CFP (cyan), YFP (yellow) and NFRET (false color).
+Scale bar = 20 μm ( B ) Violin plot of NFRET analysis of aggregates in control cells (CTRL, N = 189), in cells treated with 2a (N = 60), 2b (N = 52), 2c (N = 41), 3b (N = 98), or 4b (N = 61).
+Supporting Fig.
+S12: ADME results for compound 2d from SwissADME.
+Supporting Fig.
+S13: ADMET results for compound 3a from SwissADME.
+Supporting Fig.
+S14: BOILED‐Egg plot for compounds 2d and 3a .
+Supporting Fig.
+S15: HRMS of compound 2a.
+Supporting Fig.
+S16: HRMS of compound 2b.
+Supporting Fig.
+S17: HRMS of compound 2c .
+Supporting Fig.
+S18: HRMS of compound 2d .
+Supporting Fig.
+S19: HRMS of compound 3a .
+Supporting Fig.
+S20: HRMS of compound 3b .
+Supporting Fig.
+S21: HRMS of compound 4a .
+Supporting Fig.
+S22: HRMS of compound 4b .
+Supporting Table S1: Concentration of drugs used in the experimental procedures on CST P301S reporter cells (Figure 3–5; Figure S11, S12).
+Funding This work was supported by Ministero dell’Università e della Ricerca (P20224L3NK, 2022Z3BBPE, 2022HRS4YB).
+Conflicts of Interest The authors declare no conflicts of interest.
+Supporting information Supplementary Material Acknowledgments This work was financially supported by Italian MUR, PRIN–2022 PNRR program (Project code: P20224L3NK, CUP E53D23015810001, PE5) funded by the European Union – Next Generation EU (D.D.
+1409 del 14/09/2022 MUR), PRIN–2022, Prot.
+2022Z3BBPE_006, PE5 and PRIN–2022, Prot.
+2022HRS4YB.
+The authors thank Dr.
+Francesco Mugheddu (CNR‐ICB, Italy) for obtaining HRMS raw data.
+Open access publishing facilitated by Universita degli Studi di Catania, as part of the Wiley ‐ CRUI‐CARE agreement.
+Data Availability Statement The data supporting this article have been included as part of the Supplementary Information.
+References 1 S.
+Bhatia , R.
+Rawal , P.
+Sharma , T.
+Singh , M.
+Singh , and V.
+Singh , “ Mitochondrial Dysfunction in Alzheimer's Disease: Opportunities forDrug Development ,” Current Neuropharmacology 20 ( 2022 ): 675 – 692 .
+33998995 2 D.
+Cozachenco , F.
+C.
+Ribeiro , and S.
+T.
+Ferreira , “ Defective Proteostasis in Alzheimer's Disease ,” Ageing Research Reviews 85 ( 2023 ): 101862 .
+36693451 3 L.
+Yu , J.
+Jin , Y.
+Xu , and X.
+Zhu , “ Aberrant Energy Metabolism in Alzheimer's Disease ,” Journal of Translational Internal Medicine 10 ( 2022 ): 197 – 206 .
+36776238 4 B.
+N.
+Dugger and D.
+W.
+Dickson , “ Pathology of Neurodegenerative Diseases ,” Cold Spring Harbor Perspectives in Biology 9 ( 2017 ): a028035 .
+28062563 5 World Health Organization , Global action plan on the public health response to dementia 2017‐2025 ( World Health Organization , 2017 ).
+6 A.
+D.
+Korczyn and L.
+T.
+Grinberg , “ Is Alzheimer Disease a Disease? ,” Nature Reviews Neurology 20 ( 2024 ): 245 – 251 .
+38424454 7 G.
+Simic , M.
+B.
+Leko , S.
+Wray , et al., “ Tau Protein Hyperphosphorylation and Aggregation in Alzheimer's Disease and Other Tauopathies, and Possible Neuroprotective Strategies ,” Biomolecules 6 ( 2016 ): 6 .
+26751493 8 S.
+A.
+Kent , T.
+L.
+Spires‐Jones , and C.
+S.
+Durrant , “ The Physiological Roles of Tau and A β : Implications for Alzheimer's Disease Pathology and Therapeutics ,” Acta Neuropathologica 140 ( 2020 ): 417 – 447 .
+32728795 9 S.
+Wegmann , J.
+Biernat , and E.
+Mandelkow , “ A Current View on Tau Protein Phosphorylation in Alzheimer's Disease ,” Current Opinion in Neurobiology 69 ( 2021 ): 131 – 138 .
+33892381 10 G.
+Siano , C.
+Falcicchia , N.
+Origlia , A.
+Cattaneo , and C.
+Di Primio , “ Non‐Canonical Roles of Tau and Their Contribution to Synaptic Dysfunction ,” International Journal of Molecular Sciences 22 ( 2021 ): 10145 .
+34576308 11 B.
+C.
+Creekmore , R.
+Watanabe , and E.
+B.
+Lee , “ Neurodegenerative Disease Tauopathies ,” Annual Review of Pathology 19 ( 2024 ): 345 – 370 .
+12 H.
+Zhang , W.
+Wei , M.
+Zhao , et al., “ Interaction between A β and Tau in the Pathogenesis of Alzheimer's Disease ,” International Journal of Biological Sciences 17 ( 2021 ): 2181 – 2192 .
+34239348 13 E.
+K.
+Pickett , A.
+G.
+Herrmann , J.
+McQueen , et al., “ Amyloid Beta and Tau Cooperate to Cause Reversible Behavioral and Transcriptional Deficits in a Model of Alzheimer's Disease ,” Cell Reports 29 ( 2019 ): 3592 – 3604 e3595 .
+31825838 14 A.
+R.
+Roda , G.
+Serra‐Mir , L.
+Montoliu‐Gaya , L.
+Tiessler , and S.
+Villegas , “ Amyloid‐Beta Peptide and Tau Protein Crosstalk in Alzheimer's Disease ,” Neural Regeneration Research 17 ( 2022 ): 1666 – 1674 .
+35017413 15 S.
+Dhillon , “ Aducanumab: First Approval ,” Drugs 81 ( 2021 ): 1437 – 1443 .
+34324167 16 S.
+M.
+Hoy , “ Lecanemab: First Approval ,” Drugs 83 ( 2023 ): 359 – 365 .
+36856953 17 J.
+L.
+Cummings , M.
+I.
+Gonzalez , M.
+C.
+Pritchard , P.
+C.
+May , L.
+M.
+Toledo‐Sherman , and G.
+A.
+Harris , “ The Therapeutic Landscape of Tauopathies: Challenges and Prospects ,” Alzheimer's Research & Therapy 15 ( 2023 ): 168 .
+18 N.
+Ye , W.
+Qin , S.
+Tian , et al., “ Small Molecules Selectively Targeting Sigma‐1 Receptor for the Treatment of Neurological Diseases ,” Journal of Medicinal Chemistry 63 ( 2020 ): 15187 – 15217 .
+33111525 19 A.
+N.
+Fallica , V.
+Pittala , M.
+N.
+Modica , et al., “ Recent Advances in the Development of Sigma Receptor Ligands as Cytotoxic Agents: A Medicinal Chemistry Perspective ,” Journal of Medicinal Chemistry 64 ( 2021 ): 7926 – 7962 .
+34076441 20 A.
+N.
+Fallica , V.
+Ciaffaglione , M.
+N.
+Modica , et al., “ Structure‐Activity Relationships of Mixed σ 1R/ σ 2R Ligands with Antiproliferative and Anticancer Effects ,” Bioorganic & Medicinal Chemistry 73 ( 2022 ): 117032 .
+36202063 21 R.
+Quirion , W.
+D.
+Bowen , Y.
+Itzhak , et al., “ A Proposal for the Classification of Sigma Binding Sites ,” Trends in Pharmacological Sciences 13 ( 1992 ): 85 – 86 .
+1315463 22 H.
+R.
+Schmidt , S.
+Zheng , E.
+Gurpinar , A.
+Koehl , A.
+Manglik , and A.
+C.
+Kruse , “ Crystal Structure of the Human σ 1 Receptor ,” Nature 532 ( 2016 ): 527 – 530 .
+27042935 23 T.
+Hayashi and T.
+P.
+Su , “ Sigma‐1 Receptor Chaperones at the ER‐ Mitochondrion Interface Regulate Ca2+ Signaling and Cell Survival ,” Cell 131 ( 2007 ): 596 – 610 .
+17981125 24 D.
+A.
+Ryskamp , S.
+Korban , V.
+Zhemkov , N.
+Kraskovskaya , and I.
+Bezprozvanny , “ Neuronal Sigma‐1 Receptors: Signaling Functions and Protective Roles in Neurodegenerative Diseases ,” Frontiers in Neuroscience 13 ( 2019 ): 862 .
+31551669 25 A.
+Alon , J.
+Lyu , J.
+M.
+Braz , et al., “ Structures of the σ 2 Receptor Enable Docking for Bioactive Ligand Discovery ,” Nature 600 ( 2021 ): 759 – 764 .
+34880501 26 K.
+Yang , C.
+Zeng , C.
+Wang , M.
+Sun , D.
+Yin , and T.
+Sun , “ Sigma‐2 Receptor‐A Potential Target for Cancer/Alzheimer's Disease Treatment via Its Regulation of Cholesterol Homeostasis ,” Molecules 25 ( 2020 ): 5439 .
+33233619 27 H.
+Agha and C.
+R.
+McCurdy , “ In Vitro and In Vivo Sigma 1 Receptor Imaging Studies in Different Disease States ,” RSC Medicinal Chemistry 12 ( 2021 ): 154 – 177 .
+34046607 28 L.
+Nguyen , B.
+P.
+Lucke‐Wold , S.
+Mookerjee , N.
+Kaushal , and R.
+R.
+Matsumoto , Advances in Experimental Medicine and Biology 964 ( 2017 ): 133 – 152 .
+28315269 29 T.
+Maurice and N.
+Goguadze , Advances in Experimental Medicine and Biology 964 ( 2017 ): 213 – 233 .
+28315274 30 C.
+Abate , M.
+Niso , and F.
+Berardi , “ Sigma‐2 Receptor: Past, Present and Perspectives on Multiple Therapeutic Exploitations ,” Future Medicinal Chemistry 10 ( 2018 ): 1997 – 2018 .
+29966437 31 T.
+Maurice and N.
+Goguadze , Handbook of Experimental Pharmacology 244 ( 2017 ): 81 – 108 .
+28275911 32 A.
+Marrazzo , F.
+Caraci , E.
+T.
+Salinaro , T.
+P.
+Su , A.
+Copani , and G.
+Ronsisvalle , “ Neuroprotective Effects of Sigma‐1 Receptor Agonists against Beta‐Amyloid‐Induced Toxicity ,” Neuroreport 16 ( 2005 ): 1223 – 1226 .
+16012353 33 V.
+Antonini , A.
+Marrazzo , G.
+Kleiner , et al., “ Anti‐Amnesic and Neuroprotective Actions of the Sigma‐1 Receptor Agonist (‐)‐MR22 in Rats with Selective Cholinergic Lesion and Amyloid Infusion ,” Journal of Alzheimer's Disease 24 ( 2011 ): 569 – 586 .
+34 A.
+Fisher , I.
+Bezprozvanny , L.
+Wu , et al., “ AF710B, a Novel M1/ σ 1 Agonist with Therapeutic Efficacy in Animal Models of Alzheimer's Disease ,” Neuro‐Degenerative Diseases 16 ( 2016 ): 95 – 110 .
+26606130 35 V.
+Villard , J.
+Espallergues , E.
+Keller , et al., “ Antiamnesic and Neuroprotective Effects of the Aminotetrahydrofuran Derivative ANAVEX1‐41 Against Amyloid β 25–35‐Induced Toxicity in Mice ,” Neuropsychopharmacology 34 ( 2009 ): 1552 – 1566 .
+19052542 36 V.
+Villard , J.
+Espallergues , E.
+Keller , A.
+Vamvakides , and T.
+Maurice , “ Anti‐Amnesic and Neuroprotective Potentials of the Mixed Muscarinic Receptor/Sigma 1 ( σ 1 ) Ligand ANAVEX2‐73, a Novel Aminotetrahydrofuran Derivative ,” Journal of Psychopharmacology 25 ( 2011 ): 1101 – 1117 .
+20829307 37 V.
+Lahmy , J.
+Meunier , S.
+Malmstrom , et al., “ Blockade of Tau Hyperphosphorylation and A β 1‐42 Generation by the Aminotetrahydrofuran Derivative ANAVEX2‐73, a Mixed Muscarinic and σ 1 Receptor Agonist, in a Nontransgenic Mouse Model of Alzheimer's Disease ,” Neuropsychopharmacology: Official Publication of the American College of Neuropsychopharmacology 38 ( 2013 ): 1706 – 1723 .
+23493042 38 S.
+Y.
+Tsai , M.
+J.
+Pokrass , N.
+R.
+Klauer , H.
+Nohara , and T.
+P.
+Su , “ Sigma‐1 Receptor Regulates Tau Phosphorylation and Axon Extension by Shaping p35 Turnover via Myristic Acid ,” Proceedings of the National Academy of Sciences of the United States of America 112 ( 2015 ): 6742 – 6747 .
+25964330 39 J.
+Ciesielski , T.
+P.
+Su , and S.
+Y.
+Tsai , “ Myristic acid Hitchhiking on Sigma‐1 Receptor to Fend Off Neurodegeneration ,” Receptors & Clinical Investigation 3 ( 2016 ): e1114 .
+27077074 40 Y.
+Miki , F.
+Mori , T.
+Kon , et al., “ Accumulation of the Sigma‐1 Receptor Is Common to Neuronal Nuclear Inclusions in Various Neurodegenerative Diseases ,” Neuropathology 34 ( 2014 ): 148 – 158 .
+24313828 41 M.
+Mishina , M.
+Ohyama , K.
+Ishii , et al., “ Low Density of Sigma1 Receptors in Early Alzheimer's Disease ,” Annals of Nuclear Medicine 22 ( 2008 ): 151 – 156 .
+18498028 42 W.
+H.
+Ma , A.
+F.
+Chen , X.
+Y.
+Xie , and Y.
+S.
+Huang , “ Sigma Ligands as Potent Inhibitors of A β and A β Os in Neurons and Promising Therapeutic Agents of Alzheimer's Disease ,” Neuropharmacology 190 ( 2021 ): 108342 .
+33045243 43 T.
+Wang and H.
+Jia , “ The Sigma Receptors in Alzheimer's Disease: New Potential Targets for Diagnosis and Therapy ,” International Journal of Molecular Sciences 24 ( 2023 ): 12025 .
+37569401 44 Z.
+W.
+Neha , S.
+H.
+H.
+Pinky , A.
+Jamal , and S.
+Parvez , “ GLP‐1/Sigma/RAGE Receptors: An Evolving Picture of Alzheimer's Disease Pathology and Treatment ,” Ageing Research Reviews 93 ( 2024 ): 102134 .
+38008402 45 V.
+Kumar , S.
+Kundu , A.
+Singh , and S.
+Singh , “ Understanding the Role of Histone Deacetylase and Their Inhibitors inNeurodegenerative Disorders: Current Targets and Future Perspective ,” Current Neuropharmacology 20 ( 2022 ): 158 – 178 .
+34151764 46 L.
+Icardi , K.
+De Bosscher , and J.
+Tavernier , “ The HAT/HDAC Interplay: Multilevel Control of STAT Signaling ,” Cytokine & Growth Factor Reviews 23 ( 2012 ): 283 – 291 .
+22989617 47 X.
+J.
+Yang and S.
+Gregoire , “ Class II Histone Deacetylases: From Sequence to Function, Regulation, and Clinical Implication ,” Molecular and Cellular Biology 25 ( 2005 ): 2873 – 2884 .
+15798178 48 S.
+Chen , G.
+C.
+Owens , H.
+Makarenkova , and D.
+B.
+Edelman , “ HDAC6 Regulates Mitochondrial Transport in Hippocampal Neurons ,” PLoS One 5 ( 2010 ): e10848 .
+20520769 49 Y.
+Li , S.
+Sang , W.
+Ren , et al., “ Inhibition of Histone Deacetylase 6 (HDAC6) as a Therapeutic Strategy for Alzheimer's Disease: A Review (2010‐2020) ,” European Journal of Medicinal Chemistry 226 ( 2021 ): 113874 .
+34619465 50 H.
+Ding , P.
+J.
+Dolan , and G.
+V.
+Johnson , “ Histone deacetylase 6 interacts with the Microtubule‐Associated Protein Tau ,” Journal of Neurochemistry 106 ( 2008 ): 2119 – 2130 .
+18636984 51 T.
+C.
+Karagiannis and K.
+Ververis , “ Potential of Chromatin Modifying Compounds for the Treatment of Alzheimer's Disease ,” Pathobiology of Aging & Age Related Diseases ( 2012 ): 2 .
+52 G.
+Siano , G.
+Madaro , M.
+C.
+Caiazza , et al., “ Tau‐Dependent HDAC1 Nuclear Reduction Is Associated with Altered VGluT1 Expression ,” Frontiers in Cell and Developmental Biology 11 ( 2023 ): 1151223 .
+37266450 53 S.
+S.
+Yang , R.
+Zhang , G.
+Wang , and Y.
+F.
+Zhang , “ The Development Prospection of HDAC Inhibitors as a Potential Therapeutic Direction in Alzheimer's Disease ,” Translational Neurodegeneration 6 ( 2017 ): 19 .
+28702178 54 P.
+Sozio , J.
+Fiorito , V.
+Di Giacomo , et al., “ Haloperidol Metabolite II Prodrug: Asymmetric Synthesis and Biological Evaluation on Rat C6 Glioma Cells ,” European Journal of Medicinal Chemistry 90 ( 2015 ): 1 – 9 .
+25461306 55 A.
+Marrazzo , J.
+Fiorito , L.
+Zappala , et al., “ Antiproliferative Activity of Phenylbutyrate Ester of Haloperidol Metabolite II [(±)‐MRJF4] in Prostate Cancer Cells ,” European Journal of Medicinal Chemistry 46 ( 2011 ): 433 – 438 .
+21055848 56 C.
+Barbaraci , G.
+Giurdanella , C.
+G.
+Leotta , et al., “ Haloperidol Metabolite II Valproate Ester ( S )‐(−)‐MRJF22: Preliminary Studies as a Potential Multifunctional Agent Against Uveal Melanoma ,” Journal of Medicinal Chemistry 64 ( 2021 ): 13622 – 13632 .
+34477381 57 C.
+Barbaraci , V.
+di Giacomo , A.
+Maruca , et al., “ Discovery of First Novel Sigma/HDACi Dual‐Ligands with a Potent In Vitro Antiproliferative Activity ,” Bioorganic Chemistry 140 ( 2023 ): 106794 .
+37659146 58 X.
+Z.
+Zhang , X.
+J.
+Li , and H.
+Y.
+Zhang , “ Valproic Acid as a Promising Agent to Combat Alzheimer's Disease ,” Brain Research Bulletin 81 ( 2010 ): 3 – 6 .
+19748552 59 A.
+G.
+Xuan , X.
+B.
+Pan , P.
+Wei , et al., “ Valproic Acid Alleviates Memory Deficits and Attenuates Amyloid‐ β Deposition in Transgenic Mouse Model of Alzheimer's Disease ,” Molecular Neurobiology 51 ( 2015 ): 300 – 312 .
+24854198 60 R.
+S.
+B.
+Williams and C.
+Bate , “ Valproic Acid and Its Congener Propylisopropylacetic Acid Reduced the Amount of Soluble Amyloid‐ β Oligomers Released From 7PA2 Cells ,” Neuropharmacology 128 ( 2018 ): 54 – 62 .
+28947378 61 A.
+Ricobaraza , M.
+Cuadrado‐Tejedor , A.
+Perez‐Mediavilla , D.
+Frechilla , J.
+D.
+Rio , and A.
+Garcia‐Osta , “ Phenylbutyrate Ameliorates Cognitive Deficit and Reduces Tau Pathology in an Alzheimer's Disease Mouse Model ,” Neuropsychopharmacology 34 ( 2009 ): 1721 – 1732 .
+19145227 62 Z.
+M.
+Long , L.
+Zhao , R.
+Jiang , et al., “ Valproic Acid Modifies Synaptic Structure and Accelerates Neurite Outgrowth Via the Glycogen Synthase Kinase‐3 β Signaling Pathway in an Alzheimer's Disease Model ,” CNS Neuroscience & Therapeutics 21 ( 2015 ): 887 – 897 .
+26385876 63 T.
+Liang , F.
+Xue , W.
+Hang , et al., “ Neuron‐Specific Apolipoprotein E4 (1‐272) Fragment Induces Tau Hyperphosphorylation and Axonopathy via Triggering Endoplasmic Reticulum Stress ,” Journal of Alzheimer's Disease 71 ( 2019 ): 597 – 611 .
+64 J.
+P.
+Hu , J.
+W.
+Xie , C.
+Y.
+Wang , et al., “ Valproate Reduces Tau Phosphorylation via Cyclin‐Dependent kinase 5 and Glycogen Synthase kinase 3 Signaling Pathways ,” Brain Research Bulletin 85 ( 2011 ): 194 – 200 .
+21435383 65 M.
+Cuadrado‐Tejedor , A.
+L.
+Ricobaraza , R.
+Torrijo , R.
+Franco , and A.
+Garcia‐Osta , “ Phenylbutyrate Is a Multifaceted Drug that Exerts Neuroprotective Effects and Reverses the Alzheimer ś Disease‐Like Phenotype of a Commonly Used Mouse Model ,” Current Pharmaceutical Design 19 ( 2013 ): 5076 – 5084 .
+23448463 66 T.
+A.
+Miller , D.
+J.
+Witter , and S.
+Belvedere , “ Histone Deacetylase Inhibitors ,” Journal of Medicinal Chemistry 46 ( 2003 ): 5097 – 5116 .
+14613312 67 M.
+Dichiara , F.
+A.
+Ambrosio , S.
+M.
+Lee , et al., “ Discovery of AD258 as a Sigma Receptor Ligand with Potent Antiallodynic Activity ,” Journal of Medicinal Chemistry 66 ( 2023 ): 11447 – 11463 .
+37535861 68 C.
+Sanchez‐Fernandez , A.
+Montilla‐Garcia , R.
+Gonzalez‐Cano , et al., “ Modulation of Peripheral μ‐Opioid Analgesia by σ 1 Receptors ,” The Journal of Pharmacology and Experimental Therapeutics 348 ( 2014 ): 32 – 45 .
+24155346 69 K.
+Szczepanska , T.
+Karcz , M.
+Dichiara , et al., “ Dual Piperidine‐Based Histamine H 3 and Sigma‐1 Receptor Ligands in the Treatment of Nociceptive and Neuropathic Pain ,” Journal of Medicinal Chemistry 66 ( 2023 ): 9658 – 9683 .
+37418295 70 K.
+Szczepanska , S.
+Podlewska , M.
+Dichiara , et al., “ Structural and Molecular Insight into Piperazine and Piperidine Derivatives as Histamine H 3 and Sigma‐1 Receptor Antagonists with Promising Antinociceptive Properties ,” ACS Chemical Neuroscience 13 ( 2022 ): 1 – 15 .
+34908391 71 S.
+Shukla and B.
+L.
+Tekwani , “ Histone Deacetylases Inhibitors in Neurodegenerative Diseases, Neuroprotection and Neuronal Differentiation ,” Frontiers in Pharmacology 11 ( 2020 ): 537 .
+32390854 72 G.
+Siano , M.
+C.
+Caiazza , I.
+Olla , et al., “ Identification of an ERK Inhibitor as a Therapeutic Drug Against Tau Aggregation in a New Cell‐Based Assay ,” Frontiers in Cellular Neuroscience 13 ( 2019 ): 386 .
+31496937 73 C.
+Di Primio , V.
+Quercioli , G.
+Siano , et al., “ The Distance between N and C Termini of Tau and of FTDP‐17 Mutants Is Modulated by Microtubule Interactions in Living Cells ,” Frontiers in Molecular Neuroscience 10 ( 2017 ): 210 .
+28713242 74 K.
+Mi and G.
+V.
+Johnson , “ The Role of Tau Phosphorylation in the Pathogenesis of Alzheimers Disease ,” Current Alzheimer Research 3 ( 2006 ): 449 – 463 .
+17168644 75 R.
+Porzig , D.
+Singer , and R.
+Hoffmann , “ Epitope Mapping of mAbs AT8 and Tau5 Directed against Hyperphosphorylated Regions of the Human Tau Protein ,” Biochemical and Biophysical Research Communications 358 ( 2007 ): 644 – 649 .
+17499212 76 H.
+Pajouhesh and G.
+R.
+Lenz , “ Medicinal Chemical Properties of Successful Central Nervous System Drugs ,” Neurorx 2 ( 2005 ): 541 – 553 .
+16489364 77 R.
+H.
+Mach , C.
+R.
+Smith , and S.
+R.
+Childers , “ Ibogaine Possesses a Selective Affinity for σ 2 Receptors ,” Life Sciences 57 ( 1995 ): Pl57 – 62 .
+7603301 78 R.
+R.
+Matsumoto , W.
+D.
+Bowen , M.
+A.
+Tom , V.
+N.
+Vo , D.
+D.
+Truong , and B.
+R.
+De Costa , “ Characterization of Two Novel σ Receptor Ligands: Antidystonic Effects in Rats Suggest σ Receptor Antagonism ,” European Journal of Pharmacology 280 ( 1995 ): 301 – 310 .
+8566098 79 D.
+S.
+Youvan , C.
+Bylina , J.
+E .
+, W.
+Coleman , M.
+R.
+Dilworth , and M.
+Yang , Biotechnology et Alia 3 ( 1997 ): 1 – 18 .
+80 J.
+N.
+Feige , D.
+Sage , W.
+Wahli , B.
+Desvergne , and L.
+Gelman , “ PixFRET, an ImageJ Plug‐in for FRET Calculation that Can Accommodate Variations in Spectral Bleed‐Throughs ,” Microscopy Research and Technique 68 ( 2005 ): 51 – 58 .
+16208719 81 C.
+Cornacchia , L.
+Marinelli , A.
+Di Rienzo , et al., “ Development of l‐Dopa‐Containing Diketopiperazines as Blood‐Brain Barrier Shuttle ,” European Journal of Medicinal Chemistry 243 ( 2022 ): 114746 .
+36099749

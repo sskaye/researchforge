@@ -6,102 +6,181 @@ Independent verification is a separate step from extraction. The verifier:
 - Has **no access** to the extractor's notes / confidence (prevents anchoring bias)
 - Refuses to silently make corrections — reports findings only
 
-## Template — Single-row deep verification
+The verification protocol implements the three-tier audit framework. **Q1–Q4 determine PASS/FAIL on correctness (Tier 1).** Q5 is a separate verifiability report (Tier 2) that does NOT affect the PASS/FAIL decision.
 
-> You have Read and bash tools. **Do not generate values from training memory.**
+For the framing and rationale, see `audit_criteria.md` at the project root.
+
+## Template — Single-row verification
+
+> You have Read and bash tools. **Do not generate values from training memory.** Your only job is to confirm whether the row's claims hold up against the source paper.
 >
-> **Task:** Verify the following row by directly inspecting the cited paper file.
+> **Row to verify:**
 >
 > ```
-> Compound name: {compound_name}
-> Property: {property}
-> Value (°C): {value_celsius}
-> Value (raw): {value_raw}
-> Relation: {relation}
-> Data type: {data_type}
-> Source: {source}
-> Source URL: {source_url}
-> Paper file directory: {paper_dir}
-> Claimed evidence_location: {evidence_location}
-> Claimed evidence_quote: "{evidence_quote}"
-> Claimed conversion_arithmetic: {conversion_arithmetic}
+> compound_name: {compound_name}
+> property: {property}
+> value_celsius: {value_celsius}
+> value_raw: {value_raw}
+> data_type: {data_type}
+> source: {source}
+> source_url: {source_url}
+> evidence_location: {evidence_location}
+> evidence_quote: "{evidence_quote}"
+> conversion_arithmetic: {conversion_arithmetic}
+> paper file directory: {paper_dir}
 > ```
 >
-> **Verification steps:**
+> **Step 0 — Read the paper file.**
+> Open the file(s) at `{paper_dir}`. Prefer `article.nxml` → `article_text.txt` → bash `pdftotext -layout article.pdf -` for PDFs. If you cannot read any source file, the row is unverifiable — return `flagged_review` with reason `flagged_paper_unreadable`.
 >
-> **Step 1 — Read the paper file.**
-> Open the file(s) at `{paper_dir}`. Prefer `article.nxml` or `article_text.txt`; fall back to `pdftotext -layout article.pdf -` for PDFs.
+> ---
 >
-> **Step 2 — Confirm the paper identifier.**
-> Look at `source_url`:
-> - If it's a DOI (`https://doi.org/10.xxx/xxxxx`): find the DOI in the paper file and confirm it matches. If not → `flagged_doi_unrelated_paper`. Optionally run `python3 scripts/crossref_lookup.py <DOI>` to spot-check.
-> - If it's a PMC ID (`pmc:PMCxxxxxxx`): confirm the PMC ID appears in the paper file or in the paper subdirectory name. Passes Q6 if the PMC ID matches.
-> - If it's a PMID (`pmid:xxxxxxxx`): confirm the PMID appears in the paper file. Passes Q6 if matched.
-> - If it's a textbook (`textbook:<id>`) or some other non-DOI form: skip the network step; passes Q6 if `source` (journal + year + vol + page) is non-empty and looks complete.
+> ## Q1 — Compound + value correctness (Tier 1)
 >
-> **Papers genuinely without a DOI are NOT a failure** — older papers and some non-PMC sources don't have DOIs. As long as `source_url` carries SOME stable identifier (PMC / PMID / textbook / filename) AND `source` carries a complete citation, Q6 passes.
+> Locate the data this row is about in the paper.
 >
-> **Step 3 — Navigate to `evidence_location`.**
-> Find the cited table / paragraph / section. If the location is wrong or doesn't exist in the paper → `flagged_evidence_quote_not_found`.
+> **(a) Is `compound_name` a real chemistry-meaningful name and does it identify the same compound the value belongs to in the paper?**
 >
-> **Step 4 — Confirm `evidence_quote` is verbatim present.**
-> The quote must appear in the paper file at the stated location, allowing only:
-> - Whitespace collapsing
-> - NFC unicode normalization
-> - ASCII hyphen folding for −/–/—
+> Pass:
+> - Naming style variations (IUPAC vs common, with or without stereo descriptors when paper doesn't specify, serial-code suffix in parens at end).
+> - Ionic-liquid `[cation][anion]` shorthand.
 >
-> Specifically reject:
-> - **Doubled-token artifacts.** `pdftotext -layout` on 2-column PDFs sometimes duplicates words across the column gap ("White White powder, powder"). A quote that includes such doubled tokens is NOT verbatim — fail with `flagged_evidence_quote_not_found`.
-> - **Approximate quotes.** "White powder mp 257" vs the paper's "White powder, mp 257–260 °C" — the missing comma + truncated range is a verbatim fail.
-> - **Adjacent-measurement quotes.** A row claims `value_raw = "36.98 °C"` (a boiling point) but the `evidence_quote` is "f.p. -161.51 °C" (the freezing point on the adjacent line). The quote is verbatim present in the paper but it's the wrong measurement — fail with `flagged_value_mismatch`.
+> Fail (`flagged_compound_name_*`):
+> - Mangled / truncated name (`((((2-(2-...` instead of `3-(4-((2-(2-...`; `H-Indeno...` missing leading locant digit).
+> - Procedure-text contamination (`(Yield 94%),`, `afforded white solid`).
+> - Elemental-analysis line prepended (`C, NN.NN; H, N.NN; N, N.NN.` then the IUPAC).
+> - Leading paper-local code prefix (`5 (IUPAC name)` instead of `IUPAC name (5)`).
+> - Bare code only (`compound 5`, `4b`).
+> - Workup solvent (CH2Cl2, EtOAc, etc.) when the value belongs to the actual product.
+> - Section title / journal name / NMR-shift list / vendor label as the name.
 >
-> **Step 5 — Confirm compound match.**
-> The `compound_name` must be the compound the quote is about. Watch out for:
-> - Quote belongs to a different compound on the same line (e.g., column-misalignment in a multi-row thead table).
-> - Compound name in the row is a truncated fragment (`-yl` ending without a parent) while the paper has a longer name.
-> - Compound is a workup solvent (CH2Cl2, EtOAc, etc.) when the value belongs to the actual product.
-> - If mismatch → `flagged_compound_mismatch`.
+> **(b) Is the value (`value_celsius`, `value_celsius_min/max`, `value_raw`) the value the paper reports for THIS compound?**
 >
-> **Step 6 — Confirm value match.**
-> The `value_raw` must be what the quote says. The `value_celsius` must be a correct unit conversion if the raw is in K or °F. If mismatch → `flagged_value_mismatch`.
+> Pass:
+> - Within the paper's stated precision.
+> - Range shorthand expansion is fine (paper "237-39" = row "237-239").
+> - Unit conversion arithmetically correct (K − 273.15 = °C; (°F − 32) × 5/9 = °C).
 >
-> **Step 7 — Confirm `data_type`.**
-> Look at the column header / paragraph context. Is the value `measured` (experimental result, whether by this paper's authors or compiled from another paper they cite) or `calculated` (model output, e.g., predicted by QSPR / MPBPVP / DFT / SPARC / Eq. N)?
-> - Column headers like "(exp.)", "obs.", "Tfus[ref]", "Literature", "measured" → `measured`.
-> - Column headers like "(calc.)", "predicted", "Eq. X", "QSPR", "SIRM", "STRM", "MPBPVP", "ACD", "MMP", a software name → `calculated`.
-> - If the paper's stated data_type contradicts the row's → `flagged_data_type_mismatch`.
+> Fail (`flagged_value_mismatch`, `flagged_compound_mismatch`, `flagged_unit_conversion_error`):
+> - Value belongs to a different compound (the "compound 23 with compound 25's m.p." case).
+> - Transcription error.
+> - Wrong K/°F → °C arithmetic.
+> - Value outside the paper's stated range.
 >
-> **Step 8 — Confirm `conversion_arithmetic` (if present).**
-> If the row converted from K or °F, the math must be:
-> - K → °C: `<X> K − 273.15 = <Y> °C`
-> - °F → °C: `(<X> °F − 32) × 5/9 = <Y> °C`
-> If wrong → `flagged_unit_conversion_error`.
+> Q1 = PASS only if both (a) and (b) pass.
 >
-> **Step 9 — Confirm value plausibility (sanity).**
-> For mp: value should typically be in [−275, 4500] °C (covers helium through tungsten). For bp: [−275, 6500] °C. A value outside this range suggests a PDF sign-loss artifact or wrong-cell extraction. If suspect → `flagged_value_out_of_range`.
+> ---
 >
-> **Step 10 — Verdict.**
-> - All steps pass → `verified_extraction` (no notes change required).
-> - Any step fails → `flagged_review` with the granular reason in `notes` (one of: `flagged_doi_unresolvable`, `flagged_doi_unrelated_paper`, `flagged_evidence_quote_not_found`, `flagged_compound_mismatch`, `flagged_value_mismatch`, `flagged_data_type_mismatch`, `flagged_unit_conversion_error`, `flagged_value_out_of_range`, `flagged_compound_name_truncated`).
+> ## Q2 — Property type correctness (Tier 1)
 >
-> **Output:** A single JSON object on one line:
+> Is `property` the physical phenomenon the paper actually reports for this value? Allowed values: `melting_point`, `boiling_point`, `DSC_onset`, `DSC_peak`, `decomposition`, `sublimation`.
+>
+> Fail (`flagged_property_subtype_mismatch`):
+> - `melting_point` for a value the paper explicitly labels "decomposition" or similar.
+> - `DSC_peak` for a paper-labeled "DSC onset" (or vice versa).
+>
+> ---
+>
+> ## Q3 — Data type correctness (Tier 1, per schema)
+>
+> The schema has two values: `measured` and `calculated`.
+>
+> - `measured` = any experimental observation, regardless of who measured it. This includes: the cited paper's own work, values compiled from another paper they cite, review-paper Table 1 of literature values, QSPR-paper "Exp." columns.
+> - `calculated` = model output. QSPR, MPBPVP, DFT, SPARC, ACD, MMP, "predicted by ...", "Eq. N".
+>
+> A review-paper compilation of literature m.p. values labeled `measured` PASSES. A QSPR "Exp." column labeled `measured` PASSES. A QSPR "Calc." column labeled `measured` FAILS (`flagged_data_type_mismatch`).
+>
+> The clue is the immediate column header or paragraph context, not the paper's nature.
+>
+> ---
+>
+> ## Q4 — Source citation reality (Tier 1)
+>
+> Can a reader reach the actual paper from `source_url` + `source`?
+>
+> Pass:
+> - DOI in `source_url` appears as a substring of the paper file's text.
+> - `pmc:PMCxxxxxxx`, `pmid:xxxxxxxx`, `textbook:xxx`, or `legacy:xxx` resolves to the right resource AND `source` carries a complete journal+year+volume+page citation.
+>
+> Fail:
+> - DOI fabricated (doesn't appear in paper file) → `flagged_doi_fabricated`.
+> - DOI resolves to a different paper that doesn't contain the data → `flagged_doi_unrelated_paper`.
+> - Placeholder citation (`Author et al.`) → `flagged_citation_incomplete`.
+> - Paper genuinely not in the corpus and no alternative identifier → `flagged_paper_unreadable`.
+>
+> ---
+>
+> ## VERDICT (Q1–Q4 determine this)
+>
+> All four pass → `verified_extraction`.
+>
+> Any of Q1–Q4 fails → `flagged_review`. Set `reason` to the most-specific granular flag:
+> - `flagged_compound_name_truncated`, `flagged_compound_name_contaminated`, `flagged_compound_mismatch`
+> - `flagged_value_mismatch`, `flagged_unit_conversion_error`, `flagged_value_out_of_range`
+> - `flagged_property_subtype_mismatch`
+> - `flagged_data_type_mismatch`
+> - `flagged_doi_fabricated`, `flagged_doi_unrelated_paper`, `flagged_paper_unreadable`, `flagged_citation_incomplete`
+>
+> ---
+>
+> ## Q5 — Verifiability (advisory, Tier 2)
+>
+> Separately, report whether the `evidence_quote` satisfies all of:
+> - Verbatim contiguous substring of the paper.
+> - Contains the numeric value from `value_raw`.
+> - Contains the compound name or its serial code.
+>
+> If all are true: `verifiable: true`.
+>
+> If any is false: `verifiable: false` with a tag in `verifiability_tag`:
+> - `quote_truncated_before_value` (verbatim but stops before the value, e.g., "Dark red solid;" with the m.p. on the next physical line)
+> - `quote_ellipsis_bridge` (`...` joining non-adjacent text in the quote)
+> - `quote_templated` (looks constructed: `"Table N: <compound> MP <value>"`)
+> - `quote_whitespace_unicode_mismatch` (paper has "(Sp )-", quote has "(Sp)-")
+> - `quote_missing_compound_token` (quote contains value but not the compound)
+> - `quote_non_contiguous` (PDF column wrap; the quote splices two columns)
+> - `quote_paraphrased` (quote is a summary, not a substring)
+>
+> **Q5 does NOT affect the PASS/FAIL verdict.** A row with `verdict = verified_extraction` and `verifiable = false` is a row whose data is correct but whose evidence quote is harder to spot-check. That's a known and acceptable state.
+>
+> ---
+>
+> ## Output
+>
+> Emit one JSON object per row:
+>
+> ```json
+> {
+>   "row_id": "<id>",
+>   "verdict": "verified_extraction" | "flagged_review",
+>   "reason": "<granular flag or empty>",
+>   "details": "<one-sentence explanation>",
+>   "verifiable": true | false,
+>   "verifiability_tag": "<tag or empty>"
+> }
 > ```
-> {"row_id": "<id>", "verdict": "verified_extraction" | "flagged_review", "reason": "<granular flag or empty>", "details": "<one-sentence explanation>"}
-> ```
 >
-> Do **not** silently correct anything. Report the discrepancy; the maintainer decides.
+> **Do not silently correct anything.** Report the discrepancy and let the maintainer decide.
 
 ## Template — Batch verification
 
 For a CSV of N rows from a single corpus:
 
-> Apply the single-row template to each row in `{csv_path}`. For each row, the `paper_dir` is `{corpus_dir}/<row.notes_or_metadata pointing to subdirectory>` — typically there's a mapping from `source_url` (DOI) to subdirectory name, or the row's `notes` field carries the subdirectory.
+> Apply the single-row template to each row in `{csv_path}`. For each row, the `paper_dir` is `{corpus_dir}/<paper_subdir>` — typically there's a mapping from `source_url` to subdirectory (provided as `url_to_folder_map.json`), or you search `corpora/` for a folder containing the DOI/PMC identifier.
 >
-> Emit one JSON verdict per row to a file `verdicts.json` (a JSON array). After processing, report counts: pass / fail / by-reason.
+> Emit one JSON verdict per row to a single file `verdicts.json` (a JSON array). After processing, report counts:
+>
+> - PASS / FAIL on Q1–Q4 (Tier 1 correctness).
+> - Verifiable / not-verifiable on Q5 (Tier 2 verifiability) — independent of PASS/FAIL.
+> - Breakdown by `reason` for fails, and by `verifiability_tag` for not-verifiable rows.
 
 ## Anti-patterns for verifiers
 
-- ❌ "The value seems right based on what I know about this compound" — verification is about whether the quote is in the paper, not whether the value is correct in absolute terms.
-- ❌ "I'll fix the typo in the compound name" — never silently correct.
-- ❌ "The quote is almost there, close enough" — allow only whitespace differences. Anything else fails.
-- ❌ "I couldn't open the file so I'll skip" — try the alternate paths (`.nxml`, `.txt`, `pdftotext -layout`). If none work, report `flagged_paper_unreadable`.
+- ❌ "The value seems right based on what I know about this compound" — verification is against the paper, not against your training knowledge.
+- ❌ "I'll fix the typo in the compound name" — never silently correct. Flag and report.
+- ❌ "The quote is almost there, close enough" — for Q5 verifiability, only whitespace / NFC / hyphen-fold differences pass. Anything else marks the row as not-verifiable. But this is independent of the PASS/FAIL verdict.
+- ❌ "The quote contains a literal `...`, that's forbidden" — **NO. v1.6 removed the ellipsis prohibition entirely.** Ellipsis in the quote affects Q5 (verifiability tag = `quote_ellipsis_bridge`) but does not affect Q1–Q4 (correctness PASS/FAIL).
+- ❌ "The quote is `Table N: <compound> MP <value>`, that's templated, fail it" — **NO. v1.6 removed the template-quote prohibition.** Templated quotes affect Q5 only.
+- ❌ "The quote stops before the value, fail it" — Affects Q5 (`quote_truncated_before_value`), NOT Q1–Q4. As long as the value the row records IS the paper's value for this compound, Q1 passes.
+- ❌ "The paper is a review and labels this `measured`, fail it as wrong data_type" — **NO.** The schema's `measured` = any experimental observation, including literature compilations. Pass Q3.
+- ❌ "I couldn't open the file so I'll skip" — try the alternate paths (`.nxml`, `.txt`, `pdftotext -layout`). If none work, report `flagged_paper_unreadable` rather than silently dropping the row.

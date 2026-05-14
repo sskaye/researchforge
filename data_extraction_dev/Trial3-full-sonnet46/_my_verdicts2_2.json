@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "81",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (93, 96 in quote). Q3 PASS ('6g' in quote). Q4 PASS value_raw 'mp 93–96 °C' matches quote. Q5 PASS compound 6g confirmed. Q6 PASS DOI in text. Q7 PASS measured. Q8 N/A."
+  },
+  {
+    "row_id": "120",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (232, 233 in quote). Q3 PASS ('( 30 )' in quote). Q4 PASS 'Mp 232–233 °C'. Q5 PASS. Q6 PASS. Q7 PASS measured. Q8 N/A."
+  },
+  {
+    "row_id": "1283",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (195, 197 in quote). Q3 PASS ('10h' in quote). Q4 PASS 'mp 195–197 °C'. Q5 PASS. Q6 PASS. Q7 PASS measured. Q8 N/A."
+  },
+  {
+    "row_id": "649",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_not_in_quote",
+    "details": "Q1 PASS verbatim. Q2 PASS. Q3 FAIL: compound code '8b' does not appear inside the evidence_quote ('Pale yellow crystals; yield 2.91 g (66 %); M.p. 165-167 o C'). The compound name header '( 8b )' appears in the paper just before the quote but is not part of the quoted text. Q4 PASS. Q5 PASS (compound 8b confirmed from surrounding context). Q6 PASS."
+  },
+  {
+    "row_id": "1276",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (168, 170 in quote). Q3 PASS ('10a' in quote). Q4 PASS 'mp 168–170 °C'. Q5 PASS. Q6 PASS. Q7 PASS measured. Q8 N/A."
+  },
+  {
+    "row_id": "194",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_wrong",
+    "details": "Q1 PASS verbatim. Q2 PASS. Q3 PASS ('4k' in quote). Q4 PASS. Q5 FAIL: compound_name in DB is '(4′-nitro-[1,1′-biphenyl]-4-yl)ethan-1-ol ( 4k )' which is truncated. The actual paper compound 4k is '1-(2′-bromo-[1,1′-biphenyl]-2-yl)-2-(4′-nitro-[1,1′-biphenyl]-4-yl)ethan-1-ol ( 4k )' — a two-biphenyl compound. The DB name omits the entire '1-(2′-bromo-[1,1′-biphenyl]-2-yl)-2-' fragment, making it represent a different (simpler) molecule. Q6 PASS. Q7 PASS."
+  },
+  {
+    "row_id": "202",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_wrong",
+    "details": "Q1 PASS verbatim. Q2 PASS. Q3 PASS ('5h' in quote). Q4 PASS. Q5 FAIL: compound_name in DB is '(4-nitrobenzyl)-6H-benzo[c]chromene ( 5h )' but paper compound 5h is '8-nitro-6-(4-nitrobenzyl)-6H-benzo[c]chromene ( 5h )'. The DB name is missing the '8-nitro-6-' prefix, resulting in a different compound identity. Q6 PASS. Q7 PASS."
+  },
+  {
+    "row_id": "1358",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_raw_does_not_match_quote",
+    "details": "Q1 PASS verbatim. Q2 FAIL: value_raw is 'mp: 130-131°C' but evidence_quote says 'mp: 130-31°C' — paper uses abbreviated range '130-31' (missing leading '1' on the upper bound). The digit '131' does not appear in the quote. Q4 FAIL: value_raw says '130-131°C' while quote says '130-31°C'. This is an expansion of an abbreviated range not a normalization error. Q5 PASS. Q6 PASS. (Note: interpreted value 130–131°C is likely correct but quote differs.)"
+  },
+  {
+    "row_id": "315",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS after hyphen normalization (paper uses U+2010 non-breaking hyphens in compound name; quote uses standard hyphens; en-dash range '162°C–164°C' vs '162°C-164°C' in quote). Q2 PASS (162, 164 in quote). Q3 PASS. Q4 PASS. Q5 PASS. Q6 PASS. Q7 PASS measured. Q8 N/A."
+  },
+  {
+    "row_id": "1341",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (85 in quote). Q3 PASS ('2,7-dimethyl-2,6-octadiene' in quote). Q4 PASS 'b.p. 85o C'. Q5 PASS. Q6 PASS. Q7 PASS measured. Q8 N/A. Note: bp at 60 mmHg (reduced pressure) correctly noted in notes column."
+  },
+  {
+    "row_id": "373",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (109.9 in quote). Q3 PASS ('(4g)' in quote). Q4 PASS '109.9°C'. Q5 PASS. Q6 PASS. Q7 PASS measured. Q8 N/A."
+  },
+  {
+    "row_id": "233",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (225 in quote). Q3 PASS ('( 21 )' in quote). Q4 PASS 'mp. 225 °C'. Q5 PASS. Q6 PASS. Q7 PASS measured. Q8 N/A."
+  },
+  {
+    "row_id": "594",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (128, 129 in quote). Q3 PASS ('( 4e )' in quote). Q4 PASS 'm.p. 128–129 °C'. Q5 PASS. Q6 PASS. Q7 PASS measured. Q8 N/A."
+  },
+  {
+    "row_id": "1494",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Q1 FAIL: evidence_quote contains '( ) 2e' (compound code outside parentheses) but the actual paper text reads '( 2e )' (compound code inside parentheses). This is not a whitespace or unicode normalization difference — it is a structural transposition. The quote as recorded does not appear verbatim or in any normalized form in article_text.txt. Q2 PASS (123.5, 157.2 in paper). Q4 PASS. Q5 PASS. Q6 PASS."
+  },
+  {
+    "row_id": "646",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_not_in_quote",
+    "details": "Q1 PASS verbatim. Q2 PASS. Q3 FAIL: neither compound name nor compound code '7a' appears inside the evidence_quote ('Pale yellow crystals; yield 2.44 g (65 %); M.p. 128-130 o C'). The compound header '( 7a )' appears in the paper immediately before this text but is not included in the quoted segment. Q4 PASS. Q5 PASS (7a compound confirmed from surrounding context). Q6 PASS."
+  },
+  {
+    "row_id": "1623",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_wrong",
+    "details": "Q1 PASS after degree-symbol normalization (PDF renders °C as '◦ C'). Q2 PASS. Q3 FAIL: neither compound name nor any code appears in the evidence_quote '(940 mg, 80% yield); M.p. 218–219 °C'. Q5 FAIL (primary issue): compound_name is '(Sp)-bis(diphenylphosphinyl)[2.2]paracyclophane precursor (compound)' but the compound with M.p. 218–219°C is '(Sp)-2,2′-(1,4(1,4)-dibenzenacyclohexaphane-12,43-diyl)diphenol [(Sp)-2a]' — a diphenol compound, not a bis(diphenylphosphinyl) compound. The bis(diphenylphosphine oxide) compounds (Sp)-4a–4h have melting points in the 84–165°C range. Compound identity is wrong. Q6 PASS (DOI confirmed in PDF)."
+  },
+  {
+    "row_id": "229",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (231, 234 in quote). Q3 PASS ('( 17 )' in quote). Q4 PASS 'mp. 231–234 °C'. Q5 PASS. Q6 PASS. Q7 PASS measured. Q8 N/A."
+  },
+  {
+    "row_id": "1458",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (313 in quote). Q3 PASS ('MeO-TEMPO' in quote). Q4 PASS '313 K'. Q5 PASS. Q6 PASS ('5521752' in article XML). Q7 PASS measured (gas adsorption experimental). Q8 PASS: 313 − 273.15 = 39.85 °C correct."
+  },
+  {
+    "row_id": "1398",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (250 in quote). Q3 PASS ('3-COOH' identifies compound as 3-carboxyphenyl iodylarene = 3-iodylbenzoic acid in table). Q4 PASS '250 dec.'. Q5 PASS (table row correctly identifies decomposition of 3-iodylbenzoic acid). Q6 PASS. Q7 PASS measured (decomposition). Q8 N/A."
+  },
+  {
+    "row_id": "503",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (102 in quote). Q3 PASS ('( 6a)' in quote). Q4 PASS 'mp 102 °C'. Q5 PASS. Q6 PASS. Q7 PASS measured. Q8 N/A."
+  },
+  {
+    "row_id": "683",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (162 in quote). Q3 PASS (compound name '3-Hydroxy-2,2-dimethyl-3,3-diphenylpropanoic acid' in quote). Q4 PASS 'Melting point: 162 °C'. Q5 PASS. Q6 PASS ('3685236' present in article XML). Q7 PASS measured. Q8 N/A."
+  },
+  {
+    "row_id": "325",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS after en-dash normalization (paper has '145–147 °C'; quote has '145-147 °C'). Q2 PASS (145, 147 in quote). Q3 PASS (compound name 'Methyl 3,5-dichloro-4-...' in quote). Q4 PASS. Q5 PASS. Q6 PASS. Q7 PASS measured. Q8 N/A."
+  },
+  {
+    "row_id": "1313",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_wrong",
+    "details": "Q1 PASS verbatim. Q2 PASS. Q3 FAIL: no compound code or name in evidence_quote ('Yield 365 mg (91%); white solid; mp 63–64 o C,'). Q5 FAIL (primary issue): compound_name in DB is '(4S,13S)-N1,N14-di-Boc-tetradecane-1,4,13,14-tetraamine' but paper compound 5 is '(5R)-1,5-Di[(tert-butoxycarbonyl)amino]-dodecane' — a C12 diamine with 2 Boc groups (not C14 tetraamine). These are different molecules: different chain length (C12 vs C14), different number of amino groups (2 vs 4), different stereodescriptor (5R vs 4S,13S). Q4 PASS (mp value correct). Q6 PASS."
+  },
+  {
+    "row_id": "187",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_wrong",
+    "details": "Q1 PASS verbatim. Q2 PASS. Q3 PASS ('( 3d )' in quote). Q4 PASS. Q5 FAIL: compound_name in DB is '(4-nitrophenyl)ethan-1-ol ( 3d )' but actual paper compound 3d is '1-(6-(2-bromophenyl)benzo[d][1,3]dioxol-5-yl)-2-(4-nitrophenyl)ethan-1-ol ( 3d )'. The DB name omits the entire '1-(6-(2-bromophenyl)benzo[d][1,3]dioxol-5-yl)-2-' fragment — a major structural portion. Q6 PASS. Q7 PASS."
+  },
+  {
+    "row_id": "1263",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Q1 PASS verbatim. Q2 PASS (56.9, 57.8 in quote). Q3: compound name not in quote but paper is entirely about this single title compound (1,2,3-trithiane-4-pentanoic acid); evidence_location explicitly states 'title compound'. Q4 PASS 'mp: 56.9–57.8 °C'. Q5 PASS. Q6 PASS. Q7 PASS measured. Q8 N/A."
+  }
+]

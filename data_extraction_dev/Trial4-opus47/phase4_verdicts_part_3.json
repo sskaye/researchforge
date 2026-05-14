@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "742",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 4.1.14 in IJMS 27052306 reports 1f as beige solid m.p. 189-190 \u00b0C; matches.",
+    "verifiable": false,
+    "verifiability_tag": "quote_whitespace_unicode_mismatch"
+  },
+  {
+    "row_id": "749",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 4.1.21 in IJMS 27052306 reports 2b as white solid m.p. 102-105 \u00b0C; matches.",
+    "verifiable": false,
+    "verifiability_tag": "quote_whitespace_unicode_mismatch"
+  },
+  {
+    "row_id": "760",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 1a in Molecules 31050862 reported as white crystals m.p. 112-115 \u00b0C (iPrOH); matches.",
+    "verifiable": false,
+    "verifiability_tag": "quote_whitespace_unicode_mismatch"
+  },
+  {
+    "row_id": "777",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3f in Molecules 31050862 reported as orange crystals m.p. 166-169 \u00b0C (iPrOH); matches.",
+    "verifiable": false,
+    "verifiability_tag": "quote_whitespace_unicode_mismatch"
+  },
+  {
+    "row_id": "779",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound (S)-4 in Molecules 31040599 reported m.p. 177-179 \u00b0C (decomposition); matches with property=decomposition.",
+    "verifiable": false,
+    "verifiability_tag": "quote_whitespace_unicode_mismatch"
+  },
+  {
+    "row_id": "780",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5a in Molecules 31040599 has m.p. 92-84 \u00b0C (paper records range inverted); value_celsius=88 is midpoint.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "861",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4e in Molecules 80100186 has m.p. 135-139 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "866",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4j in Molecules 80100186 has m.p. 139-141 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "867",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4k in Molecules 80100186 has m.p. 97-99 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "921",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2r in Molecules 70800681 has M.p. 177-179 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "930",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 19 (disubstituted phthalazine-1,4-dione butane-bridged) in Molecules 2001 reports m.p. 241-243 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "942",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 7d hydrochloride in Molecules 2001 has m.p. 192-195 \u00b0C; compound name matches paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "948",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8c hydrochloride in Molecules 2001 has m.p. 179-183 \u00b0C; compound name matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1036",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound anti-2d (triphenylphosphonium salt from PPh3 reaction) in Molecules 7(2) reports 187-188 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1095",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8 (3-amino-3,4-dihydro-4-imino-6-phenylamino[t]hieno[3,2-d]pyrimidin-7-carbonitrile) in Molecules 7(10) has m.p. 185 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1100",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 15 in Molecules 7(10) reports m.p. 215 \u00b0C; matches but paper says 'in the form of white needles' not 'as white needles'.",
+    "verifiable": false,
+    "verifiability_tag": "quote_paraphrased"
+  },
+  {
+    "row_id": "1118",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2 (3beta-methoxy-cholest-5-ene) in Molecules 6(4) has m.p. 81-82 C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1132",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8b in ACS Omega 6c01037 (Section 2.3.7) is slightly yellow crystals, mp 90-92 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1142",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 12d in RSC Adv d5ra09311b (Section 4.1.4) Cream solid; MP = 239-241 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1151",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 12m in RSC Adv d5ra09311b (Section 4.1.13) Brown solid; MP = 286-288 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1184",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 17d in Molecules 31040595 reports white solid mp 100-102 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1208",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9b in PMC12986497 (Section 4.4) Dark yellow powder MP > 300 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1211",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Trisulfur lipoic acid (TR-LA) in PMC12985495 has mp 56.9-57.8 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1234",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10h in PMC11844072 reports white precipitate mp 195-197 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1238",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10l in PMC11844072 reports white precipitate mp 151-153 \u00b0C; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]

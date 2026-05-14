@@ -1,0 +1,4 @@
+[
+  {"compound_name":"Chol-phthalonitrile (cholesteryl-substituted phthalonitrile)","property":"melting_point","value_celsius":186,"value_raw":"186 °C","relation":"=","data_type":"measured","source":"Materials 2023, 16(22), 7060","source_url":"https://doi.org/10.3390/ma16227060","evidence_location":"Section results (Chol-phthalonitrile)","evidence_quote":"the melting point of Chol-phthalonitrile was measured as 186 °C"},
+  {"compound_name":"Chol-ZnPc (cholesteryl-substituted zinc phthalocyanine)","property":"melting_point","value_celsius":300,"value_raw":"higher than 300 °C","relation":">","data_type":"measured","source":"Materials 2023, 16(22), 7060","source_url":"https://doi.org/10.3390/ma16227060","evidence_location":"Section results (Chol-ZnPc)","evidence_quote":"the melting point of Chol-ZnPc was found to be higher than 300 °C"}
+]

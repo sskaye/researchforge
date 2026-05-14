@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "345",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PDF text contains the claimed compound 2a characterization with mp = 170 °C; the measured melting point, compound binding, and legacy/source citation are supported."
+  },
+  {
+    "row_id": "81",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 10 in the paper supports methyl 2-benzamido-2-(N,N-dibenzylamino)acetate (10) with m.p. 130-132 °C as measured data and DOI matches."
+  },
+  {
+    "row_id": "18",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The experimental compound 7a characterization contains the claimed quote with m.p. 238-240 °C for the named compound; DOI and measured data type are supported."
+  },
+  {
+    "row_id": "89",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The compound 6a characterization contains mp > 300 °C for the named hydrazono purinone; DOI and measured data type are supported."
+  },
+  {
+    "row_id": "74",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 3 supports ethyl 2-benzamido-2-(p-tolylamino)acetate (3') with m.p. 164-166 °C as measured data and DOI matches."
+  },
+  {
+    "row_id": "444",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The raw HTML contains the exact claimed snippet for compound 7e with Mp 99-100 °C; compound binding, value, DOI, and measured data type are supported."
+  },
+  {
+    "row_id": "309",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The experimental characterization for compound 2 states MP: 208-209 °C after recrystallization; the compound binding, value, DOI, and measured data type are supported."
+  },
+  {
+    "row_id": "443",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The raw HTML contains the exact claimed snippet for compound 5b with Mp 165-166 °C; compound binding, value, DOI, and measured data type are supported."
+  },
+  {
+    "row_id": "372",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The PDF table supports [Ch][Ib]/[Ch][Iv] at Tm,eu 48 °C, but the claimed evidence_quote is not a contiguous verbatim span because it joins the table header directly to the last row while omitting intervening rows."
+  },
+  {
+    "row_id": "2",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The AL2 experimental characterization contains the claimed compound name and M.p.: 230 °C (dec.); decomposition property, value, DOI, and measured data type are supported."
+  },
+  {
+    "row_id": "235",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.4 lists Friedelin (5) with m.p. 245-246 °C; compound binding, value, DOI, and measured data type are supported."
+  },
+  {
+    "row_id": "446",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The raw HTML contains the exact claimed snippet for pure (Z)-7h with Mp 145-146 °C; compound binding, value, DOI, and measured data type are supported."
+  },
+  {
+    "row_id": "143",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The experimental section for compound 2b binds the m.p. 45-48 °C line to 1-(1-pentafluorophenyl-1H-pyrrole-2-yl)ethanone; DOI and measured data type are supported."
+  },
+  {
+    "row_id": "263",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The experimental compound 5a characterization contains the claimed name and mp: 178-180 °C; DOI, compound binding, value, and measured data type are supported."
+  },
+  {
+    "row_id": "284",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The compound 4b characterization states Mp: 64-68 °C for the silyl ester MPA analogue; DOI, compound binding, value, and measured data type are supported."
+  },
+  {
+    "row_id": "79",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 8 supports ethyl 2-benzamido-2-(2-naphthylamino)acetate (8) with m.p. 210-212 °C as measured data and DOI matches."
+  },
+  {
+    "row_id": "292",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The experimental compound 4ca characterization contains mp 183.1-250.2 °C for the named isoquinoline; DOI, compound binding, value, and measured data type are supported."
+  },
+  {
+    "row_id": "286",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The compound 6a characterization states Mp: 108-110 °C for the phthalimide ester analogue of MPA; DOI, compound binding, value, and measured data type are supported."
+  },
+  {
+    "row_id": "445",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The raw HTML contains the exact claimed snippet for pure (E)-7h with Mp 138-139 °C; compound binding, value, DOI, and measured data type are supported."
+  },
+  {
+    "row_id": "166",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The experimental product 18 characterization contains the claimed compound and m.p./Mp 154-156 °C; DOI, compound binding, value, and measured data type are supported."
+  },
+  {
+    "row_id": "395",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_mismatch",
+    "details": "The claimed evidence_quote is a raw HTML span from section 3.1.2 for compound 2, while row_id 395 claims Bis(1,2,3-triazole) derivative 10 from section 3.1.8; the quoted value is bound to the wrong compound/location."
+  },
+  {
+    "row_id": "243",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.4 lists Mesuarianone (1) as a yellow solid with m.p. 166-167 °C; DOI, compound binding, value, and measured data type are supported."
+  },
+  {
+    "row_id": "205",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The compound 3k characterization prints mp: 224-25°C, supporting the expanded shorthand range 224-225 °C and value_celsius 224.5; DOI, binding, and measured data type are supported."
+  },
+  {
+    "row_id": "409",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The HTML source supports compound 1c with mp 270-272 °C, but the claimed plain-text evidence_quote is not present under whitespace/hyphen normalization because markup separates the heading/compound name from the paragraph."
+  },
+  {
+    "row_id": "311",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "The experimental characterization for compound 5a states Mp: 280-281 °C after recrystallization; DOI, compound binding, value, and measured data type are supported."
+  }
+]

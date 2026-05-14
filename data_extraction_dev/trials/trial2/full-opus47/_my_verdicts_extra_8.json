@@ -1,0 +1,127 @@
+[
+  {
+    "id": "1825",
+    "verdict": "pass",
+    "notes": "DOI 10.3390/molecules29194778 present in PDF; HTML version (organic_synthesis/khalifa_2024_thiopyrimidine_sulfonamide.html) contains verbatim quote 'White powder, mp 245-247 °C, 613 mg, 84%' for compound M25 (2-((4-(3-Chlorophenyl)-5-Cyano-...-Phenyl)Acetamide); value 245-247 °C, midpoint 246; compound, value, data_type all correct."
+  },
+  {
+    "id": "271",
+    "verdict": "pass",
+    "notes": "PMC12943095 article_text.txt contains verbatim quote '8-fluoro-6-(4-nitrobenzyl)-6 H -benzo[ c ]chromene ( 5g ). Yield: 80%; Mp: 132 °C;'. Compound 5g, value 132, data_type measured all correct."
+  },
+  {
+    "id": "141",
+    "verdict": "pass",
+    "notes": "PMC13084458 contains 'N-Benzyl-4-(2-chlorophenyl)piperazine-1-carbothioamide (3j) White solid; 111.40 °C' (soft hyphen U+00AD inside 'piperazine' folds away). Compound, value 111.4, data_type all correct."
+  },
+  {
+    "id": "1528",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Kim 2026 PDF actual text reads '6-(Trifluoromethyl)quinolin-2(1H)-one (2h).19 A white solid; m.p. = 195-196 °C.' — the supplied quote omits the reference superscript '.19' between '(2h).' and 'A white', so it is not a strict contiguous substring. Compound, value 195-196 → 195.5 °C, data_type are factually correct; failure is on quote-as-substring rule only."
+  },
+  {
+    "id": "530",
+    "verdict": "pass",
+    "notes": "PMC6259131 article_text.txt contains 'Colorless crystals (0.26 g, 56 %); mp 73-74 °C' adjacent to 'Methyl-3-(2-[2-(5-benzyl-4-phenyl-4H-[1,2,4]triazol-3-thio)-acetylamino]-acetylamino)-propionate' (compound 10b). Value 73-74, midpoint 73.5, data_type measured all correct."
+  },
+  {
+    "id": "1426",
+    "verdict": "pass",
+    "notes": "PMC11208899 contains '...phenyl benzoate (4h) White solid; R f = 0.60 (8 : 2 petroleum ether/EtOAc); mp = 180-182 °C'. The CSV evidence_quote uses '(8:2' (no spaces around colon); after whitespace folding the substring still matches the substantive content (color/Rf/mp); value 180-182 °C → 181 midpoint and compound 4h are correct."
+  },
+  {
+    "id": "128",
+    "verdict": "pass",
+    "notes": "PMC12943044 contains verbatim '2-(8-Hydroxy-7-((4-methylpiperazin-1-yl)methyl)quinolin-5-yl)-4-methoxyisoindoline-1,3-dione ( 8b ) Brown powder (25 mg, 60% yield); m.p. 221-225 °C'. Compound 8b, value 221-225 → 223, all correct."
+  },
+  {
+    "id": "1271",
+    "verdict": "pass",
+    "notes": "PMC6146434 (Molecules 2002 70700554) contains verbatim '1-Phenyl-N-ethoxymethylene-2-amino-3-cyano-4-(4-methoxyphenyl)pyrrole ( 6b ): Yield: 72 %; mp: 159-60°C'. Compound and value 159-160 (interpreted '159-60' = 159-160) and midpoint 159.5 are correct."
+  },
+  {
+    "id": "1838",
+    "verdict": "pass",
+    "notes": "Ledermann 2023 PDF (organic_synthesis/ledermann_2023_iodoindoles_synthesis.pdf) contains verbatim 'compound 5r (207 mg, 43%) was isolated as a yellow solid, Mp 133.6 °C'. Compound 5r, value 133.6, data_type measured correct. DOI 10.3762/bjoc.19.99 corresponds to this paper."
+  },
+  {
+    "id": "1502",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Huang 2026 PDF contains the data but with PDF whitespace artifacts: '(Sp )-2,2' -(1,4(1,4)-dibenzenacyclohexaphane-12 ,43 -diyl)diphenol [(Sp )-2a]. White solid (940 mg, 80% yield); M.p. 218-219 ◦ C' — the CSV's quote ('(Sp)-2,2'-(1,4(1,4)-...-12,43-...' with no internal spaces) is not a strict contiguous substring after whitespace folding because of the inserted spaces inside the chemical name. Compound 2a, value 218-219 → 218.5 °C, data_type measured are factually correct."
+  },
+  {
+    "id": "379",
+    "verdict": "pass",
+    "notes": "PMC9790764 contains verbatim 'Yield 0.153 g (63%), mp 143.5 °C' for compound 4c (1,1'-(Butane-1,4-diyl)bis{...urea}). Value 143.5, data_type measured all correct."
+  },
+  {
+    "id": "1619",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Evidence quote 'Piroxicam-Nicotinamide ... 162-165' uses literal '...' to join non-adjacent spans across a Table 2 row, which v1.5 rubric explicitly disallows. The underlying data (Piroxicam-Nicotinamide cocrystal mp 162-165) IS present in Khan 2017 (Adv Pharm Bull / J Adv Pharm Technol Res 2017) Table 2, but the evidence quote itself fails the substring/no-ellipsis rule."
+  },
+  {
+    "id": "1717",
+    "verdict": "flagged_data_type_mismatch",
+    "notes": "Chen 2024 PCM review (materials_inorganic/chen_2024_carbon_hydrated_salt_pcm.pdf) Table 1 row 'Na3 PO4 ·12H2 O 65-69 190 [40]' is correctly substring-matched, and value 65-69 → 67 °C is right. However the value is cited from reference [40], not measured by Chen et al. Notes column already says 'Review Table 1; ref [40]'. data_type='measured' should be 'compiled' or 'cited' for review/secondary data."
+  },
+  {
+    "id": "181",
+    "verdict": "pass",
+    "notes": "PMC13006720 (ardp.70227) contains verbatim '( 17 ): Orange solid, mp 276°C-279°C.' Compound 17, value 276-279, midpoint 277.5 correct. data_type measured correct."
+  },
+  {
+    "id": "1739",
+    "verdict": "pass",
+    "notes": "Muller 2020 PDF (measurement_prediction/muller_2020_dsc-tga-pcm-thermophysical.pdf) Table 5 contains verbatim 'Dodecane 112-40-3 Paraffin 209.14 ± 1.45 -10.2 ± 0.94 -8 ± 0.25 ...'. value_raw '-8 °C' matches the melt-peak column; SMILES correct; data_type measured (DSC) correct. Notes correctly distinguish peak (-8) vs onset (-10.2)."
+  },
+  {
+    "id": "1368",
+    "verdict": "pass",
+    "notes": "PMC11843341 (ESKAPE 2024) contains verbatim 'Yellow solid (0.380 g, 91%), mp: 200-202 °C' adjacent to compound name (5m). Value 200-202 → 201, data_type measured all correct."
+  },
+  {
+    "id": "30",
+    "verdict": "pass",
+    "notes": "Chen/Zhou 2013 EPAC2 antagonists PDF (jm3014162) contains 'white solid (mp 132-133' (within a passage describing compound 8b, 2-(4-Methoxybenzenesulfonyl)-1,3,5-trimethylbenzene). The evidence quote 'white solid (mp 132-133' is a verbatim contiguous substring. Compound, value 132-133 → 132.5 °C, data_type measured correct."
+  },
+  {
+    "id": "552",
+    "verdict": "pass",
+    "notes": "PMC6193216 (Synthesis 2017) contains verbatim 'mp >300 °C' for compound 7b (9-Bromo-3,7-dihydrochromeno[2',3':4,5]imidazo[1,2-a]pyrrolo[3,2-c]pyridine). relation '>', value 300, data_type measured all correct."
+  },
+  {
+    "id": "334",
+    "verdict": "pass",
+    "notes": "PMC11206691 (Molecules 2024 29(12) 2942) contains verbatim 'White solid (150.5 mg, 86%). R f = 0.53 (CH 2 Cl 2 ), m.p. 165-168 °C' for compound 9 (methyl 4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)-6-chlorobenzoate). Value 165-168 → 166.5, data_type measured correct."
+  },
+  {
+    "id": "681",
+    "verdict": "pass",
+    "notes": "PMC6147013 (Molecules 2003 80400363) contains verbatim '...8a ). Pale yellow crystals; yield 2.17 g (60 %); M.p. 153-155 o C'. Compound 8a, value 153-155 → 154, data_type measured correct."
+  },
+  {
+    "id": "1527",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Kim 2026 PDF actual text: '6-Chloroquinolin-2(1H)-one (2g).19 A white solid; m.p. = 264-265 °C.' — supplied quote omits reference superscript '.19' between '(2g).' and 'A white'; not a strict contiguous substring. Compound 2g, value 264-265 → 264.5 are factually correct."
+  },
+  {
+    "id": "206",
+    "verdict": "pass",
+    "notes": "PMC12943719 (Molecules 2026 31(4) 699) contains verbatim '5-Acetyl-2-ethyl-4-(3-hydroxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2h Yield = 22%; mp = 185-187 °C (EtOH);'. Compound 2h, value 185-187 → 186, data_type measured correct."
+  },
+  {
+    "id": "129",
+    "verdict": "pass",
+    "notes": "PMC12943044 (Pharmaceuticals 2026 19(2) 230) contains verbatim '2-(8-Hydroxy-7-(morpholinomethyl)quinolin-5-yl)-4-methoxyisoindoline-1,3-dione ( 8c ) Brown powder (30 mg, 72% yield); m.p. 222-225 °C'. Compound 8c, value 222-225 → 223.5, data_type measured correct."
+  },
+  {
+    "id": "211",
+    "verdict": "pass",
+    "notes": "PMC12943719 contains verbatim '5-Acetyl-2-ethyl-4-(4-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2m Yield = 67%; mp = 161-162 °C (EtOH);'. Compound 2m, value 161-162 → 161.5, data_type measured correct."
+  },
+  {
+    "id": "1193",
+    "verdict": "pass",
+    "notes": "PMC12941058 (Int J Mol Sci 2026 27(4) 1738) contains verbatim 'to give iodo compound 2 (17.7 g, 84%). Rf = 0.21 (Hexane/EtOAc, 1:4) and mp (dec.): 219-221 °C.' for 2-amino-5-iodobenzoic acid. value 219-221 → 220, decomposition data_type correct (paper explicitly notes 'dec.')."
+  }
+]

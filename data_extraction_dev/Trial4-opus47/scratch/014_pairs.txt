@@ -1,0 +1,35 @@
+L137: name=Aminomethylenebisphosphonic acid ( 1 ) was obtained from methylbenzylamine as a white solid (85% yield from reaction wit val=258–260 °C; 31 P NMR (243.12 MHz, D 2 O + NaOD, ppm): δ = 18
+L139: name=N -(n-Propylamino)methylenebisphosphonic acid ( 2 ) was obtained with a 43% yield; mp. val=225–227 °C; 31 P NMR (242.97 MHz, D 2 O + NaOD, ppm): δ = 18
+L141: name=N -(n-Pentylamino)methylenebisphosphonic acid ( 3 ) was obtained with a 61% yield; mp. val=200 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 17.63 ppm; 1 
+L143: name=N -(n-Heptylamino)methylenebisphosphonic acid ( 4 ) was obtained with a 72% yield; mp. val=212–213 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 14.91 ppm
+L145: name=N -(n-Octylamino)methylenebisphosphonic acid ( 5 ) was obtained with a 67% yield; mp. val=202 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 18.07 ppm; 1 
+L147: name=N -(n-Nonylamino)methylenebisphosphonic acid ( 6 ) was obtained with a 85% yield; mp. val=279–280 °C; 31 P NMR (242.93 MHz, solid) δ: 13.40 ppm; 13 C 
+L149: name=N -(n-Decylamino)methylenebisphosphonic acid ( 7 ) was obtained with a 90% yield; mp. val=200 °C; 31 P NMR (242.93 MHz, solid) δ: 12.44 ppm; 13 C NMR 
+L151: name=N -(n-Undecylamino)methylenebisphosphonic acid ( 8 ) was obtained with a 86% yield; mp. val=205 °C; 31 P NMR (242.93 MHz, solid) δ: 9.29 ppm; 13 C NMR (
+L153: name=N -(n-Dodecylamino)methylenebisphosphonic acid ( 9 ) was obtained as a white solid with a 89% yield; mp. val=> 300 °C; 31 P NMR (242.93, solid) δ = 10.15; 13 C NMR (150.
+L155: name=N -(n-Tridecylamino)methylenebisphosphonic acid ( 10 ) was obtained with a 52% yield; mp. val=> 300 °C; 31 P NMR (242.93 MHz, solid) δ: 5.69 ppm; 13 C NMR
+L157: name=N -(n-Tetradecylamino)methylenebisphosphonic acid ( 11 ) was obtained with a 49% yield; mp. val=> 300 °C; 31 P NMR (242.93 MHz, solid) δ: 18.99 ppm; 13 C NM
+L159: name=N -(Isopropylamino)methylenebisphosphonic acid ( 12 ) was obtained with a 49% yield; mp. val=225–227 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.99 ppm;
+L161: name=N -(Isobutylamino)methylenebisphosphonic acid ( 13 ) was obtained with a 58% yield; mp. val=215–216 °C; 31 P NMR{ 1 H} (243.12 MHz D 2 O + NaOD) δ: 7.92
+L163: name=N -(Isopentylamino)methylenebisphosphonic acid ( 14 ) was obtained as a white solid with a 46% yield; mp. val=185–187 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 18.18 ppm;
+L165: name=N -(Isohexylamino)methylenebisphosphonic acid ( 15 ) was obtained with a 41% yield; mp. val=193–195 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.89 ppm;
+L168: name=N -2-(6-Methylhexylamino)methylenebisphosphonic acid ( 16 ) was obtained with a 34% yield; mp. val=244–24 °C; 31 P NMR{ 1 H} (243.12 MHz D 2 O + NaOD) δ: 17.74
+L170: name=N -(2,5-Dimethylhexylamino)methylenebisphosphonic acid ( 17 ) was obtained with a 31% yield; mp. val=231–234 °C; 31 P NMR{ 1 H} (243.12 MHz D 2 O + NaOD) δ: 18.0
+L172: name=N -(Cyclopropylo)methylenebisphosphonic acid ( 18 ) was obtained with a 56% yield; mp. val=224–226 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 8.07 ppm 1
+L174: name=N -(Cyclopentylo)methylenebisphosphonic acid ( 19 ) was obtained with a 66% yield; mp. val=210–211 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.70 ppm;
+L176: name=N -(Cyclohexylamino)methylenebisphosphonic acid ( 20 ) was obtained with a 42% yield; mp. val=214–215 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 14.76 ppm;
+L178: name=N -(Cycloheptylamino)methylenebisphosphonic acid (incadronate) ( 21 ) was obtained with a 63% yield; mp. val=225 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 8.07 ppm; 1 H 
+L180: name=N -(Cyclooctylamino)methylenebisphosphonic acid ( 22 ) was obtained with a 54% yield; mp. val=247–248 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 18.45 ppm;
+L182: name=N,N -(Di-n-propylamino)methylenebisphosphonic acid ( 23 ) was obtained with a 35% yield; mp. val=206–208 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.31 ppm;
+L184: name=N,N -(Di-n-cyclohexylamino)methylenebisphosphonic acid ( 24 ) was obtained with a 46% yield; mp. val=209–211 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 17.18 ppm
+L186: name=N -Ethyl- N -(cyclohexylamino)methylenebisphosphonic acid ( 25 ) was obtained with a 40% yield; mp. val=199–201 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 9.89 ppm;
+L188: name=N -(Pyrrolidylamino)methylenebisphosphonic acid ( 26 ) was obtained with a 21% yield; mp. val=149–151 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 11.12 ppm
+L190: name=N -(Piperidylamino)methylenebisphosphonic acid ( 27 ) was obtained with a 61% yield; mp. val=241–244 °C; 31 P NMR (242.93 MHz, D 2 O + NaOD) δ: 8.07 ppm;
+L192: name=N -(Azepanylamino)methylenebisphosphonic acid ( 28 ) was obtained with an 85% yield; mp. val=235–236 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 8.65 ppm; 
+L194: name=N-(Azocinylamino)methylenebisphosphonic acid ( 29 ) was obtained with a 44% yield; mp. val=230–231 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 8.03 ppm; 
+L196: name=N -(4-Methypiperidylamino)methylenebisphosphonic acid ( 30 ) was obtained with a 69% yield; mp. val=225–228 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.05 ppm;
+L198: name=N -(2,6-Dimethylpiperidylamino)methylenebisphosphonic acid ( 31 ) was obtained with a 49% yield; mp. val=225–228 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 7.93 ppm; 
+L200: name=N -(3,5-Dimethylpiperidylamino)methylenebisphosphonic acid ( 32 ) was obtained with a 57% yield; mp. val=229–230 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.14 ppm;
+L202: name=N -(2-Ethylpiperidylamino)methylenebisphosphonic acid ( 33 ) was obtained with a 42% yield; mp. val=205–207 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 10.41 ppm;
+L204: name=N -(Morpholino)methylenebisphosphonic acid ( 34 ) was obtained with a 64% yield; mp. val=248 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 16.16 ppm; 1 H
+L206: name=Cis – 2,6-dimethyl- N -(morpholino)methylenebisphosphonic acid ( 35 ) was obtained with a 59% yield; mp. val=222 °C; 31 P NMR (243.12 MHz D 2 O + NaOD) δ: 17.14 ppm; 1 H

@@ -30,9 +30,13 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 
 def _run(cmd: list[str]) -> tuple[int, str]:
-    """Run a subprocess and return (returncode, stdout). Stderr passes through."""
+    """Run a subprocess and return (returncode, stdout). Both stderr and
+    stdout pass through to the umbrella's stderr/stdout so the user sees
+    each sub-script's findings."""
     r = subprocess.run(cmd, capture_output=True, text=True)
     sys.stderr.write(r.stderr)
+    if r.stdout:
+        sys.stdout.write(r.stdout)
     return r.returncode, r.stdout
 
 
@@ -88,16 +92,27 @@ def main():
     any_subscript_failed = False
 
     # 1. Required fields
-    for rid, msgs in required_fields_check(rows).items():
+    rf_flags = required_fields_check(rows)
+    for rid, msgs in rf_flags.items():
         aggregated[rid].extend(msgs)
-    print(f"  required-field check: "
-          f"{sum(1 for r in rows if r.get('id','?') in aggregated)} flagged")
+        for msg in msgs:
+            print(f"row {rid}: {msg}")
+    print(f"  required-field check: {len(rf_flags)} flagged")
 
     # 1b. csv_quote_lint — verify the CSV is well-quoted per RFC 4180
     rc, _ = _run(["python3", os.path.join(HERE, "csv_quote_lint.py"),
                    args.csv_path])
     print(f"  csv_quote_lint.py: exit={rc}")
     any_subscript_failed |= (rc != 0)
+
+    # 1c. quote_support_lint — verify evidence_quote actually carries the
+    # numeric value (advisory in v1.6; warning, not auto-fail).
+    rc, _ = _run(["python3", os.path.join(HERE, "quote_support_lint.py"),
+                   args.csv_path])
+    print(f"  quote_support_lint.py: exit={rc}  (advisory)")
+    # Advisory only — do NOT propagate failure to overall exit code.
+    # Quote-fidelity issues are Tier-2 verifiability flags, not Tier-1
+    # correctness failures (see audit_criteria.md).
 
     # 2. validate_compound_name
     rc, _ = _run(["python3", os.path.join(HERE, "validate_compound_name.py"),
@@ -139,8 +154,12 @@ def main():
     any_subscript_failed |= (rc != 0)
 
     # 8. placeholder citations
-    for rid, msgs in placeholder_citation_check(rows).items():
+    pc_flags = placeholder_citation_check(rows)
+    for rid, msgs in pc_flags.items():
         aggregated[rid].extend(msgs)
+        for msg in msgs:
+            print(f"row {rid}: {msg}")
+    print(f"  placeholder-citation check: {len(pc_flags)} flagged")
 
     # Emit flags.csv with the required-field + placeholder findings
     # (the script-level findings printed to stdout above)

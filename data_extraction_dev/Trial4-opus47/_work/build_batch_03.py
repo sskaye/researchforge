@@ -1,0 +1,310 @@
+#!/usr/bin/env python3
+"""Build batch_03.csv from manually-extracted data read directly from the papers."""
+import csv
+
+rows = []
+nid = 0
+
+def add(compound, prop, vc, vmin, vmax, vraw, rel, dtype, source, url, loc, quote, conv="", notes=""):
+    global nid
+    nid += 1
+    rows.append({
+        "id": nid,
+        "verification_status": "pending_verification",
+        "compound_name": compound,
+        "compound_smiles": "",
+        "property": prop,
+        "value_celsius": vc,
+        "value_celsius_min": vmin,
+        "value_celsius_max": vmax,
+        "value_raw": vraw,
+        "relation": rel,
+        "data_type": dtype,
+        "source": source,
+        "source_url": url,
+        "evidence_location": loc,
+        "evidence_quote": quote,
+        "conversion_arithmetic": conv,
+        "notes": notes
+    })
+
+# Paper 069
+s = "Int J Mol Sci. 2026, 27(5), 2306"
+u = "https://doi.org/10.3390/ijms27052306"
+
+add("Ethyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pirrole-3-carboxilate (11)", "melting_point", 107, 106, 108, "106–108 °C", "=", "measured", s, u, "Section 4.1.3", "furnished 11 as a white solid (750 mg, 64.99%), mp = 106–108 ◦ C")
+add("Ethyl-6-methyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pirrole-3-carboxilate (12)", "melting_point", 128, 127, 129, "127–129 °C", "=", "measured", s, u, "Section 4.1.4", "furnished 12 as a yellow solid (680 mg, 57.05%), mp = 127–129 ◦ C")
+add("1-(4-Methylbenzyl)-1,4-dihydroindeno[1,2-b]pirrole-3-carboxilic acid (13)", "melting_point", 233, 232, 234, "232–234 °C", "=", "measured", s, u, "Section 4.1.6", "13 as a white solid (380 mg, 99.73%), mp = 232–234 ◦ C")
+add("6-Methyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pirrole-3-carboxilic acid (14)", "melting_point", 231, 230, 232, "230–232 °C", "=", "measured", s, u, "Section 4.1.7", "14 as a white solid (300 mg, 75.75%), mp = 230–232 ◦ C")
+add("1-(4-Methylbenzyl)-N-(piperidin-1-yl)-1,4-dihydroindeno[1,2-b]pirrole-3-carbohydrazide (1a)", "melting_point", 153.55, 152.5, 154.6, "152.5–154.6 °C", "=", "measured", s, u, "Section 4.1.9", "carbohydrazide 1a was isolated as a beige solid (28 mg, 14.81%). M.p.: 152.5–154.6 ◦ C")
+add("1-(4-Methylbenzyl)-N-(pyrrolidin-1-yl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carbohydrazide (1b)", "melting_point", 122, 120, 124, "120–124 °C", "=", "measured", s, u, "Section 4.1.10", "carbohydrazide 1b was isolated as a beige solid (39 mg, 21.97%). M.p.: 120–124 ◦ C")
+add("1-(4-Methylbenzyl)-N-(homopiperidin-1-yl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carbohydrazide (1c)", "melting_point", 171, 169, 173, "169–173 °C", "=", "measured", s, u, "Section 4.1.11", "carbohydrazide 1c was isolated as a beige solid (73 mg, 3.73%). M.p.: 169–173 ◦ C")
+add("1-(4-Methylbenzyl)-N-(morpholin-1-yl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carbohydrazide (1d)", "melting_point", 201.5, 198, 205, "198–205 °C", "=", "measured", s, u, "Section 4.1.12", "hydrazide 1d was isolated as a beige solid (44 mg, 23.28%). M.p.: 198–205 ◦ C")
+add("1-(4-Methylbenzyl)-N-(piperidin-1-yl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (1e)", "melting_point", 103, 102, 104, "102–104 °C", "=", "measured", s, u, "Section 4.1.13", "1e was isolated as a beige solid (83 mg, 46.41%). M.p.: 102–104 ◦ C")
+add("N-Cyclohexyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (1f)", "melting_point", 189.5, 189, 190, "189–190 °C", "=", "measured", s, u, "Section 4.1.14", "carboxamide 1f was isolated as a beige solid (69 mg, 36.17%). M.p.: 189–190 ◦ C")
+add("N-Bornyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (1g)", "melting_point", 152.35, 151.7, 153, "151.7–153 °C", "=", "measured", s, u, "Section 4.1.15", "1g was isolated as a beige solid (72 mg, 32.56%). M.p.: 151.7–153 ◦ C")
+add("N-(1S,2S,3S,5R)-(+)-Isopinocampheyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (1h)", "melting_point", 193.5, 192, 195, "192–195 °C", "=", "measured", s, u, "Section 4.1.16", "192–195 ◦ C; IR (nujol) ν: 1619 (C=O), 3289 (NH)")
+add("1-(4-Methylbenzyl)-N-myrtanyl-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (1i)", "melting_point", 89.5, 88, 91, "88–91 °C", "=", "measured", s, u, "Section 4.1.17", "carboxamide 1i was isolated as a beige solid (49 mg, 22.32%). M.p.: 88–91 ◦ C")
+add("1-Adamantyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (1j)", "melting_point", 125, 124, 126, "124–126 °C", "=", "measured", s, u, "Section 4.1.18", "carboxamide 1j was isolated as a beige solid (83 mg, 39.43%). M.p.: 124–126 ◦ C")
+add("2-Adamantyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (1k)", "melting_point", 82.1, 81.9, 82.3, "81.9–82.3 °C", "=", "measured", s, u, "Section 4.1.19", "carboxamide 1k was isolated as a beige solid (43 mg, 20.66%). M.p.: 81.9–82.3 ◦ C")
+add("6-Methyl-1-(4-methylbenzyl)-N-(piperidin-1-yl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carbohydrazide (2a)", "melting_point", 166.5, 165, 168, "165–168 °C", "=", "measured", s, u, "Section 4.1.20", "carbohydrazide 2a was isolated as a beige solid (20 mg, 16.80%). M.p.: 165–168 ◦ C")
+add("6-Methyl-1-(4-methylbenzyl)-N-(pyrrolidin-1-yl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carbohydrazide (2b)", "melting_point", 103.5, 102, 105, "102–105 °C", "=", "measured", s, u, "Section 4.1.21", "carbohydrazide 2b was isolated as a white solid (30 mg, 25.34%). M.p.: 102–105 ◦ C")
+add("6-Methyl-1-(4-Methylbenzyl)-N-(homopiperidin-1-yl)-1,4-dihydroindeno[1,2-b]pirrole-3-carbohydrazide (2c)", "melting_point", 119, 118, 120, "118–120 °C", "=", "measured", s, u, "Section 4.1.22", "carbohydrazide 1c was isolated as a white solid (66 mg, 16.15%). M.p.: 118–120 ◦ C", notes="paper text says 1c but section is 4.1.22 for compound 2c")
+add("1-(4-Methylbenzyl)-N-(morpholin-1-yl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carbohydrazide (2d)", "melting_point", 227, 226, 228, "226–228 °C", "=", "measured", s, u, "Section 4.1.23", "hydrazide 2d was isolated as a white solid (26 mg, 20.39%). M.p.: 226–228 ◦ C")
+add("6-Methyl-1-(4-Methylbenzyl)-N-(piperidin-1-yl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (2e)", "melting_point", 127.5, 125, 130, "125–130 °C", "=", "measured", s, u, "Section 4.1.24", "2e was isolated as a white solid (93 mg, 24.72%). M.p.: 125–130 ◦ C")
+add("6-Methyl-N-Cyclohexyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (2f)", "melting_point", 201, 200, 202, "200–202 °C", "=", "measured", s, u, "Section 4.1.25", "carboxamide 1f was isolated as a white solid (104 mg, 86.66%). M.p.: 200–202 ◦ C", notes="paper labels '1f' typographically but section 4.1.25 is for 2f")
+add("6-Methyl-N-Bornyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (2g)", "melting_point", 166, 165, 167, "165–167 °C", "=", "measured", s, u, "Section 4.1.26", "2g was isolated as a white solid (117 mg, 83.80%). M.p.: 165–167 ◦ C")
+add("6-Methyl-N-(1S,2S,3S,5R)-(+)-Isopinocampheyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (2h)", "melting_point", 226.5, 225, 228, "225–228 °C", "=", "measured", s, u, "Section 4.1.27", "225–228 ◦ C; IR (nujol) ν: 1617 (C=O), 3278 (NH)")
+add("6-Methyl-1-(4-Methylbenzyl)-N-myrtanyl-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (2i)", "melting_point", 89.5, 88, 91, "88–91 °C", "=", "measured", s, u, "Section 4.1.28", "carboxamide 2i was isolated as a white solid (119 mg, 85.38%). M.p.: 88–91 ◦ C")
+add("6-Methyl-1-Adamantyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (2j)", "melting_point", 160, 158, 162, "158–162 °C", "=", "measured", s, u, "Section 4.1.29", "carboxamide 2j was isolated as a white solid (114 mg, 81.76%). M.p.: 158–162 ◦ C")
+add("6-Methyl-2-Adamantyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (2k)", "melting_point", 179, 178, 180, "178–180 °C", "=", "measured", s, u, "Section 4.1.30", "carboxamide 2k was isolated as a white solid (79 mg, 56.52%). M.p.: 178–180 ◦ C")
+add("6-Methyl-N-((1S,2R,5R)-menthyl)-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (2l)", "melting_point", 180, 179, 181, "179–181 °C", "=", "measured", s, u, "Section 4.1.31", "carboxamide 2l was isolated as a white solid (99 mg, 70.43%). M.p.: 179–181 ◦ C")
+
+print(f"Paper 069: {nid} rows")
+
+# Paper 070
+s = "Molecules 2026, 31(5), 862"
+u = "https://doi.org/10.3390/molecules31050862"
+
+add("2-(4-(3-Chloropropyl)-1H-1,2,3-triazol-1-yl)-N-(2-(3-methoxyphenoxy)phenyl)acetamide (1a)", "melting_point", 113.5, 112, 115, "112–115 °C", "=", "measured", s, u, "Section 2 (compound 1a)", "White crystals, m.p. 112–115 ◦ C (iPrOH), Yield 2 g (74%).")
+add("N-(2-(3-Methoxyphenoxy)phenyl)-2-(4-phenyl-1H-1,2,3-triazol-1-yl)acetamide (1b)", "melting_point", 84.5, 83, 86, "83–86 °C", "=", "measured", s, u, "Section 2 (compound 1b)", "White crystals, m.p. 83–86 ◦ C (iPrOH), Yield 1 g (50%).")
+add("2-(4-(4-Fluorophenyl)-1H-1,2,3-triazol-1-yl)-N-(2-(3-methoxyphenoxy)phenyl)acetamide (1c)", "melting_point", 106, 104, 108, "104–108 °C", "=", "measured", s, u, "Section 2 (compound 1c)", "White crystals, m.p. 104–108 ◦ C (iPrOH), Yield 1.5 g (54%).")
+add("N-(2-(3-Methoxyphenoxy)phenyl)-2-(4-(4-methoxyphenyl)-1H-1,2,3-triazol-1-yl)acetamide (1d)", "melting_point", 139.5, 138, 141, "138–141 °C", "=", "measured", s, u, "Section 2 (compound 1d)", "White crystals, m.p. 138–141 ◦ C (iPrOH), Yield 2 g (69%).")
+add("2-(4-(4-Ethylphenyl)-1H-1,2,3-triazol-1-yl)-N-(2-(3-methoxyphenoxy)phenyl)acetamide (1e)", "melting_point", 122.5, 121, 124, "121–124 °C", "=", "measured", s, u, "Section 2 (compound 1e)", "White crystals, m.p. 121–124 ◦ C (iPrOH), Yield 2.1 g (56%).")
+add("2-(4-([1,1'-Biphenyl]-4-yl)-1H-1,2,3-triazol-1-yl)-N-(2-(3-methoxyphenoxy)phenyl)acetamide (1f)", "melting_point", 157, 156, 158, "156–158 °C", "=", "measured", s, u, "Section 2 (compound 1f)", "White crystals, m.p. 156–158 ◦ C (iPrOH), Yield 2.0 g (63%).")
+add("N-(2-(3-Methoxyphenoxy)phenyl)-2-(4-(4-pentylphenyl)-1H-1,2,3-triazol-1-yl)acetamide (1g)", "melting_point", 78.5, 77, 80, "77–80 °C", "=", "measured", s, u, "Section 2 (compound 1g)", "White crystals, m.p. 77–80 ◦ C (EtOH), Yield 1.8 g (57%).")
+add("2-(Dimethylamino)-N-(2-(3-methoxyphenoxy)phenyl)acetamide (2a)", "melting_point", 55, 54, 56, "54–56 °C", "=", "measured", s, u, "Section 2 (compound 2a)", "White crystals, m.p. 54–56 ◦ C (cyclohexane), Yield 1.7 g (83%).")
+add("2-(Aziridin-1-yl)-N-(2-(3-methoxyphenoxy)phenyl)acetamide (2b)", "melting_point", 76.5, 75, 78, "75–78 °C", "=", "measured", s, u, "Section 2 (compound 2b)", "White crystals, m.p. 75–78 ◦ C (cyclohexane), Yield 1.5 g (63%).")
+add("2-(Azetidin-1-yl)-N-(2-(3-methoxyphenoxy)phenyl)acetamide (2c)", "melting_point", 92.5, 91, 94, "91–94 °C", "=", "measured", s, u, "Section 2 (compound 2c)", "White crystals, m.p. 91–94 ◦ C (iPrOH), Yield 1.7 g (73%).")
+add("N-(2-(3-Methoxyphenoxy)phenyl)-2-(pyrrolidin-1-yl)acetamide (2e)", "melting_point", 89.5, 88, 91, "88–91 °C", "=", "measured", s, u, "Section 2 (compound 2e)", "White crystals, m.p. 88–91 ◦ C (iPrOH), Yield 1.5 g (67%).")
+add("N-(2-(3-Methoxyphenoxy)phenyl)-2-(piperidin-1-yl)acetamide (2f)", "melting_point", 90.5, 89, 92, "89–92 °C", "=", "measured", s, u, "Section 2 (compound 2f)", "White crystals, m.p. 89–92 ◦ C (iPrOH), Yield 1.5 g (80%).")
+add("N-(2-(3-Methoxyphenoxy)phenyl)-2-morpholinoacetamide (2g)", "melting_point", 115.5, 114, 117, "114–117 °C", "=", "measured", s, u, "Section 2 (compound 2g)", "White crystals, m.p. 114–117 ◦ C (iPrOH), Yield 1.8 g (78%).")
+add("N-(2-((2-(3-Methoxyphenoxy)phenyl)amino)-2-oxoethyl)-4-nitrobenzamide (3a)", "melting_point", 135, 134, 136, "134–136 °C", "=", "measured", s, u, "Section 2 (compound 3a)", "Yellowish crystals, m.p. 134–136 ◦ C (iPrOH), Yield 2.5 g (80%).")
+add("2-Fluoro-N-(2-((2-(3-methoxyphenoxy)phenyl)amino)-2-oxoethyl)benzamide (3b)", "melting_point", 94, 93, 95, "93–95 °C", "=", "measured", s, u, "Section 2 (compound 3b)", "White crystals, m.p. 93–95 ◦ C (iPrOH), Yield 2.5 g (80%).")
+add("N-(2-((2-(3-Methoxyphenoxy)phenyl)amino)-2-oxoethyl)-4-phenylbutanamide (3d)", "melting_point", 107.5, 106, 109, "106–109 °C", "=", "measured", s, u, "Section 2 (compound 3d)", "White crystals, m.p. 106–109 ◦ C (iPrOH), Yield 2.7 g (90%).")
+add("2-((4,6-Dichloro-1,3,5-triazin-2-yl)amino)-N-(2-(3-methoxyphenoxy)phenyl)acetamide (3e)", "melting_point", 162, 160, 164, "160–164 °C", "=", "measured", s, u, "Section 2 (compound 3e)", "White crystals, m.p. 160–164 ◦ C (iPrOH), Yield 0.67 g (22%).")
+add("2-((6-Chloro-1,2,4,5-tetrazin-3-yl)amino)-N-(2-(3-methoxyphenoxy)phenyl)acetamide (3f)", "melting_point", 167.5, 166, 169, "166–169 °C", "=", "measured", s, u, "Section 2 (compound 3f)", "Orange crystals, m.p. 166–169 ◦ C (iPrOH), Yield 0.62 g (32%).")
+
+# Paper 071
+s = "Molecules 2026, 31(4), 599"
+u = "https://doi.org/10.3390/molecules31040599"
+
+add("Dichlorido(L-lysylglycine methyl ester)palladium(II) (S)-3", "decomposition", 217, 216, 218, "216–218 °C (decomposition)", "=", "measured", s, u, "Section 3.2 ((S)-3)", "0.042 g of complex (S)-3 was ob- tained as a black solid in 51% yield. m.p. 216–218 ◦ C (decomposition).", notes="reported as decomposition")
+add("(S)-prolinium dichloro((S)-prolinate)palladate(II) (S)-4", "decomposition", 178, 177, 179, "177–179 °C (decomposition)", "=", "measured", s, u, "Section 3.2 ((S)-4)", "0.166 g of compound (S)-4 was isolated as an orange solid (73% yield) m.p. 177–179 ◦ C (decomposition).", notes="reported as decomposition")
+add("2-((2-chlorophenyl)(hydroxy)methyl)cyclohex-2-en-1-one (5a)", "melting_point", 88, 84, 92, "92–84 °C", "=", "measured", s, u, "Section 3.4 (compound 5a)", "0.045 g of a white solid was obtained with a yield of 90%; m.p. 92–84 ◦ C.", notes="paper reports range with endpoints inverted (92-84)")
+add("2-((4-chlorophenyl)(hydroxy)ethyl)cyclohex-2-en-1-one (5b)", "melting_point", 84, 83, 85, "83–85 °C", "=", "measured", s, u, "Section 3.4 (compound 5b)", "0.046 g of white solid was obtained with a yield of 91%; m.p. 83–85 ◦ C.")
+add("2-(hydroxy(3-nitrophenyl)methyl)cyclohex-2-en-1-one (5c)", "melting_point", 83.5, 82, 85, "82–85 °C", "=", "measured", s, u, "Section 3.4 (compound 5c)", "0.039 g of a light yellow solid was obtained in an 81% yield; m.p. 82–85 ◦ C.")
+add("2-(hydroxy(4-nitrophenyl)methyl)cyclohex-2-en-1-one (5d)", "melting_point", 136, 135, 137, "135–137 °C", "=", "measured", s, u, "Section 3.4 (compound 5d)", "0.043 g of a white solid was obtained with a yield of 89%; m.p. 135–137 ◦ C.")
+add("3-(4-hydroxyphenyl)cyclohex-2-en-1-one (6a)", "melting_point", 151, 150, 152, "150–152 °C", "=", "measured", s, u, "Section 3.5 (compound 6a)", "0.030 g of a white solid was obtained in a yield of 90%; m.p. of 150–152 ◦ C.")
+add("3-(4-methoxyphenyl)cyclohex-2-en-1-one (6b)", "melting_point", 74, 73, 75, "73–75 °C", "=", "measured", s, u, "Section 3.5 (compound 6b)", "0.027 g of a white solid was obtained with a yield of 80%; melting point of 73–75 ◦ C.")
+add("3-(4-ethoxyphenyl)cyclohex-2-en-1-one (6c)", "melting_point", 58, 57, 59, "57–59 °C", "=", "measured", s, u, "Section 3.5 (compound 6c)", "0.026 g of a white solid with a 76% yield and a melting point of 57–59 ◦ C.")
+add("3-(4-benzyloxyphenyl)ciclohex-2-en-1-ona (6d)", "melting_point", 61, 60, 62, "60–62 °C", "=", "measured", s, u, "Section 3.5 (compound 6d)", "0.025 g of a white solid in a 71% yield; melting point 60–62 ◦ C.")
+
+
+# Paper 074
+s = "Int J Mol Sci. 2026, 27(4), 2032"
+u = "https://doi.org/10.3390/ijms27042032"
+
+add("Chlorido-[1,3-dimethyl-4-anisyl-5-(4-chlorophenyl)imidazole-2-ylidene]gold(I) (5)", "melting_point", 210.5, 210, 211, "210–211 °C", "=", "measured", s, u, "Synthesis section (compound 5)", "amber solid of m.p. 210–211 ◦ C")
+add("Iodido-[1,3-dimethyl-4-anisyl-5-(4-chlorophenyl)imidazole-2-ylidene]gold(I) (6)", "melting_point", 190.5, 190, 191, "190–191 °C", "=", "measured", s, u, "Synthesis section (compound 6)", "off-white solid of mp 190–191 ◦ C")
+add("Triphenylphosphino-[1,3-diethyl-4-anisyl-5-(4-chlorophenyl)imidazole-2-ylidene]gold(I) tetrafluoroborate (8)", "decomposition", 110, "", "", "110 °C (dec.)", "=", "measured", s, u, "Synthesis section (compound 8)", "colorless solid of m.p. 110 ◦ C (dec.)", notes="reported as decomposition")
+add("Bis-[1,3-diethyl-4-anisyl-5-(4-chlorophenyl)imidazole-2-ylidene]gold(I) tetrafluoroborate (11)", "decomposition", 136.5, 136, 137, "136–137 °C (dec.)", "=", "measured", s, u, "Synthesis section (compound 11)", "colorless solid of m.p. 136–137 ◦ C (dec.)", notes="reported as decomposition")
+add("Bromido[1,3-diethyl-4-anisyl-5-(4-chlorophenyl)imidazole-2-ylidene]gold(I) (12)", "decomposition", 182.5, 182, 183, "182–183 °C (dec.)", "=", "measured", s, u, "Synthesis section (compound 12)", "off-white solid of m.p. 182–183 ◦ C", notes="reported as decomposition")
+add("Trisbromido[1,3-diethyl-4-anisyl-5-(4-chlorophenyl)imidazole-2-ylidene]gold(III) (13)", "decomposition", 105, "", "", "105 °C (dec.)", "=", "measured", s, u, "Synthesis section (compound 13)", "orange solid of m.p. 105 ◦ C (dec.)", notes="reported as decomposition")
+
+# Paper 075
+s = "Antibiotics (Basel). 2026, 15(2), 127"
+u = "https://doi.org/10.3390/antibiotics15020127"
+
+add("N-[(3,5-dimetyl-4-iodo-1H-pyrazol-1-yl)-methyl]-4-fluoroaniline (4a)", "melting_point", 144.5, 144, 145, "144–145 °C", "=", "measured", s, u, "Section 3.2 (compound 4a)", "Yield 88%; mp 144–145 ◦ C")
+add("N-[(3,5-dimetyl-4-iodo-1H-pyrazol-1-yl)-methyl]-4-chloroaniline (4b)", "melting_point", 156.5, 156, 157, "156–157 °C", "=", "measured", s, u, "Section 3.2 (compound 4b)", "Yield 70%; mp 156–157 ◦ C")
+add("N-[(3,5-dimetyl-4-iodo-1H-pyrazol-1-yl)-methyl]-4-bromoaniline (4c)", "melting_point", 123.5, 123, 124, "123–124 °C", "=", "measured", s, u, "Section 3.2 (compound 4c)", "Yield 92%; mp 123–124 ◦ C")
+add("N-[(3,5-dimetyl-4-iodo-1H-pyrazol-1-yl)-methyl]-4-iodoaniline (4d)", "melting_point", 154.5, 154, 155, "154–155 °C", "=", "measured", s, u, "Section 3.2 (compound 4d)", "Yield 72%; mp154–155 ◦ C")
+add("N, N-bis-[(3,5-dimetyl-4-iodo-1H-pyrazol-1-yl)-methyl]-4-fluoroaniline (5a)", "melting_point", 83.5, 82, 85, "82–85 °C", "=", "measured", s, u, "Section 3.2 (compound 5a)", "Yield 91%; mp 82–85 ◦ C")
+add("N, N-bis-[(3,5-dimetyl-4-iodo-1H-pyrazol-1-yl)-methyl]-4-chloroaniline (5b)", "melting_point", 101.5, 101, 102, "101–102 °C", "=", "measured", s, u, "Section 3.2 (compound 5b)", "Yield 84%; mp 101–102 ◦ C")
+add("N, N-bis-[(3,5-dimetyl-4-iodo-1H-pyrazol-1-yl)-methyl]-4-bromoaniline (5c)", "melting_point", 113.5, 113, 114, "113–114 °C", "=", "measured", s, u, "Section 3.2 (compound 5c)", "Yield 86%; mp 113–114 ◦ C")
+add("N,N-bis-[(3,5-dimetyl-4-iodo-1H-pyrazol-1-yl)-methyl]-4-iodoaniline (5d)", "melting_point", 99.5, 99, 100, "99–100 °C", "=", "measured", s, u, "Section 3.2 (compound 5d)", "Yield 79%; mp 99–100 ◦ C")
+add("N-[(1H-pyrazol-1-yl)-methyl]-2,4-dichloroaniline (6a)", "melting_point", 104, 103, 105, "103–105 °C", "=", "measured", s, u, "Section 3.2 (compound 6a)", "Yield 68%; mp 103–105 ◦ C")
+add("N-[(3,5-dimetyl-1H-pyrazol-1-yl)-methyl]-2,4-dichloroaniline (6b)", "melting_point", 109, 108, 110, "108–110 °C", "=", "measured", s, u, "Section 3.2 (compound 6b)", "Yield 91%; mp 108–110 ◦ C")
+add("N-[(3,5-dimetyl-4-iodo-1H-pyrazol-1-yl)-methyl]-2,4-dichloroaniline (6c)", "melting_point", 79, 78, 80, "78–80 °C", "=", "measured", s, u, "Section 3.2 (compound 6c)", "Yield 70%; mp 78–80 ◦ C")
+add("N-[(3,5-dimetyl-4-nitro-1H-pyrazol-1-yl)-methyl]-2,4-dichloroaniline (6d)", "melting_point", 137, 136, 138, "136–138 °C", "=", "measured", s, u, "Section 3.2 (compound 6d)", "Yield 93%; mp 136–138 ◦ C")
+add("N-[(3,5-dimetyl-1H-pyrazol-1-yl)-methyl]-2,6-dichloroaniline (6e)", "melting_point", 109, 108, 110, "108–110 °C", "=", "measured", s, u, "Section 3.2 (compound 6e)", "Yield 35%; mp 108–110 ◦ C")
+add("N-[(3,5-dimetyl-4-iodo-1H-pyrazol-1-yl)-methyl]-2,6-dichloroaniline (6f)", "melting_point", 81.5, 81, 82, "81–82 °C", "=", "measured", s, u, "Section 3.2 (compound 6f)", "Yield 51%; mp 81–82 ◦ C")
+add("N-[(3,5-dimetyl-4-nitro-1H-pyrazol-1-yl)-methyl]-2,6-dichloroaniline (6g)", "melting_point", 112.5, 112, 113, "112–113 °C", "=", "measured", s, u, "Section 3.2 (compound 6g)", "Yield 86%; mp 112–113 ◦ C")
+
+# Paper 078
+s = "Turk J Chem 2022, 46(2), 506-522"
+u = "https://doi.org/10.55730/1300-0527.3324"
+
+add("(R)-2-methyl-5-(5-methyl-3-(p-tolyl)-4,5-dihydroisoxazol-5-yl)cyclohex-2-en-1-one", "melting_point", 97, 96, 98, "96-98 °C", "=", "measured", s, u, "Table 2 row 2", "m.p: 96-98 °C")
+add("(3aS,5R,7aR)-7a-methyl-5-(5-methyl-3-(p-tolyl)-4,5-dihydroisoxazol-5-yl)-3-(p-tolyl)-3a,5,6,7a-tetrahydrobenzo[d]isoxazol-7(4H)-one", "melting_point", 113, 112, 114, "112-114 °C", "=", "measured", s, u, "Table 2 row 3", "m.p: 112-114 °C")
+
+# Paper 079
+s = "Molecules. 2023, 28(22), 7461"
+u = "https://doi.org/10.3390/molecules28227461"
+
+add("2-Chloro-1-(2,4-difluorophenyl)ethanone (4)", "melting_point", 46.5, 46, 47, "46–47 °C", "=", "measured", s, u, "Section 4.1.1 (compound 4)", "melting point: 46–47 ◦ C (lit. 46–48 ◦ C [19])")
+add("1-(2,4-Difluorophenyl)-2-(3-nitro-1H-1,2,4-triazol-1-yl)ethanone (5)", "melting_point", 118, 117, 119, "117–119 °C", "=", "measured", s, u, "Section 4.1.2 (compound 5)", "Yield: 73%; melting point: 117–119 ◦ C (lit. 113–114 ◦ C [16])")
+add("1-(2,4-Difluorophenyl)-2-(2-nitro-1H-imidazol-1-yl)ethanone (6)", "melting_point", 129, 128, 130, "128–130 °C", "=", "measured", s, u, "Section 4.1.3 (compound 6)", "Measured melting point: 128–130 ◦ C")
+add("1-(2,4-Difluorophenyl)-2-(1H-1,2,4-triazol-1-yl)ethanone (7)", "melting_point", 104.5, 104, 105, "104–105 °C", "=", "measured", s, u, "Section 4.1.4 (compound 7)", "melting point: 104–105 ◦ C (lit. 104–105 ◦ C [19])")
+add("1-(2,4-Difluorophenyl)-2-(3-nitro-1H-1,2,4-triazol-1-yl)ethanol (8)", "melting_point", 128.5, 128, 129, "128–129 °C", "=", "measured", s, u, "Section 4.1.5 (compound 8)", "Yield: 92%; melting point: 128–129 ◦ C")
+add("1-(2,4-Difluorophenyl)-2-(2-nitro-1H-imidazol-1-yl)ethanol (9)", "melting_point", 185, 184, 186, "184–186 °C", "=", "measured", s, u, "Section 4.1.6 (compound 9)", "melting point: 184–186 ◦ C")
+
+# Paper 080
+s = "ACS Appl Opt Mater. 2022, 1(1), 340-353"
+u = "https://doi.org/10.1021/acsaom.2c00067"
+
+add("3,6-Di-tert-butyldiphenyldibenzofulvene (3,6-dtb-DPBF)", "melting_point", 300, "", "", ">300 °C", ">", "measured", s, u, "Synthesis section (3,6-dtb-DPBF)", "443.2705 (found), 443.2733 (calculated for C34H34 [M + H]+); mp >300 °C.")
+add("3,6-Di-tert-butyldiphenyldibenzofulvene (3,6-dtb-DPBFMe)", "melting_point", 300, "", "", ">300 °C", ">", "measured", s, u, "Synthesis section (3,6-dtb-DPBFMe)", "457.2890 (calculated for C35H36 [M + H]+); mp >300 °C.")
+add("3,6-Di-tert-butyldiphenyldibenzofulvene (3,6-dtb-DPBF(Me)2)", "melting_point", 300, "", "", ">300 °C", ">", "measured", s, u, "Synthesis section (3,6-dtb-DPBF(Me)2)", "470.2974 (calculated for C36H38 [M + H]+); mp >300 °C.")
+
+
+# Paper 083
+s = "Pharmaceuticals (Basel). 2011, 4(7), 1032-1051"
+u = "https://doi.org/10.3390/ph4071032"
+
+add("2-Ethoxycarbonylamino(beta-hydroxyethyl)benzamide (2)", "melting_point", 120.5, 120, 121, "120-121 °C", "=", "measured", s, u, "Section 6.2 (compound 2)", "Yellowish white crystals from ethanol; m.p. 120- 121 °C")
+add("2-Ethoxy-3-(2-hydroxyethyl)quinazolin-4-one (3)", "melting_point", 108.5, 108, 109, "108–109 °C", "=", "measured", s, u, "Section 6.2 (compound 3)", "Light brown crystals from ethanol; m.p. 108–109 °C")
+add("2-Ethoxycarbonylamino-N-(4-methylphenyl)benzamide (4a)", "melting_point", 116.5, 116, 117, "116–117 °C", "=", "measured", s, u, "Section 6.3 (compound 4a)", "Brown crystals from ethanol; m.p. 116–117 °C")
+add("2-Ethoxycarbonylamino-N-(4-methoxyphenyl)benzamide (4b)", "melting_point", 133.5, 133, 134, "133–134 °C", "=", "measured", s, u, "Section 6.3 (compound 4b)", "Brown crystals from ethanol; m.p. 133–134 °C")
+add("2-Ethoxycarbonylamino-N-(4-hydroxyphenyl)benzamide (4c)", "melting_point", 114.5, 114, 115, "114–115 °C", "=", "measured", s, u, "Section 6.3 (compound 4c)", "Brown crystals from ethanol; m.p. 114–115 °C")
+add("2-Ethoxycarbonylamino-N-(2-hydroxyphenyl)benzamide (4d)", "melting_point", 111.5, 111, 112, "111-112 °C", "=", "measured", s, u, "Section 6.3 (compound 4d)", "Brown crystals from ethanol; m.p. 111-112 °C")
+add("2-Ethoxycarbonylamino-N-(2-bromophenyl)benzamide (4e)", "melting_point", 105.5, 105, 106, "105-106 °C", "=", "measured", s, u, "Section 6.3 (compound 4e)", "Brown crystals from ethanol; m.p. 105-106 °C")
+add("2-Ethoxy-3-(4-methylphenyl)quinazolin-4-one (5a)", "melting_point", 91.5, 91, 92, "91–92 °C", "=", "measured", s, u, "Section 6.4 (compound 5a)", "Dark brown crystals from light petroleum (100–120 °C); m.p. 91–92 °C")
+add("2-Ethoxy-3-(4-methoxyphenyl)quinazolin-4-one (5b)", "melting_point", 114.5, 114, 115, "114–115 °C", "=", "measured", s, u, "Section 6.4 (compound 5b)", "Dark brown crystals from toluene; m.p. 114–115 °C")
+add("2-Ethoxy-3-(4-hydroxyphenyl)quinazolin-4-one (5c)", "melting_point", 105.5, 105, 106, "105–106 °C", "=", "measured", s, u, "Section 6.4 (compound 5c)", "Dark brown crystals from benzene; m.p. 105–106 °C")
+add("2-Ethoxy-3-(2-hydroxyphenyl)quinazolin-4-one (5d)", "melting_point", 89.5, 89, 90, "89-90 °C", "=", "measured", s, u, "Section 6.4 (compound 5d)", "Dark brown crystals from light petroleum (100–120 °C); m.p. 89-90 °C")
+add("2-Ethoxy-3-(2-bromophenyl)quinazolin-4-one (5e)", "melting_point", 93.5, 93, 94, "93–94 °C", "=", "measured", s, u, "Section 6.4 (compound 5e)", "Dark brown crystals from light petroleum (80–100 °C); m.p. 93–94 °C")
+add("4-[2-Ethoxy-4-quinazolon-3-yl]benzoic acid (6a)", "melting_point", 151.5, 151, 152, "151–152 °C", "=", "measured", s, u, "Section 6.5 (compound 6a)", "Light brown crystals from ethanol; m.p. 151–152 °C")
+add("2-Ethoxy-3-(4-aminophenyl)quinazolin-4-one (6b)", "melting_point", 105.5, 105, 106, "105–106 °C", "=", "measured", s, u, "Section 6.5 (compound 6b)", "Light blue crystal from ethanol; m.p. 105–106 °C")
+add("2-[2-Ethoxy-4-oxoquinazolin-3-yl]pyridine-3-carboxylic acid (6c)", "melting_point", 299, 298, 300, "298-300 °C", "=", "measured", s, u, "Section 6.5 (compound 6c)", "Brown crystals from ethanol; m.p. 298-300 °C")
+add("2-Ethoxy-3-(3,3'-dimethyl-4-amino)biphenylquinazolin-4-one (6d)", "melting_point", 121.5, 121, 122, "121-122 °C", "=", "measured", s, u, "Section 6.5 (compound 6d)", "Dark brown crystals from ethanol; m.p. 121-122 °C")
+add("2-Ethoxy benzimidazolo-[1,2-c]quinazoline (7)", "melting_point", 191.5, 191, 192, "191-192 °C", "=", "measured", s, u, "Section 6.5 (compound 7)", "light blue crystals of product 7. M.p. 191-192 °C")
+add("2-Ethoxy-3-(beta-glucopyranosyl-3-yl) quinazolin-4-one (8)", "melting_point", 179.5, 179, 180, "179–180 °C", "=", "measured", s, u, "Section 6.5 (compound 8)", "white crystals of product 8. M.p. 179–180 °C")
+add("2-Ethoxy-3-(1-naphthylsulphonylamino)-4(3H) quinazolone (9)", "melting_point", 111.5, 111, 112, "111-112 °C", "=", "measured", s, u, "Section 6.5 (compound 9)", "white brown crystals of product 9. M.p. 111-112 °C")
+add("2-Ethoxy-3-decanoylamino-4(3H) quinazolinone (10)", "melting_point", 115.5, 115, 116, "115–116 °C", "=", "measured", s, u, "Section 6.5 (compound 10)", "light brown crystals of product 10. M.p. 115–116 °C")
+add("2-(3-Ethoxy-5-phenyl-4H-1,2,4-triazolo-4-yl)benzoic acid (11)", "melting_point", 101.5, 101, 102, "101-102 °C", "=", "measured", s, u, "Section 6.5 (compound 11)", "white crystals of product 11. M.p. 101-102 °C")
+add("2-Ethoxy-3-benzoylamino-4(3H) quinazolinone (12)", "melting_point", 109.5, 109, 110, "109–110 °C", "=", "measured", s, u, "Section 6.5 (compound 12)", "white needles of 12 of m.p. 109–110 °C")
+add("2-Ethoxy-5-oxo-1H-1,2,4-triazolo[2,3-c] quinazoline (13)", "melting_point", 126.5, 126, 127, "126–127 °C", "=", "measured", s, u, "Section 6.5 (compound 13)", "white crystals of derivative 13. M.p. 126–127 °C")
+add("2-{2-(Ethoxy)quinazolin-4-one-3-yl}propanoic acid (14a)", "melting_point", 183.5, 183, 184, "183–184 °C", "=", "measured", s, u, "Section 6.6 (compound 14a)", "Light brown crystals from DMF; m.p. 183–184 °C")
+add("2-{2-(Ethoxy)quinazolin-4-one-3-yl}-3-carbamoyl propanoic acid (14b)", "melting_point", 241.5, 241, 242, "241-242 °C", "=", "measured", s, u, "Section 6.6 (compound 14b)", "Light brown crystals from DMF; m.p. 241-242 °C")
+add("2-Amino-2-{2-(ethoxy)quinazolin-4-one-3-yl}-5-guanidinopentanoic acid (14c)", "melting_point", 241.5, 241, 242, "241-242 °C", "=", "measured", s, u, "Section 6.6 (compound 14c)", "Light brown crystals from DMF; m.p. 241-242 °C")
+add("2-Ethoxycarbonylamino-(carboxyaminomethyl thiomethyl benzoate) (15)", "melting_point", 121.5, 121, 122, "121-122 °C", "=", "measured", s, u, "Section 6.6 (compound 15)", "white crystals of product 15. M.p.121-122 °C")
+add("5-[2-Ethoxyquinazolone-3-yl]-2-phenylthiadiazole (16a)", "melting_point", 172.5, 172, 173, "172–173 °C", "=", "measured", s, u, "Section 6.7 (compound 16a)", "Brown crystals from DMF; m.p. 172–173 °C")
+add("5-[2-Ethoxyquinazolone-3-yl]-2-cinnamylthiadiazole (16b)", "melting_point", 289.5, 289, 290, "289-290 °C", "=", "measured", s, u, "Section 6.7 (compound 16b)", "Brown crystals from DMF; m.p. 289-290 °C")
+add("5-[2-Ethoxyquinazolone-3-yl]-2-phthalamidomethylthiadiazole (16c)", "melting_point", 303.5, 303, 304, "303–304 °C", "=", "measured", s, u, "Section 6.7 (compound 16c)", "Brown crystals from DMF; m.p. 303–304 °C")
+
+# Paper 084
+s = "Materials (Basel). 2009, 2(3), 978-991"
+u = "https://doi.org/10.3390/ma2030978"
+
+add("Dicarbonylcyclopentadienyl(2-fluorophenyl)iron (2f)", "melting_point", 57.5, 57, 58, "57–58 °C", "=", "measured", s, u, "Characterization (compound 2f)", "Calcd. for C13H9FFeO2: C, 57.39; H, 3.33%; m.p.: 57–58 °C.")
+add("Dicarbonyl(4-cyanophenyl)cyclopentadienyliron (2h)", "melting_point", 100.5, 100, 101, "100–101 °C", "=", "measured", s, u, "Characterization (compound 2h)", "Calcd. for C14H9FeNO2: C, 60.25; H, 3.25%; m.p.: 100–101 °C.")
+add("Dicarbonylcyclopentadienyl(4-ethoxycarbonylphenyl)iron (2i)", "melting_point", 105, 104, 106, "104–106 °C", "=", "measured", s, u, "Characterization (compound 2i)", "Calcd. for C16H14FeO4: C, 58.93; H, 4.33%; m.p.: 104–106 °C.")
+add("Dicarbonylcyclopentadienyl(3-ethoxycarbonylphenyl)iron (2j)", "melting_point", 67.5, 67, 68, "67–68 °C", "=", "measured", s, u, "Characterization (compound 2j)", "Calcd. for C16H14FeO4: C, 58.93; H, 4.33%; m.p.: 67–68 °C.")
+add("Dicarbonylcyclopentadienyl(2-ethoxycarbonylphenyl)iron (2k)", "melting_point", 64.5, 64, 65, "64–65 °C", "=", "measured", s, u, "Characterization (compound 2k)", "Calcd. for C16H14FeO4: C, 58.93; H, 4.33%. m.p.: 64–65 °C.")
+add("Dicarbonylcyclopentadienyl(4-trifluoromethylphenyl)iron (2o)", "melting_point", 72.5, 72, 73, "72–73 °C", "=", "measured", s, u, "Characterization (compound 2o)", "Calcd. for C14H9F3FeO2: C, 52.21; H, 2.82%; m.p.: 72–73 °C.")
+add("Dicarbonylcyclopentadienyl(4-hydroxymethylphenyl)iron (2u)", "melting_point", 92.5, 92, 93, "92–93 °C", "=", "measured", s, u, "Characterization (compound 2u)", "Calcd. for C14H12FeO3: C, 59.19; H, 4.26%; m.p.: 92–93 °C.")
+
+
+# Paper 086
+s = "Molecules. 2003, 8(1), 186-192"
+u = "https://doi.org/10.3390/80100186"
+
+add("1-(4-trifluoromethylphenylamino)-1-(4-chlorophenyl)-o,o-diisopropylphosphonate (4a)", "melting_point", 127.5, 127, 128, "127-128 °C", "=", "measured", s, u, "Yields and physicochemical properties (4a)", "Yield 64%; m.p.127-128°C")
+add("1-(4-trifluoromethylphenylamino)-1-(2-fluorophenyl)-o,o-diisopropylphosphonate (4b)", "melting_point", 117.5, 117, 118, "117-118 °C", "=", "measured", s, u, "Yields and physicochemical properties (4b)", "Yield 68.0%; m.p.117-118°C")
+add("1-(4-trifluoromethylphenyl)-1-(4-fluorophenyl)-O,O-diisopropylphosphonate (4c)", "melting_point", 110.5, 108, 113, "108-113 °C", "=", "measured", s, u, "Yields and physicochemical properties (4c)", "Yield 65.0%; m.p. 108-113°C")
+add("1-(4-trifluoromethylphenyl)-1-phenyl-O,O-diisopropylphosphonate (4d)", "melting_point", 141, 140, 142, "140-142 °C", "=", "measured", s, u, "Yields and physicochemical properties (4d)", "Yield 60.3%; m.p.140-142°C")
+add("1-(4-trifluoromethylphenyl)-1-(4-chlorophenyl)-O,O-diethylphosphonate (4e)", "melting_point", 137, 135, 139, "135-139 °C", "=", "measured", s, u, "Yields and physicochemical properties (4e)", "Yield 63.13%; m.p. 135-139°C")
+add("1-(4-trifluoromethylphenyl)-1-(2-fluorophenyl)-O,O-diethylphosphonate (4f)", "melting_point", 110.5, 110, 111, "110-111 °C", "=", "measured", s, u, "Yields and physicochemical properties (4f)", "Yield 44.4%; m.p. 110-111°C")
+add("1-(4-trifluoromethylphenyl)-1-phenyl-O,O-diethylphosphonate (4g)", "melting_point", 141.5, 141, 142, "141-142 °C", "=", "measured", s, u, "Yields and physicochemical properties (4g)", "Yield 24.9%; m.p.141-142°C")
+add("1-(4-trifluoromethylphenyl)-1-(4-chlorophenyl)-O,O-dimethylphosphonate (4h)", "melting_point", 134.5, 134, 135, "134-135 °C", "=", "measured", s, u, "Yields and physicochemical properties (4h)", "Yield 30.1%; m.p. 134-135°C")
+add("1-(4-trifluoromethylphenyl)-1-(2-fluorophenyl)-O,O-dimethylphosphonate (4i)", "melting_point", 110.5, 110, 111, "110-111 °C", "=", "measured", s, u, "Yields and physicochemical properties (4i)", "Yield 26.6%; m.p. 110-111°C")
+add("1-(4-trifluoromethylphenyl)-1-(4-fluorophenyl)-O,O-dimethylphosphonate (4j)", "melting_point", 140, 139, 141, "139-141 °C", "=", "measured", s, u, "Yields and physicochemical properties (4j)", "Yield 22.5%; m.p.139-141°C")
+add("1-(4-trifluoromethylphenyl)-1-phenyl-O,O-dimethylphosphonate (4k)", "melting_point", 98, 97, 99, "97-99 °C", "=", "measured", s, u, "Yields and physicochemical properties (4k)", "Yield 30%; m.p. 97-99°C")
+add("1-(4-trifluoromethylphenyl)-1-(4-chlorophenyl)-O,O-dipropylphosphonate (4l)", "melting_point", 93, 91, 95, "91-95 °C", "=", "measured", s, u, "Yields and physicochemical properties (4l)", "Yield 25.0%; m.p. 91-95°C")
+add("1-(4-trifluoromethylphenyl)-1-(2-fluorophenyl)-O,O-dipropylphosphonate (4m)", "melting_point", 110, 109, 111, "109-111 °C", "=", "measured", s, u, "Yields and physicochemical properties (4m)", "Yield 28.0%; m.p. 109-111°C")
+add("1-(4-trifluoromethylphenyl)-1-(4-fluorophenyl)-O,O-dipropylphosphonate (4n)", "melting_point", 95.5, 95, 96, "95-96 °C", "=", "measured", s, u, "Yields and physicochemical properties (4n)", "Yield 29.8%; m.p. 95-96°C")
+add("1-(4-trifluoromethylphenyl)-1-(4-chlorophenyl)-O,O-dibutylphosphonate (4o)", "melting_point", 94, 93, 95, "93-95 °C", "=", "measured", s, u, "Yields and physicochemical properties (4o)", "Yield 69.5%; m.p. 93-95°C")
+add("1-(4-trifluoromethylphenyl)-1-(4-fluorophenyl)-O,O-dibutylphosphonate (4p)", "melting_point", 93, 92, 94, "92-94 °C", "=", "measured", s, u, "Yields and physicochemical properties (4p)", "Yield 80.2%; m.p. 92-94°C")
+
+# Paper 087
+s = "Molecules. 2003, 8(12), 910-923"
+u = "https://doi.org/10.3390/81200910"
+
+add("3-(4-Chlorophenyl)-2-(2-methoxycarbonylphenylhydrazono)-3-oxopropanal (1c)", "melting_point", 189, "", "", "189 °C", "=", "measured", s, u, "Section 1a-i (compound 1c)", "Yellow crystals from ethanol; m.p.189°C")
+add("2-{2-[(2-Cyanophenyl)-hydrazono]-3-furan-2-yl-3-oxo-propylideneamino}-4,5,6,7-tetrahydrobenzo[b]thiophene-3-carboxylic acid ethyl ester (3a)", "melting_point", 174, "", "", "174 °C", "=", "measured", s, u, "Section 3a-g (compound 3a)", "Dark red crystals from ethanol; m.p. 174")
+add("2-{2-[(2-Methoxycarbonyl-phenyl)-hydrazono]-3-oxo-butylideneamino}-4,5,6,7-tetrahydrobenzo[b]thiophene-3-carboxylic acid ethyl ester (3b)", "melting_point", 181, "", "", "181 °C", "=", "measured", s, u, "Section 3a-g (compound 3b)", "Dark orange crystals from ethanol; m.p. 181")
+add("2-{3-(4-Chlorophenyl)-2-[(2-cyanophenyl)-hydrazono]-3-oxo-propylideneamino}-4,5,6,7-tetrahydrobenzo[b]thiophene-3-carboxylic acid ethyl ester (3c)", "melting_point", 189, "", "", "189 °C", "=", "measured", s, u, "Section 3a-g (compound 3c)", "Orange crystals from ethanol/dioxane (2:1); m.p. 189")
+add("2-(N'-{2-Furan-2-yl-2-oxo-1-[(4H-[1,2,4]triazol-3-ylimino)-methyl]-ethylidene}-hydrazino)benzoic acid methyl ester (3d)", "melting_point", 260, "", "", "260 °C", "=", "measured", s, u, "Section 3a-g (compound 3d)", "Brown crystals from ethanol/dioxane; m.p. 260")
+add("2-(N'-{2-(4-Chlorophenyl)-2-oxo-1-[(4H-[1,2,4]triazol-3-ylimino)-methyl]-ethylidene}-hydrazino)-benzonitrile (3e)", "melting_point", 240, "", "", "240 °C", "=", "measured", s, u, "Section 3a-g (compound 3e)", "Light orange crystals from dioxane; m.p. 240")
+add("2-{N'-[2-Furan-2-yl-2-oxo-1-(pyrazin-2-yliminomethyl)-ethylidene]-hydrazino}-benzoic acid methyl ester (3f)", "melting_point", 210, "", "", "210 °C", "=", "measured", s, u, "Section 3a-g (compound 3f)", "Light brown crystals from ethanol/dioxane (2:1); m.p. 210")
+add("2-{N'-[2-(4-Chlorophenyl)-2-oxo-1-(pyrazin-2-yliminomethyl)-ethylidene]-hydrazino}-benzonitrile (3g)", "melting_point", 255, "", "", "255 °C", "=", "measured", s, u, "Section 3a-g (compound 3g)", "Orange crystals from ethanol/dioxane (2:1); m.p. 255")
+add("7-(4-Chlorophenyl)-6-(2-cyanophenylazo)-1,2,4-triazolo[1,5-a]pyrimidine (6)", "melting_point", 258, "", "", "258 °C", "=", "measured", s, u, "Section compound 6", "Orange crystals from ethanol; m.p. 258")
+add("1-(2-Furyl)-3-hydrazono-2-(2-methoxycarbonylphenylhydrazono)-1-propanone (8a)", "melting_point", 168, "", "", "168 °C", "=", "measured", s, u, "Section 8a-d (compound 8a)", "Brown crystals from ethanol; m.p. 168")
+add("1-(4-Chlorophenyl)-3-hydrazono-2-(2-methoxycarbonylphenylhydrazono)-1-propanone (8b)", "melting_point", 204, "", "", "204 °C", "=", "measured", s, u, "Section 8a-d (compound 8b)", "Yellow crystals from ethanol: m.p. 204")
+add("1-(4-Chlorophenyl)-2-(2-methoxycarbonylphenylhydrazono)-3-phenylhydrazono-1-propanone (8c)", "melting_point", 244, "", "", "244 °C", "=", "measured", s, u, "Section 8a-d (compound 8c)", "Orange crystals from ethanol/dioxane(2:1): m.p. 244")
+add("2-(2-Cyanophenylhydrazono)-1-(2-furyl)-3-phenylhydrazono-1-propanone (8d)", "melting_point", 229, "", "", "229 °C", "=", "measured", s, u, "Section 8a-d (compound 8d)", "Orange crystals from ethanol: m.p. 229")
+add("3-(2-Furyl) 4-(2-methoxycarbonylphenylazo)-pyrazole (9a)", "melting_point", 160, "", "", "160 °C", "=", "measured", s, u, "Section 9a-d (compound 9a)", "Red crystals from ethanol; m.p. 160")
+add("3-(4-Chlorophenyl) 4-(2-methoxycarbonylphenylazo) pyrazole (9b)", "melting_point", 189, "", "", "189 °C", "=", "measured", s, u, "Section 9a-d (compound 9b)", "Orange crystals from ethanol: m.p. 189")
+add("3-(4-Chlorophenyl)-4-(2-methoxycarbonylphenylazo)-1-phenylpyrazole (9c)", "melting_point", 242, "", "", "242 °C", "=", "measured", s, u, "Section 9a-d (compound 9c)", "Light brown crystals from methanol: m.p. 242")
+add("4-(2-Cyanophenylazo)-3-(2-furyl)-1-phenylpyrazole (9d)", "melting_point", 137, "", "", "137 °C", "=", "measured", s, u, "Section 9a-d (compound 9d)", "Orange crystals from ethanol; m.p. 137")
+add("3-Amino-1-cyano-2-(2-furoyl-6-oxopyridazino[2,3-c]quinazoline-4-yl) acrylonitrile (13)", "melting_point", 300, "", "", ">300 °C", ">", "measured", s, u, "Section compound 13", "Brown crystals from methanol; m.p. >300")
+add("5-Amino-3-(4-chlorobenzoyl)-6-cyano-(2-cyanophenyl)-1,7-dihydro-7-iminopyrido[2,3-c]pyridazine (14)", "melting_point", 273, "", "", "273 °C", "=", "measured", s, u, "Section compound 14", "Green crystals from ethanol; m.p. 273")
+add("2-{N-[2-(4-Chlorophenyl)-1-cyano-2-oxo-ethylidene]-hydrazino}-benzoic acid (15)", "melting_point", 238, "", "", "238 °C", "=", "measured", s, u, "Section compound 15", "Green crystals from ethanol/ dioxane (2:1); m.p.238")
+add("3-(2-Furoyl)-2-(2-methoxycarbonylphenylhydrazono)-3-oxo-propanal-1-oxime (16a)", "melting_point", 199, "", "", "199 °C", "=", "measured", s, u, "Section 16a-b (compound 16a)", "Yellow crystal from ethanol; m.p.199")
+add("3-(4-Chlorophenyl)-2-(2-methoxycarbonylphenylhydrazono)-3-oxo-propanal-1-oxime (16b)", "melting_point", 186, "", "", "186 °C", "=", "measured", s, u, "Section 16a-b (compound 16b)", "Yellow crystals from dioxane; m.p.186")
+add("4-(2-Furoyl)-2-(2-methoxycarbonylphenyl)-1,2,3-triazole (17a)", "melting_point", 138, "", "", "138 °C", "=", "measured", s, u, "Section compound 17a", "Yellow crystals from ethanol; m.p.138")
+add("3-(4-Chlorophenyl)-3-oxo-2-(2-methoxycarbonylphenylhydrazono)propionitrile (18)", "melting_point", 175, "", "", "175 °C", "=", "measured", s, u, "Section compound 18", "giving brown crystals; m.p.175")
+
+# Paper 088
+s = "Molecules. 2003, 8(7), 536-540"
+u = "https://doi.org/10.3390/80700536"
+
+add("1-Pentafluorophenyl-1H-Pyrrole (1)", "melting_point", 59, 58, 60, "58-60 °C", "=", "measured", s, u, "Synthesis of (1)", "pure pyrrole 1 (2.98 g, 78% yield), m.p. 58-60oC")
+add("1-Pentafluorophenyl-1H-Pyrrole-2-Carbaldehyde (2a)", "melting_point", 78, 77, 79, "77-79 °C", "=", "measured", s, u, "Synthesis of (2a)", "yield 2a as a colorless crystalline solid (0.38 g, 76% yield); m.p. 77-79oC")
+add("1-(1-Pentafluorophenyl-1H-pyrrole-2-yl)-ethanone (2b)", "melting_point", 46.5, 45, 48, "45-48 °C", "=", "measured", s, u, "Analytical and Spectral Data (2b)", "0.83 g (70% yield); m.p: 45-48oC")
+add("1-(1-Pentafluorophenyl-1H-pyrrole-2-yl)-propan-1-one (2c)", "melting_point", 76, 75, 77, "75-77 °C", "=", "measured", s, u, "Analytical and Spectral Data (2c)", "0.89 g (72% yield); m.p. 75-77oC")
+add("1-Pentafluorophenyl-1H-pyrrole-3-carbaldehyde (3a)", "melting_point", 54.5, 53, 56, "53-56 °C", "=", "measured", s, u, "Analytical and Spectral Data (3a)", "1-Pentafluorophenyl-1H-pyrrole-3-carbaldehyde (3a): m.p. 53-56oC")
+add("1-(1-Pentafluorophenyl-1H-pyrrole-3-yl)-ethanone (3b)", "melting_point", 114.5, 114, 115, "114-115 °C", "=", "measured", s, u, "Analytical and Spectral Data (3b)", "1-(1-Pentafluorophenyl-1H-pyrrole-3-yl)-ethanone (3b): m.p. 114-115oC")
+add("1-(1-Pentafluorophenyl-1H-pyrrole-3-yl)-propan-1-one (3c)", "melting_point", 103, 102, 104, "102-104 °C", "=", "measured", s, u, "Analytical and Spectral Data (3c)", "1-(1-Pentafluorophenyl-1H-pyrrole-3-yl)-propan-1-one (3c): m.p. 102-104oC")
+
+# Paper 090
+s = "Molecules. 2002, 7(8), 681-689"
+u = "https://doi.org/10.3390/70800681"
+
+add("3-(2-furanyl)-6-(4-aminophenyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2a)", "melting_point", 230, 229, 231, "229-231 °C", "=", "measured", s, u, "Section 2a-r (compound 2a)", "Yield 48 %; M.p. 229-231°C")
+add("3-(2-furanyl)-6-(3-pyridyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2b)", "melting_point", 190, 189, 191, "189-191 °C", "=", "measured", s, u, "Section 2a-r (compound 2b)", "Yield 57 %; Mp. 189-191°C")
+add("3-(2-furanyl)-6-(1-naphthylmethyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2c)", "melting_point", 147, 146, 148, "146-148 °C", "=", "measured", s, u, "Section 2a-r (compound 2c)", "Yield 64 %; Mp. 146-148°C")
+add("3-(2-furanyl)-6-(3,5-dinitrophenyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2d)", "melting_point", 291, 290, 292, "290-292 °C", "=", "measured", s, u, "Section 2a-r (compound 2d)", "Yield 55 %; Mp. 290-292°C")
+add("3-(2-furanyl)-6-benzyl-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2e)", "melting_point", 112, 111, 113, "111-113 °C", "=", "measured", s, u, "Section 2a-r (compound 2e)", "Yield 62 %; Mp.111-113°C")
+add("3-(2-furanyl)-6-(3-chlorophenyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2f)", "melting_point", 208, 207, 209, "207-209 °C", "=", "measured", s, u, "Section 2a-r (compound 2f)", "Yield 66 %; M.p.207-209°C")
+add("3-(2-furanyl)-6-(2-nitrophenylmethyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2g)", "melting_point", 188, 187, 189, "187-189 °C", "=", "measured", s, u, "Section 2a-r (compound 2g)", "Yield 59 %; M.p.187-189°C")
+add("3-2-furanyl-6-(2-chlorophenyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2h)", "melting_point", 170, 169, 171, "169-171 °C", "=", "measured", s, u, "Section 2a-r (compound 2h)", "Yield 54 %; M.p.169-171°C")
+add("3-(2-furanyl)-6-(2-hydroxyphenyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2i)", "melting_point", 274, 273, 275, "273-275 °C", "=", "measured", s, u, "Section 2a-r (compound 2i)", "Yield 49 %; M.p. 273-275°C")
+add("3,6-di(2-furanyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2j)", "melting_point", 205, 204, 206, "204-206 °C", "=", "measured", s, u, "Section 2a-r (compound 2j)", "Yield 55 %; M.p. 204-206°C")
+add("3-(2-furanyl)-6-phenyloxymethyl-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2k)", "melting_point", 116, 115, 117, "115-117 °C", "=", "measured", s, u, "Section 2a-r (compound 2k)", "Yield 62 %; M.p.115-117°C")
+add("3-(2-furanyl)-6-(2-methoxyphenyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2l)", "melting_point", 163, 162, 164, "162-164 °C", "=", "measured", s, u, "Section 2a-r (compound 2l)", "Yield 58 %; M.p. 162-164°C")
+add("3-(2-furanyl)-6-phenyl-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2m)", "melting_point", 204, 203, 205, "203-205 °C", "=", "measured", s, u, "Section 2a-r (compound 2m)", "Yield 53 %; M.p. 203-205°C")
+add("3-(2-furanyl)-6-(2,4-dichlorophenoxymethyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2n)", "melting_point", 194, 193, 195, "193-195 °C", "=", "measured", s, u, "Section 2a-r (compound 2n)", "Yield 51 %; M.p.193-195°C")
+add("3-(2-furanyl)-6-(2-quinolyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2o)", "melting_point", 268, 267, 269, "267-269 °C", "=", "measured", s, u, "Section 2a-r (compound 2o)", "Yield 48 %; M.p. 267-269°C")
+add("3-(2-furanyl)-6-(4-nitrophenyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2p)", "melting_point", 305, 304, 306, "304-306 °C", "=", "measured", s, u, "Section 2a-r (compound 2p)", "Yield 59 %; M.p. 304-306°C")
+add("3-(2-furanyl)-6-(2-aminophenyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2q)", "melting_point", 145, 144, 146, "144-146 °C", "=", "measured", s, u, "Section 2a-r (compound 2q)", "Yield 46 %; M.p. 144-146°C")
+add("3-(2-furanyl)-6-(4-methoxyphenyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2r)", "melting_point", 178, 177, 179, "177-179 °C", "=", "measured", s, u, "Section 2a-r (compound 2r)", "Yield 61 %; M.p. 177-179°C")
+
+# Paper 091
+s = "Int J Mol Sci. 2007, 8(4), 304-315"
+u = "pmc:PMC3685385"
+
+add("[C2Allylsul]Br (1)", "melting_point", 145, "", "", "145 °C", "=", "measured", s, u, "Synthesis section ([C2Allylsul]Br 1)", "yield: 20.6 g, 98%; M.p. 145° C.")
+
+# WRITE CSV
+cols = ["id","verification_status","compound_name","compound_smiles","property","value_celsius","value_celsius_min","value_celsius_max","value_raw","relation","data_type","source","source_url","evidence_location","evidence_quote","conversion_arithmetic","notes"]
+
+with open("/sessions/sweet-laughing-turing/mnt/data_extraction_dev/Trial4-opus47/batch_03.csv", "w", newline="", encoding="utf-8") as f:
+    w = csv.DictWriter(f, fieldnames=cols, quoting=csv.QUOTE_ALL)
+    w.writeheader()
+    for r in rows:
+        w.writerow(r)
+
+print(f"Wrote {len(rows)} rows.")

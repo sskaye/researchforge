@@ -1,0 +1,1330 @@
+pmc Int J Mol Sci Int J Mol Sci ijms International Journal of Molecular Sciences 1422-0067 MDPI 41751853 12940417 10.3390/ijms27041716 ijms-27-01716 Article Targeting TRPA1 with Novel Synthetic Compounds Based on Different Scaffolds to Reduce Acute and Chronic Pain Corallo Alessia Agata Methodology Writing – original draft 1 https://orcid.org/0000-0001-7499-6961 Maramai Samuele Methodology 1 Noli Carlotta Methodology 1 https://orcid.org/0000-0003-1387-7875 Paolino Marco Validation 1 https://orcid.org/0000-0002-2310-9899 Brizzi Antonella Conceptualization Writing – original draft Writing – review & editing 1 https://orcid.org/0000-0003-1787-3900 Ligresti Alessia Conceptualization Validation Writing – original draft 2 Allarà Marco Methodology 2 https://orcid.org/0000-0002-6131-0470 De Petrocellis Luciano Validation 2 https://orcid.org/0000-0001-9243-1307 Vitale Rosa Maria Methodology Software Writing – review & editing 2 Schiano Moriello Aniello Methodology Validation 2 3 Belardo Carmela Methodology 4 https://orcid.org/0000-0003-1266-6881 Infantino Rosmara Methodology 4 Maione Sabatino Conceptualization Validation Writing – review & editing 4 Mugnaini Claudia Conceptualization Writing – original draft Writing – review & editing Supervision Funding acquisition 1 * https://orcid.org/0000-0002-5750-4504 Corelli Federico Conceptualization Writing – review & editing Supervision 1 Nazarov Alexey Academic Editor 1 Department of Biotechnology, Chemistry and Pharmacy, Università di Siena, Via A.
+Moro 2, 53100 Siena, Italy; alessia.corallo2@unisi.it (A.A.C.); samuele.maramai@unisi.it (S.M.); carlotta.noli2@unisi.it (C.N.); marco.paolino@unisi.it (M.P.); antonella.brizzi@unisi.it (A.B.); federico.corelli@unisi.it (F.C.) 2 Institute of Biomolecular Chemistry, Consiglio Nazionale delle Ricerche, 80078 Pozzuoli, Italy; alessia.ligresti@cnr.it (A.L.); marco.allara@cnr.it (M.A.); luciano.depetrocellis@icb.cnr.it (L.D.P.); rosamaria.vitale@cnr.it (R.M.V.); aniello.schianomoriello@icb.cnr.it (A.S.M.) 3 Epitech Group SpA, Saccolongo, 35100 Padova, Italy 4 Department of Experimental Medicine, Division of Pharmacology, Università degli Studi della Campania “L.
+Vanvitelli”, 80138 Naples, Italy; carmela.belardo@unicampania.it (C.B.); rosmainfantino@gmail.com (R.I.); sabatino.maione@unicampania.it (S.M.) * Correspondence: claudia.mugnaini@unisi.it 10 2 2026 2 2026 27 4 1716 31 10 2025 01 2 2026 03 2 2026 © 2026 by the authors.
+2026 https://creativecommons.org/licenses/by/4.0/ Licensee MDPI, Basel, Switzerland.
+This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license .
+The transient receptor potential ankyrin 1 (TRPA1) channel is a nonselective cation channel that detects noxious stimuli.
+Due to its role in acute and chronic pain transmission, interest in this receptor as a potential therapeutic target has grown.
+Among the natural compounds tested, δ-sanshool proved to be a promising modulator of TRPA1 due to its interaction with specific receptor cysteines.
+Starting from this polyunsaturated amide, we designed and prepared a small library of derivatives in which different amide heads were introduced and the length of the unsaturated chain was changed.
+The newly synthesized compounds were tested in vitro, and the results were rationalized by a molecular docking approach.
+Two of them, characterized by an agonist profile, were evaluated in vivo in the formalin-induced nociceptive response test, exhibiting promising analgesic properties.
+TRPA1 pain formalin test SNI sanshools C.M.
+European Union—Next Generation EU 2022BNSNS2_004 CUP B53D23020150006 C.M.
+European Union—Next Generation EU “Targeting microglia CB2 receptors with novel multisite ligands: a multidisciplinary and translational study for the identification of an innovative multiple sclerosis therapy” (2022BNSNS2_004, CUP B53D23020150006).
+1.
+Introduction Pain is a complex condition that the International Association for the Study of Pain defines as an unpleasant sensory and emotional experience associated with, or resembling that associated with, actual or potential tissue damage [ 1 ].
+Undoubtedly, pain is a personal experience where biological, psychological, and social factors play a fundamental role [ 2 ].
+Because of the complexity of pathophysiological mechanisms and heterogeneity of clinical conditions, pain is a significant unmet clinical need whose management is fundamental to avoid damage to biological systems and to allow the maintenance of a good quality of life [ 3 ].
+Despite the availability of several analgesic and anti-inflammatory drugs, none of them can be considered sufficiently efficient and safe to play the role.
+Indeed, nonsteroidal anti-inflammatory drugs (NSAIDs) show varying but typically low levels of analgesic efficacy, while opioids, which represent the most effective class of analgesics, are associated with tolerance and dependence and induce behavioral addiction [ 2 ].
+Advances in our understanding of the neurobiology of pain have contributed to define possible targets for the development of novel therapeutic strategies such as ion channels, enzymes and G-protein-coupled receptors (GPCRs) [ 4 ].
+The family of transient receptor potential cation channels (TRPs) has progressively acquired interest over the years due to their key role in various intracellular pathways, such as protein expression regulation, membrane excitability, regulation of intracellular calcium levels and other homeostatic functions [ 5 ].
+Among the seven different types of TRPs [ 6 ], the TRPA1 subfamily is considered a potential therapeutic target, since its expression in sensory neurons and epithelial cells has a crucial role in pathophysiological processes in numerous organ systems [ 7 ].
+TRPA1 is a nonselective ionotropic channel whose structural organization is closely linked to its functional roles.
+Its N-terminal region contains an extended ankyrin repeat domain involved in protein–protein interactions, regulation of plasma membrane localization, channel trafficking, and an enhanced capacity for intracellular Ca 2+ binding compared with other TRP channels [ 6 ].
+Collectively, these structural and functional features underpin the role of TRPA1 as a sensor of cellular stress and tissue damage [ 8 ].
+TRPA1 can be activated by mechanical, thermal, or chemical stimuli [ 9 ].
+Chemical activation occurs through two distinct classes of agonists.
+Electrophilic agonists activate the channel by forming covalent adducts with critical cysteine residues (C621, C641, and C665) located in the pre-TM1 region, leading to conformational changes that promote channel opening.
+In contrast, non-electrophilic agonists activate TRPA1 and modulate channel gating without direct covalent interaction with the receptor [ 7 ].
+Electrophilic agonists can be further classified into endogenous compounds, such as acrolein and reactive oxygen species, and exogenous compounds, including allyl isothiocyanate (AITC), cinnamaldehyde (CA), and allicin ( Figure 1 ).
+For its role in chronic inflammation and hyperalgesia, TRPA1 has been identified as a target for the development of analgesics, beyond a potential target in cancer and airway disease [ 10 ].
+Several studies modulating TRPA1 activity have shown that this receptor is involved in inflammatory and immune responses [ 8 , 11 ].
+In pain-associated pathological states, including diabetic neuropathy [ 12 ], osteoarthritis [ 13 ], and rheumatoid arthritis [ 14 ], endogenous agonists of TRPA1 are markedly increased.
+On the other hand, genetic ablation or pharmacological inhibition of TRPA1 has been shown to alleviate behavioral manifestations of allodynia and hyperalgesia in a variety of rodent pain models [ 8 ].
+Several studies have shown that TRPA1 agonists not only activate the channel but also induce rapid functional desensitization, which can contribute to antinociceptive effects.
+For instance, newly reported non-electrophilic TRPA1 agonists have been shown to evoke TRPA1 activation followed by rapid current desensitization and significant analgesia in animal models, illustrating how agonist-driven desensitization can be exploited for pain modulation [ 15 ].
+Agonist-induced TRPA1 desensitization has also been observed in sensory neurons with various chemical stimulants, supporting the dual role of TRPA1 ligands in initial activation and subsequent desensitization, which may underline peripheral antinociceptive mechanisms [ 16 ].
+Among the numerous small-molecule TRPA1 antagonists reported since the discovery of the first prototypical TRPA1 antagonist, HC-030031, in 2007 [ 17 ], only ISC-17536 [ 18 ] and LY3526318 [ 19 ] have completed clinical proof-of-concept studies in patients with chronic pain conditions, highlighting the challenges associated with translating preclinical findings into clinical success.
+This complexity arises from multiple factors, including species-dependent differences in the physiological roles and tissue expression patterns of TRPA1, as well as the limitations of commonly used animal models, which primarily assess responses to acute noxious stimuli or evoked pain following nerve injury and may therefore fail to adequately reflect the ongoing spontaneous pain experienced by patients [ 20 , 21 ].
+Unsaturated amides inspired by natural products have long been recognized as a relevant chemotype for TRPA1 modulation.
+In particular, Zanthoxylum -derived sanshools (e.g., hydroxy-α-sanshool) were among the first polyunsaturated amides shown to activate TRPA1 (and TRPV1) in sensory neurons, providing a key link between polyenic amide structures and TRPA1-mediated sensory responses [ 22 , 23 ].
+Subsequent medicinal chemistry efforts expanded this concept through the synthesis of sanshool-derived alkylamides, demonstrating that the configuration and length of the conjugated double-bond system govern TRPA1 selectivity [ 24 ].
+In parallel, N -cinnamoylanthranilates have been reported as human TRPA1 modulators and used to probe structure–activity relationships and binding-site determinants [ 25 ].
+However, the direct use of long polyunsaturated chains poses practical limitations, including oxidative instability and formulation challenges, which can hinder systematic optimization [ 26 ].
+Starting from this background and considering our interest in the identification of new TRPA1 modulators [ 27 , 28 ] and the experience gained in the chemistry of δ-sanshool [ 29 ], the objective of the present work was a rational, stability-oriented and systematically parameterized design of sanshool-inspired TRPA1 ligands, in which (i) the labile polyunsaturated tail is simplified and/or replaced with aromatic motifs to enhance chemical robustness, while retaining key unsaturation elements important for activity [ 25 , 30 ]; and (ii) distinct amide head groups (isobutyl, adamantyl, and hydroxyadamantyl) are combined with three complementary scaffold families to explicitly test steric, conformational, and polarity-driven hypotheses relevant to TRPA1 engagement.
+On the basis of these design considerations, three complementary families of compounds were conceived to systematically investigate how variations in unsaturation pattern, linker architecture, and amide head group influence TRPA1 functional modulation ( Figure 2 ): Within each family, the carboxamide head group was varied among isobutyl, adamantyl, and hydroxyadamantyl substituents, while substitution patterns on the aromatic tail were systematically selected to systematically explore steric and electronic effects, including variations in substitution pattern, size, and electronic properties.
+In particular, meta-substituted aromatics were preferentially selected to mimic low-energy conformations of δ-sanshool [ 25 ], while additional substituents were introduced to probe hydrophobic and electronic interactions potentially relevant for TRPA1 modulation.
+2.
+Results and Discussion 2.1.
+Chemistry 2.1.1.
+Family A In a convergent synthetic approach, an appropriate aldehyde was reacted with a phosphonate to generate the trans diene system ( Scheme 1 ).
+The aldehyde 1 , though commercially available, was synthesized by a Suzuki reaction between 4-bromobenzaldehyde and 4-pyridineboronic acid ( Scheme 2 ), while the aldehydes 2 – 5 were the result of the alkylation of 3-hydroxybenzaldehyde with the appropriate halide derivative.
+The phosphonates 6 – 8 ( Scheme 3 ) were prepared starting from commercially available triethyl 4-phosphonocrotonate 9 [ 33 ].
+The ester functionality was hydrolyzed to the corresponding acid 10 which was, in turn, converted to the amides 6 – 8 by reaction with the appropriate amine in the presence of a coupling agent.
+The Horner–Wadsworth–Emmons olefination reaction was conducted using the appropriate aldehydes in the presence of LiOH H 2 O and 4 Å molecular sieves to provide preferentially the trans isomers 11 – 26 in good-to-excellent yields [ 34 ].
+2.1.2.
+Family B Compounds of this family were prepared using different synthetic approaches.
+Compounds 27 and 28 were obtained by amidation reaction between trans -cinnamic acid and 1-aminoadamantane or 3-amine-1-adamantanol, respectively ( Scheme 4 ), using EDC and HOBt as coupling agents.
+The preparation of compound 29 started from 4-bromocinnamic acid ( Scheme 5 ), which was converted to the corresponding amide 30 by reaction with 1-aminoadamantane.
+Suzuki coupling in the presence of 4-pyridineboronic acid eventually afforded compound 29 .
+Compounds 31 – 34 were prepared according to Scheme 6 .
+The Horner–Wadsworth–Emmons olefination reaction between triethyl phosphonoacetate and the appropriate aldehyde led to intermediates 35 and 36 which were hydrolyzed to the corresponding acids 37 and 38 .
+Reaction with 1-aminoadamantane or 3-amine-1-adamantanol afforded final compounds 31 and 33 or 32 and 34 , respectively.
+2.1.3.
+Family C The triazole compound 39 ( Scheme 7 ) was prepared by a coupling reaction between 1-aminoadamantane and 1-(4-bromophenyl)-1 H -1,2,3-triazole-4-carboxylic acid ( 40 ) which was synthesized according to a literature procedure [ 35 ].
+Although no systematic stability studies were performed, selected compounds stored at room temperature in the dark for extended periods did not show detectable changes in their 1 H-NMR spectra, indicating the absence of major degradation products under these storage conditions.
+2.2.
+In Vitro Studies 2.2.1.
+In Vitro Functional Studies at TRPA1 The activity of the tested compounds is summarized in Table 1 , which reports both their efficacies and potencies in eliciting TRPA1-mediated increases in Ca 2+ influx, as well as their desensitizing effects against allyl isothiocyanate (AITC) at this receptor channel [ 36 , 37 , 38 ].
+The active compounds show an IC 50 in the low micromolar range and, besides 29 which is a pure antagonist, all behave as partial agonists/desensitizing agents.
+Compounds 18 and 39 were not tested due to solubility issues.
+Within Family A, a clear SAR emerges when comparing the nature of the amide head group.
+Across multiple matched pairs ( 14 – 15 , 16 – 17 , 22 – 23 , 19 – 20 , 25 – 26 ), replacement of the isobutyl moiety with an adamantyl group results in a marked gain in TRPA1 activity.
+While isobutyl derivatives are largely inactive (with the exception of 19 and 21 ), the corresponding adamantyl analogues display partial agonism with EC 50 values ranging from 0.86 to 4.1 µM and desensitization IC 50 values in the low micromolar range (3.7–6.9 µM).
+The most pronounced improvement is observed for compound 17 , which shows submicromolar potency (EC 50 = 0.86 µM) compared with its isobutyl counterpart 16 , which is inactive under the same conditions, indicating a >10-fold gain in functional potency associated with increased steric bulk at the amide position.
+Among the active adamantyl derivatives, the size and topology of the aromatic tail further modulate potency.
+Simple phenyl substitution (compound 12 ) results in moderate activity (EC 50 = 11.5 µM), whereas extension to bulkier biaryl systems leads to a consistent increase in potency.
+The naphthyl and biphenyl-containing derivatives 14 and 17 display EC 50 values of 3.1 and 0.86 µM, respectively, corresponding to an approximately 4–13-fold improvement relative to compound 12 .
+These data indicate that increased aromatic surface and rigidity enhance productive interactions with TRPA1.
+Among these compounds, 17 turned out to be the most promising dual modulator, with submicromolar potency as an agonist and strong desensitizing ability (IC 50 = 3.7 μM).
+Similar behavior is shown by the less potent allyloxyphenyl derivative 26 (EC 50 = 4.1 μM, IC 50 = 6.9 μM).
+Compound 19 (phenoxyphenyl, isobutyl) exhibits measurable agonist activity (EC 50 = 0.45 µM) and strong desensitization (IC 50 = 2.5 µM), whereas its adamantyl analogue 20 is inactive, highlighting an inverse SAR trend between the two amide series.
+Within Family B compounds, characterized by the presence of a single double bond, most derivatives are inactive, indicating that reduced conjugation and/or the shortening of the linker disfavors productive interactions with the receptor.
+Notable exceptions include compounds 30 and 32 , which retain partial agonist/desensitizing profiles with EC 50 values of 1.21 and 26.5 µM, respectively.
+In these cases, activity is restored by the presence of either a strongly electron-withdrawing substituent (Br in 30 ) or an additional hydrogen-bond donor (hydroxyadamantyl in 32 ), compensating for the shorter linker.
+Conversely, compound 29 behaves as a pure antagonist (IC 50 = 4.8 µM), indicating that introduction of a heteroaromatic ring shifts the functional profile rather than simply reducing potency.
+2.2.2.
+Competitive Binding Assay at CB Receptors The results of this assay indicate that the tested compounds show negligible affinity for cannabinoid receptors.
+In the few instances where IC 50 values could be determined (i.e., below 10 µM), the activity remains in the low micromolar range, suggesting weak potency and limited pharmacological relevance at CB receptors.
+2.3.
+Homology Modelling of Rat TRPA1 To better align the docking studies with the biological data performed on rat TRPA1 (rTRPA1), we used as target protein homology models of rTRPA1 in both open and closed states, built onto the cryo-EM structures of the human ortholog (hTRPA1).
+In particular, compounds with an agonist profile were docked onto an rTRPA1 3D model in the activated form [ 6 ], built using the hTRPA1 cryo-EM structure in complex with an electrophilic agonist (PDB id:6PQO) [ 39 ], while for the pure antagonist 29 two rTRPA1 homology models were built using as templates the hTRPA1 cryo-EM structures in complex with antagonists bound at two different sites: one at the interface of two monomers close to the pore loop (Site1ant, PDB id:6WJ5 [ 40 ]) and the other close to the TRP helix of each monomer (Site2ant, PDBid:7OR0).
+As for the antagonists, two binding sites have been identified for non-covalent agonists: Site1ago, located between the VSLD domain of one monomer and the transmembrane helices S5–S6 of the adjacent monomer, unveiled by the hTRPA1 cryo-EM structure in complex with a non-covalent agonist (PDB id:6X2J, [ 41 ]); and Site2ago, located in a pocket formed by the pore helix, S5–S6 transmembrane helices of each monomer and the S6 transmembrane helix of the adjacent monomer, in the same region of Site1ant and previously identified by mutagenesis [ 42 ].
+Since only the experimental complex of a hTRPA1 agonist at Site1ago is available, to avoid bias, we used as a template for the homology model of rTRPA1 in the activated form a cryo-EM structure of hTRPA1 in complex with an electrophilic agonist, whose binding site in located in the ankyrin domain, far from the binding sites for the non-covalent agonists.
+In fact, in the cryo-EM structure used as a template (PDB id: 6PQO), Site1ago and Site2ago are both occupied by lipid molecules.
+Although the sequence identity between rat and human TRPA1 is high (~80%), not all the residues in the binding sites are conserved, as shown in Supplementary Figure S1 .
+At Site1ago, there are four non-conserved residues between human and rat (rTRPA1 numbering): Ile806Tyr, Tyr843Phe, Leu870Phe and Ser936Ala, respectively.
+These contribute to increase both the aromatic and the hydrophobic nature of rTRPA1 Site1ago respect to the human ortholog.
+At Site2ago/Site1ant, two residues are not conserved: Ile908Leu and Ile939Met.
+2.4.
+Molecular Docking Studies Looking at the biological activity of the agonist compounds, an opposite trend has been observed between the isobutyl and adamantyl derivatives: the substituents beneficial for the activity in the isobutyl series are detrimental for the adamantyl one and vice versa.
+To evaluate if this trend arises from a preferential binding of the two families into different sites, we performed a docking run on compounds 17 and 19 , representative of the adamantyl and isobutyl series, respectively, using a grid box encompassing both sites.
+Indeed, compound 17 was found to only bind Site1ago in two opposite orientations, with the amide bond facing Tyr806 (−9.04 kcal/mol) or Gln943 (−8.97 kcal/mol) ( Figure 3 C,D).
+The dual orientation at Site1ago is promoted by the occurrence of Tyr806, which can be involved in a H-bond with the ligand amide group, differently from the human ortholog where the same position is occupied by an isoleucine.
+Instead, compound 19 was found to bind Site2ago with a more favorable binding energy (−7.62 kcal/mol) in comparison to Site1ago (−6.84 kcal/mol) ( Figure 4 ).
+At Site2ago, the isobutyl group forms hydrophobic interactions mainly involving leucine and valine residues at the interface between monomers A and B, whereas at monomer A it engages in aromatic interactions with the phenylalanine residues Phe887, Phe912 and Phe947 and in a H-bond with Thr877.
+The larger and aromatic Site1ago also allows the accommodation of bulkier pendant groups, as in the case of compounds 14 and 17 , which are not active in the correspondent isobutyl series.
+On the other hand, the narrow Site2ago only allows the accommodation of flexible pendant groups, as in the case of compounds 19 and 21 .
+To elucidate the binding mode of active compounds featuring the shorter linker, docking studies were also performed on compounds 30 and 32 at Site1ago.
+As for 17 , compound 30 can adopt two reversed poses ( Figure 3 A,B), with the amide group alternatively pointing toward the polar residues Gln943 (monomer A, pose 1, −8.00 kcal/mol) or Tyr806 (monomer B, pose 2, −8.33 kcal/mol).
+In both orientations, the phenyl moiety of compound 30 is engaged in aromatic π-π stacking with the aromatic residues of Site1ago, being sandwiched between Phe950 (monomer A) and Phe870 (monomer B), in pose 1, and being hosted in an aromatic cleft formed by Phe843, Phe844 (monomer B) and Phe887 (monomer A) in pose 2.
+In this latter pose, the bromine atom is involved in polar interactions with the Gln943 sidechain.
+The bromine atom is critical for the activity, since the corresponding derivative with the unsubstituted phenyl ring is inactive (compound 30 vs.
+compound 27 ).
+Thus, the occurrence of the bromine atom induces an extra-stabilization due to polar interactions with either Gln943 or Tyr806 residues which compensates for the shorter linker chain.
+In compound 32 , the hydroxy group on the adamantyl moiety is critical for the activity, since the unsubstituted derivative 31 is inactive.
+Docking of compound 32 at Site1ago shows that the hydroxy group is close to Ser890 and Gln943, forming a H-bond with the latter (−8.75 kcal/mol, pose1), and, in the reverse orientation, with the Glu867 sidechain (−9.41 kcal/mol, pose2) on the other monomer (see Figure 5 ).
+Finally, the replacement of the terminal phenyl group with a pyridine moiety in the compound 31 scaffold promotes a shift toward pure antagonism, as observed for compound 29 .
+To rationalize the role of the pyridine moiety, this compound was docked at both antagonist binding sites, i.e., Site1ant and Site2ant.
+As shown in Figure 6 , at Site1ant the pyridine ring forms a stabilizing H-bond with Ser876 (−9.78 kcal/mol, Figure 6 A), orienting the ligand in a binding pose orthogonal to what is observed for the agonist 30 , while at Site2ant it is involved in a H-bond with the Arg706 sidechain (−9.65 kcal/mol, Figure 6 B), corresponding to a lysine residue in the hTRPA1 sequence (see Supplementary Figure S1 ).
+At this site, an alternative binding pose was found, with the amide bond involved in a H-bond interaction with Asn858 and with the pyridine ring surrounded by polar residues (−7.98 kcal/mol, Supplementary Figure S2 ).
+In both cases, the nitrogen atom of the pyridine ring plays a key role in stabilizing the binding at the antagonist sites, thus explaining the switch toward the pure antagonism of compound 29 .
+2.5.
+In Vivo Studies Based on the in vitro findings, compounds 30 and 17 were selected for in vivo studies.
+Their analgesic properties were evaluated using the formalin test, a widely used model for the evaluation of the efficacy of analgesic and anti-inflammatory agents [ 43 ], while their ability to reduce neuropathic pain was evaluated in the spared nerve injury (SNI) mouse model ( Figure 7 ) [ 31 ].
+A single intra-paw injection of 30 (1, 2 and 3 μg/mouse, 20 μL) prevented pain behavior in the second phase of the formalin test in a dose-dependent manner, as compared to the vehicle [time 35 min for 30 (3 μg/mouse): 0.42 s ± 0.145 vs.
+1.39 s ± 0.15; F (3,18) = 8.465; p = 0.0010].
+Pretreatment with AP18 (0.05 mg/kg, i.p.) counteracted the antinociceptive effects of 30 during the delayed time of the late phase (from 15 min onwards) and it increased noxious behaviors during the first 10 min of the second phase.
+A single intra-paw injection of 17 (1, 2 and 3 μg/mouse, 20 μL) prevented pain behavior in both phases of the formalin test in a dose-dependent manner, as compared to the vehicle [time 5 min for 17 (3 μg/mouse): 2.70 s ± 0.52 vs.
+4.55 s ± 0.
+47; time 35 min for 17 (3 μg/mouse): 0.48 s ± 0.21 vs.
+2.40 s ± 0.6; F (2,13) = 12.37; p = 0.0010].
+Treatment with AP18 (0.05 mg/kg, i.p.) prevented the antinociceptive effect of 17 .
+Finally, for compound 17 only, the antiallodynic effect was also tested by systemic injection (intraperitoneal, i.p.).
+A single administration of compound 17 (0.5, 1, and 2 mg/kg, i.p.) inhibited allodynia in neuropathic mice with spared nerve injury (SNI) of the sciatic nerve: the antiallodynic effect induced by 17 was dose-dependent, compared to the vehicle [time 60 min for 17 (1 mg/kg): 0.4880 g ± 0.157 vs.
+0.027g ± 0.007; time 40 and 60 min for 17 (2 mg/kg): 0.574 g ± 0.148 vs.
+0.02 0g ± 0.00 and 0.734 ± 0.183 vs.
+0.027 ± 0.007.
+F (3,17) = 9.17; p ≤ 0.0001].
+The two molecules 30 and 17 show a slightly different pharmacodynamic profile in vivo: 17 appears to recapitulate the characteristics observed with some potent TRPA1 receptor agonists, which may subsequently induce receptor desensitization upon increasing doses or prolonged stimulation, thereby effectively behaving as a “functional” receptor antagonist at higher doses.
+In our experiments, the behavior of 17 as a potent agonist and desensitizer of TRPA1 is suggested by the following facts: (a) at the minimum dose of 1 µg/mouse, it potentiates the effect of formalin which is itself an activator of the TRPA1 receptor [ 17 ]; (b) unlike 30 , it prevents both the first and the second delayed nocifensive phase of formalin.
+Our in vivo data clearly show a dose-dependent biphasic action of 17 on TRPA1 channels, with an initial activation followed by a more intense and persistent desensitization and subsequent pain reduction.
+The role of TRPA1 receptors in the action of 17 is further confirmed in vivo by AP18, which prevents its analgesic effects.
+AP-18 is a reference TRPA1 antagonist that we have already evaluated in the formalin assay and also in other assays.Therefore, based on our experience in in vivo experiments, we also used it in this current study.
+Compound 30 , instead, seems to behave in vivo as a TRPA1 antagonist up to inhibiting the effect of formalin and this activity is occluded by another selective TRPA1 antagonist, AP18.
+Interestingly, AP18 pretreatment, while counteracting the antinociceptive effects of 30 during the late phase (from 15 min onwards), briefly increased pain-related behaviors during the first 10 min after the onset of the second formalin phase.
+One explanation for this paradoxical effect is the possible off-target action of 30 that would be unmasked by blocking TRPA1 with AP18.
+In fact, it should not be underestimated that, in addition to TRPA1, in the second phase of the formalin test there are multiple receptors and neurotransmitter systems that determine the different components of this late and prolonged painful phase [ 44 ].
+Indeed, it is worth noting that AP-18-induced TRPA1 receptor blockade could potentially generate paradoxical effects due to off-target effects.
+However, although an off-target contribution cannot be entirely excluded, the very low dose used, the selective reduction in aldehyde-induced pain, and the complete absence of other behavioral changes support the conclusion that the observed effects are predominantly on-target, even in the presence of AP-18.
+Beyond these considerations, our in vivo data, albeit preliminary, suggest that the investigated compounds exert pharmacological activity in vivo involving TRPA1 receptors, which are obligatorily required for generating formalin-induced pain.
+Indeed, there is evidence that both the pharmacological blockade and the genetic deletion of TRPA1 prevent the nocifensive responses of startle, licking and lifting from intra-paw injection of formalin, confirming the aldehyde as a pharmacophore necessary for the activation of these nociceptors.
+Furthermore, in our data on mice with peripheral neuropathy, 17 shows therapeutic efficacy through a reduction in tactile allodynia.
+These experiments confirm the versatility of these molecules in the treatment of different chronic pain syndromes, both inflammatory and neuropathic.
+Obviously, further studies will be needed to define in more detail the actual potential of these compounds or their structural analogues.
+Finally, it is important to note that the distinctive characteristics of the adamantane scaffold are extremely valuable for specific biological applications.
+Its intrinsic lipophilicity and ability to improve drug stability, can lead to improved pharmacokinetic properties of drug candidates.
+Moreover, the rigid cage-like structure protects the pharmacophoric groups from metabolic degradation, thus preserving molecular stability and diffusion in blood plasma and, consequently, the possibility of its intact arrival in “sanctuary” regions such as the CNS.
+Further studies will aim to further explore these aspects and also to understand whether they exhibit unique kinetics, with a more direct tropism toward the spinal cord or even CNS structures involved in pain control.
+3.
+Materials and Methods 3.1.
+Chemistry Commercially available reagents from Merck (Merck KGaA, Darmstadt, Germany) were used as received unless otherwise specified.
+Solvents were treated before use with suitable drying agents and used after distillation in an atmosphere of N 2 .
+Reactions requiring anhydrous conditions were performed under N 2 .
+Organic solutions were dried over anhydrous Na 2 SO 4 .
+Evaporation was carried out in vacuo using a rotating evaporator.
+Melting points were determined on a Gallenkamp apparatus (Gallenkamp, London, United Kingdom) and are uncorrected.
+For flash chromatography, Merck Kieselgel 60 (0.040–0.063 mm) was used.
+Thin-layer chromatography (TLC) was performed on silica gel plates (Merck 60 F254) vailable from Merck (Merck KGaA, Darmstadt, Germany) eluting with the solvents indicated, visualized by a 254 nm UV lamp (λ = 254 nm) and stained with aqueous potassium permanganate, Pancaldi and phosphomolybdic acid solutions.
+1 H NMR and 13 C NMR spectra were recorded on a Brucker 400 Advance, Brucker 600 Advance (Bruker Italia srl, Milan, Italy) or Agilent VNMRS500 spectrometer (Agilent Technologies Italia, Cernusco sul Naviglio, Milan, Italy).
+Chemical shifts (δ) and coupling constants ( J ) are reported in parts per million (ppm) and hertz (Hz), respectively.
+Mass spectra were recorded with an LC-MSD 1100 series Agilent instrument (Agilent Technologies Italia, Cernusco sul Naviglio, Milan, Italy), with electrospray interface and with a 0.4 mL/min flow rate using a binary solvent system of 95:5 methanol/water.
+The UV detector was set at 254 nm and the mass spectra were acquired either in positive or in negative mode scanning over the mass range of 105–1500.
+High-resolution mass spectrometry analyses have been performed using a Bruker TimsTOF instrument (Bruker Italia srl, Milan, Italy) equipped with an ESI source, in positive or negative mode, dry gas 6.0 L/m, dry temperature 210 °C, nebulizer at 3.0 bar, and capillary at 4500 V.
+3.1.1.
+General Procedure for the Synthesis of Compounds 1 and 29 by Suzuki Coupling 4-Bromobenzaldehyde or compound 30 (0.08 mmol), 4-pyridineboronic acid (0.16 g, 1.80 mmol), K 2 CO 3 (0.75 g, 5.41 mmol) and Pd(PPh 3 ) 4 (0.06 g, 0.05 mmol) were added to 1,4-dioxane:H 2 O (10:1, 10 mL).
+The reaction mixture was refluxed overnight under a N 2 atmosphere.
+After cooling, the reaction mixture was filtered through a Celite ® pad and evaporated.
+The residue was solubilized in EtOAc, washed with brine, dried over anhydrous Na 2 SO 4 and evaporated in vacuo.
+The residue was purified by flash chromatography on silica gel.
+4-(Pyridin-4-yl)benzaldehyde ( 1 ) Eluent: PE/EtOAc 7:1.
+Yellow solid (97% yield).
+Mp 87–90 °C (lit.
+[ 45 ] 87–88 °C).
+1 H NMR (400 MHz, CDCl 3 ): δ 10.03 (s, 1H), 8.68 (d, J = 5.0 Hz, 2H), 7.95 (d, J = 7.8 Hz, 2H), 7.75 (d, J = 7.9 Hz, 2H), 7.54 (d, J = 5.0 Hz, 2H).
+( E )- N -(Adamantan-1-yl)-3-(4-(pyridin-4-yl)phenyl)acrylamide ( 29 ) Eluent: PE/Et 2 O 1:4 and then Et 2 O/EtOAc 9:1.
+White solid (54% yield).
+Mp 227–229 °C.
+1 H NMR (400 MHz, CD 3 OD): δ 8.52 (d, J = 5.5 Hz, 2H), 7.87–7.55 (m, 6H), 7.41 (d, J = 15.7 Hz, 1H), 6.63 (d, J = 15.7 Hz, 1H), 2.04 (s, 10H), 1.69 (s, 5H).
+13 C NMR (100 MHz, DMSO- d 6 ): δ 164.4, 150.8, 146.7, 138.0, 137.4, 136.6, 128.6, 127.8, 125.2, 121.5, 51.4, 41.5, 36.5, 29.3.
+MS (ESI): m / z 359.1 [M + H] + (70), 381.1 [M + Na] + (100), 739.3 [2M + Na] + (90).
+3.1.2.
+General Procedure for the Preparation of Aldehydes 2 – 5 A solution of 3-hydroxybenzaldehyde (0.20 g, 1.64 mmol) in dry DMF (10 mL) was treated with potassium carbonate (0.27 g, 1.97 mmol).
+The resulting mixture was heated to 50 °C and then slowly treated with the appropriate alkyl halide (1.97 mmol).
+The reaction mixture was stirred at 50 °C for 3 h.
+After cooling, the reaction mixture was diluted with H 2 O and extracted with Et 2 O.
+The organic solution was washed with 5% NaOH and brine, dried over anhydrous Na 2 SO 4 , filtered and evaporated in vacuo to give the title compounds which were used as such in the next step.
+3-(Pentyloxy)benzaldehyde ( 2 ) [ 46 ].
+Colorless oil (0.26 g, 84% yield).
+MS (ESI): m / z 193 [M + H] + (90).
+1 H NMR (600 MHz, CDCl 3 ) δ 9.98 (s, 1H), 7.46–7.44 (m, 2H), 7.41–7.39 (m, 1H), 7.21–7.15 (m, 1H), 4.03 (t, J = 6.6 Hz, 2H), 1.83 (dq, J = 13.3, 6.6 Hz, 2H), 1.51–1.37 (m, 4H), 0.96 (t, J = 7.2 Hz, 3H).
+13 C NMR (151 MHz, CDCl 3 ) δ 192.2, 159.7, 137.8, 130.0, 123.3, 121.9, 112.8, 68.3, 28.8, 28.2, 22.4, 14.0.
+HRMS ESI m / z : calc.
+for C 12 H 17 O 2 + = 193.12231, found = 193.12232 [M + H] + ; calc.
+for C 12 H 16 NaO 2 + = 215.10425, found = 215.10432 [M + Na] + ; calc.
+for C 13 H 20 NaO 3 + = 247.13047, found = 247.13045 [M + Na + MeOH] + .
+3-((Cinnamyloxy)benzaldehyde ( 3 ) [ 47 ].
+Colorless oil (0.10 g, 65% yield).
+MS (ESI): m / z 238 [M + H] + (100).
+1 H NMR (600 MHz, CDCl 3 ) δ 10.01 (s, 1H), 7.52–7.47 (m, 3H), 7.45 (d, J = 7.7 Hz, 2H), 7.36 (t, J = 7.5 Hz, 2H), 7.32–7.26 (m, 2H), 6.79 (d, J = 16.0 Hz, 1H), 6.44 (dt, J = 15.9, 5.8 Hz, 1H), 4.79 (d, J = 5.8 Hz, 2H).
+13 C NMR (151 MHz, CDCl 3 ) δ 192.1, 159.2, 137.9, 136.3, 133.6, 130.2, 128.7, 128.1, 126.6, 123.7 (2C), 122.2, 113.3, 68.9.
+HRMS ESI m / z : calc.
+for C 16 H 14 NaO 2 + = 261.08860, found = 261.08855 [M + Na] + .
+3-(Allyloxy)benzaldehyde ( 4 ) [ 48 ].
+Yellow oil (0.28 g, 86% yield).
+MS (ESI): m / z 185 [M + Na] + (100).
+1 H NMR (600 MHz, CDCl 3 ) δ 9.96 (s, 1H), 7.47–7.41 (m, 2H), 7.39 (dd, J = 2.6, 1.2 Hz, 1H), 7.19 (ddd, J = 7.6, 2.6, 1.7 Hz, 1H), 6.05 (ddt, J = 17.2, 10.5, 5.2 Hz, 1H), 5.43 (dq, J = 17.3, 1.6 Hz, 1H), 5.31 (dq, J = 10.5, 1.4 Hz, 1H), 4.59 (dt, J = 5.3, 1.5 Hz, 2H).
+13 C NMR (151 MHz, CDCl 3 ) δ 192.1, 159.1, 137.8, 132.7, 130.1, 123.5, 122.0, 118.0, 113.2, 68.9.
+HRMS ESI m / z : calc.
+for C 10 H 10 NaO 2 + = 185.05730, found = 185.05730 [M + Na] + ; calc.
+for C 11 H 14 NaO 3 + = 217.08352, found = 217.08361 [M + Na + MeOH] + .
+3-((3-Methylbut-2-en-1-yl)oxy)benzaldehyde ( 5 ) [ 49 ].
+Yellow oil (0.28 g, 89% yield).
+MS (ESI): m / z 213 [M + Na] + (100), 191 [M + H] + (40).
+1 H NMR (600 MHz, CDCl 3 ) δ 10.00 (s, 1H), 7.49–7.44 (m, 2H), 7.44–7.42 (m, 1H), 7.21 (d, J = 7.0 Hz, 1H), 5.52 (t, J = 6.7 Hz, 1H), 4.60 (d, J = 6.7 Hz, 2H), 1.83 (s, 3H), 1.79 (s, 3H).
+13 C NMR (151 MHz, CDCl 3 ) δ 192.2, 159.
+5, 138.9, 137.8, 130.0, 123.
+5, 122.3, 119.1, 112.9, 65.1, 25.8, 18.3.
+HRMS ESI m / z : calc.
+for C 12 H 14 NaO 2 + = 213.08860, found = 213.08859 [M + Na] + ; calc.
+for C 13 H 18 NaO 3 + = 245.11482, found = 245.11481 [M + Na + MeOH] + .
+3.1.3.
+( E )-4-(Diethoxyphosphoryl)but-2-enoic Acid ( 10 ) [ 50 ] A solution of KOH (3.69 g, 65.82 mmol) in H 2 O (90 mL) was added to a solution of 9 (12.66 g, 50.63 mmol) in H 2 O (90 mL) and the reaction mixture was stirred at r.t.
+for 6 h.
+Subsequently, the crude product was extracted with Et 2 O to remove the starting material.
+The aqueous solution was treated with conc.
+HCl until pH 1 and then it was extracted (3x) with EtOAc.
+The organic solution was washed with brine, dried over Na 2 SO 4 and evaporated to dryness to give a white solid (7.266 g, 65% yield).
+Mp 73–75 °C.
+1 H NMR (600 MHz, DMSO- d 6 ) δ 12.38 (br s, 1H), 6.65 (dq, J = 15.3, 7.8 Hz, 1H), 5.95 (ddt, J = 15.5, 4.9, 1.4 Hz, 1H), 4.05–3.98 (m, 4H), 2.89 (ddd, J = 22.7, 7.8, 1.4 Hz, 2H), 1.23 (t, J = 7.1 Hz, 6H).
+13 C NMR (151 MHz, DMSO- d 6 ) δ 167.0 (d, 4 J C-P = 2.7 Hz), 138.7 (d, 3 J C-P = 10.9 Hz), 126.3 (d, 2 J C-P = 13.6 Hz), 62.0 (d, 2 J C-P = 6.4 Hz), 29.6 (d, 1 J C-P = 134.7 Hz), 16.7 (d, 3 J C-P = 5.8 Hz).
+HRMS ESI m / z : calc.
+for C 8 H 15 NaO 5 P + = 245.05493, found = 245.05514 [M + Na] + ; calc.
+for C 16 H 30 NaO 10 P 2 + = 467.12064, found = 467.12189 [2M + Na] + .
+3.1.4.
+General Amidation Procedure for the Synthesis of Phosphonates 6 – 8 and Final Compound 39 HOBt (0.61 g, 4.50 mmol), HBTU (3.41 g, 9.00 mmol), DIPEA (0.87 g, 6.75 mmol) and the appropriate amine (4.5 mmol) were added to a solution of 10 or 40 (4.5 mmol) in THF:CH 3 CN 1:1 (75 mL).
+The reaction was stirred under a N 2 atmosphere at r.t.
+for 18–23 h, then the solution was evaporated to dryness in vacuo.
+Subsequently, the crude product was dissolved in EtOAc and the solution was washed with H 2 O, saturated solution of Na 2 CO 3 and brine.
+The organic phase was then dried over anhydrous Na 2 SO 4 , filtered, and evaporated to give a residue.
+Diethyl (( E )-4-((Adamantan-1-yl)amino)-4-oxobut-2-en-1-yl)phosphonate ( 6 ) Prepared from 10 and 1-aminoadamantane.
+Reaction time: 18 h.
+The yellow oil was purified by flash chromatography (eluent, CH 2 Cl 2 :CH 3 OH 98:2) to give 6 as a white solid (74% yield).
+Mp 115–118 °C.
+1 H NMR (600 MHz, CD 3 OD) δ 6.60 (dq, J = 15.2, 7.6 Hz, 1H), 6.10 (dd, J = 15.2, 5.1 Hz, 1H), 4.18–4.10 (m, 4H), 2.83 (dd, J = 22.8, 7.8 Hz, 2H), 2.11–2.05 (m, 9H), 1.78–1.72 (m, 6H), 1.35 (t, J = 7.1 Hz, 6H).
+13 C NMR (151 MHz, CD 3 OD) δ 165.1 (d, 4 J C-P = 2.7 Hz), 131.1 (d, 3 J C-P = 11.4 Hz), 129.5 (d, 2 J C-P = 13.9 Hz), 62.4 (d, 2 J C-P = 6.8 Hz), 51.6, 40.9, 36.1, 29.5, 28.8 (d, 1 J C-P = 138.6 Hz), 15.3 (d, 3 J C-P = 6.0 Hz).
+HRMS ESI m / z : calc.
+for C 18 H 30 NNaO 4 P + = 378.18047, found = 378.18019 [M + Na] + .
+Diethyl (( E )-4-((3-Hydroxyadamantan-1-yl)amino)-4-oxobut-2-en-1-yl)phosphonate ( 7 ) Prepared from 10 and 1-hydroxyadamantane-3-amine.
+Reaction time: 24 h.
+The yellow oil was purified by flash chromatography (eluent, CH 2 Cl 2 :CH 3 OH 96:4) to give 7 as a white solid (78% yield).
+1 H NMR (600 MHz, CD 3 OD) δ 6.61 (dq, J = 15.2, 7.6 Hz, 1H), 6.11 (dd, J = 15.2, 4.2 Hz, 1H), 4.18–4.10 (m, 4H), 3.23 (q, J = 7.3 Hz, 2H), 2.83 (dd, J = 22.8, 7.8 Hz, 2H), 2.25 (br s, 2H), 1.98–1.96 (m, 4H), 1.70 (q, J = 11.6 Hz, 4H), 1.60 (dd, J = 30.4, 12.5 Hz, 2H), 1.37–1.31 (m, 6H).
+13 C NMR (151 MHz, CD 3 OD) δ 165.2 (d, 4 JC-P = 2.5 Hz), 131.3 (d, 3 JC-P = 11.4 Hz), 129.4 (d, 2 JC-P = 14.1 Hz), 68.2, 62.5 (d, 2 JC-P = 6.7 Hz), 54.0, 48.0, 46.6, 43.5, 39.7, 34.7, 30.7, 28.8 (d, 1 JC-P = 138.6 Hz), 15.3 (d, 3 JC-P = 5.9 Hz).
+HRMS ESI m / z : calc.
+for C 18 H 31 NO 5 P + = 372.19344, found = 372.19336 [M + H] + ; calc for.
+C 18 H 30 NNaO 5 P + = 394.17538, found = 394.17534 [M + Na] + ; calc.
+for C 18 H 30 KNO 5 P + = 410.14932, found = 410.14946 [M + K] + .
+3.1.5.
+Diethyl ( E )-(4-(Isobutylamino)-4-oxobut-2-en-1-yl)phosphonate ( 8 ) [ 30 ] EDC (5.75 g, 0.03 mol) and HOBt (2.43 g, 0.018 mol) were added to a solution of 10 (3.33 g, 0.015 mol) in dry CH 2 Cl 2 (60 mL).
+Subsequently, a solution of isobutyl amine (2.20 g, 0.03 mol) in dry CH 2 Cl 2 (20 mL) was added and the reaction mixture was stirred at r.t.
+for 3 h.
+After, a saturated solution of Na 2 CO 3 was added and the aqueous phase was extracted with CH 2 Cl 2 (3x).
+The organic solution was washed with brine, dried over anhydrous Na 2 SO 4 , filtered and evaporated to give a yellow oil.
+The crude product was purified by flash chromatography (eluent, EtOAc:CH 3 OH 94:6) to give 8 a white solid (1.17 g, 42% yield).
+Mp 90–91 °C.
+1 H NMR (600 MHz, CDCl 3 ) δ 6.74 (dq, J = 15.4, 7.9 Hz, 1H), 6.01 (dd, J = 15.2, 3.6 Hz, 1H), 5.84 (br s, 1H), 4.18–4.06 (m, 4H), 3.15 (t, J = 6.3 Hz, 2H), 2.73 (dd, J = 22.7, 7.7 Hz, 2H), 1.86–1.76 (m, 1H), 1.33 (t, J = 7.1 Hz, 6H), 0.93 (d, J = 6.7 Hz, 6H).
+13 C NMR (151 MHz, CDCl 3 ) δ 165.0 (d, 4 J C-P = 2.6 Hz), 132.5 (d, 3 J C-P = 11.1 Hz), 128.5 (d, 2 J C-P = 13.6 Hz), 62.3 (d, 2 J C-P = 6.8 Hz), 46.9, 30.10 (d, 1 J C-P = 139.1 Hz), 28.5, 20.1, 16.4 (d, 3 J C-P = 5.9 Hz).
+HRMS ESI m / z : calc.
+for C 12 H 25 NO 4 P + = 278.15157, found = 278.15160 [M + H] + ; calc.
+for C 12 H 24 NNaO 4 P + = 300.13352, found = 300.13348 [M + Na] + ; calc.
+for C 12 H 24 KNO 4 P + = 316.10745, found = 316.10738 [M + K] + .
+3.1.6.
+N -(Adamantan-1-yl)-1-(4-bromophenyl)-1H-1,2,3-triazole-4-carboxamide ( 39 ) Prepared from 40 and 1-aminoadamantane.
+Reaction time: 20 h.
+Purified by flash chromatography (eluent CH 2 Cl 2 ) to give a white solid (86% yield).
+Mp > 270 °C.
+1 H NMR (400 MHz, CDCl 3 ): δ 8.35 (s, 1H), 7.62 (d, J = 8.7 Hz, 2H), 7.56 (d, J = 8.7 Hz, 2H), 6.88 (s, 1H), 2.09 (s, 10H), 1.75–1.61 (m, 5H).
+13 C NMR (100 MHz, CDCl 3 ): δ 158.6, 145.3, 135.6, 133.1, 123.1, 123.0, 122.1, 52.4, 41.7, 36.3, 29.5.
+HRMS ESI m / z : calc.
+for C 19 H 21 BrN 4 NaO + = 423.07909–425.07705, found 423.07960–425.07762 [M + Na] + .
+3.1.7.
+General Procedure for the Synthesis of Compounds 11 – 26 A suspension of LiOH monohydrate (2.20 mmol) was added to a solution of aldehyde 1 – 5 (1.10 mmol) and the appropriate phosphonate 6 – 8 (0.55 mmol) in dry THF (5 mL).
+The reaction mixture was stirred under a N 2 atmosphere at reflux temperature for 3–6 h, then filtered under vacuum and evaporated to dryness.
+The residue was dissolved in EtOAc and the organic solution was washed with brine, dried over anhydrous Na 2 SO 4 , filtered and evaporated.
+The crude product was purified by flash chromatography and/or trituration by an appropriate solvent.
+(2 E ,4 E )- N -Isobutyl-5-phenylpenta-2,4-dienamide ( 11 ) [ 51 ] Prepared from phenylacetaldehyde and phosphonate 8 .
+The product was purified by trituration with Et 2 O affording a white solid (0.16 g, 79% yield).
+Mp 109–112 °C.
+1 H NMR (400 MHz, CDCl 3 ) δ 7.25–7.09 (m, 6H), 6.19–6.05 (m, 2H), 5.72 (d, J = 14.9 Hz, 1H), 5.45 (bs, 1H), 3.41 (d, J = 4.2 Hz, 2H), 3.09–3.08 (m, 2H), 1.76–1.69 (m, 1H), 0.85 (d, J = 5.5 Hz, 6H).
+13 C NMR (100 MHz, CDCl 3 ) δ 166.3, 140.6, 140.5, 139.1, 129.4, 128.6, 128.5, 126.3, 122.9, 77.3, 77.0, 76.7, 46.9, 39.1, 28.6, 20.1.
+MS (ESI): m / z 244 [M + H] + (90), 266 [M + Na] + (70).
+Mp 109–112 °C.
+(2 E ,4 E )- N -(Adamantan-1-yl)-5-phenylpenta-2,4-dienamide ( 12 ) Prepared from benzaldehyde and phosphonate 6 .
+The product was purified by flash chromatography (eluent, PE:EtOAc 3:1) affording a yellowish solid (0.17 g, 95% yield).
+Mp 110–113 °C.
+1 H NMR (400 MHz, CDCl 3 ): δ 7.40–7.15 (m, 6H), 6.75 (m, 2H), 5.87 (d, J = 14.8 Hz, 1H), 5.41 (bs, 1H), 2.00 (s, 9H), 1.63 (s, 6H).
+13 C NMR (100 MHz, CDCl 3 ): δ 165.4, 140.3, 138.8, 136.4, 128.7, 128.6, 127.0, 126.4, 125.3, 52.3, 41.7, 36.6, 29.5.
+HRMS ESI m / z : calc.
+for C 21 H 26 NO + = 308.20089, found = 308.20088 [M + H] + ; calc.
+for C 21 H 25 NNaO + = 330.18284, found = 330.18285 [M + Na] + ; calc.
+for C 21 H 25 KNO + = 346.15677, found = 346.15688 [M + K] + .
+(2 E ,4 E )- N -(3-Hydroxyadamantan-1-yl)-5-phenylpenta-2,4-dienamide ( 13 ) Prepared from benzaldehyde and phosphonate 7 .
+The product was purified by flash chromatography (eluent, PE:EtOAc 1:2) affording a cream-white solid (0.17 g, 94% yield).
+Mp 227–230 °C.
+1 H NMR (400 MHz, CD 3 OD): δ 7.42 (d, J = 8.0 Hz, 2H), 7.27 (t, J = 8.0 Hz, 2H), 7.32–7.13 (m, 1H), 6.92–6.79 (m, 3H), 6.06 (d, J = 16.0 Hz, 1H), 2.18–1.49 (m, 14H).
+13 C NMR (100 MHz, CD 3 OD): δ 166.6, 139.8, 138.6, 136.5, 128.4, 128.3, 126.6, 126.3, 125.1, 68.2, 54.0, 48.1, 43.6, 39.8, 34.8, 30.7.
+HRMS ESI m / z : calc.
+for C 21 H 26 NO 2 + = 324.19581, found 324.19673 [M + H] + ; calc.
+for C 21 H 25 NNaO 2 + = 346.17775, found 346.17816 [M + Na] + ; calc.
+for C 42 H 50 N 2 NaO 4 + = 669.36628, found = 669.36745 [2M + Na] + .
+(2 E ,4 E )- N -(Adamantan-1-yl)-5-(naphthalen-2-yl)penta-2,4-dienamide ( 14 ) Prepared from 2-naphthaldehyde and phosphonate 6 .
+The product was purified by trituration with Et 2 O to give a white solid (0.15 g, 97% yield).
+Mp 84–88 °C.
+1 H NMR (400 MHz, CDCl 3 ) δ 7.70–7.62 (m, 4H), 7.49 (d, J = 8.6 Hz, 1H), 7.39–7.28 (m, 3H), 6.94–6.79 (m, 2H), 5.92 (d, J = 14.9 Hz, 1H), 5.54 (s, 1H), 2.03 (s, 10H), 1.63 (s, 5H).
+13 C NMR (100 MHz, CDCl3) δ 165.3, 140.0, 138.7, 133.9, 133.5, 133.4, 128.3, 128.2, 127.7, 126.8, 126.5, 126.4, 125.8, 123.3, 52.1, 41.7, 36.4, 29.5.
+HRMS ESI m / z : calc.
+for C 25 H 28 NO + = 358.21654, found = 358.21655 [M + H] + ; calc.
+for C 25 H 27 NNaO + = 380.19849, found = 380.19848 [M + Na] + ; calc.
+for C 25 H 27 KNO + = 396.17242, found = 396.17258 [M + K] + .
+(2 E ,4 E )- N -Isobutyl-5-(naphthalen-2-yl)penta-2,4-dienamide ( 15 ) Prepared from 2-naphthaldehyde and phosphonate 8 .
+The product was purified by trituration with Et 2 O to give a white solid (97% yield).
+Mp 179–182 °C.
+1 H NMR (400 MHz, CDCl 3 ) δ 7.76–7.63 (m, 4H), 7.54 (d, J = 8.6 Hz, 1H), 7.44–7.32 (m, 3H), 6.99–6.83 (m, 2H), 5.97 (d, J = 14.9 Hz, 1H), 5.77 (bs, 1H), 3.14 (t, J = 6.4 Hz, 2H), 1.77 (septd, J = 6.7 Hz, 1H), 0.89 (s, 3H), 0.88 (s, 3H).
+13 C NMR (100 MHz, CDCl 3 ) δ 166.2, 140.8, 139.1, 133.8, 133.5, 133.5, 128.4, 128.2, 127.8, 127.7, 126.7, 126.5, 126.4, 124.2, 123.3, 47.1, 28.7, 20.2.
+HRMS ESI m / z : calc.
+for C 19 H 22 NO + = 280.16959, found = 280.16940 [M + H] + ; calc.
+for C 19 H 21 NNaO + = 302.15154, found = 302.15128 [M + Na] + ; calc.
+for C 19 H 21 KNO + = 318.12547, found = 318.12535 [M + K] + .
+(2 E ,4 E )-5-([1,1′-Biphenyl]-3-yl)- N -isobutylpenta-2,4-dienamide ( 16 ) Prepared starting from biphenyl-4-carboxaldehyde and phosphonate 8 .
+The product was purified by trituration with Et 2 O to give a white solid (0.12 g, 72% yield).
+Mp 226–228 °C.
+1 H NMR (400 MHz, CDCl 3 ) δ 7.44–7.27 (m, 10H), 6.84–6.81 (m, 2H), 5.91 (d, J = 14.8 Hz, 1H), 5.46 (bs, 1H), 3.14 (t, J = 6.4 Hz, 2H), 1.77 (septd, J = 6.7 Hz, 1H), 0.89 (s, 3H), 0.87 (s, 3H).
+13 C NMR (100 MHz, CDCl3) δ 166.0, 141.3, 140.9, 140.4, 138.6, 135.4, 128.8, 127.5, 127.4, 127.4, 126.9, 126.4, 124.0, 47.0, 28.6, 20.1.
+HRMS ESI m / z : calc.
+for C 21 H 24 NO + = 306.18524, found = 306.18505 [M + H] + ; calc.
+for C 21 H 23 NNaO + = 328.16719, found = 328.16698 [M + Na] + ; calc.
+for C 21 H 23 KNO + = 344.14112, found = 344.14090 [M + K] + .
+(2 E ,4 E )-5-([1,1′-Biphenyl]-4-yl)- N -(-adamantan-1-yl)penta-2,4-dienamide ( 17 ) Prepared starting from biphenyl-4-carboxaldehyde and phosphonate 6 .
+The product was purified by trituration with PE to give a yellowish solid (0.15 g, 69% yield).
+Mp 196–198 °C.
+1 H NMR (400 MHz, CDCl 3 ) δ 7.46–7.25 (m, 10H), 6.78 (d, J = 4 Hz, 2H), 5.88 (d, J = 14.8 Hz, 1H), 5.44 (s, 1H), 2.02 (s, 10H), 1.64 (s, 5H).
+13 C NMR (100 MHz, CDCl3) δ 165.2, 141.2, 140.4, 140.0, 138.1, 135.5, 128.8, 127.5, 127.4, 127.3, 126.9, 126.5, 125.7, 52.1, 41.7, 36.4, 29.5.).
+HRMS ESI m / z : calc.
+for C 27 H 29 NNaO + = 406.21414, found = 406.21455 [M + Na] + ; calc.
+for C 54 H 58 N 2 NaO 2 + = 789.43905, found = 789.43998 [2M + Na] + .
+( E )- N -(Adamantan-1-yl)-5-(4-(pyridin-4-yl)phenyl)penta-2,4-dienamide ( 18 ) Aldehyde 1 and phosphonate 6 were used as starting materials.
+The product was purified by trituration with PE to give a brown solid (0.20 g, 95% yield).
+Mp 227–229 °C.
+1 H NMR (400 MHz, CD 3 OD): δ 8.52 (d, J = 5.1 Hz, 2H), 7.73 (d, J = 8.2 Hz, 4H), 7.67 (d, J = 5.1 Hz, 2H), 7.59 (d, J = 8.05 Hz, 2H), 7.22–7.16 (m, 1H), 7.02–6.86 (m, 2H), 6.12 (d, J = 14.9 Hz, 1H), 2.04 (s, 9H), 1.69 (s, 6H).
+13 C NMR (100 MHz, DMSO- d 6 ): δ 164.4, 150.8, 146.7, 138.6, 137.8, 137.2, 137.1, 128.2, 128.1, 127.6, 121.5, 51.4, 41.5, 36.5, 29.3.
+HRMS ESI m / z : calc.
+for C 26 H 29 N 2 O + = 385.22744, found 385.22799 [M + H] + .
+(2 E ,4 E )- N -Isobutyl-5-(3-phenoxyphenyl)penta-2,4-dienamide ( 19 ) 3-Phenoxybenzaldehyde and phosphonate 8 were used as starting materials.
+The product was purified by flash chromatography (eluent, PE:EtOAc 3:1) to give a white solid (0.21 g, 97% yield.
+Mp 133–135 °C.
+1 H NMR (400 MHz, CDCl 3 ) δ 7.29–7.19 (m, 5H), 7.10–7.02 (m, 3H), 6.95–6.84 (m, 2H), 6.73–6.71 (m, 2H), 5.90 (d, J = 14.8 Hz, 1H), 5.58 (bs, 1H), 3.12 (t, J = 6.0 Hz, 2H), 1.78–1.72 (m, 1H), 0.87 (d, J = 6.5 Hz, 6H).
+13 C NMR (100 MHz, CDCl 3 ) δ 166.0, 157.6, 157.0, 140.2, 138.2, 138.1, 130.0, 129.8, 127.2, 125.0, 123.4, 122.2, 119.1, 118.9, 116.9, 47.1, 28.6, 20.1.
+HRMS ESI m / z : calc.
+for C 21 H 24 NO 2 + = 322.18016, found = 322.17974 [M + H] + ; calc.
+for C 21 H 23 NNaO 2 + = 344.16210, found = 344.16168 [M + Na] + ; calc.
+for C 21 H 23 KNO 2 + = 360.13604, found = 360.13576 [M + K] + .
+(2 E ,4 E )- N -(Adamantan-1-yl)-5-(3-phenoxyphenyl)penta-2,4-dienamide ( 20 ) 3-Phenoxybenzaldehyde and phosphonate 6 were used as starting materials.
+The product was purified by flash chromatography (eluent, PE:EtOAc 2:1) to give a white solid (0.21 g, 76% yield).
+Mp 174–178 °C.
+1 H NMR (400 MHz, CDCl 3 ) δ 7.29–7.19 (m, 5H), 7.10–7.02 (m, 3H), 6.95–6.84 (m, 2H), 6.71–6.70 (m, 2H), 5.81 (d, J = 14.7 Hz, 1H), 5.13 (bs, 1H), 1.98 (s, 10H), 1.62 (s, 5H).
+13 C NMR (100 MHz, CDCl 3 ) δ 165.0, 157.6, 157.0, 139.7, 138.4, 137.8, 130.0, 129.8, 127.2, 126.1, 123.4, 122.1, 119.0, 118.9, 116.8, 52.1, 41.7, 36.4, 29.5.
+ESI m / z : calc.
+for C 27 H 30 NO 2 + = 400.22711, found = 400.22707 [M + H] + ; calc.
+for C 27 H 29 NNaO 2 + = 422.20905, found = 422.20901 [M + Na] + ; calc.
+for C 27 H 29 KNO 2 + = 438.18299, found = 438.18296 [M + K] + .
+(2 E ,4 E )- N -Isobutyl-5-(3-(pentyloxy)phenyl)penta-2,4-dienamide ( 21 ) Prepared from aldehyde 2 and phosphonate 8 .
+The product was purified by flash chromatography (eluent, PE:EtOAc 2:1) to give a white solid (0.12 g, 77% yield).
+Mp 80–84 °C.
+1 H NMR (400 MHz, CDCl 3 ) δ 7.31 (dd, J = 14.9, 10.4 Hz, 1H), 7.03 (t, J = 7.9 Hz, 1H), 6.91 (t, J = 5.6 Hz, 1H), 6.84 (d, J = 7.6 Hz, 1H),6.78–6.63 (m, 4H), 6.08 (d, J = 14.9 Hz, 1H), 3.77 (t, J = 6.5 Hz, 2H), 3.60 (bs, 1H), 3.07 (t, J = 6.3 Hz, 2H), 1.84–1.67 (m, 2H), 1.64–1.59 (m, 2H), 1.39–1.18 (m, 4H), 0.84–0.79 (m, 9H).
+13 C NMR (100 MHz, CDCl 3 ) δ 166.5, 159.4, 140.2, 138.7, 137.6, 129.6, 126.7, 124.9, 119.3, 114.8, 112.8, 67.8, 47.1, 29.0, 28.9, 28.6, 22.4, 20.3, 20.2, 13.9.
+HRMS ESI m / z : calc.
+for C 20 H 30 NO 2 + = 316.22711, found = 316.22678 [M + H] + ; calc.
+for C 20 H 29 NNaO 2 + = 338.20905, found = 338.20872 [M + Na] + ; calc.
+for C 20 H 29 KNO 2 + = 354.18299, found = 354.18275 [M + K] + .
+(2 E ,4 E )- N -(Adamantan-1-yl)-5-(3-(cinnamyloxy)phenyl)penta-2,4-dienamide ( 22 ) Aldehyde 3 and phosphonate 6 were used as starting materials.
+The product was purified by flash chromatography (eluent, PE:EtOAc 3:1) to give a white solid (0.21 g, 85% yield).
+Mp 160–161 °C.
+1 H NMR (400 MHz, CDCl 3 ) δ 7.34 (d, J = 7.3 Hz, 1H), 7.27–7.14 (m, 5H), 6.97–6.94 (m, 2H), 6.80 (dd, J = 8.1, 2.0 Hz, 1H), 6.74–6.72 (m, 1H), 6.66 (d, J = 16.0 Hz, 1H), 6.33 (dt, J = 15.9, 5.7 Hz, 1H), 5.87 (d, J = 14.8 Hz, 1H), 5.43 (bs, 1H), 4.61 (d, J = 5.7 Hz, 2H), 2.01 (s, 10H), 1.63 (s, 5H).
+13 C NMR (100 MHz, CDCl 3 ) δ 165.2, 159.1, 139.9, 138.5, 136.4, 133.1, 129.7, 128.6, 128.0, 126.9, 126.6, 125.8, 124.3, 119.9, 115.0, 113.2, 68.7, 52.1, 41.7, 36.4, 29.5.
+HRMS ESI m / z : calc.
+for C 30 H 34 NO 2 + = 440.25841, found = 440.25840 [M + H] + ; calc.
+for C 30 H 33 NNaO 2 + = 462.24035, found = 462.24019 [M + Na] + ; calc.
+for C 30 H 33 KNO 2 + = 478.21429, found = 478.21416 [M + K] + .
+(2 E ,4 E )-5-(3-(Cinnamyloxy)phenyl)- N -isobutylpenta-2,4-dienamide ( 23 ) Aldehyde 3 and phosphonate 8 were used as starting materials.
+The product was purified by flash chromatography (eluent, PE:EtOAc 2:1) to give a white solid (0.14 g, 69% yield).
+Mp 131–133 °C.
+1 H NMR (400 MHz, CDCl 3 ) δ 7.36–7.30 (m, 3H), 7.25 (t, J = 7.4 Hz, 1H), 7.20–7.12 (m, 2H), 6.96–6.93 (m, 2H), 6.81–6.74 (m, 3H), 6.65 (d, J = 16.0 Hz, 1H), 6.32 (dt, J = 15.9, 5.7 Hz, 1H), 6.21 (bs, 1H), 6.00 (d, J = 14.8 Hz, 1H), 4.58 (d, J = 5.7 Hz, 2H), 3.12 (t, J = 6.4 Hz, 2H), 1.85–1.68 (m, 1H), 0.88 (d, J = 6.7 Hz, 6H).
+13 C NMR (100 MHz, CDCl 3 ) δ 166.3, 158.9, 140.5, 138.8, 137.9, 136.4, 133.1, 129.8, 128.6, 128.0, 126.9, 126.6, 124.7, 124.3, 119.8, 115.1, 113.2, 68.7, 47.1, 28.7, 20.2.
+HRMS ESI m / z : calc.
+for C 24 H 28 NO 2 + = 362.21146, found = 362.21126 [M + H] + ; calc.
+for C 24 H 27 NNaO 2 + = 384.19340, found = 384.19328 [M + Na] + ; calc.
+for C 24 H 27 KNO 2 + = 400.16734, found = 400.16738 [M + K] + .
+(2 E ,4 E )- N -isobutyl-5-(3-((3-methylbut-2-en-1-yl)oxy)phenyl)penta-2,4-dienamide ( 24 ) Prepared starting from aldehyde 5 and phosphonate 8 .
+The product was purified by flash chromatography (eluent, PE:EtOAc 2:1) to give a white solid (0.11 g, 65% yield).
+Mp 103–104 °C.
+1 H NMR (400 MHz, CDCl 3 ) δ 7.32–7.28 (m, 1H), 7.20–7.16 (m, 2H), 6.96 (d, J = 7.6, 1H), 6.92 (bs, 1H), 6.79–6.75 (m, 3H), 5.88 (d, J = 14.9 Hz, 1H), 5.43 (bs, 1H), 4.46 (d, J = 6.6 Hz, 2H), 3.13 (t, J = 6.3 Hz, 2H), 1.79–1.74 (m, 4H), 1.69 (s, 3H), 0.88 (d, J = 6.6 Hz, 6H).
+13 C NMR (100 MHz, CDCl 3 ) δ 166.0, 159.2, 140.8, 139.0, 137.7, 129.7, 126.6, 124.1, 119.6, 119.5, 115.1, 112.9, 64.8, 47.2, 28.6, 25.8, 20.1, 18.2.
+HRMS ESI m / z : calc.
+for C 20 H 28 NO 2 + = 314.21146, found = 314.21134 [M + H] + ; calc.
+for C 20 H 27 NNaO 2 + = 336.19340, found = 336.19329 [M + Na] + ; calc.
+for C 20 H 27 KNO 2 + = 352.16734, found = 352.16730 [M + K] + .
+(2 E ,4 E )-5-(3-(Allyloxy)phenyl)- N -isobutylpenta-2,4-dienamide ( 25 ) Aldehyde 4 and phosphonate 8 were used as starting materials.
+The product was purified by flash chromatography (eluent, PE:EtOAc 3:1) to give a white solid (0.09 g, 57% yield).
+Mp 104–106 °C.
+1 H NMR (400 MHz, CDCl 3 ) δ 7.34–7.28 (m, 1H), 7.20–7.15 (m, 1H), 6.97 (d, J = 7.6 Hz, 1H), 6.92 (s, 1H), 6.80–6.74 (m, 3H), 6.04- 5.97 (m, 1H), 5.90 (d, J = 14.9 Hz, 1H), 5.45 (bs, 1H), 5.35 (d, J = 17.3 Hz, 1H), 5.23 (d, J = 10.5 Hz, 1H), 4.49 (d, J = 5.2 Hz, 2H), 3.13 (t, J = 6.3 Hz, 2H), 1.76 (m, 1H), 0.88 (d, J = 6.6 Hz, 6H).
+13 C NMR (100 MHz, CDCl 3 ) δ 158.8, 140.8, 139.0, 137.8, 137.7, 133.2, 129.7, 126.7, 124.1, 119.9, 117.7, 115.2, 113.1, 68.9, 47.1, 28.6, 20.1.
+HRMS ESI m / z : calc.
+for C 18 H 24 NO 2 + = 286.18016, found = 286.18007 [M + H] + ; calc.
+for C 18 H 23 NNaO 2 + = 308.16210, found = 308.16189 [M + Na] + ; calc.
+for C 18 H 23 KNO 2 + = 324.13604, found = 324.13584 [M + K] + .
+(2 E ,4 E )- N -(Adamantan-1-yl)-5-(3-(allyloxy)phenyl)penta-2,4-dienamide ( 26 ) Aldehyde 4 and phosphonate 6 were used as starting materials.
+The product was purified by flash chromatography (eluent, PE:EtOAc 3:1) to give a white solid (0.08g, 40% yield).
+1 H NMR (400 MHz, CDCl 3 ) δ 7.25–7.19 (m, 1H), 7.14 (pseudo-t, J = 8.0 Hz, 1H), 6.94 (d, J = 7.61 Hz, 1H), 6.88 (s, 1H), 6.76–6.70 (m, 2H), 6.02–5.92 (m, 1H), 5.85 (d, J = 14.8 Hz, 1H), 5.35–5.31 (m, 2H), 5.20 (d, J = 10.5 Hz, 1H), 4.46 (d, J = 5.2 Hz, 2H), 1.99 (s, 10H), 1.61 (s, 5H).
+13 C NMR (100 MHz, CDCl 3 ) δ 165.1, 158.9, 139.9, 138.4, 137.9, 133.2, 129.6, 126.8, 125.8, 119.8, 117.7, 115.0, 113.0, 68.8, 52.1, 41.7, 36.4, 29.7.
+HRMS ESI m / z : calc.
+for C 24 H 30 NO 2 + = 364.22711, found = 364.22713 [M + H] + ; calc.
+for C 24 H 29 NNaO 2 + = 386.20905, found = 386.20902 [M + Na] + ; calc.
+for C 24 H 29 KNO 2 + = 402.18299, found = 402.18302 [M + K] + .
+3.1.8.
+General Procedure for the Preparation of Amides 27 , 28 and 30 – 34 A suspension of 1-aminoadamantane or 3-amine-1-adamantanol (4.0 mmol) in CH 2 Cl 2 (15 mL) was added to a solution of cinnamic acid or acid 40 (2.0 mmol), EDC (0.8 g, 4.0 mmol) and HOBt (0.3 g, 2.4 mmol) in CH 2 Cl 2 (20 mL) .
+The mixture was stirred at room temperature until completion of the reaction, then washed with a saturated aqueous solution of Na 2 CO 3 , dried over anhydrous Na 2 SO 4 , filtered and evaporated.
+The crude product was purified as detailed below by using the appropriate eluent or by trituration/recrystallization from the appropriate solvent.
+N -(Adamantan-1-yl)cinnamamide ( 27 ) [ 52 ] Reaction time: 6 h.
+Purified by flash chromatography on silica gel.
+Eluent: CH 2 Cl 2 .
+White solid which was recrystallized from MeOH.
+Yield: 89%.
+Mp 220–221 °C (lit.
+[ 52 ] 214–215 °C).
+1 H NMR (400 MHz, CDCl 3 ): δ 7.48 (d, J = 15.5 Hz, 1H), 7.43–7.21 (m, 5H), 6.27 (d, J = 15.5 Hz, 1H), 5.31 (bs, 1H), 2.02 (s, 10H), 1.64 (s, 5H).
+13 C NMR (100 MHz, CDCl 3 ): δ 165.1, 140.0, 135.1, 129.5, 128.7, 127.7, 122.5, 52.2, 41.7, 36.4, 29.5.
+HRMS ESI m / z : calc.
+for C 19 H 24 NO + = 282.18524, found = 282.18573 [M + H] + ; calc.
+for C 19 H 23 NNaO + = 304.16719, found = 304.16764 [M + Na] + ; calc.
+for C 38 H 47 N 2 O 2 + = 563.36321, found = 563.36457 [2M + H] + ; calc.
+for C 38 H 46 N 2 NaO 2 + = 585.34515, found = 585.34640 [2M + Na] + .
+N -(3-Hydroxy)adamant-1-yl cinnamamide ( 28 ) Reaction time: 16 h.
+Purified by flash chromatography on silica gel.
+Eluent: PE:EtOAc 1:1.
+White solid which was recrystallized from MeOH.
+Yield: 35%.
+Mp 265–269 °C.
+1 H NMR (400 MHz, CD 3 OD): δ 7.55–7.18 (m, 5H), 7.37 (d, J = 15.7 Hz, 1H), 6.54 (d, J = 15.7 Hz, 1H), 4.76 (s, 1H), 2.18 (s, 1H), 2.03–1.41 (m, 14H).
+13 C NMR (100 MHz, DMSO- d 6 ): δ 164.5, 138.7, 135.6, 129.7, 129.4, 127.8, 124.2, 67.7, 53.9, 49.5, 44.7, 35.4, 30.6.
+ESI m / z : calc.
+for C 19 H 24 NO 2 + = 298.18016, found = 298.18045 [M + H] + ; calc.
+for C 19 H 23 NNaO 2 + = 320.16210, found = 320.16241 [M + Na] + ; calc.
+for C 38 H 46 N 2 NaO 4 + = 617.33498, found = 617.33620 [2M + Na] + .
+( E )- N -(A-adamantan-1-yl)-3-(4-(pyridin-4-yl)phenyl)acrylamide ( 29 ) Reaction time: 16 h.
+Purified by flash chromatography on silica gel.
+Eluent: PE:Et 2 O 1:4.
+White solid.
+Yield 54%.
+Mp 227–229 °C.
+1 H NMR (400 MHz, CD 3 OD): δ 8.52 (d, J = 5.5 Hz, 2H), 7.87–7.55 (m, 6H), 7.41 (d, J = 15.7 Hz, 1H), 6.63 (d, J = 15.7 Hz, 1H), 2.04 (s, 10H), 1.69 (s, 5H).
+13 C NMR (100 MHz, DMSO- d 6 ): δ 164.4, 150.8, 146.7, 138.0, 137.4, 136.6, 128.6, 127.8, 125.2, 121.5, 51.4, 41.5, 36.5, 29.3.
+HRMS ESI m / z : calc.
+for C 24 H 27 N 2 O + = 359.21179, found = 359.21164 [M + H] + .
+( E )- N -(Adamantan-1-yl)-3-(4-bromophenyl)acrylamide ( 30 ) [ 53 ] Reaction time: 16 h.
+Yellow solid which was purified by trituration with PE.
+Yield: 93%.
+Mp 232–233 °C.
+1 H NMR (400 MHz, CD 3 OD): δ 7.42–7.39 (m, 3H), 7.27–7.25 (m, 2H), 6.25 (d, J = 15.5 Hz, 1H), 5.31 (bs, 1H), 2.01 (s, 10H), 1.64 (s, 5 H).
+13 C NMR (100 MHz, CDCl 3 ): δ 164.5, 138.9, 134.0, 132.0, 129.1, 123.5, 122.9, 52.3, 41.7, 36.3, 29.5.
+ESI m / z : calc.
+for C 19 H 23 BrNO + = 360.09575–362.09371, found = 360.09631–362.09438 [M + H] + ; calc.
+for C 19 H 22 BrNNaO + = 382.07770–384.07565, found = 382.07824–384.07619 [M + Na] + ; calc.
+for C 38 H 44 Br 2 N 2 NaO 2 + = 743.16413, found = 743.16584 (100) [2M + Na] + .
+( E )-3-([1,1′-Biphenyl]-4-yl)- N -(adamantan-1-yl)acrylamide ( 31 ) Reaction time: 5 h.
+Yellow solid which was purified by trituration with PE.
+Yield: 99%.
+Mp 171–173 °C.
+1 H NMR (400 MHz, CD 3 OD): δ 7.59–7.53 (m, 6H), 7.42–7.25 (m, 4H), 6.58 (d, J = 15.7 Hz, 1H), 2.04 (s, 10H), 1.68 (s, 5H).
+13 C NMR (100 MHz, DMSO- d 6 ): δ 164.5, 141.2, 139.9, 137.7, 134.79, 129.5, 128.5, 128.2, 127.6, 127.1, 124.3, 51.4, 41.5, 36.5, 29.3.
+HRMS ESI m / z : calc.
+for C 25 H 28 NO + = 358.21654, found = 358.21612 [M + H] + ; calc.
+for C 25 H 27 NNaO + = 380.19849, found = 380.19808 [M + Na] + ; calc.
+for C 25 H 27 KNO + = 396.17242, found = 396.17212 [M + K] + .
+( E )-3-(1,1′-Biphenyl-4-yl)- N -(3-hydroxyadamantan-1-yl)acrylamide ( 32 ) Reaction time: 16 h.
+Purified by recrystallization from MeOH.
+White crystals.
+Yield: 94%.
+Mp 246 °C.
+1 H NMR (400 MHz, DMSO- d 6 ): δ 7.65–7.52 (m, 6H), 7.42–7.27 (m, 4H), 6.64 (d, J = 15.8 Hz, 1H), 4.42 (s, 1H), 2.08 (s, 2H), 1.86–1.76 (m, 6H), 1.52- 1.36 (m, 6H).
+13 C NMR (100 MHz, DMSO- d 6 ): δ 164.6, 141.2, 139.9, 137.8, 134.7, 129.5, 128.5, 128.2, 127.6, 127.1, 124.2, 67.8, 54.0, 50.0, 44.7, 35.4, 30.6.
+HRMS ESI m / z : calc.
+for C 25 H 28 NO 2 + = 374.21146, found = 374.21145 [M + H] + ; calc.
+for C 25 H 27 NNaO 2 + = 396.19340, found = 396.19335 [M + Na] + ; calc.
+for C 25 H 27 KNO 2 + = 412.16734, found = 412.16745 [M + K] + .
+( E )- N -(Adamantan-1-yl)-3-(3-hydroxyphenyl)acrylamide ( 33 ) Reaction time: 6 h.
+Purified by flash chromatography (eluent, PE:EtOAc 1:1).
+White solid.
+Yield: 73%.
+Mp 230–232 °C.
+1 H NMR (400 MHz, CD 3 OD): δ 7.33 (d, J = 15.7 Hz, 1H), 7.11 (pseudo-t, J = 7.9 Hz, 1H), 6.92 (d, J = 7.9 Hz, 1H), 6.87 (s, 1H), 6.71 (dd, J 1 = 8.1, J 2 = 2.3 Hz, 1H), 6.48 (d, J = 15.7 Hz, 1H), 4.70 (s, 1H), 2.02 (s, 10H), 1.67 (s, 5H).
+13 C NMR (100 MHz, DMSO- d 6 ): δ 164.6, 158.1, 138.4, 137.0, 130.3, 124.0, 119.0, 116.9, 114.1, 51.3, 41.5, 36.5, 29.3.
+HRMS ESI m / z : calc.
+for C 19 H 24 NO 2 + = 298.18016, found = 298.18009 [M + H] + ; calc.
+for C 19 H 23 NNaO 2 + = 320.16210, found = 320.16205 [M + Na] + ; calc.
+for C 19 H 23 KNO 2 + = 336.13604, found = 336.13602 [M + K] + .
+( E )- N -(3-Hydroxyadamantan-1-yl)-3-(3-hydroxyphenyl)acrylamide ( 34 ) Purified by flash chromatography (eluent, CH 2 Cl 2 :MeOH 98:2).
+White solid.
+Yield: 27%.
+Mp 238 °C.
+1 H NMR (400 MHz, CD 3 OD): δ 7.29 (d, J = 15.7 Hz, 1H), 7.11 (pt, J = 7.9 Hz, 1H), 6.92 (d, J = 7.7 Hz, 1H), 6.71 (dd, J 1 = 2.2, J 2 = 7.9 Hz, 1H), 6.48 (d, J = 15.7 Hz, 1H), 2.18 (s, 2H), 1.97–1.93 (m, 6H), 1.67–1.49 (m, 6H).
+13 C NMR (100 MHz, DMSO- d 6 ): δ 164.6, 158.1, 138.5, 136.9, 130.3, 123.9, 119.0, 116.9, 114.1, 67.7, 53.9, 49.6, 44.7, 35.3, 30.6.
+HRMS ESI m / z : calc.
+for C 19 H 24 NO 3 + = 314.17507, found = 314.17507 [M + H] + ; calc.
+for C 19 H 23 NNaO 3 + = 336.15701, found = 336.15696 [M + Na] + ; calc.
+for C 19 H 25 NNaO 4 + = 354.16758, found = 354.16766 [M + Na + H 2 O] + .
+3.1.9.
+General Procedure for the Preparation of 35 and 36 by Horner–Wadsworth–Emmons Condensation Biphenyl-4-carboxaldehyde or 3-hydroxybenzaldehyde (5.5 mmol) was added to a solution of triethyl phosponacetate (1.3 mL, 6.6 mmol) and finely ground K 2 CO 3 (2.3 g, 16.5 mmol) in absolute EtOH (30 mL) and the reaction mixture was refluxed for 2 h.
+After cooling, the solvent was removed under reduced pressure and the residue was solubilized in Et 2 O.
+The organic solution was washed with brine, dried over anhydrous Na 2 SO 4 , filtered and evaporated to give a solid residue.
+Ethyl ( E )-3-([1,1′-Biphenyl]-4-yl)acrylate ( 35 ) [ 54 ] Obtained as a pure white solid which did not need further purification.
+Yield: 99%.
+Mp 53–55 °C.
+1 H NMR (600 MHz, CDCl 3 ) δ 7.75 (d, J = 16.0 Hz, 1H), 7.67–7.61 (m, 6H), 7.48 (t, J = 7.6 Hz, 2H), 7.40 (t, J = 7.4 Hz, 1H), 6.50 (d, J = 16.0 Hz, 1H), 4.31 (q, J = 7.1 Hz, 2H), 1.38 (t, J = 7.1 Hz, 3H).
+13 C NMR (151 MHz, CDCl 3 ) δ 167.1, 144.1, 143.0, 140.2, 133.5, 128.9, 128.6, 127.8, 127.6, 127.1, 118.2, 60.5, 14.4.
+HRMS ESI m / z : calc.
+for C 17 H 16 NaO 2 + = 275.10425, found 275.10437 [M + Na] + .
+Ethyl ( E )-3-(3-Hydroxyphenyl)acrylate ( 36 ) [ 55 ] The solid residue was recrystallized from hexane–benzene mixture to obtain a lightly pink solid.
+Yield: 98%.
+Mp 87–90 °C.
+1 H NMR (600 MHz, CD 3 OD) δ 7.60 (d, J = 16.0 Hz, 1H), 7.22 (t, J = 7.9 Hz, 1H), 7.05 (d, J = 7.6 Hz, 1H), 7.02–7.00 (m, 1H), 6.85 (ddd, J = 8.1, 2.5, 0.9 Hz, 1H), 6.44 (d, J = 16.0 Hz, 1H), 4.24 (q, J = 7.1 Hz, 2H), 1.33 (t, J = 7.1 Hz, 3H).
+13 C NMR (151 MHz, CD 3 OD) δ 167.3, 157.7, 144.9, 135.6, 129.6, 119.
+3, 117.5, 117.3, 113.9, 60.24 13.23.
+HRMS ESI m / z : calc.
+for C 11 H 12 NaO 3 + = 215.06787, found 215.06814 [M + Na] + ; calc.
+for C 22 H 24 NaO 6 + = 407.14651, found 407.14700 [2M + Na] + .
+3.1.10.
+General Procedure for the Preparation of Compounds 37 [ 56 ] and 38 by Alkaline Hydrolysis A solution of 1 N NaOH (0.2 g, 5.3 mmol) was added to a solution of 35 or 36 (5.3 mmol) in EtOH (8 mL) and the reaction mixture was stirred at r.t.
+for 1–4 days.
+The pH was adjusted to 1 using 12 N HCl and the aqueous solution was extracted with EtOAc.
+The organic phase was washed with brine, dried over anhydrous Na 2 SO 4 , filtered and evaporated to give the expected acids 37 or 38 in a yield of 48% and 97%, respectively, as white solids which were used directly in the next step without further purification.
+3.2.
+TRPA1 Assay Assessment of the effects of compounds on rat TRPA1 were performed by continuously monitoring the elevation of intracellular Ca 2+ concentration ([Ca 2+ ] i ) using the selective intracellular fluorescent probe for Ca 2+ Fluo-4, as previously described [ 37 ].
+Briefly, human embryonic kidney (HEK-293) cells, stably transfected with rat TRPA1 or not transfected, were cultured in EMEM with 2 mM glutamine, 1% non-essential amino acids, and 10% FBS and maintained at 37 °C with 5% CO 2 .
+TRPA1-HEK-293 cells stably express high levels of TRP transcripts, while these transcripts were virtually absent in wild-type HEK-293 cells as checked by real-time PCR.
+On the day of the experiment, the cells were loaded for 1 h in the dark at room temperature with Fluo-4 AM (4 μM in DMSO containing 0.02% Pluronic F-127).
+The cells were rinsed, resuspended in Tyrode’s solution (145 mM NaCl, 2.5 mM KCl, 1.5 mM CaCl 2 , 1.2 mM MgCl 2 , 10 mM D-glucose, and 10 mM HEPES, pH 7.4), and transferred to the quartz cuvette of a spectrofluorometer (PerkinElmer LS50B; λEX = 488 nm, λEM = 516 nm) equipped with a PTP-1 fluorescence Peltier system (PerkinElmer Life and Analytical Sciences, Waltham, MA, USA) under continuous stirring.
+Cell fluorescence before and after the addition of various concentrations of the tested compounds was measured, normalizing the effects against the response to ionomycin (4 μM).
+The values of the effect on [Ca 2+ ] i in HEK-293 cells not transfected are used as a baseline and subtracted from the values obtained from transfected cells.
+Agonist efficacy was expressed as a percentage of the effect on [Ca 2+ ] i observed with 100 μM allylisothiocyanate (AITC).
+The potency of the compounds (EC 50 values) is determined as the concentration required to produce half-maximal increases in [Ca 2+ ] i .
+Antagonist/desensitizing behavior is evaluated against the agonist of the TRPA1 analyzed by adding the compounds directly in the quartz cuvette 5 min before stimulation of cells with the agonist AITC (100 μM).
+The IC 50 value is expressed as the concentration exerting a half-maximal inhibition of agonist effect, taking as 100% the effect on [Ca 2+ ] i exerted by the agonist alone.
+Dose–response curve fitting (sigmoidal dose–response variable slope) and parameter estimation were performed with GraphPad Prism9 (GraphPad Software Inc., San Diego, CA, USA).
+All determinations were performed at least in triplicate.
+3.3.
+Competitive Binding Assay Binding assays at equilibrium were performed as previously reported [ 57 ].
+Briefly, membranes from HEK-293 cells over-expressing the respective human recombinant CB1 receptor (B max = 5.7 pmol/mg protein) and human recombinant CB2 receptor (B max = 11.4 pmol/mg protein) were incubated with [ 3 H]-CP-55,940 (0.4 nM/KD = 3.08 nM and 0.53 nM/KD = 5.89 nM, respectively, for CB1 and CB2 receptors) as the high-affinity ligand.
+Competition curves were performed by displacing [ 3 H]-CP-55,940 with increasing concentration of compounds (0.01–10 μM).
+Nonspecific binding was defined by 10 μM of WIN55, 212–2 as the heterologous competitor (Ki values 8.8 nM and 0.89 nM, respectively, for CB1 and CB2 receptor).
+All compounds were tested following the procedure described by the manufacturer (PerkinElmer, Italy).
+Displacement curves were generated by incubating compounds with [ 3 H]-CP-55,940 for 90 min at 30 °C.
+Ki values were calculated by applying the Cheng–Prusoff equation to the IC 50 values (obtained by GraphPad PRISM 10.5.1 software) for the displacement of the bound radioligand by increasing concentrations of the test compound.
+Data represent the mean values for three separate experiments performed in duplicate and are expressed as the average ± SEM.
+3.4.
+Computational Methods Ligands were built with UCSF Chimera 1.17 [ 58 ] followed by initial energy minimization (EM) at the molecular mechanics level, using AM1-BC charges.
+The molecules were then fully optimized using the GAMESS 13R1.X program [ 59 ] at the Hartree–Fock level with the STO-3G basis set and subjected to HF/6-31G*/STO-3G single-point calculations to derive the partial atomic charges using the RESP procedure [ 60 ].
+Docking studies were performed with AutoDock 4.2 [ 61 ] using homology models of rat TRPA1(rTRPA1) in both the activated state, already published [ 36 ], and in the closed form, using as templates hTRPA1 cryo-EM structures in complex with antagonists bound to different sites (PDB id: 7OR0 and 6WJ5) and following the same homology modeling protocol previously adopted [ 36 ].
+Briefly, the modeller 10.4 program [ 62 ] has been used to build 50 homology models, selected on the basis of the DOPE score and Modeler Objective Function.
+Proteins and ligands were processed with AutoDock Tools (ADT) package version 1.5.6rc1 to merge non-polar hydrogens and calculate Gasteiger charges.
+For docking calculations, grids were used with a spacing of 0.375 Å and boxes with different dimensions to encompass either both sites Site1ago and Site2ago (80 × 60 × 80) and each ligand binding site named Site1ago (50 × 50 × 70), Site2ago (70 × 60 × 70), Site1ant (60 × 60 ×70) and Site2ant (60 × 60 × 80), generated using the program AutoGrid 4.2 included in the AutoDock 4.2 distribution, following the docking protocol already published [ 36 ].
+Briefly, 100 docking poses were calculated for each docking run, using the Lamarckian genetic algorithm (LGA) and the following parameters: 100 individuals in a population with a maximum of 15 million energy evaluations and a maximum of 37,000 generations, followed by 300 iterations of Solis and Wets local search.
+To validate the docking protocol on this protein system, the experimentally solved antagonists were re-docked onto their respective structures, obtaining ligand rmsd values for 6WJ5 and 7OR0 of 1.26 Å and 1.1 Å, respectively.
+Moreover, the agonist from the 6X2J structure was cross-docked into the 6PQO structure with a rmsd of 1.3 Å.
+Flexibility was used for all rotatable bonds of docked ligands.
+Docking runs were carried out by either keeping the whole protein fixed or allowing the rotation of selected residues (Phe844, Phe843, Met847 and Phe870 for Site1ago and Thr877, Leu737, Ile953, Phe912 and Met915 for Site2ago/Site1ant).
+The representative complexes, selected on the basis of binding energy and cluster population, were then completed by addition of all hydrogen atoms, and energy-minimized (EM) with the Amber16 package [ 63 ], using the 14SB version of the AMBER force field for the protein and gaff parameters for the ligand.
+The UCSF Chimera 1.17 program was used to draw the figures.
+3.5.
+In Vivo Studies 3.5.1.
+Animals Male C57/BLJ (ENVIGO, Udine, Italy) mice weighing 25 g were housed three per cage under controlled illumination (12 h light/dark cycle; light on 6:00 a.m.) and room temperature 20–22 °C, humidity 55–60%, for 1 week before the commencement of experiments.
+Mouse food and tap water were available ad libitum.
+The experimental procedures were approved by the Animal Ethics Committee of University of Campania “L.
+Vanvitelli,” Naples.
+Animal care followed the Italian (D.L.
+116/92) and European Commission (O.J.
+of E.C.
+L358/1 18/12/86) regulations on the protection of laboratory animals (MOH project: 806/2024).
+Every effort was made to reduce suffering and animal numbers.
+3.5.2.
+Pain Models Formalin model.
+Animals received formalin (1.25% in saline, 30 μL) on the dorsal surface of the right hind paw.
+Each mouse, randomly assigned to one of the experimental groups (N = 5–6), was placed in a plexiglass cage and allowed to move freely for 20 min.
+A mirror was placed at a 45° angle under the cage to allow full view of the hind paws.
+Lifting, favoring, licking, shaking, and flinching of the injected paw were recorded as nocifensive behavior [ 43 ].
+Formalin injections induce a biphasic and stereotyped nociceptive behavior.
+A first brief phase (0–7 min) caused by a primary afferent nerve discharge is followed by a period of quiescence and then by a second phase (15–60 min) of prolonged tonic pain.
+The total duration of the nociceptive response was measured every 5 min for 1 h and expressed in minutes (mean ± S.E.M.).
+Spared nerve injury (SNI).
+Mononeuropathy was induced according to the method of Decosterd and Woolf [ 31 ].
+Mice were anesthetized by intraperitoneal injection of ketamine xylazine (60 mg/kg + 10 mg/kg, respectively).
+Once the right sciatic nerve was exposed, the tibial and common peroneal nerves were tied tightly with 7.0 silk threads and then sectioned distal to the node, leaving the sural nerve intact.
+Sham-operated mice were anesthetized, and the sciatic nerve was exposed at the same level but not sectioned.
+In the SNI test, the Von Frey test was used to measure tactile allodynia with a series of calibrated Von Frey nylon monofilaments (Semmes-Weinstein monofilaments, 2 Biological Instruments, Italy).
+Two weeks after surgery, mice were placed on the wire mesh surface of the test cage, and testing began after mice had acclimated to the new environment for 30 min before any measurements were taken.
+Monofilaments, starting with the 0.008 g monofilament, were applied perpendicularly to the plantar surface of each hind paw with a series of ascending forces (0.008, 0.02, 0.04, 0.07, 0.16, 0.40, 0.60, 1.0, 1.4, and 2.0 g).
+Each stimulus was applied for approximately 1 sec with a 5 sec interstimulus interval.
+The withdrawal responses evoked by each monofilament were obtained from five consecutive trials.
+Tactile allodynia was defined as a significant decrease in the withdrawal threshold following the application of von Frey hair.
+Each mouse was used as a control, and responses were measured both before and after surgery.
+3.5.3.
+Statistical Analysis Behavioral data were expressed as the mean ± S.E.M.
+Two-way ANOVA for repeated measures followed by Tukey’s post hoc test or Bonferroni’s test was used for comparison between groups.
+GraphPad Prism version 10 (GraphPad Software Inc., San Diego, CA, USA) was used in all statistical analyses.
+A probability < 0.05 was considered sufficient to reject the null hypothesis.
+3.5.4.
+Treatments The analgesic effect of compounds 30 and 17 was evaluated in formalin-induced and SNI pain models.
+Mice received the vehicle (10% DMSO) or test compounds at doses of 1, 2, or 3 μg/mouse (20 μL/intra-paw) 10 min before formalin injection.
+The TRPA1 antagonist AP18 (0.05 mg/kg, ip) was administered 20 min before intra-paw injections of 30 or 17 .
+In the SNI model, mice were treated with the vehicle (10% DMSO) or compound 17 (0.5, 1, or 3 mg/kg).
+4.
+Conclusions Taking inspiration from natural products of the sanshool family, we designed, synthesized, and characterized new synthetic analogues acting as TRPA1 modulators.
+Several compounds displayed partial agonist/desensitizing profiles with low micromolar potency and were devoid of cannabimimetic properties.
+Among them, 17 and 30 emerged as the most promising molecules, showing consistent in vivo analgesic effects in both the formalin test and the spared nerve injury model.
+Importantly, 17 demonstrated a dual, dose-dependent mechanism of action, shifting from agonist activity to functional antagonism at higher doses, whereas 30 primarily acted as an antagonist in vivo.
+Our data indicate that these novel derivatives may represent valuable leads for the development of innovative analgesic strategies targeting TRPA1, with potential applications in both inflammatory and neuropathic pain.
+Further preclinical studies will be necessary to optimize their pharmacological profile, assess their safety, and refine their physicochemical properties.
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s).
+MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+Supplementary Materials The following supporting information can be downloaded at https://www.mdpi.com/article/10.3390/ijms27041716/s1 .
+Author Contributions Conceptualization, C.M., A.B., A.L., S.M.
+(Sabatino Maione).
+and F.C.; methodology, A.A.C., S.M.
+(Samuele Maramai), C.N., R.M.V., C.B., R.I., M.A.
+and A.S.M.; software, R.M.V.
+and M.P.; validation, L.D.P., A.S.M., A.L., M.P.
+and S.M.
+(Sabatino Maione); writing—original draft preparation, A.A.C., C.M., A.B., A.L.
+and M.P.; writing—review and editing, C.M., F.C., A.B., L.D.P., R.M.V.
+and S.M.
+(Sabatino Maione); supervision, C.M.
+and F.C.; funding acquisition, C.M.
+All authors have read and agreed to the published version of the manuscript.
+Institutional Review Board Statement Not applicable.
+Informed Consent Statement Not applicable.
+Data Availability Statement Data is contained within the article or Supplementary Materials .
+Conflicts of Interest A.S.M.
+is employee of Epitech Group SpA.
+The authors declare that they have no conflicts of interest.
+References 1.
+Raja S.N.
+Carr D.B.
+Cohen M.
+Finnerup N.B.
+Flor H.
+Gibson S.
+Keefe F.J.
+Mogil J.S.
+Ringkamp M.
+Sluka K.A.
+The revised international association for the study of pain definition of pain: Concepts, challenges, and compromises Pain 2020 161 1976 1982 10.1097/j.pain.0000000000001939 32694387 2.
+Basbaum A.I.
+Bautista D.M.
+Scherrer G.
+Julius D.
+Cellular and molecular mechanisms of pain Cell 2009 139 267 284 10.1016/j.cell.2009.09.028 19837031 3.
+Cao B.
+Xu Q.
+Shi Y.
+Zhao R.
+Li H.
+Zheng J.
+Liu F.
+Wan Y.
+Wei B.
+Pathology of pain and its implications for therapeutic interventions Sig.
+Transduct.
+Target Ther.
+2024 9 155 10.1038/s41392-024-01845-w 38851750 4.
+Yekkirala A.S.
+Roberson D.P.
+Bean B.P.
+Woolf C.J.
+Breaking barriers to novel analgesic drug development Nat.
+Rev.
+Drug Discov.
+2017 16 545 564 Erratum in Nat.
+Rev.
+Drug Discov.
+2017 , 16 , 810 10.1038/nrd.2017.87 28596533 5.
+Koivisto A.P.
+Belvisi M.G.
+Gaudet R.
+Szallasi A.
+Advances in TRP channel drug discovery: From target validation to clinical studies Nat.
+Rev.
+Drug Discov.
+2022 21 41 59 10.1038/s41573-021-00268-4 34526696 6.
+Li J.
+Zhang H.
+Du Q.
+Gu J.
+Wu J.
+Liu Q.
+Li Z.
+Zhang T.
+Xu J.
+Xie R.
+Research progress on TRPA1 in diseases J.
+Membr.
+Biol.
+2023 256 301 316 10.1007/s00232-023-00277-x 37039840 7.
+Talavera K.
+Startek J.B.
+Alvarez-Collazo J.
+Boonen B.
+Alpizar Y.A.
+Sanchez A.
+Naert R.
+Nilius B.
+Mammalian transient receptor potential TRPA1 channels: From structure to disease Physiol.
+Rev.
+2020 100 725 803 10.1152/physrev.00005.2019 31670612 8.
+De Araujo D.S.M.
+Nassini R.
+Geppetti P.
+De Logu F.
+TRPA1 as a therapeutic target for nociceptive pain Expert Opin.
+Ther.
+Targets 2020 24 997 1008 10.1080/14728222.2020.1815191 32838583 9.
+Zygmunt P.M.
+Högestätt E.D.
+TRPA1 Mammalian Transient Receptor Potential (TRP) Cation Channels Nilius B.
+Flockerzi V.
+Springer Berlin/Heidelberg, Germany 2014 Volume 222 583 630 10.
+Hu Z.
+Zhang Y.
+Yu W.
+Li J.
+Yao J.
+Zhang J.
+Wang J.
+Wang C.
+Transient receptor potential ankyrin 1 (TRPA1) modulators: Recent update and future perspective Eur.
+J.
+Med.
+Chem.
+2023 257 115392 10.1016/j.ejmech.2023.115392 37269667 11.
+Yao K.
+Dou B.
+Zhang Y.
+Chen Z.
+Li Y.
+Fan Z.
+Ma Y.
+Du S.
+Wang J.
+Xu Z.
+Inflammation—The role of TRPA1 channel Front.
+Physiol.
+2023 14 1093925 10.3389/fphys.2023.1093925 36875034 12.
+Bierhaus A.
+Fleming T.
+Stoyanov S.
+Leffler A.
+Babes A.
+Neacsu C.
+Sauer S.K.
+Eberhardt M.
+Schnolzer M.
+Lasitschka F.
+Methylglyoxal modification of Nav1.8 facilitates nociceptive neuron firing and causes hyperalgesia in diabetic neuropathy Nat.
+Med.
+2012 18 926 933 Correction in Nat.
+Med.
+2012 , 18 , 1445.
+https://doi.org/10.1038/nm0912-1445c 10.1038/nm.2750 22581285 13.
+Nummenmaa E.
+Hämäläinen M.
+Pemmari A.
+Moilanen L.J.
+Tuure L.
+Nieminen R.M.
+Moilanen T.
+Vuolteenaho K.
+Moilanen E.
+Transient receptor potential ankyrin 1 (TRPA1) is involved in upregulating interleukin-6 expression in osteoarthritic chondrocyte models Int.
+J.
+Mol.
+Sci.
+2021 22 87 10.3390/ijms22010087 14.
+Pereira I.
+Mendes S.J.
+Pereira D.M.
+Muniz T.F.
+Colares V.L.
+Monteiro C.R.
+Martins M.M.
+Grisotto M.A.
+Monteiro-Neto V.
+Monteiro S.G.
+Transient receptor potential ankyrin 1 channel expression on peripheral blood leukocytes from rheumatoid arthritic patients and correlation with pain and disability Front.
+Pharmacol.
+2017 8 53 10.3389/fphar.2017.00053 28239353 15.
+Yang N.
+Qiao Z.
+Zhou Q.
+Chang X.
+Sun C.
+Zhang Y.
+Wei N.
+Wang K.
+Discovery of non-electrophilic TRPA1 channel agonists with anti-nociceptive effects via rapid current desensitization Eur.
+J.
+Med.
+Chem.
+2025 291 117586 10.1016/j.ejmech.2025.117586 40209420 16.
+Akopian A.N.
+Ruparel N.B.
+Jeske N.A.
+Hargreaves K.M.
+Transient receptor potential TRPA1 channel desensitization in sensory neurons is agonist dependent and regulated by TRPV1-directed internalization J.
+Physiol.
+2007 583 175 193 10.1113/jphysiol.2007.133231 17584831 17.
+McNamara C.R.
+Mandel-Brehm J.
+Bautista D.M.
+Siemens J.
+Deranian K.L.
+Zhao M.
+Hayward N.J.
+Chong J.A.
+Julius D.
+Moran M.M.
+TRPA1 mediates formalin-induced pain Proc.
+Natl.
+Acad.
+Sci.
+USA 2007 104 13525 13530 10.1073/pnas.0705924104 17686976 18.
+Jain S.M.
+Balamurugan R.
+Tandon M.
+Mozaffarian N.
+Gudi G.
+Salhi Y.
+Holland R.
+Freeman R.
+Baron R.
+Randomized, double-blind, placebo controlled trial of ISC 17536, an oral inhibitor of transient receptor potential ankyrin 1, in patients with painful diabetic peripheral neuropathy: Impact of preserved small nerve fiber function Pain 2022 163 e738 e747 10.1097/j.pain.0000000000002470 34490850 19.
+Broad L.M.
+Suico J.G.
+Turner P.K.
+Nie S.
+Johnson K.W.
+Sanger H.E.
+Wegiel L.A.
+Sperry D.C.
+Remick D.
+Moran M.
+Preclinical and clinical evaluation of a novel TRPA1 antagonist LY3526318 Pain 2025 166 1893 1908 10.1097/j.pain.0000000000003570 40258136 20.
+Koivisto A.P.
+Voets T.
+Iadarola M.J.
+Szallasi A.
+Targeting TRP channels for pain relief: A review of current evidence from bench to bedside Curr.
+Opin.
+Pharmacol.
+2024 75 102447 10.1016/j.coph.2024.102447 38471384 21.
+Vitale R.M.
+de Petrocellis L.
+Amodeo P.
+An updated patent review of TRPA1 antagonists (2020–present) Expert Opin.
+Ther.
+Pat.
+2024 34 315 332 10.1080/13543776.2024.2364798 38847054 22.
+Koo J.Y.
+Jang Y.
+Cho H.
+Lee C.H.
+Jang K.H.
+Chang Y.H.
+Shin J.
+Oh U.
+Hydroxy-alpha-sanshool activates TRPV1 and TRPA1 in sensory neurons Eur.
+J.
+Neurosci.
+2007 26 1139 1147 10.1111/j.1460-9568.2007.05743.x 17767493 23.
+Lu I.C.
+Hu P.Y.
+Lin C.H.
+Chang L.L.
+Wang H.C.
+Cheng K.I.
+Gau T.P.
+Lin K.W.
+Alkamides in Zanthoxylum species: Phytochemical profiles and local anesthetic activities Int.
+J.
+Mol.
+Sci.
+2024 25 12228 10.3390/ijms252212228 39596294 24.
+Menozzi-Smarrito C.
+Riera C.E.
+Munari C.
+Le Coutre J.
+Robert F.
+Synthesis and evaluation of new alkylamides derived from alpha-hydroxysanshool, the pungent molecule in szechuan pepper J.
+Agric.
+Food Chem.
+2009 57 1982 1989 19209861 25.
+Chandrabalan A.
+McPhillie M.J.
+Morice A.H.
+Boa A.N.
+Sadofsky L.R.
+N-cinnamoylanthranilates as human TRPA1 modulators Eur.
+J.
+Med.
+Chem.
+2019 170 141 156 10.1016/j.ejmech.2019.02.074 30878828 26.
+Mitani T.
+Yawata Y.
+Yamamoto N.
+Okuno Y.
+Sakamoto H.
+Nishide M.
+Kayano S.I.
+Stabilization of hydroxy-α-sanshool by antioxidants present in the genus Zanthoxylum Foods 2023 12 3444 37761152 27.
+Brizzi A.
+Aiello F.
+Marini P.
+Cascio M.G.
+Corelli F.
+Brizzi V.
+De Petrocellis L.
+Ligresti A.
+Luongo L.
+Lamponi S.
+Structure-affinity relationships and pharmacological characterization of new alkyl-resorcinol cannabinoid receptor ligands: Identification of a dual cannabinoid receptor/TRPA1 channel agonist Bioorg.
+Med.
+Chem.
+2014 22 4770 4783 25065940 28.
+Maramai S.
+Mugnaini C.
+Paolino M.
+Schiano Moriello A.
+De Petrocellis L.
+Corelli F.
+Aiello F.
+Brizzi A.
+Indole-2-carboxamide as an effective scaffold for the design of new TRPV1 agonists Molecules 2025 30 721 10.3390/molecules30030721 39942824 29.
+Mugnaini C.
+Corelli F.
+Total synthesis of δ-sanshool and analogues thereof Synthesis 2016 4 2085 2092 10.1055/s-0035-1561580 30.
+Fusi C.
+Role of Transient Receptor Potential Ankyrin 1 (TRPA1) Channel in Anticancer Drugs-Induced Peripheral Neuropathy and Pain Ph.D.
+Dissertation Università degli Studi di Firenze Firenze, Italy 2014 31.
+Decosterd I.
+Woolf C.J.
+Spared nerve injury: An animal model of persistent peripheral neuropathic pain Pain 2000 87 149 158 10.1016/S0304-3959(00)00276-1 10924808 32.
+Noriyuki M.
+Tomomi U.
+Intragastric administration of cinnamaldehyde induces changes in body temperature via TRPA1 Biosci.
+Biotechnol.
+Biochem.
+2024 88 196 202 37994656 33.
+Bennacer B.
+Trubuil D.
+Rivalle C.
+Grieson D.S.
+A New methodology for Wittig and Horner-Emmons reactions on a column under microwave irradiation Eur.
+J.
+Org.
+Chem.
+2003 2003 4561 4568 34.
+Aoki K.
+Igarashi Y.
+Nishimura H.
+Morishita I.
+Usui K.
+Application of iron carbonyl complexation to the selective total synthesis of sanshools Tetrahedron Lett.
+2012 53 6000 6003 Corrigendum in Tetrahedron Lett.
+2013 , 54 , 1032 10.1016/j.tetlet.2012.08.135 35.
+Dalvi T.
+Dewangan B.
+Agarwal G.
+Shinde S.D.
+Jain A.
+Srivastava A.
+Sahu B.
+Design, synthesis and in-vitro evaluation of fluorinated triazoles as multi-target directed ligands for Alzheimer disease Bioorg.
+Med.
+Chem.
+Lett.
+2021 42 127999 33839248 36.
+Chianese G.
+Lopatriello A.
+Schiano-Moriello A.
+Caprioglio D.
+Mattoteia D.
+Benetti E.
+Ciceri D.
+Arnoldi L.
+De Combarieu E.
+Vitale R.M.
+Cannabitwinol, a dimeric phytocannabinoid from hemp, Cannabis sativa L., is a selective thermo-TRP modulator J.
+Nat.
+Prod.
+2020 83 2727 2736 10.1021/acs.jnatprod.0c00668 32880179 37.
+Mattoteia D.
+Schiano Moriello A.
+Taglialatela-Scafati O.
+Amodeo P.
+De Petrocellis L.
+Appendino G.
+Vitale R.M.
+Caprioglio D.
+The Combined Effect of Branching and Elongation on the Bioactivity Profile of Phytocannabinoids.
+Part I: Thermo-TRPs Biomedicines 2021 9 1070 10.3390/biomedicines9081070 34440274 38.
+Schiano Moriello A.
+Luongo L.
+Guida F.
+Christodoulou M.S.
+Perdicchia D.
+Maione S.
+Passarella D.
+Di Marzo V.
+Petrocellis L.
+Chalcone Derivatives activate and desensitize the transient receptor potential ankyrin 1 cation channel, subfamily A, member 1 TRPA1 ion channel: Structure-activity relationships in vitro and anti-nociceptive and anti-inflammatory activity in vivo CNS Neurol.
+Disord.
+Drug Targets 2016 15 987 994 27071783 39.
+Suo Y.
+Wang Z.
+Zubcevic L.
+Hsu A.L.
+He Q.
+Borgnia M.J.
+Ji R.R.
+Lee S.Y.
+Structural insights into electrophile irritant sensing by the human TRPA1 channel Neuron 2020 105 882 894.e5 31866091 40.
+Balestrini A.
+Joseph V.
+Dourado M.
+Reese R.M.
+Shields S.D.
+Rougé L.
+Bravo D.D.
+Chernov-Rogan T.
+Austin C.D.
+Chen H.
+A TRPA1 inhibitor suppresses neurogenic inflammation and airway contraction for asthma treatment J.
+Exp.
+Med.
+2021 218 e20201637 10.1084/jem.20201637 33620419 41.
+Liu C.
+Reese R.
+Vu S.
+Rougé L.
+Shields S.D.
+Kakiuchi-Kiyota S.
+Chen H.
+Johnson K.
+Shi Y.P.
+Chernov-Rogan T.
+A Non-covalent ligand reveals biased agonism of the TRPA1 ion channel Neuron 2021 109 273 284.e4 10.1016/j.neuron.2020.10.014 33152265 42.
+Xiao B.
+Dubin A.E.
+Bursulaya B.
+Viswanath V.
+Jegla T.J.
+Patapoutian A.
+Identification of transmembrane domain 5 as a critical molecular determinant of menthol sensitivity in mammalian TRPA1 channels J.
+Neurosci.
+2008 28 9640 9651 10.1523/jneurosci.2772-08.2008 18815250 43.
+Abbott F.V.
+Guy E.R.
+Effects of morphine, pentobarbital and amphetamine on formalin-induced behaviours in infant rats: Sedation versus specific suppression of pain Pain 1995 62 303 312 10.1016/0304-3959(94)00277-l 8657430 44.
+Fischer M.
+Carli G.
+Raboisson P.
+Reeh P.
+The interphase of the formalin test Pain 2014 155 511 521 10.1016/j.pain.2013.11.015 24291649 45.
+Chennamaneni L.R.
+William A.D.
+Johannes C.W.
+Palladium-catalyzed decarboxylative cross-coupling of 3-pyridyl and 4-pyridyl carboxylates with aryl bromides Tetrahedron Lett.
+2015 56 1293 1296 46.
+Krauss J.
+Stadler M.
+Bracher F.
+Synthesis and Structure–Activity Relationships of Novel Benzylamine Type Antifungals as Butenafine-Related Antimycotics Arch.
+Pharm.
+2017 350 1600342 47.
+Chang M.Y.
+Wu M.H.
+Synthesis of benzo[ g ]chrysenes Tetrahedron Lett.
+2013 69 129 136 48.
+Mmutlane E.M.
+Michael J.P.
+Green I.R.
+De Koning C.B.
+The synthesis of ventiloquinone L, the monomer of cardinalin 3 Org.
+Biomol.
+Chem.
+2004 2 2461 2470 10.1039/b407208a 15326526 49.
+Kyogoku K.
+Hatayama K.
+Yokomori S.
+Saziki R.
+Nakane S.
+Sasajima M.
+Sawada J.
+Ohzeki M.
+Tanaka I.
+Anti-ulcer effect of isoprenyl flavonoids.
+II.
+Synthesis and anti-ulcer activity of new chalcones related to sophoradin Chem.
+Pharm.
+Bull.
+1979 27 2943 2953 50.
+Castilho M.S.
+Pavão F.
+Oliva G.
+Ladame S.
+Willson M.
+Périé J.
+Evidence for the two phosphate binding sites of an analogue of the thioacyl intermediate for the Trypanosoma cruzi glyceraldehyde-3-phosphate dehydrogenase-catalyzed reaction, from its crystal structure Biochemistry 2003 42 7143 7151 12795610 51.
+Horsham M.A.
+Class T.J.
+Johnston J.J.
+Casida J.E.
+Metabolites of the prototype insecticide (2E,4E)-N-isobutyl-6-phenylhexa-2,4-dienamide.
+1.
+Synthesis, chromatography, spectroscopy, and biological activity J.
+Agric.
+Food Chem.
+1989 37 777 781 52.
+Chochkova M.
+Georgieva A.
+Ilieva T.
+Andreeva M.
+Pramatarov G.
+Petek N.
+Petrova P.
+Sticha M.
+Mitrev Y.
+Svete J.
+Hybridization of Aminoadamantanes with Cinnamic Acid Analogues and Elucidation of Their Antioxidant Profile J.
+Chem.
+2022 2022 7582587 10.1155/2022/7582587 53.
+Wilson K.L.
+Murray J.
+Jamieson C.
+Watson A.J.B.
+Cyrene as a bio-based solvent for HATU mediated amide coupling Org.
+Biomol.
+Chem.
+2018 16 2851 2854 10.1039/c8ob00653a 29630081 54.
+Patra T.
+Bag S.
+Kancherla R.
+Mondal A.
+Dey A.
+Pimparkar S.
+Agasti S.
+Modak A.
+Maiti D.
+Palladium-catalyzed directed para C-H functionalization of phenols Angew.
+Chem.
+Int.
+Ed.
+Engl.
+2016 55 7751 7755 27159887 55.
+Xu J.
+Chen J.
+Gao F.
+Xie S.
+Xu X.
+Jin Z.
+Yu J.-Q.
+Sequential functionalization of meta-C–H and ipso-C–O bonds of phenols J.
+Am.
+Chem.
+Soc.
+2019 141 1903 1907 30665300 56.
+Zhang P.
+Min Z.
+Gao Y.
+Bian J.
+Lin X.
+He J.
+Ye D.
+Li Y.
+Peng C.
+Cheng Y.
+Discovery of novel benzothiazepinones as irreversible covalent glycogen synthase kinase 3β inhibitors for the treatment of acute promyelocytic leukemia J.
+Med.
+Chem.
+2021 64 7341 7358 10.1021/acs.jmedchem.0c02254 34027661 57.
+Mugnaini C.
+Brizzi A.
+Paolino M.
+Scarselli E.
+Castelli R.
+de Candia M.
+Gambacorta N.
+Nicolotti O.
+Kostrzewa M.
+Kumar P.
+Novel dual-acting hybrids targeting type-2 cannabinoid receptors and cholinesterase activity show neuroprotective effects in vitro and amelioration of cognitive impairment in vivo ACS Chem.
+Neurosci.
+2024 15 955 971 10.1021/acschemneuro.3c00656 38372253 58.
+Pettersen E.F.
+Goddard T.D.
+Huang C.C.
+Couch G.S.
+Greenblatt D.M.
+Meng E.C.
+Ferrin T.E.
+UCSF chimera—A visualization system for exploratory research and analysis J.
+Comput.
+Chem.
+2004 25 1605 1612 10.1002/jcc.20084 15264254 59.
+Schmidt M.W.
+Baldridge K.K.
+Boatz J.A.
+Elbert S.T.
+Gordon M.S.
+Jensen J.H.
+Koseki S.
+Matsunaga N.
+Nguyen K.A.
+Su S.
+General atomic and molecular electronic structure system J.
+Comput.
+Chem.
+1993 14 1347 1363 10.1002/jcc.540141112 60.
+Fox T.
+Kollman P.A.
+Application of the RESP methodology in the parametrization of organic solvents J.
+Phys.
+Chem.
+B 1998 102 8070 8079 10.1021/jp9717655 61.
+Morris G.M.
+Huey R.
+Lindstrom W.
+Sanner M.F.
+Belew R.K.
+Goodsell D.S.
+Olson A.J.
+AutoDock4 and AutoDockTools4: Automated docking with selective receptor flexibility J.
+Comput.
+Chem.
+2009 30 2785 2791 10.1002/jcc.21256 19399780 62.
+Sali A.
+Blundell T.L.J.
+Comparative protein modelling by satisfaction of spatial restraints Mol.
+Biol.
+1993 234 779 815 10.1006/jmbi.1993.1626 8254673 63.
+Case D.A.
+Betz R.M.
+Cerutti D.S.
+Cheatham T.E.
+Darden T.A.
+Duke R.E.
+Giese T.J.
+Gohlke H.
+Goetz A.W.
+Homeyer N.
+AMBER 2016 University of California San Francisco, CA, USA 2016 Figures, Schemes and Table Figure 1 Chemical structure of TRPA1 electrophilic agonists and selected sanshools.
+Figure 2 Scaffold skeleton structures of the three different families: A, B, and C.
+( A ): Compounds retaining the δ-sanshool diene system between the carboxamide head R 1 and the aromatic tail R 2 .
+( B ): Compounds containing a single trans double bond, designed to mimic N -cinnamyl anthranilate compounds [ 31 ] whose structure is inspired by cinnamaldehyde, a natural agonist of TRP channels [ 32 ].
+( C ): Compounds incorporating a polar 1,2,3-triazole linker to modulate physicochemical and pharmacodynamic properties.
+ijms-27-01716-sch001_Scheme 1 Scheme 1 General procedure to obtain the trans diene scaffold.
+ijms-27-01716-sch002_Scheme 2 Scheme 2 Synthesis of aldehydes 1 – 5 .
+ijms-27-01716-sch003_Scheme 3 Scheme 3 Synthesis of Family A compounds 11 – 26 .
+ijms-27-01716-sch004_Scheme 4 Scheme 4 Synthesis of Family B compounds 27 and 28 .
+ijms-27-01716-sch005_Scheme 5 Scheme 5 Synthesis of Family B compounds 29 and 30 .
+ijms-27-01716-sch006_Scheme 6 Scheme 6 Synthesis of Family B compounds 31 – 34 .
+ijms-27-01716-sch007_Scheme 7 Scheme 7 Synthesis of Family C compound 39 .
+Figure 3 Energy-minimized rTRPA1 complex with compounds 30 (pose1 panel ( A ), pose2 panel ( B )) colored in green and 17 (pose1 panel ( C ), pose2 panel ( D )) colored in steel blue at Site1ago.
+A ribbon representation is used for the protein backbone and sticks for protein side chains of residues within 5 Å from the ligand, in ball and stick representation.
+The two adjacent monomers are colored in tan and yellow.
+Carbon atoms are painted according to receptor subunits.
+H-bonds are shown as green sticks.
+Nitrogen, oxygen, bromine and polar hydrogen atoms are painted blue, red, brown and white, respectively.
+Figure 4 Energy-minimized rTRPA1 complex with compound 19 colored in purple at Site2ago.
+A ribbon representation is used for the protein backbone and sticks for protein side chains of residues within 5 Å from the ligand, in ball and stick representation.
+The two adjacent monomers are colored in tan and yellow.
+Carbon atoms are painted according to receptor subunits.
+H-bonds are shown as green sticks.
+Nitrogen, oxygen, and polar hydrogen atoms are painted blue, red, and white, respectively.
+Figure 5 Energy-minimized rTRPA1 complex with compound 32 colored in light blue at Site1ago in pose1 (panel ( A )) and pose 2 (panel ( B )).
+A ribbon representation is used for the protein backbone and sticks for protein side chains of residues within 5 Å from the ligand, in ball and stick representation.
+The two adjacent monomers are colored in tan and yellow.
+Carbon atoms are painted according to receptor subunits.
+H-bonds are shown as green sticks.
+Nitrogen, oxygen, and polar hydrogen atoms are painted blue, red, and white, respectively.
+Figure 6 rTRPA1 in complex with compound 29 colored in pink at Site1ant (panel ( A )) and Site2ant (panel ( B )).
+A ribbon representation is used for the protein backbone and sticks for protein side chains of residues within 5 Å from the ligand, in ball and stick representation.
+The two adjacent monomers are colored in tan and yellow.
+Carbon atoms are painted according to receptor subunits.
+H-bonds are shown as green sticks.
+Nitrogen, oxygen, and polar hydrogen atoms are painted blue, red, and white, respectively.
+Figure 7 Analgesic effect of compounds 30 or 17 on formalin test and SNI-induced allodynia in mice.
+( A , B ) Time course of nociceptive behavior induced by intra-paw formalin injections (1.25%, 30 μL).
+Formalin was injected 10 min after administration of vehicle (10% DMSO in 0.9% NaCl, i.p.) or 30 or 17 (1, 2 and 3 μg/mouse).
+Compound 30 or 17 at the maximum dose of 3 μg was administered alone or in combination with AP18 (0.05 mg/kg, i.p.) ( C , D ).
+AP18 per se did not alter formalin-induced nociceptive behavior.
+Moreover, tactile allodynia ( E ) was induced by SNI and measured on day 15 post-injury with a series of calibrated Von Frey nylon monofilaments.
+Treatment with 17 (0.5, 1 and 2 mg/kg, i.p.) reduced tactile allodynia in a dose-dependent manner.
+Data are shown as the mean ± SEM.
+Two-way ANOVA followed by Tukey or Bonferroni post hoc test.
+* p < 0.05, ** p < 0.001, *** p < 0.0001 vs.
+vehicle–formalin 1.25% or vehicle; ° p < 0.05, °° p < 0.01, vs.
+17 (3 μg) or 30 (3 μg).
+ijms-27-01716-t001_Table 1 Table 1 Compounds 11 – 34 and 39 .
+TRPA1 efficacy, potency and inhibition values.
+Compound TRPA1 Efficacy (% AITC 100 μM) TRPA1 Potency EC 50 μM Inhibition IC 50 μM 11 <10 NA >10 12 74.67 ± 3.03 11.55 ± 1.33 16.13 ± 0.6 13 <10 NA >100 14 25 ± 0.5 3.1 ± 0.1 6.7 ± 3.3 15 <10 NA >100 16 <10 NA >10 17 46.0 ± 0.9 0.86 ± 0.07 3.7 ± 0.7 18 Not soluble 19 61.3 ± 1.9 0.45 ± 0.8 2.5 ± 1.0 20 <10 NA >10 21 71.8 ± 1.2 1.4 ± 0.1 3.7 ± 2.7 22 <10 NA >10 23 <10 NA >10 24 <10 NA >10 25 <10 NA >10 26 42.2 ± 4.4 4.1 ± 0.9 6.9 ± 2.9 27 <10 NA >50 28 <10 NA >100 29 <10 NA 4.8 ± 0.3 30 83.87 ± 1.12 1.21 ± 1.5 2.30 ± 0.10 31 <10 NA >100 32 44.40 26.50 9.4 ± 10 33 <10 NA >50 34 <10 NA >100 39 Not soluble AITC = allyl isothiocyanate; IC 50 = half-maximal inhibitory concentration, EC 50 = half-maximal effective concentration.
+Compounds reported as “not soluble” could not be reliably tested due to insufficient solubility under the assay conditions, NA = not active

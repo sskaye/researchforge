@@ -1,7 +1,7 @@
 ---
 name: mp-bp-extraction
-description: LLM-driven evidence-locked extraction of melting-point and boiling-point data (plus DSC onset, decomposition, sublimation) from a provided set of journal articles. The invoking agent reads each paper directly (Read / bash / pdftotext) and writes rows with a mandatory verbatim evidence quote — the agent is the extractor, not a Python script. Bundled scripts are deterministic POST-extraction checks only, not the extraction engine. Forbids memory-based extraction AND regex-based bulk extractors; both drop audit precision from ~93% to ~56%. Includes mandatory independent Phase-4 verification before declaring success. Apply when the user wants to compile, audit, or extend an mp/bp database from already-supplied papers. Do NOT use to fetch papers from the web.
-version: v1.4
+description: LLM-driven evidence-locked extraction of melting-point and boiling-point data (plus DSC onset, decomposition, sublimation) from supplied journal articles. The agent reads each paper directly (Read / bash / pdftotext) and writes rows with a mandatory evidence_quote. The four fields compound_name, value_raw, evidence_quote, source_url come from LLM reading, not scripts — no regex extractors and no data-entry helpers that hardcode paper content. The bar for emitting a row is compound + value + source correct; quote fidelity is a separate verifiability metric that lints flag advisory-only (Phase-3 lints do NOT auto-drop rows on quote-fidelity issues). DOIs must come from the paper file, never from training memory. Phase 4 independent verification is mandatory before declaring success (max(100, 5%) sample, parallel verifier agents). Apply when compiling, auditing, or extending an mp/bp database from supplied papers. Do NOT use to fetch papers from the web.
+version: v1.6
 ---
 
 # mp/bp extraction protocol
@@ -75,7 +75,7 @@ The deliverable is a **single CSV**. One row per (compound × property × value)
 | `source` | yes | Citation: journal, year, vol, page (or paper title). **NO author names** — the DOI in source_url is the canonical identifier when present. **When no DOI exists**, the `source` field MUST include journal + year + volume + page so the paper is still identifiable. |
 | `source_url` | yes | One of, in priority order: (a) a DOI URL `https://doi.org/10.xxx/xxxxx`; (b) a PMC ID `pmc:PMCxxxxxxx` when the paper has a PMC ID but no DOI in the file; (c) a PubMed ID `pmid:xxxxxxxx`; (d) `textbook:<short-id>` for textbook references. Always non-empty; if no DOI/PMC/PMID can be found, use the paper file's path. |
 | `evidence_location` | yes | Precise pointer (e.g., "Table 1 row 3", "p. 6469 col 2 ¶ 3", "SI Table S4 row 12", "section 3.2.5 ¶ 1"). |
-| `evidence_quote` | yes | Verbatim text from the source from which the value was extracted. **MANDATORY.** Allow only minor whitespace differences vs. the source. |
+| `evidence_quote` | yes | Verbatim text from the source containing the value (and ideally the compound name or its serial code). **MANDATORY** — every row must carry one. Prefer a contiguous substring; allow only minor whitespace differences vs. the source. When PDF layout / watermarks / table-cell separation prevent capturing compound and value in one contiguous span, record the closest local span and let Phase 3 lints flag the quote-fidelity issue as advisory. Quote fidelity is a verifiability concern (Tier 2), not a correctness gate. |
 | `conversion_arithmetic` | when conversion applied | Math shown explicitly, e.g., "200 K − 273.15 = −73.15 °C" or "200 °F − 32) × 5/9 = 93.33 °C". Blank when the source already reports °C. |
 | `notes` | optional | Free text; flag-reason details, family / class, audit history, etc. |
 
@@ -133,11 +133,13 @@ A calculated value:
 For each paper subdirectory in the user's input:
 
 1. **Read the files.** Open the NXML if present; otherwise extract text from the PDF (`pdftotext -layout`). Read `metadata.json` if present.
-2. **Identify the paper's canonical identifier.** Search the file in this order:
-   - **DOI.** NXML `<article-id pub-id-type="doi">`, PDF front matter, or `metadata.json`. If found, this is the `source_url` (as `https://doi.org/<DOI>`).
+2. **Identify the paper's canonical identifier.** Extract from the paper file ONLY — never from training memory, never from the paper's reference list. The DOI in `<reference>` / bibliography entries belongs to a *cited* paper, not to this paper. Use only these locations, in priority order:
+   - **DOI.** NXML `<article-id pub-id-type="doi">`, the PDF front matter (first 1–2 pages), or `metadata.json`. The DOI must appear as a substring of the paper file's text. If found, this is the `source_url` (as `https://doi.org/<DOI>`).
    - **PMC ID.** NXML `<article-id pub-id-type="pmc">` or "PMC########" in PDF text. If no DOI but PMC found, `source_url = pmc:PMC########`.
    - **PMID.** NXML `<article-id pub-id-type="pmid">` or "PMID: ########" in PDF text. If no DOI/PMC, `source_url = pmid:########`.
    - **Citation-only.** Older papers (pre-2000) sometimes have no DOI/PMC/PMID. In that case ensure `source` carries the full citation (journal + year + volume + page) and `source_url` uses whatever identifier IS available. A paper with no DOI but a complete citation is **not** an extraction failure.
+
+   **If none of the above is in the paper file**, the paper has no DOI you can use — use the PMC / PMID / legacy fallback. **Never guess a DOI from training memory** based on the journal/year/title. Trial-2 found 4 rows that cited DOIs which appeared nowhere in the source files — likely memory-guesses. The `verify_doi.py` script substring-checks the DOI against the paper file and will catch this, but the rule has to apply during extraction.
 3. **Verify the identifier.** If you found a DOI, run `python3 scripts/crossref_lookup.py <DOI>`. Confirm the returned title is consistent with the paper file. If the title doesn't match, the DOI in the file is wrong — flag the paper, do not extract. If you found only a PMC/PMID/citation, skip the CrossRef step — citations are self-verifying through their journal+year+vol+page.
 4. **Note the paper's reporting conventions.** Read the abstract / experimental section to identify: (a) is this paper *measuring* the values it reports (synthesis paper, characterization study, thermodynamic measurement) or *calculating / compiling* them (review, QSPR, prediction model)? (b) what unit conventions are used (°C, K, °F)?
 5. **Identify candidate locations.** Skim the paper for tables, figures, paragraph mentions of mp / bp / m.p. / Tm / Tfus / boiling point / Tb. Note page / table / figure numbers per region.
@@ -152,14 +154,18 @@ For every (compound × property × value) you extract, produce one row with:
 2. **`evidence_quote`** — verbatim text containing the value. Character-for-character, allowing only minor whitespace differences.
 3. **`conversion_arithmetic`** — if you converted units, show the math. Blank if `value_raw` is already in °C.
 
-**Quote re-confirmation (mandatory before committing each row).** After you've drafted the row, BEFORE adding it to the output:
+**Quote re-confirmation (before committing each row).** After you've drafted the row, BEFORE adding it to the output:
 
 1. Re-open the paper file at `evidence_location`.
-2. Do a substring search for your `evidence_quote`. It must be present **verbatim** (allowing only whitespace differences — multi-space → single space, NFC unicode, ASCII hyphen for −/–/—, but NOT extra/missing words and NOT doubled tokens from PDF column artifacts).
-3. Confirm the `value_raw` you recorded is the value adjacent to the compound in that quote (not an adjacent measurement like a freezing point next to a boiling point).
-4. If the quote is not verbatim present, OR if the value next to the compound in the quote differs from your `value_raw`, DROP the row or rewrite the `evidence_quote` to the exact text that actually contains the value. Do not commit a row whose quote is approximate.
+2. Try to produce a verbatim contiguous span that contains both the compound (or its serial code) and the value. Permitted normalizations: whitespace collapsing (multi-space → single space), NFC unicode, ASCII hyphen folding (−/–/— → -). The ideal quote is a string `grep -F` over the paper file would return.
+3. **If you can't capture both in one contiguous span** (2-column PDF wrap puts the value on a separate physical line, a watermark splits a sentence, table cells are separated by spacing, the paper uses its own ellipsis or shorthand) — record the closest contiguous span that supports the row, typically the local clause containing the value. Phase 3 lints flag quote-fidelity issues for maintainer review; they do NOT cause the row to be dropped.
+4. **CRITICAL — confirm the recorded `value_raw` matches the paper's printed value for this compound.** If the quote says "f.p. -161.5" but `value_raw` says "36.98 °C" because you read a boiling-point value but quoted the freezing-point line, fix the row — that's a Tier-1 correctness failure (wrong value bound to compound), not a quote-fidelity issue.
+5. **CRITICAL — confirm `compound_name` is the compound the value actually belongs to.** Multi-row PDF tables can put a value on the row of a different compound than the agent assumed. Re-read the row label.
+6. **Verify `conversion_arithmetic`** (if present) is mathematically correct.
 
-This step exists because past trials surfaced two recurring failure modes that bypass the rest of the protocol: (a) the agent records the adjacent measurement's text as the quote ("f.p. -161.5" alongside a bp value), and (b) the agent transcribes a PDF column-doubling artifact ("White White powder, powder") rather than the actual paper line. Both are caught only by re-reading the source against the row before committing.
+The bar for emitting a row is: compound is identifiable, value matches the paper, source citation is real. Quote fidelity is a separate verifiability property — Phase 3 lints flag it, but a non-ideal quote does not by itself cause the row to be dropped.
+
+The Tier-1 correctness failure this step exists to prevent is **wrong-compound-bound-to-value** (the agent records compound 23 with compound 25's m.p. because they sat on adjacent table rows). Quote-fidelity issues (PDF column wraps, watermarks, OCR-mangled text, paper's own ellipsis usage) are NOT failures and should not cause the row to be dropped; the lint will flag them as advisory.
 
 Also:
 - `compound_name`: full name as printed in the source. For prose-style names that span multiple PDF lines, reassemble them. For multi-line table cells, capture the complete name.
@@ -188,15 +194,16 @@ The umbrella runs:
 
 | Check | What it catches |
 |---|---|
-| `validate_compound_name.py` | SMILES invalid (RDKit) when `compound_smiles` is populated; chemistry-implausible structures |
-| `value_range_check.py` | mp outside [−275, 4500] °C; bp outside [−275, 6500] °C |
-| `unit_conversion_arithmetic.py` | Arithmetic errors in K/°F → °C conversion; missing conversion when units don't match |
-| `verify_doi.py` | DOI in `source_url` doesn't appear in the paper file's text (catches transcription errors) |
-| `verify_evidence_quote.py` | `evidence_quote` not present (verbatim) in the paper file (catches fabrication / wrong paper) |
-| `dedup_within_paper.py` | Same (compound, property, value) emitted multiple times for one paper |
-| Required-field check | Any of `compound_name`, `value_celsius`, `source_url`, `evidence_location`, `evidence_quote` empty |
-| Placeholder citations | Source contains "Author et al." / "(related ... cited in)" |
-| Truncated compound names | Names ending in substituent prefix ("...hydroxy", "...iodo") without parent scaffold |
+| `validate_compound_name.py` | SMILES invalid (RDKit); compound-name shape defects: bare codes, truncated-locant `H-Indeno...` prefix, dangling hyphen/prime, unbalanced parens, terminal unfinished-suffix tokens (`Carboxamid`, `Carbo`), procedure-text contamination, EA-prefix contamination, leading paper-local code prefix, procedure-text at start. **Tier-1 correctness.** |
+| `value_range_check.py` | mp outside [−275, 4500] °C; bp outside [−275, 6500] °C. **Tier-1 correctness.** |
+| `unit_conversion_arithmetic.py` | Arithmetic errors in K/°F → °C conversion; missing conversion when units don't match. **Tier-1 correctness.** |
+| `verify_doi.py` | DOI in `source_url` doesn't appear in the paper file's text (catches memory-guessed or bibliography-sourced DOIs). **Tier-1 correctness.** |
+| `csv_quote_lint.py` | Unquoted commas in compound names producing column shifts (RFC-4180). **Tier-3 hygiene.** |
+| `dedup_within_paper.py` | Same (compound, property, value) emitted multiple times for one paper. **Tier-3 hygiene.** |
+| Required-field check | Any of `compound_name`, `value_celsius`, `source_url`, `evidence_location`, `evidence_quote` empty. **Tier-3 hygiene.** |
+| Placeholder citations | Source contains "Author et al." / "(related ... cited in)". **Tier-1 correctness.** |
+| `verify_evidence_quote.py` | `evidence_quote` not verbatim in the paper file. **Tier-2 verifiability (advisory).** |
+| `quote_support_lint.py` | `evidence_quote` doesn't contain the numeric value. **Tier-2 verifiability (advisory).** |
 
 If any rows are flagged, **fix them before delivery**. Do not deliver flagged rows mixed with verified ones — they should sit in `flagged_review` status with notes.
 
@@ -204,7 +211,7 @@ If any rows are flagged, **fix them before delivery**. Do not deliver flagged ro
 
 This phase is required, not optional. A run that has not been through Phase 4 has unmeasured audit quality — the deterministic Phase 3 checks alone don't catch semantic errors (compound mis-binding, wrong-cell extraction in tables, NMR shift mistaken for mp, etc.). Reports should not claim audit pass-rate numbers without Phase 4 evidence.
 
-A **different agent** (fresh invocation, no context from the extraction) verifies each row. Use the prompt in `references/VERIFICATION_PROMPT_TEMPLATES.md`. The verifier:
+**A different agent** (fresh invocation, no context from the extraction) verifies each row in the sample. Use the prompt in `references/VERIFICATION_PROMPT_TEMPLATES.md`. The verifier:
 
 1. Opens the paper file at the path indicated by the row's `source` / `source_url`.
 2. Navigates to `evidence_location` and confirms `evidence_quote` is verbatim present.
@@ -215,7 +222,31 @@ A **different agent** (fresh invocation, no context from the extraction) verifie
 
 The verifier **must NOT silently correct values** — it reports the discrepancy and lets the maintainer decide.
 
-For programmatic-only verification (no agent needed), `scripts/verify_row.py <csv> <row_id>` runs the deterministic checks but cannot verify that the row's compound name matches the paper semantically (which is what the agent step is for).
+#### Sample size
+
+**`max(100 rows, 5 % of total rows)`**, drawn uniformly at random. The floor of 100 ensures a defensible pass-rate estimate (CI half-width ~5 percentage points near 90 % pass) on small runs. The 5 % minimum scales for large corpora — per-row audit cost is comparable to per-row extraction cost, so a 5 % sample adds ~5 % to total agent-time. Affordable at any corpus size.
+
+For runs with fewer than 100 rows total, audit all rows.
+
+#### Parallel dispatch (required at scale)
+
+Verifier agents run **in parallel, 25 rows per agent, dispatched as one batch**. A 100-row audit = 4 fresh-context agents; a 500-row audit = 20 agents. Wall time is bounded by one agent's per-row time (typically 5–10 min for 25 rows), not by total row count. Sequential single-agent audit is unnecessarily slow at scale.
+
+When the corpus has heterogeneous source types (DOI / PMC / legacy / OCR), **stratify** the sample proportionally across those buckets rather than sampling uniformly. A uniform random sample can under-represent a rare-but-failure-prone bucket.
+
+#### What to do when the sample finds failures
+
+When the Phase 4 sample turns up a failure pattern that looks like a class (e.g., 3 of 100 rows have constructed `evidence_quote` strings matching `f"Table N: ..."`):
+
+1. **Run the relevant deterministic lint across the full CSV** to catch the same defect class everywhere. `quote_template_lint.py` for templated quotes, `quote_support_lint.py` for missing-value quotes, `validate_compound_name.py` for shape defects, `verify_doi.py` for DOI mismatches.
+2. **Fix or drop the matched rows.**
+3. **Run one more 100-row Phase 4 sample** (different seed) to confirm the class is gone before declaring success.
+
+Class-targeted sweeps catch ~100 % of a known defect; random re-sampling catches it only at the prevalence rate. Don't re-sample without sweeping first.
+
+#### Programmatic-only verification
+
+For programmatic-only verification (no agent needed), `scripts/verify_row.py <csv> <row_id>` runs the deterministic checks but cannot verify that the row's compound name matches the paper semantically (which is what the agent step is for). Phase 4 must include at least one agent-based verification pass on a sample — programmatic checks alone are not Phase 4.
 
 ### Phase 5 — Confidence tagging
 
@@ -234,7 +265,28 @@ The `verification_status` enum is documented above. Use it consistently. Granula
 
 ## Anti-patterns (forbidden)
 
-- ❌ **"I'll write a Python regex extractor with `pdftotext` + `re.findall` to scan all papers in bulk."** — This is the single most common way to misapply this skill. Even with `evidence_quote` enforcement bolted on, regex matches text adjacent to mp/bp patterns that an LLM would semantically reject (`5 °C` from "5-substituted aryloxytetrazoles"; `307 °C` from "307 hydrocarbons"; sentence fragments captured as compound names; NMR chemical shifts as mp values). Cross-harness validation showed this approach reaches ~56% audit pass rate vs. ~93% for the LLM-driven approach prescribed by this protocol. The scripts in `scripts/` are POST-extraction deterministic checks (RDKit / value range / unit arithmetic / CSV linting / quote presence), NOT the extraction engine. Build extraction as **per-paper LLM reads** using Read / bash / `pdftotext`.
+### The four evidence-locked fields — general rule
+
+The four fields `compound_name`, `value_raw`, `evidence_quote`, and `source_url` **must come from the LLM directly reading the paper** for the row that ends up in the deliverable. No script may produce, transform, hardcode, or template these fields. This is the methodology the skill is built around — every other rule below is a specific case of it.
+
+Scripts ARE allowed for:
+- Corpus enumeration (listing paper subdirectories, splitting into batches)
+- Orchestration (dispatching parallel LLM agents, merging their CSVs)
+- Enum normalization (e.g., `experimental` → `measured` in `data_type`)
+- Field-format cleanup (RFC-4180 CSV quoting, ID assignment, dedup)
+- Phase-3 deterministic checks (validate_compound_name.py, value_range_check.py, etc.)
+- Phase-4 audit dispatch (sample selection, parallel verifier dispatch)
+
+Scripts are NOT allowed for:
+- Producing `compound_name`, `value_raw`, `evidence_quote`, or `source_url` values
+- Constructing `evidence_quote` strings via f-string templates from variables you read manually
+- Bulk-extracting rows from `pdftotext` output via regex
+- Any "data-entry helper" that hardcodes paper content into Python literals
+
+### Specific anti-patterns
+
+- ❌ **"I'll write a Python regex extractor with `pdftotext` + `re.findall` to scan all papers in bulk."** — Cross-harness validation showed this approach reaches ~56% audit pass rate vs. ~93% for the LLM-driven approach. Regex matches text adjacent to mp/bp patterns that an LLM would semantically reject (`5 °C` from "5-substituted aryloxytetrazoles"; `307 °C` from "307 hydrocarbons"; sentence fragments captured as compound names; NMR chemical shifts as mp values).
+- ❌ **"I'll write a Python data-entry script that hardcodes the compound names and values and constructs `evidence_quote` strings via f-strings."** — Even when you read the source tables manually, a script that emits `f"Table III: {nm} BP {bp} MP {mp}"` produces a paraphrased quote, not a verbatim one. The string never appeared in the paper. Trial-2 measured this failure mode at ~45% audit pass on 770 rows of large reference-table PDFs. The quote must be a string a `grep -F` over the paper file would return. If a table has 100 compounds and direct LLM reading feels slow, dispatch more parallel LLM workers — do not template the quotes.
 - ❌ "I'll compile from training memory since I can't read the file" — **STOP and flag.**
 - ❌ "The value seems plausible for this compound" — plausibility is not provenance.
 - ❌ "I'll guess at the DOI" — use what's in the paper file; if it's missing, flag.
@@ -267,11 +319,13 @@ All in `scripts/`. Run with `python3 scripts/<name>.py --help` for arguments.
 | Script | Purpose |
 |---|---|
 | `crossref_lookup.py` | DOI → authoritative title / journal / year. Verifies the DOI extracted from a paper file is real. |
-| `validate_compound_name.py` | RDKit-based SMILES validation + chemistry-plausibility (when `compound_smiles` populated). |
+| `validate_compound_name.py` | RDKit-based SMILES validation + compound-name shape lint (bare codes, truncated-locant prefix, dangling hyphen/prime, unbalanced parens, terminal unfinished-suffix tokens, procedure-text contamination, **v1.6:** EA-prefix contamination, leading paper-local code prefix, procedure-text at start). |
 | `value_range_check.py` | Flag values outside plausible mp/bp ranges (mp: [−275, 4500] °C, bp: [−275, 6500] °C). |
 | `unit_conversion_arithmetic.py` | Verify K → °C and °F → °C math. |
 | `verify_doi.py` | Confirm the DOI in `source_url` actually appears in the paper file's text. |
-| `verify_evidence_quote.py` | Confirm `evidence_quote` is verbatim present in the paper file. |
+| `verify_evidence_quote.py` | Confirm `evidence_quote` is verbatim present in the paper file. Advisory (Tier 2 verifiability). |
+| `quote_support_lint.py` | Confirm `evidence_quote` contains the numeric `value_raw` token. Advisory (Tier 2 verifiability); does NOT auto-drop rows. |
+| `csv_quote_lint.py` | Verify RFC-4180 CSV quoting; detect column shifts from unquoted commas in compound names. |
 | `dedup_within_paper.py` | Flag duplicate rows within one paper. |
 | `verify_row.py` | Run all programmatic checks for a single row. |
 | `run_all_checks.py` | Umbrella runner; produces `flags.csv` listing every flagged row. |

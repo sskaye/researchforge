@@ -1,0 +1,127 @@
+[
+  {
+    "id": "325",
+    "verdict": "pass",
+    "notes": "Quote 'White solid; yield 0.16 g, 34%; m.p. 233-235 °C' is verbatim in NXML/article_text.txt (compound 2l section, distinct from compound 2k which is 0.16 g 37% mp 232-234). Value 233-235 °C matches; data_type=measured matches Section 3 synthesis context."
+  },
+  {
+    "id": "1719",
+    "verdict": "flagged_data_type_mismatch",
+    "notes": "Quote 'Na4 P2 O7 ·10H2 O        79.5       184' verbatim in chen.txt review-paper table; DOI 10.3390/nano14131077 present. Value 79.5 °C matches. However the table cites reference [53] for this row — it is a literature-compiled value, not measured in this work. data_type=measured is wrong."
+  },
+  {
+    "id": "384",
+    "verdict": "pass",
+    "notes": "Paper has 'Yield 0.263 g (94%), mp 99.6°C' (no space before °C). Quote 'mp 99.6 °C' differs only by a single inserted space; under whitespace-folded match this is a contiguous substring. value 99.6 and compound 4h match the experimental section."
+  },
+  {
+    "id": "966",
+    "verdict": "pass",
+    "notes": "Quote 'm.p. 95-97°C' is verbatim in article_text.txt for compound 7d-base section. Value 95-97 °C matches; data_type=measured fits experimental synthesis context."
+  },
+  {
+    "id": "58",
+    "verdict": "pass",
+    "notes": "PDF source (2019_Rubstov ... PARP-1 inhibitors.pdf). Quote 'Yellow solid; 1.90 g, 85 % yield; m.p. 253-255' is a contiguous substring of pdftotext output for compound 4a. Value 253-255 matches. data_type=measured matches Experimental section. DOI 10.1021/acs.joc.9b00711 is the JOC pre-print of this article."
+  },
+  {
+    "id": "1822",
+    "verdict": "pass",
+    "notes": "Source_url DOI 10.3390/molecules29194778 found in khalifa_2024_thiopyrimidine_sulfonamide HTML. Quote 'White powder, mp 262–265 °C, 629 mg, 89%' is verbatim in the HTML. PDF version shows the same data in a table layout. Compound M22 named correctly; value 262-265 matches; data_type=measured fits."
+  },
+  {
+    "id": "468",
+    "verdict": "pass",
+    "notes": "Quote 'light-brown solid; mp 108-109 °C' is verbatim in article_text.txt for compound 7g experimental description. Value 108-109 °C matches; data_type=measured fits."
+  },
+  {
+    "id": "1728",
+    "verdict": "flagged_doi_unrelated_paper",
+    "notes": "source_url DOI 10.3390/molecules27227932 does NOT appear in the paper. The actual paper (Boukeciat et al., Materials 2022, 15, 8138) has DOI 10.3390/ma15228138 — a different journal/article. The table row 'AN/NC-DEGDN 187.5 192.3 4.8 1961.8' is verbatim in the paper text, but the citation URL is wrong."
+  },
+  {
+    "id": "1295",
+    "verdict": "flagged_data_type_mismatch",
+    "notes": "Quote '4-OMe 8 85 224 expl. 225 dec. [ 24 ]' is verbatim in Table 2 of article_text.txt; the trailing '[ 24 ]' explicitly marks this value as from reference 24 (Plesnicar 1995). data_type=measured is wrong — the value is a literature reference, not measured in this paper."
+  },
+  {
+    "id": "1210",
+    "verdict": "pass",
+    "notes": "Quote '(10f) A buff precipitate was obtained in a yield of 74%; mp 163–165 °C' is verbatim in article_text.txt; compound 10f. Value 163-165 matches; data_type=measured fits."
+  },
+  {
+    "id": "631",
+    "verdict": "pass",
+    "notes": "Quote 'm.p. 121 °C' is verbatim in article_text.txt in compound 4g description. Value 121 matches. source_url pmc:PMC6264237 is correctly resolved to the Molecules 2011 PMC article. data_type=measured fits."
+  },
+  {
+    "id": "705",
+    "verdict": "pass",
+    "notes": "Quote '3-Hydroxy-2,2-dimethyl-(4-methoxyphenyl)butanoic acid; C 13 H 18 O 4 ; M w = 238.28; Melting point: 120 °C' is verbatim in article_text.txt Section 3.1.2. Value 120 matches; pmc:PMC3685236 correctly maps."
+  },
+  {
+    "id": "1399",
+    "verdict": "pass",
+    "notes": "Quote 'White solid, yield: 96% (96 mg); mp: 244–246 °C' is verbatim in article_text.txt for compound 12c. Value 244-246 matches; data_type=measured fits."
+  },
+  {
+    "id": "865",
+    "verdict": "pass",
+    "notes": "Quote 'Melting point: 119–121 °C' is verbatim in article_text.txt for compound 10 synthesis. Value 119-121 matches; data_type=measured fits."
+  },
+  {
+    "id": "1382",
+    "verdict": "pass",
+    "notes": "Quote 'white solid; mp 154.9–200.0 °C' is verbatim in article_text.txt for compound 4ag/4da. Value 154.9-200.0 matches (the wide melting range is as reported in paper). data_type=measured fits."
+  },
+  {
+    "id": "366",
+    "verdict": "pass",
+    "notes": "Quote 'Yield: 41% as an off-white solid. mp 164 °C' is verbatim in article_text.txt for compound 10e. Value 164 matches; data_type=measured fits."
+  },
+  {
+    "id": "1687",
+    "verdict": "flagged_value_mismatch",
+    "notes": "Quote is verbatim in article_text.txt Table 1 ('trans -4d ... m.p. °C 135-6 1) >210 decom 147-8 1) 176-7 1) ...'). However value_raw '176-177 °C' is NOT a substring of the quote — the paper writes '176-7' (range shorthand). v1.5 rule: 'verbatim but missing the numeric value_raw → flagged_evidence_quote_not_found'. Strictly, the value reformatted from 176-7 to 176-177 is a defensible expansion but does not appear in the quote itself."
+  },
+  {
+    "id": "1443",
+    "verdict": "pass",
+    "notes": "Quote 'as a brown fluffy solid (540 g, 2.41 mol, 91%). mp = 294–296 °C (lit. = 295–297 °C)' is verbatim in article_text.txt for compound 9 experimental. Value 294-296 matches; data_type=measured fits (paper reports its own mp; lit ref is a separate parenthetical)."
+  },
+  {
+    "id": "972",
+    "verdict": "pass",
+    "notes": "Quote 'm.p. 111-113 °C' is verbatim in article_text.txt for compound 8c-base. Value 111-113 matches; data_type=measured fits."
+  },
+  {
+    "id": "1223",
+    "verdict": "pass",
+    "notes": "Quote '(6d) Yield: 76%; mp 219–221 °C' is verbatim in article_text.txt for compound 6d. Value 219-221 matches; data_type=measured fits."
+  },
+  {
+    "id": "1668",
+    "verdict": "flagged_data_type_mismatch",
+    "notes": "Quote '67 cyclononane 178.4 165.82 12.58 168.18 10.22 171.95 6.45' is verbatim in article_text.txt Table 12. The 178.4 °C value is the 'Obsd (°C)' column for the training-set boiling point compiled from Estrada (ref [25]) — it is literature-compiled, not measured in this paper. data_type=measured is wrong (notes field already acknowledges this)."
+  },
+  {
+    "id": "679",
+    "verdict": "pass",
+    "notes": "Quote 'Cyano-{[4-(2-methyl-4-oxo-4H-quinazolin-3-yl)-phenyl]hydrazono}acetic acid ethyl ester ( 7a ). Pale yellow crystals; yield 2.44 g (65 %); M.p. 128-130 o C' is verbatim in article_text.txt. Value 128-130 matches; data_type=measured fits."
+  },
+  {
+    "id": "83",
+    "verdict": "pass",
+    "notes": "PDF source. Quote 'White solid; 0.34 g, 70 % yield; m.p. 206-208' is contiguous in pdftotext output for compound 11. Value 206-208 matches; data_type=measured fits."
+  },
+  {
+    "id": "1235",
+    "verdict": "pass",
+    "notes": "Quote 'Yield 0.27 g (89%), mp 350°C (decomp.), R f 0.57 (EtOH–xylene, 1:1.5).' is verbatim in article_text.txt (after whitespace folding). Value 350 °C (decomp.) matches; data_type=measured fits."
+  },
+  {
+    "id": "61",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "PDF source. Quote 'Yellow solid; 1.73 g, 72 % yield; m.p.' is verbatim in pdftotext output but is TRUNCATED — the numeric value_raw '264-265 deg C' is NOT in the quote. The '264-265 °C' appears in the right-hand PDF column on a different line; the quote ends at 'm.p.' without the value. v1.5 rule 3: 'verbatim but missing the numeric value_raw → flagged_evidence_quote_not_found'."
+  }
+]

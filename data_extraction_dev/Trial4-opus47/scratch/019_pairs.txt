@@ -1,0 +1,59 @@
+L180: PREV2=The oil that precipitated from the reaction mixture was heated in isopropyl alcohol until a white precipitate formed.
+      MP=The precipitate was filtered and dried under vacuum to a constant weight to give the target compound 1 as a white solid;
+      VAL=206–208 °C.
+
+L197: PREV2=The formed precipitate was filtered off, washed with 20 mL of diethyl ether and dried under vacuum to a constant weight.
+      MP=White solid; yield 0.2 g, 50%; m.p.
+      VAL=290−292 °C.
+
+L210: PREV2=The formed precipitate was filtered off, washed with 20 mL of diethyl ether and dried under vacuum to a constant weight.
+      MP=White solid; yield 0.15 g, 36%; m.p.
+      VAL=258−260 °C.
+
+L224: PREV2=The formed precipitate was filtered off, washed with 20 mL of diethyl ether and dried under reduced pressure to a consta
+      MP=White solid; yield 0.11 g, 25%; m.p.
+      VAL=289−291 °C.
+
+L237: PREV2=The formed precipitate was filtered off, washed with 20 mL of diethyl ether and dried under vacuum to a constant weight.
+      MP=White solid; yield 0.29 g, 61%; m.p.
+      VAL=265−267 °C.
+
+L250: PREV2=The formed precipitate was filtered off, washed with 20 mL of diethyl ether and dried under vacuum to a constant weight.
+      MP=White solid; yield 0.43 g, 81%; m.p.
+      VAL=268−270 °C.
+
+L264: PREV2=The formed precipitate was filtered off, washed with 20 mL of diethyl ether and dried under reduced pressure to a consta
+      MP=White solid; yield 0.16 g, 37%; m.p.
+      VAL=232−234 °C.
+
+L277: PREV2=The formed precipitate was filtered off, washed with 20 mL of diethyl ether and dried under reduced pressure to a consta
+      MP=White solid; yield 0.21 g, 45%; m.p.
+      VAL=218−220 °C.
+
+L290: PREV2=The formed precipitate was filtered off, washed with 20 mL of diethyl ether and dried under reduced pressure to a consta
+      MP=White solid; yield 0.3 g, 55%; m.p.
+      VAL=203−205 °C.
+
+L302: PREV2=The formed precipitate was filtered off, washed with 20 mL of diethyl ether and dried under vacuum to a constant weight.
+      MP=White solid; yield 0.3 g, 63%; m.p.
+      VAL=˃ 300 °C.
+
+L315: PREV2=The formed precipitate was filtered off, washed with 20 mL of diethyl ether and dried under vacuum to a constant weight.
+      MP=White solid; yield 0.27 g, 55%; m.p.
+      VAL=˃ 300 °C.
+
+L330: PREV2=The precipitate that formed was filtered off and dried in a vacuum to a constant weight.
+      MP=White solid; yield 0.12 g, 25%; m.p.
+      VAL=˃ 300 °C.
+
+L343: PREV2=The formed precipitate was filtered off, washed with 20 mL of diethyl ether and dried under vacuum to a constant weight.
+      MP=White solid; yield 0.16 g, 34%; m.p.
+      VAL=233−235 °C.
+
+L357: PREV2=The formed precipitate was filtered off, recrystallized from isopropyl alcohol and dried under vacuum to a constant weig
+      MP=White solid; yield 0.27 g, 60%; m.p.
+      VAL=˃ 300 °C.
+
+L369: PREV2=The formed precipitate was filtered off, washed with 20 mL of diethyl ether and dried under vacuum to a constant weight.
+      MP=White solid; yield 0.12 g, 25%; m.p.
+      VAL=202−203 °C.

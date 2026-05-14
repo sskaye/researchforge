@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "113",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after whitespace/dash normalization; DOI, compound 6c binding, 138-139 deg C melting point, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "403",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Raw HTML quote was present in the cited HTML file and contains compound 3b with Mp 207-210 deg C; DOI and measured characterization context are supported."
+  },
+  {
+    "row_id": "182",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 2a with mp 91-93 deg C; DOI, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "389",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The value and compound are present in the HTML source, but the CSV evidence_quote is rendered text that omits intervening raw HTML tags such as <b>, <span>, <sup>, and <sub>, so it is not a contiguous source substring under the allowed normalizations."
+  },
+  {
+    "row_id": "63",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 2d with mp 160-162 deg C; DOI, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "77",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 6 supports the compound and 152-154 value under the melting-point column; DOI, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "266",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 5d with mp 178-180 deg C; DOI, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "334",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 2a with mp >300 deg C; DOI, measured data type, and relation are supported."
+  },
+  {
+    "row_id": "118",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 6h with M.P. 168-170 deg C; DOI, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "350",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The PDF text supports o,m'-quaterphenyl with mp 84-86 deg C, but the CSV quote is a dehyphenated/reconstructed paragraph that was not present as a normalized contiguous substring; source_url also uses legacy:manifest_181 even though DOI 10.3762/bjoc.15.258 appears in the paper."
+  },
+  {
+    "row_id": "393",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The value and compound are present in the HTML source, but the CSV evidence_quote is rendered text that omits intervening raw HTML tags such as <b>, <span>, <sup>, and <sub>, so it is not a contiguous source substring under the allowed normalizations."
+  },
+  {
+    "row_id": "290",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 4ah with mp 205.9-220.7 deg C; DOI, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "88",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 8a with mp 280-283 deg C (dec); DOI, measured data type, and decomposition classification are supported."
+  },
+  {
+    "row_id": "276",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 5n with mp 200-202 deg C; DOI, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "170",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 12b with MP 222-225 deg C; DOI, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "131",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "The cited evidence_quote reports mp = 112+-2 deg C, while the row records value_raw 112-114 deg C with midpoint 113.0; the row appears to mix the section quote with a separate table value."
+  },
+  {
+    "row_id": "289",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 4ag/4da with mp 154.9-200.0 deg C; DOI, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "175",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports trisulfur lipoic acid with mp 56.9-57.8 deg C; DOI, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "319",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 4h with mp 180-182 deg C; DOI, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "136",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports 3,6-dinitro-9-(4-nitrophenyl) carbazole with m.p. >300 deg C; DOI, measured data type, and relation are supported."
+  },
+  {
+    "row_id": "114",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 6d with M.P. 147-149 deg C; DOI, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "38",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 3l with 180.66 deg C in the synthesis characterization section; DOI and measured melting-point context are supported."
+  },
+  {
+    "row_id": "305",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote was found in article_text.txt after normalization and supports compound 13c with mp 165-167 deg C; DOI, measured data type, and midpoint are supported."
+  },
+  {
+    "row_id": "427",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The HTML source supports M16 with mp 248-251 deg C, but the CSV quote joins the heading and characterization paragraph across intervening HTML/image markup, so it is not a contiguous source substring under the allowed normalizations."
+  },
+  {
+    "row_id": "413",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The HTML source supports M2 with mp 184-186, but the CSV quote joins the heading and characterization paragraph across intervening HTML/image markup, so it is not a contiguous source substring under the allowed normalizations."
+  }
+]

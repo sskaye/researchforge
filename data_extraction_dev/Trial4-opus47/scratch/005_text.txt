@@ -1,0 +1,795 @@
+pmc ChemMedChem ChemMedChem 10.1002/(ISSN)1860-7187 CMDC Chemmedchem 1860-7179 1860-7187 John Wiley and Sons Inc.
+Hoboken 41824931 12987641 10.1002/cmdc.202500751 CMDC70195 Research Article Research Article Synthesis, Biological Evaluation, and Theoretical Study of Indenoquinolinylphosphine Oxide Derivatives as Topoisomerase 1 Inhibitors and Antiproliferative Agents Rodriguez Alba 1 Formoso Elena 2 Knudsen Birgitta R.
+3 Tesauro Cinzia 3 Fuertes Maria https://orcid.org/0000-0002-6959-6266 1 maria.fuertes@ehu.eus Alonso Concepcion https://orcid.org/0000-0003-0866-3493 1 concepcion.alonso@ehu.eus 1 Department of Organic Chemistry I Faculty of Pharmacy University of Basque Country (EHU) Vitoria‐Gasteiz Spain 2 Department of Physical Chemistry Faculty of Pharmacy University of Basque Country (EHU) Vitoria‐Gasteiz Spain 3 Department of Molecular Biology and Genetics and Interdisciplinary Nanoscience Center (iNANO) Aarhus University Aarhus Denmark * Maria Fuertes ( maria.fuertes@ehu.eus ) | Concepcion Alonso ( concepcion.alonso@ehu.eus ) 13 3 2026 13 3 2026 21 5 10.1002/cmdc.v21.5 e202500751 07 1 2026 03 9 2025 07 1 2026 © 2026 The Author(s).
+ChemMedChem published by Wiley‐VCH GmbH https://creativecommons.org/licenses/by/4.0/ This is an open access article under the terms of the http://creativecommons.org/licenses/by/4.0/ License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
+The topoisomerase 1 (TOP1) enzymatic inhibition and antiproliferative activity of phosphorated indenoquinoline derivatives were investigated.
+First, the preparation of new hybrid quinoline and tetrahydroquinoline structures with a phosphine oxide group was performed by a two‐step Povarov type [4 + 2]‐cycloaddition reaction between the corresponding phosphorated aldimines with indene in the presence of BF 3 ·Et 2 O, affording corresponding 1,2,3,4‐tetrahydroindeno[2,1‐c]quinolinylphosphine oxides 9 , 7H‐indeno[2,1‐c]quinolinylphosphine oxides 10 and 7‐oxoindeno[2,1‐c]quinolinylphosphine oxides 11 with good yields.
+The synthesized derivatives were evaluated as TOP1 inhibitors, showing that some derivatives ( 9f , 9g , 9l , and 11m ) show better or similar activity to the reference compound (CPT) at 1 min.
+The synthesized derivatives were screened for their antiproliferative activity in different cancerous cell lines, and all of them present a higher selective cytotoxicity in the human lung adenocarcinoma cell line (A549), than in the others.
+In contrast, almost none of the synthesized phosphorated compounds exhibited antiproliferative activity toward nonmalignant lung fibroblasts MCR5.
+These results suggest that phosphine oxide‐substituted quinoline derivatives have important properties as TOP1 inhibitors and show an interesting cytotoxicity against six different cancerous cell lines.
+The topoisomerase I inhibition and antiproliferative activities of phosphorated indenoquinoline derivatives were investigated.
+The target hybrid quinoline and tetrahydroquinoline compounds were synthesized via a two‐step Povarov‐type cycloaddition.
+Biological evaluation antiproliferative assays across multiple cancer cell lines, ADME and docking studies concluded that phosphine oxide–substituted indenoquinolines could be a promising topoisomerase 1 inhibitors with selective anticancer potential.
+© 2026 WILEY‐VCH GmbH antiproliferative agents enzyme inhibition indenoquinolines topoisomerase 1 Ministerio de Ciencia e Innovación 10.13039/501100004837 PID2021‐122558OB‐I00 Hezkuntza, Hizkuntza Politika Eta KulturaSaila, Eusko Jaurlaritza 10.13039/100015866 IT1701‐22 source-schema-version-number 2.0 cover-date 13 March 2026 details-of-publishers-convertor Converter:WILEY_ML3GV2_TO_JATSPMC version:6.7.1 mode:remove_FC converted:13.03.2026 1 Introduction Cancer is a generic term for a large group of diseases that can affect any part of the body and is characterized by abnormal growth of cells that proliferate uncontrollably and metastasize to other organs, which is one of the primary causes of death globally [ 1 ].
+The most common cancers are breast, lung, colon‐rectum, and prostate cancers [ 2 ].
+Therefore, efforts have been continuously made for the development of effective chemotherapy drugs that can have profound impact on society through human health benefits and economic rewards [ 3 , 4 ].
+Despite the discovery of numerous drugs in the treatment of this disease, most of the common treatments have encountered serious problems, such as toxicity and drug resistance, leading to the research in this field attracting a great attention [ 5 ].
+A large percentage of chemotherapeutic drugs presently used in cancer therapeutics target DNA‐modifying enzymes and/or are DNA‐binding agents, such as topotecan, cisplatin, and so on [ 6 ].
+DNA topoisomerases are essential enzymes that resolve the topological issues related to DNA transcription and replication.
+They represent ubiquitous target for chemotherapeutic drugs and are under continuous investigation in the development of novel anticancer agents [ 7 , 8 ].
+Eukaryotic type 1 topoisomerase (TOP1) modulates DNA topology by inducing a transient single‐strand break in the DNA and forming a phosphodiester bond with the DNA.
+Due to its overexpression and elevated activity in many cancer cells, TOP1 is a key target for chemotherapeutic agents, known as TOP1 inhibitors [ 9 ].
+A subset of TOP1 inhibitors, known as TOP1 poisons, interfere with the enzyme's catalytic cycle by stabilizing the covalent TOP1‐DNA intermediate and preventing DNA strand religation.
+This leads to the formation of a DNA‐TOP1‐Drug complex (TOP1cc), ultimately causing cell death by apoptosis [ 10 , 11 ].
+Among TOP1 inhibitors, camptothecin (CPT) and its analogs are the most extensively studied [ 12 , 13 ].
+However, their clinical application use of CPT is limited by poor solubility and unstable properties [ 14 , 15 ].
+CPT and its derivatives show in their structural analysis several flat or quasi‐flat polycyclic heterocycles, which seems to be relevant in the effectiveness of the antiproliferative activity probably due to an improvement in π−π stacking interactions with the DNA base pair.
+Other heterocyclic compounds, such as nitrogenated quinolines, have gained more importance in the recent decades for industrial and clinical reasons, specifically because of their interesting biological activity [ 16 , 17 ].
+For these reasons, we believe that the preparation of new hybrid quinoline compounds with flat or quasi‐flat structure would be an interesting issue [ 18 ].
+It is well known that the Povarov reaction [ 19 ] is a highly atom‐economic tool for the incorporation of nitrogen into heterocyclic compounds with high molecular diversity and excellent regioselectivity, which converts this method into a powerful tool for the preparation of quinolines.
+These compounds play an important role in bioorganic synthesis [ 20 , 21 ] and quinoline is an important structural scaffold present in many agents of pharmaceutical interest exhibiting a wide range of biological activities, such as antiviral [ 22 ], neurotropic [ 23 ], antibiotic [ 24 ], antipsychotic [ 25 ], antitubercular [ 26 ], estrogenic receptors [ 27 ], and antioxidants [ 28 ], among others.
+Besides, several studies have reported cytotoxic activity of tetrahydroquinolines and quinolones on lymphomas, liver, breast, and lung cancer cells [ 29 , 30 ].
+In contrast, organophosphorus compounds have attracted intense interest given their wide applications in the field of agriculture, medicine, and industry [ 31 , 32 , 33 , 34 ], in addition to their utility as synthetic intermediates [ 35 , 36 ].
+They have received attention owing to their pronounced biological activities, and some of these compounds are ubiquitous in nature and have undergone extensive investigations aimed to assess their potential therapeutic properties such as antitumor [ 37 ], antimicrobial [ 38 ], anti‐HIV [ 39 ], antiviral and anti‐inflammatory [ 40 ].
+The bioactivity of these heterocyclic compounds maybe associated both with the particular arrangement of heteroatom and the size of their rings [ 41 ].
+Among phosphorated compounds, phosphine oxide has been the focus of attention in many different areas [ 42 ].
+In this context, since cyclophosphamide was discovered (Figure 1 ) [ 43 ], for its use to treat leukemia and different cancers, to brigatinib [ 44 ], which contains a phosphine oxide moiety attached to an aryl group and is approved in the USA for the treatment of metastatic nonsmall cell lung cancer [ 45 ], some compounds containing this functional group have been described.
+FIGURE 1 Phosphine oxide derivatives with medicinal applications.
+© 2026 WILEY‐VCH GmbH By comparison of the structure of the heterocyclic compounds I, II, and III (Figure 2 ) with CPT structure, we consider whether the introduction of a phosphine oxide group to fuzed indenoquinoline heterocycle could act as biomimetic of the lactone group of CPT.
+This lactone group is precisely one reason of CPT´s disadvantages in the treatment of cancer, since the opening renders the drug inactive shortly after administration.
+Therefore, considering these mentioned aspects, in this work we present the synthesis of new hybrid quinolines II and III and tetrahydroquinoline structures I with phosphine oxide group (Figure 2 ).
+The biological evaluation of these compounds was carried up as TOP1 inhibitors, and the cytotoxicity was evaluated against cancerous and noncancerous cell lines.
+Taking into account not only the interest of these compounds in organic synthesis but also their worth in medicinal chemistry.
+FIGURE 2 Structures of CPT, phosphorated tetrahydroquinoline ( I ) and quinoline ( II , and III ) derivatives.
+© 2026 WILEY‐VCH GmbH 2 Results and Discussion 2.1 Chemistry In order to access easily and efficiently to the corresponding tetrahydroquinolines derivatives with phosphine oxide substituents, we used a two‐step Povarov type [4 + 2]‐cycloaddition reaction.
+Accordingly, the first synthetic step for the preparation of the corresponding phosphine oxide derivatives consisted in the synthesis of the corresponding 2‐aminophenyl(diphenyl)phosphine oxide 1 , which is not commercial.
+The preparation of the phosphorylated aniline was carried out by using 1,2‐dinitrobenzene 2 and ethyl diphenylphosphinite 3 [ 46 ] and subsequent catalytic hydrogenation of the nitro‐derivative 4 (Scheme 1 ).
+SCHEME 1 Synthesis of 2‐(diphenylphosphine oxide)aniline 1 .
+© 2026 WILEY‐VCH GmbH Then, once the starting phosphorylated aniline 1 was prepared, it was reacted with different aromatic aldehydes 5 with both electron‐withdrawing and donor substituents, such as mono‐, di‐ or trifluorinated groups, methoxy, naphthyl, nitro or pyridyl groups.
+The condensation between the ortho ‐phosphorylated aniline 1 and the aromatic aldehydes 5 afforded the corresponding aldimines 6 (Scheme 2 ) detected by NMR spectroscopy.
+These aldimines 6 were reacted in situ with indene 7 in the presence of 2 equivalents of BF 3 ·Et 2 O in refluxing chloroform.
+SCHEME 2 Syntheses of 1,2,3,4‐tetrahydroindeno[2,1‐c]quinolinylphosphine oxides 9 , 7H‐indeno[2,1‐c]quinolinylphosphine oxide 10e and 7‐oxoindeno[2,1‐c]quinolinylphosphine oxides 11 .
+© 2026 WILEY‐VCH GmbH After reaction is over, the corresponding endo 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 were selectively obtained with good yields in a regio‐ and stereospecific way (Scheme 2 , Figure 3 ).
+The structure of these derivatives 9 was assigned on the basis of the NMR spectroscopy.
+Thus, the 1 H NMR spectrum of compound 9a (R = C 6 H 5 ) showed one singlet at δ H = 4.89 ppm corresponding to a proton at 11b position, one doublet at δ H = 4.50 ppm with coupling constant of 3 J HH = 7.4 Hz corresponding to the proton at 6 position, one multiplet at 3.06–3.12 ppm corresponding to the protons at 6a position and to one of the methylenic protons of CH 2 group, and another double doublet at δ H = 2.20 ppm with coupling constants of 2 J HH = 15.6 Hz and 3 J HH = 7.2 Hz corresponding to the other proton of the methylenic group.
+Moreover, in the 13 C NMR spectrum of compound 9a the most characteristic signals corresponding to carbons at positions 11b, 6a and 6 appear at δ C = 45.5, 47.5 y 55.6 ppm respectively, and also that one corresponding to CH 2 group at δ C = 30.8 ppm.
+In the 31 P NMR spectrum, one signal is observed at δ P = 36.2 ppm.
+Additionally, Figure 4 shows the X‐ray structure of compound 9a , confirming the proposed structure as well as the positions of the protons present in the molecule, which correlate with the signals observed in the recorded NMR spectra.
+FIGURE 3 Structures of 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 and 7H‐indeno[2,1‐ c ]quinolinylphosphine oxide 10e obtained.
+© 2026 WILEY‐VCH GmbH FIGURE 4 ORTEP view of the molecular structure of compound 9a with thermal ellipsoids at 50% probability.
+© 2026 WILEY‐VCH GmbH The formation of 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 may be explained through a regio‐ and stereoselective [4 + 2]‐cycloaddition reaction between aldimines 6 , obtained from amine 1 and aldehydes 5 , and indene 7 giving intermediate 8 , followed by a prototrophic tautomerization (Scheme 2 ) to yield derivatives 9 .
+In this case, when p ‐anisaldehyde (R = p ‐MeOC 6 H 4 ) was used only the dehydrogenated compound 10e was obtained, due to the dehydrogenation of the corresponding derivative 9 in the reaction conditions.
+The formation of compound 10e was determinated by 1 H NMR spectroscopy experiment where signals corresponding to the protons of tetrahydroquinoline ring of compound 9e disappeared, except the signals of the CH 2 that changed from two double doublet to a single signal integrating for 2 protons (see supporting information).
+Taking into account this result, we explored the aromatization of other heterocycles 9 with DDQ and other oxidizing agents, but corresponding compounds 10 were not isolated.
+The oxo‐functionalization of organic compounds is a very interesting way to broaden the diversity of a family of organic compounds, such as heterocycles with methylene groups in their structure.
+In this sense, the development of synthetic methods of selective C–H oxidation is a challenge mainly due to the very low reactivity of the methylene group.
+These transformations have attracted great attention and can be identified as a high priority research area of synthetic organic chemistry.
+Among various oxidants that enable oxo‐functionalization, selenium compounds, mainly selenium (IV) oxide, plays an important role in the preparation of oxidized organic compounds [ 47 ].
+Selenium dioxide‐mediated oxidation is regarded as one of the most reliable and predictable methods for allylic hydrogenation [ 48 ].
+Taking this into account, we explored the reaction of previously prepared 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 and 7 H ‐indeno[2,1‐ c ]quinolinylphosphine oxide derivative 10e with selenium oxide in dioxane.
+Therefore, we obtained the corresponding 7‐oxoindeno[2,1‐ c ]quinolinylphosphine oxides 11 (Figure 5 ).
+The formation of compounds 11 was elucidated by 1 H NMR spectroscopy, where signals corresponding to the protons bonded to sp 3 carbons disappeared and only aromatic signals were observed.
+Furthermore, in the 13 C NMR a signal at 180–200 ppm indicated the presence of a C=O and signals corresponding to CH 2 group disappeared.
+FIGURE 5 Structures of 7‐oxoindeno[2,1‐c]quinolinylphosphine oxides 11 obtained.
+© 2026 WILEY‐VCH GmbH This methodology tolerates a wide range of electron‐releasing and electron‐withdrawing aromatic aldehydes, even fluorinated ones, which allow the preparation of fluoro containing compounds, interesting substrates from a biological point of view [ 49 ].
+These aromatic rings give to the compounds a quasi‐planar structure, which is important for the inhibitory activity of TOP1 enzyme [ 10 ].
+Therefore, the next step was to perform the biological study of these compounds as TOP1 inhibitors and as antiproliferative agents against different cancerous and a noncancerous cell lines.
+3 Biological Results 3.1 Inhibition of Topoisomerase 1 The activity as TOP1 inhibitors of newly prepared 1,2,3,4‐ tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 , 7 H ‐indeno[2,1‐ c ]quinolinylphosphine oxide 10e and 7‐oxoindeno[2,1‐ c ]quinolinylphosphine oxides 11 was assayed according to a conventional DNA relaxation assay, determining the inhibitory activity of TOP1 by quantifying the transformation of supercoiled DNA substrate into the relaxing form in presence or absence of these compounds (Table 1 ).
+TABLE 1 TOP1 inhibitory activity of 1,2,3,4‐tetrahydroindeno[2,1‐c]quinolinylphosphine oxides 9, 7H‐indeno[2,1‐c]quinolinylphosphine oxide 10e and 7‐oxoindeno[2,1‐c]quinolinylphosphine oxides 11 derivatives.
+a Entry Compound R TOP1 inhibition 15 s 1 min 3 min 1 CPT ++ ++ – 2 9a Ph ++ – – 3 9b p ‐FC 6 H 4 ++ – – 4 9c p ‐CF 3 C 6 H 4 + – – 5 9d p ‐NO 2 C 6 H 4 – – – 6 9f m ‐MeOC 6 H 4 ++ ++ + 7 9g m ‐FC 6 H 4 +++ ++ ++ 8 9hr m ‐NO 2 C 6 H 4 ++ + – 9 9i o , p ‐F 2 C 6 H 3 + – – 10 9j 1‐napththyl + + – 11 9k 2‐napththyl – – – 12 9l 2‐pyridyl +++ ++ + 13 9m 4‐pyridyl ++ + – 14 10e p ‐MeOC 6 H 4 ++ – – 15 11a Ph ++ + – 16 11c p ‐CF 3 C 6 H 4 +++ – – 17 11d p ‐NO 2 C 6 H 4 +++ + – 18 11e p ‐MeOC 6 H 4 + + – 19 11f m ‐MeOC 6 H 4 ++ – – 20 11g m ‐FC 6 H 4 + + + 21 11hr m ‐NO 2 C 6 H 4 + – – 22 11i o , p ‐F 2 C 6 H 3 + – – 23 11k 2‐napththyl +++ + + 24 11l 2‐pyridyl ++ + – 25 11m 4‐pyridyl ++ ++ + a The activity of the compounds to inhibit TOP1 relaxation was expressed semiquantitatively as follows: ‐, no inhibition; +, weak inhibition; ++ similar activity to camptothecin inhibition; +++ strong inhibition.
+See Supporting information for quantitative values of % inhibition (Table S1).
+© 2026 WILEY‐VCH GmbH In these experiments, compound samples were mixed with enzyme, followed by addition of supercoiled plasmid DNA substrate and continued incubation for increasing time periods (15s, 1 min, and 3 min).
+The reactions were terminated by the addition of SDS, followed by proteinase K digestion.
+DNA relaxation products were then resolved by gel electrophoresis in 1% agarose gel and visualized by gel red staining.
+CPT was used as a positive control (Figure 6 ).
+FIGURE 6 Inhibition of TOP1 activity in a time course (15s, 1 min and 3 min) by compounds 9g , 11l , 11a , 11e and CPT at 100 μM: lines 1–3, DNA + TOP1 + DMSO; lines 4–6, DNA + TOP1+CPT 100 μM; lines 7–9, DNA + TOP1 + 9g 100 μM; lines 10–12, DNA + TOP1 + 11l 100 μM; lines 13–15, DNA + TOP1 + 11a 100 μM; lines 16–18, DNA + TOP1 + 11e 100 μM; lane 19, control DNA.
+Reaction samples were mixed with enzyme at 37°C before adding the supercoiled DNA substrate and separated by electrophoresis on a 1% agarose gel, and then stained with gel red, and photographed under UV light as described in the TOP1 mediated DNA relaxation assay; Sc, supercoiled DNA: R, relaxed.
+© 2026 WILEY‐VCH GmbH TOP1 inhibitory activity was tested by detecting the conversion of supercoiled DNA (Sc, Figure 6 ) to its relaxed form (R, Figure 6 ) in the presence of the purified enzyme and expressed in qualitative fashion relative to the TOP1 inhibitory activity of CPT (Table 1 ).
+As shown in Figure 6 , CPT inhibits the relaxation, as indicated by the increased intensity of the band corresponding to the supercoiled DNA (Sc, lanes 4–5) and this inhibitory activity stops after 3 min (lane 6), because of the instability of the CPT molecule (as previously mentioned, the lactone ring is inherently unstable, and its opening occurs in solution).
+In the results shown in Table 1 it can be observed that at 15 s of enzymatic reaction some compounds show higher inhibition than CPT (entries 7, 12, 16, 17, and 23), however, this may be affected by a random behavior of enzyme at short time period.
+For this reason, the response at 1 min is used to compare inhibition with the CPT control.
+Some compounds show similar TOP1 inhibitory effect than CPT at 1 min (Table 1 ), such as tetrahydroquinolines 9f (R = m ‐MeOC 6 H 4 , entry 6), 9g (R = m ‐FC 6 H 4 , entry 7) and 9l (R = 2‐pyridyl, entry 12) or oxoindeno quinoline 11m (R = 4‐pyridyl, entry 25).
+In contrast, as mentioned above, CPT binds reversibly to TOP1 and the cleavage complexes reverse within 3 min as seen in lane 6 (Figure 6 ).
+The quick detachment from the TOP1 cleaved DNA complex represents one of the disadvantages of CPT‐based anticancer drugs, which imposes long infusions [ 50 ].
+Remarkably, longer effect on some compounds presenting similar or greater inhibition than that observed for the natural inhibitor must be pointed out at 3 min.
+As it can be observed in Table 1 , the compounds 9f (R = m ‐MeOC 6 H 4 , entry 6), 9g (R = m ‐FC 6 H 4 , entry 7), 9l (R = 2‐pyridyl, entry 12), 11g (R = m ‐FC 6 H 4 , entry 20), 11k (R = 2‐naphthyl, entry 23) and 11m (R = 4‐pyridyl, entry 25) presented a maintained effect on inhibiting TOP1 even after 3 min of enzymatic reaction.
+In conclusion, these compounds show their ability to prevent relaxation of supercoiled DNA with high potency over prolonged period, representing an advantage with respect to CPT.
+3.2 Nicking Assays In order to investigate if the new derivatives 9 , 10e and 11 could stabilized in vitro the TOP1cc acting as poisons, a nicking assay was performed (Figure S1) with TOP1 in the presence of 9f , 9g , 9l, and 11m , using CPT as a reference.
+This assay was performed essentially as a standard relaxation assay.
+However, the reaction products were analyzed in a 1% agarose gel containing ethidium bromide.
+When ethidium bromide intercalates into intact double‐stranded plasmid DNA, it introduces positive supercoils, leading to supercoiled and relaxed plasmid to both migrate fast in the gel (with the relaxed plasmid running faster).
+In the absence of the topological constraints imposed on intact duplex DNA circles, nicked circular DNA bind more ethidium bromide than the corresponding covalently closed circular DNA making the introduction of nicks in the DNA plasmid more evident.
+As expected, CPT (inhibitor with a poison mechanism) stabilized the cleavage complexes generated by TOP1 leading to an increase in the amount of Np DNA (Figure S1, lines 3–4).
+Notably, it can be observed that in the presence of derivatives 9a , 9f , 11a, and 11f (Figure S1, lines 5–12) no nicked plasmid DNA was generated in vitro, indicating that this drugs did not act as poisons and have a different pathway of action.
+3.3 In Vitro Cytotoxicity The cytotoxicity of the newly synthesized 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 , 7 H ‐indeno[2,1‐ c ]quinolinylphosphine oxide 10e and 7‐oxoindeno[2,1‐ c ]quinolinylphosphine oxides 11 was evaluated in vitro by testing their antiproliferative activities against several human cancer cell lines: A549 (carcinomic human alveolar basal epithelial cell), SKOV3 (human ovarian carcinoma), Daudi (human β lymphoblast), HEK293 (human embryonic kidney), Hela (human cervix epitheloid carcinoma), MCF7 (human breast cancer), and DU145 (human prostate carcinoma).
+In order to analyze the selective cytotoxicity facing exclusively cancerous cell lines, toxicity against noncancerous cell lines (MRC5, human lung fibroblast cells) was also evaluated.
+Cell counting kit (CCK‐8) assay was employed to assess growth inhibition and cell proliferation inhibitory activities of compounds, which are listed in Table 2 as IC 50 values.
+The tested compounds displayed a broad spectrum of antiproliferative activity against the cancer cell lines tested in culture.
+TABLE 2 Cytotoxicity values for derivatives 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9, 7H‐indeno[2,1‐ c ]quinolinylphosphine oxide 10e and 7‐oxoindeno[2,1‐ c ]quinolinylphosphine oxides 11.
+Entry Comp.
+R IC 50 (µM) A549 SKOV3 Daudi Hela MCF7 DU145 HEK293 MCR5 1 CPT (1.0 ± 0.06)·10 −3 (5.5 ± 0.01)·10 −3 — 2.48 ± 0.80 0.16 ± 0.10 0.21 ± 0.09 0.15 ± 0.02 0.11 ± 0.02 2 9a Ph 0.64 ± 0.11 >50 >50 >50 >50 40.40 ± 0.37 >50 >50 3 9b p ‐FC 6 H 4 3.88 ± 0.75 >50 >50 >50 >50 >50 >50 >50 4 9c p ‐CF 3 C 6 H 4 1.45 ± 0.15 27.40 ± 4.11 >50 37.84 ± 6.36 >50 11.62 ± 0.95 28.15 ± 6.26 >50 5 9d p ‐NO 2 C 6 H 4 4.84 ± 0.46 >50 >50 >50 >50 >50 >50 >50 6 9f m ‐MeOC 6 H 4 2.53 ± 0.81 >50 >50 24.46 ± 2.20 >50 >50 >50 >50 7 9g m ‐FC 6 H 4 7.02 ± 0.96 — 39.09 ± 5.01 — — — — >50 8 9h m ‐NO 2 C 6 H 4 5.66 ± 0.36 — >50 — — — — >50 9 9i o , p ‐F 2 C 6 H 3 7.63 ± 1.22 >50 37.77 ± 6.24 >50 >50 >50 42.67 ± 3.77 >50 10 9j 1‐napththyl 3.53 ± 0.42 >50 >50 >50 >50 >50 >50 >50 11 9k 2‐napththyl 1.41 ± 0.27 >50 >50 >50 >50 >50 >50 >50 12 9l 2‐pyridyl 6.73 ± 0.31 — 18.92 ± 3.55 — — — — >50 13 9m 4‐pyridyl 9.63 ± 1.30 — >50 — — — — >50 14 10e p ‐MeOC 6 H 4 1.82 ± 0.35 >50 — >50 >50 >50 >50 28.30 ± 1.47 15 11a Ph 1.14 ± 0.34 10.84 ± 1.82 40.00 ± 5.69 >50 >50 7.53 ± 3.57 >50 >50 16 11c p ‐CF 3 C 6 H 4 2.43 ± 0.18 10.22 ± 1.83 >50 >50 >50 >50 25.98 ± 3.19 19.39 ± 2.93 17 11d p ‐NO 2 C 6 H 4 5.55 ± 0.21 >50 >50 >50 >50 >50 >50 >50 18 11e p ‐MeOC 6 H 4 0.09 ± 0.05 >50 >50 >50 >50 >50 33.05 ± 3.25 >50 19 11f m ‐MeOC 6 H 4 3.96 ± 1.48 >50 >50 >50 >50 >50 >50 >50 20 11g m ‐FC 6 H 4 6.31 ± 0.13 — 29.55 ± 2.79 — — — — >50 21 11h m ‐NO 2 C 6 H 4 8.80 ± 1.11 — >50 — — — — >50 22 11i o , p ‐F 2 C 6 H 3 3.86 ± 0.59 15.84 ± 1.43 30.09 ± 7.01 >50 >50 >50 >50 29.94 ± 3.49 23 11k 2‐napththyl 20.20 ± 2.60 >50 >50 >50 >50 >50 >50 >50 24 11l 2‐pyridyl 3.41 ± 0.13 — 18.51 ± 2.44 — — — — >50 25 11m 4‐pyridyl 7.86 ± 0.06 — 20.52 ± 5.51 — — — — >50 © 2026 WILEY‐VCH GmbH According to the data presented in Table 2 , in general all these phosphorated derivatives present selective cytotoxicity in A549 over the other cancerous cells.
+In this A549 cell line, all of these derivatives except 11k showed IC 50 values under 10 μM, more of them under 5 μM, including derivatives 9a and 11e (Table 2 , entries 2 and 18) in the nanomolar range (640 ± 0.11 nM and 90 ± 0.05 nM).
+With respect to the other cell lines (SKOV3, Daudi, Hela, MCF7, DU145, HEK293), in general the compounds present no or lower toxicity, although some relevant values were observed, such as in the case of compound 9c and 11a (Table 2 , entries 4 and 15) for the DU145 cell line and compounds 11a , 11c , 11i (Table 2 , entries 15, 16, and 22) for the SKOV3 cell line.
+For the HEK293, MCF7 and Daudi cell lines, the results were similar for all the prepared derivatives ( 9 , 10e, and 11 ).
+For the Hela cell line, however compounds 9c and 9f showed the best results.
+In contrast, as mentioned above, reference compound (CPT) exhibits high cytotoxicity against noncancerous cells (MRC5, Table 2 , entry 1), which is one of its most significant limitations.
+Thus, it is important to highlight that, in our case, the new synthesized compounds showed no toxicity against noncancerous cells (MRC5), except three of them ( 10e , 11c, and 11i ), but with cytotoxic values much higher than those of CPT (Table 2 , entries 14, 16, and 22).
+3.4 Computational Analysis To gain deeper insight into the electronic properties, stability, and potential reactivity of the synthesized compounds, theoretical calculations based on density functional theory (DFT) were carried out.
+All calculations were performed using the Gaussian16 software package [ 51 ], employing the M06‐2X functional [ 52 ] in combination with the 6‐31+G(d, p) basis set.
+This level of theory was chosen due to its well‐documented accuracy in modeling organic molecules and noncovalent interactions.
+Geometry optimizations were followed by frequency calculations to confirm the nature of the stationary points as true minima.
+Molecular orbital analyses, dipole moments, and electrostatic potential maps were generated from the optimized structures.
+3.5 Stereoelectronic Properties Analysis The molecular parameters derived from DFT calculations, including electronic chemical potential ( μ = (E HOMO + E LUMO )/2), chemical hardness ( η = E LUMO − E HOMO ), global electrophilicity ( ω = μ 2 /(2Gap)), and the maximum number of accepted electrons (ΔNmax = µ/Gap) in a protein‐buried environment, are summarized in Table S2 for the previously synthesized derivatives 9 , 10e, and 11 .
+3.6 1,2,3,4‐Tetrahydroindeno[2,1‐c]Quinolinylphosphine Oxides 9 and 7H‐Indeno[2,1‐c]Quinolinylphosphine Oxide 10e The 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 (Table S2, entries 2–13) generally exhibit the highest HOMO‐LUMO energy gap values, mostly exceeding 6 eV.
+These compounds also display the highest chemical potential, the lowest dipole moment (<6 Debye) and are the least electrophilic members of all the synthetized compounds.
+As expected, electron withdrawing substituents decrease the energy of the LUMO orbital, thereby increasing chemical hardness (Table S2, entries 3–4, 6‐7, and 9).
+Previously reported TOP1 inhibition values (Table 1 ) indicate that 1,2,3,4‐ tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9f and 9g are among the most active compounds, whereas 9d shows the lowest activity.
+Notably, 9f and 9g are among the least electrophilic compounds (∼1.02−1.07 eV) and possess a high chemical potential (>−3.765 eV) (Figure 7 ).
+In contrast, compound 9d exhibits the lowest chemical potential (∼−4.5 eV) and is the most electrophilic compound (∼1.9 eV).
+FIGURE 7 Electrophilicity of CPT, 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 and 7 H ‐indeno[2,1‐ c ]quinolinylphosphine oxide 10e color‐coded according to their chemical potential.
+© 2026 WILEY‐VCH GmbH Additionally, 9d and 9h derivatives display the highest dipole moment values (8.124 Debye and 9.281 Debye), with their LUMO orbitals distinctly located on the nitrobenzene ring (Figure S2).
+This contrasts with the rest of the 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 , in which the LUMO orbital is primarily located on the phosphine oxide group.
+In all derivatives of this series, the HOMO orbital is predominantly localized mostly on the quinolinyl moiety.
+Furthermore, the aromatic compound 10e , directly obtained via the Povarov reaction, exhibits electrophilicity and chemical potential values comparable to those of 9d and 9h (Figure 7 ).
+However, 10e has a higher dipole moment (10.334 Debye) and greater chemical hardness, as inferred from its HOMO and LUMO energy levels (Table S2, Entry 9, Figure S3).
+These computational findings suggest a correlation between high chemical potential, low electrophilicity, and increased biological activity in 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 .
+3.7 7‐Oxoindeno[2,1‐c]Quinolinylphosphine Oxides 11 The 7‐oxoindeno[2,1‐ c ]quinolinylphosphine oxides 11 (Table S2, entries 15–25) display lower HOMO‐LUMO energy gap values (5.07–5.63 eV), lower chemical potential, and higher electrophilicity compared to compounds 9 and 10e .
+Notably, derivatives 11 bearing electron‐withdrawing substituents exhibit increased reactivity, as evidenced by the reduction in LUMO orbital energy.
+In contrast to derivatives 9 , where the LUMO orbital is primarily located on the phosphine oxide group, in derivatives 11 , it is consistently located on the 7‐oxoindeno[2,1‐ c ]quinolinyl ring system (Figure S3).
+Moreover, the HOMO orbital is delocalized across the R substituent and 7‐oxoindeno[2,1‐ c ]quinolinyl core.
+Among this subset, in Figure 8 , the electrophilicity of CPT and previously synthesized compounds 11 , is correlated with their chemical potential using a color code.
+It can be observed that compounds 11c , 11d, 11h, and 11m show the lowest chemical potentials (depicted in blue) and the highest electrophilicity values (eV).
+FIGURE 8 Electrophilicity of CPT and 7‐oxoindeno[2,1‐c]quinolinylphosphine oxides 11 color‐coded according to their chemical potential.
+© 2026 WILEY‐VCH GmbH 3.8 Molecular Electrostatic Potential Surface Analysis The molecular electrostatic potential surfaces of 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 , 7 H ‐indeno[2,1‐ c ]quinolinylphosphine oxide 10e, and 7‐oxoindeno[2,1‐ c ]quinolinylphosphine oxides 11 are shown in Figure 9 .
+FIGURE 9 The molecular electrostatic potential surfaces of 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 , indenoquinolylphosphine oxide 10e and 7‐oxoindeno[2,1‐ c ]quinolinylphosphine oxides 11 .
+© 2026 WILEY‐VCH GmbH All structures display a significant local negative electrostatic potential at the oxygen of the phosphine oxide group.
+Furthermore, in compounds bearing electronegative substituents (F, CF 3 , NO 2 ) at the R position, an additional local negative electrostatic potential appears at the fluorine or oxygen sites.
+For compounds 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 and indenoquinolylphosphine oxide 10e , a lower negative electrostatic potential is observed over the carbon atoms of the aromatic rings.
+For the tetrahydroquinoline derivatives 9 , this electronic density is mainly located at the 7 H ‐indeno and quinolinyl rings, whereas in compound 10e , it is delocalized throughout the entire planar ring system (Figure 9 ).
+In contrast, carbonyl derivatives 11 present a greater local positive electrostatic potential over the hydrogen atoms of the aromatic rings and a strong local negative electrostatic potential at the carbonyl oxygen at position 7 (Figure 9 ).
+Notably, some derivatives ( 11a , 11c , 11e , 11f, and 11i ) display a smaller local negative electrostatic potential near the N atom, attributed to the T–Shape interaction between one phenyl ring and the aromatic ring of the R substituent.
+Interestingly, compounds 11d and 11k , which do not exhibit this negative electrostatic potential, show a notable TOP1 inhibition at 15 s (Table 1 ).
+3.9 Virtual Docking Studies To investigate the binding modes and interactions of the synthesized compounds with TOP1 and DNA nucleobases, flexible molecular docking studies were conducted using Schrödinger software suite [ 53 ].
+The docking model was based on the ternary CPT–TOP1–DNA complex, retrieved from the Protein Data Bank (PDB ID: 1T8I) [ 54 ].
+Prior to docking, the cocrystallized camptothecin (CPT) ligand was removed from the complex, and the protein‐DNA structure was prepared using standard protocols within the software.
+The evaluation criterion was whether the ligands occupied the DNA cleavage site, thereby preventing the religation of −1 and + 1 bases, in line with the interfacial inhibition mechanism proposed by Pommier [ 55 ].
+By convention, the base covalently linked to the TOP1 catalytic tyrosine is referred as the −1 position.
+The base at the 5´end of the nicked DNA is referred to as +1 [ 10 ].
+Additionally, key ligand interactions with TOP1 and DNA were analyzed, with special attention given to hydrogen bonding and hydrophobic interactions with critical amino acids and nucleobases.
+Based on these interactions, Gscore and Gemodel values were assessed.
+Gscore represents the virtual binding affinity, while Gemodel estimates the interaction energy of the ligand with the complex TOP1‐DNA (Table S3).
+Despite some compounds demonstrated greater TOP1 inhibition than CPT in experimental assays, their Gscore values were lower than that of CPT ligand (Table 3 and Table S3).
+TABLE 3 Gscore and Gemodel values for the compounds that exhibited higher TOP1 inhibition than CPT in experimental assays (compounds 9f, 9g, 9l, 11c, 11d, 11g, 11k, and 11m), when docked at the DNA cleavage site.
+Entry Compound R Gscore (kcal/mol) Gemodel (Kcal/mol) 1 CPT −9.08 −85.71 2 9f −4.82 −4.82 −92.65 3 9g −3.77 −3.77 −84.20 4 9l −4.33 −4.33 −80.21 5 11c −7.64 −7.64 −118.21 6 11d −8.12 −8.12 −120.28 7 11g −6.14 −6.14 −116.33 8 11k −6.41 −6.41 −124.48 9 11m −7.41 −7.41 −120.40 © 2026 WILEY‐VCH GmbH Binding pose analysis revealed that compound 9g adopts at least two distinct binding conformations.
+The pose with the highest Gscore value (−4.48 kcal/mol) is located outside the DNA cleavage site, whereas and alternative pose occupies the cleavage site (Table 3 ).
+Compounds 9f , 9g, and 9l establish key π ‐ π stacking interactions with DNA nucleobases.
+These interactions involve either the R substituent ( 9f ), one of the phenyl groups of the phosphine oxide moiety ( 9g , 9l ) or/and quinolinyl ring ( 9g ) (Figure 10 ).
+In contrast, compounds 11c , 11d , 11g , 11k , and 11m position their oxoindeno[2,1‐ c ]quinolinyl scaffold directly within the scissile site, facilitating π‐π stacking interactions with the nucleobases (Figure 10 ).
+Additionally, compounds 11d and 11m form cation‐ π interactions that further stabilize the binding, while compound 11k displays a hydrogen bond between the Arg364 residue and the carbonyl oxygen of the oxoindeno moiety.
+FIGURE 10 Binding poses of 1,2,3,4‐tetrahydroindeno[2,1‐ c ]quinolinylphosphine oxides 9 and 7‐oxoindeno[2,1‐ c ]quinolinylphosphine oxides 11 derivatives at the DNA cleavage site.
+DT13(B) corresponds to the −1 base and TGP12(B) to the +1 base relative to the scissile bond.
+© 2026 WILEY‐VCH GmbH Interestingly, Gemodel values for the studied ligands were higher than for CPT, indicating a stronger predicted interaction energy.
+The combination of Gscore and Gemodel results was largely consistent with experimental findings.
+3.10 ADME Prediction Prediction of the ADME parameters has played a considerable role in the process of designing a drug and reportedly accounts for the collapse of most tested drugs in the clinical phases [ 56 , 57 ].
+The computational prediction of physicochemical properties, drug likeness, and ADME study results for compounds 9 , 10e, and 11 was carried up using the SwissADME tool ( http://www.swissadme.ch/ ).
+The details of the compounds used in this study including their ADME parameters are given in Supplementary Tables 4 and 5 (Tables S4 and S5).
+All the compounds predicted high lipophilic profile (Cons.
+Log P) as well as high permeability surface (TPSA).
+Moreover, all the compounds were predicted to have drug‐likeliness properties with zero violation of the Veber's rule and 2 or less violations of the Lipinsky´s rule.
+The GI absorption of eleven compounds ( 9a , 9b , 9d , 9f , 9g , 9h , 9l , 9m , 11a , 11l, and 11m ) was computed to be high, and only two ( 9l and 9m ) of the total compounds were predicted to penetrate positively through the blood‐brain barrier.
+In addition, it should be noted that these two compounds ( 9l and 9m ), also are the most lipophilic ones, with the lowest Log P o/w values (Table S4, entries 12–13), according to the theoretical study.
+Another ADME parameter to take into account to foreseen the bioavailability of the compounds is the possibility of being substrate for P‐gp.
+This enzyme is an ATP‐binding cassette multidrug transporter expressed broadly throughout the human body.
+Numerous structurally diverse therapeutic agents are being recognized as substrates to P‐gp, and it reportedly holds back their absorption and permeability by exuding them out of cells [ 58 ].
+However, all the newly synthesized derivatives 9 , 10e, and 11 , based on their chemical structure, were unlikely to be substrates of the P‐gp, predicting a good bioavailability as promising drugs.
+Further, assessment of the drug candidates to inhibit or inactivate CYP 450 enzymes that are expressed mainly in the liver and intestine and involved in the metabolism and clearance of the majority of the prescribed drugs is an essential part of therapeutic drug discovery and development.
+Inhibition or inactivation of these enzymes may also result in clinical drug–drug interactions leading to dangerous side effects as well as reduced clearance of the drugs [ 59 ].
+The test compounds were predicted as noninhibitors to the CYP 450 enzymes, (with four exceptions 9c , 9i , 11d , and 11h ).
+The reference inhibitor, CPT, was predicted to be more hydrophilic and with similar polarity to some compounds.
+This compound does no present violations of the Lipinski's or Veber´s rule, but was probable to be a substrate of P‐gp, which could explain its low bioavailability as a drug, it also turned out to be an inhibitor of CYP 450 enzymes.
+4 Discussion The biological activity of the synthesized phosphine oxide derivatives appears to be closely influenced by the physicochemical nature of the substituents attached to the indeno[2,1‐ c ]quinoline core.
+The combined experimental and theoretical results suggest that electronic effects, steric factors, and lipophilicity play key roles in modulating both the interaction with the TOP1–DNA complex and the cytotoxic profile of the compounds.
+Interestingly, several compounds ( 9f , 9g , 9l , 11g , 11k , and 11m ) retained inhibitory activity at longer times, in contrast to CPT, whose lactone ring instability limits the duration of inhibition.
+The presence of the phosphine oxide moiety could contribute to this prolonged effect by mimicking the hydrogen‐bonding behavior of the lactone while conferring higher chemical stability.
+This behavior parallels that of indenoisoquinolines, known for forming persistent DNA‐TOP1 complexes and improved pharmacological profiles [ 60 ].
+In the case of 1,2,3,4‐tetrahydroindeno[2,1‐c]quinolinylphosphine oxides 9 , derivatives bearing moderately electron‐donating or weakly withdrawing substituents (such as 9f and 9g ) exhibit higher chemical potential and lower electrophilicity, parameters that correlate with increased TOP1 inhibitory activity and cytotoxicity.
+This relationship indicates that a balanced electron density distribution over the quinolinyl–phosphine oxide scaffold enhances the ability of the ligand to establish π–π stacking and hydrophobic interactions with TOP1 and DNA nucleobases, as confirmed by docking results.
+Conversely, strong electron‐withdrawing substituents (e.g., NO 2 in 9d ) reduce the chemical potential, increase electrophilicity, and are associated with decreased biological performance, probably due to over‐polarization of the LUMO orbital localized on the nitrobenzene ring, which may impair optimal binding geometry.
+Similar effects have been described for fluorinated quinoline derivatives, where moderate electronic effect enhances lipophilicity and binding affinity for DNA–TOP1 complexes [ 61 ].
+For the 7‐oxoindeno[2,1‐c]quinolinylphosphine oxides 11 , the presence of the carbonyl group significantly increases electrophilicity and lowers the HOMO–LUMO energy gap.
+For example, compound 11m , which combines great electrophilicity with the ability to form hydrogen bonds and cation–π interactions within the cleavage site, displayed noteworthy inhibitory activity, highlighting that the nature and position of electron‐withdrawing substituents can modulate binding efficiency.
+In terms of cytotoxicity, most of the new compounds exhibited selective antiproliferative activity toward A549 lung carcinoma cells, with IC 50 values in the low micromolar or even nanomolar range (e.g., 11e , 90 nM), while showing minimal toxicity toward noncancerous MRC5 fibroblasts.
+This selectivity compares favorably with CPT and its derivatives, which are known for their potent but nonspecific cytotoxicity [ 62 ].
+Similar selectivity trends have been observed for phosphine oxide–containing anticancer agents (e.g., brigatinib), in which the P = O moiety contributes to favorable pharmacokinetic and binding properties [ 63 ].
+Altogether, our findings support that the combination of a quasi‐planar indenoquinoline framework and a phosphine oxide functionality provides a structurally robust and biologically potent scaffold for TOP1 inhibition.
+Compared with CPT and its analogs, these compounds exhibit improved stability, sustained enzyme inhibition, and enhanced selectivity toward cancer cells, making them attractive candidates for further optimization.
+Future studies should focus on kinetic analyses, molecular dynamics simulations, and in vivo evaluation to fully elucidate the binding mechanisms and therapeutic potential of these derivatives.
+5 Conclusion In summary, a series of novel tetrahydroindeno[2,1‐ c ]quinoline phosphine oxide derivatives 9 and indeno[2,1‐ c ]quinoline derivative 10e , have been synthesized using a Povarov type [4 + 2] cycloaddition reaction whose oxidation gave the corresponding 7‐oxoindeno[2,1‐ c ]quinolinylphosphine oxides 11 .
+The phosphine oxide group could be considered the biomimetic moiety of the lactone ring of CPT, whose opening is one of the disadvantages of the bioavailability of the reference compound, something that would not occur with the phosphanoxide group.
+The synthesized derivatives were evaluated for biochemical activity as TOP1 inhibitors and cellular responses against seven human cell lines, including six cancerous cells lines (A549, SKOV3, HEK293, Hela, MCF7, DU145) and a noncancerous one (MRC5).
+The TOP1 inhibition assay indicates that some derivatives ( 9f , 9g , 9l , 11m ) show better or similar activity to the reference compound (CPT) at 1 min.
+Moreover, for the most potent compound ( 9g ), the effect of inhibiting TOP1 activity is maintained with the same or similar intensity even after 3 min of enzymatic reaction.
+It should also be noted that some compounds ( 9a , 9f , 11a, and 11f ) did not produced nicked plasmid DNA in the nicking assay, suggesting that these agents do not act as poisons and they do operate through an alternative mechanism of action.
+When screened for their anti‐proliferative activity, all of them present a higher selective cytotoxicity in the human lung adenocarcinoma cell line (A549), than in the other cell lines.
+Among these synthesized derivatives, compounds 9a , 9c , 9k , 11a , 11c, and 11e exhibited the best cytotoxicity results against the A549 cell line.
+In the case of SKOV3 cell line the compounds 11 show better antiproliferative activity than compounds 9 or 10e .
+Concerning HEK293, MCF7 and Daudi cell lines, the results were similar for all the newly synthesized derivatives ( 9 , 10e, and 11 ) but for Hela cell line the 9c and 9f compounds show better results.
+In the case of DU145 cell line the best results were obtained for the derivatives 9c and 11a .
+In contrast to CPT, almost none of the synthesized phosphorated compounds 9 , 10e, and 11 exhibited antiproliferative activity toward MCR5 nonmalignant lung fibroblasts.
+Thus, phosphine oxide substituted quinoline derivatives have important properties as TOP1 inhibitors and show cytotoxicity against cancerous cells and no toxicity against noncancerous one.
+Regarding the theoretical study carried out, compounds with higher chemical potential and lower electrophilicity (such as 9g ) seem to be correlated with greater biological activity, while carbonyl derivatives ( 11 ) are more reactive but show lower biological results compared to derivatives 9 .
+The ADME study predicted that the compounds have high lipophilicity, good drug‐likeness, and high gastrointestinal absorption.
+Most compounds were not predicted to be substrates of the P‐glycoprotein (P‐gp) transporter, which suggests good bioavailability.
+Some compounds were predicted to inhibit CYP 450 enzymes, potentially leading to drug–drug interactions.
+6 Experimental Section 6.1 Chemistry All reagents from commercial suppliers were used without further purification.
+All solvents were freshly distilled before use from appropriate drying agents.
+All other reagents were recrystallized or distilled when necessary.
+Reactions were performed under a dry nitrogen atmosphere.
+Analytical TLCs were performed with silica gel 60 F 254 plates.
+Visualization was accomplished by UV light.
+Column chromatography was carried out using silica gel 60 (230–400 mesh ASTM) or neutral alumina (70–290 mesh ASTM).
+Melting points were determined with a digital melting point apparatus without correction.
+NMR spectra were obtained on a 300 MHz and on 400 MHz spectrometers and recorded at 25°C.
+Chemical shifts for 1 H NMR spectra are reported in ppm downfield from TMS, chemical shifts for 13 C NMR spectra are recorded in ppm relative to internal chloroform ( δ = 77.2 ppm for 13 C), chemical shifts for 19 F NMR are reported in ppm downfield from fluorotrichloromethane (CFCl 3 ).
+Coupling constants ( J ) are reported in Hertz.
+The terms m, s, d, t, q refer to multiplet, singlet, doublet, triplet, quartet; br refers to broad signal.
+13 C NMR and 19 F NMR were broadband decoupled from hydrogen nuclei.
+High resolution mass spectra (HRMS) was measured by EI method.
+Deposition Number CCDC‐2 503 846 (for compound 9a ) contains the supplementary crystallographic data for this paper.
+These data are provided free of charge by the joint Cambridge Crystallographic Data Centre and Fachinformationszentrum Karlsruhe http://www.ccdc.cam.ac.uk/structures .
+6.2 Preparation of 6,6a,7,11b‐Tetrahydro‐5 H ‐Indeno[2,1‐c]quinolin‐4‐Yl)phosphine Oxides 9 and 7 H ‐Indeno[2,1‐ c ]quinolin‐4‐Yl)diphenylphosphine Oxide 10 6.2.1 General Procedure A To a solution of (2‐aminophenyl)diphenylphosphine oxide 1 (10 mmol, 2.93 g) in CHCl 3 (20 mL) the corresponding freshly distilled aldehyde 5 (10 mmol) was added.
+The mixture was stirred under nitrogen at the opportune temperature until consumption of starting materials was checked by 1 H NMR and 31 P { 1 H} NMR spectroscopy.
+Indene 7 (15 mmol, 1.7 ml, 1.2 equiv.) and BF 3 ·Et 2 O (20 mmol, 1.9 ml, 2 equiv.) were added to a solution of the in situ prepared aldimines 6 (10 mmol) in CHCl 3 (20 mL) in the presence of molecular sieves (4 Å).
+The mixture was stirred at the appropriate temperature until TLC and 1 H NMR spectroscopy indicated the disappearance of aldimine.
+The reaction mixture was washed with 2 M aqueous solution of NaOH (50 mL) and water (50 mL), extracted with dichloromethane (2 x 25 mL), and dried over anhydrous MgSO 4 .
+The removal of the solvent under vacuum afforded an oil that was purified by silica gel column chromatography (hexane/ethyl acetate) or crystallization to afford the desired products 9 and 10 .
+6.2.2 General Procedure B To a solution of (2‐aminophenyl)diphenylphosphine oxide 1 (10 mmol, 2.93 g) in CHCl 3 (20 mL) the corresponding freshly distilled aldehyde 5 (10 mmol) was added and the mixture was stirred under reflux for 24 h.
+Indene 7 (15 mmol, 1.7 ml, 1.2 equiv.) and BF 3 ·Et 2 O (20 mmol, 1.9 ml, 2 equiv.) were added and the reaction mixture was heated under microwave irradiation at 100°C (200W, 15 psi) for 8 h.
+The reaction mixture was washed with 2 M aqueous solution of NaOH (50 mL) and water (50 mL), extracted with dichloromethane (2 × 25 mL), and dried over anhydrous MgSO 4 .
+The removal of the solvent under vacuum afforded an oil that was purified by silica gel column chromatography (hexane/ethyl acetate) to afford the desired product 9 .
+6.2.2.1 Diphenyl(6‐Phenyl‐6,6a,7,11b‐Tetrahydro‐5H‐Indeno[2,1‐c]Quinolin‐4‐Yl)Phosphine Oxide (9a) The general procedure A was followed using benzaldehyde 5a (10 mmol, 1.0 ml), for 10 hr at room temperature, affording 3.83 g (77%) of 9a as a white solid, mp 232–234°C (ethyl acetate/hexane).
+1 H NMR (400 MHz, CDCl 3 ) δ : 2.20 (dd, 3 J HH = 7.2 Hz, 2 J HH = 15.6 Hz, 1H), 2.85–2.91 (m, 1H), 3.06–3.12 (m, 1H), 4.50 (d, 3 J HH = 7.4 Hz, 1H), 4.89 (s, 1H), 6.52–6.57 (m, 1H), 6.63–6.69 (m, 1H), 7.02 (bs, 1H, NH), 7.07 (d, 3 J HH = 7.4 Hz, 1H), 7.12–7.22 (m, 4H), 7.25–7.30 (m, 3H), 7.44–7.59 (m, 7H), 7.62–7.66 (m, 1H), 7.67–7.75 (m, 4H) ppm; 13 C { 1 H} NMR (75 MHz, CDCl 3 ) δ : 30.8 (CH 2 ), 45.5 (CH), 47.5 (CH), 55.6 (CHN), 112.3 (d, 1 J CP = 105.0 Hz, C), 116.0 (d, 3 J CP = 13.9 Hz, CH), 122.8 (d, 3 J CP = 7.8 Hz, C), 124.7 (CH), 124.8 (CH), 126.0 (2CH), 126.0 (CH), 126.8 (CH), 126.9 (CH), 128.2 (2CH), 128.4 (2CH), 131.4 (d, 2 J CP = 11.4 Hz, CH), 131.8 (d, 3 J CP =2.9 Hz, 4CH), 131.8 (d, 2 J CP = 9.9 Hz, 2CH), 131.8 (d, 1 J CP = 105.0 Hz, CH), 132.0 (d, 2 J CP = 9.9 Hz, 2CH), 132.5 (d, 1 J CP = 103.7 Hz, C), 133.8 (d, 4 J CP = 2.2 Hz, CH), 142.0 (C), 142.7 (C), 146.2 (C), 149.7 (d, 2 J CP = 4.6 Hz, CN) ppm; 31 P { 1 H} NMR (120 MHz, CDCl 3 ) δ : 36.2 ppm.
+HRMS (EI) calculated for C 34 H 28 NOP [M] + 497.1909; found 497.1919.
+Purity 95.94% (EtOH/Heptane = 10/90, Rt = 4.848 min).
+6.2.2.2 Diphenyl(6‐(4‐Fluorophenyl)‐6,6a,7,11b‐Tetrahydro‐5H‐Indeno[2,1‐c]Quinolin‐4‐Yl)Phosphine Oxide (9b) The general procedure A was followed using 4‐fluorobenzaldehyde 5b (10 mmol, 1.1 ml), heated to reflux for 24 h affording 4.38 g (85%) of 9b as a white solid, mp 200°C–202°C (ethyl acetate/hexane).
+1 H NMR (300 MHz, CDCl 3 ) δ : 2.16 (dd, 3 J HH = 7.3 Hz, 2 J HH = 15.2 Hz, 1H), 2.77–2.84 (m, 1H), 2.97–3.05 (m, 1H), 4.50 (d, 3 J HH = 7.4 Hz, 1H), 4.83 (d, 3 J HH = 3.4 Hz, 1H), 6.50–6.55 (m, 1H), 6.59–6.65 (m, 1H), 6.90–6.95 (m, 3H), 7.02–7.06 (m, 3H), 7.10–7.19 (m, 2H), 7.40–7.57 (m, 7H), 7.59–7.70 (m, 5H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 31.0 (CH 2 ), 45.6 (CH), 47.6 (CH), 55.3 (CHN), 112.6 (d, 1 J CP = 104.6 Hz, C), 115.2 (d, 2 J CF = 21.3 Hz, 2CH), 116.3 (d, 3 J CP = 13.9 Hz, CH), 123.0 (d, 3 J CP = 8.0 Hz, C), 124.9 (CH), 125.0 (CH), 126.3 (CH), 127.1 (CH), 127.7 (CH), 127.7 (CH), 128.5 (d, 3 J CF = 12.2 Hz, 2CH), 131.6 (d, 2 J CP = 11.2 Hz, CH), 131.9 (d, 3 J CP =2.9 Hz, 2CH), 131.9 (d, 1 J CP = 105.1 Hz, C), 132.0 (d, 3 J CP =2.9 Hz, 2CH), 132.0 (d, 2 J CP = 9.9 Hz, 2CH), 132.2 (d, 2 J CP = 9.8 Hz, 2CH), 132.6 (d, 1 J CP = 103.9 Hz, C), 134.0 (CH), 137.9 (d, 4 J CF = 3.7 Hz, C), 142.7 (C), 146.3 (C), 149.7 (d, 2 J CP = 4.5 Hz, CN), 161.9 (d, 1 J CF = 245.0 Hz, CF) ppm; 31 P { 1 H} NMR (120 MHz, CDCl 3 ) δ : 36.1 ppm; 19 F { 1 H} NMR (282 MHz, CDCl 3 ) δ : −116.2 ppm.
+HRMS (EI): calculated for C 34 H 27 FNOP [M] + 515.1814; found 515.1810.
+Purity 97.83% (EtOH/Heptane = 10/90, Rt = 6.304 min).
+6.2.2.3 Diphenyl(6‐(4‐(Trifluoromethyl)Phenyl)‐6,6a,7,11b‐Tetrahydro‐5H‐Indeno[2,1‐c]Quinolin‐4‐Yl)Phosphine Oxide (9c) The general procedure A was followed using 4‐trifluorobenzaldehyde 5c (10 mmol, 1.7 ml), for 30 min at room temperature, affording 5.08 g (90%) of 9c as a yellow solid mp 234–236°C (ethyl acetate/hexane).
+1 H NMR (400 MHz, CDCl 3 ) δ : 2.13 (dd, 3 J HH = 7.2 Hz, 2 J HH = 15.3 Hz, 1H), 2.76–2.85 (m, 1H), 3.01–3.07 (m, 1H), 4.52 (d, 3 J HH = 7.3 Hz, 1H), 4.91 (d, 3 J HH = 2.8 Hz, 1H,), 6.52–6.67 (m, 2H), 7.02–7.26 (m, 6H), 7.41–7.56 (m, 8H), 7.57–7.72 (m, 5H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 30.9 (CH 2 ), 45.5 (CH), 47.2 (CH), 55.6 (CHN), 112.9 (d, 1 J CP = 104.4 Hz, C), 116.5 (d, 3 J CP = 13.8 Hz, CH), 122.9 (d, 3 J CP = 7.8 Hz, C), 124.9 (CH), 125.0 (CH), 125.3 (q, 3 J CF = 3.7 Hz, 2CH), 126.3 (CH), 126.5 (2CH), 127.1 (CH), 128.4 (CH), 128.6 (CH), 129.3 (q, 2 J CF = 32.1 Hz, C), 129.5 (q, 1 J CF = 247.9 Hz, CF 3 ), 131.6 (d, 2 J CP = 11.2 Hz, CH), 131.8 (d, 1 J CP = 104.9 Hz, C), 131.9 (d, 2 J CP =10.1 Hz, 2CH), 132.0 (d, 3 J CP = 5.4 Hz, 2CH), 132.0 (d, 3 J CP = 5.7 Hz, 2CH), 132.1 (d, 2 J CP = 10.1 Hz, 2CH), 132.6 (d, 1 J CP = 104.3 Hz, C), 133.9 (d, 4 J CP = 2.3 Hz, CH), 142.5 (C), 146.0 (C), 146.4 (C), 149.4 (d, 2 J CP = 4.6 Hz, CN) ppm; 31 P { 1 H} NMR (120 MHz, CDCl 3 ) δ : 36.3 ppm; 19 F { 1 H} NMR (282 MHz, CDCl 3 ) δ : −62.8 ppm.
+HRMS (EI): calculated for C 35 H 27 F 3 NOP [M] + 565.1782; found 565.1801.
+Purity 97.84% (EtOH/Heptane = 10/90, Rt = 3.709 min).
+6.2.2.4 Diphenyl(6‐(4‐Nitrophenyl)‐6,6a,7,11b‐Tetrahydro‐5H‐Indeno[2,1‐c]Quinolin‐4‐Yl)Phosphine Oxide (9d) The general procedure A was followed using 4‐nitrobenzaldehyde 5d (10 mmol, 1.5 mL), heated to reflux for 24 hr affording 2.93 g (54%) of 9d as a yellow solid, mp 212–213°C (ethyl acetate/hexane).
+1 H NMR (400 MHz, CDCl 3 ) δ : 2.12 (dd, 3 J HH = 7.1 Hz, 2 J HH = 15.2 Hz, 1H), 2.77–2.83 (m, 1H), 3.05–3.12 (m, 1H), 4.55 (d, 3 J HH = 7.3 Hz, 1H), 4.99 (d, 3 J HH = 3.6 Hz, 1H), 6.57–6.62 (m, 1H), 6.64–6.69 (m, 1H), 7.05 (d, 3 J HH = 7.5 Hz, 1H), 7.13–7.17 (m, 2H), 7.19–7.23 (m, 1H), 7.27 (d, 3 J HH = 8.6 Hz, 2H), 7.45 (d, 3 J HH = 7.5 Hz, 1H), 7.48–7.61 (m, 6H), 7.64–7.73 (m, 5H), 8.12 (d, 3 J HH = 8.8 Hz, 2H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 30.9 (CH 2 ), 45.4 (CH), 47.0 (CH), 55.6 (CHN), 113.2 (d, 1 J CP = 104.3 Hz, C), 116.9 (d, 3 J CP = 13.7 Hz, CH), 122.7 (d, 3 J CP = 7.8 Hz, C), 123.7 (2CH), 124.9 (CH), 125.0 (CH), 126.5 (CH), 127.0 (2CH), 127.2 (CH), 128.5 (d, 4 J CP = 3.9 Hz, CH), 128.6 (d, 4 J CP = 3.7 Hz, CH), 131.6 (d, 1 J CP = 105.3 Hz, C), 131.7 (d, 2 J CP = 11.2 Hz, CH), 131.9 (d, 2 J CP =10.0 Hz, 2CH), 132.0 (d, 3 J CP = 4.0 Hz, 2CH), 132.1 (d, 3 J CP = 4.5 Hz, 2CH), 132.2 (d, 2 J CP = 9.8 Hz, 2CH), 132.5 (d, 1 J CP = 103.2 Hz, C), 134.0 (d, 4 J CP = 2.0 Hz, CH), 142.2 (C), 145.8 (C), 147.0 (C), 149.0 (d, 2 J CP = 4.6 Hz, CN), 150.0 (CNO) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 36.6 ppm.
+HRMS (EI): calculated for C 34 H 27 N 2 O 3 P [M] + 542.1759; found 542.1771.
+Purity 98.95% (EtOH/Heptane = 10/90, Rt = 4.119 min).
+6.2.2.5 Diphenyl(6‐(3‐Methoxyphenyl)‐6,6a,7,11b‐Tetrahydro‐5H‐Indeno[2,1‐c]Quinolin‐4‐Yl)Phosphine Oxide (9f) The general procedure A was followed using m‐methoxybenzaldehyde 5f (10 mmol, 1.2 mL), for 6.5 h at room temperature affording 3.58 g (68%) of 9f as a yellow solid, mp 134–135°C (ethyl acetate/hexane).
+1 H NMR (400 MHz, CDCl 3 ) δ : 2.21 (dd, 3 J HH = 7.2 Hz, 2 J HH = 15.4 Hz, 1H), 2.82–2.89 (m, 1H), 3.03–3.11 (m, 1H), 3.68 (s, 3H), 4.51 (d, 3 J HH = 7.4 Hz, 1H), 4.84 (d, 3 J HH = 3.3 Hz, 1H), 6.49–6.53 (m, 1H), 6.58–6.64 (m, 1H), 6.71–6.78 (m, 3H), 7.03–7.05 (m, 2H), 7.10–7.19 (m, 3H), 7.41–7.59 (m, 8H), 7.60–7.70 (m, 4H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 31.0 (CH 2 ), 45.7 (d, 4 J CP = 1.7 Hz, CH), 47.6 (CH), 55.1 (CH 3 ), 55.8 (CHN), 111.4 (CH), 112.6 (d, 1 J CP = 104.9 Hz, C), 116.2 (d, 3 J CP = 13.8 Hz, CH), 118.5 (CH), 123.0 (d, 3 J CP = 7.7 Hz, C), 124.9 (CH), 125.0 (CH), 126.2 (CH), 127.0 (CH), 128.4 (d, 4 J CP = 1.1 Hz, CH), 128.5 (d, 4 J CP = 1.1 Hz, CH), 129.4 (CH), 131.6 (d, 2 J CP = 11.2 Hz, CH), 131.8 (d, 3 J CP = 2.8 Hz, 2CH), 131.9 (d, 3 J CP =2.9 Hz, 2CH), 131.9 (d, 2 J CP = 10.0 Hz, 2CH), 132.1 (d, 1 J CP = 104.9 Hz, C), 132.2 (CH), 132.2 (d, 2 J CP = 9.8 Hz, 2CH), 132.7 (d, 1 J CP = 103.9 Hz, C), 133.9 (d, 4 J CP = 2.3 Hz, CH), 143.0 (C), 143.9 (C), 146.3 (C), 149.9 (d, 2 J CP = 4.8 Hz, CN), 159.7 (CO) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 36.4 ppm.
+HRMS (EI): calculated for C 35 H 30 NO 2 P [M] + 527.2014; found 527.2024.
+Purity 99.48% (EtOH/Heptane = 10/90, Rt = 6.045 min).
+6.2.2.6 Diphenyl(6‐(3‐Fluorophenyl)‐6,6a,7,11b‐Tetrahydro‐5H‐Indeno[2,1‐c]Quinolin‐4‐Yl)Phosphine Oxide (9g) The general procedure A was followed using 3‐fluorobenzaldehyde 5g (10 mmol, 1.1 ml), heated to reflux for 24 h affording 4.17 g (81%) of 9g as a yellow solid, mp 207°C‐209°C (ethyl acetate/hexane).
+1 H NMR (300 MHz, CDCl 3 ) δ : 2.17 (dd, 3 J HH = 7.1 Hz, 2 J HH = 15.4 Hz, 1H), 2.75–2.84 (m, 1H), 3.00–3.08 (m, 1H), 4.51 (d, 3 J HH = 7.2 Hz, 1H), 4.86 (d, 3 J HH = 3.4 Hz, 1H), 6.51–6.75 (m, 3H), 6.91–6.96 (m, 2H), 7.04–7.06 (m, 1H), 7.11–7.23 (m, 3H), 7.41–7.73 (m, 13H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 30.9 (CH 2 ), 45.5 (d, 4 J CP = 1.3 Hz, CH), 47.3 (CH), 55.4 (CHN), 113.0 (d, 1 J CP = 104.6 Hz, C), 113.0 (d, 2 J CF = 22.3 Hz, CH), 113.9 (d, 2 J CF = 21.2 Hz, CH), 116.4 (d, 3 J CP = 13.8 Hz, CH), 121.8 (d, 4 J CF = 2.8 Hz, CH), 122.8 (d, 3 J CP = 7.8 Hz, C), 124.8 (CH), 124.9 (CH), 126.2 (CH), 127.0 (CH), 128.4 (d, 4 J CP = 4.8 Hz, CH), 128.5 (d, 4 J CP = 4.8 Hz, CH), 129.8 (d, 3 J CP = 8.2 Hz, 2CH), 131.5 (d, 2 J CP = 11.2 Hz, CH), 131.7 (d, 1 J CP = 105.0 Hz, C), 131.8 (d, 2 J CP = 10.1 Hz, 2CH), 132.0 (d, 3 J CP = 2.6 Hz, 2CH), 132.1 (d, 2 J CP = 9.9 Hz, 2CH), 132.2 (d, 3 J CF = 10.3 Hz, CH), 132.4 (d, 1 J CP = 103.6 Hz, C), 133.9 (d, 4 J CP = 2.1 Hz, CH), 142.6 (C), 145.0 (d, 3 J CF = 6.9 Hz, C), 146.1 (C), 149.3 (d, 2 J CP = 4.7 Hz, CN), 162.9 (d, 1 J CF = 245.5 Hz, CF) ppm.
+31 P { 1 H} NMR (120 MHz, CDCl 3 ) δ : 36.0 ppm; 19 F { 1 H} NMR (282 MHz, CDCl 3 ) δ : −112.9 ppm.
+HRMS (EI): calculated for C 34 H 27 FNOP [M] + 515.1814; found 515.1810.
+Purity 97.83% (EtOH/Heptane = 10/90, Rt = 6.304 min).
+6.2.2.7 Diphenyl(6‐(3‐Nitrophenyl)‐6,6a,7,11b‐Tetrahydro‐5H‐Indeno[2,1‐c]Quinolin‐4‐Yl)Phosphine Oxide (9Hr) The general procedure A was followed using 3‐nitrobenzaldehyde 5h (10 mmol, 1.5 mL), heated to reflux for 48 h affording 3.67 g (68%) of 9h as a yellow solid, mp 228–231°C (ethyl acetate/hexane).
+1 H NMR (400 MHz, CDCl 3 ) δ : 2.13–2.20 (m, 1H), 2.79–2.88 (m, 1H), 3.06–3.12 (m, 1H), 4.56 (d, 3 J HH = 7.4 Hz, 1H), 4.97 (d, 3 J HH = 3.3 Hz, 1H), 6.57–6.70 (m, 2H), 7.01–7.27 (m, 6H), 7.40–7.73 (m, 12H), 8.04–8.10 (m, 2H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 30.8 (CH 2 ), 45.5 (CH), 46.9 (CH), 55.4 (CHN), 113.3 (d, 1 J CP = 104.0 Hz, C), 116.9 (d, 3 J CP = 13.8 Hz, CH), 121.3 (CH), 122.2 (CH), 122.9 (d, 3 J CP = 7.8 Hz, C), 124.9 (CH), 124.9 (CH), 126.4 (CH), 127.1 (CH), 128.5 (d, 4 J CP = 6.8 Hz, CH), 128.6 (d, 4 J CP = 6.7 Hz, CH), 129.4 (CH), 131.6 (d, 2 J CP = 11.1 Hz, CH), 131.7 (d, 1 J CP = 105.4 Hz, C), 131.8 (d, 2 J CP =10.0 Hz, 2CH), 132.0 (d, 3 J CP = 3.2 Hz, 2CH), 132.1 (d, 1 J CP = 103.7 Hz, C), 132.1 (d, 3 J CP = 3.4 Hz, 2CH), 132.1 (d, 2 J CP = 10.1 Hz, 2CH), 132.4 (CH), 133.9 (d, 4 J CP = 2.1 Hz, CH), 142.2 (C), 144.6 (C), 145.8 (C), 148.3 (CNO), 149.2 (d, 2 J CP = 4.6 Hz, CN) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 36.5 ppm.
+HRMS (EI): calculated for C 34 H 27 N 2 O 3 P [M] + 542.1759; found 542.1769.
+Purity 98.95% (EtOH/Heptane = 10/90, Rt = 4.119 min).
+6.2.2.8 Diphenyl(6‐(2,4‐Difluorophenyl)‐6,6a,7,11b‐Tetrahydro‐5H‐Indeno[2,1‐c]Quinolin‐4‐Yl)Phosphine Oxide (9i) The general procedure A was followed using 2,4‐difluorobenzaldehyde 5i (10 mmol, 1.2 mL), heated to reflux for 48 h affording 3.31 g (62%) of 9i as a white solid, mp 126–127°C (ethyl acetate/hexane).
+1 H NMR (400 MHz, CDCl 3 ) δ : 2.21 (dd, 3 J HH = 7.2 Hz, 2 J HH = 15.1 Hz, 1H), 2.81–2.90 (m, 1H), 3.16–3.21 (m, 1H), 4.53 (d, 3 J HH = 7.0 Hz, 1H), 5.17 (s, 1H), 6.55–6.81 (m, 4H), 6.97–7.22 (m, 5H), 7.45–7.76 (m, 12H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 31.0 (CH 2 ), 44.7 (CH), 45.1 (CH), 48.7 (CHN), 103.4 (t, 2 J CF = 25.5 Hz, CH), 111.0 (dd, 2 J CF = 20.8 Hz, 4 J CF = 3.3 Hz, CH), 112.7 (d, 1 J CP = 104.5 Hz, C), 116.5 (d, 3 J CP = 13.9 Hz, CH), 123.0 (d, 3 J CP = 7.5 Hz, C), 124.7 (CH), 124.8 (CH), 125.3 (dd, 2 J CF = 12.7 Hz, 4 J CF = 3.6 Hz, C), 126.2 (CH), 126.9 (CH), 128.0 (dd, 3 J CF = 9.3 Hz, 3 J CF = 6.1 Hz, CH), 128.3 (CH), 128.5 (CH), 131.5 (d, 2 J CP = 11.2 Hz, CH), 131.7 (d, 1 J CP = 105.0 Hz, C), 131.8 (d, 3 J CP = 2.9 Hz, 2CH), 131.8 (d, 2 J CP = 9.8 Hz, 2CH), 131.9 (d, 3 J CP = 2.9 Hz, 2CH), 132.0 (d, 2 J CP = 9.9 Hz, 2CH), 132.6 (d, 1 J CP = 105.0 Hz, C), 133.9 (d, 4 J CP = 2.3 Hz, CH), 142.3 (C), 146.0 (C), 149.5 (d, 2 J CP = 4.7 Hz, CN), 159.8 (dd, 1 J CF = 248.4 Hz, 3 J CF = 11.8 Hz, CF), 161.8 (dd, 1 J CF = 247.6 Hz, 3 J CF = 12.2 Hz, CF) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 36.5 ppm.
+19 F {H} NMR (282 MHz, CDCl 3 ) δ : −116.4 (m), −112.7 (m) ppm.
+HRMS (EI): calculated for C 34 H 26 F 2 NOP [M] + 533.1720; found 533.1731.
+Purity 98.32% (EtOH/Heptane = 10/90, Rt = 4.360 min).
+6.2.2.9 Diphenyl(6‐(Naphthalen‐1‐Yl)‐6,6a,7,11b‐Tetrahydro‐5H‐Indeno[2,1‐c]Quinolin‐4‐Yl)Phosphine Oxide (9j) The general procedure A was followed using 1‐naphthaldehyde 5j (10 mmol, 1.6 mL), heated to reflux for 48 h affording 3.44 g (63%) of 9j as a white solid, mp 267–269°C (ethyl acetate/hexane).
+1 H NMR (400 MHz, CDCl 3 ) δ : 1.96 (dd, 3 J HH = 7.3, 2 J HH = 15.3 Hz, 1H), 2.84–2.91 (m, 1H), 3.33–3.41 (m, 1H), 4.64 (d, 3 J HH = 7.5 Hz, 1H), 5.68 (d, 3 J HH = 3.1 Hz, 1H), 6.53–6.57 (m, 1H), 6.63–6.69 (m, 1H), 6.96–6.99 (m, 2H), 7.06–7.10 (m, 2H), 7.14–7.19 (m, 2H), 7.30–7.34 (m, 2H), 7.45–7.48 (m, 4H), 7.52–7.56 (m, 3H), 7.63–7.77 (m, 5H), 7.85–7.87 (m, 1H), 8.03–8.05 (m, 1H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 31.3 (CH 2 ), 45.6 (d, 4 J CP = 1.0 Hz, CH), 51.7 (CH), 60.3 (CHN), 112.8 (d, 1 J CP = 104.9 Hz, C), 116.1 (d, 3 J CP = 13.9 Hz, CH), 122.2 (CH), 122.9 (CH), 123.3 (d, 3 J CP = 7.8 Hz, C), 124.8 (CH), 124.9 (CH), 125.3 (CH), 125.6 (CH), 125.9 (CH), 126.1 (CH), 126.9 (CH), 127.4 (CH), 128.4 (d, 4 J CP = 4.5 Hz, CH), 128.5 (d, 4 J CP = 4.6 Hz, CH), 128.9 (CH), 130.2 (C), 131.6 (d, 2 J CP = 11.1 Hz, CH), 131.9 (d, 1 J CP = 104.9 Hz, C), 131.9 (d, 3 J CP =2.6 Hz, 4CH), 131.9 (d, 2 J CP = 10.0 Hz, 2CH), 132.1 (d, 2 J CP = 9.9 Hz, 2CH), 132.8 (d, 1 J CP = 104.2 Hz, C), 133.7 (C), 134.0 (d, 4 J CP = 2.4 Hz, CH), 137.5 (C), 142.7 (C), 146.3 (C), 150.1 (d, 2 J CP = 4.7 Hz, CN) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 36.3 ppm.
+HRMS (EI): calculated for C 38 H 30 NOP [M] + 547.2065; found 547.2072.
+Purity 97.16% (EtOH/Heptane = 10/90, Rt = 4.326 min).
+6.2.2.10 Diphenyl(6‐(Naphthalen‐2‐Yl)‐6,6a,7,11b‐Tetrahydro‐5H‐Indeno[2,1‐c]Quinolin‐4‐Yl)Phosphine Oxide (9k) The general procedure A was followed using 2‐naphthaldehyde 5k (10 mmol, 1.6 mL), heated to reflux for 48 h affording 3.67 g (67%) of 9k as a light‐yellow solid, mp 222–224°C (ethyl acetate/hexane).
+1 H NMR (400 MHz, CDCl 3 ) δ : 2.13 (dd, 3 J HH = 7.2, 2 J HH = 15.4 Hz, 1H), 2.85–2.91 (m, 1H), 3.16–3.19 (m, 1H), 4.56(d, 3 J HH = 7.4 Hz, 1H), 5.04 (d, 3 J HH = 3.4 Hz, 1H), 6.53–6.58 (m, 1H), 6.63–6.69 (m, 1H), 7.00–7.02 (m, 1H), 7.06 (bs, 1H), 7.10–7.14 (m, 1H), 7.17–7.20 (m, 1H), 7.25–7.28 (m, 1H), 7.43–7.51 (m, 6H), 7.53–7.60 (m, 4H), 7.66–7.72 (m, 4H), 7.74–7.82 (m, 4H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 31.0 (CH 2 ), 45.6 (d, 4 J CP = 1.1 Hz, CH), 47.4 (CH), 55.8 (CHN), 113.0 (d, 1 J CP = 104.7 Hz, C), 116.2 (d, 3 J CP = 13.8 Hz, CH), 122.9 (d, 3 J CP = 7.8 Hz, C), 124.4 (CH), 124.7 (CH), 124.9 (CH), 125.0 (CH), 125.5 (CH), 125.8 (CH), 126.2 (CH), 127.0 (CH), 127.5 (CH), 128.0 (d, 4 J CP = 2.1 Hz, CH), 128.4 (CH), 128.5 (d, 4 J CP = 3.0 Hz, CH), 128.6 (CH), 131.6 (d, 2 J CP = 11.2 Hz, CH), 131.8 (d, 1 J CP = 105.1 Hz, C), 131.9 (d, 3 J CP =3.5 Hz, 4CH), 132.0 (d, 2 J CP = 10.5 Hz, 2CH), 132.2 (d, 2 J CP = 9.9 Hz, 2CH), 132.7 (C), 132.9 (d, 1 J CP = 103.4 Hz, C), 133.4 (C), 134.0 (d, 4 J CP = 2.1 Hz, CH), 139.7 (C), 142.8 (C), 146.3 (C), 149.6 (d, 2 J CP = 4.9 Hz, CN) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 36.0 ppm.
+HRMS (EI): calculated for C 38 H 30 NOP [M] + 547.2065; found 547.2075.
+Purity 97.16% (EtOH/Heptane = 10/90, Rt = 4.326 min).
+6.2.2.11 Diphenyl(6‐(Pyridin‐2‐Yl)‐6,6a,7,11b‐Tetrahydro‐5H‐Indeno[2,1‐c]Quinolin‐4‐Yl)Phosphine Oxide (9l) The general procedure A was followed using picolinaldehyde 5l (10 mmol, 1.5 mL), heated to reflux for 24 h affording 3.64 g (73%) of 9l as a brown solid, mp 214–216°C (ethyl acetate/hexane).
+1 H NMR (400 MHz, CDCl 3 ) δ : 2.13 (dd, 3 J HH = 7.4 Hz, 2 J HH = 15.3 Hz, 1H), 2.79–2.86 (m, 1H), 3.35–3.42 (m, 1H), 4.54 (d, 3 J HH = 7.5 Hz, 1H), 4.94 (d, 3 J HH = 3.5 Hz, 1H), 6.52–6.56 (m, 1H), 6.61–6.67 (m, 1H), 7.00–7.05 (m, 2H), 7.08–7.18 (m, 3H), 7.35 (bs, 1H), 7.43–7.59 (m, 9H), 7.63–7.71 (m, 4H), 8.52–8.54 (m, 1H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 31.0 (CH 2 ), 45.4 (CH), 45.5 (d, 4 J CP = 1.4 Hz, CH), 57.3 (CHN), 112.4 (d, 1 J CP = 104.5 Hz, C), 116.4 (d, 3 J CP = 13.8 Hz, CH), 120.0 (CH), 122.0 (CH), 123.6 (d, 3 J CP = 7.9 Hz, C), 124.8 (CH), 124.9 (CH), 126.2 (CH), 127.0 (CH), 128.4 (d, 4 J CP = 1.8 Hz, CH), 128.5 (d, 4 J CP = 2.1 Hz, CH), 131.6 (d, 2 J CP = 11.3 Hz, CH), 131.8 (d, 3 J CP = 2.7 Hz, 2CH), 132.0 (d, 3 J CP = 2.8 Hz, 2CH), 132.0 (d, 2 J CP = 10.0 Hz, 2CH), 132.1 (d, 1 J CP = 104.9 Hz, C), 132.2 (d, 2 J CP = 9.9 Hz, 2CH), 132.7 ( 1 J CP = 103.8 Hz, C), 134.0 (d, 4 J CP = 1.9 Hz, CH), 136.8 (CH), 142.7 (C), 146.2 (C), 149.0 (CHN), 149.6 (d, 2 J CP = 4.7 Hz, CN), 161.2 (CN) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 35.4 ppm.
+HRMS (EI): calculated for C 33 H 27 N 2 OP [M] + 498.1861; found 498.1870.
+Purity 98.95% (EtOH/Heptane = 10/90, Rt = 4.119 min).
+6.2.2.12 Diphenyl(6‐(Pyridin‐4‐Yl)‐6,6a,7,11b‐Tetrahydro‐5H‐Indeno[2,1‐c]Quinolin‐4‐Yl)Phosphine Oxide (9m) The general procedure B was followed using isonicotinaldehyde 5m (10 mmol, 1.5 mL), affording 3.09 g (62%) of 9 m as a yellow solid, mp 219–222°C (ethyl acetate/hexane).
+1 H NMR (400 MHz, CDCl 3 ) δ : 2.14 (dd, 3 J HH = 7.0 Hz, 2 J HH = 15.1 Hz, 1H), 2.76–2.83 (m, 1H), 3.04–3.12 (m, 1H), 4.52 (d, 3 J HH = 7.3 Hz, 1H), 4.84 (d, 3 J HH = 3.5 Hz, 1H), 6.53–6.58 (m, 1H), 6.61–6.67 (m, 1H), 7.01–7.05 (m, 3H), 7.10–7.14 (m, 1H), 7.16–7.18 (m, 1H), 7.20 (bs, 1H), 7.41–7.43 (m, 1H), 7.44–7.58 (m, 6H), 7.55–7.71 (m, 5H), 8.47–8.49 (m, 2H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 30.9 (CH 2 ), 45.5 (d, 4 J CP = 1.4 Hz, CH), 46.6 (CH), 55.1 (CHN), 112.9 (d, 1 J CP = 104.2 Hz, C), 116.7 (d, 3 J CP = 13.7 Hz, CH), 122.9 (d, 3 J CP = 7.6 Hz, C), 125.0 (2CH), 126.4 (CH), 127.2 (CH), 128.0 (CH), 128.1 (CH), 128.5 (d, 4 J CP = 3.3 Hz, CH), 128.6 (d, 4 J CP = 3.2 Hz, CH), 131.7 (d, 2 J CP = 11.1 Hz, CH), 131.8 (d, 1 J CP = 105.2 Hz, C), 131.9 (d, 2 J CP = 10.2 Hz, 2CH), 132.0 (d, 3 J CP = 5.1 Hz, 2CH), 132.1 (d, 3 J CP = 5.3 Hz, 2CH), 132.2 (d, 2 J CP = 10.0 Hz, 2CH), 132.6 ( 1 J CP = 104.1 Hz, C), 134.0 (d, 4 J CP = 2.4 Hz, CH), 142.3 (C), 145.9 (C), 149.3 (d, 2 J CP = 4.6 Hz, CN), 149.6 (2CHN), 151.6 (C) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 35.6 ppm.
+HRMS (EI): calculated for C 33 H 27 N 2 OP [M] + 498.1861; found 498.1878.
+Purity 98.95% (EtOH/Heptane = 10/90, Rt = 4.119 min).
+6.2.2.13 Diphenyl(6‐(4‐Methoxyphenyl)‐7H‐Indeno[2,1‐c]Quinolin‐4‐Yl)Phosphine Oxide (10e) The general procedure A was followed using 4‐methoxybenzaldehyde 5e (10 mmol, 1.5 mL), heated to reflux for 24 h affording 3.40 g (65%) of 10e as a yellow solid, mp 212–213°C (ethyl acetate/hexane).
+1 H NMR (400 MHz, CDCl 3 ) δ : 3.88 (s, 3H), 4.16 (s, 2H), 6.80–6.84 (m, 2H), 7.16–7.18 (m, 2H), 7.29–7.34 (m, 4H), 7.43–7.56 (m, 4H), 7.66 (d, 3 J HH = 7.4 Hz, 1H), 7.80–7.90 (m, 5H), 8.44 (d, 3 J HH = 7.8 Hz, 1H), 8.70 (ddd, 4 J HH = 1.3 Hz, 3 J HH = 7.1 Hz, 2 J HH = 13.9 Hz, 1H), 8.94–8.97 (m, 1H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 37.9 (CH 2 ), 55.3 (OCH 3 ), 113.4 (2CH), 123.6 (d, 3 J CP = 7.3 Hz, CH), 124.1 (CH), 125.0 (CH), 125.8 (d, 2 J CP = 12.8 Hz, CH), 127.4 (CH), 127.8 (d, 2 J CP = 12.6 Hz, 4CH), 128.2 (d, 4 J CP = 2.7 Hz, CH), 128.3 (CH), 130.5 (2CH), 131.0 (d, 4 J CP = 2.7 Hz, 2CH), 131.5 (d, 1 J CP = 103.4 Hz, C), 131.8 (C), 132.4 (d, 3 J CP = 10.4 Hz, 4CH), 134.0 (C), 134.0 (d, 1 J CP = 108.5 Hz, 2C), 136.7 (d, 3 J CP = 7.0 Hz, C), 140.2 (C), 144.7 (C), 145.8 (C), 147.4 (d 2 J CP = 5.8 Hz, CN), 154.2 (COCH 3 ), 160.1 (CN) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 29.4 ppm.
+HRMS (EI): calculated for C 35 H 26 NO 2 P [M] + 523.1701; found 523.1710.
+Purity 98.95% (EtOH/Heptane = 10/90, Rt = 4.119 min).
+6.3 Preparation of 4‐(diphenylphosphoryl)‐7 H ‐Indeno[2,1‐ c ]quinolin‐7‐Ones 11 6.3.1 General Procedure A For the preparation of these compounds, we carry out a modification of the protocol described previously in the bibliography [ 48 ].
+The corresponding derivatives 9 or 10 (0.25 mmol) were dissolved in dioxane (5 ml) and selenium oxide (0.88 mmol, 0.1g, 3.5 equiv.) was added to the solution.
+The mixture was stirred at 80°C during 2 h under microwave irradiation.
+The reaction mixture was filtered and washed with a saturated aqueous solution of NaCl (50 mL) and water (50 mL), extracted with ethyl ether (2 x 25 mL), and dried over anhydrous MgSO 4 .
+The removal of the solvent under vacuum afforded an oil that was purified by silica gel column chromatography (ethyl ether/ethyl acetate) to afford the desired product 11 .
+6.3.2 General Procedure B The corresponding derivatives 9 or 10 (0.25 mmol) were dissolved in dioxane (5 ml), and selenium oxide (0.88 mmol, 0.1g, 3.5 equiv.) was added to the solution.
+The mixture was stirred under reflux for 48 h.
+The reaction mixture was washed with a saturated aqueous solution of NaHCO 3 (50 mL) and water (50 mL), extracted with dichloromethane (2 × 25 mL), and dried over anhydrous MgSO 4 .
+The removal of the solvent under vacuum afforded an oil that was purified by silica gel column chromatography (ethyl ether/ethyl acetate) to afford the desired product 11 .
+6.3.2.1 4‐(Diphenylphosphoryl)‐6‐Phenyl‐7H‐Indeno[2,1‐c]Quinolin‐7‐One (11a) The general procedure A was followed using diphenyl(6‐phenyl‐6,6a,7,11b‐tetrahydro‐5 H ‐indeno[2,1‐ c ]quinolin‐4‐yl)phosphine oxide 9a (0.25 mmol, 0.13 g), affording 0.09 g (70%) of 11a as a yellow solid, mp 274–275°C (ethyl ether/ethyl acetate).
+1 H NMR (400 MHz, CDCl 3 ) δ : 7.07 (d, 3 J HH = 8.1 Hz, 2H), 7.25–7.32 (m, 5H), 7.41–7.51 (m, 4H), 7.62 (d, 3 J HH = 7.6 Hz, 1H), 7.71 (d, 3 J HH = 7.1 Hz, 2H), 7.77–7.90 (m, 5H), 8.17 (d, 3 J HH = 8.6 Hz, 1H), 8.78 (d, 3 J HH = 7.8 Hz, 1H), 8.91 (dd, 3 J HH = 7.2 Hz, 2 J HP = 13.3 Hz, 1H) ppm; 13 C { 1 H} NMR (75 MHz, CDCl 3 ) δ : 122.4 (C), 122.8 (d, 3 J CP = 7.0 Hz, C), 124.5 (CH), 125.5 (CH), 127.4 (2CH), 127.5 (d, 2 J CP = 12.6 Hz, CH), 127.9 (d, 2 J CP = 12.8 Hz, 4CH), 129.2 (d, 4 J CP = 2.3 Hz, CH), 129.5 (CH), 129.6 (CH), 130.0 (2CH), 131.4 (d, 4 J CP = 3.6 Hz, 2CH), 132.4 (d, 3 J CP = 10.4 Hz, 4CH), 132.9 (d, 1 J CP = 102.7 Hz, C), 133.1 (d, 1 J CP = 108.0 Hz, 2C), 133.5 (C), 134.7 (CH), 136.4 (C), 140.5 (d, 3 J CP = 6.6 Hz, CH), 141.5 (C), 150.8 (d, 2 J CP = 5.8 Hz CN), 153.5 (C), 155.7 (CN), 191.8 (CO) ppm; 31 P { 1 H} NMR (120 MHz, CDCl 3 ) δ : 28.9 ppm.
+HRMS (EI) calculated for C 34 H 22 NO 2 P [M] + 507.1388; found 507.1403.
+Purity 95.94% (EtOH/Heptane = 10/90, Rt = 4.848 min).
+6.3.2.2 4‐(Diphenylphosphoryl)‐6‐(4‐(Trifluoromethyl)Phenyl)‐7H‐Indeno[2,1‐c]Quinolin‐7‐One (11c) The general procedure A was followed using diphenyl(6‐(4‐(trifluoromethyl)phenyl)−6,6a,7,11b‐tetrahydro‐5 H ‐indeno[2,1‐ c ]quinolin‐4‐yl)phosphine oxide 9c (0.25 mmol, 0.13 g), affording 0.10 g (73%) of 11c as a yellow solid, mp 308°C‐309°C (ethyl ether/ethyl acetate).
+1 H NMR (300 MHz, CDCl 3 ) δ : 7.17 (d, 3 J HH = 7.9 Hz, 2H), 7.26–7.34 (m, 3H), 7.44–7.55 (m, 5H), 7.61–7.91 (m, 8H), 8.17 (d, 3 J HH = 7.6 Hz, 1H), 8.78 (d, 3 J HH = 8.1 Hz, 1H), 8.85 (dd, 3 J HH = 7.3 Hz, 2 J HP = 13.3 Hz, 1H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 122.4 (C), 123.1 (d, 3 J CP = 6.7 Hz, C), 124.1 (q, 1 J CF = 272.3 Hz, CF 3 ), 124.3 (q, 3 J CF = 3.8 Hz, 2CH), 124.6 (CH), 124.6 (CH),128.0 (d, 2 J CP = 12.0 Hz, CH), 128.1 (d, 2 J CP = 12.6 Hz, 4CH), 129.2 (d, 4 J CP = 2.7 Hz, CH), 130.4 (2CH), 131.1 (q, 2 J CF = 32.1 Hz, C), 131.4 (d, 4 J CP = 2.7 Hz, 2CH), 131.6 (CH), 132.2 (d, 3 J CP = 10.4 Hz, 4CH), 133.1 (d, 1 J CP = 109.1 Hz, 2C), 133.2 (d, 1 J CP = 100.7 Hz, C), 133.4 (C), 134.9 (CH), 139.8 (C), 140.7 (d, 3 J CP = 6.6 Hz, CH), 141.3 (C), 150.8 (d, 2 J CP = 5.7 Hz, CN), 153.7 (d, 4 J CP = 1.0 Hz, C), 154.0 (CN), 191.6 (CO) ppm; 31 P { 1 H} NMR (120 MHz, CDCl 3 ) δ : 28.4 ppm; 19 F { 1 H} NMR (282 MHz, CDCl 3 ) δ : −63.0 ppm.
+HRMS (EI): calculated for C 35 H 21 F 3 NO 2 P [M] + 575.1262; found 575.1282.
+Purity 97.83% (EtOH/Heptane = 10/90, Rt = 6.304 min).
+6.3.2.3 4‐(Diphenylphosphoryl)‐6‐(4‐Nitrophenyl)‐7H‐Indeno[2,1‐c]Quinolin‐7‐One (11d) The general procedure A was followed using diphenyl(6‐(4‐nitrophenyl)−6,6a,7,11b‐tetrahydro‐5 H ‐indeno[2,1‐ c ]quinolin‐4‐yl)phosphine oxide 9d (0.25 mmol, 0.13 g), affording 0.10 g (75%) of 11d as an orange solid, mp 295°C–296°C (ethyl ether/ethyl acetate).
+1 H NMR (400 MHz, CDCl 3 ) δ : 7.21–7.24 (m, 2H), 7.31–7.38 (m, 3H), 7.48–7.57 (m, 3H), 7.67–7.81 (m, 6H), 7.89–7.95 (2H), 8.12–8.15 (m, 2H), 8.21 (d, 3 J HH = 7.5 Hz, 1H), 8.79–8.85 (m, 2H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 120.3 (C), 122.6 (2CH), 123.3 (d, 3 J CP = 6.9 Hz, C), 124.8 (CH), 124.8 (CH), 128.2 (d, 2 J CP = 12.8 Hz, 4CH), 128.3 (d, 2 J CP = 12.0 Hz, CH), 129.2 (d, 4 J CP = 2.2 Hz, CH), 131.1 (2CH), 131.5 (d, 4 J CP = 2.8 Hz, 2CH), 131.8 (CH), 132.2 (d, 3 J CP = 10.3 Hz, 4CH), 133.1 (d, 1 J CP = 109.7 Hz, 2C), 133.4 (C), 133.5 (d, 1 J CP = 101.5 Hz, C), 135.1 (CH), 140.9 (d, 3 J CP = 7.0 Hz, CH), 141.3 (C), 142.5 (C), 148.2 (C), 150.9 (d, 2 J CP = 5.8 Hz CN), 153.1 (CN), 153.9 (d, 4 J CP = 1.4 Hz, C), 191.5 (CO) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 28.3 ppm.
+HRMS (EI): calculated for C 34 H 21 N 2 O 4 P [M] + 552.1239; found 552.1243.
+Purity 98.95% (EtOH/Heptane = 10/90, Rt = 4.119 min).
+6.3.2.4 4‐(Diphenylphosphoryl)‐6‐(4‐Methoxyphenyl)‐7H‐Indeno[2,1‐c]Quinolin‐7‐One (11e) The general procedure B was followed using diphenyl(6‐(4‐methoxyphenyl)‐7 H ‐indeno[2,1‐ c ]quinolin‐4‐yl)phosphine oxide 10e (0.25 mmol, 0.13 g), affording 0.13 g (99%) of 11e as a yellow solid, mp 275–276°C (ethyl acetate/hexane).
+1 H NMR (400 MHz, CDCl 3 ) δ : 3.89 (s, 3H), 6.79–6.82 (m, 1H), 7.06 (d, 3 J HH = 8.2 Hz, 2H), 7.27–7.35 (m, 4H), 7.45–7.50 (m, 3H), 7.59–7.72 (m, 3H), 7.80–7.87 (m, 5H), 8.15 (d, 3 J HH = 7.6 Hz, 1H), 8.74 (d, 3 J HH = 8.5 Hz, 1H), 8.88 (ddd, 4 J HH = 1.4 Hz, 3 J HH = 7.1 Hz, 2 J HH = 13.6 Hz, 1H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 55.3 (CH 3 ), 112.7 (2CH), 120.3 (CH), 122.2 (C), 122.6 (d, 3 J CP = 7.0 Hz, C), 124.4 (CH), 127.1 (d, 2 J CP = 12.3 Hz, CH), 128.0 (d, 2 J CP = 12.7 Hz, 4CH), 128.9 (C), 129.1 (d, 4 J CP = 2.3 Hz, CH), 131.3 (CH), 131.3 (d, 4 J CP = 2.8 Hz, 2CH), 131.8 (2CH), 132.4 (d, 3 J CP = 10.5 Hz, 4CH), 132.6 (d, 1 J CP = 101.7 Hz, C), 133.2 (d, 1 J CP = 109.4 Hz, 2C), 133.5 (CH), 134.6 (CH), 140.4 (d, 3 J CP = 6.6 Hz, CH), 141.4 (C), 150.9 (d, 2 J CP = 5.7 Hz, CN), 153.6 (d, 4 J CP = 1.3 Hz, C), 155.3 (CN), 160.7 (COCH 3 ), 192.0 (CO) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 28.8 ppm.
+HRMS (EI): calculated for C 35 H 24 NO 3 P [M] + 537.1494; found 537.1503.
+Purity 99.48% (EtOH/Heptane = 10/90, Rt = 6.045 min).
+6.3.2.5 4‐(Diphenylphosphoryl)‐6‐(3‐Methoxyphenyl)‐7H‐Indeno[2,1‐c]Quinolin‐7‐One (11f) The general procedure A was followed using diphenyl(6‐(3‐methoxyphenyl)−6,6a,7,11b‐tetrahydro‐5 H ‐indeno[2,1‐ c ]quinolin‐4‐yl)phosphine oxide 9f (0.25 mmol, 0.13 g), affording 0.13 g (99%) of 11f as a yellow solid, mp 283°C‐285°C (ethyl ether/ethyl acetate).
+1 H NMR (300 MHz, CDCl 3 ) δ : 3.70 (s, 3H), 6.59 (d, 3 J HH = 7.7 Hz, 1H), 6.88–6.90 (m, 1H) 6.96–6.99 (m, 1H), 7.16–7.29 (m, 5H), 7.40–7.49 (m, 3H), 7.59–7.64 (m, 2H), 7.69 (d, 3 J HH = 7.4 Hz, 1H), 7.76–7.89 (m, 4H), 8.16 (d, 3 J HH = 7.4 Hz, 1H), 8.77 (d, 3 J HH = 8.6 Hz, 1H), 8.90 (dd, 3 J HH = 7.6 Hz, 2 J HH = 13.8 Hz, 1H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 55.7 (CH 3 ), 115.2 (CH), 116.0 (CH), 122.7 (C), 122.9 (CH), 123.1 (d, 3 J CP = 7.0 Hz, C), 124.8 (CH), 124.8 (CH), 127.8 (d, 2 J CP = 12.8 Hz, CH), 128.2 (d, 2 J CP = 12.8 Hz, 4CH), 128.6 (CH), 129.5 (d, 4 J CP = 2.5 Hz, CH), 131.6 (d, 4 J CP = 3.1 Hz, 2CH), 131.7 (CH), 132.7 (d, 3 J CP = 10.6 Hz, 4CH), 133.0 (d, 1 J CP = 101.6 Hz, C), 133.1 (d, 1 J CP = 105.8 Hz, 2C), 134.1 (C), 134.9 (CH), 137.9 (C), 140.8 (d, 3 J CP = 6.5 Hz, CH), 141.6 (C), 151.1 (d, 2 J CP = 5.8 Hz, CN), 153.8 (C), 155.9 (CN), 159.0 (COCH 3 ), 191.9 (CO) ppm; 31 P { 1 H} NMR (120 MHz, CDCl 3 ) δ : 29.3 ppm; HRMS (EI): calculated for C 35 H 24 NO 3 P [M] + 537.1494; found 537.1508.
+Purity 97.84% (EtOH/Heptane = 10/90, Rt = 3.709 min).
+6.3.2.6 4‐(Diphenylphosphoryl)‐6‐(3‐Fluorophenyl)‐7H‐Indeno[2,1‐c]Quinolin‐7‐One (11g) The general procedure B was followed using diphenyl(6‐(3‐fluorophenyl)−6,6a,7,11b‐tetrahydro‐5 H ‐indeno[2,1‐ c ]quinolin‐4‐yl)phosphine oxide 9g (0.25 mmol, 0.13 g), affording 0.10 g (77%) of 11g as a yellow solid, mp 270°C‐273°C (ethyl ether/ethyl acetate).
+1 H NMR (400 MHz, CDCl 3 ) δ : 6.64–6.68 (m, 1H), 6.95–6.98 (m, 1H), 7.10–7.15 (m, 1H), 7.28–7.33 (m, 5H), 7.44–7.49 (m, 2H), 7.51–7.53 (m, 1H), 7.64–7.68 (m, 1H), 7.72–7.74 (m, 1H), 7.76–7.82 (m, 4H), 7.86–7.91 (m, 1H), 8.18 (d, 3 J HH = 7.6 Hz, 1H), 8.77–8.80 (m, 1H), 8.89 (ddd, 4 J HH = 1.4 Hz, 3 J HH = 7.1 Hz, 2 J HH =13.6 Hz, 1H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 116.4 (d, 2 J CF = 21.1 Hz, CH), 116.8 (d, 2 J CF = 22.9 Hz, CH), 122.4 (C), 123.0 (d, 3 J CP = 6.9 Hz, C), 124.6 (CH), 124.7 (CH), 125.9 (d, 4 J CF = 2.9 Hz, CH), 127.8 (d, 2 J CP = 12.3 Hz, CH), 128.1 (d, 2 J CP = 12.7 Hz, 4CH), 128.7 (d, 3 J CF = 8.0 Hz, CH), 129.1 (d, 4 J CP = 2.4 Hz, CH), 131.5 (d, 4 J CP = 2.7 Hz, 2CH), 131.6 (CH), 132.3 (d, 3 J CP = 10.5 Hz, 4CH), 133.1 (d, 1 J CP = 110.0 Hz, 2C), 133.2 (d, 1 J CP = 100.1 Hz, C), 133.5 (C), 134.8 (CH), 138.5 (d, 3 J CF = 7.8 Hz, C), 140.6 (d, 3 J CP = 6.6 Hz, CH), 141.4 (C), 150.8 (d, 2 J CP = 5.7 Hz, CN), 153.7 (d, 4 J CP = 1.2 Hz, C), 154.3 (d, 4 J CF = 2.4 Hz, CN), 162.1 (d, 1 J CF = 245.2 Hz, CF), 191.6 (CO) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 27.4 ppm; 19 F { 1 H} NMR (282 MHz, CDCl 3 ) δ : −113.9 ppm.
+HRMS (EI): calculated for C 34 H 21 FNO 2 P [M] + 525.1294; found 525.1301.
+Purity 97.16% (EtOH/Heptane = 10/90, Rt = 4.326 min).
+6.3.2.7 4‐(Diphenylphosphoryl)‐6‐(3‐Nitrophenyl)‐7H‐Indeno[2,1‐c]Quinolin‐7‐One (11h) The general procedure B was followed using diphenyl(6‐(3‐nitrophenyl)−6,6a,7,11b‐tetrahydro‐5 H ‐indeno[2,1‐ c ]quinolin‐4‐yl)phosphine oxide 9hr (0.25 mmol, 0.13 g), affording 0.12 g (87%) of 11hr as a yellow solid, mp 171°C‐173°C (ethyl ether/ethyl acetate).
+1 H NMR (300 MHz, CDCl 3 ) δ : 7.27–7.34 (m, 5H), 7.42–7.55 (m, 4H), 7.66–7.70 (m, 1H), 7.70–7.78 (m, 5H), 7.88–7.93 (m, 1H), 8.19–8.22 (m, 2H), 8.27–8.30 (m, 1H), 8.77–8.83 (m, 2H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 122.3 (C), 123.3 (d, 3 J CP = 6.9 Hz, C), 124.2 (CH), 124.8 (CH), 124.9 (CH), 125.0 (CH), 128.1 (d, 2 J CP = 12.7 Hz, 4CH), 128.2 (d, 2 J CP = 12.1 Hz, CH), 128.4 (CH), 129.3 (d, 4 J CP = 2.6 Hz, CH), 131.7 (d, 4 J CP = 2.8 Hz, 2CH), 131.7 (CH), 132.1 (d, 3 J CP = 10.4 Hz, 4CH), 132.8 (d, 1 J CP = 104.8 Hz, 2C), 133.2 (d, 1 J CP = 101.4 Hz, C), 133.4 (C), 135.1 (CH), 136.1 (CH), 137.9 (C), 140.9 (d, 3 J CP = 7.0 Hz, CH), 141.3 (C), 147.6 (C), 150.9 (d, 2 J CP = 5.5 Hz, CN), 153.0 (CN), 153.9 (d, 4 J CP = 1.4 Hz, C), 191.6 (CO) ppm.
+31 P { 1 H} NMR (120 MHz, CDCl 3 ) δ : 27.5 ppm.
+HRMS (EI): calculated for C 34 H 21 N 2 O 4 P [M] + 552.1239; found 552.1245.
+Purity 97.83% (EtOH/Heptane = 10/90, Rt = 6.304 min).
+6.3.2.8 6‐(2,4‐Difluorophenyl)‐4‐(Diphenylphosphoryl)‐7H‐Indeno[2,1‐c]Quinolin‐7‐One (11i) The general procedure A was followed using diphenyl‐4(6‐(2,4‐difluorophenyl)−6,6a,7,11b‐tetrahydro‐5 H ‐indeno[2,1‐ c ]quinolin‐4‐yl)phosphine oxide 9i (0.25 mmol, 0.13 g), affording 0.07 g (48%) of 11i as an orange solid, mp 182°C‐183°C (ethyl ether/ethyl acetate).
+1 H NMR (400 MHz, CDCl 3 ) δ : 6.31–6.38 (m, 1H), 6.69–6.75 (m, 1H), 6.85–6.92 (m, 1H), 7.29–7.34 (m, 3H), 7.45–7.50 (m, 3H), 7.60–7.80 (m, 7H), 7.86–7.92 (m, 1H), 8.16 (d, 3 J HH = 7.5 Hz, 1H), 8.76–8.88 (m, 2H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 103.5 (t, 2 J CF = 25.7 Hz, CH), 111.1 (dd, 2 J CF = 21.3 Hz, 3 J CF = 3.3 Hz, CH), 118.1 (C), 121.5 (dd, 2 J CF = 15.0 Hz, 4 J CF = 3.5 Hz, C), 123.2 (d, 3 J CP = 6.9 Hz, C), 123.4 (C), 124.6 (d, 2 J CP = 6.8 Hz, CH), 127.9 (CH), 128.0 (CH), 128.0 (d, 2 J CP = 12.7 Hz, 4CH), 129.3 (d, 4 J CP = 2.1 Hz, CH), 131.4 (d, 4 J CP = 2.5 Hz, 2CH), 131.5 (CH), 132.3 (t, 3 J CF = 5.2 Hz, CH), 132.3 (d, 3 J CP = 10.3 Hz, 4CH), 132.9 (d, 1 J CP = 104.5 Hz, 2C), 133.2 (d, 1 J CP = 102.3 Hz, C), 134.7 (CH), 140.3 (d, 3 J CP = 6.7 Hz, CH), 141.5 (C), 148.7 (C), 151.1 (d, 2 J CP = 5.5 Hz, CN), 152.3 (CN), 160.9 (dd, 1 J CF = 252.7 Hz, 3 J CF = 12.3 Hz, CF), 163.9 (dd, 1 J CF = 251.3 Hz, 3 J CF = 11.8 Hz, CF), 191.2 (CO) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 28.6 ppm; 19 F {H} NMR (120 MHz, CDCl 3 ) δ : −108.2 (d, 4 J FF = 15.5 Hz), −109.3 (d, 4 J FF = 27.6 Hz) ppm.
+HRMS (EI): calculated for C 34 H 20 F 2 NO 2 P [M] + 543.1200; found 543.1203.
+Purity 98.32% (EtOH/Heptane = 10/90, Rt = 4.360 min).
+6.3.2.9 4‐(Diphenylphosphoryl)‐6‐(Naphthalen‐2‐Yl)‐7H‐Indeno[2,1‐c]Quinolin‐7‐One (11k) The general procedure A was followed using diphenyl(6‐(naphthalen‐2‐yl)−6,6a,7,11b‐tetrahydro‐5 H ‐indeno[2,1‐ c ]quinolin‐4‐yl)phosphine oxide 9k (0.25 mmol, 0.13 g), affording 0.02 g (14%) of 11k as a yellow solid, mp 213°C‐214°C (ethyl ether/ethyl acetate).
+1 H NMR (400 MHz, CDCl 3 ) δ : 7.20–7.31 (m, 5H), 7.42–7.61 (m, 8H), 7.67–7.89 (m, 8H), 8.13 (d, 3 J HH = 7.6 Hz, 1H), 8.76 (d, 3 J HH = 8.5 Hz, 1H), 8.93 (dd, 3 J HH = 7.0 Hz, 2 J HH =13.5 Hz, 1H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 120.3 (C), 122.5 (C), 122.8 (d, 3 J CP = 7.0 Hz, C), 124.4 (CH), 124.5 (CH), 125.9 (CH), 126.7 (d, 2 J CP = 11.2 Hz, CH), 127.3 (CH), 127.4 (CH), 127.6 (CH), 128.0 (d, 2 J CP = 12.8 Hz, 4CH), 128.8 (CH), 129.2 (d, 4 J CP = 2.7 Hz, CH), 130.0 (CH), 131.3 (CH), 131.3 (d, 4 J CP = 2.5 Hz, 2CH), 131.4 (CH), 132.4 (d, 3 J CP = 10.5 Hz, 4CH), 132.7 (d, 1 J CP = 101.5 Hz, C), 133.1 (d, 1 J CP = 102.8 Hz, 2C), 133.4 (C), 133.8 (C), 133.9 (C), 134.7 (CH), 140.5 (d, 3 J CP = 6.5 Hz, CH), 141.4 (C), 150.9 (d, 2 J CP = 5.8 Hz, CN), 153.6 (d, 4 J CP = 1.4 Hz, C), 155.5 (CN), 191.7 (CO) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 29.1 ppm.
+HRMS (EI): calculated for C 38 H 24 NO 2 P [M] + 557.1545; found 557.1556.
+Purity 97.16% (EtOH/Heptane = 10/90, Rt = 4.326 min).
+6.3.2.10 4‐(Diphenylphosphoryl)‐6‐(Pyridin‐2‐Yl)‐7H‐Indeno[2,1‐c]Quinolin‐7‐One (11l) The general procedure B was followed using diphenyl(6‐(pyridin‐2‐yl)−6,6a,7,11b‐tetrahydro‐5 H ‐indeno[2,1‐ c ]quinolin‐4‐yl)phosphine oxide 9l (0.25 mmol, 0.13 g), affording 0.10 g (78%) of 11l as a yellow solid, mp 268°C–271°C (ethyl ether/ethyl acetate).
+1 H NMR (400 MHz, CDCl 3 ) δ : 6.63–6.66 (m, 1H), 7.29–7.39 (m, 5H), 7.45–7.52 (m, 3H), 7.60–7.66 (m, 2H), 7.72 (d, 3 J HH = 7.9 Hz, 1H), 7.79–7.85 (m, 4H), 7.89–7.93 (m, 1H), 8.18 (d, 3 J HH = 7.7 Hz, 1H), 8.70–8.72 (m, 1H), 8.81–8.90 (m, 2H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 123.5 (d, 3 J CP = 7.1 Hz, C), 123.6 (C), 123.8 (CH), 123.9 (CH), 124.5 (d, 2 J CP = 12.8 Hz, CH), 127.9 (CH), 128.0 (CH), 128.0 (d, 2 J CP = 12.8 Hz, 4CH), 129.3 (d, 4 J CP = 2.5 Hz, CH), 131.3 (d, 4 J CP = 2.7 Hz, 2CH), 131.5 (CH), 132.2 (d, 3 J CP = 10.5 Hz, 4CH), 133.3 (d, 1 J CP = 102.0 Hz, C), 133.3 (d, 1 J CP = 106.1 Hz, 2C), 133.8 (C), 134.5 (CH), 136.1 (CH), 140.3 (d, 3 J CP = 6.6 Hz, CH), 141.4 (C), 148.4 (CHN), 150.3 (d, 2 J CP = 6.0 Hz, CN), 153.5 (C), 154.4 (CN), 155.2 (CN), 191.0 (CO) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 27.4 ppm.
+HRMS (EI): calculated for C 33 H 21 N 2 O 2 P [M] + 508.1341; found 508.1431.
+Purity 98.95% (EtOH/Heptane = 10/90, Rt = 4.119 min).
+6.3.2.11 4‐(Diphenylphosphoryl)‐6‐(Pyridin‐4‐Yl)‐7H‐Indeno[2,1‐c]Quinolin‐7‐One (11m) The general procedure B was followed using diphenyl(6‐(pyridin‐4‐yl)−6,6a,7,11b‐tetrahydro‐5 H ‐indeno[2,1‐ c ]quinolin‐4‐yl)phosphine oxide 9m (0.25 mmol, 0.13 g), affording 0.08 g (60%) of 11 m as a yellow solid, mp 287°C–290°C (ethyl ether/ethyl acetate).
+1 H NMR (400 MHz, CDCl 3 ) δ : 6.97–6.98 (m, 2H), 7.29–7.34 (m, 4H), 7.46–7.51 (m, 2H), 7.53–7.55 (m, 1H), 7.65–7.69 (m, 1H), 7.73–7.94 (m, 5H), 7.89–7.94 (m, 1H), 8.20 (d, 3 J HH = 7.7 Hz, 1H), 8.56–8.58 (m, 2H), 8.79–8.82 (m, 1H), 8.86 (ddd, 4 J HH = 1.4 Hz, 3 J HH = 7.1 Hz, 2 J HH =13.6 Hz, 1H) ppm; 13 C {H} NMR (75 MHz, CDCl 3 ) δ : 122.5 (C), 123.3 (d, 3 J CP = 6.9 Hz, C), 124.2 (2CH), 124.7 (CH), 124.8 (CH), 128.1 (d, 2 J CP = 12.7 Hz, 4CH), 128.3 (d, 2 J CP = 12.3 Hz, CH), 129.2 (d, 4 J CP = 2.5 Hz, CH), 131.5 (d, 4 J CP = 2.9 Hz, 2CH), 131.8 (CH), 132.2 (d, 3 J CP = 10.4 Hz, 4CH), 133.0 (d, 1 J CP = 109.0 Hz, 2C), 133.4 (C), 133.5 (d, 1 J CP = 100.6 Hz, C), 135.0 (CH), 140.8 (d, 3 J CP = 6.8 Hz, CH), 141.4 (C), 144.0 (C), 149.1 (2CHN), 150.8 (d, 2 J CP = 5.5 Hz, CN), 152.9 (CN), 153.8 (d, 4 J CP = 1.2 Hz, C), 191.4 (CO) ppm; 31 P {H} NMR (120 MHz, CDCl 3 ) δ : 27.3 ppm.
+HRMS (EI): calculated for C 33 H 21 N 2 O 2 P [M] + 508.1341; found 508.1351.
+Purity 98.95% (EtOH/Heptane = 10/90, Rt = 4.119 min).
+6.4 Biology 6.4.1 Materials Reagents and solvents were used as purchased without further purification.
+Camptothecin was purchased from Sigma–Aldrich.
+All stock solutions of the investigated compounds were prepared by dissolving the powered materials in appropriate amounts of DMSO.
+The final concentration of DMSO never exceeded 10% (v/v) in reactions.
+Under these conditions DMSO was also used in the controls and was not seen to affect TOP1 activity.
+The stock solution was stored at 5°C until it was used.
+6.4.2 Expression and Purification of Human Topoisomerase IB The yeast SacCyces cerevisiae TOP1 null strain RS190, which was used for expression of recombinant human TOP1 was a kind gift from R.
+Sternglanz (State University of New York, Stony Brook, NY).
+Plasmid pHT143, for expression of recombinant TopI under the control of an inducible GAL promoter was described [ 64 ].
+The plasmids pHT143 were transformed into the yeast S.
+cerevisiae strain RS190.
+The proteins were expressed and purified by affinity chromatography essentially as described [ 65 ].
+The protein concentrations were estimated from Coomassie blue‐stained SDS/polyacrylamide gels by comparison to serial dilutions of bovine serum albumin (BSA).
+6.4.3 DNA Relaxation Assays TOP1 activity was assayed using a DNA relaxation assay by incubating 110 ng/mL of TOP1 with 0.5 μg of negatively supercoiled pUC18 in 20 μl of reaction buffer (20 mM TriseHCl, 0.1 mM Na 2 EDTA, 10 mM MgCl 2 , 50μg/mL acetylated BSA and 150 mM KCl, pH 7.5).
+The effect of the synthesized tetracyclic 9 , 10e and 11 derivatives on topoisomerase activity was measured by adding different concentrations of the compounds at different time points as indicated in the text.
+Either relaxation was assayed without any preincubation, or DNA or enzyme were preincubated with the drugs at 37°C for 15 min prior to the addition of the missing component, that is, DNA (in case of preincubation of drug and enzyme) or enzyme (in the case of preincubation of drug and DNA).
+The reactions were performed at 37°C stopped by the addition of 0.5% SDS after indicated time intervals.
+The samples were protease digested, electrophoresed in a horizontal 1% agarose gel in 1xTBE (50 mM Tris, 45 mM boric acid, 1 mM EDTA) at 25 V during 18 h.
+The gel was stained with gel red (BIOTIUM, 5 mg/mL), destained with water, and photographed under UV illumination.
+Since all drugs were dissolved in dimethyl sulfoxide (DMSO), a positive control sample containing the same DMSO concentration as the samples incubated with the drugs was included in all experiments.
+As a control for drug inhibition the well know TOP1 specific drug camptothecin was included.
+6.4.4 Cytotoxicity Assays Cells were cultured according to the supplier's instructions.
+Cells were seeded in 96‐well plates at a density of 2–4 × 10 3 cells per well and incubated overnight in 0.1 mL of media supplied with 10% Fetal Bovine Serum (Lonza) in 5% CO 2 incubator at 37°C.
+On day 2, drugs were added and samples were incubated for 48 h.
+After treatment, 10 μL of cell counting kit‐8 was added into each well for additional 2h incubation at 37°C.
+The absorbance of each well was determined by an Automatic Elisa Reader System at 450 nm wavelength.
+6.5 Computational 6.5.1 Density Functional Theory Calculations Theoretical calculations allowed the description of noncovalent interactions of the region of interest, the estimation of Molecular Potential Energy Surface (PES), HOMO‐LUMO energy gap and related parameters, which depicted the potential kinetic stability and reactivity of the target compounds, that´s why a theoretical studies using DFT involving the well‐known Minnesota functional M06‐2X [ 52 ] which is known to be a reasonable good performance for organic compounds.
+All the geometrical optimizations of the synthesized compounds were carried out in a protein‐buried environment ( ε = 4) with Integral Equation Formalism Polarizable Continuum Model (IEFPCM) [ 66 ] as implemented in Gaussian16 [ 51 ] program using 6‐31++G (d, p) level of theory.
+To confirm that the optimized structures were real minima on the potential energy surfaces, frequency calculations were carried out at the same level of theory.
+The frequencies were then used to evaluate the zero‐point vibrational energy (ZPVE) and the thermal (T = 298K) vibrational corrections to the enthalpies and Gibbs free energies within the harmonic oscillator approximation.
+To calculate the entropy, the different contributions to the partition function were evaluated using the standard statistical mechanics expressions in the canonical ensemble and the harmonic oscillator and rigid rotor approximation.
+The electronic energies were refined by single‐point energy calculations at the M06‐2X/6‐311++G (d, p) level of theory in gas and in protein buried environment.
+The molecular DFT‐based parameters such as electronic chemical potential ( μ ), chemical hardness ( η ), global electrophilicity ( ω ), maximum number of accepted electrons (Δ Nmax) and Free energy in gas and in protein‐buried environment for all compounds were determined in the above mentioned level of theory according to the approaches and equations described where these stereoelectronic properties show the potential kinetic stability and reactivity of the target compounds [ 67 ].
+In addition, the molecular potential energy surface of the optimized compounds were calculated using DFT at the same level of theory, M06‐2X/6‐311++G (d, p).
+Moreover, the noncovalent index (NCI) analysis was carried out using the NCIPLOT code [ 68 ].
+This technique rest on the analysis and the graphical interpretation of the electronic density and its derivative.
+6.5.2 Virtual Docking Studies Molecular virtual docking studies of some experimentally synthetized compounds to TOP1‐DNA complex receptor structure were carried out with Glide software package of Schrodinger Inc, to investigate the binding pattern and their interactions with TOP1 aminoacids and DNA nucleobases [ 53 ].
+The model was derived by docking of compounds in the camptothecin binding site of the CPT‐TOP1‐DNA ternary complex (PDB entry 1T8I) [ 54 ].
+This ternary complex was prepared with Protein Preparation Wizard of Schrodinger suite, in order to add missing hydrogens and missing side‐chains, assign bond orders, and optimize the H‐bond network.
+The preprocessing was carried out with defaults methods.
+Minimization and refinement was performed to remove local clashes prior to further standard equilibration protocols.
+Later a Glide Grid file was generated for the complex receptor using an inner box of ca.
+15 Å and outer box of ca.
+29.29 Å centered on CPT cocrystallized ligand (grid center 21.262758258991443, −2.3130282625069642, 28.03105521805344), which properly covered the active site.
+The binding mode and affinity of DFT optimized ligands was estimated using extra precision Glide docking protocol.
+Supporting Information Additional supporting information can be found online in the Supporting Information section.
+Supporting Fig S1: DNA nicking assay of TOP1 activity in absence (only DMSO) and presence of CPT and compounds 9a, 9f, 11a and 11f at 100 μM: lines 1‐2, DNA + TOP1 + DMSO; lines 3‐4, DNA + TOP1 + CPT 100 μM; lines 5‐6, DNA + TOP1 + 9a 100 μM; lines 7‐8, DNA + TOP1 + 9f 100 μM; lines 9‐10, DNA + TOP1 + 11a 100 μM; lines 11−12, DNA + TOP1 + 11f 100 μM; lanes 13−18, control DNA.
+Reaction samples were mixed with the supercoiled DNA substrate before adding enzyme at 37°C and separated by electrophoresis on a 1% agarose gel with ethidium bromide, and then stained with gel red, and photographed under UV light.
+Np, Nicked plasmid; Sc, supercoiled DNA + relaxed DNA.
+Supporting Fig S2: HOMO and LUMO orbitals of 1,2,3,4‐tetrahydroindeno[2,1,c]quinolinylphosphine oxides derivatives 9.
+Supporting Fig S3: HOMO and LUMO orbitals of 7 H ‐indeno[2,1, c ]quinolinylphosphine oxide 10e and 7‐oxoindeno[2,1, c ]quinolinylphosphine oxides 11.
+Supporting Table S1: TOP1 inhibitory activity of 1,2,3,4‐tetrahydroindenoquinolinylphosphine oxides 9, 7 H ‐indene[2,1, c ]quinolinylphosphine oxide 10e and 7‐oxoindene[2,1, c ]quinolinylphosphine oxides 11.
+Supporting Table S2: Stereoelectronic properties analysis of derivatives 9, 10e, and 11, in a protein buried environment.
+Supporting Table S3: Gscore and Gemodel values for 1,2,3,4‐tetrahydroindeno[2,1, c ]quinolinylphosphine oxides 9, 7 H ‐indeno[2,1, c ]quinolinylphosphine oxide 10e and 7‐oxoindeno[2,1, c ]quinolinylphosphine oxides 11 derivatives.
+Supporting Table S4: Physicochemical properties and drug likeness for compounds: 1,2,3,4‐tetrahydroindenoquinolinylphosphine oxides 9, 7 H ‐indene[2,1, c ]quinolinylphosphine oxide 10e and 7‐oxoindene[2,1, c ]quinolinylphosphine oxides 11.
+Supporting Table S5: The ADME study results for compounds 1,2,3,4‐tetrahydroindenoquinolinylphosphine oxides 9, 7 H ‐indene[2,1, c ]quinolinylphosphine oxide 10e and 7‐oxoindene[2,1, c ]quinolinylphosphine oxides 11.
+Funding This study was supported by Ministerio de Ciencia e Innovación (PID2021‐122558OB‐I00) and Hezkuntza, Hizkuntza Politika Eta Kultura Saila, Eusko Jaurlaritza (IT1701‐22).
+Conflicts of Interest The authors declare no conflicts of interest.
+Supporting information Supplementary Material Acknowledgments Financial support from Grant PID2021‐122558OB‐I00 funded by MCIN/AEI/10.13039/501100011033 and by the “European Union” and Basque Government (GV, IT1701−22) is gratefully acknowledged.
+Technical and human support provided by IZO‐SGI SGIKer of UPV/EHU and DIPC is also acknowledged.
+Data Availability Statement The data that support the findings of this study are available from the corresponding author upon reasonable request.
+References 1 Global Cancer Observatory , accessed February 19, 2026, https://gco.iarc.fr/en .
+2 World Health organization , accessed February 19, 2026, https://www.who.int/news‐room/factsheets/detail/cancer .
+3 G.
+Ioele , M.
+Chieffallo , M.
+A.
+Occhiuzzi , et al., “ Anticancer Drugs: Recent Strategies to Improve Stability Profile, Pharmacokinetic and Pharmacodynamic Properties ,” Molecules 27 ( 2022 ): 5436 .
+36080203 4 D.
+G.
+Brown and J.
+Boström , “ A Decade of FDA‐Approved Drugs (2010−2019): Trends and Future Directions ,” Journal of Medicinal Chemistry 64 ( 2021 ): 2312 – 2338 .
+33617254 5 H.
+Zhang , H.
+Xu , C.
+R.
+Jr Ashby , Y.
+G.
+Assaraf , Z.
+S.
+Chen , and H.
+L.
+Liu , “ Chemical Molecular‐Based Approach to Overcome Multidrug Resistance in Cancer by Targeting P‐Glycoprotein (P‐Gp) ,” Medicinal Research Reviews 41 , no.
+1 ( 2021 ): 525 – 555 .
+33047304 6 B.
+Cheng , W.
+Pan , Y.
+Xing , Y.
+Xiao , J.
+Chen , and Z.
+Xu , “ Recent Advances in DDR (DNA Damage Response) Inhibitors for Cancer Therapy ,” European Journal of Medicinal Chemistry 230 ( 2022 ): 114109 .
+35051747 7 S.
+K.
+Sahu , M.
+Vyas , and P.
+K.
+Prabhakar , “ Emerging Role of Natural Topoisomerase Inhibitors as Anticancer Agents ,” Medicinal Chemistry 21 , no.
+3 ( 2025 ): 195 – 210 .
+40070141 8 J.
+J.
+Champoux , “ DNA Topoisomerases: Structure, Function, and Mechanism ,” Annual Review Biochemistry 70 ( 2001 ): 369 – 413 .
+9 J.
+B.
+Leppard and J.
+J.
+Champoux , “ Human DNA Topoisomerase I: Relaxation, Rules and Damage Control ,” Chromosome 114 ( 2005 ): 75 – 85 .
+10 Y.
+Pommier , “ TOP1 Inhibitors: Camptothecins and beyond ,” Nature Review 6 ( 2006 ): 789 – 802 .
+11 J.
+C.
+Wang , “ DNA Topoisomerases ,” Annual Review of Biochemistry 65 ( 1996 ): 635 – 692 .
+12 E.
+Martin‐Encinas , A.
+Selas , F.
+Palacios , and C.
+Alonso , “ The Design and Discovery of Topoisomerase I Inhibitors as Anticancer Therapies ,” Expert Opinion on Drug Discovery 17 , no.
+6 ( 2022 ): 581 – 601 .
+35321631 13 A.
+Selas , E.
+Martin‐Encinas , M.
+Fuertes , et al., “ A Patent Review of Topoisomerase I Inhibitors (2016‐Present) ,” Expert Opinion on Therapeutic Patents 31 , no.
+6 ( 2021 ): 473 – 508 .
+33475439 14 R.
+P.
+Verma and C.
+Hansch , “ Camptothecins: A SAR/QSAR Study ,” Chemical Reviews 109 ( 2009 ): 213 – 235 .
+19099450 15 E.
+Martino , S.
+Della Volpe , E.
+Terribile , et al., “ S.
+Collina “the Long Story of Camptothecin: From Traditional Medicine to Drugs ,” Bioorganic & Medicinal Chemistry 27 ( 2017 ): 701 – 707 .
+16 A.
+Lauria , G.
+La Monica , A.
+Bono , and A.
+Martorana , “ Quinoline Anticancer Agents Active on DNA and DNA‐Interacting Proteins: From Classical to Emerging Therapeutic Targets ,” European Journal of Medicinal Chemistry 220 ( 2021 ): 113555 .
+34052677 17 Y.
+Pommier , DNA Topoisomerases and Cancer .
+( Springer , 2012 ).
+18 C.
+Alonso , M.
+Fuertes , E.
+Martín‐Encinas , et al., “ Novel Topoisomerase I Inhibitors.
+Synthesis and Biological Evaluation of Phosphorus Substituted Quinoline Derivatives with Antiproliferative Activity ,” European Journal of Medicinal Chemistry 149 ( 2018 ): 225 – 237 .
+29501943 19 A.
+Mandal , and A.
+T.
+Khan .
+“ Recent Advancement in the Synthesis of Quinolinederivatives via Multicomponent Reactions ,” Organic & Biomolecular Chemistry 22 ( 2024 ): 2339 – 2358 .
+38444342 20 V.
+Sridharan , P.
+A.
+Suryavanshi , and J.
+C.
+Menéndez , “ Advances in the Chemistry of Tetrahydroquinolines ,” Chemical Reviews 111 ( 2011 ): 7157 – 7259 .
+21830756 21 S.
+Kumar , S.
+Bawa , and H.
+Gupta , “ Biological Activities of Quinolone Derivatives ,” Mini‐Reviews in Medicinal Chemistry 9 ( 2009 ): 1648 – 1654 .
+20088783 22 A.
+L.
+Liu , S.
+H.
+Shu , H.
+L.
+Qin , S.
+M.
+Lee , Y.
+T.
+Wang , and G.
+H.
+Du , “ In Vitro Anti‐Influenza Viral Activities of Constituents from Caesalpinia Sappan ,” Planta Medica 75 ( 2009 ): 337 – 339 .
+19148862 23 N.
+Goli , P.
+S.
+Mainkar , S.
+S.
+Kotapalli , K.
+Tejaswini , R.
+Ummanni , and S.
+Chandrasekhar , “ Expanding the Tetrahydroquinoline Pharmacophore ,” Bioorganic & Medicinal Chemistry Letters 27 ( 2017 ): 1714 – 1720 .
+28318941 24 R.
+N.
+Asolkar , D.
+Schroeder , R.
+Heckmann , S.
+Lang , I.
+WagnerDoebler , and H.
+Laatsch , “ Marine Bacteria XXVII.
+Helquinoline, a New Tetrahydroquinoline Antibiotic from Janibacter Limosus Hel 1 ,” Journal Antibiotics 57 ( 2004 ): 17 – 23 .
+25 J.
+M.
+Singer , B.
+M.
+Barr , L.
+L.
+Coughenour , and M.
+A.
+Walters , “ 8‐Substituted 3,4‐Dihydroquinolinones as a Novel Scaffold for Atypical Antipsychotic Activity ,” Bioorganic & Medicinal Chemistry Letters 15 ( 2005 ): 4560 – 4563 .
+16087333 26 A.
+Kumar , S.
+Srivastava , G.
+Gupta , V.
+Chaturvedi , S.
+Sinha , and R.
+Srivastava , “ Natural Product Inspired Diversity Oriented Synthesis of Tetrahydroquinoline Scaffolds as Antitubercular Agent ,” ACS Combinatorial Science 13 ( 2011 ): 65 – 71 .
+21247127 27 W.
+Chen , Z.
+Lin , M.
+Ning , et al., “ Aza Analogues of Equol: Novel Ligands for Estrogen Receptor Beta ,” Bioorganic & Medicinal Chemistry 15 ( 2007 ): 5828 – 5836 .
+17574424 28 D.
+A.
+Rudenko , T.
+V.
+Shavrina , S.
+N.
+Shurov , and S.
+S.
+Zykova , “ Synthesis and Antioxidant Activity of Tricyclic Compounds Containing a 5,6,7,8‐Tetrahydroquinoline Moiety ,” Pharmaceutical Chemistry Journal 48 ( 2014 ): 100 – 103 .
+29 A.
+Saxena , S.
+Majee , D.
+Ray , and B.
+Saha , “ Inhibition of Cancer Cells by Quinoline‐Based Compounds: A Review with Mechanistic Insights ,” Bioorganic & Medicinal Chemistry 103 ( 2024 ): 117681 .
+38492541 30 F.
+M.
+Güiza , Y.
+Bueno Duarte , S.
+C.
+Mendez‐Sanchez , and A.
+R.
+Romero Bohórquez , “ Synthesis and In Vitro Evaluation of Substituted Tetrahydroquinolineisoxazole Hybrids as Anticancer Agents ,” Medicinal Chemistry Research : an International Journal for Rapid Communications on Design and Mechanisms of Action of Biologically Active Agents 28 ( 2019 ): 1182 – 1196 .
+31 O.
+Lockridge and L.
+M.
+Schopfer , “ Organophosphorus Toxicants, in Addition to Inhibiting Acetylcholinesterase Activity, Make Covalent Adducts on Multiple Proteins and Promote Protein Crosslinking into High Molecular Weight Aggregates ,” Chemico‐Biological Interactions 376 ( 2023 ): 110460 .
+36963650 32 S.
+Demkowicz , J.
+Rachon , M.
+Dasko , and W.
+Kozak , “ Selected Organophosphorus Compounds with Biological Activity.
+Applications in Medicine ,” RSC Advances 6 ( 2016 ): 7101 – 7112 .
+33 L.
+D.
+Quin , A Guide to Organophosphorus Chemistry .
+( John Wiley & Sons , 2000 ).
+34 E.
+Breuer , The Chemistry of Organophosphorus Compounds .
+( Hartley FR Wiley , 1996 ).
+653 .
+35 F.
+Palacios , C.
+Alonso , and J.M.
+De Los Santos , “ Synthesis of β ‐Aminophosphonates and –Phosphinates ,” Chemical Reviews 105 , no.
+3 ( 2005 ): 899 – 932 .
+15755080 36 K.
+D.
+Demadis , S.
+K.
+Adla , J.
+Timonen , and P.A.
+Turhanen , “ Green Phosphonate Chemistry ‐ Does It Exist? ,” Green Chemistry: an International Journal and Green Chemistry Resource: Gc 27 , no.
+4 ( 2025 ): 863 – 914 .
+37 C.
+B.
+Reddy , K.
+S.
+Kumar , M.
+A.
+Kumar , et al., “ PEG‐SO(3)H Catalyzed Synthesis and Cytotoxicity of Aminophosphonates ,” European Journal of Medicinal Chemistry 47 ( 2012 ): 553 – 559 .
+22136905 38 A.
+H.
+Kategaonkar , R.
+U.
+Pokalwar , S.
+S.
+Sonar , V.
+U.
+Gawali , B.
+B.
+Shingate , and M.
+S.
+Shingare , “ Synthesis, In Vitro Antibacterial and Antifungal Evaluations of New Alpha‐Hydroxyphosphonate and New Alpha‐Acetoxyphosphonate Derivatives of Tetrazolo [1,5‐a] Quinoline ,” European Journal of Medicinal Chemistry 45 ( 2010 ): 1128 – 1132 .
+20036039 39 Y.
+Mehellou , C.
+MeGuigan , A.
+Brancale , and J.
+Balzarini , “ Design, Synthesis, and Anti‐HIV Activity of 20,30‐Didehydro‐20,30‐Dideoxyuridine (d4U), 20,30‐Dideoxyuridine (ddU) Phosphoramidate ‘ProTide Derivatives ,” Bioorganic & Medicinal Chemistry Letters 17 ( 2007 ): 3666 – 3669 .
+17485204 40 K.
+Wittine , K.
+Benci , Z.
+Rajic , et al., “ The Novel Phosphoramidate Derivatives of NSAID.
+3‐Hydroxypropylamides: Synthesis, Cytostatic and Antiviral Activity Evaluations ,” European Journal of Medicinal Chemistry 44 ( 2009 ): 143 – 151 .
+18485540 41 I.
+Zghab , B.
+Trimeche , M.
+Besbes , D.
+Touboul , M.
+T.
+Martin , and H.
+B.
+Jannet , “ Synthesis and Spectral Studies of Biologically Active Organophosphorus Derivatives of Substituted 4‐(2‐Hydrocyphenylamino)‐2H‐Chromen‐2‐One ,” Medicinal Chemistry Research : an International Journal for Rapid Communications on Design and Mechanisms of Action of Biologically Active Agents 24 ( 2015 ): 2167 – 2176 .
+42 F.
+F.
+Arp , S.
+H.
+Ahn , N.
+Bhuvanesh , and J.
+Bluemel , “ Selective Synthesis and Stabilization of Peroxides via Phosphine Oxides ,” New Journal of Chemistry = Nouveau Journal De Chimie 43 ( 2019 ): 17174 – 17181 .
+43 A.
+Emadi , R.
+J.
+Jones , and R.
+A.
+Brodsky , “ Cyclophosphamide and Cancer: Golden Anniversary ,” Nature Reviews Clinical Oncology 6 ( 2009 ): 638 – 647 .
+44 W.
+S.
+Huang , S.
+Liu , D.
+Zou , et al., “ Discovery of Brigatinib (AP26113), a Phosphine Oxide‐Containing, Potent, Orally Active Inhibitor of Anaplastic Lymphoma Kinase ,” Journal of Medicinal Chemistry 59 ( 2016 ): 4948 – 4964 .
+27144831 45 A.
+Markham , “ Brigatinib: First Global Approval ,” Drugs 77 ( 2017 ): 1131 – 1135 .
+28597393 46 J.
+I.
+G.
+Cadogan , D.
+J.
+Sears and D.
+M.
+Smith “The Reactivity of Organophosphorus Compounds.
+Part XXV.
+Displacement of Activated Aromatic Nitro‐Groups by Tervalent Phosphorus Reagents ,” Journal of the Chemical Society C 10 ( 1969 ): 1314 – 1318 .
+47 J.
+Mlochowski and H.
+Wojtowicz‐Mlochowska , “ Developments in Synthetic Application of Selenium (IV) Oxide Ad Organoselenium Compounds as Oxygen Donors and Oxygen‐Transfer Agents ,” Molecules 20 ( 2015 ): 10205 – 10243 .
+26046320 48 P.
+Ghosh , J.
+Das , A.
+Sarkar , and S.
+Ng Weng , “ E.R.T.
+Tiekink “Oxidation with Selenium Dioxide: The First Report of Solvent‐Selective Steroidal Aromatization, Efficient Access to 4 β ,7 α ‐Dihydroxy Steroids, and Syntheses of Natural Diaromatic Ergosterols ,” Tetrahedron 68 ( 2012 ): 6485 – 6491 .
+49 C.
+Alonso , E.
+Martínez de Marigorta , G.
+Rubiales , and F.
+Palacios , “ Carbon Trifluoromethylation Reactions of Hydrocarbon Derivatives and Heteroarenes ,” Chemical Reviews 115 ( 2015 ): 1847 – 1935 .
+25635524 50 Q.
+Huang , L.
+Wang , and W.
+Lu , “ Evolution in Medicinal Chemistry of E‐ring‐Modified Camptothecin Analogs as Anticancer Agents ,” European Journal of Medicinal Chemistry 63 ( 2013 ): 746 – 757 .
+23578545 51 M.
+J.
+Frisch , G.
+W.
+Trucks , H.
+B.
+Schlegel , et al., Gaussian 16 Revision C.01 .
+( 2016 ).
+52 Y.
+Zhao and D.
+Truhlar , “ The M06 Suite of Density Functionals for Main Group Thermochemistry, Thermochemical Kinetics, Noncovalent Interactions, Excited States, and Transition Elements: Two New Functionals and Systematic Testing of Four M06‐Class Functionals and 12 other Functionals ,” Theoretical Chemistry Accounts 120 ( 2008 ): 215 – 241 .
+53 Schrödinger Release 2023‐3 .
+( 2023 ).
+54 B.
+L.
+Staker , M.
+D.
+Feese , M.
+Cushman , et al., “ Structures of Three Classes of Anticancer Agents Bound to the Human TOP1‐DNA Covalent Complex ,” Journal of Medicinal Chemistry 48 ( 2005 ): 2336 – 2345 .
+15801827 55 Y.
+Pommier and C.
+Marchand , “ Interfacial Inhibitors: Targeting Macromolecular Complexes ,” Nature Reviews.
+Drug Discovery 11 ( 2012 ): 25 – 36 .
+56 S.
+Padhi , M.
+Masi , Y.
+K.
+Mohanta , et al., “ In Silico Pharmacokinetics, Molecular Docking and Dynamic Simulation Studies of Endolichenic Fungi Secondary Metabolites: An Implication in Identifying Novel Kinase Inhibitors as Potential Anticancer Agents ,” Journal of Molecular Structure 1273 ( 2023 ): 134390 .
+57 H.
+A.
+Zhong , “ ADMET Properties: Overview and Current Topics ,” in Drug Design and Discovery: Principles and Applications , edited by A.
+Grover ( 2017 ), 113 – 133 .
+58 M.
+D.
+Lutful Amin , “ P‐Glycoprotein Inhibition for Optimal Drug Delivery ,” Drug Target Insights 7 ( 2013 ): 27 – 34 .
+24023511 59 M.
+Zhao , J.
+Ma , M.
+Li , et al., “ Cytochrome P450 Enzymes and Drug Metabolism in Humans ,” International Journal of Molecular Sciences 22 , no.
+23 ( 2021 ): 12808 .
+34884615 60 E.
+Kiselev , T.
+S.
+Dexheimer , Y.
+Pommier , and M.
+Cushman , “ Design, Synthesis and Evaluation of Dibenzo[c,h][1,6]naphthyridines as Topoisomerase I Inhibitors and Potential Anticancer Agents ,” Journal of Medicinal Chemistry 53 ( 2010 ): 8716 – 8726 .
+21090809 61 Z.
+Gu , Y.
+Li , S.
+Ma , et al., “ Synthesis, Cytotoxic Evaluation and DNA Binding Study of 9‐Fluoro‐Indolo[2,3‐b]quinoxaline Derivatives ,” RSC Advances 7 ( 2017 ): 41869 – 41879 .
+62 J.
+Gong , W.
+Zhang , and J.
+P.
+Balthsar , “ Camptothecin Based Anti Cancer Therapies and Strategies to Improve Their Therapeutic Index ,” Cancers 17 ( 2025 ): 1032 .
+40149365 63 W.
+S.
+Huang , S.
+Liu , D.
+Zou , M.
+Thomas , et al., “ Discovery of Brigatinib (AP26113), a Phosphine Oxide‐Containing, Potent, Orally Active Inhibitor of Anaplastic Lymphoma Kinase ,” Journal of Medicinal Chemistry 59 ( 2016 ): 4948 – 4964 .
+27144831 64 M.
+Lisby , B.
+O.
+Krogh , F.
+Biege , I.
+Westergaard , and B.
+R.
+Knudsen , “ Camptothecins Inhibit the Utilization of Hydrogen Peroxide in the Ligation Step of Topoisomerase I Catalysis ,” Biochemistry 37 ( 1998 ): 10815 – 10827 .
+9692972 65 B.
+R.
+Knudsen , T.
+Straub , and F.
+Boege , “ Separation and Functional Analysis of Eukaryotic DNA Topoisomerases by Chromatography and Electrophoresis ,” Journal of Chromatography B: Biomedical Applications 684 ( 1996 ): 307 – 321 .
+8906479 66 J.
+Tomasi , B.
+Mennucci , and R.
+Cammi , “ Quantum Mechanical Continuum Solvation Models ,” Chemical Reviews 105 ( 2005 ): 2999 – 3094 .
+16092826 67 B.
+Lecea , M.
+Ayerbe , A.
+Arrieta , et al., “ Theoretical Study on the Mechanism of the [2 + 1] Thermal Cycloaddition between Alkenes and Stable Singlet (Phosphino)(silyl)carbenes ,” The Journal of Organic Chemistry 72 ( 2007 ): 357 – 366 .
+17221950 68 J.
+Contreras‐García , E.
+R.
+Johnson , S.
+Keinan , et al., “ NCIPLOT: A Program for Plotting Noncovalent Interaction Regions ,” Journal of Chemical Theory and Computation 7 ( 2011 ): 625 – 632 .
+21516178

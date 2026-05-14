@@ -1,0 +1,56 @@
+=== Row 1146 paper 114 (PMC13093879) - 12h 212-214 ===
+ield% Compounds Yield% 12a 67 12h 68 12n 74 12b 78 12i 77 12o 75 12c 65 12j 74 12p 73 12d 61 12k 68 12q 66 12e 71 12l 72 12r 73 12f 63 12m 75 12s 71 12g 79 The structure of compound 12k was confirmed by 1 H and 13 C NMR spectroscopy 
+3 ± 3.39 >50 37.98 ± 1.63 >50 12h 4-Ethylphenyl 16.44 ± 1.94 >50 39.29 ± 1.13 >50 12i 4-Methoxyphenyl 32.23 ± 1.48 >50 24.58 ± 3.36 >50 12j 4-Fluorophenyl 37.11 ± 3.02 >50 32.19 ± 2.93 >50 12k 4-Chlorophenyl 44.03 ± 6.83 >50 43.89 ± 
+ompound 12g (4-methylphenyl), 12h (4-ethylphenyl), 12l (R: 4-bromophenyl) and 12m (R: 4-trifluoromethylphenyl) displayed even lower activity, with % inhibition values of 15.73 ± 3.39, 16.44 ± 1.94, 21.75 ± 5.11, and 19.33 ± 1.89, res
+compounds 12d, 12e, 12f, 12g, 12h and 12i) mostly showed significantly higher docking energies (less favorable binding scores), which correlated with their lower enzyme inhibition percentages. Table 3 Molecular docking study of 12a–s
+stacking Val340 H-bond Ser287 12h H-bond Tyr341 −8.212 H-bond Ser72 −9.732 2 × π–π stacking Tyr341 H-bond Gly116 π–π stacking Phe338 π–π stacking Tyr332 2 × π–π stacking Trp86 π–π stacking Phe329 12i H-bond Tyr124 −9.727 H-bond Asn68
+10.1039/d5ra09311b
+=== Row 860 paper 086 (PMC6146888) - 4d 140-142 ===
+oncentration R 1 R 2 R 7days 14days 4a p-Cl p-Trifluoromethyl i-Pr 9.43 39.28 4b o-F p-Trifluoromethyl i-Pr 38.08 64.12 4c p-F p-Trifluoromethyl i-Pr 45.73 52.1 4d H p-Trifluoromethyl i-Pr 45.73 38.77 4e p-Cl p-Trifluoromethyl Et 69
+sicochemical properties: 1-(4-trifluoromethylphenylamino)-1-(4-chlorophenyl)-o,o-diisopropylphosphonate ( 4a ).Yield 64%; m.p.127-128°C; Calculated for C 20 H 24 ClNF 3 PO 3 (449.5): 53.40%C, 5.38%H, 3.11%N; found: 53.40%C, 5.39%H, 2.96%N; 1 H-NMR: 6.
+ 172, 145, 123, 111, 82. 1-(4-trifluoromethylphenylamino)-1-(2-fluorophenyl)-o,o-diisopropylphosphonate ( 4b ). Yield 68.0%; m.p.117-118°C; Calculated for C 20 H 24 NF 4 PO 3 (433): 55.43%C, 5.58%H, 3.23%N; found: 55.40%C, 5.36%H, 3.20%N; 1 H-NMR: 6.6
+, 172, 145, 123, 95, 92. 1-(4-trifluoromethylphenyl)-1-(4-fluorophenyl)-O,O-diisopropylphosphonate ( 4c ). Yield 65.0%; m.p. 108-113°C; Calculated for C 20 H 24 NF 4 PO 3 (433): 55.43%C, 5.58%H, 3.23%N; found: 55.40%C, 5.45%H, 3.20%N; 1 H-NMR: 6.45-7.
+(?P=0), 1103.8 (?P-O-C). 1-(4-trifluoromethylphenyl)-1-phenyl-O,O-diisopropylphosphonate ( 4d ).Yield 60.3%; m.p.140-142°C; Calculated for C 20 H 25 NF 3 PO 3 (414): 57.83%C, 6.07%H, 3.37%N; found: 58.00%C, 5.95%H, 3.30%N; 1 H -NMR: 6.59-7.45 (m, 10H,
+10.3390/80100186
+=== Row 599 paper 051 (PMC6236391) - 6 mp 208-210 ===
+th AcOEt/hexane. 2-Deoxy-2-(2-furamido)-1,3,4,6-tetra-O-acetyl-β- D -glucopyranoside ( 6 ): m p 208-210 °C; [α] D +55( c 1, CH 2 Cl 2 ); IR (KBr) 1650 (NHC=O); 1750 (OC=O) cm -1 ; 1 H-NMR (CDCl 3 ) δ 1.99; 2.05; 2.08; 2.11; (4s, 12H, CH 3
+N, 3.12. 2-Deoxy-2-(5-nitro-2-furamido)-1,3,4,6-tetra-O-acetyl-β- D -glucopyranoside ( 7 ): m p 109-111 °C; [α] D +48 ( c 0.7, DMSO); IR (KBr) 1660 (NHC=O); 1740 (OC=O) cm -1 ; 1 H- NMR (CDCl 3 ) δ 2.03; 2.09; 2.10 (3s, 12H, CH 3 ); 3.98 
+, 4.79; N, 5.49. 6-Deoxy-6-(2-furamido)-1,2;3,4-di-O-isopropylidene-α- D -galacto-pyranoside ( 9 ): oil; [α] D -35 ( c 1, CH 2 Cl 2 ); IR (KBr) 1650 (C=O) cm -1 ; 1 H-NMR (CDCl 3 ) δ 1.27; 1.32; 1.48 (3s, 12H, CH 3 ); 3.42 (ddd, 1H, H6, J
+N, 3.78. 6-Deoxy-6-(5-nitro-2-furamido)-1,2;3,4-di-O-isopropylidene-α- D -galactopyranoside ( 10 ): oil; IR (KBr) 1650 (C=O) cm -1 ; 1 H-NMR (CDCl 3 ) δ 1.32; 1.38; 1.49; 1.54 (4s, 12H, CH 3 ); 3.46 (ddd, 1H, H6, J 6-6' =13.8 Hz; J 6-5 =4
+, 5.87; N, 6.67. 1-Deoxy-1-(2-furamido)-2,3;4,5-di-O-isopropylidene-β- D -fructopyranoside ( 11 ): oil; [α] D -16 ( c 1.3, CH 2 Cl 2 ); IR (KBr) 1640 (C=O) cm -1 ; 1 H-NMR (CDCl 3 ) δ 1.33; 1.41; 1.43; 1.54 (4s, 12H, CH 3 ); 3.72 (dd, 1H,
+10.3390/60900728
+=== Row 1273 paper 129 (PMC6146463) - 5b 92-94 ===
+rbonyl-N-alkyl-isoquinolinium perfluorobutanesulfonate with Grignard reagents provides a very pratical entry to stable 1,2-disubstituted 1,2-dihydroisoquinoline-3-carboxylates (DIC) [ 2 ]. The 1,2‑dihydroiso-quinoline-3-carboxylic acid derivatives are us
+and 1,3-dibromo-propane. Salt 5b was easily obtained by anion metathesis of isoquinolinium bromide 5a with commercially available potassium 1,1,2,2,3,3,4,4,4-nonafluorobutane-1-sulfonate [ 9 ] ( Scheme 2 ). The choice of the lipophi
+ [4a] and should provide salt 5b with better solubility in organic solvents, particularly in THF. Salt 5b was readily prepared by simple stirring of salt 5a with potassium perfluorobutanesulfonate (1.5 eq.) in dry refluxing ethanol.
+), EtOH, 25°C, 4 h. With salt 5b in hand, we studied the reactivity of this lipophilic isoquinolinium salt towards n‑butyl lithium reagent [ 10 ] ( Scheme 3 ). The dropwise addition at 0°C of a commercial solution of n‑butyl lithium
+ne, 3.2 eq.) to a solution of 5b in dry THF led, after 12 hours at room temperature, to a in 56% yield of the expected 5-(1-butyl-2-benzyl-1,2-dihydroisoquinolin-3-yl)nonan-5-ol ( 7a ), which was stable in air and also after purific
+=== Row 744 paper 069 (PMC12984852) - 1h 192-195 ===
+ N -( 1S , 2S , 3S , 5R )-(+)-Isopinocampheyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2- b ]pyrrole-3-carboxamide ( 1h ) Compound 1h was prepared following general procedure I, Method A, by a reaction of acid 13 and (1S,2S,3S,5R)-(+)-isopinocamph
+ether/EtOAc 8/2), carboxamide 1h was isolated as a beige solid (52 mg, 23.72%). M.p.: 192–195 °C; IR (nujol) ν: 1619 (C=O), 3289 (NH); 1 H NMR (400 MHz, DMSO) δ: 1.04 (s, 3H), 1.06 (s, 3H), 1.23 (s, 3H), 1.64–1.68 (m, 1H), 1.88–1.92
+l-N-( 1S , 2S , 3S , 5R )-(+)-Isopinocampheyl-1-(4-methylbenzyl)-1,4-dihydroindeno[1,2- b ]pyrrole-3-carboxamide ( 2h ) Compound 2h was prepared following general procedure I, Method B, by a reaction of acid 14 and (1S,2S,3S,5R)-(+)-isopinocamph
+und Q 1a , 2a 1g , 2g 1b , 2b 1h , 2h 1c , 2c 1i , 2i 1d , 2d 1j , 2j 1e , 2e 1k , 2k 1f , 2f 2l ijms-27-02306-t002_Table 2 Table 2 ZIKV/Huh-7 antiviral screening results for compounds 2g , 2h and 2j . Compound ZIKV/Huh-7 CC 50 (μM)
+10.3390/ijms27052306
+=== Row 1042 paper 098 (PMC6146883) - 8 220 ===
+. Compound 10 was obtained as buff crystals (96%), mp 200°C; IR cm -1 : 3320 (NH), 3290 (OH); 1 H-NMR: δ = 6.82 (s, 2H, H-2 and H-6), 7.40-8.10 (m, 12H, arom-H ), 8.97 (s, 1H, OH), 10.16 ppm (s,1H, NH); MS: M + (455); Anal. Calcd. for C 30 H 1
+-(Benzocoumarin-3 / -yl)-5-(3-benzocoumarinoyl)pyirdine ( 8 ). Compound 2 (0.01mol) and ammonium acetate (0.01mol) were refluxed in glacial acetic acid (30 mL) for 2 hr, then left to cool to room temperature. The solvent was then removed under va
+zed from ethanol to give 8 as buff crystals (64%), mp 220°C; IR cm -1 : 1725 (ring C=O), 1681 (C=O); 1 H-NMR: δ = 7.31-7.79 (m, 12H, arom-H), 6.97-8.03 (d, 1H, pyridineH-3), 8.52 (s, 1H, pyridine H-6), 9.26 (d, 1H, pyridine H-4), 9.35, 9.61 pp
+ene ( 12 ), 1-Acetyl-3,5-di(3-benzocoumarinoyl)benzene ( 15 ) and (1,3-Diacetyl-5-(3-benzocoumarinoyl)benzene ( 16 ) : A mixture of either compound 1 or 2 (0.01 mol) and enaminone 11 (0.01mol) was refluxed in acetic acid for 2h, then left to cool
+. Compound 12 was obtained as buff crystals (66%), mp 178°C; IR cm -1 : 1720 (ring CO), 1689 (acetyl CO), 1660 (aroyl CO); 1 H-NMR: δ = 2.78 (s, 3H, CH 3 ), 7.54-7.97 (m, 8H, arom-H), 8.65 (s, 2H, H-4), 8.70 (s, 2H, H-2 and H-6), 9.12 ppm (s, 
+=== Row 264 paper 015 (PMC12943364) - PB02 205-207 ===
+2. Chemistry The synthesis of PB02 began from 5-fluoro-1H-pyrrolo [2,3-b]pyridine and proceeded through a regioselective bromination, N-protection, Miyaura–Suzuki cross-coupling, and controlled oxidation to afford a key sulfoxide inte
+final deprotection, furnished PB02 ( Scheme 1 ). For PB03, intermediate 6 underwent nucleophilic substitution with L-(−)-isovaline to generate intermediate 9. Removal of the tosyl (Ts) protecting group using sodium methoxide, followed
+l activity, as exemplified by PB02. Reduction of the amide to an amine yielded PB04, which showed a marked improvement in anti-influenza activity (EC 50 = 3.07 nM). Further substitution of the amino group with a hydroxyl group generat
+l)pyrimidin-4-yl)amino)-N,N,2-trimethylbutanamide (PB02) At room temperature, compound 8 (528 mg, 1.0 mmol) was dissolved in 5 mL of methanol, followed by the dropwise addition of 2 mL of a sodium methoxide solution in methanol (25% w / w ). The rea
+40:1) to afford a white solid PB02 with a melting point of 205–207 °C (307 mg, 0.83 mmol, yield 83%). 1 H NMR (600 MHz, DMSO- d 6 ) δ 12.21 (s, 1H), 8.47 (dd, J = 9.8, 2.8 Hz, 1H), 8.24 (dd, J = 2.8, 1.4 Hz, 1H), 8.22 (d, J = 3.9 Hz, 
+10.3390/molecules31040696
+=== Row 629 paper 055 (PMC3685236) - mp 180 ===
+ic acid; C 16 H 16 O 3 ; Mw = 256.30; Melting point: 136 °C; IR (KBr): ν̄ max (cm −1 ) 3521 ( ν̄, -CH- OH ), 2977 ( ν̄, -C(O)- OH ), 1689 ( ν̄, >C=O), 1238 ( ν̄ , - C-O -); 1 H NMR (CDCl 3 ) ( δ ) : 1.58 ( s , 1 H); 2.96 ( dd , J 1 J 2 
+ ipso -Ar); 145.69 (C ipso ); 180.65 (COOH); ( MS (CI): 268 (M + ), 251 (M-17), 223 (M-45), 181 (M-87); Yield (%): 20; Elemental analysis (%): Calcd.: C, 76.10; H, 6.01. Found: C, 76.19; H, 6.19. 3-Hydroxy-2-methyl-3,3-diphenylpropan
+c acid; C 16 H 16 O 3 ; M w = 256.30; Melting point: 180 °C; IR (KBr): ν̄ max (cm −1 ) 3525 ( ν̄ , -CH- OH ), 2991 ( ν̄ , -C(O)- OH ), 1677 ( ν̄ , >C=O), 1225 ( ν̄ , - C-O); 1 H NMR (CDCl 3 ) ( δ ) : 1.19 ( d , J 7.2 Hz, 3 H); 3.65 ( q 
+=== Row 822 paper 083 - 4a 116-117 ===
+e corresponding product 3. 2- Ethoxycarbonylamino(β-hydroxyethyl)benzamide ( 2 ): Yellowish white crystals from ethanol; m.p. 120-121 °C; yield 80%; Anal. for C 12 H 16 N 2 O 4 (m.w. 252); Found: C, 57.21; H, 6.29; N, 11.13; Calcd: C, 57.14; H, 6.35
+oducts 4a-e , respectively. 2-Ethoxycarbonylamino–N-(4-methylphenyl)benzamide ( 4a ): Brown crystals from ethanol; m.p. 116-117 °C; yield 85%; Anal. for C 17 H 18 N 2 O 3 (m.w. 298); Found: C, 68.68; H, 6.12; N, 9.40; Calcd: C, 68.46; H, 6.04; N, 9.
+amino, D 2 O exchangeable). 2-Ethoxycarbonylamino–N-(4-methoxyphenyl)benzamide ( 4b ): Brown crystals from ethanol; m.p. 133–134 °C; yield 80%; Anal. for C 17 H 18 N 2 O 4 (m.w. 314); Found: C, 64.88; H, 5.64; N, 8.89; Calcd: C, 64.97; H, 5.73; N, 8
+int. %)[M+H] + 314 (68.2%). 2-Ethoxycarbonylamino-N-(4-hydroxyphenyl)benzamide ( 4c ): Brown crystals from ethanol; m.p. 114–115 °C; yield 75%; Anal. for C 16 H 16 N 2 O 4 (m.w. 300); Found: C, 64.06; H, 5.28; N, 9.21; Calcd: C, 64.00; H, 5.33; N, 9
+C=O), 3321 (NH), 2992 (OH). 2-Ethoxycarbonylamino-N-(2-hydroxyphenyl)benzamide ( 4d ): Brown crystals from ethanol; m.p. 111-112 °C; yield 75%; Anal. for C 16 H 16 N 2 O 4 (m.w. 300); Found: C, 64.02; H, 5.30; N, 9.23; Calcd: C, 64.00; H, 5.33; N, 9

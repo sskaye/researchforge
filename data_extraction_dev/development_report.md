@@ -8,6 +8,8 @@
 
 **Result through Trial-2 (v1.4 packaged skill, three agent models on the 168-paper corpus):** **98 %** with Claude Opus 4.7 (1,864 rows), **86 %** with GPT-5.5 high (907 rows — the v1.4 anti-regex mandate worked: this agent no longer wrote a regex extractor), **55 %** with Claude Sonnet 4.6 (2,567 rows — failed for a different reason: constructed/templated `evidence_quote` strings paraphrasing the paper rather than copying verbatim). Same skill, same corpus, three different agents, three sharply different outcomes — the most interesting data point in the project and the basis for the "cross-model variability in skill adherence" finding in section 13.
 
+**Result through Trial-3 (v1.5 packaged skill, three agent models on the 168-paper corpus):** **94 %** Opus, **76 %** GPT, **79 %** Sonnet on the initial strict-v1.5 100-row audit. The Sonnet improvement (+24 pp vs T2) confirmed v1.5's anti-script-row-generation rule closed Sonnet's Path-B failure. But the Opus result (98 → 94 % apparent regression) was statistically indistinguishable from sampling noise, and the row count had dropped 27 %. A 300-row Opus expansion (T2: 165/200 = 82.5 % vs T3: 183/200 = 91.5 %, p = 0.007 under strict v1.5 criteria) initially appeared to show a real +9 pp Opus improvement — but on closer inspection, the audit rubric was rejecting rows for quote-fidelity and review-paper-data-type reasons that aren't actually correctness issues. **Re-scored under corrected criteria (Tier-1 correctness only: compound + value + property + data_type + source), T2 = 98.7 % and T3 = 97.0 % — statistically tied (p = 0.16).** v1.5's apparent precision win was a verifiability improvement that the audit rubric had counted as correctness. Trial-3 produced two deliverables that shaped subsequent work: the **three-tier audit framework** (`audit_criteria.md`) separating correctness from verifiability, and **v1.6**, which keeps v1.5's genuine correctness wins (DOI-from-file-only, expanded compound-name lint), adds new compound-name shape checks for v1.5-introduced failure modes (EA-prefix contamination, leading code-prefix, procedure-text-at-start), downgrades quote-fidelity rules to advisory (Tier-2), and drops the no-ellipsis / no-template-quote rules entirely. Production target shifted to Opus 4.7 exclusively given its precision lead.
+
 This document records the full development arc — what was tried, what worked, what didn't, and what the failure modes taught us. It's intended to inform future skill-building work on similar problems (structured data extraction from scientific literature).
 
 ---
@@ -810,7 +812,216 @@ Each layer alone is insufficient. v1.4 had layers 1 and 2 but not 3 or 4 for the
 
 ---
 
-## 16. Cross-attempt comparison (post-v1.2 snapshot)
+## 16. Trial-3 — three-model v1.5 run on the 168-paper corpus
+
+After v1.5 was packaged and released, the same three agents that ran Trial-2 (Opus 4.7, GPT-5.5 high, Sonnet 4.6) ran extraction on the same 168-paper corpus using the v1.5 `.skill` artifact. Audit method matched Trial-2: per-trial uniform random 100-row sample (seed 20260512), 4 fresh-context Claude verifier agents in parallel.
+
+### 16.1 Initial results
+
+| Run | Agent model | Rows emitted | Random-100 audit (strict v1.5 criteria) |
+|---|---|---:|---:|
+| Trial-3 opus47 | Opus 4.7 | 1,352 | 94 / 100 |
+| Trial-3 gpt55_high | GPT-5.5 high | 448 | 76 / 100 |
+| Trial-3 sonnet46 | Sonnet 4.6 | 1,654 | 79 / 100 |
+
+Compared to Trial-2 (v1.4) on the same corpus:
+
+| Agent | Rows: T2 → T3 | Audit pass: T2 → T3 |
+|---|---:|---:|
+| Opus 4.7 | 1,864 → 1,352 (-27 %) | 98 → 94 % |
+| GPT-5.5 | 907 → 448 (-51 %) | 86 → 76 % |
+| Sonnet 4.6 | 2,567 → 1,654 (-36 %) | 55 → 79 % |
+
+### 16.2 The Sonnet result confirms v1.5's anti-script-row-gen rule
+
+Sonnet 4.6's +24 pp gain (55 → 79 %) is the largest single-trial improvement in the project. Almost entirely attributable to the new anti-pattern forbidding scripts that produce or transform the four evidence-locked fields. Sonnet's Trial-2 Path-B failure (`build_batch_pdfs.py` that templated quotes via f-strings) didn't recur — the residual Sonnet T3 failures are quote-fidelity issues (non-contiguous PDF spans, 15 of 21 fails) plus a smaller compound-name cluster (4 of 21), not the templated-quote pattern.
+
+This is the result the v1.5 plan (section 15) was designed to produce. It worked.
+
+### 16.3 The Opus and GPT-5.5 results are puzzling
+
+Opus apparently regressed by 4 pp (98 → 94 %). GPT-5.5 apparently regressed by 10 pp (86 → 76 %). Both are within Wilson 95 % CI overlap with their Trial-2 numbers, so statistically inconclusive. But all three agents emitted substantially fewer rows than in Trial-2 — a 27–51 % drop. v1.5 was clearly making something more conservative, but it wasn't clear from the 100-row audit whether the conservatism was buying real correctness gains or just dropping borderline rows.
+
+### 16.4 Trusted-rows view
+
+Looking at self-flagging behavior:
+
+| Agent | Total rows | `flagged_review` self-flag rate | Trusted (non-flagged) rate | Audit pass on trusted only |
+|---|---:|---:|---:|---:|
+| Opus 4.7 | 1,352 | 0.4 % | 99.6 % (1,347 rows) | 94 % |
+| GPT-5.5 high | 448 | 29 % | 71.0 % (318 rows) | 94 % |
+| Sonnet 4.6 | 1,654 | 14.6 % | 85.4 % (1,412 rows) | 87 % |
+
+Two patterns surface:
+
+- **GPT-5.5's headline "76 %" was misleading.** It includes 35 self-flagged rows in the audit sample. The user-trusted subset audits at 94 %. The recall drop (-51 %) reflects honest self-flagging, not silent dropping.
+- **Opus's headline "94 %" reflects real audit findings on 99.6 % unflagged rows.** Opus doesn't self-flag — it drops. The -27 % row count means Opus quietly dropped rows under v1.5's stricter rules.
+
+This is the first sign of an Opus-specific dynamic: every strict rule has a direct recall cost because Opus doesn't compensate via self-flagging.
+
+### 16.5 Opus's six initial-audit failures
+
+Detailed analysis of Trial-3 Opus's 100-row audit failures:
+
+| Row | Failure mode | What it actually means |
+|---|---|---|
+| 364, 365, 493 | `flagged_compound_name_truncated` | EA-prefix contamination: `"C, NN.NN; H, N.NN; N, N.NN."` prepended to the IUPAC name. v1.5-introduced failure mode. |
+| 1274 | `flagged_evidence_quote_not_found` | PDF watermark "NIH-PA Author Manuscript" splits an otherwise-continuous evidence span. |
+| 750 | `flagged_compound_mismatch` | Compound 23's row carrying compound 25's m.p. 256 °C from an adjacent table row. |
+| 529 | `flagged_value_mismatch` | Synthesis paper reports both measured (124-126) and literature (123-125) values; row picked the literature value. |
+
+Three of these (the EA-prefix cluster) are a new failure pattern v1.5 created without intending to — the stricter quote-fidelity rules pushed Opus to capture more context around the compound name, sweeping the EA-prefix along.
+
+---
+
+## 17. The 300-row Opus expansion and discovery of the audit-rubric problem
+
+### 17.1 100-row audit can't distinguish T2 from T3 on Opus
+
+The Opus T2 → T3 comparison (98 → 94 %) has overlapping Wilson 95 % CIs (93–99 % vs 88–97 %); the two-prop z-test gives p ≈ 0.27. To distinguish a real 4-pp difference we need a larger sample.
+
+Drew 200 additional Opus rows from each of T2 and T3 using a different seed (20260514), audited under unified v1.5 criteria with 16 fresh-context verifier agents in parallel:
+
+| | T2 (v1.4 production, audited under v1.5 criteria) | T3 (v1.5 production, audited under v1.5 criteria) |
+|---|---:|---:|
+| Extra-200 audit | 165 / 200 = 82.5 % (CI 76.6–87.1 %) | 183 / 200 = 91.5 % (CI 86.8–94.6 %) |
+| z-test | | z = −2.68, **p = 0.007** |
+
+Statistically clear +9 pp v1.5 improvement. But the T2 number was now 82.5 %, not the 98 % the original audit had reported. The same T2 data was being audited differently. The 16-pp drop was an audit-standards difference, not a real change.
+
+### 17.2 What the audit rubric was actually rejecting
+
+Looking at the 35 T2 fails from the extra-200 audit, most fell into categories that aren't actually data errors:
+
+| Type of "fail" the v1.5 rubric was rejecting | T2 count | Is it actually wrong? |
+|---|---:|---|
+| Quote stops before value (2-column PDF wrap; "Dark red solid;" type) | 5 | No — compound + value + source correct |
+| Quote truncated mid-range ("mp 213" when paper says "213-214") | 8 | No — value still correct |
+| Literal `...` in quote (paper's own elision or section-header-to-mp gap) | 6 | No — data still correct |
+| Citation superscript omitted ("(2g).19" → "(2g)") | 4 | No — data still correct |
+| Whitespace inside paren ("(Sp )-" → "(Sp)-") | 3 | No — data still correct |
+| Range shorthand expansion ("237-39" → "237-239") | 2 | No — standard chemistry interpretation |
+| Review-paper compilation labeled `measured` | 7 | No — schema says any experimental observation is `measured` |
+| **DOI fabricated (not in paper)** | 4 | **Yes — real failure** |
+
+Of 35 fails, only 4 were actual data errors. The remaining 31 were quote-fidelity issues (not correctness issues) or schema-rule misapplications.
+
+The strict v1.5 audit rubric was conflating "correctness" with "verifiability" — treating any quote-fidelity defect as a row failure even when the compound + value + source were all correct.
+
+### 17.3 The fix: separate the metrics
+
+User feedback during this discovery:
+> "Pass criteria should be: Compound name correct, Value correct, source correct (either doi or citation, but neither fabricated). The no ellipsis rule is designed to reduce the error rate, but should not be a failure criteria on its own (still worth tracking as a separate metric, the way we track sample count). For data-type, the only two types should be measured and predicted or calculated. Review paper values labeled as measured is correct behavior."
+
+That established the corrected criteria. Re-scoring the same 300 Opus T2 + T3 rows by hand under the corrected rules:
+
+| | T2 (v1.4) | T3 (v1.5) |
+|---|---:|---:|
+| Combined 300-row Tier-1 correctness | **296 / 300 = 98.7 %** (CI 96.6–99.5 %) | **291 / 300 = 97.0 %** (CI 94.4–98.4 %) |
+| z-test | | z = 1.40, **p = 0.16** |
+| Quote-fidelity rate (Tier-2, separate) | 26 / 300 = 8.7 % | 9 / 300 = 3.0 % |
+
+**Under corrected criteria, T2 and T3 are statistically indistinguishable on Tier-1 correctness. v1.5's apparent +9-pp precision win was an audit-rubric artifact.** What v1.5 *did* improve was Tier-2 verifiability — by 5.7 pp on Opus.
+
+The trade v1.5 actually made on Opus: -27 % recall, +5.7 pp verifiability, ±0 Tier-1 correctness, eliminated 4 DOI-fabrication failures (real win), introduced 5 new EA-prefix/code-prefix compound-name contamination failures.
+
+---
+
+## 18. The three-tier audit framework
+
+The discovery in section 17 prompted writing `audit_criteria.md` at the project root — the source of truth for what an audit measures.
+
+### 18.1 The three tiers
+
+- **Tier 1 — Correctness (primary metric).** A row passes if and only if:
+  1. Compound identity correct (real chemistry-meaningful name; no truncation, no contamination, no bare codes).
+  2. Value correct (matches paper's value for that compound, with correct units).
+  3. Property type correct (mp / bp / DSC_onset / DSC_peak / decomposition / sublimation distinguished).
+  4. `data_type` per schema (`measured` = any experimental observation, including literature compilations; `calculated` = model output only).
+  5. Source citation real (DOI in paper file, or complete journal+year+vol+page citation).
+- **Tier 2 — Verifiability (separate metric).** Quote is verbatim contiguous, contains value, identifies compound. Tracked separately. Drops in this rate flag "spot-checking is harder," not "data is wrong."
+- **Tier 3 — Hygiene.** CSV well-formed, required fields populated, SMILES validates. Caught by Phase-3 scripts; should never reach agent audit.
+
+### 18.2 The verifier prompt template
+
+`audit_criteria.md` specifies a Q1–Q5 verifier protocol:
+- Q1–Q4 determine Tier-1 PASS / FAIL.
+- Q5 produces a separate `verifiable` flag with a `verifiability_tag` (`quote_truncated_before_value`, `quote_ellipsis_bridge`, `quote_templated`, etc.).
+- Q5 does NOT affect the PASS / FAIL verdict.
+
+This is the prompt that should be used for all future trial audits and is the prompt in `mp-bp-extraction/references/VERIFICATION_PROMPT_TEMPLATES.md` as of v1.6.
+
+### 18.3 Six pitfalls the framework codifies
+
+`audit_criteria.md` enumerates the methodological failures observed in past audits:
+
+1. **Conflating correctness with verifiability** (the v1.5 mistake).
+2. **Applying inconsistent rules across trials** (the T2-vs-T3 standards-artifact gap).
+3. **Mis-applying the data_type schema** (review-paper compilations should be `measured`).
+4. **Sample-size confusion** (need ~200 rows to distinguish a 4-pp gap reliably).
+5. **Anchoring bias in non-fresh verifiers**.
+6. **Paper-unreadable rows treated as clean failures**.
+
+Each pitfall has appeared in this project's audit history and is documented as a "don't repeat this" note.
+
+---
+
+## 19. v1.6 — corrected scope, Opus-only deployment
+
+### 19.1 Design principle
+
+Given the section-17 finding that v1.5 traded verifiability for recall with no correctness gain on Opus, plus the section-18 framework separating those metrics, v1.6 reclassifies each v1.5 rule:
+
+- Genuine Tier-1 correctness gains stay strict.
+- Tier-2 verifiability improvements become advisory (lints flag, don't auto-drop rows).
+- Rules that introduced new failure modes get patched or dropped.
+
+### 19.2 v1.6 changes
+
+**Kept strict (Tier-1):**
+- DOI-from-file-only rule (eliminated 4 / 300 T2 DOI-fabrications).
+- Anti-script-row-generation anti-pattern (closed Sonnet's Path-B failure; zero-impact on Opus, kept as documentation).
+- Expanded `validate_compound_name.py` shape lint.
+- Phase 4 sampling rule (also in `audit_criteria.md`).
+
+**Newly added strict (Tier-1):**
+- **EA-prefix contamination detection** in `validate_compound_name.py`. Pattern: `^[CHNOSP],\s+\d{1,3}\.\d{1,2}\s*[;,]\s*[CHNOSP],` at the start of `compound_name`. Catches 3 of the 4 T3 original-audit Opus failures + ~140 contaminated rows across the full T3 corpus that v1.5 missed.
+- **Leading paper-local-code-prefix detection.** Pattern: `^\d{1,3}[a-z]?\s+\(` — catches `"6 (IUPAC name)"` shape. Re-enables the Phase 6e rule from the regex-based predecessor that was implicit in v1.5 docs but not actively flagging.
+- **Procedure-text-at-start detection.** Catches `"(Yield 94%),"`, `"White solid,"`, etc. as `compound_name` field values.
+
+**Downgraded to advisory (Tier-2):**
+- `quote_support_lint.py` — still flags rows where `evidence_quote` doesn't contain the numeric value, but no longer auto-fails. `run_all_checks.py` runs it but does not propagate its exit code. The extraction prompt Step 6.2 no longer says "DROP the row" — it says "record the closest contiguous span; lints flag, don't auto-drop."
+
+**Dropped entirely:**
+- No-ellipsis-in-quote rule (papers legitimately use ellipsis in their own text; section-header-to-mp spans often require an elision).
+- Template-quote prohibition (was redundant for Opus; the construction-mechanism is already covered by the anti-script anti-pattern).
+- `quote_template_lint.py` replaced with a deprecated no-op stub for back-compat.
+
+**Verifier prompt rewritten** to match `audit_criteria.md`: Q1–Q4 = Tier-1 PASS/FAIL on compound + value + property + data_type + source; Q5 = separate `verifiable` field with a `verifiability_tag`. The new template explicitly tells verifiers that ellipsis, templated quotes, missing-value-in-quote, and review-paper-as-measured are NOT failures.
+
+### 19.3 Opus-only deployment
+
+Given the +20 pp precision lead of Opus on the strict-v1.5 audit (Opus 94 % vs GPT 76 % vs Sonnet 79 %) and Opus's substantially higher trusted-row emission, the production target shifted to Opus 4.7 exclusively. v1.6's predicted outcomes are specifically for Opus:
+
+| Metric | T2 (v1.4) | T3 (v1.5) | v1.6 prediction |
+|---|---:|---:|---:|
+| Rows emitted | 1,864 | 1,352 | ~1,800–1,900 |
+| Tier-1 correctness | 98.7 % | 97.0 % | ~98.5–99.5 % |
+| Tier-2 verifiability | 91.3 % | 97.0 % | ~92–94 % |
+| DOI fabrication | 4 | 0 | 0 |
+| Compound-name contamination | 0 | 5–7 | 0 |
+
+Net expected v1.6 effect: recover the 27 % recall v1.5 cost, eliminate the EA-prefix / leading-code-prefix failure modes v1.5 introduced, hold the DOI-fabrication wins from v1.5, accept somewhat lower verifiability than v1.5 in exchange. The cross-model robustness defenses from v1.4/v1.5 remain in the skill (zero behavioral cost on Opus, preserves the cross-harness lesson for documentation purposes).
+
+### 19.4 The meta-finding from Trial-3
+
+Section 13 (Trial-2 cross-model variability) was the project's first "the audit rubric matters" finding — different models hit different walls, so a model-agnostic claim is misleading. Trial-3's finding is the parallel: the *audit rubric* matters as much as the data being audited. Two of the project's most striking numbers (98 % T2 → 94 % T3; then 82.5 % → 91.5 % under "v1.5 standards") were both audit-rubric artifacts. The corrected three-tier framework lives in `audit_criteria.md` to prevent this from recurring on future trials.
+
+For publication, sections 13 (cross-model variability) and 16–19 (audit-rubric discovery) are the two top-level methodological lessons.
+
+---
+
+## 20. Cross-attempt comparison (post-v1.2 snapshot)
 
 This table reflects the state of the project after Trial-1 dev and val, before scale-up. Subsequent scale-up findings appear in sections 8–13.
 
@@ -829,11 +1040,11 @@ This table reflects the state of the project after Trial-1 dev and val, before s
 
 ---
 
-## 17. Failure-mode analysis across both attempts
+## 21. Failure-mode analysis across both attempts
 
 This section catalogues every failure mode observed across both attempts. For an academic writeup this is the most generalizable material — these are likely to recur in any similar extraction task.
 
-### 17.1 Failure modes attempt 1 surfaced, mostly resolved by attempt 2
+### 21.1 Failure modes attempt 1 surfaced, mostly resolved by attempt 2
 
 | Failure | Attempt 1 trigger | Attempt 2 disposition |
 |---|---|---|
@@ -848,27 +1059,27 @@ This section catalogues every failure mode observed across both attempts. For an
 | Citation reference numbers `[N]` parsed as temperatures | PDF column heuristic | LLM treats `[N]` as citation |
 | Multi-line IUPAC names fragmented | regex captures only the last line | LLM reassembles |
 
-### 17.2 Failure modes new to attempt 2
+### 21.2 Failure modes new to attempt 2
 
 | Failure | Trigger | Disposition |
 |---|---|---|
 | Adjacent-measurement quote (row 147) | Agent recorded the wrong line as evidence_quote | v1.2 quote re-confirmation; verifier check |
 | Doubled-token PDF artifact (row 296) | `pdftotext -layout` doubled words across column gap | v1.2 quote re-confirmation; verifier check |
 
-### 17.3 Failure modes that persisted but with different causes
+### 21.3 Failure modes that persisted but with different causes
 
 | Failure | Attempt 1 cause | Attempt 2 cause |
 |---|---|---|
 | Paper with no DOI | Strict Gate G classification → many failures | v1.1 schema accepts pmc:/pmid:/legacy: |
 
-### 17.4 Failure modes neither attempt observed
+### 21.4 Failure modes neither attempt observed
 
 - Wrong-paper-as-cited (DOI resolves to a different paper). Did not occur in either attempt; would have been caught by `crossref_lookup.py --require-keywords` if it had.
 - Memory-based fabrication. The redox skill's headline failure mode (~50 % of attempt-1 errors in that project). Did not occur in either of our attempts because the dev/val sets always provided source files and the agents were prompted accordingly.
 
 ---
 
-## 18. Best-practice principles distilled
+## 22. Best-practice principles distilled
 
 For future skill-building work on similar problems, the following principles are what made the LLM-driven approach work and what the regex approach lacked:
 
@@ -914,19 +1125,24 @@ Both skills have an `evals/files/` directory with a `clean_baseline.csv` (every 
 
 ---
 
-## 19. What's next
+## 23. What's next
 
-The largest-scale validation has been run (Trial-2 across three agent models on 168 papers). The recall study has been completed for the dev + val sets. The three Trial-2 agents have produced self-analyses. The v1.5 plan is consolidated and approved (section 15). The remaining open work:
+v1.5 was released, Trial-3 was run on three agent models, the audit-rubric problem was discovered and corrected, the three-tier framework was codified in `audit_criteria.md`, and v1.6 was released targeting Opus-only deployment. The remaining open work:
 
-- **Implement v1.5.** Six changes outlined in section 15: (1) quote-must-contain-value rule + `quote_support_lint.py`; (2) generalized anti-pattern forbidding any script that produces final row values; (3) no-ellipsis rule + `quote_template_lint.py`; (4) expanded `validate_compound_name.py` shape lint; (5) DOI-from-file-only rule; (6) Phase 4 sampling rule (`max(100, 5%)`) + explicit parallel-dispatch pattern. Implementation order should follow expected-impact: 15.1 first (closes the largest cluster of failures), then 15.2 + 15.3 together (close Sonnet's Path-B failures), then 15.4–15.6.
-- **Re-run Trial-3 on the v1.5 skill** with the same three agents on the same 168-paper corpus. If v1.5 closes the Path-B / coordinator-gap / row-80-class failures as expected, the predicted outcomes are roughly: Opus 4.7 ≥99 %; GPT-5.5 high ≥92 %; Sonnet 4.6 ≥85 %. Any deviation from those bounds tells us about residual gaps the v1.5 changes didn't catch.
-- **Production guidance.** Trial-2 makes the model-selection question concrete: Opus 4.7 is the recommended production model for this skill at 98 % precision; GPT-5.5 high is usable at 86 %; Sonnet 4.6 is not production-ready in v1.4. v1.5 should narrow the spread but probably not eliminate it. User-facing documentation should record the per-model precision figures.
-- **Reuse on other properties.** The skill's architecture (LLM-driven extraction + small deterministic scripts + verbatim evidence quote + independent verification + flexible source_url + mandatory direct-read + Phase-4 enforcement + layered constraints from section 14.4) generalizes to any structured extraction from journal articles. The redox-extraction skill is the proof of concept on a sibling problem. Future skills can follow the same pattern, and the Trial-2 evidence makes it possible to anticipate cross-model adherence variability ahead of time rather than discover it in production.
-- **Publication.** Sections 13 (cross-model variability), 14 (agent self-analyses as a diagnostic technique), and 15 (the v1.5 plan derived from them) together form the most generalizable contribution of the project: how to identify *which* methodological commitments need to be protected, and how to design skills that protect them against agents that don't share the skill author's mental model. The cross-harness validation (section 9), the v1.4 redesign (section 10), and the Trial-2 → self-analysis → v1.5 loop (sections 11–15) are a complete case study.
+- **Run Trial-4 on the v1.6 skill** with Opus 4.7 on the 168-paper corpus. Predicted outcomes (section 19.3): ~1,800–1,900 rows emitted (recovery from v1.5's 1,352), Tier-1 correctness ~98.5–99.5 %, Tier-2 verifiability ~92–94 %. Any deviation tells us about residual gaps.
+- **Close the corpus-coverage gap.** ~350 of the 512-row T2→T3 drop came from category subfolders (`materials_inorganic`, `organic_synthesis`, `pharma_cocrystals`, `measurement_prediction`) that Opus T3 didn't descend into. This is an extraction-runner-enumeration issue, not a skill issue. For Trial-4, provide an explicit corpus manifest that includes those subfolders.
+- **Verify the v1.6 EA-prefix rule against a re-run.** The v1.6 `validate_compound_name.py` flags ~140 EA-prefix-contaminated rows in T3 Opus's output. If Opus produces these flags again in Trial-4, the maintainer needs to decide: drop the rows (high precision, lower recall), or instruct Opus to strip the EA prefix before emitting the row (best of both). The latter is preferable but requires another skill iteration.
+- **Recall study on the corpus.** The Trial-1 recall study (section 7.4) measured recall on dev + val (8 + 9 papers). With the v1.6 skill stabilized, repeating that analysis on a few full_168 papers would tell us whether the predicted recall recovery is real.
+- **Production deployment.** Opus 4.7 with v1.6 is the recommended configuration. User-facing documentation should record: Tier-1 correctness ~98–99 % (under the audit_criteria.md framework), Tier-2 verifiability ~92–94 %, model = Opus 4.7. Cross-model robustness defenses remain in the skill but are not actively tested on other agents.
+- **Reuse on other properties.** The skill's architecture (LLM-driven extraction + small deterministic scripts + verbatim evidence quote + independent verification + flexible source_url + mandatory direct-read + Phase-4 enforcement + three-tier audit framework) generalizes to any structured extraction from journal articles. The redox-extraction skill is the proof of concept on a sibling problem. Future skills can follow the same pattern and the three-tier audit framework is a portable contribution.
+- **Publication.** Three lessons rise to the top:
+  - Section 13 (cross-model variability): the same skill produces 98 % / 86 % / 55 % on the same data depending on which agent runs it; "the skill achieves X %" is misleading without naming the model.
+  - Sections 16–19 (audit-rubric problem): two of the project's most striking numbers were audit-rubric artifacts, not real changes. Separating correctness from verifiability is essential.
+  - Section 14 + Trial-3 retrospective: agent self-analyses and the audit-feedback loop together produce sharper diagnoses than either alone. The Trial-3 → 300-row expansion → re-scoring → v1.6 cycle is a clean methodological case study.
 
 ---
 
-## 20. Appendix — file index
+## 24. Appendix — file index
 
 Paths reflect the post-reorg structure (see `/README.md` for the full folder layout).
 
@@ -947,11 +1163,16 @@ Paths reflect the post-reorg structure (see `/README.md` for the full folder lay
 | `/trials/trial2/full-gpt55_high/` | Trial-2 GPT-5.5 high on v1.4 (86 % audit, 907 rows) |
 | `/trials/trial2/full-opus47/` | Trial-2 Claude Opus 4.7 on v1.4 (98 % audit, 1,864 rows) |
 | `/trials/trial2/full-sonnet46/` | Trial-2 Claude Sonnet 4.6 on v1.4 (55 % audit, 2,567 rows) |
+| `/Trial3-full-opus47/` | Trial-3 Opus 4.7 on v1.5 (94 % strict, 97.0 % corrected on 300 rows, 1,352 rows). Includes +200-row extra sample for the audit-rubric correction. |
+| `/Trial3-full-gpt55_high/` | Trial-3 GPT-5.5 high on v1.5 (76 % strict, 448 rows, heavy self-flagging) |
+| `/Trial3-full-sonnet46/` | Trial-3 Sonnet 4.6 on v1.5 (79 % strict, 1,654 rows; +24 pp from anti-script-row-gen rule) |
+| `/audit_criteria.md` | Three-tier audit framework (correctness / verifiability / hygiene) + Phase-4 procedure (the source of truth for what an audit measures) |
 | `/reports/skill_comparison.md` | Document that diagnosed the architectural problem in attempt 1 |
-| `/reports/trial2_comparison_report.md` | Detailed three-model comparison + self-analysis findings + v1.5 plan |
-| `/reports/trial2_analysis_opus47.md` | Opus 4.7's self-analysis of its run |
-| `/reports/trial2_analysis_GPT55_high.md` | GPT-5.5 high's self-analysis of its run |
-| `/reports/trial2_analysis_sonnet46.md` | Sonnet 4.6's self-analysis of its run (the Path-A / Path-B revelation) |
+| `/reports/trial2_comparison_report.md` | Detailed three-model Trial-2 comparison + self-analysis findings + v1.5 plan |
+| `/reports/trial3_comparison_report.md` | Trial-3 three-model comparison + 300-row Opus expansion + audit-rubric correction + v1.6 plan |
+| `/reports/trial2_analysis_opus47.md` | Opus 4.7's self-analysis of its Trial-2 run |
+| `/reports/trial2_analysis_GPT55_high.md` | GPT-5.5 high's self-analysis of its Trial-2 run |
+| `/reports/trial2_analysis_sonnet46.md` | Sonnet 4.6's self-analysis of its Trial-2 run (the Path-A / Path-B revelation) |
 | `/reports/trial2_summary.json` | Machine-readable Trial-2 audit summary |
 | `/recall_study/` | Recall study (dev + val), enumerations + report |
 | `/_archive/property-extractor_attempt1/` | The first regex-based attempt, archived |
@@ -962,7 +1183,7 @@ Paths reflect the post-reorg structure (see `/README.md` for the full folder lay
 
 ---
 
-## 21. Timeline summary
+## 25. Timeline summary
 
 | Phase | Activity | Outcome |
 |---|---|---|
@@ -986,5 +1207,14 @@ Paths reflect the post-reorg structure (see `/README.md` for the full folder lay
 | Week 5 | Field-level failure categorization (Trial-2) | GPT failures are mostly "wrong thing extracted"; Sonnet failures are mostly "right thing, paraphrased quote" |
 | Week 5 | Independent agent self-analyses (Opus, GPT-5.5, Sonnet) | Revealed Sonnet's bimodal Path-A / Path-B execution, GPT's coordinator gap, and Opus's "quote must contain value" framing |
 | Week 5 | v1.5 plan consolidated | 6 high-conviction changes: quote-must-contain-value, no-script-row-construction, no-ellipsis quotes, expanded name shape lint, DOI-from-file-only, Phase 4 sampling rule |
+| Week 5 | v1.5 release + packaging | `.skill` artifact rebuilt; description trimmed to 1024-char limit; 16 evals all pass |
+| Week 5 | Trial-3 — Opus 4.7 / GPT-5.5 high / Sonnet 4.6 on v1.5 | 94 % / 76 % / 79 % strict audit pass; row counts 1,352 / 448 / 1,654 (-27 / -51 / -36 % vs T2). Sonnet +24 pp confirmed anti-script-row-gen rule worked. |
+| Week 5 | 300-row Opus expansion (T2 + T3) | Initial finding: 82.5 % vs 91.5 % under matched v1.5 standards, p = 0.007 — but T2's strict-v1.5 number was 16 pp below its v1.4 original audit, suggesting an audit-rubric problem |
+| Week 5 | User correction of audit criteria | "Pass criteria should be: compound + value + source correct. Quote fidelity tracked separately. Review-paper-as-measured is correct behavior." |
+| Week 5 | Re-scored 300-row Opus audits under corrected criteria | T2 = 98.7 %, T3 = 97.0 %, p = 0.16 — statistically tied. The 9-pp gap was an audit-rubric artifact. |
+| Week 5 | Three-tier audit framework codified | `audit_criteria.md` separates Tier-1 correctness from Tier-2 verifiability + Tier-3 hygiene. Source of truth for future audits. |
+| Week 5 | v1.6 plan — kept correctness wins, downgraded verifiability rules, dropped ellipsis | Opus-only deployment decision. New EA-prefix / leading-code-prefix / procedure-text-at-start lints added. `quote_template_lint.py` deprecated. Verifier prompt rewritten per `audit_criteria.md`. |
+| Week 5 | v1.6 release | `.skill` artifact rebuilt at 66 KB; 16 evals all pass; description 965 chars |
+| Week 5 | trial3_comparison_report.md written | Detailed three-model T3 narrative + the audit-rubric discovery + the v1.6 plan |
 
-The second attempt took roughly 1 % of the effort of the first attempt and achieved 30+ percentage points better accuracy. That delta is the headline finding — not the absolute number. The Trial-2 cross-model results add a second finding of comparable importance: a skill's robustness across agent families is part of its quality. The agent-self-analysis exercise adds a third: combining external audit (for ground truth) with agent self-introspection (for causal explanation) produces sharper skill-design proposals than either alone.
+The second attempt took roughly 1 % of the effort of the first attempt and achieved 30+ percentage points better accuracy. That delta is the headline finding — not the absolute number. The Trial-2 cross-model results add a second finding of comparable importance: a skill's robustness across agent families is part of its quality. The agent-self-analysis exercise adds a third: combining external audit (for ground truth) with agent self-introspection (for causal explanation) produces sharper skill-design proposals than either alone. The Trial-3 audit-rubric discovery adds a fourth: the audit rubric matters as much as the data being audited — separating correctness from verifiability is essential and the three-tier framework in `audit_criteria.md` is the portable contribution.

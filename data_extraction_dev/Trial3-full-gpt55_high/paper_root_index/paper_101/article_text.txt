@@ -1,0 +1,1 @@
+/Users/skaye/Claude/Skills/ResearchForge/data_extraction_dev/corpora/full_168/114_PMC13093879_Coumarin_bearing_triazole_hybrids_as_cholinesterase_inhibitors_targeting_Alzheimers_diseas/article_text.txt

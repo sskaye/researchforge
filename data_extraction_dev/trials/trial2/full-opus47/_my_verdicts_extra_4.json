@@ -1,0 +1,127 @@
+[
+  {
+    "id": "177",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Quote '( 13 ): Orange solid, mp 252' is a contiguous substring of paper text ('Orange solid, mp 252°C–254°C') but is truncated mid-range and does not contain the upper bound 254 from value_raw='252–254°C'. Quote must include both numeric bounds of the range."
+  },
+  {
+    "id": "151",
+    "verdict": "verified",
+    "notes": "Paper has '9d as a yellow solid, mp 212–213°C (ethyl acetate/hexane)'. Quote '9d as a yellow solid, mp 212–213°C' is verbatim. Compound 9d, value_raw 212–213°C, midpoint 212.5 °C correct."
+  },
+  {
+    "id": "1199",
+    "verdict": "verified",
+    "notes": "Paper has 'mp: 223–225 °C' in synthesis section for QN019/6b. Quote and value_raw match; midpoint 224 °C correct."
+  },
+  {
+    "id": "747",
+    "verdict": "verified",
+    "notes": "Paper Table 5 row for 2-me-3-pentanol shows BP exp 126.6. Quote '36 2-me-3-pentanol 7.9167 2.9846 126.6 128.8 −2.2' is verbatim in NXML table content. Abbreviated name '2-me-3-pentanol' resolved to '2-methyl-3-pentanol'."
+  },
+  {
+    "id": "940",
+    "verdict": "verified",
+    "notes": "Compound 2a 3-(2-furanyl)-6-(4-aminophenyl) M.p. 229-231°C verbatim in experimental section. Midpoint 230 °C correct."
+  },
+  {
+    "id": "862",
+    "verdict": "verified",
+    "notes": "Paper has 'melting point: 104–105 °C' for compound 7. Quote matches verbatim (en-dash). value_raw 104-105 °C corresponds; midpoint 104.5 °C correct. (Note: en-dash vs hyphen difference between quote and value_raw is normalized.)"
+  },
+  {
+    "id": "1646",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Paper (dichi_2025_polyphenols_thermal) has Hesperidin Tm = 532.77 K only in a table row 'Hesperidin 532.77 531.15 [42], 532.15 [48], 533.15 [49]'. The evidence_quote 'Experimental Tm/K = 532.77 for Hesperidin' is a templated paraphrase, NOT a contiguous substring of the paper. Conversion 532.77 K - 273.15 = 259.62 °C is correct but quote is not verbatim."
+  },
+  {
+    "id": "956",
+    "verdict": "verified",
+    "notes": "Compound 2q 3-(2-furanyl)-6-(2-aminophenyl), M.p. 144-146°C verbatim in experimental section. Midpoint 145.0 °C correct."
+  },
+  {
+    "id": "170",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Paper has '11l as a yellow solid, mp 268°C–271°C'. Quote '11l as a yellow solid, mp 268' is a contiguous substring but truncated mid-range; missing the upper bound 271 from value_raw='268–271°C'."
+  },
+  {
+    "id": "1348",
+    "verdict": "verified",
+    "notes": "Paper PMC6236387 (Spectral Data section) contains 'Anthrone : mp 152°' verbatim. Value 152 °C correct."
+  },
+  {
+    "id": "544",
+    "verdict": "verified",
+    "notes": "Paper experimental for compound 5c has 'mp 176 °С (dec)' (Cyrillic 'С' but unicode-folded equivalent of 'C'). Quote matches verbatim after NFC folding. Decomposition value 176 °C, data_type 'decomposition' consistent."
+  },
+  {
+    "id": "102",
+    "verdict": "verified",
+    "notes": "Yalkowsky 2005 PDF Table 1.2 contains '2,3,4-trimethylpentane        -109' verbatim. value_raw -109 deg C, value_celsius -109 correct. Note: data_type 'measured' is conventional for compiled tables in this dissertation; alternative classification 'compiled_literature' might be more strict but the source describes them as 'Experimental melting points'."
+  },
+  {
+    "id": "662",
+    "verdict": "verified",
+    "notes": "Paper PMC6146942 Table 1 row for compound 1k (X=Cl, R=4-C4H9) lists '183-184' in the m.p. column. Quote '183-184' matches verbatim. Midpoint 183.5 °C correct."
+  },
+  {
+    "id": "312",
+    "verdict": "verified",
+    "notes": "Paper PMC10672206 has 'the melting point of Chol-ZnPc was found to be higher than 300 °C.' verbatim. Relation '>' and value 300 °C correct."
+  },
+  {
+    "id": "1716",
+    "verdict": "flagged_data_type_mismatch",
+    "notes": "Paper chen_2024_carbon_hydrated_salt_pcm (10.3390/nano14131077) is a review article presenting Table 1 of literature values. Row 'NaOH·H2 O 64.3 273 [40]' is cited from reference [40], not a measurement made by chen et al. Quote matches verbatim, but data_type='measured' is incorrect; should be classified as compiled/review data (cited from [40])."
+  },
+  {
+    "id": "628",
+    "verdict": "verified",
+    "notes": "Paper PMC6264237 experimental for compound 4d has 'm.p. 97–100 °C' verbatim. Range midpoint 98.5 °C correct."
+  },
+  {
+    "id": "1804",
+    "verdict": "verified",
+    "notes": "Paper khalifa_2024_thiopyrimidine_sulfonamide has 'White powder, mp 205–208 °C, 598 mg, 90%' verbatim for compound M4. Quote matches verbatim (with hyphen-fold normalization). Midpoint 206.5 °C correct."
+  },
+  {
+    "id": "1214",
+    "verdict": "verified",
+    "notes": "Paper PMC11844072 synthesis for compound 10j contains '(10j) A white precipitate was obtained in a yield of 71%; mp 200–202 °C' verbatim. Midpoint 201 °C correct."
+  },
+  {
+    "id": "1043",
+    "verdict": "verified",
+    "notes": "Paper PMC6146883 experimental for compound 33 contains 'Compound 33 was obtained as dark yellow crystals (43%), mp 228 °C' verbatim. Value 228 °C correct."
+  },
+  {
+    "id": "465",
+    "verdict": "verified",
+    "notes": "Paper PMC6193241 experimental for 7c contains 'light-beige solid; mp 113 °C' verbatim. Value 113 °C correct."
+  },
+  {
+    "id": "1829",
+    "verdict": "verified",
+    "notes": "Paper ledermann_2023_iodoindoles_synthesis PDF contains 'compound 5e (129 mg, 62%) was isolated as a beige solid, Mp 104.1 °C, Rf (n-' verbatim. Value 104.1 °C correct."
+  },
+  {
+    "id": "1124",
+    "verdict": "verified",
+    "notes": "Paper d5ra09311b synthesis for compound 12d contains '(12d) Cream solid; yield: 61%; MP = 239–241 °C' verbatim. Midpoint 240 °C correct."
+  },
+  {
+    "id": "31",
+    "verdict": "verified",
+    "notes": "Zhou 2013 EPAC2 antagonists PDF (jm3014162) contains 'red solid (mp 150-151 °C)' for compound 9. Quote 'solid (mp 150-151' is a verbatim substring. Midpoint 150.5 °C correct."
+  },
+  {
+    "id": "969",
+    "verdict": "verified",
+    "notes": "Paper PMC6236407 experimental for compound 8a-HCl contains 'Hydrochloride m.p. 215-218 °C' verbatim. Midpoint 216.5 °C correct."
+  },
+  {
+    "id": "1779",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Paper gomezayuso_2024 contains 'White solid (69%, 731 mg) (crystallized in iPrOH). M.p. = 203 – 204 ºC.' for compound 9g. The evidence_quote 'White solid (69%, 731 mg) (crystallized in iPrOH).      M.p. =' is truncated mid-sentence before the numeric value 203 – 204 ºC; quote does not contain the value_raw digits (203, 204). Truncated quote missing value."
+  }
+]

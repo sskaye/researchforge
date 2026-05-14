@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "14",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5 = 2-(8-Hydroxyquinolin-5-yl)-5-methoxyisoindoline-1,3-dione, m.p. 242-247 degC confirmed in paper at PMC12943044 (Pharmaceuticals 2026, 19, 230).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "52",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9k, Diphenyl(6-(Naphthalen-2-Yl)-...)phosphine oxide, mp 222-224 degC confirmed in ChemMedChem 10.1002/cmdc.202500751.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "55",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10e, Diphenyl(6-(4-Methoxyphenyl)-7H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide, mp 212-213 degC confirmed in ChemMedChem 10.1002/cmdc.202500751.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "62",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section heading 6.3.2.7 '4-(Diphenylphosphoryl)-6-(3-Nitrophenyl)-7H-Indeno[2,1-c]Quinolin-7-One (11h)' matches; the paper internally also writes the body code as 11hr; mp 171-173 degC confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "66",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11m (rendered '11 m' in body), 4-(Diphenylphosphoryl)-6-(pyridin-4-yl) indenoquinolin-7-one, mp 287-290 degC confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "89",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6h, bornyl-amino-imatinib analogue, mp 111-114 degC confirmed in Pharmaceuticals 10.3390/ph19020198.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "94",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5d, 3,5-Diamino-4-[(4-Methoxyphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide, mp 173-174 degC confirmed in Pharmaceuticals 10.3390/ph19020239.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "115",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 17, (2E,4E)-5-([1,1'-Biphenyl]-4-yl)-N-(adamantan-1-yl)penta-2,4-dienamide, Mp 196-198 degC confirmed in IJMS 10.3390/ijms27041716.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "143",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2l, 5-Acetyl-4-(4-bromophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, mp 185-186 degC confirmed in Molecules 10.3390/molecules31040699.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "147",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2p, 4-nitrophenylamino pyridazinone, mp 209-211 degC confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "162",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4b, isopropylamino pyridazinone, mp 80-83 degC confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "164",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4d, cyclohexylamino pyridazinone, mp 123-125 degC confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "179",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2u, 2-chlorophenylamino pyridazinone, mp 177-178 degC confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "190",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2d, N-(1-Benzylpiperidin-4-yl)-2-Propylpentanamide Hydrochloride, mp 164-165 degC confirmed in ChemMedChem 10.1002/cmdc.202500922.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "192",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3b, 1-Benzylpiperidin-4-yl 2-Propylpentanoate Hydrochloride, mp 143-145 degC confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "199",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3a, 1-(2'-bromo-[1,1'-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol, Mp 101 degC confirmed in Molecules 10.3390/molecules31040706.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "207",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4d, 4,5-dimethoxy-2-nitrophenyl ethanol biphenyl analogue, Mp 76 degC confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "210",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5a, 6-(4-nitrobenzyl)-6H-benzo[c]chromene, Mp 113 degC confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "229",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 1, Aminomethylenebisphosphonic acid, m.p. 258-260 degC confirmed in Pharmaceuticals 10.3390/ph19020256.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "257",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 29, N-(Azocinylamino)methylenebisphosphonic acid, mp 230-231 degC confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "287",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2g, 4-(5-ethyl-2,4-dihydroxyphenyl)-2-hydroxy-5,7,8-trimethyl-benzo[e][1,2]oxaphosphinine 2-oxide, m.p. 218-220 degC confirmed in IJMS 10.3390/ijms25126327; quote lacks compound serial.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "320",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 44, 2'-Cyano-...pyridin-5-yl benzoate, m.p. 115 degC confirmed in Molecules 10.3390/molecules29122942; quote lacks compound serial.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "328",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 55, 2,6-Diamino-4-(3-methoxyphenoxy)-1,6-dihydropyrimidine 1-oxide, paper states 'm.p. > 250 degC (dec.: 200 degC)' matching the >250 raw value; quote lacks compound serial.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "335",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10b, (R)-[1,1'-biphenyl]-4-yl...quaterphenyl-6'-yl)methanone, mp 116 degC confirmed in Molecules 10.3390/molecules28227590.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "336",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10c, (R)-(4-methoxy-6'-(p-tolylsulfinyl)-terphenyl-4'-yl)(4-methoxyphenyl)methanone, mp 188 degC confirmed in Molecules 10.3390/molecules28227590.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]

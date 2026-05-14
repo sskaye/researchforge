@@ -1,0 +1,1 @@
+/Users/skaye/Claude/Skills/ResearchForge/data_extraction_dev/corpora/full_168/008_PMC12944436_Rational_Design_Synthesis_and_Molecular_Docking_of_Novel_Terpene_Analogues_of_Imatinib_and/article_text.txt

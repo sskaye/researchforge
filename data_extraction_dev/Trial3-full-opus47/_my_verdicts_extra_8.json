@@ -1,0 +1,127 @@
+[
+  {
+    "id": "645",
+    "verdict": "verified",
+    "note": "compound 2i; mp 273-275°C confirmed in NXML"
+  },
+  {
+    "id": "14",
+    "verdict": "verified",
+    "note": "compound 5; mp 242-247°C confirmed"
+  },
+  {
+    "id": "436",
+    "verdict": "verified",
+    "note": "compound 5a; mp 179°C (dec); evidence_quote contains the verbatim text with paper's Cyrillic С; numeric 179 present"
+  },
+  {
+    "id": "310",
+    "verdict": "verified",
+    "note": "compound 4a dispiro complex; mp 231-232°C confirmed"
+  },
+  {
+    "id": "795",
+    "verdict": "verified",
+    "note": "compound 9; mp 299°C confirmed (paper uses 'o C' artifact)"
+  },
+  {
+    "id": "308",
+    "verdict": "verified",
+    "note": "compound 2f; mp 195-197°C confirmed"
+  },
+  {
+    "id": "191",
+    "verdict": "verified",
+    "note": "compound 18; mp 224-226°C confirmed"
+  },
+  {
+    "id": "92",
+    "verdict": "verified",
+    "note": "compound 5b; mp 295-296°C confirmed (paper uses Title Case naming verbatim)"
+  },
+  {
+    "id": "511",
+    "verdict": "verified",
+    "note": "compound 3; mp 109-110°C confirmed"
+  },
+  {
+    "id": "690",
+    "verdict": "verified",
+    "note": "compound 7; mp 153-154°C confirmed"
+  },
+  {
+    "id": "1032",
+    "verdict": "flagged_evidence_quote_not_found",
+    "note": "Paper table shows '3-OMe C 74 133-35' (shorthand). Evidence_quote captures only this fragment; value_raw '133-135 °C' is the interpreted full range but the literal '133-135' does NOT appear in the verbatim quote (only '133-35'). The numeric value_raw is missing from the verbatim quote. Additionally compound_name is a formula expression 'R-C6H4-I(OAc)2 (R = 3-OMe) — (diacetoxyiodo)arene' rather than a proper IUPAC name."
+  },
+  {
+    "id": "1290",
+    "verdict": "verified",
+    "note": "compound 20a; mp 74-75°C confirmed in J Med Chem 2013 paper"
+  },
+  {
+    "id": "588",
+    "verdict": "verified",
+    "note": "compound 6i; mp 209-211°C confirmed"
+  },
+  {
+    "id": "821",
+    "verdict": "verified",
+    "note": "compound 1a; mp 147-148°C confirmed (paper has 'C' not '°C' but numeric is present)"
+  },
+  {
+    "id": "1335",
+    "verdict": "flagged_evidence_quote_not_found",
+    "note": "Paper has '...1.80 g, 89 % yield; m.p. 209-210 °С (acetonitrile)' but in two-column PDF layout. pdftotext extraction interleaves columns so 'm.p.' and '209-210' are not contiguous in the output. The evidence_quote 'Yellow solid; 1.80 g, 89 % yield; m.p. 209-210 °C (acetonitrile)' cannot be located as a contiguous substring in the actual extracted text. The data itself is correct (compound 4s, mp 209-210°C, acs.joc.9b00711), but the quote is a logical reconstruction not a verbatim contiguous span."
+  },
+  {
+    "id": "746",
+    "verdict": "verified",
+    "note": "compound 20; mp 235°C confirmed"
+  },
+  {
+    "id": "87",
+    "verdict": "verified",
+    "note": "compound 6f; mp 151-153°C confirmed"
+  },
+  {
+    "id": "695",
+    "verdict": "verified",
+    "note": "compound 10c; mp 183-184°C confirmed"
+  },
+  {
+    "id": "1193",
+    "verdict": "verified",
+    "note": "compound 1a; range inverted in source paper (119°C–114°C); value_celsius_min/max correctly captured as 114/119; flagged in notes"
+  },
+  {
+    "id": "239",
+    "verdict": "verified",
+    "note": "compound 4; mp 145-147°C confirmed"
+  },
+  {
+    "id": "1238",
+    "verdict": "flagged_data_type_mismatch",
+    "note": "Paper Brown 2000 J. Chem. Educ. tabulates known literature melting points of structural isomers for an educational analysis of molecular symmetry; 165 K for 2-methyl-1-propanol is from CRC/handbook literature, not measured in this paper. data_type='measured' is incorrect; should be 'literature'. Value/unit conversion (165 K → -108.15 °C) and evidence_quote are otherwise correct."
+  },
+  {
+    "id": "132",
+    "verdict": "verified",
+    "note": "compound 2a; mp 169-171°C confirmed"
+  },
+  {
+    "id": "421",
+    "verdict": "verified",
+    "note": "compound 6h; mp 111°C confirmed"
+  },
+  {
+    "id": "503",
+    "verdict": "verified",
+    "note": "compound 4h; mp 98-100°C confirmed (paper has author typo 'pyridyn' which is preserved verbatim in compound_name)"
+  },
+  {
+    "id": "920",
+    "verdict": "flagged_compound_mismatch",
+    "note": "compound 6; mp 210-212°C confirmed and evidence_quote verbatim. However compound_name '6 (Methyl 2-(5,6-dichloro-2-(4-methoxyphenyl)-1H-benzo[d]imidazol-1-yl)acetate)' has a leading code prefix '6 ' before the IUPAC name, violating the Phase-6e leading-context-prefix stripping rule. The IUPAC name itself is correct; the prefix is the issue."
+  }
+]

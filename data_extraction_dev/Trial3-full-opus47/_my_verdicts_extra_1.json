@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "813",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'm.p. 74-76 \u00b0C' verbatim in paper for compound 12 (2-methyl-quinoline-3-carboxylic acid ethyl ester); value 75 \u00b0C midpoint correct."
+  },
+  {
+    "row_id": "119",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 22 Mp 160-161 \u00b0C present verbatim in paper; value_celsius 160.5 correct midpoint."
+  },
+  {
+    "row_id": "538",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10a M.p. 180-182 \u00b0C verified; PMC6147013 in folder/metadata. Compound name preserves source typo (unbalanced bracket) verbatim."
+  },
+  {
+    "row_id": "978",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3 mp 134 \u00b0C verified verbatim; data_type measured correct."
+  },
+  {
+    "row_id": "386",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 15 (5-Benzyl-6,6a,12-triazobenzo[a]anthracen-7-one) mp 176-178 \u00b0C verbatim in paper; PMC4058664 confirmed via folder/metadata."
+  },
+  {
+    "row_id": "439",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5d mp 118 \u00b0\u0421 (dec) verbatim (with Cyrillic \u0421 normalized); decomposition data_type correct."
+  },
+  {
+    "row_id": "1097",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Philinopgenin B mp 212.5-213.5 \u00b0C verbatim; PMC3783257 confirmed via folder/metadata."
+  },
+  {
+    "row_id": "894",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote 'compound A as yellow crystals; yield: 79%; MP 242-244 \u00b0C' verbatim; paper itself uses placeholder 'compound A'."
+  },
+  {
+    "row_id": "144",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3a Mp 101 \u00b0C verbatim verified."
+  },
+  {
+    "row_id": "879",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 16b mp 253-255 \u00b0C verbatim; value 254 midpoint correct."
+  },
+  {
+    "row_id": "565",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4d M.P. 121-123 \u00b0C verbatim verified."
+  },
+  {
+    "row_id": "965",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5c mp = 142-44 \u00b0C verbatim (range parser correctly reads 142-144); value 143 midpoint."
+  },
+  {
+    "row_id": "819",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DCA m.p. 324-326 \u00b0C verbatim; commercial DCA recrystallized and mp reported by authors."
+  },
+  {
+    "row_id": "856",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 12s MP = 226-228 \u00b0C verbatim verified."
+  },
+  {
+    "row_id": "75",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 15 mp 288\u00b0C-291\u00b0C verbatim verified (normalized en-dash to hyphen)."
+  },
+  {
+    "row_id": "1259",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'C6 H5 OH phenol 314.1' present in Brown PDF; K-to-C conversion 314.1-273.15=40.95 correct."
+  },
+  {
+    "row_id": "80",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 20 mp 228\u00b0C-230\u00b0C verbatim verified."
+  },
+  {
+    "row_id": "712",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5c m.p. 170 \u00b0C verbatim. Note: compound_name has paper-typo '2-(4-Methoxyphenyl' with missing closing paren (preserved from source)."
+  },
+  {
+    "row_id": "1244",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 'o-xylene 248.0 m-xylene 225.4' present in Brown PDF; K-to-C conversion 225.4-273.15=-47.75 correct."
+  },
+  {
+    "row_id": "536",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9a M.p. 261-263 \u00b0C verbatim verified; PMC6147013 in folder/metadata."
+  },
+  {
+    "row_id": "459",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5a mp 80-82 \u00b0C verbatim verified; PMC6264341 confirmed via folder/metadata."
+  },
+  {
+    "row_id": "1256",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row 'C6 H5 Cl chlorobenzene 228.0' present in Brown PDF; K-to-C conversion 228.0-273.15=-45.15 correct."
+  },
+  {
+    "row_id": "2",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound AL2 M.p.: 230 \u00b0C (dec.) verbatim; decomposition data_type matches."
+  },
+  {
+    "row_id": "1099",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Bis(3,5-dimethylpyrazol-1-ylmethyl)-1-hydroxy-2-aminoethane melting point 82-84 \u00b0C verbatim; value 83 midpoint."
+  },
+  {
+    "row_id": "878",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 16a mp 259-261 \u00b0C verbatim verified."
+  }
+]

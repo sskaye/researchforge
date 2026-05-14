@@ -1,0 +1,39 @@
+L157: MP=g, 75%); mp 144–146 °C (MeOH, AcOEt/ n -pentane), R f ( NP-TLC ) = 0.25 (AcOEt).  VAL=1 H NMR (600.11 MHz, DMSO- d 6 ) δ 2.34 (s, 3H, 4-C H 3 ), 2.60 (s, 3H, 7-C H 3 
+L163: MP=to yield the N -hydroxypyridinedione B almost quantitatively (1.32 g, 98%); m.p.  VAL=178–179 °C (MeOH/ n -pentane, dry Et 2 O), R f ( NP-TLC ) = 0.06 (AcOEt), R f ( 
+L177: MP=R f = 0.54 (CH 2 Cl 2 ), m.p.  VAL=147 °C, 1 H NMR (500 MHz, CDCl 3 ) δ 7.81 (dd, J = 5.5, 3.1 Hz, 2H, Ar-Pthal), 7
+L184: MP=R f = 0.35 (CH 2 Cl 2 ), m.p.  VAL=170–171 °C, 1 H NMR (600 MHz, CDCl3) δ 8.01 (d, J = 8.3 Hz, 2H, Ar), 7.75 (dd, J
+L196: MP=R f = 0.5 (AcOEt), m.p.  VAL=120–121 °C.
+L204: MP=R f = 0.67 (CH 2 Cl 2 ), m.p.  VAL=145–147 °C.
+L212: MP=White solid (225 mg, 30%), R f = 0.28 (AcOEt), mp: 145–148 °C.  VAL=1 H NMR (600 MHz, DMSO) δ 9.59 (s, 1H, OH), 7.85 (s, 4H, Ar-Pthalimide), 7.31–7.
+L220: MP=R f = 0.5 (AcOEt), m.p.  VAL=80–82 °C, 1 H NMR (600 MHz, DMSO) δ 7.86 (s, 4H, Ar), 4.21 (t, J = 6.3 Hz, 2H, O
+L227: MP=R f = 0.45 (AcOEt), m.p.  VAL=104 °C.
+L236: MP=R f = 0.33 (AcOEt), m.p.  VAL=149–150 °C.
+L244: MP=R f = 0.53 (CH 2 Cl 2 ), m.p.  VAL=165–168 °C.
+L252: MP=R f = 0.53 (CH 2 Cl 2 ), m.p.  VAL=165–168 °C.
+L260: MP=R f = 0.12 (CH 2 Cl 2 ), m.p.  VAL=165–168 °C.
+L274: MP=R f = 0.53 (CH 2 Cl 2 ), m.p.  VAL=155–158 °C.
+L442: MP=R f = 0.25 (AcOEt), m.p.  VAL=110–115 °C (dec.).
+L450: MP=R f = 0.10 (AcOEt), m.p.  VAL=130 °C (dec.).
+L458: MP=R f = 0.20 (AcOEt), m.p.  VAL=120–122 °C (dec.).
+L466: MP=R f = 0.09 (EtOAc/MeOH 3:1), m.p.  VAL=117–119 °C (dec.).
+L473: MP=R f = 0.25 (AcOEt), m.p.  VAL=118–120 °C (dec.).
+L481: MP=R f = 0.25 (AcOEt), m.p.  VAL=102–104 °C (dec.).
+L489: MP=R f = 0.25 (AcOEt), m.p.  VAL=98–100 °C (dec.).
+L497: MP=R f = 0.30 (1:1 AcOEt:MeOH), mp: 93–95 °C (dec.).  VAL=1 H NMR (600 MHz, DMSO) δ 5.65–5.45 (m, 1H, CHC=ON), 4.13–3.92 (m, 2H, OCH 2 ), 
+L504: MP=R f = 0.30 (1:1 AcOEt:MeOH), m.p.  VAL=86–89 °C (dec.).
+L512: MP=R f = 0.30 (1:1 AcOEt:MeOH), m.p.  VAL=78–80 °C (dec.).
+L520: MP=R f = 0.10 (AcOEt), m.p.  VAL=155 °C (dec.).
+L528: MP=R f = 0.10 (AcOEt), m.p.  VAL=115 °C.
+L536: MP=R f = 0.05 (AcOEt), m.p.  VAL=130 °C (dec.).
+L544: MP=R f = 0.08 (EtOAc/MeOH 3:1), m.p.  VAL=130–132 °C.
+L551: MP=R f = 0.10 (AcOEt), m.p.  VAL=120 °C (dec.).
+L559: MP=R f = 0.05 (EtOAc/MeOH 3:1), m.p.  VAL=105–107 °C.
+L566: MP=R f = 0.11 (EtOAc/MeOH 3:1), m.p.  VAL=108–110 °C (dec.).
+L573: MP=R f = 0.11 (EtOAc/MeOH 3:1), m.p.  VAL=117–119 °C (dec.).
+L609: MP=R f = 0.32 (EtOAc), m.p.  VAL=> 250 °C.
+L626: MP=R f = 0.27 (3:1 AcOEt: MeOH), m.p.  VAL=> 250 °C (dec.: 200 °C).
+L634: MP=R f = 0.25 (3:1 AcOEt: MeOH), m.p.  VAL=135 °C.
+L642: MP=R f = 0.28 (3:1 AcOEt: MeOH), m.p.  VAL=160 °C.
+L651: MP=R f = 0.25 (EtOAc/MeOH 3:1), m.p.  VAL=> 250 °C.
+L675: MP=R f = 0.20 (AcOEt), m.p.  VAL=> 250 °C.
+L683: MP=R f = 0.20 (AcOEt), m.p.  VAL=> 250 °C.

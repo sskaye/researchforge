@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "1379",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in Table 1 of paper (139_PMC6236348). R=2-Me row matches compound [2-(diacetoxyiodo)toluene], mp 140-142 confirmed. Value_raw 140-142 correct. Q6: DOI 10.3390/61100881 in paper metadata."
+  },
+  {
+    "row_id": "1581",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim (with whitespace normalization) in Table 5 of muller_2020_dsc-tga-pcm-thermophysical PDF. 1-Octadecanol DSC_onset 56.8 \u00b1 0.05 confirmed. Compound name, value, and CAS 112-92-5 all match."
+  },
+  {
+    "row_id": "1318",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 129_PMC6146463 (compound 5e). mp = 190-92\u00b0C in paper, value_raw 190-192\u00b0C is correct expansion. Compound name matches. Q6: DOI 10.3390/70200252 confirmed."
+  },
+  {
+    "row_id": "410",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 028_PMC10671214 (compound 5j). white powder; mp: 192-195 \u00b0C confirmed. Compound name and code 5j match. Quote truncated at same point as paper text."
+  },
+  {
+    "row_id": "1445",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 158_PMC3783257. Philinopgenin C (3): a white powder, mp 216.5-217.5 \u00b0C confirmed. Compound name matches. Q6: PMC3783257 confirmed via metadata.json."
+  },
+  {
+    "row_id": "650",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 053_PMC6147013 (compound 9a). Orange yellow crystals; M.p. 261-263 \u00b0C confirmed. Compound name matches. Q6: DOI 10.3390/80400363 confirmed."
+  },
+  {
+    "row_id": "536",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 036_PMC6193216 (compound 7e). mp 299-304 \u00b0\u0421 (dec) confirmed. Compound name matches. Q6: DOI 10.1055/s-0036-1589496 confirmed."
+  },
+  {
+    "row_id": "540",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 036_PMC6193216 (compound 8d). mp 273-276 \u00b0\u0421 (dec) confirmed. Compound name matches. Same paper as row 536."
+  },
+  {
+    "row_id": "169",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 011_PMC12943719. mp = 215-216 \u00b0C (EtOH) confirmed. Compound 3l identified, value_raw matches. Q6: DOI 10.3390/molecules31040699 confirmed."
+  },
+  {
+    "row_id": "1468",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The evidence_quote begins with \"TCMTB It has low aqueous solubility...\" but in paper 164_PMC7158184 the text reads \"...structure of TCMTB. It forms the active ingredient of the commercial fungicide Woodstate 30WBR. It has low aqueous solubility...\". The word \"TCMTB\" is not directly adjacent to \"It has low aqueous\" \u2014 they are separated by an intervening sentence. The quote is therefore an assembled/fabricated string not present verbatim in the source. Q1 fails. The underlying melting point data (<-10 \u00b0C for TCMTB) is correct in the paper, but the quote does not appear verbatim."
+  },
+  {
+    "row_id": "1392",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in Table 2 of paper 139_PMC6236348. R=4-Cl row: 248 expl., 243 expl. [29] confirmed. Compound 4-chloroiodylbenzene matches. value_raw 248 expl. (\u00b0C) is the measured value (not lit. 243). Q6: DOI 10.3390/61100881 confirmed."
+  },
+  {
+    "row_id": "208",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_mismatch",
+    "details": "Evidence quote found verbatim in paper 013_PMC12943095 (compound 5n). However, the compound_name in the CSV is \"(3-methyl-4-nitrobenzyl)-6H-benzo[c]chromene (5n)\" which is missing the \"6-\" positional prefix. The paper states the full IUPAC name as \"6-(3-methyl-4-nitrobenzyl)-6H-benzo[c]chromene (5n)\". Q5 fails: compound_name is truncated/incorrect \u2014 the \"6-\" substituent position descriptor is omitted, changing the compound identity. Value and quote otherwise correct."
+  },
+  {
+    "row_id": "475",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 032_PMC4058664 (compound 16). mp 165-167 \u00b0C confirmed. Compound name matches. Q6: DOI 10.3390/ph4081158 confirmed."
+  },
+  {
+    "row_id": "1354",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 138_PMC6146434 (compound 3i). mp: 233-35\u00b0C confirmed; value_raw 233-235\u00b0C is the correct expansion of the short form. Compound_name \"7-phenyl-9-(4-chlorophenyl)...\" vs paper \"7-(4-Phenyl)-9-(4-chlorophenyl)...\" \u2014 the \"(4-Phenyl)\" notation in the paper appears to be a typographic anomaly (other compounds in same paper use \"7-Phenyl\" without parenthetical). The compound is correctly identified. Verdict: verified, noting paper typography."
+  },
+  {
+    "row_id": "589",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 044_PMC6147016 (compound 3). mp = 253-255 \u00b0C (dec.) confirmed. Compound name and value match. Q6: DOI 10.3390/80500453 confirmed."
+  },
+  {
+    "row_id": "601",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 045_PMC6264237 (compound 4l). m.p. 145 \u00b0C confirmed. Compound name matches. Q6: DOI 10.3390/molecules16108815 confirmed."
+  },
+  {
+    "row_id": "324",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_mismatch",
+    "details": "Evidence quote found verbatim (with en-dash normalization: paper has \"120\u2013121\" while quote has \"120-121\") in paper 020_PMC11206691. However, the compound at that melting point location is \"2-(3-Methoxybenzyloxy)isoindolin-1,3-dione\" (compound 3), NOT \"2-(Allyloxy)isoindoline-1,3-dione\" as stated in the CSV. The term \"allyloxy\" does not appear anywhere in the paper. Q5 fails: compound_name is wrong \u2014 a different compound name was assigned to this melting point quote."
+  },
+  {
+    "row_id": "3",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 001_PMC12938810 (compound AL3). M.p.: 284 \u00b0C (dec.) confirmed. Compound name matches. Q6: DOI 10.3390/antiox15020217 confirmed."
+  },
+  {
+    "row_id": "1423",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 149_PMC11831906. Mannose triflate melting point 118-120\u00b0C confirmed. Q6: PMC11831906 confirmed via metadata.json."
+  },
+  {
+    "row_id": "1578",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim (with whitespace normalization) in Table 5 of muller_2020_dsc-tga-pcm-thermophysical PDF. Eicosane DSC_onset 36 \u00b1 0.03 confirmed. Compound name, value 36 \u00b0C, and CAS 112-95-8 all match."
+  },
+  {
+    "row_id": "1339",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 136_PMC6236352. mp 146-148\u00b0C confirmed. Compound N,N-bis(diphenylphosphinomethyl)-2-aminoethylphosphonic acid matches. Q6: DOI 10.3390/60400390 confirmed."
+  },
+  {
+    "row_id": "558",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 038_PMC6264341 (compound 11a). mp: 122-124 \u00b0C confirmed. Compound name matches. Q6: DOI 10.3390/molecules16108758 confirmed."
+  },
+  {
+    "row_id": "262",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote found verbatim in paper 018_PMC10672206. Chol-phthalonitrile Mp: 186 \u00b0C confirmed. Q6: DOI 10.3390/ma16227060 confirmed."
+  },
+  {
+    "row_id": "186",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_mismatch",
+    "details": "Evidence quote found verbatim in paper 013_PMC12943095 (compound 3c). However, the compound_name in the CSV is \"(4-nitrophenyl)ethan-1-ol ( 3c )\" which is severely truncated. The paper states the full name as \"1-(2'-bromo-5-methyl-[1,1'-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol ( 3c )\". Q5 fails: compound_name omits the major structural component (the bromobiphenyl portion), making it chemically incorrect and potentially confusing with other compounds."
+  },
+  {
+    "row_id": "1622",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Evidence quote confirmed in paper organic_synthesis/gomezayuso_2024_ugi_nitrogen_heterocycles (PDF). Compound 9n: M.p. = 187-188 \u00b0C confirmed. Compound name matches verbatim (PDF has linebreak in name which normalizes). Q6: DOI 10.3762/bjoc.20.154 confirmed via folder mapping."
+  }
+]

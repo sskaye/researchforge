@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "1337",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Verbatim quote confirmed in article_text.txt. Value bp 134-136\u00b0C/12mm matches. Compound 5 (2-Thiocyanatothiophene) confirmed. Source URL 10.3390/60300253 confirmed."
+  },
+  {
+    "row_id": "383",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Verbatim quote confirmed. mp 68\u00b0C for compound 4 (5-methyl-1,3,4-oxadiazole-2(3H)-thione) verified. Source URL confirmed."
+  },
+  {
+    "row_id": "1317",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Verbatim quote confirmed: 'mp = 244-46\u00b0C (hygroscopic salt)'. Compound 5d confirmed. Source URL 10.3390/70200252 confirmed."
+  },
+  {
+    "row_id": "1271",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Verbatim quote confirmed at pos 27849. mp 252-253\u00b0C for compound 6c (QN023) confirmed. Source URL 10.3390/ijms27041738 confirmed."
+  },
+  {
+    "row_id": "1309",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote not verbatim: 'Yield 0.23 g (85%), mp 375\u00b0C (decomp.)' is preceded in paper by the synthesis procedure text ('A mixture of...'), which the quote omits. The quote implies '(6). Yield' as consecutive text but paper has '(6). A mixture of...Yield'. Value 375\u00b0C decomp and compound 6 are confirmed in the paper."
+  },
+  {
+    "row_id": "1516",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Verbatim quote confirmed. MP 208-209\u00b0C for compound 2 confirmed. Source URL 10.3390/molecules29122777 confirmed."
+  },
+  {
+    "row_id": "15",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Verbatim quote confirmed at pos 33866. m.p. 209-213\u00b0C for compound 6a confirmed. Source URL 10.3390/ph19020230 confirmed."
+  },
+  {
+    "row_id": "1570",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Verbatim quote confirmed in PDF (pdftotext -layout). Table row for Propionic acid with -25.7 \u00b1 0.15 (Melting Onset) confirmed. Source URL 10.3390/ma13204486 confirmed."
+  },
+  {
+    "row_id": "139",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_mismatch",
+    "details": "compound_name says '2m' (paper mp=161-162\u00b0C) but evidence_quote is about compound 2o (mp=171-173\u00b0C). The value_raw 171-173\u00b0C matches compound 2o not 2m. Q3 fails: compound code '2m' does not appear in evidence_quote. Q5 fails: compound_name mismatch."
+  },
+  {
+    "row_id": "353",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote not verbatim: paper has '[1,1':3',1'':4'',1''-quaterphenyl]' (after unicode prime normalization) but evidence_quote has '[1,1':3':4'',1'''-quaterphenyl]'. These differ structurally. Compound code 10b and value 116\u00b0C are confirmed in the paper."
+  },
+  {
+    "row_id": "219",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_mismatch",
+    "details": "compound_name describes compound 6 (N-Nonylamino, C9, mp=279-280\u00b0C) but evidence_quote and value_raw (mp 200\u00b0C) belong to compound 7 (N-Decylamino, C10). Q3 fails: compound identifier '6' is not in evidence_quote (which contains '7'). Q5 fails: compound described in compound_name does not match evidence_quote compound."
+  },
+  {
+    "row_id": "1366",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Verbatim quote confirmed. mp 204-06\u00b0C for compound 7d confirmed. Source URL 10.3390/70700554 confirmed."
+  },
+  {
+    "row_id": "332",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote matches with en-dash normalization ('155-158' in record vs '155\u2013158' in paper). Compound 13 and value confirmed. Source URL 10.3390/molecules29122942 confirmed."
+  },
+  {
+    "row_id": "360",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote matches with unicode prime normalization (\u2032\u2192', \u2033\u2192''). Compound 10i and value 234\u00b0C confirmed. Source URL 10.3390/molecules28227590 confirmed."
+  },
+  {
+    "row_id": "1310",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote not verbatim: 'Yield 0.31 g (93%), mp 305\u2013306\u00b0C' follows synthesis procedure text ('A mixture of...was refluxed...') in paper but quote implies it directly follows compound name '(7).'. Value and compound confirmed."
+  },
+  {
+    "row_id": "1437",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote begins 'Cordycepin Properties...' but paper text at that location begins with 'OFEZSBMBBKLLBJ- Properties...' (InChIKey fragment, not compound name). The word 'Cordycepin' does not appear immediately before 'Properties' in article_text.txt. Value 225.5\u00b0C is confirmed in the paper."
+  },
+  {
+    "row_id": "685",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Verbatim quote confirmed. Melting point 136\u00b0C for 3-Hydroxy-3-(4-biphenylyl)butanoic acid confirmed. Source URL pmc:PMC3685236 confirmed."
+  },
+  {
+    "row_id": "346",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "Quote has '1'-Dihydroxy-4-methyl' but paper has '1'-(1,2-Dihydroxy-4-methyl'. The '(1,2-' prefix is missing from the evidence_quote, so the quote is not verbatim even with unicode normalization. Value 120\u00b0C (dec.) and compound 47 are confirmed in the paper."
+  },
+  {
+    "row_id": "143",
+    "verdict": "flagged_review",
+    "reason": "flagged_compound_name_mismatch",
+    "details": "compound_name says '2q' (paper mp=204-205\u00b0C) but evidence_quote is about compound 2s (mp=180-182\u00b0C). The value_raw 180-182\u00b0C matches compound 2s not 2q. Q3 fails: '2q' does not appear in evidence_quote. Q5 fails: compound described does not match."
+  },
+  {
+    "row_id": "1331",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Verbatim quote confirmed. mp 118\u00b0C for compound 4Z confirmed. Source URL 10.3390/70400382 confirmed."
+  },
+  {
+    "row_id": "434",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Verbatim quote confirmed. Mp 81-82\u00b0C for compound 5h confirmed. Source URL 10.1007/s11164-022-04839-x confirmed."
+  },
+  {
+    "row_id": "1564",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote matches with degree symbol normalization (\u25e6C\u2192\u00b0C). '90 \u00b0C (choline 2-methylbutarate), respectively' confirmed in PDF. Source URL 10.3390/molecules25071691 confirmed."
+  },
+  {
+    "row_id": "1273",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Verbatim quote confirmed. mp 225-227\u00b0C for compound 4 (5,6-dichloro-2-(4-methoxyphenyl)-1H-benzo[d]imidazole) confirmed. Source URL 10.1186/s13065-025-01402-8 confirmed."
+  },
+  {
+    "row_id": "323",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote matches with en-dash normalization. mp 170-171\u00b0C for compound 2 confirmed. Source URL 10.3390/molecules29122942 confirmed."
+  },
+  {
+    "row_id": "303",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Quote matches with en-dash normalization ('305\u00b0C-308\u00b0C' in record vs '305\u00b0C\u2013308\u00b0C' in paper). Compound 11 and value 305-308\u00b0C confirmed. Source URL 10.1002/ardp.70227 confirmed."
+  }
+]

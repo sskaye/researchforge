@@ -1,0 +1,160 @@
+=== L184 ===
+The residue was purified by flash chromatography on silica gel.
+4-(Pyridin-4-yl)benzaldehyde ( 1 ) Eluent: PE/EtOAc 7:1.
+Yellow solid (97% yield).
+Mp 87–90 °C (lit.
+=== L189 ===
+1 H NMR (400 MHz, CDCl 3 ): δ 10.03 (s, 1H), 8.68 (d, J = 5.0 Hz, 2H), 7.95 (d, J = 7.8 Hz, 2H), 7.75 (d, J = 7.9 Hz, 2H), 7.54 (d, J = 5.0 Hz, 2H).
+( E )- N -(Adamantan-1-yl)-3-(4-(pyridin-4-yl)phenyl)acrylamide ( 29 ) Eluent: PE/Et 2 O 1:4 and then Et 2 O/EtOAc 9:1.
+White solid (54% yield).
+Mp 227–229 °C.
+=== L240 ===
+The aqueous solution was treated with conc.
+HCl until pH 1 and then it was extracted (3x) with EtOAc.
+The organic solution was washed with brine, dried over Na 2 SO 4 and evaporated to dryness to give a white solid (7.266 g, 65% yield).
+Mp 73–75 °C.
+=== L255 ===
+Diethyl (( E )-4-((Adamantan-1-yl)amino)-4-oxobut-2-en-1-yl)phosphonate ( 6 ) Prepared from 10 and 1-aminoadamantane.
+Reaction time: 18 h.
+The yellow oil was purified by flash chromatography (eluent, CH 2 Cl 2 :CH 3 OH 98:2) to give 6 as a white solid (74% yield).
+Mp 115–118 °C.
+=== L276 ===
+After, a saturated solution of Na 2 CO 3 was added and the aqueous phase was extracted with CH 2 Cl 2 (3x).
+The organic solution was washed with brine, dried over anhydrous Na 2 SO 4 , filtered and evaporated to give a yellow oil.
+The crude product was purified by flash chromatography (eluent, EtOAc:CH 3 OH 94:6) to give 8 a white solid (1.17 g, 42% yield).
+Mp 90–91 °C.
+=== L287 ===
+N -(Adamantan-1-yl)-1-(4-bromophenyl)-1H-1,2,3-triazole-4-carboxamide ( 39 ) Prepared from 40 and 1-aminoadamantane.
+Reaction time: 20 h.
+Purified by flash chromatography (eluent CH 2 Cl 2 ) to give a white solid (86% yield).
+Mp > 270 °C.
+=== L299 ===
+The crude product was purified by flash chromatography and/or trituration by an appropriate solvent.
+(2 E ,4 E )- N -Isobutyl-5-phenylpenta-2,4-dienamide ( 11 ) [ 51 ] Prepared from phenylacetaldehyde and phosphonate 8 .
+The product was purified by trituration with Et 2 O affording a white solid (0.16 g, 79% yield).
+Mp 109–112 °C.
+=== L303 ===
+1 H NMR (400 MHz, CDCl 3 ) δ 7.25–7.09 (m, 6H), 6.19–6.05 (m, 2H), 5.72 (d, J = 14.9 Hz, 1H), 5.45 (bs, 1H), 3.41 (d, J = 4.2 Hz, 2H), 3.09–3.08 (m, 2H), 1.76–1.69 (m, 1H), 0.85 (d, J = 5.5 Hz, 6H).
+13 C NMR (100 MHz, CDCl 3 ) δ 166.3, 140.6, 140.5, 139.1, 129.4, 128.6, 128.5, 126.3, 122.9, 77.3, 77.0, 76.7, 46.9, 39.1, 28.6, 20.1.
+MS (ESI): m / z 244 [M + H] + (90), 266 [M + Na] + (70).
+Mp 109–112 °C.
+=== L306 ===
+Mp 109–112 °C.
+(2 E ,4 E )- N -(Adamantan-1-yl)-5-phenylpenta-2,4-dienamide ( 12 ) Prepared from benzaldehyde and phosphonate 6 .
+The product was purified by flash chromatography (eluent, PE:EtOAc 3:1) affording a yellowish solid (0.17 g, 95% yield).
+Mp 110–113 °C.
+=== L315 ===
+for C 21 H 25 KNO + = 346.15677, found = 346.15688 [M + K] + .
+(2 E ,4 E )- N -(3-Hydroxyadamantan-1-yl)-5-phenylpenta-2,4-dienamide ( 13 ) Prepared from benzaldehyde and phosphonate 7 .
+The product was purified by flash chromatography (eluent, PE:EtOAc 1:2) affording a cream-white solid (0.17 g, 94% yield).
+Mp 227–230 °C.
+=== L324 ===
+for C 42 H 50 N 2 NaO 4 + = 669.36628, found = 669.36745 [2M + Na] + .
+(2 E ,4 E )- N -(Adamantan-1-yl)-5-(naphthalen-2-yl)penta-2,4-dienamide ( 14 ) Prepared from 2-naphthaldehyde and phosphonate 6 .
+The product was purified by trituration with Et 2 O to give a white solid (0.15 g, 97% yield).
+Mp 84–88 °C.
+=== L333 ===
+for C 25 H 27 KNO + = 396.17242, found = 396.17258 [M + K] + .
+(2 E ,4 E )- N -Isobutyl-5-(naphthalen-2-yl)penta-2,4-dienamide ( 15 ) Prepared from 2-naphthaldehyde and phosphonate 8 .
+The product was purified by trituration with Et 2 O to give a white solid (97% yield).
+Mp 179–182 °C.
+=== L342 ===
+for C 19 H 21 KNO + = 318.12547, found = 318.12535 [M + K] + .
+(2 E ,4 E )-5-([1,1′-Biphenyl]-3-yl)- N -isobutylpenta-2,4-dienamide ( 16 ) Prepared starting from biphenyl-4-carboxaldehyde and phosphonate 8 .
+The product was purified by trituration with Et 2 O to give a white solid (0.12 g, 72% yield).
+Mp 226–228 °C.
+=== L351 ===
+for C 21 H 23 KNO + = 344.14112, found = 344.14090 [M + K] + .
+(2 E ,4 E )-5-([1,1′-Biphenyl]-4-yl)- N -(-adamantan-1-yl)penta-2,4-dienamide ( 17 ) Prepared starting from biphenyl-4-carboxaldehyde and phosphonate 6 .
+The product was purified by trituration with PE to give a yellowish solid (0.15 g, 69% yield).
+Mp 196–198 °C.
+=== L359 ===
+for C 54 H 58 N 2 NaO 2 + = 789.43905, found = 789.43998 [2M + Na] + .
+( E )- N -(Adamantan-1-yl)-5-(4-(pyridin-4-yl)phenyl)penta-2,4-dienamide ( 18 ) Aldehyde 1 and phosphonate 6 were used as starting materials.
+The product was purified by trituration with PE to give a brown solid (0.20 g, 95% yield).
+Mp 227–229 °C.
+=== L366 ===
+for C 26 H 29 N 2 O + = 385.22744, found 385.22799 [M + H] + .
+(2 E ,4 E )- N -Isobutyl-5-(3-phenoxyphenyl)penta-2,4-dienamide ( 19 ) 3-Phenoxybenzaldehyde and phosphonate 8 were used as starting materials.
+The product was purified by flash chromatography (eluent, PE:EtOAc 3:1) to give a white solid (0.21 g, 97% yield.
+Mp 133–135 °C.
+=== L375 ===
+for C 21 H 23 KNO 2 + = 360.13604, found = 360.13576 [M + K] + .
+(2 E ,4 E )- N -(Adamantan-1-yl)-5-(3-phenoxyphenyl)penta-2,4-dienamide ( 20 ) 3-Phenoxybenzaldehyde and phosphonate 6 were used as starting materials.
+The product was purified by flash chromatography (eluent, PE:EtOAc 2:1) to give a white solid (0.21 g, 76% yield).
+Mp 174–178 °C.
+=== L384 ===
+for C 27 H 29 KNO 2 + = 438.18299, found = 438.18296 [M + K] + .
+(2 E ,4 E )- N -Isobutyl-5-(3-(pentyloxy)phenyl)penta-2,4-dienamide ( 21 ) Prepared from aldehyde 2 and phosphonate 8 .
+The product was purified by flash chromatography (eluent, PE:EtOAc 2:1) to give a white solid (0.12 g, 77% yield).
+Mp 80–84 °C.
+=== L393 ===
+for C 20 H 29 KNO 2 + = 354.18299, found = 354.18275 [M + K] + .
+(2 E ,4 E )- N -(Adamantan-1-yl)-5-(3-(cinnamyloxy)phenyl)penta-2,4-dienamide ( 22 ) Aldehyde 3 and phosphonate 6 were used as starting materials.
+The product was purified by flash chromatography (eluent, PE:EtOAc 3:1) to give a white solid (0.21 g, 85% yield).
+Mp 160–161 °C.
+=== L402 ===
+for C 30 H 33 KNO 2 + = 478.21429, found = 478.21416 [M + K] + .
+(2 E ,4 E )-5-(3-(Cinnamyloxy)phenyl)- N -isobutylpenta-2,4-dienamide ( 23 ) Aldehyde 3 and phosphonate 8 were used as starting materials.
+The product was purified by flash chromatography (eluent, PE:EtOAc 2:1) to give a white solid (0.14 g, 69% yield).
+Mp 131–133 °C.
+=== L411 ===
+for C 24 H 27 KNO 2 + = 400.16734, found = 400.16738 [M + K] + .
+(2 E ,4 E )- N -isobutyl-5-(3-((3-methylbut-2-en-1-yl)oxy)phenyl)penta-2,4-dienamide ( 24 ) Prepared starting from aldehyde 5 and phosphonate 8 .
+The product was purified by flash chromatography (eluent, PE:EtOAc 2:1) to give a white solid (0.11 g, 65% yield).
+Mp 103–104 °C.
+=== L420 ===
+for C 20 H 27 KNO 2 + = 352.16734, found = 352.16730 [M + K] + .
+(2 E ,4 E )-5-(3-(Allyloxy)phenyl)- N -isobutylpenta-2,4-dienamide ( 25 ) Aldehyde 4 and phosphonate 8 were used as starting materials.
+The product was purified by flash chromatography (eluent, PE:EtOAc 3:1) to give a white solid (0.09 g, 57% yield).
+Mp 104–106 °C.
+=== L444 ===
+Eluent: CH 2 Cl 2 .
+White solid which was recrystallized from MeOH.
+Yield: 89%.
+Mp 220–221 °C (lit.
+=== L458 ===
+Eluent: PE:EtOAc 1:1.
+White solid which was recrystallized from MeOH.
+Yield: 35%.
+Mp 265–269 °C.
+=== L470 ===
+Eluent: PE:Et 2 O 1:4.
+White solid.
+Yield 54%.
+Mp 227–229 °C.
+=== L478 ===
+( E )- N -(Adamantan-1-yl)-3-(4-bromophenyl)acrylamide ( 30 ) [ 53 ] Reaction time: 16 h.
+Yellow solid which was purified by trituration with PE.
+Yield: 93%.
+Mp 232–233 °C.
+=== L488 ===
+( E )-3-([1,1′-Biphenyl]-4-yl)- N -(adamantan-1-yl)acrylamide ( 31 ) Reaction time: 5 h.
+Yellow solid which was purified by trituration with PE.
+Yield: 99%.
+Mp 171–173 °C.
+=== L499 ===
+Purified by recrystallization from MeOH.
+White crystals.
+Yield: 94%.
+Mp 246 °C.
+=== L510 ===
+Purified by flash chromatography (eluent, PE:EtOAc 1:1).
+White solid.
+Yield: 73%.
+Mp 230–232 °C.
+=== L520 ===
+( E )- N -(3-Hydroxyadamantan-1-yl)-3-(3-hydroxyphenyl)acrylamide ( 34 ) Purified by flash chromatography (eluent, CH 2 Cl 2 :MeOH 98:2).
+White solid.
+Yield: 27%.
+Mp 238 °C.
+=== L533 ===
+The organic solution was washed with brine, dried over anhydrous Na 2 SO 4 , filtered and evaporated to give a solid residue.
+Ethyl ( E )-3-([1,1′-Biphenyl]-4-yl)acrylate ( 35 ) [ 54 ] Obtained as a pure white solid which did not need further purification.
+Yield: 99%.
+Mp 53–55 °C.
+=== L540 ===
+for C 17 H 16 NaO 2 + = 275.10425, found 275.10437 [M + Na] + .
+Ethyl ( E )-3-(3-Hydroxyphenyl)acrylate ( 36 ) [ 55 ] The solid residue was recrystallized from hexane–benzene mixture to obtain a lightly pink solid.
+Yield: 98%.
+Mp 87–90 °C.

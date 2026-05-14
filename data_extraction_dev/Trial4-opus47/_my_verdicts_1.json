@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "1324",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4d in PMC6146434 is the named triazolopyrrolopyrimidine; paper reports mp 240-42°C (shorthand for 240-242), matching the row value.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1088",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 25 in PMC6236359 is 2,7-Dimethoxy-10H-quino[2,3,4-kl]acridin-10-one with m.p. 291°C, matching exactly.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "648",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 of PMC3127127 (DOI 10.3390/ijms12042448) lists 1-hexanol experimental BP 157.0; DOI present in paper; data_type=measured is correct for literature-compiled experimental BP.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "365",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Characterization data section of PMC10113129 lists [Zn(L)(py)2(SO4)] M.P: 248 °C; identifier and citation valid.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1269",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6146463 reports 3-Ethoxycarbonyl-2-(3-hydroxypropyl)-isoquinolinium chloride (5c) mp 142-44°C; row correctly expands shorthand to 142-144.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1479",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC11206905 section 'compound 2' reports orange needles 91% yield, MP 208-209 °C, matching the 2-(methylthio)naphtho[2,3-d]thiazole-4,9-dione name.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "537",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules16054059 reports (E)-6-(1-Tridecenyl)salicylic acid (9f) with Mp 90-92 °C, matching the row.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "669",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 of PMC8697427 reports STRM-method estimated T_m = 468.250 K for Camostat; data_type=calculated is correct; K-to-C conversion 468.25 - 273.15 = 195.1 is arithmetically right.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1488",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.7.2 of PMC11206253 reports compound 8b with mp 140-141 °C; full IUPAC name in the row matches the section heading.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1415",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 8.3.16 of PMC7158184 (DOI 10.1016/B978-0-12-803409-5.00008-2) reports TCMTB boiling point: >120 °C; relation, value, and citation all correct.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1156",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 4.1.18 of d5ra09311b paper (PMC13093879) reports compound 12r as brown solid, yield 73%, MP 247-249 °C; full IUPAC name matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "784",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules31040599 (PMC12943180) section 3.5 reports 3-(4-hydroxyphenyl)cyclohex-2-en-1-one (6a) as white solid 90% yield, m.p. 150-152 °C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "179",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules31040699 section 3.1 reports compound 2u (5-Acetyl-4-(2-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one) yield 43%, mp 177-178 °C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "254",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/ph19020256 section 2 reports N-(Pyrrolidylamino)methylenebisphosphonic acid (26), 21% yield, mp 149-151 °C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1167",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules31050796 reports compound 14 as orange solid, mp 46-49 °C; full stereo-descriptive IUPAC name matches the paper's section heading for the octahydro derivative.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1185",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules31040595 reports compound 18a as white solid yield 65%, mp 132-134 °C; tetrahydroacridin-9-aminium chloride name in row matches paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1413",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 8.3.12 of PMC7158184 reports DBNPA as white crystalline powder with melting point 124.5 °C; DOI matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1490",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.7.4 of PMC11206253 reports compound 8d yellow needle-like microcrystals, 65% yield, mp 142.7-142.9 °C; IUPAC name in row matches section heading.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1192",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC12943680 section 4.1.5 reports FURL-G1 ((Z)-N-furoyl-N-(2,4-dichlorobenzyl)-N-(4-fluorophenyl)guanidine) yellow solid 88.31% yield, mp 91.1-93.2 °C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1139",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 4.1.1 of d5ra09311b paper reports compound 12a as brown solid, yield 67%, MP 212-214 °C; full IUPAC name in row matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "462",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/ph4081158 reports compound 14b (the row corrects the paper's typos 'chorophenyl/pyramidine' to chlorophenyl/pyrimidine) as white crystals 80%, mp 274-275 °C; compound_name field is clean (no EA prefix), only the evidence_quote begins with EA tail-text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1210",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC12986497 section 4.4 reports compound 10b (3-Amino-4-(4-chlorophenyl)-N-phenyl-5,10-dihydro-11H-benzo[g]pyrazolo[3,4-b]quinoline-11-carbothioamide) as dark brownish yellow powder 76% yield, MP > 300 °C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1412",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 8.3.10 of PMC7158184 reports Bronopol (2-bromo-2-nitropropane-1,3-diol) melting at about 130 °C; relation '~' is appropriate.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "789",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/ijms27042032 synthesis section for compound 6 (Iodido-[1,3-dimethyl-4-anisyl-5-(4-chlorophenyl)imidazole-2-ylidene]gold(I)) reports off-white solid of mp 190-191 °C. Evidence quote captures only the mp phrase, missing the compound name/code token.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "364",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC10113129 characterization data reports [Cu(L)(py)2(SO4)] M.P: 230 °C; identifier and citation valid.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]

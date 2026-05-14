@@ -1,0 +1,116 @@
+L157: name=Synthesis of 5-Acetyl-1,6-dihydroxy-4-methylpyridin-2(1 H )-one ( Β ) To produce 5-Acetyl-1-(benzyloxy)-6-hydroxy-4-methylpyridin-2(1H)-one ( A ), a stirred solution of O -benzylhydroxylamine (2.98 g,
+  MP=The residual brownish solid was triturated with Et 2 O and AcOEt sequentially to afford the title compound A as a beige crystalline solid (4.95 g, 75%); mp 144–146 °C (MeOH, AcOEt/ n -pentane), R f ( 
+
+L163: name=To produce 5-Acetyl-1,6-dihydroxy-4-methylpyridin-2(1 H )-one ( B ), a solution of A (2.0 g, 7.32 mmol) in 120 mL MeOH was hydrogenated for 20 min at rt and 40 psi pressure, in the presence of 200 mg 
+  MP=The beige crystalline product was treated with AcOEt to yield the N -hydroxypyridinedione B almost quantitatively (1.32 g, 98%); m.p.
+
+L177: name=The compound 2-(4-(Methylthio)benzyl-oxy)isoindolin-1,3-dione ( 1 ) was synthesized from (4-(bromomethyl)phenyl)(methyl)sulfane according to the general procedure.
+  MP=R f = 0.54 (CH 2 Cl 2 ), m.p.
+
+L184: name=The compound Methyl 4-[1-(1,3-dioxoisoindole-2-yl-oxy)ethyl] benzoate ( 2 ) was synthesized from methyl 4-(1-bromoethyl)benzoate (1.5 equiv.) according to the general procedure.
+  MP=R f = 0.35 (CH 2 Cl 2 ), m.p.
+
+L196: name=The compound 2-(3-Methoxybenzyloxy)isoindolin-1,3-dione ( 3 ) was synthesized as follows: To a solution of N -hydroxyphthalimide (200 mg, 1.23 mmol, 1 equiv.) in dry THF (10 mL), 1-(bromomethyl)-3-met
+  MP=R f = 0.5 (AcOEt), m.p.
+
+L204: name=The compound Methyl 3,5-dichloro-4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)benzoate ( 4 ) was synthesized from methyl 4-(bromomethyl)-3,5-dichlorobenzoate (300.0 mg, 1.01 mmol) according to the general
+  MP=R f = 0.67 (CH 2 Cl 2 ), m.p.
+
+L212: name=The compound 2-((4-Hydroxybenzyl)oxy)isoindoline-1,3-dione ( 5 ) was synthesized from 4-(bromomethyl)phenol (1 mmol) according to the procedure followed for the compound 3 (52 h).
+  MP=White solid (225 mg, 30%), R f = 0.28 (AcOEt), mp: 145–148 °C.
+
+L220: name=The compound 2-((4-Hydroxybenzyl)oxy)isoindoline-1,3-dione ( 5 ) was synthesized from 4-(bromomethyl)phenol (1 mmol) according to the procedure followed for the compound 3 (52 h).
+  MP=R f = 0.5 (AcOEt), m.p.
+
+L227: name=
+  MP=R f = 0.45 (AcOEt), m.p.
+
+L236: name=
+  MP=R f = 0.33 (AcOEt), m.p.
+
+L244: name=The compound Methyl 4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)-6′-chlorobenzoate ( 9 ) was synthesized from methyl 4-(bromomethyl)-3-chlorobenzoate (1 equiv.), according to the general procedure.
+  MP=R f = 0.53 (CH 2 Cl 2 ), m.p.
+
+L252: name=The compound Methyl 4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)-6′-cyanobenzoate ( 10 ) was synthesized from methyl 4-(bromomethyl)-3-cyanobenzoate (1equiv.) according to the general procedure.
+  MP=R f = 0.53 (CH 2 Cl 2 ), m.p.
+
+L260: name=The compound Methyl 4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)-3-fluorobenzoate ( 11 ) was synthesized from methyl 4-(bromomethyl)-3-fluorobenzoate (1 equiv.) according to the general procedure.
+  MP=R f = 0.12 (CH 2 Cl 2 ), m.p.
+
+L274: name=The compound Methyl 4-(((1,3-dioxoisoindolin-2-yl)oxy)methyl)benzoate ( 13 ) was synthesized from methyl 4-(bromomethyl)benzoate (1equiv.) according to the general procedure.
+  MP=R f = 0.53 (CH 2 Cl 2 ), m.p.
+
+L442: name=The compound 1,6-Dihydroxy-4-methyl-5-(1-(((4(methylthio)benzyl)oxy)imino)ethyl)pyridin-2(1H)-one ( 33 ) was synthesized from the compound 15 (1.05 equiv.) according to the general procedure.
+  MP=R f = 0.25 (AcOEt), m.p.
+
+L450: name=The compound Methyl-4-(1-(((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)ethyl)benzoate ( 34 ) was synthesized from the compound 16 (1.05 equiv.) according to the gener
+  MP=R f = 0.10 (AcOEt), m.p.
+
+L458: name=The compound 1,6-Dihydroxy-5-(1-(((3-methoxybenzyl)oxy)imino)ethyl)-4-methylpyridin-2(1H)-one ( 35 ) was synthesized from the compound 17 (1.05 equiv.) according to the general procedure.
+  MP=R f = 0.20 (AcOEt), m.p.
+
+L466: name=The compound Methyl 3,5-dichloro-4-((((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)methyl)benzoate ( 36 ) was synthesized from the compound 18 (46.8 mg, 0.19 mmol) acc
+  MP=R f = 0.09 (EtOAc/MeOH 3:1), m.p.
+
+L473: name=N -(2-(3,5-Difluorophenyl)-2-(((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)ethyl)furan-2-carboxamide (37) was synthesized from the compound 29 (1.05 equiv.) according
+  MP=R f = 0.25 (AcOEt), m.p.
+
+L481: name=The compound 5-(1-(((3,5-Difluorophenyl)(pyridin-2-yl)methoxy)imino)ethyl)-1,6-dihydroxy-4-methylpyridin-2(1H)-one ( 38 ) was synthesized from the compound 32 (1.05 equiv.) according to the general pr
+  MP=R f = 0.25 (AcOEt), m.p.
+
+L489: name=The compound 1,6-Dihydroxy-5-(1-(((4-hydroxybenzyl)oxy)imino)ethyl)-4-methylpyridin-2(1H)-one ( 39 ) was synthesized from the compound 19 (1.05 equiv.) according to the general procedure.
+  MP=R f = 0.25 (AcOEt), m.p.
+
+L497: name=The compound 1,6-Dihydroxy-4-methyl-5-(1-((pent-4-yn-1-yloxy)imino)ethyl)pyridin-2(1H)-one ( 40 ) was synthesized from the compound 20 (1.05 equiv.) according to the general procedure.
+  MP=R f = 0.30 (1:1 AcOEt:MeOH), mp: 93–95 °C (dec.).
+
+L504: name=The compound 5-(1-((But-3-yn-1-yloxy)imino)ethyl)-1,6-dihydroxy-4-methylpyridin-2(1H)-one ( 41 ) was synthesized from the compound 21 (1.05 equiv.) according to the general procedure.
+  MP=R f = 0.30 (1:1 AcOEt:MeOH), m.p.
+
+L512: name=The compound 1,6-Dihydroxy-4-methyl-5-(1-((prop-2-yn-1-yloxy)imino)ethyl)pyridin-2(1H)-one ( 42 ) was synthesized from the compound 22 (1.05 equiv.) according to the general procedure.
+  MP=R f = 0.30 (1:1 AcOEt:MeOH), m.p.
+
+L520: name=The compound 2′-Chloro-4′-((((1′-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-5-yl)ethylidene)amino)oxy)methyl)methyl benzoate ( 43 ) was synthesized from the compound 23 (1.05 equiv.) according t
+  MP=R f = 0.10 (AcOEt), m.p.
+
+L528: name=The compound 2′-Cyano-4′-((((1′-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-5-yl)ethylidene)amino)oxy)methyl)methyl benzoate ( 44 ) was synthesized from the compound 24 (1.05 equiv.) according to
+  MP=R f = 0.10 (AcOEt), m.p.
+
+L536: name=The compound Methyl 4-((((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)methyl)-3-fluorobenzoate ( 45 ) was synthesized from the compound 25 (1.05 equiv.) according to t
+  MP=R f = 0.05 (AcOEt), m.p.
+
+L544: name=The compound 1,6-Dihydroxy-4-methyl-5-(1-((1-phenylethoxy)imino)ethyl)pyridin-2(1 H )-one ( 46 ) was synthesized from the compound 26 (100.0 mg, 0.73 mmol) according to the general procedure.
+  MP=R f = 0.08 (EtOAc/MeOH 3:1), m.p.
+
+L551: name=The compound 4′-((((1′-(1,2-Dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-5-yl)ethylidene)amino)oxy)methyl)methyl benzoate ( 47 ) was synthesized from the compound 27 (1.05 equiv.) according to the gene
+  MP=R f = 0.10 (AcOEt), m.p.
+
+L559: name=The compound 1,6-Dihydroxy-4-methyl-5-(1-(((4-nitrobenzyl)oxy)imino)ethyl)pyridin-2(1H)-one ( 48 ) was synthesized from the compound 28 (110.0 mg, 0.65 mmol) according to the general procedure.
+  MP=R f = 0.05 (EtOAc/MeOH 3:1), m.p.
+
+L566: name=The compound N -(2-(3,5-Difluorophenyl)-2-(((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)ethyl)quinoline-2-carboxamide ( 49 ) was synthesized from the hydroxylamine 30
+  MP=R f = 0.11 (EtOAc/MeOH 3:1), m.p.
+
+L573: name=The compound N -(2-(3,5-Difluorophenyl)-2-(((1-(1,2-dihydroxy-4-methyl-6-oxo-1,6-dihydropyridin-3-yl)ethylidene)amino)oxy)ethyl)thiazole-2-carboxamide ( 50 ) was synthesized from the hydroxylamine 31 
+  MP=R f = 0.11 (EtOAc/MeOH 3:1), m.p.
+
+L609: name=The compound 6-(2,4-Dichlorophenoxy)pyrimidine-2,4-diamine ( 53 ) was synthesized from (2,4-dichlorophenyl)phenol (7.5 equiv.) according to the general procedure (16 h) using CH 2 Cl 2 /EtOAc 50% to 1
+  MP=R f = 0.32 (EtOAc), m.p.
+
+L626: name=The compound 2,6-Diamino-4-(3-methoxyphenoxy)-1,6-dihydropyrimidine 1-oxide ( 55 ) was synthesized from the compound 51 (1 equiv.) according to the general procedure with a reaction time of 16 h.
+  MP=R f = 0.27 (3:1 AcOEt: MeOH), m.p.
+
+L634: name=The compound 2,6-Diamino-4-(2′,4′,5′-trichloro)-1,6-dihydropyrimidine 1-oxide ( 56 ) was synthesized from the compound 52 (1 equiv.) according to the general procedure with a reaction time of 16 h.
+  MP=R f = 0.25 (3:1 AcOEt: MeOH), m.p.
+
+L642: name=The compound 2,6-Diamino-4-(2′,4′-dichloro)-1,6-dihydropyrimidine 1-oxide ( 57 ) was synthesized from the compound 53 (1 equiv.) according to the general procedure with a reaction time of 16 h.
+  MP=R f = 0.28 (3:1 AcOEt: MeOH), m.p.
+
+L651: name=The compound 2,6-Diamino-4-(2′,4′-dichloro)-1,6-dihydropyrimidine 1-oxide ( 57 ) was synthesized from the compound 53 (1 equiv.) according to the general procedure with a reaction time of 16 h.
+  MP=R f = 0.25 (EtOAc/MeOH 3:1), m.p.
+
+L675: name=The compound Methyl 4′-((((1-(2,4,6-Trioxohexahydropyrimidin-5-yl)ethylidene)amino)oxy)methyl)benzoate ( 59 ) was synthesized from the compound 27 (1.1 equiv.) according to the general procedure.
+  MP=R f = 0.20 (AcOEt), m.p.
+
+L683: name=The compound Methyl 2′-chloro-4′-((((1-(2,4,6-trioxohexahydropyrimidin-5-yl)ethylidene)amino)oxy)methyl)benzoate ( 60 ) was synthesized from the compound 23 (1.1 equiv.) according to the general proce
+  MP=R f = 0.20 (AcOEt), m.p.

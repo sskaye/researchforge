@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "36",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1021/acsomega.5c12576 is present; the article_text quote is contiguous and binds compound 3j to 111.40 deg C as a measured melting point."
+  },
+  {
+    "row_id": "188",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/60300253 is present; the experimental spectral data line binds 2-Thiocyanatothiophene to bp 134-136 deg C/12 mm."
+  },
+  {
+    "row_id": "278",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "The value 76.6-80.6 deg C for compound 2a is present, but the submitted evidence_quote skips intervening text between the general procedure and the specific 2a characterization, so it is not a contiguous source substring."
+  },
+  {
+    "row_id": "439",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/70200315 is present in the HTML; stripped HTML text binds 2-Methoxy-4-O-methoxymethylbenzaldehyde (6) to Mp 73-74 o C."
+  },
+  {
+    "row_id": "91",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules16108758 is present; the compound 6b characterization line reports mp 68-70 deg C for the named bithiophene."
+  },
+  {
+    "row_id": "13",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/ph19020230 is present; the compound 4 characterization line reports m.p. 250-253 deg C for the named hydroxyquinoline-phthalimide."
+  },
+  {
+    "row_id": "35",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1021/acsomega.5c12576 is present; the article_text quote binds compound 3i to 175.78 deg C as a measured melting point."
+  },
+  {
+    "row_id": "313",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules29122777 is present; the synthesis section for 5c reports Mp 245-246 deg C for the thiomorpholino naphthothiazoledione."
+  },
+  {
+    "row_id": "430",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules29194778 is present in the HTML; stripped HTML text binds compound M19 to mp 270-274 deg C."
+  },
+  {
+    "row_id": "258",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/60300279 is present; the spectral-data list binds 2-Chloroanthraquinone to mp 209 deg C."
+  },
+  {
+    "row_id": "267",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1021/acsbiomedchemau.4c00060 is present; compound 5e is bound to mp 240-242 deg C in the characterization section."
+  },
+  {
+    "row_id": "97",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/80300342 is present; the chlorocarbonylfuran 5a characterization reports m.p. 102-106 deg C."
+  },
+  {
+    "row_id": "336",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1134/S1070428022030101 is present; the ammonium chloride 3a characterization reports mp 270 deg C (decomp.), supporting decomposition."
+  },
+  {
+    "row_id": "269",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1021/acsbiomedchemau.4c00060 is present; compound 5g is bound to mp 150-152 deg C in the characterization section."
+  },
+  {
+    "row_id": "159",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/61000803 is present; the Na-formyl-16beta-hydroxyaspidospermidine characterization reports m.p. 66-68 deg C."
+  },
+  {
+    "row_id": "431",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules29194778 is present in the HTML; stripped HTML text binds compound M20 to mp 195-198 deg C."
+  },
+  {
+    "row_id": "106",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1016/j.cdc.2021.100820 is present; Table 5 places Favipiravir Tm 450.15 K in the referenced literature column, and 450.15 K - 273.15 = 177.00 deg C."
+  },
+  {
+    "row_id": "442",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3762/bjoc.21.169 is present; the normalized raw HTML quote contains the 5a characterization with Mp 160.5-161.5 deg C."
+  },
+  {
+    "row_id": "302",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/ijms25126803 is present; the 12a characterization reports mp 244-246 deg C for the named N-methyl sulfonamide."
+  },
+  {
+    "row_id": "261",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/60300279 is present; the spectral-data list binds 2-Coumaranone to mp 49 deg C."
+  },
+  {
+    "row_id": "41",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1021/acsomega.5c12576 is present; the compound 3o characterization reports 138.93 deg C for the named piperazine carbothioamide."
+  },
+  {
+    "row_id": "300",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/ijms25126803 is present; the 11b characterization reports mp 202-204 deg C for the named methoxy sulfonamide."
+  },
+  {
+    "row_id": "287",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.3390/molecules29122917 is present; the compound 2e characterization reports mp 123.5-157.2 deg C."
+  },
+  {
+    "row_id": "39",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1021/acsomega.5c12576 is present; the compound 3m characterization reports 216.60 deg C for the named piperazine carbothioamide."
+  },
+  {
+    "row_id": "109",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DOI 10.1016/j.cdc.2021.100820 is present; Table 5 places Thalidomide Tm 543.15 K in the referenced literature column, and 543.15 K - 273.15 = 270.00 deg C."
+  }
+]

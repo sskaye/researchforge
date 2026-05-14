@@ -108,3 +108,33 @@ These were observed in a regex-based predecessor and are worth checking for in t
 Regex can't distinguish these cases from real `compound + value` pairs even when `evidence_quote` is enforced — the quote IS present in the source file, it just contains text adjacent to an mp pattern that isn't actually a measurement.
 
 **Prevention in this skill:** v1.4 added an explicit MANDATORY-READING block at the top of SKILL.md stating that the agent reads each paper directly and does NOT write a Python regex extractor. The anti-patterns list has a corresponding entry. The skill's `description:` front-matter (used for skill selection) calls out "LLM-driven" extraction and explicitly forbids the regex approach. `run_all_checks.py` prints a warning if >90 % of rows are still `pending_verification`, since shipping without Phase 4 verification is how this failure mode goes undetected.
+
+### L. Verbatim quote stops before the value (2-column PDF wrap)
+
+**Pattern:** `pdftotext -layout` on 2-column PDFs renders each physical output line as `<column-1 text>  ...  <column-2 text>`. When an experimental sentence wraps within column 2, the leading clause (e.g., `"Dark red solid;"`) lands on output line N (right side) while the value (`"m.p. 168-170 °C"`) lands on output line N+1 (right side). An agent grepping for the compound finds the leading clause on the same `pdftotext` line as the compound name and commits that as the `evidence_quote` — verbatim present in the paper, but it doesn't actually contain the value.
+
+**Example (Trial-2 opus47 row 80):** Compound = `Ethyl 2-((2-oxo-5-phenylfuran-3(2H)-ylidene)amino)-...`, value_raw = `"168-170 deg C"`, evidence_quote = `"Dark red solid;"`. The full sentence in the paper is `"Dark red solid; 1.64 g, 86 % yield; m.p. 168-170 °С (toluene)."` The quote stopped at the leading clause; everything after the semicolon (including the value) was missed.
+
+**Prevention in this skill:** v1.5 added Step 6.2 of the quote re-confirmation: "Confirm the quote contains the value." Take the numeric portion of `value_raw` and substring-search inside `evidence_quote`. If the value isn't there, the quote is incomplete — extend it across the column / line break until it contains both compound and value. The deterministic `scripts/quote_support_lint.py` catches this in Phase 3.
+
+### M. Constructed / templated quotes from a data-entry script
+
+**Pattern:** Agent reads SKILL.md, notes that a regex extractor is forbidden, but writes a Python data-entry script that hardcodes compound names + values read manually and constructs `evidence_quote` strings via f-string templates:
+
+```python
+add(nm, mp, bp, f"Table III: {nm} BP {bp} MP {mp}")
+```
+
+The underlying compound + value are usually correct, but the quote strings don't appear verbatim in the source — they're paraphrases. The v1.4 regex-extractor anti-pattern doesn't catch this because no regex is involved.
+
+**Example (Trial-2 sonnet46):** `build_batch_pdfs.py` produced 770 rows from 20 large reference-table PDFs (Yalkowsky 1990, Mitchell 2008 SI, etc.). Templated quotes included `"Table III: 1,2-diiodobenzene BP 286 MP 27"`, `"compound ... Expt. 158.3"`. About 22 of 45 audit failures (~half) traced to this script. Stated rationale: "writing a data-entry script felt efficient for high-volume tables."
+
+**Prevention in this skill:** v1.5 generalized the anti-pattern from "no regex extractor" to "no script that produces or transforms the four evidence-locked fields (`compound_name`, `value_raw`, `evidence_quote`, `source_url`)." Specific anti-pattern in SKILL.md names f-string-templated quotes. New `scripts/quote_template_lint.py` deterministically flags the patterns observed (`^Table\s+[IVX\d]+[:,.]`, inline `MP X BP Y`, literal `...` in quote, column-header tokens used as separators).
+
+### N. DOI from training memory or bibliography
+
+**Pattern:** Agent can't find a DOI in the paper file's front matter and (a) guesses one based on the journal/year/title from training memory, or (b) picks a DOI from the paper's *reference list* (those DOIs belong to cited papers, not this paper). The wrong DOI then propagates as the `source_url`.
+
+**Example (Trial-2 sonnet46):** 4 rows cited DOIs that don't appear anywhere in the source files. Two rows cited `10.1002/cbdv.202500394` for compounds that are actually in `10.1002/ardp.70227` (PMC13006720); two rows cited `10.1002/chem.202500386` for content from `10.1002/cmdc.202500751`.
+
+**Prevention in this skill:** v1.5 SKILL.md Phase 1 Step 2 and EXTRACTION_PROMPT_TEMPLATES.md Step 1b both state explicitly: extract DOIs only from (a) NXML `<article-id pub-id-type="doi">`, (b) PDF front matter (first 1–2 pages), or (c) `metadata.json`. The DOI must appear as a substring of the paper file's text. If none of these has a DOI, use the PMC / PMID / `legacy:` fallback. **Never guess** — `verify_doi.py` substring-checks the DOI against the paper file and will catch a memory-guess, but the rule has to apply at extraction time too.

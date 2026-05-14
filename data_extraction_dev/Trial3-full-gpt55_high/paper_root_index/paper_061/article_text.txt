@@ -1,0 +1,1 @@
+/Users/skaye/Claude/Skills/ResearchForge/data_extraction_dev/corpora/full_168/064_PMC8697427_Thermodynamic_properties_of_active_pharmaceutical_ingredients_that_are_of_interest_in_COVI/article_text.txt

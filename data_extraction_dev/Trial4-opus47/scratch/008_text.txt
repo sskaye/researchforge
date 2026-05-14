@@ -1,0 +1,820 @@
+pmc Pharmaceuticals (Basel) Pharmaceuticals (Basel) pharmaceuticals Pharmaceuticals 1424-8247 MDPI 41754740 12944436 10.3390/ph19020198 pharmaceuticals-19-00198 Article Rational Design, Synthesis, and Molecular Docking of Novel Terpene Analogues of Imatinib, and Their Inhibition on Downstream BCR-ABL Signaling https://orcid.org/0000-0001-5763-0730 Mihaylova Rositsa Conceptualization Methodology Software Validation Formal analysis Investigation Writing – original draft Writing – review & editing Visualization Supervision 1 * Dailova-Barzeva Asine Formal analysis Investigation 1 https://orcid.org/0000-0003-1192-1094 Philipova Irena Methodology Formal analysis 2 https://orcid.org/0000-0003-2841-7089 Momekov Georgi Project administration 1 https://orcid.org/0000-0002-1469-1768 Doytchinova Irini Methodology Project administration Writing – review & editing 3 4 https://orcid.org/0000-0001-9761-0355 Atanasova Mariyana Methodology Software Validation Formal analysis Investigation Writing – original draft Writing – review & editing Visualization 3 4 * https://orcid.org/0000-0002-8893-0346 Stavrakov Georgi Conceptualization Methodology Software Validation Writing – original draft Writing – review & editing Visualization 2 3 * Wang Fuyi Academic Editor 1 Department of Pharmacology, Pharmacotherapy and Toxicology, Faculty of Pharmacy, Medical University of Sofia, 1000 Sofia, Bulgaria; asinedailova61@gmail.com (A.D.-B.); gmomekov@pharmfac.mu-sofia.bg (G.M.) 2 Institute of Organic Chemistry with Centre of Phytochemistry, Bulgarian Academy of Sciences, Acad.
+G.
+Bontchev Str.
+Bl.
+9, 1113 Sofia, Bulgaria; irena.philipova@orgchm.bas.bg 3 Department of Chemistry, Faculty of Pharmacy, Medical University of Sofia, 1000 Sofia, Bulgaria; idoytchinova@pharmfac.mu-sofia.bg 4 Centre of Excellence in Informatics and Information and Communication Technologies, 1113 Sofia, Bulgaria * Correspondence: rmihaylova@pharmfac.mu-sofia.bg (R.M.); matanasova@pharmfac.mu-sofia.bg (M.A.); stavrakov@pharmfac.mu-sofia.bg (G.S.) 23 1 2026 2 2026 19 2 198 10 12 2025 19 1 2026 21 1 2026 © 2026 by the authors.
+2026 https://creativecommons.org/licenses/by/4.0/ Licensee MDPI, Basel, Switzerland.
+This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license .
+Background/Objectives : Imatinib, the first tyrosine kinase inhibitor, marks the beginning of a revolution in clinical oncology.
+Disrupting oncogenic kinase-dependent signaling pathways represents a key strategy for advancing targeted cancer therapies.
+Terpene analogues of imatinib were developed to probe the influence of terminal ring modifications on BCR-ABL inhibition and downstream oncogenic signaling.
+Methods : Nine novel imatinib analogues bearing bulky aliphatic moieties were designed, synthesised, and structurally characterized by 1 H/ 13 C NMR spectroscopy and high-resolution mass spectrometry (HRMS).
+Molecular docking calculations were performed to assess the binding modes and intermolecular interactions.
+The cytotoxicity of the newly synthesized imatinib derivatives was evaluated across a panel of BCR-ABL+ leukemia cell lines.
+Results : Molecular docking analyses demonstrated conserved interactions within the ATP-binding site of BCR-ABL for all derivatives, with calculated docking scores ranging between 123 and 128, while modifications at the terminal ring introduced subtle changes in electrostatic and steric profiles.
+Biological evaluation using MTT-based cytotoxicity assays in BCR-ABL+ leukemic cell lines revealed enhanced antiproliferative activity compared with imatinib, with compounds 6a (flexible cyclohexyl) and 6d (rigid camphane-type (+)-isopinocampheyl) exhibiting the lowest micromolar activity in the AR-230 model (IC 50 values of 1.1 and 1.2 μM, respectively).
+Proteome-wide phosphokinase profiling demonstrated shared suppression of STAT5/3/6, RSK1/2, S6K1/p70, and Pyk2, confirming effective disruption of canonical BCR-ABL pathways.
+Critically, the terpene moiety dictated downstream pathway bias: 6a preferentially attenuated CREB activation, whereas 6d more effectively suppressed the PI3K/Akt oncogenic axis and strongly activated proapoptotic p53-mediated stress responses.
+Conclusions : Our findings establish terpene-engineered imatinib analogues as tunable modulators and promising candidates for targeting downstream BCR-ABL signaling pathways in leukemia treatment.
+tyrosine kinase inhibitors imatinib terpenes BCR-ABL1 chronic myeloid leukemia JAK/STAT mTOR PI3K/Akt apoptosis molecular docking European Union-NextGenerationEU National Recovery and Resilience Plan of the Republic of Bulgaria BG-RRP-2.004-0004-C01 This research was funded by the European Union-NextGenerationEU through the National Recovery and Resilience Plan of the Republic of Bulgaria, project BG-RRP-2.004-0004-C01, “Strategic Research and Innovation Program for Development of the Medical University of Sofia”.
+1.
+Introduction Cancer remains one of the leading causes of morbidity and mortality worldwide, with an estimated 19.3 million new cases and nearly 10.0 million cancer-related deaths reported across 185 countries in 2020 [ 1 ].
+Chronic myeloid leukemia (CML) is a clonal myeloproliferative neoplasm characterized by the uncontrolled expansion of myeloid progenitors in the bone marrow and their accumulation in peripheral blood.
+An estimated ≈5 million people worldwide live with CML, reflecting its chronic nature and sustained epidemiological relevance despite the widespread success of targeted therapies.
+CML has an annual incidence of approximately 2 new cases per 100 000 individuals, highlighting the ongoing need for improved precision-targeted treatments [ 2 ].
+The disease accounts for approximately 15–20% of all adult leukemias and typically progresses through three distinct phases—chronic, accelerated, and blast crisis—each reflecting increasing genomic instability and therapeutic refractoriness [ 2 , 3 , 4 ].
+The central and defining molecular event in CML pathogenesis is the reciprocal chromosomal translocation t(9;22)(q34;q11), known as the Philadelphia (Ph) chromosome, which is detected in about 95% of CML and in 15–30% of acute lymphoblastic leukemia (ALL) cases.
+The resulting genomic rearrangement fuses the 5′ region of the Breakpoint cluster region (BCR) gene on chromosome 22 with the 3′ segment of the Abelson proto-oncogene (ABL1) on chromosome 9, forming the BCR-ABL1 fusion gene [ 5 , 6 , 7 ].
+( Figure 1 ).
+This chimeric oncogene encodes the constitutively active BCR-ABL1 tyrosine kinase, a multifunctional protein that deregulates cellular proliferation, differentiation, and survival pathways through persistent activation of downstream signaling cascades such as RAS/RAF/MEK/ERK, PI3K/AKT/mTOR, and JAK/STAT.
+The catalytic activity of BCR-ABL1 is reported to be 7- to 16-fold higher than that of the native, autoinhibited ABL kinase, promoting oncogenic transformation through enhanced phosphorylation of multiple substrates involved in cytoskeletal reorganization, genomic stability, and transcriptional control [ 8 , 9 , 10 ].
+The discovery of BCR-ABL1 in 1985 represented a turning point in the understanding of CML pathogenesis and the development of targeted cancer therapy.
+The identification of constitutive BCR-ABL1 kinase activity spurred the concept of selective inhibition of oncogenic kinases, ultimately leading to the rational design of small-molecule ATP-competitive inhibitors.
+The culmination of these efforts was the introduction of imatinib mesylate in 2001, marking a revolution in clinical oncology [ 11 ].
+Imatinib binds to the inactive conformation of the BCR-ABL1 kinase domain, preventing ATP access and subsequent substrate phosphorylation.
+Despite its unprecedented clinical success, achieving complete cytogenetic remission in most treated patients and long-term survival exceeding 80%, therapy resistance soon emerged as a major clinical limitation of TKIs.
+Resistance arises through multiple mechanisms such as amplification or overexpression of the BCR-ABL1 gene, enhanced drug efflux via ABC transporters, and most notably, point mutations in the kinase domain that impair drug binding.
+Over seventy such mutations have been identified, clustering primarily within the phosphate-binding (P-) loop, catalytic (C-) loop, and activation (A-) loop [ 7 , 12 , 13 ].
+Among these, the threonine-to-isoleucine substitution at position 315 (T315I) is of critical importance.
+It disrupts a key hydrogen bond necessary for inhibitor stabilization and introduces steric hindrance that prevents binding of both first- and second-generation tyrosine kinase inhibitors (TKIs) including imatinib, nilotinib, and dasatinib ( Figure 2 ) [ 3 , 12 , 14 ].
+Emerging literature underscores the capacity of natural-product-inspired derivatives to inhibit oncogenic kinases through both competitive and allosteric mechanisms.
+Natural terpenes have been reported to modulate PI3K, ERK, and mTOR signaling, suggesting that functionalized terpenoid analogues can act as multi-targeted kinase modulators [ 15 , 16 , 17 , 18 ].
+The integration of such moieties into rationally designed tyrosine kinase inhibitor frameworks thus provides an innovative route toward hybrid molecules capable of disrupting oncogenic signaling at multiple nodes.
+This design strategy aligns with contemporary efforts in medicinal chemistry to develop multi-target inhibitors that reduce the risk of resistance emergence by simultaneously attenuating convergent survival pathways [ 19 ].
+Given the pharmacological importance of imatinib’s ATP-competitive scaffold and the structural versatility of terpenoid chemistry, the present study aimed to design and synthesize a focused series of imatinib analogues modified with bulky aliphatic cycles.
+The cytotoxicity of the newly synthesized imatinib derivatives was evaluated across a panel of BCR-ABL+ leukemia cell lines.
+In parallel, molecular docking calculations against the human BCR-ABL tyrosine kinase were performed to assess their binding modes and intermolecular interactions.
+The lead compounds in the series were subsequently evaluated for their ability to interfere with downstream BCR-ABL-mediated kinase signaling pathways through comprehensive proteome profiling.
+2.
+Results 2.1.
+Synthesis The synthesis of the novel imatinib hybrids with bulky aliphatic moieties relied on constructing modified benzoic acids and subsequently coupling them with the amino group of the key pyridine-pyrimidine fragment.
+Reductive amination of methyl 4-formylbenzoate with the selected aliphatic amines resulted in the formation of secondary amines 2a–i with good to excellent yields.
+Their tertiary analogues 3a–i were obtained via methylation reaction.
+Then the ester functionality was hydrolyzed with aqueous NaOH and subsequent acidification to give the corresponding carboxylic acids in the form of ammonium salts 4a-i.
+The latter were used in the following amide coupling without purification.
+Using HATU as the activating agent, amide couplings of the crude acids with amine 5 produced imatinib hybrids 6a-i with excellent yields ( Scheme 1 ).
+The purity of all compounds was assessed by NMR spectroscopy ( S1 for 2a–i ; S2 for 3a–i ; S3 for 6a–i ) and HRMS ( Table S1 and S4 for 6a–i ).
+See the Supplementary Materials .
+2.2.
+Cytotoxicity Screening Results To explore the antileukemic potential of the newly synthesized imatinib analogues, a comprehensive cytotoxicity screening was performed in a panel of BCR-ABL+ leukemia cell lines (BV-173, K-562, AR-230, LAMA-84), using normal CCL-1 fibroblasts as a non-malignant control.
+By comparing half-maximal inhibitory concentrations (IC 50 ) and deriving selectivity indices relative to CCL-1 cells, the study aimed to delineate structure-activity relationships within this series, identify lead compounds with superior potency and tumor selectivity over imatinib, and assess the contribution of distinct hydrophobic substituents (terpene, adamantyl, and cyclohexyl) to therapeutic index and efficacy across different Ph+ leukemia models ( Table 1 ).
+In terms of potency, all new derivatives clearly outperformed imatinib across the BCR-ABL-positive panel, except for LAMA-84 cells, while demonstrating improved selectivity in some cases.
+AR-230 emerges as the most responsive Ph+ model, with all compounds of the series achieving low-micromolar IC 50 values and very high SI values.
+Further stratification of activity by disease context reveals that the chronic-phase CML AR-230 cells consistently display the lowest IC 50 values below 5 μM for all compounds, with LAMA-84 and K-562 (CML blast crisis) and BV-173 (Ph + B-ALL) showing distinctly reduced sensitivity.
+This pattern suggests that chronic-phase CML cells are more responsive to modifications of the imatinib scaffold than their advanced-stage or lymphoid counterparts.
+Of the terpene-substituted derivatives, the (+)-isopinocampheyl analogue 6d is the most active compound overall, combining low IC 50 values with excellent selectivity.
+It shows pronounced cytotoxicity against all leukemic cell lines, with particularly potent activity in AR-230 (IC 50 ≈ 1.1 µM; SI > 45.4) representing an approximately seven-fold improvement over imatinib.
+Compound 6d also shows strong activity in K-562 (low-micromolar IC 50 ; SI ≈ 19), clearly surpassing imatinib, which displays higher IC 50 values and SIs below 10 in the same leukemic models.
+The cyclohexyl derivative 6a is comparably potent, particularly in AR-230, confirming that both a flexible cyclohexyl and a rigid isopinocampheyl fragment can optimally engage the kinase pocket and promote strong growth inhibition.
+Compounds bearing other terpene fragments ( 6f norbornyl, 6g isobornyl, 6h bornyl, 6i isoborneol) form a second activity tier.
+They retain low-micromolar IC 50 values in AR-230 and generally outperform imatinib but display 2 to 5-fold lower activity in the other leukemic cell lines.
+Among them, the isobornyl-substituted analogue 6g showed the most favorable selectivity profile with SI values approaching or exceeding 50.
+The 1- and 2-adamantyl derivatives ( 6b , 6c ) are overall less active in BV-173, K-562 and LAMA-84; 6c in particular stands out as the least potent analogue across all hematological malignancies, indicating that excessive steric volume in certain position isomers may hinder target engagement despite their hydrophobic character.
+However, 6c maintains respectable activity in AR-230 and, due to its substantially weaker toxicity against healthy CCL-1 cells, attains an exceptionally high SI value, demonstrating a clear potency-selectivity trade-off in this model.
+Among the borneol-type analogues ( 6f–i ) selectivity patterns diverge notably from those of imatinib.
+Overall, the isoborneol derivative 6i and the bornyl-substituted analogues 6f and 6h show lower selectivity indices than the reference drug across all leukemic models, indicating that these substitutions tend to increase toxicity toward normal CCL-1 cells or fail to enhance antileukemic potency sufficiently.
+In contrast, the isobornyl derivative 6g represents a clear discrepancy within this subgroup: despite belonging to the same structural family, it achieves markedly higher SI values than imatinib in all but the LAMA-84 BCR-ABL+ cell lines, indicating that subtle stereochemical and conformational differences within the bornyl scaffold may be of critical importance in shaping the selectivity profile of the compounds.
+2.3.
+In Silico ADME Predictions Several physicochemical and pharmacokinetic properties, together with selected ADME features, were predicted in silico using the SwissADME web tool (available online https://www.swissadme.ch/ (accessed on 18 November 2025)) as summarized in Table 2 .
+In addition, pK a values were calculated using the ACD/LogD Suite v.
+9.0 (Advanced Chemistry Development, Inc., Toronto, ON, Canada).
+As shown in Table 2 , the molecular weights (Mw) of the novel imatinib analogues slightly exceed the Lipinski criterion of Mw ≤ 500 g/mol, ranging from 506.64 to 576.73 g/mol, whereas the parent drug imatinib has a molecular weight just below 500 g/mol.
+Based on the numbers of hydrogen bond acceptors and donors, all compounds satisfy the corresponding Lipinski rule-of-five criteria (≤10 acceptors and ≤5 donors) [ 20 ].
+The predicted logP values of compounds 6a–i were estimated using the topological MLOGP method [ 21 , 22 , 23 ], as implemented in SwissADME.
+All compounds meet the Lipinski logP criterion (MLOGP ≤ 4.15) [ 23 ].
+Aqueous solubility was predicted using the ESOL (Estimating Aqueous Solubility) model developed by Delaney, which is based on a regression model incorporating logP, molecular weight, number of rotatable bonds, and aromatic proportion [ 24 ].
+According to this model, all novel compounds are predicted to be poorly soluble.
+The estimated pK a values range from 8.02 to 8.63, suggesting that the tertiary nitrogen atom in the linker is predominantly protonated at physiological pH (pH = 7.4).
+A favorable feature is the predicted lack of blood–brain barrier (BBB) permeability for all novel compounds.
+Gastrointestinal (GI) absorption is predicted to be generally low, apart from compounds 6a and 6e , for which high GI absorption is predicted.
+Three compounds ( 6a , 6f , and 6i ) are predicted to be substrates of P-glycoprotein, similar to the parent drug imatinib.
+However, the solubility, GI absorption, and overall bioavailability of these compounds may be further improved by conversion into their corresponding ammonium salt forms.
+2.4.
+Docking Analysis The newly designed imatinib analogues are expected to exhibit their anticancer activity in a similar mechanism as their parent drug, known to bind into the ATP binding site of the fusion BCR-ABL1 protein.
+This hypothesis is further supported by the showed activities of the novel derivatives against a panel of BCR-ABL+ leukemia cell lines (see Table 1 ).
+The ATP-binding site of human cAbl TK is formed within the cleft between the smaller N-lobe—comprising five β-strands (β1–β5) and the αC-helix—and the larger, predominantly α-helical C-lobe.
+These two lobes are connected by the hinge region, a flexible linker that regulates the opening and closing of the kinase domain [ 25 ].
+Positioned between the β1- and β2-strands is the P-loop (phosphate-binding loop), a key structural feature of the ATP-binding pocket, along with the hinge region, the αC-helix, the HRD motif, and the DFG motif ( Figure 3 ) The αC-helix plays a central role in maintaining the active kinase conformation and functions as an important allosteric structural element.
+MET290 on the αC-helix acts as RS3 within the regulatory spine (R-spine), a stacked array of four hydrophobic residues (RS1–RS4) that stabilizes the active state.
+In this conformation, GLU286 of the αC-helix forms a characteristic salt bridge with LYS271 from the β3-strand.
+Within the catalytic loop lies the HRD motif (HIS361–ARG362–ASP363), which stabilizes the activation loop (A-loop) and contributes to ATP binding.
+At the N-terminal end of the A-loop is the DFG motif (ASP381–PHE382–GLY383), a key structural element that governs A-loop positioning.
+A magnesium ion, coordinated by Asp381 of the DFG motif, is essential for proper substrate binding and phosphate transfer [ 25 , 26 ].
+In the X-ray structure of the imatinib-cAbl TK complex ( Figure 3 ), the DFG motif is positioned in its characteristic DFG-out conformation, whereas the αC-helix remains in the C-in orientation.
+This conformation is further stabilized by MET290 occupying the RS3 pocket and by the preserved salt bridge between GLU286 of the αC-helix and LYS271 on the β3-strand.
+Figure 3 ( a ) Structural features of human Abelson tyrosine kinase (PDB ID: 2HYY, [ 27 ]) are shown, including the N- and C-lobes, αC-helix, and β1–β5 strands.
+Key elements of the ATP-binding site are highlighted using the following color scheme: hinge region (orange), P-loop (red), activation loop (A-loop, yellow), DFG motif (green), and HRD motif (cyan).
+Superimposed docking poses of the novel imatinib derivatives are depicted as follows: 6a (green), 6b (deep pink), 6c (yellow), 6d (violet), 6e (grey), 6f (light blue), 6g (pale pink), 6h (orange), and 6i (cyan), with the reference drug imatinib shown in dark blue.
+The spatial orientation of the terminal ring systems the derivatives is compared with the piperazine moiety of imatinib ( b ).
+The N-alkyl ring systems of compounds 6a , 6b and 6f (top) align similarly to the piperazine ring of imatinib, whereas those of 6c , 6d , 6e , 6g , 6h , and 6i (bottom) adopt a perpendicular orientation.
+The imatinib derivatives were docked into the ATP-binding site (ATP-BS) of human c-Abl tyrosine kinase (PDB code: 2HYY) [ 27 ], yielding ChemPLP scores for the top-ranked poses ranging from 123 to 128, as summarized in Table 3 .
+Expectedly, these scores are comparable to those of the reference drug imatinib given the high structural similarity of the novel analogues—differing only in their terminal ring systems located at the entrance of the ATP-binding pocket.
+The superimposed docking poses are shown in Figure 3 (left panel), demonstrating a strong overall alignment between the parent drug and the newly designed derivatives.
+The orientation of the N-alkyl terminal rings of compounds 6a–i follows two distinct trends: compounds 6a , 6b , and 6f align similarly to the piperazine moiety of imatinib, whereas those of 6c , 6d , 6e , 6g , 6h , and 6i adopt a perpendicular arrangement ( Figure 3 , right panel).
+The conserved core of the N-alkyl imatinib derivatives overlaps well with that of imatinib within the ATP-BS, resulting in a shared interaction profile consisting of four hydrogen bonds, one π–anion interaction, and two π–π stacking contacts ( Figure 4 ).
+Specifically, the backbone amino group of MET318 in the hinge region donates a hydrogen bond to the pyridine nitrogen, while the hydroxyl side chain of the gatekeeper residue THR315 forms a hydrogen bond with the anilino NH group.
+A third hydrogen bond is formed between the side chain carboxylate of GLU286 (αC-helix) and the linker amide NH, and a fourth hydrogen bond is established between the linker amide carbonyl oxygen and the backbone NH of ASP381 in the DFG motif.
+The negatively charged ASP381 additionally participates in a π–anion interaction with the benzamide aromatic ring.
+π–π stacking contacts are observed between PHE317 (hinge region) and the pyridine ring, and a T-shaped π–π interaction occurs between Tyr253 and the pyrimidine ring.
+Numerous van der Waals interactions further contribute to the stabilization of the ligand–protein complexes ( Figure 4 ).
+Structural modifications at the terminal ring system result in notable differences in the anticancer activities of the newly synthesized analogues ( Table 1 ).
+In all derivatives, the retained piperazine nitrogen serving as a linker is protonated at physiological pH.
+In contrast, for imatinib, the internal piperazine nitrogen remains neutral under physiological conditions, while the distal nitrogen is protonated [ 28 , 29 , 30 ].
+Consequently, in the c-Abl TK–imatinib complex, this protonated nitrogen forms an additional hydrogen bond with the backbone carbonyl oxygen of ILE360 (positioned immediately before the HRD motif) and experiences electrostatic attraction with the negatively charged side chain of ASP381 from the DFG motif ( Figure 4 ).
+Figure 4 Two-dimensional diagrams of the intermolecular interactions of the studied compounds and the reference drug within the ATP binding site of Abl TK, generated using Biovia Discovery Studio v.21.1.0.20298 (San Diego, CA, USA, 2021) [ 31 ].
+In the derivatives, protonation of the linker—corresponding to the internal nitrogen of imatinib’s piperazine ring—shifts it closer to the negatively charged side chain of ASP381, reducing the N–ASP381 distance from 5.18 Å in imatinib to 4.32 Å for 6a , 4.11 Å for 6f , 3.97 Å for 6h .
+An even more pronounced effect is observed for compounds 6b , 6c , 6d , 6e , 6g , and 6i , where a direct salt bridge is formed ( Figure 4 ).
+This altered electrostatic profile, resulting from modifications in the terminal ring system, may contribute to the observed differences in biological activity across the series.
+The N-alkyl terminal ring systems also participate in stabilizing van der Waals contacts, mainly with VAL289 ( 6a–i ) and LYS285 ( 6c , 6d , and 6i ) from the αC-helix, as well as with PHE359 ( 6b , 6f , and 6g ), positioned near the HRD motif.
+Additionally, the methyl group attached to the quaternary ammonium linker is favorably oriented to form weak C–H···O interactions with the backbone carbonyl of ILE360 in compounds 6b–e and 6g–i , and with HIS361 of the HDR motif in compounds 6b–d , 6f and 6g ( Figure 4 ).
+In the case of compound 6a , a similar C–H interaction is formed by the hydrogen atom at the C1 carbon of the cyclohexyl fragment and the carbonyl oxygen of ILE360.
+2.5.
+Proteome Profiling Results The phosphokinase network plays a central role in regulating cell survival, proliferation and stress responses, and represents a major convergence point for TKIs used in the treatment of CML and other malignancies.
+Because BCR-ABL inhibition subsequently modulates essential downstream pathways, including JAK/STAT, MAPK, and PI3K/Akt, we sought to investigate the mechanistic behavior of the most potent imatinib analogues 6a and 6d on global kinase phosphorylation patterns.
+Using the most pharmacologically sensitive model in this study, the AR-230 cell line, we applied a phosphokinase proteome array to evaluate alterations in the phosphorylation status of major signaling nodes after 48 h of exposure to equi-effective (IC 50 ) concentrations of each compound ( Figure 5 ).
+The inclusion of imatinib as a positive control enabled direct comparison with the reference drug and facilitated the identification of shared and compound-specific signaling effects.
+The proteomic analysis revealed that both experimental analogues and imatinib induced substantial changes in phosphorylation patterns across multiple oncogenic pathways.
+Notably, substantial regulatory effects were observed within the JAK/STAT signaling axis, a pathway critically involved in hematopoietic cell proliferation, differentiation and cytokine-mediated immune responses, and frequently dysregulated in leukemic transformation.
+All three compounds elicited a profound depletion of phosphorylated STAT5a/b, a key effector of BCR-ABL-mediated leukemogenesis whose persistent activation supports survival, cell-cycle progression and resistance to apoptosis.
+The complete loss of STAT5 phosphorylation strongly suggests successful disruption of BCR-ABL downstream signaling, consistent with the potent antiproliferative activity of the compounds.
+STAT3 and STAT6 were also significantly suppressed, with imatinib and both its analogues inducing two-fold to four-fold reductions in phosphorylation depending on the isoform.
+Because STAT3 in particular drives survival programs and inflammatory signaling in myeloid malignancies, its down-regulation by more than 70% likely contributes to the observed growth-inhibitory activity of the TKIs.
+The comparable STAT inhibition profiles across all three treatment groups indicate that both 6a and 6d effectively converge on critical nodes of the JAK/STAT cascade, mirroring the canonical downstream consequences of BCR-ABL blockade by established TKIs.
+Among the most prominent changes were also observed in the ribosomal protein S6 kinase 1 (S6K1/p70), a major promoter of ribosomal biogenesis and an activator of the mTOR pathway that suppresses autophagy, whose signal was undetectable in all treatment groups.
+As p70 levels were already low in the naïve control group, their complete depletion in drug-treated samples indicates a shift toward autophagy permissiveness, potentially facilitating degradation of damaged cellular components or amplifying pro-death signals.
+A similar pattern was observed for RSK1/2, downstream effectors of the MAPK pathway with critical mitogenic roles.
+Their loss of phosphorylation across all treatment conditions points to a broad suppression of MAPK-associated growth and survival outputs, aligning with the overall antiproliferative phenotype.
+Proline-rich tyrosine kinase 2 (Pyk2), a nonreceptor tyrosine kinase involved in regulating adhesion, migration, metastasis and chemotherapy resistance, also showed strong susceptibility to treatment-induced deactivation.
+Both the parent drug imatinib and its modified analogues reduced phosphorylated Pyk2 by more than four-fold, nearly abolishing its active form.
+Given the role of Pyk2 in promoting oncogenic behavior and its documented involvement in leukemic cell survival, its suppression likely contributes meaningfully to the observed cytotoxic responses.
+The consistent inhibition of Pyk2 across all treatments further supports its role as a downstream effector of BCR-ABL-driven signaling and highlights this kinase as a potentially valuable biomarker of therapeutic response.
+Conversely, we observed a compound-specific modulation of CREB, a transcription factor known to integrate signals from GPCRs and receptor tyrosine kinases and to regulate a wide set of genes involved in proliferation, survival, cell-cycle progression, and mitochondrial homeostasis.
+Constitutive CREB phosphorylation is a hallmark of numerous cancers, including hematological malignancies, where it contributes to upregulation of cyclins, CDKs and antiapoptotic BCL-2 family proteins.
+In our AR-230 leukemia model, 6a and imatinib produced marked reductions in phosphorylated CREB, lowering its activated fraction by approximately two-fold and three-fold, respectively.
+However, 6d did not alter CREB phosphorylation, indicating that the (+)-isopinocampheyl derivative may exert its cytotoxic effects through CREB-independent pathways.
+The differential effect of 6d on CREB reveals deviations in downstream signaling among terpene- and cyclohexyl-modified imatinib analogues and suggests that structural variations in the hydrophobic substituent can selectively shape kinase-driven transcription.
+In contrast, the PI3K/Akt pathway exhibited relatively milder changes in activity, particularly in the 6a - and 6d -exposed AR-230 cell populations.
+Although this pathway is a well-established survival axis and a documented effector of BCR-ABL, only imatinib induced a statistically significant suppression of Akt1/2/3 phosphorylation.
+The 6a and 6d had weaker or negligible effects on Akt activation, suggesting that their antiproliferative potency may arise through preferential targeting of alternative downstream cascades such as JAK/STAT or MAPK rather than through direct disruption of PI3K/Akt signaling.
+The divergence in Akt regulation underscores the complexity of kinase network modulation by structurally distinct TKIs, even when they share a common inhibitory target at the BCR-ABL enzyme level.
+Further modulation of the PI3K cascade was evident through changes in downstream serine/threonine kinases.
+Checkpoint kinase 2 (Chk2), which mediates DNA damage responses and enforces cell-cycle arrest following genotoxic stress, showed a pronounced loss of phosphorylation only in the imatinib-treated samples.
+The absence of Chk2 suppression in 6a - and 6d -treated cells suggests differences in DNA damage processing or stress adaptation mechanisms triggered by the experimental compounds.
+An especially notable finding concerns the tumor suppressor p53, whose phosphorylation status reflects activation of its canonical roles in DNA damage surveillance, cell-cycle arrest and apoptosis induction.
+Both 6d and imatinib elicited a robust two-fold increase in phosphorylated p53, whereas 6a had a more muted effect.
+The elevation of active p53 in 6d -treated samples suggests that, similarly to the referent drug, the terpene analogue can initiate stress-response pathways that inhibit proliferation of genetically compromised cells, presenting an additional aspect of antileukemic activity beyond direct modulation of kinase signaling.
+Figure 6 summarizes the main downstream signaling networks perturbed by BCR-ABL inhibition and highlights how the parent compound imatinib and its experimental analogues 6a and 6d converge on shared and distinct nodes.
+Consistent with the proteomic data, all three TKIs effectively disrupt canonical JAK/STAT and RAS/RAF/MEK/ERK signaling, thereby attenuating transcriptional programs that drive leukemic cell proliferation, survival and drug resistance.
+In parallel, potent activation of p53 by imatinib and 6d provides an additional tumor-suppressive layer that extends beyond direct kinase inhibition.
+As depicted in the Wnt/β-catenin and Hedgehog panels, p53 negatively regulates these stemness-associated pathways by repressing β-catenin and GLI activity, thereby restricting leukemic cells’ self-renewal and long-term persistence.
+By concurrently disrupting multiple BCR-ABL-driven kinase signaling pathways, the representative TKIs collectively reprogram the signaling environment from one that supports growth and stem-cell persistence to one that enforces cell-cycle arrest, initiates apoptosis and limits the survival of leukemic stem cells.
+The robust increase in phosphorylated p53 induced by 6d is superior to imatinib and indicates activation of canonical stress-response and proapoptotic pathways.
+p53 activation not only enforces cell-cycle arrest but also primes leukemic cells for apoptosis by suppressing survival signaling and promoting transcription of death-associated genes.
+The coordinated inhibition of JAK/STAT and MAPK cascades across treatment groups shifts the cellular balance from survival and adaptation toward apoptotic elimination.
+These findings suggest that 6d , like imatinib, exerts its antileukemic effects through both suppression of oncogenic signaling and activation of intrinsic cell death programs.
+3.
+Discussion The present work integrates cytotoxicity profiling, molecular docking, and phosphokinase analysis to elucidate how N-alkyl modifications on the imatinib scaffold translate into improved antileukemic activity and distinct signaling outcomes.
+The cytotoxicity evaluation of the newly synthesized derivatives revealed a clear improvement over imatinib across all BCR-ABL-positive leukemic models, underscoring the potential of these structural modifications to enhance both potency and selectivity.
+Overall, the compounds displayed their strongest antiproliferative activity in AR-230 cells, which express the p230 BCR-ABL variant characteristic of chronic-phase CML.
+This model consistently showed low-micromolar IC 50 values and high selectivity indices, indicating that the p230 isoform is highly permissive to structural optimization of the imatinib scaffold.
+In contrast, cell lines expressing p210 BCR-ABL isoforms (e.g., myeloid blast-crisis variants K-562 and LAMA-84 and lymphoid Ph + B-ALL BV-173) exhibited moderately reduced responsiveness.
+This differential sensitivity across p230 versus p210 BCR-ABL phenotypes suggests that the specific fusion isoform, along with disease stage and lineage context, may play a role in modulating susceptibility to the terpene-modified imatinib analogues.
+While direct kinase inhibition assays are not conducted, inhibition of BCR-ABL is functionally reflected in the modulation of its downstream signaling networks.
+The observed regulation of PI3K/Akt and JAK/STAT pathways therefore provides biologically meaningful evidence of altered BCR-ABL activity.
+These signaling changes indicate an effect on BCR-ABL-driven cellular processes rather than nonspecific cytotoxicity.
+Moreover, molecular docking results provide supportive structural evidence for potential interactions with the BCR-ABL kinase domain.
+The in silico–estimated physicochemical and pharmacokinetic properties of the novel imatinib analogues are generally favorable with respect to Lipinski’s rule of five, with only a slight exceedance of the molecular weight criterion.
+Their aqueous solubility is predicted to be poor, which is reflected in suboptimal gastrointestinal absorption.
+However, the estimated pK a values indicate that, under physiological conditions, the compounds are predominantly protonated at the linker methylamino group.
+Protonated molecules are generally more water-soluble than their non-protonated ones.
+Therefore, the poor aqueous solubility and suboptimal gastrointestinal absorption may potentially be improved through formulation of compounds as appropriate salt forms.
+Molecular docking was carried out within the ATP-binding site of human c-Abl tyrosine kinase (PDB code: 2HYY [ 27 ]) to obtain atomistic insights into the interaction mechanisms of the newly designed N-alkyl imatinib analogues.
+The resulting docking poses demonstrate that all derivatives adopt a well-aligned binding orientation within the ATP pocket.
+As expected, the analogues preserve the key binding mode of imatinib: the conserved pharmacophore engages the same hinge, αC-helix and DFG motif residues, reproducing the characteristic network of hydrogen bonds and π-stacking interactions.
+Thus, the difference in potency across the compounds in the series cannot be ascribed to wholesale rearrangement in the binding pocket but rather to more subtle effects arising from the nature and positioning of the terminal N-alkyl substituent and the quaternary ammonium linker.
+A notable structural modification shared by the analogues is the presence of a quaternary ammonium nitrogen acting as a linker to the terminal alkyl rings.
+Compared with imatinib, protonation of this linker positions the cationic center closer to the negatively charged side chain of ASP381, shortens the N-ASP381 distance, and enables formation of a direct salt bridge, thereby altering the electrostatic environment of the binding site.
+Such changes may contribute to the enhanced anticancer activity observed for the new derivatives, despite docking scores remaining broadly comparable to the parent drug imatinib.
+Beyond potency, the type of substituent attached to the quaternary ammonium center emerges as a critical determinant of selectivity.
+The cyclohexyl analogue 6a and the rigid isopinocampheyl derivative 6d represent two structurally divergent yet functionally convergent solutions: a flexible monocyclic ring and a compact bicyclic terpene each provide an optimally sized hydrophobic cap that occupies the entrance of the ATP pocket without imposing excessive steric hindrance on the surrounding residues.
+Their high activity across the leukemic panel, coupled with favorable selectivity indices, suggests that both substituents achieve a similar balance between enhanced lipophilic contacts, preserved solvation and efficient access to the kinase domain.
+In contrast, the bulkier adamantyl derivatives 6b and 6c illustrate the negative effect of overshooting this sterical balance on overall activity.
+Although docking analysis indicates they can still engage ASP381 through the charged linker, the reduced cytotoxicity, especially of the 2-adamantyl analogue, in most cell lines implies that the increased steric volume impairs productive binding, membrane diffusion, or both.
+The borneol-type analogues ( 6f–i ) further highlight the broad dynamic range of biological responses that can arise from subtle stereochemical and conformational differences.
+The shared bicyclic monoterpene scaffold ensures that the substituents 6g–i carry similar overall carbon skeletons and three-dimensional shapes (rigid, compact bicyclic structure), potentially giving similar steric and lipophilic properties.
+Differences among them (e.g., presence or position of hydroxyl group in isoborneol vs.
+the more hydrophobic hydrocarbon bornyl) modulate polarity, hydrogen-bonding capacity, and conformation, which could influence binding, cell permeability, protein interactions, and ultimately biological effects.
+All members within this subgroup share similar docking orientations and interaction patterns at the conserved core, yet their cellular profiles strongly differ.
+The isobornyl derivative 6g shows remarkable selectivity with SI values approaching or exceeding those of the best performers, whereas norbornyl ( 6f ), bornyl ( 6h ) and isoborneol ( 6i ) are generally less selective than imatinib.
+This discrepancy is difficult to rationalize solely based on static docking poses and points to contributions from dynamic effects such as differential orientation of the terminal ring at the protein–solvent interface, distinct membrane partitioning behavior, or variable susceptibility to efflux and metabolism.
+These SAR trends suggest that the N-alkyl fragment acts as a finely tunable handle that modulates not only local interactions in the ATP site but also the broader pharmacokinetic, biophysical and possibly mechanistic properties of the experimental compounds.
+Evidence from the broader monoterpenoid literature supports the idea that the aliphatic substituents used in this work can bias signaling toward apoptosis and chemosensitization, in line with the proteomic fingerprints of 6a and 6d .
+Borneol, a prototypical 6+5 bicyclic monoterpenoid structurally related to the bornyl series, shows direct cytotoxic effects and acts as a chemosensitizer in multiple cancer models by promoting intrinsic apoptosis (Bax and caspase-3 upregulation, Bcl-2 downregulation) and enhancing autophagy, thereby increasing the efficacy of co-administered drugs such as temozolomide in glioma cells [ 32 , 33 , 34 ].
+Volatile monoterpenes from essential oils, including borneol, have further been shown to interfere with survival signaling, often via ROS generation and modulation of MAPK and PI3K/Akt pathways, and to inhibit the growth of diverse neoplasms such as hepatocellular carcinoma, neuroblastoma, glioma, esophageal squamous cell carcinoma, ovarian and lung cancer, by downregulating ABCB1/P-gp and enhancing uptake of chemotherapeutics like doxorubicin and paclitaxel [ 35 , 36 , 37 , 38 ].
+Although 6a itself bears a simple cyclohexyl rather than a borneol-type substituent, both belong to the menthane-derived monocyclic/bicyclic monoterpenoid family and share high hydrophobicity with relatively small polar surface area.
+The strong reduction in phosphorylated CREB by 6a , closely mirroring or even exceeding that of imatinib, is therefore consistent with the general tendency of monoterpenoids to interfere with transcription-factor–centered survival cascades (e.g., STAT3, HIF-1α, CREB) and to sensitize tumor cells to stress-induced apoptosis.
+The conformational flexibility of the cyclohexyl ring may facilitate productive contacts with kinases or co-regulators that regulate CREB activity at the interface of the ATP pocket and the solvent-exposed region, explaining why 6a particularly affects this node, while still preserving inhibitory activity on the canonical BCR-ABL-driven signaling pathways (STAT5/3/6, RSK1/2, S6K1/p70, Pyk2).
+The (+)-isopinocampheyl group in 6d , in turn, belongs to a camphane/camphor-type bicyclic scaffold.
+While camphene itself is less extensively characterized than borneol, available data indicate that it can induce apoptosis in cervical carcinoma and melanoma cells and exert in vivo antitumor activity in aggressive melanoma models [ 39 , 40 ].
+Moreover, camphor-based sulfonamides have been reported to trigger nuclear translocation of p53 and autophagy in A549 lung cancer cells without comparable effects in non-malignant fibroblasts [ 41 ].
+These findings align closely with the proteomic behavior of 6d : in addition to recapitulating JAK/STAT and MAPK inhibition and strong Pyk2 dephosphorylation, 6d produces a more pronounced suppression of Akt1/2/3 and a striking, more than fifteen-fold increase in phosphorylated p53 compared to the 6a analogue, surpassing even imatinib.
+Notably, imatinib itself also induced a marked increase in p53 phosphorylation, albeit to a lesser extent than 6d (76.5% vs.
+117.6%, respectively), indicating that p53 activation is at least in part associated with BCR-ABL pathway modulation.
+The enhanced effect observed for 6d may therefore reflect an additive or modulatory contribution of the terpene fragment.
+The rigid, three-dimensional isopinocampheyl cap likely stabilizes specific hydrophobic contacts near the αC-helix and activation loop that favor engagement of stress-response and DNA-damage pathways downstream of BCR-ABL inhibition, in line with the p53- and autophagy-linked cytotoxicity reported for camphor-based anticancer agents.
+4.
+Materials and Methods 4.1.
+Chemistry General All reagents and solvents were commercial grade and used without further purification.
+Starting compounds: cyclohexylamine, 1-adamantylamine, 2-adamantylamine, (+)-isopinocampheylamine, (-)-isopinocampheylamine, norbornylamine, isobornylamine, bornylamine, 3-exoaminoisoborneol and methyl 4-formylbenzoate.
+Thin layer chromatography (TLC): aluminum sheets pre-coated with silica gel 60 F254 (Merck).
+Flash column chromatography was carried out using Silica Gel 60 230–400 mesh (Fluka).
+Commercially available solvents were used for reactions, TLC and column chromatography.
+Melting points were determined in a capillary tube on BUCHI Melting Point B-535 Apparatus 220v (uncorrected).
+Optical rotations ([α] D 20 ) were measured on Jasco P-2000 Polarimeter.
+The NMR spectra were recorded on a Bruker Avance NEO 400 MHz (400.13 for 1 H NMR and 100.6 MHz for 13 C NMR) spectrometer with TMS as internal standard for chemical shifts.
+1 H and 13 C NMR data are reported as follows: chemical shift, multiplicity (s = singlet, d = doublet, t = triplet, q = quartet, br = broad, m = multiplet), coupling constants (Hz), integration.
+The high resolution mass spectra (HRMS) of the compounds were recorded on a Thermo Scientific Q Exactive Plus Hybrid Quadrupole-Orbitrap Mass Spectrometer.
+MS acquisition was carried out with a heated electrospray ionization (HESI) in positive mode.
+4.1.1.
+General Procedure for the Synthesis of Compounds 2a–i A solution of appropriate amine (2 mmol) and methyl 4-formylbenzoate (2 mmol, 0.328 g) in dichloroethane (20 mL) was stirred at r.t.
+for 30 min.
+NaBH(OAc) 3 (4 mmol, 0.848 g) was added and the mixture was stirred at r.t.
+overnight.
+The reaction was quenched by pouring into aq.K 2 CO 3 and extracted with CH 2 Cl 2 .
+The combined organic layers were dried over MgSO 4 , filtered and concentrated under reduced pressure.
+The residue was purified by flash column chromatography (silica gel, CH 2 Cl 2 /EtOAc = 9:1).
+Methyl 4-((cyclohexylamino)methyl)benzoate 2a Yield 99%.
+1 H NMR (CDCl 3 , 400 MHz): δ 7.98 (d, J = 8.4 Hz, 2H), 7.39 (d, J = 8.4 Hz, 2H), 3.90 (s, 3H, OCH 3 ), 3.86 (s, 2H, NCH 2 ), 2.50–2.43 (m, 1H), 1.92–1.88 (m, 2H), 1.74–1.71 (m, 2H), 1.62–1.58 (m, 1H), 1.54–1.51 (m, 1H), 1.26–1.20 (m, 2H), 1.15–1.10 (m, 2H) ppm.
+13 C NMR (CDCl 3 , 100.6 MHz): δ 167.06 (C), 146.39 (C), 129.69 (2 CH), 128.66 (C), 127.91 (2 CH), 56.22 (OCH 3 ), 51.99 (CH), 50.64 (NCH 2 ), 33.52 (2CH 2 ), 26.11 (CH 2 ), 24.96 (2 CH 2 ) ppm.
+Methyl 4-((((3S,5S,7S)-adamantan-1-yl)amino)methyl)benzoate 2b Yield 78%.
+1 H NMR (CDCl 3 , 600 MHz): δ 7.97 (d, J = 8.2 Hz, 2H), 7.41 (d, J = 8.2 Hz, 2H), 3.90 (s, 3H, OCH 3 ), 3.81 (s, 2H, NCH 2 ), 2.09 (brs, 3H), 1.70–1.61 (m, 9H), 1.57–1.55 (m, 3H) ppm.
+13 C NMR (CDCl 3 , 150.9 MHz): δ 167.10 (C), 147.26 (C), 129.66 (2 CH), 128.52 (C), 128.06 (2 CH), 51.93 (OCH 3 ), 50.95 (C), 44.85 (NCH 2 ), 42.90 (3CH 2 ), 36.70 (3CH 2 ), 29.61 (3CH) ppm.
+Methyl 4-((((1R,3R,5R,7R)-adamantan-2-yl)amino)methyl)benzoate hydrochloride 2c Yield 90%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 9.40 (d, J = 3.3 Hz, 2H, NH 2 ), 7.99 (d, J = 8.4 Hz, 2H), 7.82 (d, J = 8.4 Hz, 2H), 4.27 (t, J = 5.2 Hz, 2H, NCH 2 ), 3.87 (s, 3H, OCH 3 ), 3.17 (brs, 1H, CHN), 2.21–2.17 (m, 4H), 1.82–1.80 (m, 4H), 1.69–1.53 (m, 6H) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.36 (CO), 137.63 (C), 131.30 (2 CH), 130.37 (C), 129.68 (2 CH), 61.62 (OCH 3 ), 52.75 (CHN), 47.76 (NCH 2 ), 37.75 (CH 2 ), 36.72 (2CH 2 ), 30.03 (2CH 2 ), 28.70 (2CH), 26.86 (CH), 26.65 (CH) ppm.
+Methyl 4-((((1S,2S,3S,5R)-2,6,6-trimethylbicyclo [3.1.1]heptan-3-yl)amino)methyl)benzoate 2d Yield 97%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 7.91 (d, J = 8.4 Hz, 2H), 7.52 (d, J = 8.4 Hz, 2H), 3.84 (d, J = 14.3 Hz, 1H, NCH 2 ), 3.85 (s, 3H, OCH 3 ), 3.74 (d, J = 14.3 Hz, 1H, NCH 2 ), 2.76–2.71 (m, 1H), 2.30–2.23 (m, 2H), 1.92–1.88 (m, 1H), 1.80–1.72 (m, 2H), 1.65–1.60 (m, 1H), 1.18 (s, 3H, CH 3 ), 1.02 (d, J = 7.2 Hz, 3H, CH 3 ), 1.01=1.00 (m, 1H), 0.88 (s, 3H, CH 3 ) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.71 (CO) 147.78 (C), 129.42 (2CH), 128.64 (2CH), 128.27 (C), 55.74 (OCH 3 ), 52.45 (CHN), 50.86 (NCH 2 ), 47.86 (CH), 44.90 (CH), 41.69 (CH), 38.68 (C), 36.51 (CH 2 ), 33.42 (CH 2 ), 28.14 (CH 3 ), 23.65 (CH 3 ), 21.80 (CH 3 ) ppm.
+Methyl 4-((((1R,2R,3R,5S)-2,6,6-trimethylbicyclo[3.1.1]heptan-3-yl)amino)methyl)benzoate 2e Yield 84%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 7.91 (d, J = 8.4 Hz, 2H), 7.52 (d, J = 8.4 Hz, 2H), 3.84 (d, J = 14.3 Hz, 1H, NCH 2 ), 3.85 (s, 3H, OCH 3 ), 3.74 (d, J = 14.3 Hz, 1H, NCH 2 ), 2.76–2.71 (m, 1H), 2.30–2.23 (m, 2H), 1.92–1.88 (m, 1H), 1.80–1.72 (m, 2H), 1.65–1.60 (m, 1H), 1.18 (s, 3H, CH 3 ), 1.02 (d, J = 7.2 Hz, 3H, CH 3 ), 1.01=1.00 (m, 1H), 0.88 (s, 3H, CH 3 ) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.71 (CO), 147.78 (C), 129.42 (2CH), 128.64 (2CH), 128.27 (C), 55.74 (OCH 3 ), 52.45 (CHN), 50.86 (NCH 2 ), 47.86 (CH), 44.90 (CH), 41.69 (CH), 38.68 (C), 36.51 (CH 2 ), 33.42 (CH 2 ), 28.14 (CH 3 ), 23.65 (CH 3 ), 21.80 (CH 3 ) ppm.
+Methyl 4-((((2R)-bicyclo[2.2.1]heptan-2-yl)amino)methyl)benzoate 2f Yield 95%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 7.90 (d, J = 8.3 Hz, 2H), 7.47 (d, J = 8.3 Hz, 2H), 3.84 (s, 3H, OCH 3 ), 3.72 (d, J = 2.1 Hz, 2H, NCH 2 ), 2.47 (dd, J = 10.5, 3.1 Hz, 1H), 2.14–2.11 (m, 2H), 1.54 (dt, J = 9.3, 1.7 Hz, 1H), 1.41–1.37 (m, 3H), 1.13–1.09 (m, 1H), 1.01–0.94 (m, 3H) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.70 (CO), 147.80 (C), 129.43 (2CH), 128.58 (2CH), 128.21 (C), 61.24 (OCH 3 ), 52.44 (CH), 51.11 (NCH 2 ), 40.49 (CH), 39.74 (CH 2 ), 35.53 (CH), 34.88 (CH 2 ), 28.90 (CH 2 ), 26.81 (CH 2 ) ppm.
+Methyl 4-((((1R,2R,4R)-1,7,7-trimethylbicyclo[2.2.1]heptan-2-yl)amino)methyl)benzoate 2g Yield 80%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 7.90 (d, J = 8.4 Hz, 2H), 7.47 (d, J = 8.4 Hz, 2H), 3.84 (s, 3H, OCH 3 ), 3.74 (d, J = 14.3 Hz, 1H, NCH 2 ), 3.65 (d, J = 14.3 Hz, 1H, NCH 2 ), 2.50–2.47 (m, 1H, CHNH), 1.82 (brs, 1H, NH), 1.63–1.41 (m, 5H), 1.05 (s, 3H, CH 3 ), 1.00–0.96 (m,2H), 0.86 (s, 3H, CH 3 ), 0.78 (s, 3H, CH 3 ) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.69 (CO), 147.95 (C), 129.47 (2CH), 128.58 (2CH), 128.27 (C), 65.91 (OCH 3 ), 52.45 (CHN), 50.09 (NCH 2 ), 48.57 (C), 46.81 (C), 45.11 (CH), 38.75 (CH 2 ), 36.74 (CH 2 ), 27.47 (CH 2 ), 21.03 (CH 3 ), 20.90 (CH 3 ), 12.59 (CH 3 ) ppm.
+Methyl 4-((((1R,2S,4R)-1,7,7-trimethylbicyclo[2.2.1]heptan-2-yl)amino)methyl)benzoate 2h Yield 60%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 7.90 (d, J = 8.4 Hz, 2H), 7.50 (d, J = 8.4 Hz, 2H), 4.58 (d, J = 5.7 Hz, 1H, NH), 3.84 (d, J = 14.6 Hz, 1H, NCH 2 ), 3.84 (s, 3H, OCH 3 ), 3.72 (d, J = 14.6 Hz, 1H, NCH 2 ), 2.73–2.70 (m, 1H), 2.06–1.99 (m, 1H), 1.93–1.86 (m, 1H), 1.64–1.61 (m, 1H), 1.56 (t, J = 4.6 Hz, 1H), 1.21–1.14 (m, 2H), 0.85–0.81 (m, 1H), 0.82 (s, 3H, CH 3 ), 0.80 (s, 3H, CH 3 ), 0.78 (s, 3H, CH 3 ) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.72 (CO), 144.82 (C), 129.41 (2CH), 128.56 (C), 128.51 (2CH), 62.43 (OCH 3 ), 52.44 (CHN), 52.36 (NCH 2 ), 48.99 (C), 48.32 (C), 44.88 (CH), 37.61 (CH 2 ), 28.45 (CH 2 ), 27.53 (CH 2 ), 20.21 (CH 3 ), 18.98 (CH 3 ), 14.60 (CH 3 ) ppm.
+Methyl 4-((((1S,2R,3S,4R)-3-hydroxy-4,7,7-trimethylbicyclo[2.2.1]heptan-2-yl)amino)methyl)benzoate 2i Yield 66%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 7.91 (d, J = 8.4 Hz, 2H), 7.48 (d, J = 8.4 Hz, 2H), 3.85 (s, 3H, OCH 3 ), 3.82 (d, J = 14.3 Hz, 1H, NCH 2 ), 3.76 (d, J = 14.3 Hz, 1H, NCH 2 ), 3.44 (d, J = 7.5 Hz, 1H, CHOH), 2.62 (d, J = 7.5 Hz, 1H, CHNH), 1.60–1.59 (m, 1H), 1.56–1.51 (m, 1H), 1.38–1.32 (m, 1H), 1.06 (s, 3H, CH 3 ), 0.96–0.86 (m, 2H), 0.82 (s, 3H, CH 3 ), 0.72 (s, 3H, CH 3 ) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.67 (CO), 147.57 (C), 129.55 (2CH), 128.57 (2CH), 128.40 (C), 78.67 (OCH 3 ), 66.39 (CHOH), 53.58 (NCH 2 ), 52.48 (CHNH), 50.36 (CH), 48.85 (C), 46.61 (C), 33.29 (CH 2 ), 26.88 (CH 2 ), 22.42 (CH 3 ), 21.72 (CH 3 ), 12.24 (CH 3 ) ppm.
+4.1.2.
+General Procedure for the Synthesis of Compounds 3a–i A suspension of secondary amine 2a–i (2 mmol), K 2 CO 3 (0.829 g, 6 mmol) and MeI (0.852 g, 0.37 mL, 6 mmol) in CH 3 CN (30 mL) was stirred at r.t.
+(monitored by TLC).
+After completion of the reaction, the mixture was filtered through a pad of Celite (CH 2 Cl 2 was used as eluent) and concentrated under reduced pressure.
+The residue was purified by flash column chromatography (silica gel, CH 2 Cl 2 /EtOAc = 9:1 or PE/EtOAc = 9:1).
+Methyl 4-((cyclohexyl(methyl)amino)methyl)benzoate 3a Yield 82%.
+1 H NMR (CDCl 3 , 400 MHz): δ 7.90 (d, J = 8.2 Hz, 2H), 7.33 (d, J = 8.2 Hz, 2H), 3.83 (s, 3H, OCH 3 ), 3.55 (s, 2H, NCH 2 ), 2.38–2.37 (m, 1H), 2.12 (s, 3H, NCH 3 ), 1.82–1.72 (m, 4H), 1.57–1.54 (m, 1H), 1.48–1.44 (m, 2H), 1.24–1.17 (m, 3H) ppm.
+13 C NMR (CDCl 3 , 100.6 MHz): δ 167.23 (CO), 145.85 (C), 129.56 (2CH), 128.73 (2CH), 128.66 (C), 62.57 (OCH 3 ), 57.60 (NCH 2 ), 52.02 (CH), 37.79 (NCH 2 ), 28.63 (2CH 2 ), 26.37 (CH 2 ), 25.98 (2 CH 2 ) ppm.
+Methyl 4-((((3S,5S,7S)-adamantan-1-yl)(methyl)amino)methyl)benzoate hydrochloride 3b Yield 90%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 10.41 (s, 1H, NH), 7.99 (d, J = 8.1 Hz, 2H), 7.83 (d, J = 8.1 Hz, 2H), 4.71 (d, J = 12.7 Hz, 1H, NCH 2 ), 4.00 (d, J = 12.7 Hz, 1H, NCH 2 ), 3.87 (s, 3H, OCH 3 ), 2.43 (d, J = 4.9 Hz, 3H, NCH 3 ), 2.20–2.16 (m, 6H), 2.10–2.07 (m, 3H), 1.66 (brs, 6H) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.31 (CO), 136.82 (C), 132.59 (2CH), 130.64 (C), 129.64 (2CH), 64.92 (C), 52.80 (OCH 3 ), 51.68 (NCH 2 ), 35.80 (3CH 2 ), 35.52 (3CH 2 ), 32.43 (NCH 3 ), 29.52 (3CH) ppm.
+Methyl 4-((((1R,3R,5R,7R)-adamantan-2-yl)(methyl)amino)methyl)benzoate 3c Yield 41%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 7.93 (d, J = 8.3 Hz, 2H), 7.46 (d, J = 8.3 Hz, 2H), 3.85 (s, 3H, OCH 3 ), 3.55 (s, 2H, NCH 2 ), 2.22 (brs, 1H), 2.13–2.10 (m, 4H), 2.01 (s, 3H, NCH 3 ), 1.86–1.81 (m, 4H), 1.70–1.65 (m, 4H), 1.44–1.42 (m, 2H) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.66 (CO), 146.90 (C), 129.60 (2CH), 129.08 (2CH), 128.44 (C), 67.36 (OCH 3 ), 57.47 (NCH 2 ), 52.47 (CHN), 38.99 (NCH 3 ), 37.68 (CH 2 ), 37.18 (2CH 2 ), 31.56 (2CH 2 ), 29.64 (2CH), 27.41 (CH), 27.07 (CH) ppm.
+Methyl 4-((methyl((1S,2S,3S,5R)-2,6,6-trimethylbicyclo[3.1.1]heptan-3-yl)amino)methyl)benzoate 3d Yield 77%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 7.92 (d, J = 8.3 Hz, 2H), 7.48 (d, J = 8.3 Hz, 2H), 3.85 (s, 3H, OCH 3 ), 3.71 (d, J = 14.0 Hz, 1H, NCH 2 ), 3.56 (d, J = 14.0 Hz, 1H, NCH 2 ), 3.11–3.05 (m, 1H, NCH), 2.30–2.24 (m, 1H), 2.00–1.92 (m, 3H), 1.90=1.84 (m, 1H), 1.77–1.74 (m, 1H), 1.18 (s, 3H, CH 3 ), 1.04 (d, J = 7.0 Hz, 3H, CH 3 ), 0.92 (s, 3H, CH 3 ), 0.91–0.88 (m, 1H) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.66 (CO), 146.73 (C), 129.53 (2CH), 129.06 (2CH), 128.60 (C), 61.57 (OCH 3 ), 58.10 (NCH 2 ), 52.48 (CHN), 47.92 (CH, NCH 3 ), 41.50 (CH), 39.03 (C), 37.64 (CH), 33.09 (CH 2 ), 28.29 (CH 3 ), 26.58 (CH 2 ), 23.59 (CH 3 ), 21.97 (CH 3 ) ppm.
+Methyl 4-((methyl((1R,2R,3R,5S)-2,6,6-trimethylbicyclo[3.1.1]heptan-3-yl)amino)methyl)benzoate 3e Yield 74%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 7.92 (d, J = 8.3 Hz, 2H), 7.48 (d, J = 8.3 Hz, 2H), 3.85 (s, 3H, OCH 3 ), 3.71 (d, J = 14.0 Hz, 1H, NCH 2 ), 3.56 (d, J = 14.0 Hz, 1H, NCH 2 ), 3.11–3.05 (m, 1H, NCH), 2.30–2.24 (m, 1H), 2.00–1.92 (m, 3H), 1.90=1.84 (m, 1H), 1.77–1.74 (m, 1H), 1.18 (s, 3H, CH 3 ), 1.04 (d, J = 7.0 Hz, 3H, CH 3 ), 0.92 (s, 3H, CH 3 ), 0.91–0.88 (m, 1H) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.66 (CO), 146.73 (C), 129.53 (2CH), 129.06 (2CH), 128.60 (C), 61.57 (OCH 3 ), 58.10 (NCH 2 ), 52.48 (CHN), 47.92 (CH, NCH 3 ), 41.50 (CH), 39.03 (C), 37.64 (CH), 33.09 (CH 2 ), 28.29 (CH 3 ), 26.58 (CH 2 ), 23.59 (CH 3 ), 21.97 (CH 3 ) ppm.
+Methyl 4-((((2R)-bicyclo[2.2.1]heptan-2-yl)(methyl)amino)methyl)benzoate 3f Yield 47%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 7.90 (d, J = 8.3 Hz, 2H), 7.42(d, J = 8.3 Hz, 2H), 3.83 (s, 3H, OCH 3 ), 3.52 (d, J = 14.2 Hz, 1H, NCH 2 ), 3.41 (d, J = 14.2 Hz, 1H, NCH 2 ), 2.39 (d, J = 4.0 Hz, 1H), 2.23 (brs, 1H), 2.14 (t, J = 5.4 Hz, 1H), 1.98 (s, 3H, NCH 3 ), 1.54–1.51 (m, 1H), 1.49–1.39 (m, 4H), 1.10–1.07 (m, 1H), 1.05–1.03 (m, 2H) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.65 (CO), 146.33 (C), 129.51 (2CH), 129.15 (2CH), 128.50 (C), 69.23 (OCH 3 ), 58.94 (NCH 3 ), 52.47 (CH, CH 3 ), 38.66 (CH), 38.12 (CH 2 ), 36.18 (CH), 35.25 (CH 2 ), 28.52 (CH 2 ), 27.75 (CH 2 ) ppm.
+Methyl 4-((methyl((1R,2R,4R)-1,7,7-trimethylbicyclo[2.2.1]heptan-2-yl)amino)methyl)benzoate 3g Yield 89%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 7.91 (d, J = 8.3 Hz, 2H), 7.45 (d, J = 8.3 Hz, 2H), 3.84 (s, 3H, OCH 3 ), 3.68 (d, J = 15.23 Hz, 1H, NCH 2 ), 3.41 (d, J = 15.2 Hz, 1H, NCH 2 ), 2.36 (dd, J = 8.7, 5.0 Hz, 1H, CHN), 2.01 (s, 3H, CH 3 ), 1.96–1.90 (m, 1H), 1.67–1.64 (m, 2H), 1.49–1.44 (m, 2H), 1.05 (s, 3H, CH 3 ), 0.97 (s, 3H, CH 3 ), 0.80 (s, 3H, CH 3 ) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.64 (CO), 147.01 (C), 129.66 (2CH), 128.42 (C), 128.40 (2CH), 72.92 (OCH 3 ), 61.77 (NCH 2 ), 52.46 (NCH 3 ), 49.78 (C), 47.25 (C), 44.79 (CH), 37.06 (CH 2 ), 35.06 (CH 2 ), 27.42 (CH 2 ), 21.11 (CH 3 ), 20.09 (CH 3 ), 14.73 (CH 3 ) ppm.
+Methyl 4-((methyl((1R,2S,4R)-1,7,7-trimethylbicyclo[2.2.1]heptan-2-yl)amino)methyl)benzoate 3h Yield 53%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 7.93 (d, J = 8.3Hz, 2H), 7.47 (d, J = 8.3 Hz, 2H), 3.85 (s, 3H, OCH 3 ), 3.64 (d, J = 14.1 Hz, 1H, NCH 2 ), 3.40 (d, J = 14.1 Hz, 1H, NCH 2 ), 2.45 (dd, J = 9.6, 2.8 Hz, 1H, NCH), 2.15–2.07 (m, 1H), 2.05–1.99 (m, 1H), 2.01 (s, 3H, NCH 3 ), 1.76–1.78 (m, 1H), 1.59 (t, J = 4.5 Hz, 1H), 1.29–1.23 (m, 2H), 1.10 (dd, J = 12.4, 3.9 Hz, 1H), 0.93 (s, 3H, CH 3 ), 0.89 (s, 3H, CH 3 ), 0.83 (s, 3H, CH 3 ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.64 (CO), 146.36 (C), 129.59 (2CH), 129.06 (2CH), 128.59 (C), 70.30 (OCH 3 ), 60.84 (NCH 2 ), 52.47 (CHN), 50.36 (C), 48.81 (C), 44.24 (NCH 3 ), 42.26 (CH), 37.60 (CH 2 ), 29.05 (CH 2 ), 27.18 (CH 2 ), 20.50 (CH 3 ), 19.04 (CH 3 ), 17.14 (CH 3 ) ppm.
+Methyl 4-((((1S,2R,3S,4R)-3-hydroxy-4,7,7-trimethylbicyclo[2.2.1]heptan-2-yl)(methyl)amino)methyl)benzoate 3i Yield 99%.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 7.92 (d, J = 8.4 Hz, 2H), 7.48 (d, J = 8.4 Hz, 2H), 4.32 (brs, 1H, OH), 3.84 (s, 3H, OCH 3 ), 3.80 (d, J = 13.7 Hz, 1H, NCH 2 ), 3.52 (d, J = 4.6 Hz, 1H, CHOH), 3.32 (d, J = 13.7 Hz, 1H, NCH 2 ), 2.45 (d, J = 6.9 Hz, 1H, CHN), 2.06–2.04 (m, 4H), 1.71–1.64 (m, 1H), 1.44–1.38 (m, 1H), 1.17 (s, 3H, CH 3 ), 1.01–0.99 (m, 2H), 0.87 (s, 3H, CH 3 ), 0.75 (s, 3H, CH 3 ) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.63 (CO), 147.71 (C), 129.62 (2CH), 129.25 (2CH), 128.69 (C), 79.45 (OCH 3 ), 73.94 (CHOH), 61.50 (NCH 2 ), 52.49 (CHNH), 49.44 (C), 46.83 (CH, NCH 3 ), 46.61 (C), 32.72 (CH 2 ), 27.79 (CH 2 ), 21.15 (CH 3 ), 21.19 (CH 3 ), 12.32 (CH 3 ) ppm.
+4.1.3.
+General Procedure for the Synthesis of Compounds 6a–i To a solution of ester 3a–i (1.35 mmol) in MeOH (10 mL) 2N NaOH (2.7 mL, 5.4 mmol) was added dropwise and the mixture was stirred at r.t.
+(monitored by TLC).
+After completion of the reaction, the mixture was acidified with 2N HCl (9 mmol, 4.5 mL) and concentrated under reduced pressure.
+The organic product was taken into CH 2 Cl 2 /MeOH (10:1).
+The solution was dried over MgSO 4 , filtered and concentrated to give the corresponding carboxylic acid in the form of ammonium salt 4a–i .
+The acid was used in the following amide coupling without further purification.
+A solution of acid 4a–i (0.2 mmol), HATU (0.076 g, 0.2 mmol) and DIPEA (0.070 g, 0.54 mmol) in DMF (2 mL) was stirred at r.t.
+for 30 min.
+Amine 5 (0.050 g, 0.18 mmol) was added and the mixture was stirred at r.t.
+for 2 h.
+The reaction was quenched with water and the formed solid was collected on a Schott filter, washed with water, and dissolved in CH 2 Cl 2 .
+The solution was dried over MgSO 4 , filtered and concentrated under reduced pressure.
+The residue was purified by flash column chromatography (silica gel, CH 2 Cl 2 /MeOH/NH 4 OH = 20:1:0.02).
+4-((Cyclohexyl(methyl)amino)methyl)-N-(4-methyl-3-((4-(pyridin-3-yl)pyrimidin-2-yl)amino)phenyl)benzamide 6a Yield 96%.
+mp 166–168 °C.
+1 H NMR (CDCl 3 , 400 MHz): δ 9.16 (d, J = 1.7 Hz, 1H), 8.61 (dd, J = 4.8, 1.5 Hz, 1H), 8.51 (d, J = 1.9 Hz, 1H), 8.45–8.43 (m, 1H), 8.42 (d, J = 5.2 Hz, 1H), 7.98 (s, 1H, NH), 7.75 (d, J = 8.2 Hz, 2H), 7.38 (d, J = 8.2 Hz, 2H), 7.33 (dd, J = 7.8, 4.8 Hz, 1H), 7.24 (dd, J = 8.2, 2.1 Hz, 1H), 7.12 (d, J = 8.2 Hz, 1H), 7.09 (d, J = 5.2 Hz, 1H), 6.98 (s, 1H, NH), 3.59 (s, 2H, NCH 2 ), 2.45–2.39 (m, 1H, Cy), 2.26 (s, 3H, CH 3 ), 2.15 (s, 3H, CH 3 ), 1.83 (d, J = 11.5 Hz, 2H, Cy), 1.75 (d, J = 12.4 Hz, 2H, Cy), 1.57 (d, J = 12.5 Hz, 2H, Cy), 1.29–1.15 (m, 4H, Cy), 1.11–1.02 (m, 1H, Cy) ppm.
+13 C NMR (CDCl 3 ,100.6 MHz): δ 165.51 (CO), 162.69 (C), 160.55 (C), 158.99 (CH), 151.42 (CH), 148.45 (CH), 137.73 (C), 136.64 (C), 134.94 (CH), 133.80 (C), 132.65 (C), 130.73 (CH), 129.13 (2CH), 127.07 (2CH), 124.18 (C), 123.72 (CH), 115.37 (CH), 113.19 (CH), 108.29 (CH), 69.66 (CHN), 53.38 (NCH 2 ), 37.56 (NCH 3 ), 28.49 (3CH 2 ), 26.24 (CH 2 ), 25.87 (2CH 2 ), 17.65 (CH 3 ) ppm.
+HRMS (HESI): Found for C 31 H 36 N 6 O [M+2H] 2+ m/z 254.14719, Theo.
+Mass.
+254.14698.
+4-((((3S,5S,7S)-Adamantan-1-yl)(methyl)amino)methyl)-N-(4-methyl-3-((4-(pyridin-3-yl)pyrimidin-2-yl)amino)phenyl)benzamide 6b Yield 96%.
+mp 132–134 °C.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 10.14 (s, 1H, NH), 9.28 (d, J = 1.6 Hz, 1H), 8.98 (s, 1H, NH), 8.69 (dd, J = 4.7, 1.6 Hz, 1H), 8.52 (d, J = 5.1 Hz, 1H), 8.49 (dt, J = 8.0, 2.0 Hz, 1H), 8.09 (d, J = 2.0 Hz, 1H), 7.90 (d, J = 7.8 Hz, 2H), 7.54–7.43 (m, 5H), 7.21 (d, J = 8.4 Hz, 1H), 3.62 (s, 2H, NCH 2 ), 2.23 (s, 3H, NCH 3 ), 2.07 (brs, 6H), 1.74 (brs, 6H), 1.63 (brs, 6H) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 165.83 (CO), 162.07 (C), 161.66 (C), 159.94 (CH), 151.86 (CH), 148.68 (CH), 146.33 (C), 138.26 (C), 137.71 (C), 134.89 (CH), 133.79 (C), 132.69 (C), 130.48 (CH), 128.47 (2CH), 128.02 (C), 127.93 (2CH), 124.25 (CH), 117.68 (2CH), 117.20 (CH), 107.97 (2CH), 53.97 (C), 53.07 (NCH 2 ), 38.85 (3CH 2 ), 36.81 (3CH 2 ), 33.87 (CH), 29.52 (2CH, NCH 3 ), 18.13 (CH 3 ) ppm.
+HRMS (HESI): Found for C 35 H 40 N 6 O [M+2H] 2+ m/z 280.16238, Theo.
+Mass.
+280.16263.
+4-((((1R,3R,5R,7R)-Adamantan-2-yl)(methyl)amino)methyl)-N-(4-methyl-3-((4-(pyridin-3-yl)pyrimidin-2-yl)amino)phenyl)benzamide 6c Yield 91%.
+mp 132–134 °C.
+1 H NMR (DMSO- d 6 , 400 MHz): δ 10.16 (s, 1H, NH), 9.28 (d, J = 1.6 Hz, 1H), 8.98 (s, 1H, NH), 8.69 (dd, J = 4.8, 1.6 Hz, 1H), 8.52 (d, J = 5.1 Hz, 1H), 8.49 (dt, J = 8.0, 1.8 Hz, 1H), 8.10 (d, J = 2.0 Hz, 1H), 7.92 (d, J = 8.3 Hz, 2H), 7.54–7.48 (m, 2H), 7.46–7.42 (m, 3H), 7.21 (d, J = 8.5 Hz, 1H), 3.56 (s, 2H, NCH 2 ), 2.23 (s, 4H, CH 3 , NCH), 2.15–2.12 (m, 4H), 2.03 (s, 3H, NCH 3 ), 1.86–1.81 (m, 4H), 1.70–1.66 (m, 4H), 1.45–1.42 (m, 2H) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 165.79 (CO), 162.07 (C), 161.66 (C), 159.93 (CH), 151.84 (CH), 148.67 (CH), 144.64 (C), 138.27 (C), 137.71 (C), 134.89 (CH), 133.95 (C), 132.68 (C), 130.48 (CH), 128.77 (2CH), 128.04 (2CH), 124.24 (CH), 117.76 (CH), 117.18 (CH), 107.97 (CH), 67.25 (CHN), 57.41 (NCH 2 ), 38.91 (NCH 3 ), 37.71 (2CH 2 ), 37.19 (CH 2 ), 31.57 (2CH 2 ), 29.66 (2CH), 27.43 (CH), 27.09 (CH), 18.13 (CH 3 ) ppm.
+HRMS (HESI): Found for C 35 H 40 N 6 O [M+2H] 2+ m/z 280.16287, Theo.
+Mass.
+280.16263.
+4-((Methyl((1S,2S,3S,5R)-2,6,6-trimethylbicyclo[3.1.1]heptan-3-yl)amino)methyl)-N-(4-methyl-3-((4-(pyridin-3-yl)pyrimidin-2-yl)amino)phenyl)benzamide 6d Yield 91%.
+mp 118–120 °C.
+[α] D 20 = +41 (c = 1.027, CHCl 3 ).
+1 H NMR (DMSO- d 6 , 400 MHz): δ 10.16 (s, 1H, NH), 9.28 (d, J = 1.6 Hz, 1H), 8.98 (s, 1H, NH), 8.69 (dd, J = 4.7, 1.6 Hz, 1H), 8.52 (d, J = 5.1 Hz, 1H), 8.49 (dt, J = 8.0, 1.8 Hz, 1H), 8.10 (d, J = 2.0 Hz, 1H), 7.92 (d, J = 8.2 Hz, 2H), 7.54–7.50 (m, 2H), 7.47 (d, J = 8.5 Hz, 2H), 7.43 (d, J = 5.1 Hz, 1H), 7.20 (d, J = 8.5 Hz, 1H), 3.71 (d, J = 13.7 Hz, 1H, NCH 2 ), 3.56 (d, J = 13.7 Hz, 1H, NCH 2 ), 3.13–3.08 (m, 1H, NCH), 2.29–2.25 (m, 1H), 2.23 (s, 3H, CH 3 ), 2.19 (s, 3H, CH 3 ), 2.01–1.92 (m, 3H), 1.90–1.85 (m, 3H), 1.78–1.75 (m, 1H), 1.18 (s, 3H, CH 3 ), 1.05 (d, J = 7.0 Hz, 3H, CH 3 ), 0.92 (s, 3H, CH 3 ), 0.91–0.89 (m, 1H) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.70 (CO), 162.07 (C), 161.66 (C), 159.93 (CH), 151.84 (CH), 148.67 (CH), 144.69 (C), 138.26 (C), 137.69 (C), 134.89 (CH), 134.02 (C), 132.69 (C), 130.48 (CH), 128.70 (2CH), 128.01 (2CH), 124.24 (CH), 117.70 (CH), 117.22 (CH), 107.97 (CH), 61.48 (CHN), 58.11 (NCH 2 ), 47.92 (CH), 41.51 (C, CH), 37.59 (NCH 3 ), 33.08 (CH 2 ), 28.28 (CH 3 ), 26.56 (CH 2 ), 23.62 (CH 3 ), 21.99 (CH 3 ), 18.12 (CH 3 ) ppm.
+HRMS (HESI): Found for C 35 H 42 N 6 O [M+2H] 2+ m/z 281.17072, Theo.
+Mass.
+281.17046.
+4-((Methyl((1R,2R,3R,5S)-2,6,6-trimethylbicyclo[3.1.1]heptan-3-yl)amino)methyl)-N-(4-methyl-3-((4-(pyridin-3-yl)pyrimidin-2-yl)amino)phenyl)benzamide 6e Yield 91%.
+mp 118–120 °C.
+[α] D 20 = -41 (c = 1.023, CHCl 3 ).
+1 H NMR (DMSO- d 6 , 400 MHz): δ 10.16 (s, 1H, NH), 9.28 (d, J = 1.6 Hz, 1H), 8.98 (s, 1H, NH), 8.69 (dd, J = 4.7, 1.6 Hz, 1H), 8.52 (d, J = 5.1 Hz, 1H), 8.49 (dt, J = 8.0, 1.8 Hz, 1H), 8.10 (d, J = 2.0 Hz, 1H), 7.92 (d, J = 8.2 Hz, 2H), 7.54–7.50 (m, 2H), 7.47 (d, J = 8.5 Hz, 2H), 7.43 (d, J = 5.1 Hz, 1H), 7.20 (d, J = 8.5 Hz, 1H), 3.71 (d, J = 13.7 Hz, 1H, NCH 2 ), 3.56 (d, J = 13.7 Hz, 1H, NCH 2 ), 3.13–3.08 (m, 1H, NCH), 2.29–2.25 (m, 1H), 2.23 (s, 3H, CH 3 ), 2.19 (s, 3H, CH 3 ), 2.01–1.92 (m, 3H), 1.90–1.85 (m, 3H), 1.78–1.75 (m, 1H), 1.18 (s, 3H, CH 3 ), 1.05 (d, J = 7.0 Hz, 3H, CH 3 ), 0.92 (s, 3H, CH 3 ), 0.91–0.89 (m, 1H) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.70 (CO), 162.07 (C), 161.66 (C), 159.93 (CH), 151.84 (CH), 148.67 (CH), 144.69 (C), 138.26 (C), 137.69 (C), 134.89 (CH), 134.02 (C), 132.69 (C), 130.48 (CH), 128.70 (2CH), 128.01 (2CH), 124.24 (CH), 117.70 (CH), 117.22 (CH), 107.97 (CH), 61.48 (CHN), 58.11 (NCH 2 ), 47.92 (CH), 41.51 (C, CH), 37.59 (NCH 3 ), 33.08 (CH 2 ), 28.28 (CH 3 ), 26.56 (CH 2 ), 23.62 (CH 3 ), 21.99 (CH 3 ), 18.12 (CH 3 ) ppm.
+HRMS (HESI): Found for C 35 H 42 N 6 O [M+2H] 2+ m/z 281.1705, Theo.
+Mass.
+281.17046.
+4-((((2R)-Bicyclo[2.2.1]heptan-2-yl)(methyl)amino)methyl)-N-(4-methyl-3-((4-(pyridin-3-yl)pyrimidin-2-yl)amino)phenyl)benzamide 6f Yield 89%.
+mp 151–153 °C.
+[α] D 20 = −1 (c = 1.014, CHCl 3 ).
+1 H NMR (DMSO- d 6 , 400 MHz): δ 10.15 (s, 1H, NH), 9.28 (d, J = 1.3 Hz, 1H), 8.98 (s, 1H, NH), 8.69 (d, J = 3.5 Hz, 1H), 8.52 (d, J = 5.1 Hz, 1H), 8.48 (d, J = 8.0 Hz, 1H), 8.08 (s, 1H), 7.90 (d, J = 7.4 Hz, 2H), 7.53 (dd, J = 7.8, 4.8 Hz, 1H), 7.49 (dd, J = 8.2, 1.6 Hz, 1H), 7.44–7.41 (m, 3H), 7.21 (d, J = 8.3 Hz, 1H), 3.54 (d, J = 13.8 Hz,2H, NCH 2 ), 3.43 (d, J = 13.8 Hz,2H, NCH 2 ), 2.43 (s, 1H), 2.25 (s, 1H), 2.23 (s, 3H, CH 3 ), 2.16 (s, 1H), 2.01 (s, 3H, CH 3 ), 1.56–1.48 (m, 2H), 1.45–1.42 (m.
+3H), 1.10–1.05 (m, 3H) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 165.73 (CO), 162.10 (C), 161.66 (C), 159.93 (CH), 151.85 (CH), 148.67 (CH), 144.09 (C), 138.26 (C), 137.68 (C), 134.88 (CH), 132.68 (C), 130.48 (CH), 128.87 (2CH), 128.05 (C), 127.99 (2CH), 124.25 (CH), 117.69 (CH), 117.21 (CH), 107.97 (CH), 69.13 (CHN), 58.86 (NCH 2 ), 38.63 (NCH 3 ), 36.19 (CH), 35.29 (2CH 2 ), 28.52 (2CH 2 ), 27.78 (CH), 18.13 (CH 3 ) ppm.
+HRMS (HESI): Found for C 32 H 36 N 6 O [M+2H] 2+ m/z 260.14700, Theo.
+Mass.
+260.14698.
+4-((Methyl((1R,2R,4R)-1,7,7-trimethylbicyclo[2.2.1]heptan-2-yl)amino)methyl)-N-(4-methyl-3-((4-(pyridin-3-yl)pyrimidin-2-yl)amino)phenyl)benzamide 6g Yield 85%.
+mp 93–96 °C.
+[α] D 20 = -42 (c = 1.026, CHCl 3 ).
+1 H NMR (DMSO- d 6 , 400 MHz): δ 10.14 (s, 1H, NH), 9.29 (d, J = 1.7 Hz, 1H), 8.98 (s, 1H, NH), 8.69 (dd, J = 4.7, 1.6 Hz, 1H), 8.52 (d, J = 5.1 Hz, 1H), 8.49 (dt, J = 8.0, 1.9 Hz, 1H), 8.10 (d, J = 1.8 Hz, 1H), 7.90 (d, J = 8.2 Hz, 2H), 7.53 (dd, J = 7.9, 4.8 Hz, 1H), 7.49 (dd, J = 8.2, 2.1 Hz, 1H), 7.46–7.43 (m, 3H), 7.21 (d, J = 8.4 Hz, 1H), 3.68 (d, J = 15.0 Hz, 1H, NCH 2 ), 3.42 (d, J = 15.0 Hz, 1H, NCH 2 ), 2.38 (dd, J = 8.5, 5.9 Hz, 1H), 2.23 (s, 3H, NCH 3 ), 2.04 (s, 3H, CH 3 ), 1.98–1.97 (m, 1H), 1.67–1.65 (m, 2H), 1.50–1.44 (m, 2H), 1.11–1.07 (m, 2H), 1.07 (s, 3H, CH 3 ), 0.99 (s, 3H, CH 3 ), 0.81 (s, 3H, CH 3 ) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 165.81 (CO), 162.07 (C), 161.66 (C), 159.93 (CH), 151.85 (CH), 148.68 (CH), 144.87 (C), 138.27 (C), 137.72 (C), 134.89 (CH), 133.97 (C), 132.69 (C), 130.48 (CH), 128.11 (2CH), 128.03 (2CH), 124.25 (CH), 117.61 (CH), 117.13 (CH), 107.97 (CH), 72.90 (CHN), 61.69 (NCH 2 ), 49.80 (C), 47.27 (C), 44.84 (CH), 40.67 (NCH 3 ), 37.07 (CH 2 ), 35.08 (CH 2 ), 27.45 (CH 2 ), 21.14 (CH 3 ), 20.07 (CH 3 ), 18.13 (CH 3 ), 14.76 (CH 3 ) ppm.
+HRMS (HESI): Found for C 35 H 42 N 6 O [M+2H] 2+ m/z 281.17018, Theo.
+Mass.
+281.17046.
+4-((Methyl((1R,2S,4R)-1,7,7-trimethylbicyclo[2.2.1]heptan-2-yl)amino)methyl)-N-(4-methyl-3-((4-(pyridin-3-yl)pyrimidin-2-yl)amino)phenyl)benzamide 6h Yield 92%.
+mp 111–114 °C.
+[α] D 20 = +14 (c = 1.009, CHCl 3 ).
+1 H NMR (DMSO- d 6 , 400 MHz): δ 10.16 (s, 1H, NH), 9.28 (d, J = 1.7 Hz, 1H), 8.98 (s, 1H, NH), 8.69 (dd, J = 4.7, 1.4 Hz, 1H), 8.52 (d, J = 5.1 Hz, 1H), 8.49 (dt, J = 8.1, 1.9 Hz, 1H), 8.10 (d, J = 1.7 Hz, 1H), 7.92 (d, J = 8.0 Hz, 2H), 7.54–7.42 (m, 5H), 7.21 (d, J = 8.4 Hz, 1H), 3.66 (d, J = 14.1 Hz, 1H, NCH 2 ), 3.34 (d, J = 14.1 Hz, 1H, NCH 2 ), 2.46 (d, J = 7.2 Hz, 1H), 2.23 (s, 3H, NCH 3 ), 2.16–2.10 (m, 1H), 2.07–2.00 (m, 1H), 2.04 (s, 3H, CH 3 ), 1.76–1.69 (m, 1H), 1.59 (t, J = 4.1 Hz, 1H), 1.29–1.23 (m, 2H), 1.14 (d, J = 3.0 Hz, 1H), 0.97 (s, 3H, CH 3 ), 0.88 (s, 3H, CH 3 ), 0.84 (s, 3H, CH 3 ) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 166.77 (CO), 162.07 (C), 161.65 (C), 159.93 (CH), 151.84 (CH), 148.67 (CH), 144.16 (C), 138.26 (C), 137.69 (C), 134.89 (CH), 134.10 (C), 132.69 (C), 130.49 (CH), 128.75 (2CH), 128.05 (2CH), 124.25 (CH), 117.67 (CH), 117.19 (CH), 107.97 (CH), 70.22 (CHN), 60.78 (NCH 2 ), 50.36 (C), 48.82 (C), 44.25 (CH), 42.19 (NCH 3 ), 37.63 (CH 2 ), 29.07 (CH 2 ), 27.19 (CH 2 ), 20.50 (CH 3 ), 19.05 (CH 3 ), 18.12 (CH 3 ), 17.14 (CH 3 ) ppm.
+HRMS (HESI): Found for C 35 H 42 N 6 O [M+2H] 2+ m/z 281.17081, Theo.
+Mass.
+281.17046.
+4-((((1S,2R,3S,4R)-3-Hydroxy-4,7,7-trimethylbicyclo[2.2.1]heptan-2-yl)(methyl)amino)methyl)-N-(4-methyl-3-((4-(pyridin-3-yl)pyrimidin-2-yl)amino)phenyl)benzamide 6i Yield 91%.
+mp 121–124 °C.
+[α] D 20 = -4 (c = 1.025, CHCl 3 ).
+1 H NMR (DMSO- d 6 , 400 MHz): δ 10.16 (s, 1H, NH), 9.29 (d, J = 1.3 Hz, 1H), 8.98 (s, 1H, NH), 8.69 (d, J = 3.5 Hz, 1H), 8.52 (d, J = 5.1 Hz, 1H), 8.49 (dt, J = 8.1, 1.9 Hz, 1H), 8.10 (d, J = 2.0 Hz, 1H), 7.91 (d, J = 8.2 Hz, 2H), 7.54–7.47 (m, 4H), 7.44 (d, J = 5.1 Hz, 1H), 7.21 (d, J = 8.5 Hz, 1H), 4.35 (brs, 1H, OH), 3.81 (d, J = 13.4 Hz, 1H, NCH 2 ), 3.53 (d, J = 6.0 Hz, 1H, CHOH), 3.34 (d, J = 13.4 Hz, 1H, NCH 2 ), 2.47 (d, J = 6.9 Hz, 1H, CHN), 2.23 (s, 3H, NCH 3 ), 2.08 (s, 3H, CH 3 ), 2.08–2.07 (m, 1H), 1.72–1.65 (m, 1H), 1.44–1.39 (m, 1H), 1.18 (s, 3H, CH 3 ), 1.02–1.00 (m, 2H), 0.89 (s, 3H, CH 3 ), 0.76 (s, 3H, CH 3 ) ppm.
+13 C NMR (DMSO- d 6 , 100.6 MHz): δ 165.77 (CO), 162.08 (C), 161.66 (C), 159.93 (CH), 151.84 (CH), 148.67 (CH), 144.51 (C), 138.27 (C), 137.68 (C), 134.89 (CH), 134.24 (C), 132.70 (C), 130.49 (CH), 128.95 (2CH), 128.09 (2CH), 128.04 (CH), 124.26 (CH), 117.65 (CH), 117.17 (CH), 107.98 (CH), 79.42 (CHOH), 73.85 (CHN), 61.42 (NCH 2 ), 49.44 (C), 46.84 (NCH 3 ), 46.69 (C), 41.12 (CH), 32.79 (CH 2 ), 27.81 (CH 2 ), 22.19 (CH 3 ), 21.18 (CH 3 ), 18.13 (CH 3 ), 12.33 (CH 3 ) ppm.
+HRMS (HESI): Found for C 35 H 42 N 6 O 2 [M+2H] 2+ m/z 289.16818, Theo.
+Mass.
+289.16791.
+4.2.
+Cytotoxicity Screening 4.2.1.
+Cell Lines and Culture Conditions Cytotoxic activity of the test compounds was evaluated in a panel of human leukemia cell lines, including BV-173 (BCR-ABL–positive B-cell ALL), K-562 and AR-230 (chronic myeloid leukemia, BCR-ABL–positive), and LAMA-84 (CML blast crisis), as well as in the non-malignant murine fibroblast cell line CCL-1 used as a normal control.
+Cells were maintained in RPMI-1640 medium, supplemented with 10% heat-inactivated fetal bovine serum, 100 U/mL penicillin, and 100 µg/mL streptomycin, at 37 °C in a humidified atmosphere containing 5% CO 2 .
+Exponentially growing cells were seeded into 96-well plates at a density of 1–2 × 10 4 cells/well (suspension leukemia lines) or 5 × 10 3 cells/well (CCL-1 adherent cells) and allowed to equilibrate for 24 h prior to treatment.
+4.2.2.
+MTT Colorimetric Assay Cytotoxicity was assessed using the MTT colorimetric assay, which quantifies mitochondrial metabolic activity as an indirect measure of cell viability [ 42 ].
+After 72 h exposure to the test compounds (100–3.13 µM), 10 µL of MTT solution (5 mg/mL in PBS) was added to each well, followed by incubation for an additional 3–4 h at 37 °C to allow intracellular reduction of MTT and formation of formazan crystals.
+The supernatant was then carefully removed, and the crystals were solubilized in 100 µL of DMSO (or SDS/acidified isopropanol, according to standard laboratory protocol [ 42 ]).
+Absorbance was measured at 550 nm using a microplate reader, and background-corrected values were normalized to the untreated control.
+4.2.3.
+Statistical Analysis All cytotoxicity data obtained from MTT assays are expressed as mean ± standard deviation (SD) from at least three independent experiments.
+Dose–response curves and IC 50 values were calculated by nonlinear regression using a sigmoidal dose–response (variable slope) model in GraphPad Prism software v.
+7.0 (GraphPad Software, San Diego, CA, USA).
+Statistical significance between multiple treatment groups was assessed using one-way analysis of variance (ANOVA).
+p values < 0.05 were considered statistically significant.
+4.3.
+Molecular Docking Calculations The newly synthesized Imatinib derivatives were modelled using Discovery Studio Visualizer v21.1.0.20298 [ 31 ].
+Molecular docking studies were carried out against human Abelson tyrosine kinase (Abl TK) (PDB: 2HYY) [ 27 ] using GOLD v.5.2.2 (CCDC Ltd., Cambridge, UK) [ 43 ], following a protocol similar to that described previously [ 44 ].
+Briefly, docking was performed using the default settings with Chem PLP scoring function, a rigid protein, and flexible ligands.
+The binding site was defined as all residues within 6 Å of the co-crystallized Imatinib in the Abl TK complex.
+Redocking of Imatinib was conducted to validate the reliability of docking protocol.
+The resulting RMSD value between the crystallographic and predicted binding poses was 0.6691 Å, confirming that the protocol is suitable for this system and accurately reproduces the experimental binding mode.
+4.4.
+Proteome Profiling Phospho-kinase expression and phosphorylation profiling was performed using the Proteome Profiler Human Phospho-Kinase Array Kit (ARY003C, R&D Systems) according to the manufacturer’s instructions.
+AR-230 cells were seeded at equal density and exposed for 48 h to 6a , 6d , or imatinib at their respective IC 50 concentrations, alongside an untreated control.
+Following treatment, cells were harvested, washed with cold PBS, and lysed in the kit-provided lysis buffer supplemented with protease and phosphatase inhibitors.
+Total protein concentrations were determined by BCA assay to ensure equal loading across all arrays.
+Equal amounts of lysate from each condition were incubated overnight with pre-blocked nitrocellulose membranes spotted with capture antibodies against 43 key human kinases and phospho-kinase sites.
+After extensive washing, membranes were incubated with a cocktail of HRP-conjugated detection antibodies, and chemiluminescent signals were developed using an enhanced ECL substrate.
+Arrays were imaged under identical exposure settings, and signal intensities of duplicate spots were quantified by densitometry using ImageJ software v 1.0.
+Semi-quantitative comparisons of changes in kinase expression and phosphorylation levels between treated samples ( 6a , 6d , imatinib) and untreated control were generated, and the most pronounced alterations were visualized in a heatmap.
+5.
+Conclusions In this study, we designed and synthesized a series of novel analogues of imatinib modified with bulky aliphatic cycles to interrogate how structural variations at the terminal ring influence BCR-ABL inhibition and downstream signaling.
+Docking studies confirmed that all derivatives adopt conserved binding orientations within the ATP-binding pocket, maintaining key hydrogen-bonding and π-interactions characteristic of the parent drug.
+However, the introduction of distinct terpene moieties markedly altered the electrostatic and steric environment, providing a mechanistic basis for the observed differences in biological activity.
+Cytotoxicity profiling revealed that all analogues outperform imatinib in chronic-phase CML cells, with 6d (camphane-type (+)-isopinocampheyl) and 6a (flexible cyclohexyl) emerging as the most potent.
+Phosphokinase and proteome-wide analyses demonstrated that these compounds converge on canonical BCR-ABL downstream nodes, including STAT5/3/6, RSK1/2, S6K1/p70, and Pyk2.
+Importantly, the substituent dictated pathway bias: the flexible cyclohexyl group in 6a preferentially suppressed CREB activation, whereas the rigid isopinocampheyl moiety in 6d more strongly engaged PI3K/Akt attenuation and robust p53-driven stress responses.
+This differential signaling footprint correlates with their distinct cytotoxic and chemosensitizing profiles, highlighting the capacity of tailored monoterpenoid substituents to fine-tune kinase inhibitor effects beyond target engagement.
+Acknowledgments The molecular docking studies were performed in the Centre of Excellence in Informatics and ICT, supported by the Science and Education for Smart Growth Operational Program, as well as being co-financed by the European Union through the European Structural and Investment funds (Grant No.
+BG16RFPR002-1.014-0018-C01).
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s).
+MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+Supplementary Materials The supporting information, containing copies of 1 H and 13 C NMR spectra of all synthesized compounds and HRMS data of 6a–i , can be downloaded at: https://www.mdpi.com/article/10.3390/ph19020198/s1 .
+S1: Copies of 1 H and 13 C NMR spectra of compounds 2a–i ; S2: Copies of 1 H and 13 C NMR spectra of compounds 3a–i ; S3: Copies of 1 H and 13 C NMR spectra of the imatinib analogues 6a–i ; S4: HRMS data of the imatinib analogues 6a–i .
+Author Contributions Conceptualization: R.M.
+and G.S.; synthesis: I.P.
+and G.S.; methodology: R.M., M.A., I.D., I.P.
+and G.S.; software: R.M., M.A.
+and G.S.; validation: R.M., M.A.
+and G.S.; formal analysis: R.M., A.D.-B., M.A.
+and I.P.; investigation: R.M., A.D.-B.
+and M.A.; writing—original draft preparation: R.M., M.A.
+and G.S.; writing—review and editing: R.M., M.A.
+and G.S., visualization: R.M., M.A.
+and G.S.; supervision: R.M.; project administration: I.D.
+and G.M.
+All authors have read and agreed to the published version of the manuscript.
+Institutional Review Board Statement Not applicable.
+Informed Consent Statement Not applicable.
+Data Availability Statement The original contributions presented in this study are included in the article/ Supplementary Materials .
+Further inquiries can be directed to the corresponding authors.
+Conflicts of Interest The authors declare no conflicts of interest.
+References 1.
+Sung H.
+Ferlay J.
+Siegel R.L.
+Laversanne M.
+Soerjomataram I.
+Jemal A.
+Bray F.
+Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries CA Cancer J.
+Clin.
+2021 71 209 249 10.3322/caac.21660 33538338 2.
+Jabbour E.
+Kantarjian H.
+Chronic Myeloid Leukemia: A Review JAMA 2025 333 1618 10.1001/jama.2025.0220 40094679 3.
+Sicuranza A.
+Cavalleri A.
+Bernardi S.
+The biology of chronic myeloid leukemia: An overview of the new insights and biomarkers Front.
+Oncol.
+2025 15 1546813 10.3389/fonc.2025.1546813 40406262 4.
+Musteata V.
+Epidemiological spectrum and diagnostic management of chronic myeloid leukemia—Actualization and milestones Mold.
+J.
+Health Sci.
+2022 27 109 121 10.52645/MJHS.2022.1.10 5.
+Jabbour E.
+Kantarjian H.
+Chronic myeloid leukemia: 2025 update on diagnosis, therapy, and monitoring Am.
+J.
+Hematol.
+2024 99 2191 2212 10.1002/ajh.27443 39093014 6.
+Apperley J.F.
+Milojkovic D.
+Cross N.C.P.
+Hjorth-Hansen H.
+Hochhaus A.
+Kantarjian H.
+Lipton J.H.
+Malhotra H.
+Niederwieser D.
+Radich J.
+2025 European LeukemiaNet recommendations for the management of chronic myeloid leukemia Leukemia 2025 39 1797 1813 10.1038/s41375-025-02664-w 40646132 7.
+Jayavel S.
+Subramanian M.
+Kesavan P.K.
+Jayavel S.
+Current and future of targeted therapies against BCR::ABL kinases J.
+Egypt.
+Natl.
+Cancer Inst.
+2025 37 12 10.1186/s43046-025-00263-5 8.
+Rinaldi I.
+Winston K.
+Chronic Myeloid Leukemia, from Pathophysiology to Treatment-Free Remission: A Narrative Literature Review J.
+Blood Med.
+2023 14 261 277 10.2147/JBM.S382090 37051025 9.
+Shammas T.
+Peiris M.N.
+Meyer A.N.
+Donoghue D.J.
+BCR-ABL: The molecular mastermind behind chronic myeloid leukemia Cytokine Growth Factor Rev.
+2025 83 45 58 10.1016/j.cytogfr.2025.05.001 40360311 10.
+Pluk H.
+Dorey K.
+Superti-Furga G.
+Autoinhibition of c-Abl Cell 2002 108 247 259 10.1016/S0092-8674(02)00623-2 11832214 11.
+Osman A.E.
+Deininger M.W.
+Chronic Myeloid Leukemia: Modern therapies, current challenges and future directions Blood Rev.
+2021 49 100825 10.1016/j.blre.2021.100825 33773846 12.
+Irgit A.
+Kamıs R.
+Sever B.
+Tuyun A.F.
+Otsuka M.
+Fujita M.
+Demirci H.
+Ciftci H.
+Structure and Dynamics of the ABL1 Tyrosine Kinase and Its Important Role in Chronic Myeloid Leukemia Arch.
+Pharm.
+2025 358 e70005 10.1002/ardp.70005 40346758 13.
+Lahmouad M.
+Rachid Z.
+Bellemrrabet R.
+Zerrouk J.
+Goh K.W.
+Bouyahya A.
+Aboussalah Y.
+Mechanisms and signaling pathways of tyrosine kinase inhibitor resistance in chronic myeloid leukemia: A comprehensive review Leuk.
+Res.
+Rep.
+2025 24 100533 10.1016/j.lrr.2025.100533 40823259 14.
+Amarante-Mendes G.P.
+Rana A.
+Datoguia T.S.
+Hamerschlak N.
+Brumatti G.
+BCR-ABL1 Tyrosine Kinase Complex Signaling Transduction: Challenges to Overcome Resistance in Chronic Myeloid Leukemia Pharmaceutics 2022 14 215 10.3390/pharmaceutics14010215 35057108 15.
+Kamran S.
+Sinniah A.
+Abdulghani M.A.M.
+Alshawsh M.A.
+Therapeutic Potential of Certain Terpenoids as Anticancer Agents: A Scoping Review Cancers 2022 14 1100 10.3390/cancers14051100 35267408 16.
+Wróblewska-Łuczka P.
+Cabaj J.
+Bargieł J.
+Łuszczki J.J.
+Anticancer effect of terpenes: Focus on malignant melanoma Pharmacol.
+Rep.
+2023 75 1115 1125 10.1007/s43440-023-00512-1 37515699 17.
+Sharma A.
+Mittal V.
+Sharma D.
+An Introduction: Terpenes as Anticancer Analyzing Terpenes’ Role in Cancer Treatment Chopra B.
+Dhingra A.K.
+Kriplani P.
+Ojha R.
+IGI Global Palmdale, PA, USA 2025 1 30 10.4018/979-8-3693-6972-2.ch001 18.
+Ansari I.A.
+Akhtar M.S.
+Current Insights on the Role of Terpenoids as Anticancer Agents: A Perspective on Cancer Prevention and Treatment Natural Bio-Active Compounds Swamy M.K.
+Akhtar M.S.
+Springer Singapore 2019 53 80 10.1007/978-981-13-7205-6_3 19.
+Philipova I.
+Atanasova M.
+Mihaylova R.
+Dailova-Barzeva A.
+Ivanov S.M.
+Simeonova R.L.
+Stavrakov G.
+Design, Docking Analysis, and Structure–Activity Relationship of Ferrocene-Modified Tyrosine Kinase Inhibitors: Insights into BCR-ABL Interactions Molecules 2025 30 3101 10.3390/molecules30153101 40807285 20.
+Lipinski C.A.
+Lead- and drug-like compounds: The rule-of-five revolution Drug Discov.
+Today Technol.
+2004 1 337 341 10.1016/j.ddtec.2004.11.007 24981612 21.
+Moriguchi I.
+Hirono S.
+Liu Q.
+Nakagome I.
+Matsushita Y.
+Simple Method of Calculating Octanol/Water Partition Coefficient Chem.
+Pharm.
+Bull.
+1992 40 127 130 10.1248/cpb.40.127 22.
+Moriguchi I.
+Hirono S.
+Nakagome I.
+Hirano H.
+Comparison of Reliability of log P Values for Drugs Calculated by Several Methods Chem.
+Pharm.
+Bull.
+1994 42 976 978 10.1248/cpb.42.976 23.
+Lipinski C.A.
+Lombardo F.
+Dominy B.W.
+Feeney P.J.
+Experimental and computational approaches to estimate solubility and permeability in drug discovery and development settings Adv.
+Drug Deliv.
+Rev.
+2001 46 3 26 10.1016/S0169-409X(00)00129-0 11259830 24.
+Delaney J.S.
+ESOL: Estimating Aqueous Solubility Directly from Molecular Structure J.
+Chem.
+Inf.
+Comput.
+Sci.
+2004 44 1000 1005 10.1021/ci034243x 15154768 25.
+Arter C.
+Trask L.
+Ward S.
+Yeoh S.
+Bayliss R.
+Structural features of the protein kinase domain and targeted binding by small-molecule inhibitors J.
+Biol.
+Chem.
+2022 298 102247 10.1016/j.jbc.2022.102247 35830914 26.
+Peng Y.-H.
+Shiao H.-Y.
+Tu C.-H.
+Liu P.-M.
+Hsu J.T.-A.
+Amancha P.K.
+Wu J.-S.
+Coumar M.S.
+Chen C.-H.
+Wang S.-Y.
+Protein Kinase Inhibitor Design by Targeting the Asp-Phe-Gly (DFG) Motif: The Role of the DFG Motif in the Design of Epidermal Growth Factor Receptor Inhibitors J.
+Med.
+Chem.
+2013 56 3889 3903 10.1021/jm400072p 23611691 27.
+Cowan-Jacob S.W.
+Fendrich G.
+Floersheimer A.
+Furet P.
+Liebetanz J.
+Rummel G.
+Rheinberger P.
+Centeleghe M.
+Fabbro D.
+Manley P.W.
+Structural biology contributions to the discovery of drugs to treat chronic myelogenous leukaemia Acta Crystallogr.
+D Biol.
+Crystallogr.
+2007 63 80 93 10.1107/S0907444906047287 17164530 28.
+Aleksandrov A.
+Simonson T.
+A molecular mechanics model for imatinib and imatinib:kinase binding J.
+Comput.
+Chem.
+2010 31 1550 1560 10.1002/jcc.21442 20020482 29.
+Shan Y.
+Seeliger M.A.
+Eastwood M.P.
+Frank F.
+Xu H.
+Jensen M.Ø.
+Dror R.O.
+Kuriyan J.
+Shaw D.E.
+A conserved protonation-dependent switch controls drug binding in the Abl kinase Proc.
+Natl.
+Acad.
+Sci.
+USA 2009 106 139 144 10.1073/pnas.0811223106 19109437 30.
+Ayaz P.
+Lyczek A.
+Paung Y.
+Mingione V.R.
+Iacob R.E.
+de Waal P.W.
+Engen J.R.
+Seeliger M.A.
+Shan Y.
+Shaw D.E.
+Structural mechanism of a drug-binding process involving a large conformational change of the protein target Nat.
+Commun.
+2023 14 1885 10.1038/s41467-023-36956-5 37019905 31.
+BIOVIA Dassault Systèmes, Discovery Studio Visualizer , v21.1.0.20298 Dassault Systèmes San Diego, CA, USA 2021 32.
+Rajput A.
+Kasar A.
+Thorat S.
+Kulkarni M.
+Borneol: A Plant-Sourced Terpene with a Variety of Promising PharmacologicalEffects Nat.
+Prod.
+J.
+2023 13 e211221199200 10.2174/2210315512666211221115143 33.
+Lin L.
+Luo J.
+Wang Z.
+Cai X.
+Borneol promotes autophagic degradation of HIF-1α and enhances chemotherapy sensitivity in malignant glioma PeerJ 2024 12 e16691 10.7717/peerj.16691 38188151 34.
+Su J.
+Lai H.
+Chen J.
+Li L.
+Wong Y.-S.
+Chen T.
+Li X.
+Natural Borneol, a Monoterpenoid Compound, Potentiates Selenocystine-Induced Apoptosis in Human Hepatocellular Carcinoma Cells by Enhancement of Cellular Uptake and Activation of ROS-Mediated DNA Damage PLoS ONE 2013 8 e63502 10.1371/journal.pone.0063502 23700426 35.
+Quintero-Rincón P.
+Caballero-Gallardo K.
+Olivero-Verbel J.
+Natural anticancer agents: Prospection of medicinal and aromatic plants in modern chemoprevention and chemotherapy Nat.
+Prod.
+Bioprospect.
+2025 15 25 10.1007/s13659-025-00511-0 40257645 36.
+Naureen I.
+Saleem A.
+Aziz M.K.
+Jam A.H.
+Baneen U.-U.
+Chaudhary A.
+Munir S.
+Ahmed I.
+Borneol as Adjuvant Chemotherapy: A New Way for the Development of Novel Chemotherapeutic Haya Saudi J.
+Life Sci.
+2022 7 128 141 10.36348/sjls.2022.v07i04.002 37.
+Cao W.-Q.
+Zhai X.-Q.
+Ma J.-W.
+Fu X.-Q.
+Zhao B.-S.
+Zhang P.
+Fu X.-Y.
+Natural borneol sensitizes human glioma cells to cisplatin-induced apoptosis by triggering ROS-mediated oxidative damage and regulation of MAPKs and PI3K/AKT pathway Pharm.
+Biol.
+2020 58 72 79 10.1080/13880209.2019.1703756 31875760 38.
+Zhou C.S.G.
+Zhang L.
+Fan W.
+Borneol hinders the proliferation and induces apoptosis through the suppression of reactive oxygen species-mediated JAK1 and STAT-3 signaling in human prostate cancer cells J.
+Physiol.
+Pharmacol.
+2024 75 557 565 10.26402/jpp.2024.5.09 39.
+EL Hachlafi N.
+Aanniz T.
+El Menyiy N.
+El Baaboua A.
+El Omari N.
+Balahbib A.
+Shariati M.A.
+Zengin G.
+Fikri-Benbrahim K.
+Bouyahya A.
+In Vitro and in Vivo Biological Investigations of Camphene and Its Mechanism Insights: A Review Food Rev.
+Int.
+2023 39 1799 1826 10.1080/87559129.2021.1936007 40.
+Girola N.
+Figueiredo C.R.
+Farias C.F.
+Azevedo R.A.
+Ferreira A.K.
+Teixeira S.F.
+Capello T.M.
+Martins E.G.
+Matsuo A.L.
+Travassos L.R.
+Camphene isolated from essential oil of Piper cernuum (Piperaceae) induces intrinsic apoptosis in melanoma cells and displays antitumor activity in vivo Biochem.
+Biophys.
+Res.
+Commun.
+2015 467 928 934 10.1016/j.bbrc.2015.10.041 26471302 41.
+Schröder M.
+Petrova M.
+Vlahova Z.
+Dobrikov G.M.
+Slavchev I.
+Pasheva E.
+Ugrinova I.
+In Vitro Anticancer Activity of Two Ferrocene-Containing Camphor Sulfonamides as Promising Agents against Lung Cancer Cells Biomedicines 2022 10 1353 10.3390/biomedicines10061353 35740374 42.
+Mosmann T.
+Rapid colorimetric assay for cellular growth and survival: Application to proliferation and cytotoxicity assays J.
+Immunol.
+Methods 1983 65 55 63 10.1016/0022-1759(83)90303-4 6606682 43.
+Jones G.
+Willett P.
+Glen R.C.
+Leach A.R.
+Taylor R.
+Development and validation of a genetic algorithm for flexible docking J.
+Mol.
+Biol.
+1997 267 727 748 10.1006/jmbi.1996.0897 9126849 44.
+Nikolova-Mladenova B.
+Mihaylova R.
+Atanasova M.
+Zhivkova Z.
+Doytchinova I.
+Salicylaldehyde Benzoylhydrazones with Anticancer Activity and Selectivity: Design, Synthesis, and In Vitro Evaluation Molecules 2025 30 1015 10.3390/molecules30051015 40076242 Figures, Scheme and Tables Figure 1 Formation and molecular architecture of the Philadelphia chromosome: generation of the BCR-ABL1 fusion oncogene and its functional domains.
+Created in BioRender.
+Mihaylova, R.
+(2025) https://BioRender.com/ngiuysi (accessed on 19 January 2026).
+Figure 2 Chemical structures of imatinib, nilotinib and dasatinib bases.
+pharmaceuticals-19-00198-sch001_Scheme 1 Scheme 1 Synthesis of imatinib hybrids with bulky aliphatic moieties: ( a ) R-NH 2 , NaBH(OAc) 3 , dichloroethane, r.t., 12 h; ( b ) MeI, K 2 CO 3 , acetonitrile, r.t., 2 h–12 h; ( c ) NaOH, water/methanol, r.t., 24 h, followed by HCl acidification; ( d ) 4a–i , HATU, DIPEA, DMF, r.t., 2 h.
+Figure 5 Left: Proteome profiling of AR-230 leukemic cells: membrane antibody arrays illustrating differential modulation of cancer-related phosphokinase signaling proteins by 6a ( B ), 6d ( C ) and imatinib ( D ) vs.
+untreated Ko ( A ).
+Legend: 1-CREB; 2-STAT5a/5b; 3-Akt 1/2/3; 4-Chk-2; 5-p53; 6-p70; 7-PYK2; 8-STAT6; 9-RSK 1/2; 10-STAT3.
+Right: Heatmap of densitometric analysis showing the strongest quantitative shifts in phosphorylation of cancer-related phosphokinases, expressed as percent change relative to untreated Ko group.
+Figure 6 BCR–ABL1 Downstream signaling pathways targeted by imatinib and its 6a (cyclohexyl) and 6d (+)-isopinocampheyl) derivatives.
+Created in BioRender.
+Mihaylova, R.
+(2026) https://BioRender.com/m42g805 (accessed on 19 January 2026).
+pharmaceuticals-19-00198-t001_Table 1 Table 1 In vitro cytotoxicity [IC 50 µM ± SD] of the evaluated compounds against a panel of BCR-ABL+ leukemia cell lines and normal murine fibroblast cells.
+Compound/ Cell Line BV-173 a SI BV-173 K-562 b SI K-562 AR-230 c SI AR-230 LAMA-84 d SI LAMA-84 CCL-1 e 6a (cyclohexyl) 10.8 ± 1.4 >4.6 18.0 ± 1.1 >2.7 1.2 ± 0.4 >41.6 8.0 ± 0.7 >6.2 >50 6b (1-adamantyl) 10.8 ± 0.8 >4.6 11.8 ± 1.2 >4.2 3.7 ± 0.5 >13.5 10.0 ± 1.5 >5.0 >50 6c (2-adamantyl) 22.5 ± 2.9 >8.8 77.5 ±8.5 >2.5 3.5 ± 0.6 >57.1 51.2 ± 8.3 >3.9 >200 6d (+)-isopinocampheyl 5.3 ± 0.6 >9.4 2.6 ± 0.2 >19.2 1.1 ± 0.2 >45.4 3.7 ± 0.5 >13.5 >50 6e (-)-isopinocampheyl 4.3 ± 0.3 >11.6 4.1 ± 0.3 >12.1 2.1 ± 0.5 >23.8 6.8 ± 0.3 >7.3 >50 6f (norbornyl) 5.5 ± 0.6 >9.0 15.2 ± 1.0 >3.2 2.5 ± 0.4 >20.0 6.8 ± 0.6 >7.3 >50 6g (isobornyl) 3.2 ± 0.7 >62.5 3.7 ± 0.7 >54.0 4.4 ± 1.3 >45.4 19.3 ± 4.2 >10.3 >200 6h (bornyl) 14.1 ± 2.0 >3.5 8.2 ± 0.8 >6.0 5.5 ± 0.3 >9.0 10.6 ± 0.4 >4.7 >50 6i (isoborneol) 8.6 ± 0.9 >5.8 8.6 ± 0.7 >5.8 2.7 ± 0.4 >18.5 5.1 ± 0.5 >9.8 >50 imatinib 21.5 ± 3.3 >9.3 26.9 ± 2.4 >7.4 7.7 ± 1.5 >25.9 2.1 ± 0.3 >95.2 >200 a B-cell acute lymphoblastic leukemia; b CML, blast crisis phase cell line; c chronic-phase CML cell line; d CML, blast crisis cell line; e normal murine fibroblast cell line.
+pharmaceuticals-19-00198-t002_Table 2 Table 2 Predicted physicochemical properties, ADME characteristics, pharmacokinetic parameters, and pK a of the novel imatinib derivatives.
+Compound 6a 6b 6c 6d 6e 6f 6g 6h 6i Imatinib Mw 506.64 558.72 558.72 560.73 560.73 518.65 560.73 560.73 576.73 493.60 HBA 5 5 5 5 5 5 5 5 6 6 HBD 2 2 2 2 2 2 2 2 3 2 MLOGP 3.32 4.06 4.06 4.06 4.06 3.51 4.06 4.06 3.27 2.15 Solubility poor poor poor poor poor poor poor poor poor moderate GI absorpt high low low low low high low low low high BBB permeability no no no no no no no no no no Pgp substr yes no no no no yes no no yes yes Lipinski viol 1 1 1 1 1 1 1 1 1 0 pK a 8.55 8.63 8.10 8.59 8.59 8.55 8.60 8.60 8.02 Mw, molecular weight; HBA and HBD, numbers of hydrogen bond acceptors and hydrogen bond donors, respectively; GI absorpt, gastrointestinal absorption; Pgp substr, substrate of P-glycoprotein; Lipinski viol, Lipinski’s rule violations.
+pharmaceuticals-19-00198-t003_Table 3 Table 3 ChemPLP scores for the top-ranked docking poses of the studied compounds are presented.
+Compound 6a 6b 6c 6d 6e 6f 6g 6h 6i Imatinib ChemPLP 127.08 126.36 124.89 126.41 127.99 123.08 126.62 126.06 127.08 126.80

@@ -1,0 +1,152 @@
+[
+  {
+    "row_id": "1785",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "value missing from quote; folder=corpora/full_168/organic_synthesis/gomezayuso_2024_ugi_nitrogen_heterocycles; doi_token=10.3762/bjoc.20.154 present=True; quote_present=True; value_in_quote=False"
+  },
+  {
+    "row_id": "853",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/075_PMC12937307_Design_Synthesis_Spectral_Structural_Analysis_and_Biological_Evaluation_of_Novel_Pyrazole_; doi_token=PMC12937307 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "383",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/023_PMC9790764_Synthesis_and_Properties_of_13-Disubstituted_Ureas_and_Their_Isosteric_Analogs_Containing_; doi_token=10.1134/S107042802211001X present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "1736",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/measurement_prediction/muller_2020_dsc-tga-pcm-thermophysical; doi_token=10.3390/ma13204486 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "1642",
+    "verdict": "flagged_review",
+    "reason": "flagged_doi_unrelated_paper",
+    "details": "folder=corpora/full_168/pharma_cocrystals/dichi_2025_polyphenols_thermal; doi_token=10.3390/molecules30010055 present=False; quote_present=False; value_in_quote=True"
+  },
+  {
+    "row_id": "1853",
+    "verdict": "flagged_review",
+    "reason": "flagged_doi_unrelated_paper",
+    "details": "folder=corpora/full_168/pharma_cocrystals/chmielewska_2020_API_fatty_alcohol_eutectic; doi_token=10.3390/molecules25225314 present=False; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "256",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/013_PMC12943095_Original_Synthesis_of_Substituted_6H-Benzocchromene_Derivatives_Using_a_TDAE_and_Pd-Cataly; doi_token=PMC12943095 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "1830",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/organic_synthesis/ledermann_2023_iodoindoles_synthesis; doi_token=10.3762/bjoc.19.99 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "1263",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "value missing from quote; folder=corpora/full_168/138_PMC6146434_Annellation_of_Triazole_and_Tetrazole_Systems_onto_Pyrrolo23-dpyrimidines_Synthesis_of_Tet; doi_token=10.3390/70700554 present=True; quote_present=True; value_in_quote=False"
+  },
+  {
+    "row_id": "1662",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/067_PMC6146921_Total_and_Local_Quadratic_Indices_of_the_Molecular_Pseudographs_Atom_Adjacency_Matrix_Appl; doi_token=PMC6146921 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "1410",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/175_PMC11206905_Synthesis_and_Photophysical_Characterization_of_Fluorescent_Naphtho23-dthiazole-49-Diones_; doi_token=10.3390/molecules29122777 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "178",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/006_PMC13006720_Exploring_Novel_Nitrofuryl134ThiadiazoleBased_Derivatives_Design_Synthesis_and_Evaluation_; doi_token=10.1002/ardp.70227 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "1339",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/164_PMC7158184_The_Control_of_Microbiological_Problems; doi_token=10.1016/B978-0-12-803409-5.00008-2 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "780",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/068_PMC12986465_Synthesis_Characterization_and_Bioactivity_Investigation_of_Novel_Benzimidazole_Derivative; doi_token=10.3390/molecules31050844 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "75",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/2019_Rubstov_One-pot synthesis of thieno[3,2-e]pyrrolo[1,2-a]pyrimidine derivatives scaffold - A valuable source of PARP-1 inhibitors; doi_token=10.1021/acs.joc.9b00711 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "463",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/031_PMC6193241_Revision_of_the_Structure_and_Total_Synthesis_of_Topsentin_C; doi_token=10.1055/s-0036-1588731 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "130",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/003_PMC12943044_Design_and_Biological_Evaluation_of_Mannich-Modified_8-HydroxyquinolinePhthalimide_Hybrids; doi_token=10.3390/ph19020230 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "755",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/062_PMC3127127_A_Quantitative_Structure-Property_Relationship_QSPR_Study_of_aliphatic_alcohols_by_the_met; doi_token=10.3390/ijms12042448 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "1077",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/103_PMC6146533_A_Simple_Synthesis_of_Some_New_Thienopyridine_and_Thieno-pyrimidine_Derivatives; doi_token=10.3390/71000756 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "1571",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "folder=corpora/full_168/organic_synthesis/rios_2026_dhpm_vorinostat; doi_token=10.1039/d6ra00701e present=True; quote_present=False; value_in_quote=True"
+  },
+  {
+    "row_id": "1253",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/133_PMC6146437_Synthesis_of_New_Active_Sulfones_in_the_5-Nitroimidazole_Series; doi_token=10.3390/70400382 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "1063",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/102_PMC6236359_Synthesis_and_Electrophilic_Substitution_of_Pyrido234-kl-_acridines; doi_token=10.3390/60400300 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "1152",
+    "verdict": "flagged_review",
+    "reason": "flagged_evidence_quote_not_found",
+    "details": "folder=corpora/full_168/116_PMC12986091_Structural_Elucidation_of_Azo_and_Quinoneimine_Products_Formed_in_Diazonium-Based_Color_Re; doi_token=10.3390/molecules31050796 present=True; quote_present=False; value_in_quote=True"
+  },
+  {
+    "row_id": "1469",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/materials_inorganic/li_2025_coordination_polymer_eutectic; doi_token=10.1021/jacs.4c15317 present=True; quote_present=True; value_in_quote=True"
+  },
+  {
+    "row_id": "1451",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "folder=corpora/full_168/183_PMC9007260_Synthesis_and_Antimicrobial_Antiplatelet_and_Anticoagulant_Activities_of_New_Isatin_Deivat; doi_token=10.1134/S1070428022030101 present=True; quote_present=True; value_in_quote=True"
+  }
+]

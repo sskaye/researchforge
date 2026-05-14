@@ -1,0 +1,127 @@
+[
+  {
+    "id": "455",
+    "verdict": "pass",
+    "notes": "Paper 030_PMC6193367 (Synthesis Stuttg 2018, Verbelen et al.); compound (1f) Dioctylphosphinic Acid; paper has 'providing the pure compound as a white solid; yield: 1.52 g (52%); mp 83–84 °C' (en-dash). Quote uses hyphen '83-84'; matches under hyphen-fold/whitespace-collapse. value_celsius 83.5 = midpoint of 83-84. DOI present."
+  },
+  {
+    "id": "1770",
+    "verdict": "pass",
+    "notes": "Paper organic_synthesis/gomezayuso_2024 (bjoc.20.154); compound 5b N-Cyclohexyl-4-(2-nitrobenzyl)-5-oxo-2-phenyl-...-3-carboxamide; PDF has 'White solid (80%, 794 mg). M.p. 122-124 º C. Rf = 0.26' verbatim. value_celsius 123.0 = midpoint 122-124. DOI present in PDF."
+  },
+  {
+    "id": "1777",
+    "verdict": "pass",
+    "notes": "Paper organic_synthesis/gomezayuso_2024 (bjoc.20.154); compound 9a (3R*,4R*)-2-Benzyl-N-(tert-butyl)-...-3-carboxamide; PDF has 'Grey Solid (61%, 509 mg).       M.p. = 181-182' verbatim. value_celsius 181.5 = midpoint 181-182. DOI present."
+  },
+  {
+    "id": "819",
+    "verdict": "pass",
+    "notes": "Paper 070_PMC12985466; compound 2c White crystals; paper has '2-(Azetidin-1-yl)- N -(2-(3-methoxyphenoxy)phenyl)acetamide ( 2c ) White crystals, m.p. 91–94 °C ( i PrOH)' with en-dash; quote matches under hyphen-fold. value_celsius 92.5 = midpoint 91-94. DOI present."
+  },
+  {
+    "id": "89",
+    "verdict": "pass",
+    "notes": "Paper 2021_Moncho_Fluorocarbocations.pdf (joc.0c02731); Bicyclic 8 dehydrofluorination product; PDF has 'as described above. A white solid, mp >277 °C dec.' verbatim. value_celsius 277, relation '>'. DOI 10.1021/acs.joc.0c02731 in PDF metadata expected."
+  },
+  {
+    "id": "1178",
+    "verdict": "pass",
+    "notes": "Paper 120_PMC12986497; compound 2 (4-amino-5-(4-chlorophenyl)-2-oxo-...-3-carbonitrile); paper has 'compound 2 as purple crystals; yield 72%; MP = 277–279 °C' verbatim. value_celsius 278.0 = midpoint 277-279. DOI present."
+  },
+  {
+    "id": "175",
+    "verdict": "pass",
+    "notes": "Paper 006_PMC13006720 (ardp.70227); compound 11; paper has '( 11 ): Orange solid, mp 305°C–308°C.' verbatim. value_celsius 306.5 = midpoint 305-308. DOI present."
+  },
+  {
+    "id": "1805",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Paper organic_synthesis/khalifa_2024_thiopyrimidine_sulfonamide.pdf (molecules29194778); compound M5; PDF text is heavily scrambled (column-duplication artifact). Quote 'White powder, mp 216–219 °C, 610, 89%' is NOT a contiguous substring in either pdftotext-layout or pdftotext outputs (tokens appear interleaved with doubled fragments). Doubled-token PDF artifact, fails contiguity test. mp 216–219 is the value but the full quote string is non-contiguous."
+  },
+  {
+    "id": "1076",
+    "verdict": "pass",
+    "notes": "Paper 103_PMC6146533 (10.3390/71000756); compound 4 (4-Amino-6-phenylaminothieno[3,2-d]pyrimidin-7-carbonitrile); paper has 'recrystallized from ethanol to give white powder; m.p. >271 o C' verbatim. relation '>', value 271. DOI present."
+  },
+  {
+    "id": "1655",
+    "verdict": "pass",
+    "notes": "Paper 067_PMC6146921 (pmc); Table 8 (Bp alkyl alcohols); raw quote not contiguous (newline-collapsed in NXML extract) but whitespace-collapsed/hyphen-folded match is exact for '17. 1-hexanol  157.13 153.12 4.01 2.55 154.17 (2.83)'. compound 1-hexanol BP 157.13 °C. Per Step 6.0 substring rules whitespace-folded substring is allowed."
+  },
+  {
+    "id": "6",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Paper 2006_Sharik_Normalindine.pdf (jo061443+); paper has 'mp 120–124 °C [lit.2f 131–136 °C]'. Quote 'mp 120' is verbatim but does NOT contain the full numeric value_raw '120-124 deg C' (only 120, missing -124). Per Rule 3: 'Verbatim but missing the numeric value_raw → flagged_evidence_quote_not_found'."
+  },
+  {
+    "id": "768",
+    "verdict": "pass",
+    "notes": "Paper 062_PMC3127127 (ijms12042448); Table 5 row 57; quote '57 2,2,3-trime-3-pentanol 10.4028 3.3342 152.2 141.9 10.3' verbatim. value 152.2 °C. Compound name CSV 'trimethyl' vs paper 'trime' is intentional expansion of abbreviation, acceptable. DOI present."
+  },
+  {
+    "id": "1594",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Paper organic_synthesis/norouzi_2024_pyrrole_fused_benzazepine.pdf (bjoc.20.241); compound 4e; PDF text has compound title on one line and '(4e)' then mp 200-202 °C in separate physical-data block. CSV quote uses literal '...' to bridge the title and the data line: '...-1-carbonitrile (4e) ... Yellowish orange powder; yield: 205 mg (85%); mp 200-202 °C'. Per Rule 3: 'Contains literal ... joining non-adjacent spans → flagged_evidence_quote_not_found'."
+  },
+  {
+    "id": "222",
+    "verdict": "pass",
+    "notes": "Paper 011_PMC12943719 (pmc); compound 3e (5-Acetyl-2-ethyl-4-(5-hydroxynaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one); paper has '5 -Acetyl-2-ethyl-4-(5-hydroxynaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one, 3e Yield = 24%; mp = 234–236 °C (EtOH);' verbatim. value_celsius 235 = midpoint 234-236."
+  },
+  {
+    "id": "1229",
+    "verdict": "pass",
+    "notes": "Paper 125_PMC11843914 (d4ra07810a); compound 6j; paper has '...phenyl propane-1-sulfonate (6j) Yield: 65%; mp 176–178 °C' (en-dash). Quote uses hyphen; matches under hyphen-fold. value 176-178 -> 177 °C. DOI present."
+  },
+  {
+    "id": "673",
+    "verdict": "pass",
+    "notes": "Paper 051_PMC6236391 (pmc); compound 12 (1-Deoxy-1-(5-nitro-2-furamido)-2,3;4,5-di-O-isopropylidene-β-D-fructopyranoside); paper has 'm p 159-162 °C' verbatim (within paper text). value_celsius 160.5 = midpoint 159-162. PMC ID 6236391 is the paper folder ID (PMC source verified by folder mapping)."
+  },
+  {
+    "id": "1019",
+    "verdict": "pass",
+    "notes": "Paper 095_PMC6236356 (10.3390/60300267); compound 10 (Ethyl-1-[12-oxo-6,12-dihydro[1,2,5]triazocino[8,1-b]quinazolinyl]acetate); paper has 'as pale brown crystals (63%), m.p. > 300°C' verbatim. data_type 'decomposition' is appropriate (>300 °C heavy heterocycle). value_celsius 300, relation '>'. DOI present."
+  },
+  {
+    "id": "716",
+    "verdict": "pass",
+    "notes": "Paper 062_PMC3127127 (ijms12042448); 1-pentanol Table 5 row 5; quote '5 1-pentanol 6.8194 2.6219 137.8 134.2 3.6' verbatim. value 137.8 °C BP. DOI present."
+  },
+  {
+    "id": "148",
+    "verdict": "pass",
+    "notes": "Paper 005_PMC12987641 (cmdc.202500751); compound 9a Diphenyl(6-Phenyl-...indeno[2,1-c]quinolinyl)Phosphine Oxide; paper has '9a as a white solid, mp 232–234°C' verbatim. value_celsius 233 = midpoint 232-234. DOI present."
+  },
+  {
+    "id": "1456",
+    "verdict": "pass",
+    "notes": "Paper 183_PMC9007260 (S1070428022030101); compound 3c; paper has 'yellow powder, mp 187°C (decomp.)' verbatim. value 187 with decomp—classified data_type='decomposition' which is correct. DOI present."
+  },
+  {
+    "id": "645",
+    "verdict": "pass",
+    "notes": "Paper 049_PMC6147017 (pmc); compound 3a (5'-Methylthio-pyrazolo[4',3':16,17]androst-5-en-3β-ol); paper has 'mp (ethanol): 176.2–178.0 °C' verbatim. value_celsius 177.1 = midpoint 176.2-178.0. PMC ID matches folder."
+  },
+  {
+    "id": "1031",
+    "verdict": "flagged_evidence_quote_not_found",
+    "notes": "Paper 098_PMC6146883 (10.3390/80700541); compound 8; paper text says '8 as buff crystals (64%), mp 220°C'. CSV quote 'Compound 8 was obtained as buff crystals (64%), mp 220°C' is paraphrased—the phrase 'Compound 8 was obtained as' is NOT present in the paper. Not contiguous substring; value 220 is correct but quote is templated."
+  },
+  {
+    "id": "1182",
+    "verdict": "pass",
+    "notes": "Paper 120_PMC12986497 (ijms27052445); compound 7; paper has 'compound 7 as yellow crystals; yield 68%; MP 279–281 °C' verbatim. value 280 = midpoint 279-281. DOI present."
+  },
+  {
+    "id": "1644",
+    "verdict": "flagged_doi_unrelated_paper",
+    "notes": "Source_url DOI '10.3390/molecules30010055' is NOT present in the paper PDF (dichi_2025_polyphenols_thermal). Paper's actual DOI per its own metadata is '10.3390/molecules30010199' (visible throughout PDF: 'Molecules 2025, 30, 199' and 'https://doi.org/10.3390/molecules30010199'). The paper IS topically the correct one (Quercetin Tm/K = 596.49 is in Table 1), but the source_url DOI does not match the paper's file-stated DOI. Per v1.5 DOI-from-file-only rule, this is flagged_doi_unrelated_paper. SEPARATELY the evidence_quote 'Experimental Tm/K = 596.49 for Quercetin' is also templated, not a verbatim contiguous span from the paper (paper's Table 1 row is 'Quercetin 596.49 ...')."
+  },
+  {
+    "id": "1664",
+    "verdict": "pass",
+    "notes": "Paper 067_PMC6146921 (pmc); Table 12 row 16 methylcyclopentane BP; whitespace-folded/hyphen-folded substring match for '16 methylcyclopentane 71.812 68.68 3.14 69.84 1.98 75.98 -4.17'. value 71.812 °C BP. PMC ID matches folder."
+  }
+]

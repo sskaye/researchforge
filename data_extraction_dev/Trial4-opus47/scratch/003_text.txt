@@ -1,0 +1,900 @@
+pmc Pharmaceuticals (Basel) Pharmaceuticals (Basel) pharmaceuticals Pharmaceuticals 1424-8247 MDPI 41754771 12943044 10.3390/ph19020230 pharmaceuticals-19-00230 Article Design and Biological Evaluation of Mannich-Modified 8-Hydroxyquinoline–Phthalimide Hybrids Against Drug-Resistant Cancer Cells https://orcid.org/0000-0001-8018-0053 Hassanin Moamen A.
+Investigation Writing – original draft 1 2 Nové Márta Investigation 3 https://orcid.org/0000-0001-8085-0950 Spengler Gabriella Methodology Writing – review & editing 3 https://orcid.org/0000-0002-8571-5229 Szatmári István Conceptualization Writing – review & editing 1 4 * https://orcid.org/0009-0006-7603-2406 Simon Péter Conceptualization Writing – review & editing Investigation Writing – original draft 1 * Colarusso Ester Academic Editor Giordano Assunta Academic Editor 1 Institute of Pharmaceutical Chemistry, University of Szeged, Eötvös u.
+6, H-6720 Szeged, Hungary; moamenawad15@gmail.com 2 Department of Medicinal Chemistry, Faculty of Pharmacy, Minia University, Minia 61519, Egypt 3 Department of Medical Microbiology, Albert Szent-Györgyi Health Center and Albert Szent-Györgyi Medical School, University of Szeged, Semmelweis u.
+6, H-6725 Szeged, Hungary; bozoki-nove.marta@med.u-szeged.hu (M.N.); spengler.gabriella@med.u-szeged.hu (G.S.) 4 HUN-REN-SZTE Stereochemistry Research Group, Hungarian Research Network, University of Szeged, Eötvös u.
+6, H-6720 Szeged, Hungary * Correspondence: szatmari.istvan@szte.hu (I.S.); simon.peter.03@szte.hu (P.S.) 28 1 2026 2 2026 19 2 230 04 12 2025 21 1 2026 26 1 2026 © 2026 by the authors.
+2026 https://creativecommons.org/licenses/by/4.0/ Licensee MDPI, Basel, Switzerland.
+This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license .
+Background: 8-Hydroxyquinoline and phthalimide are two significant heterocyclic scaffolds in medicinal chemistry due to their pharmacological profiles.
+Hybridizing these pharmacophores and further modifying them via modified Mannich reactions provides a strategy to improve their physicochemical parameters and selectivity toward multidrug-resistant (MDR) cancer cells.
+Objectives: To synthesize a series of 8-hydroxyquinoline–phthalimide hybrids and their Mannich base derivatives and evaluate their cytotoxic activity and resistance-selective properties against sensitive Colo205 and resistant Colo320 cancer cell lines.
+Methods: Four hybrid compounds were synthesized by reacting 5-amino-8-hydroxyquinoline with different phthalic anhydride derivatives.
+Twelve fine-tuned derivatives were prepared by using the modified Mannich reaction.
+Cytotoxic activity was measured using the MTT assay, and relative resistance (RR) was calculated to determine selectivity toward the resistant cell line.
+P-glycoprotein (Pgp) ATPase activity was evaluated for the most active compounds.
+Results: All derivatives displayed cytotoxic activity, with higher potency toward the resistant Colo320 cell line.
+Compounds 2 and 4 showed the strongest activity against both cell lines (IC 50 down to 4.88 µM).
+Compounds 5 , 8a , 9a , and 9c retained potent activity against Colo320 (IC 50 = 9.89–22.79 µM).
+Incorporating a CH 2 – N group at position C7 substantially enhanced the selectivity for MDR cells.
+Compounds 9c , 9a , and 8a exhibited the highest selectivity, with RR values of 0.29, 0.33, and 0.35, respectively.
+Compounds 2 , 4 , 5 , 8a , and 9a showed inhibitory effects on Pgp ATPase activity.
+Conclusions: The newly synthesized HQ–phthalimide hybrids represent promising candidates for targeting MDR in colorectal cancer, with Mannich modification enhancing the selectivity toward resistant cells.
+8-hydroxyquinoline Mannich base phthalimide multidrug resistance relative resistance molecular hybridization Hungarian Research Foundation K-138871 Ministry of Human Capacities, Hungary TKP-2021-EGA-32 University of Szeged Open Access Fund 8401 The authors thank the Hungarian Research Foundation (OTKA No.
+K-138871) and the Ministry of Human Capacities, Hungary, grant TKP-2021-EGA-32; and the University of Szeged Open Access Fund, Grant ID: 8401.
+1.
+Introduction 8-Hydroxyquinolines (8-HQs) have been considered to be valuable and privileged scaffolds in medicinal chemistry due to their versatile binding affinities, chelating abilities for various transition metal ions, multitargeted molecules, and drug-like properties [ 1 , 2 ].
+In addition, an 8-HQ core is present in numerous biologically active compounds and several marketed drugs, such as clioquinol, broxyquinoline, nitroxoline, and iodoquinol [ 3 ].
+Additionally, hydroxyquinoline derivatives exhibit a wide range of pharmacological and biological effects, including anticancer [ 4 , 5 ], anti-inflammatory [ 6 ], antioxidant [ 7 ], antibacterial [ 8 ], antimalarial [ 9 , 10 ], antiviral [ 11 ], and antifungal [ 12 ].
+Furthermore, the anticancer activity of 8-HQ derivatives is related to their ability to chelate endogenous transition metals, particularly copper and iron.
+Under normal physiological conditions, these metal ions are regulated and maintained at low intracellular concentrations.
+However, in cancer cells—especially multidrug-resistant (MDR) phenotypes—metal homeostasis is dysregulated due to enhanced proliferation and increased metabolic demands, leading to elevated levels of iron and copper.
+As a result, 8-HQ derivatives can interfere with intracellular metal homeostasis, either through the deprivation of essential metal ions or by shuttling the excess of metal ions into cellular organelles such as mitochondria [ 13 , 14 , 15 , 16 ].
+In addition, the interaction of 8-HQ derivatives with copper or iron leads to the formation of redox-active metal complexes capable of undergoing redox cycling, thereby generating cytotoxic reactive oxygen species (ROS).
+These ROS can induce oxidative damage to cellular lipids, proteins, DNA, and other essential biomolecules, ultimately promoting cancer cell death [ 5 , 17 ].
+Similarly, the MDR-selective anticancer activity observed for 8-HQ derivatives is likely associated with these combined effects on iron homeostasis and copper-mediated oxidative stress [ 13 , 18 ].
+Moreover, numerous studies have proposed alternative mechanisms whereby 8-HQ derivatives inhibit key metalloenzymes, including iron-dependent ribonucleotide reductases involved in DNA synthesis and matrix metalloproteinases associated with cancer invasion and metastasis.
+Additional potential metalloenzyme targets include cytosolic and nuclear oxygenases, as well as histone deacetylases, further contributing to the anticancer activity of these compounds [ 1 , 19 , 20 ].
+The Mannich reaction is one of the most applied chemical reactions in medicinal chemistry, facilitating the synthesis of novel chemical compounds or the optimization of the physicochemical parameters of drug candidates [ 21 ].
+8-HQ has been reported as a promising substrate for the Mannich reaction, with reports indicating that Mannich bases derived from 8-HQ exhibit significant potency against human cancer cells [ 1 , 22 ].
+The literature indicates that the biological activity and physicochemical properties of 8-HQ derivatives can be fine-tuned through the incorporation of Mannich bases [ 14 , 23 ].
+A major limitation of many HQ derivatives is their poor water solubility, an unfavorable pharmaceutical property [ 24 ].
+In contrast, 8-HQ-derived Mannich bases have been reported to exhibit significantly improved water solubility due to their zwitterionic nature, and introducing a CH 2 – N moiety at the C7 position enhances their cytotoxicity and selectivity against multidrug-resistant cells [ 13 , 19 ].
+For example, compound I showed promising anticancer activity against a broad range of cancer cell lines (e.g., U251, MCF-7) [ 25 ].
+Moreover, our research group has reported different HQ–Mannich derivatives with potent antiproliferative activity, improved physicochemical parameters, and selectivity toward MDR cells.
+Notably, compound II showed moderate activity against the sensitive Colo205 cell line and was more potent against the resistant cell line Colo320 [ 24 ].
+Additionally, compound III displayed potent cytotoxicity against both the Colo205 and Colo320 cell lines, and its hydrolyzed product, compound IV , which contained an amino acid moiety, also exhibited promising cytotoxic activity against both cell lines ( Figure 1 ) [ 26 , 27 ].
+Phthalimide, a significant heterocyclic compound, exhibits diverse biological activity, including antioxidant [ 28 ], anticonvulsant [ 29 , 30 ], anti-inflammatory [ 31 ], antimycobacterial [ 32 , 33 ], analgesic [ 34 , 35 ], hypoglycemic [ 36 , 37 ], and anticancer properties [ 38 , 39 , 40 ].
+Additionally, three phthalimide derivatives—thalidomide, lenalidomide, and pomalidomide—have been approved by the FDA for cancer treatment, highlighting the significance of the phthalimide scaffold in cancer therapy [ 41 ].
+Moreover, the anticancer activity of phthalimide derivatives is associated with multiple mechanisms of action, such as the induction of tumor necrosis factor-alpha (TNF-α) synthesis; the inhibition of angiogenesis, tryptase, and HDACs; and proteolysis-targeting chimera (PROTAC) modulation [ 41 , 42 , 43 , 44 ].
+For example, compound V exhibited potent antiproliferative activity against a broad range of cancer cell lines (e.g., HepG-2, HCT-116) [ 39 ].
+Similarly, compound VI demonstrated significant anticancer activity against the MV4-11, A549, and MCF-7 cell lines [ 45 ].
+Furthermore, compound VII showed promising activity against colon cancer cell line HCT-116 ( Figure 1 ) [ 46 ].
+Recently, hybridization has emerged as a prominent strategy in cancer therapy, involving the covalent fusion of two or more pharmacophoric moieties into a single chemical structure to achieve synergistically enhanced anticancer efficacy [ 47 , 48 ].
+Such hybrid molecules are designed to exhibit broader biological activity and improved potency compared to their parent compounds, overcome drug resistance, and minimize toxicity [ 49 , 50 , 51 ].
+Therefore, this study aimed to develop hybrid molecules by combining phthalimide and 8-HQ pharmacophores and incorporating Mannich bases to enhance the biological activity and fine-tune the pharmacological and physicochemical properties of the targeted compounds ( Figure 1 ).
+The synthesized hybrids were characterized using spectroscopic techniques such as 1 H NMR, 13 C NMR, and HRMS.
+Finally, their anticancer activity was evaluated against the sensitive Colo205 and resistant Colo320 colon adenocarcinoma cell lines, along with an assessment of P-glycoprotein (Pgp) ATPase activity.
+2.
+Results and Discussion 2.1.
+Synthesis The synthesis of HQ–phthalimide hybrids 2 – 5 started with the reaction of 5-amino-8-hydroxy quinoline ( 1 ) with different phthalic anhydride derivatives in an acetic acid solvent under reflux conditions ( Scheme 1 ).
+Additionally, to fine-tune the physicochemical and pharmacological parameters of these hybrids, the modified Mannich reaction was subsequently performed using paraformaldehyde and different secondary amines, applied either as free bases or acetate salts, in 1,4-dioxane at 80 °C ( Scheme 2 and Scheme 3 ).
+Specifically, the reaction of compound 1 with the unsubstituted, nitro-, and methoxy- substituted phthalic anhydrides was carried out in acetic acid at 120 °C, and the progress of the reaction was monitored by TLC.
+After 4–6 h, the products were obtained in good yields of 83–90% by crystallization from diethyl ether, and these intermediates were then used as substrates in the modified Mannich reaction ( Scheme 1 ).
+Regarding the regular unsubstituted imide 2 , the modified Mannich reaction with morpholine 6c was conducted using both the free base and its acetate salt ( Scheme 2 ).
+When morpholine acetate was employed, the reaction proceeded faster (2 h) compared to using the free base (4 h), although the latter afforded only a slightly higher yield ( Table 1 ).
+On the other hand, when stronger bases such as piperidine and N -methyl piperazine were used as free bases, the reaction yielded complex reaction mixtures and the targeted products 6a and 6b could not be isolated because the components displayed substantially close Rf values in TLC ( Scheme 2 , Table 1 ).
+We suggest that the strong basicity of piperidine and N -methyl piperazine facilitates nucleophilic attack on the carbonyl groups of the phthalimide ring, causing ring opening simultaneously with the formation of the Mannich product.
+This assumption was supported by crude MS and crude 1 H-NMR analyses, which revealed traces of amidic N -H proton and carboxylic proton signals.
+However, this aspect requires further detailed investigation in future studies.
+Notably, when using the acetate form of piperidine and N -methyl piperazine, the reactions were progressive and yielded our targeted products 6a and 6b in short reaction times with good yields (2 h, 73% for 6a ; 3 h, 88% for 6b ).
+Based on the previous data, using secondary amines as acetate salts proved to be more effective than using free bases, as the mild acidity catalyzes iminium ion formation, stabilizes intermediates, and suppresses side reactions in the modified Mannich reaction [ 26 ].
+Furthermore, the targeted compounds 7a–c , 8a–c , and 9a–c were prepared via the modified Mannich reactions of nitro- and methoxy-substituted imides 3–5 , respectively ( Scheme 3 ).
+For the morpholine derivatives ( 7c , 8c , and 9c ), the reactions were performed using the free base or the acetate salt.
+In both cases, the isolated yields were comparable; however, the reactions proceeded faster when the acetate salts were employed.
+Regarding the piperidine and N -methyl piperazine derivatives, when using the free base forms of the amine, the reactions produced complex reaction mixtures that subdued the isolation of our desired products ( Table 1 ).
+On the other hand, when using the acetate salts of the secondary amines, the reactions were completed within significantly shorter times, affording the target compounds with moderate to good yields, ranging from 55 to 75% ( Table 1 ).
+All of the above confirmed the acetate form of the base to be more effective than the free base, in terms of both reaction progress and completion time.
+Finally, all synthesized compounds were identified by 1 H-NMR and 13 C-NMR and further confirmed by HRMS.
+The aforementioned observations were supported by preliminary DFT calculations with the B3LYP-D3 ma-def2-SVP level of theory in the gas phase.
+For compounds 2 – 5 , the visualization of the LUMO lobes ( Figure 2 ) and calculation of the corresponding Fukui indices and electrophilicity indices were conducted ( Table 2 ).
+It could be deduced that, due to the significantly high f (+) values of the phthalimide carbonyls and the spatial arrangement of the LUMO lobes, these sites are substantially prone to nucleophilic attack.
+By calculating the local electrophilicity (ω k ) (via both the ΔSCF method and Koopmans’ theorem as a point of view), theoretical data aligning with our experiments were acquired, as compound 3 could be considered the most susceptible compound to nucleophilic attack under the reaction conditions [ 52 , 53 , 54 , 55 , 56 , 57 , 58 ].
+2.2.
+Biological Evaluations 2.2.1.
+In Vitro Antiproliferative Activity The cytotoxic activity of the newly synthesized derivatives was evaluated in vitro against the sensitive Colo205 and resistant Colo320 cell lines using the MTT assay.
+Doxorubicin (DOXO) was applied as a positive control, while DMSO was used as the solvent control ( Table 3 ).
+Based on the obtained results, the compounds exhibited potent to moderate cytotoxic activity against the sensitive Colo205 and resistant Colo320 cell lines, with IC 50 values ranging from 7.22 (±1.22) µM to 64.79 (±1.92) µM for the Colo205 cell line and from 4.88 (±1.27) µM to 60.86 (±3.17) µM for the Colo320 cell line.
+Interestingly, compounds 2 and 4 showed potent cytotoxic activity against both cell lines that was comparable to that of doxorubicin, with IC 50 values of 7.22 (±1.22) and 4.88 (±1.27) µM for compound 2 and 12.58 (±1.52) and 10.28 (±0.18) µM for compound 4 in Colo205 and Colo320, respectively.
+Additionally, compounds 5 , 8a , 9a , and 9c demonstrated fair to moderate activity against the sensitive Colo205 cell line, with IC 50 values of 22.03 (±0.96), 64.79 (±1.92), 49.93 (±4.85), and 39.52 (±2.76) µM, respectively.
+However, these compounds showed significantly higher potency against the resistant Colo320 cell line, with IC 50 values of 9.89 (±1.68), 22.79 (±3.35), 16.39 (±3.31), and 11.5 (±1.42) µM, respectively.
+Compounds 6b , 6c , 7a , 8c , and 9b showed no detectable cytotoxicity in Colo205 cells but exerted fair to moderate activity against the resistant cell line.
+Conversely, compounds 7b , 7c , and 8b showed no anticancer activity against any of the measured cell lines.
+Representative dose–response curves in Colo320 cells for compounds 4 , 5 , 8a , and 9a are shown in the Supplementary Data (Figure S59) .
+Data are presented as the mean ± SD ( n = 3).
+Relative resistance (RR) values were calculated as the ratio of the IC 50 of each compound in resistant cells to that in the corresponding sensitive cells.
+Compounds with RR < 1 are considered selective toward resistant cells, whereas RR ≤ 0.5 means that compounds are highly selective toward resistant cells [ 59 ].
+The results showed that all synthesized derivatives were selective toward the resistant Colo320 tumor cells, exhibiting RR values between 0.29 and 0.82, which were markedly superior to those of the reference drug, doxorubicin (RR = 2.43).
+Although the 8-hydroxyquinoline–phthalimide hybrids displayed notable activity, with RR values ranging from 0.45 to 0.82, the aminoalkylation of these hybrids (formation of Mannich bases) significantly enhanced their selectivity to the resistant cancer cells.
+For example, compound 4 exhibited an RR value of 0.82, while its Mannich base analog 8a showed substantially improved selectivity with an RR value of 0.35.
+Similarly, the Mannich base derivatives 9a and 9c of hybrid 5 exhibited significantly decreased RR values, from 0.45 (compound 5 ) to 0.33 and 0.29, respectively.
+Overall, the tested compounds demonstrated higher efficacy and selectivity against the resistant Colo320 cell line.
+Moreover, the data confirm that introducing a CH 2 – N moiety at the seventh position of the hybrid scaffold enhances the selectivity toward multidrug-resistant cells.
+Among the tested derivatives, Mannich bases 9c , 9a , and 8a displayed the highest relative potency against the MDR Colo320 cell line, with RR values of 0.29, 0.33, and 0.35, respectively.
+The main difference between the sensitive Colo205 and the resistant Colo320 cell lines is the expression of the ABCB1 (P-glycoprotein) multidrug efflux pump.
+It can be hypothesized that these potent derivatives may act directly or indirectly on the ABCB1 transporter, rendering the cancer cells more vulnerable to chemotherapeutic agents; however, further experiments are required to investigate the modes of action of the derivatives on ABCB1.
+2.2.2.
+Pgp ATPase Activity Compounds 2 , 4 , 5 , 8a , 9a , and 9c , which showed pronounced antiproliferative activity and selectivity toward the MDR adenocarcinoma cell line Colo320, with favorable relative resistance (RR) values, were further evaluated for their interactions with P-glycoprotein (Pgp) by assessing the ATPase activity.
+The Pgp ATPase activity was measured using the Pgp-Glo TM assay to determine whether the selected compounds acted as inhibitors or stimulators of Pgp.
+The basal Pgp ATPase activity (ΔRLU basal ) was calculated as the difference between the luminescent signals of sodium orthovanadate-treated samples (RLU Na3VO4 ) and untreated samples (RLU NT ), where sodium vanadate serves as a selective and potent Pgp inhibitor ( Figure 3 ).
+The tested compounds could be classified as Pgp inhibitors or stimulators by comparing their ΔRLU values (ΔRLU TC ) with the basal Pgp ATPase activity (ΔRLU basal ).
+Verapamil (200 µM), a known Pgp substrate and ATPase stimulator, was used as a stimulator/substrate control in this assay.
+As shown in Figure 3 , at the tested concentration, compounds 2 , 4 , 5 , 8a , and 9a exhibited ΔRLU values lower than the basal level, demonstrating that these compounds are potential inhibitors of Pgp ATPase activity.
+In contrast, compound 9c displayed a ΔRLU value comparable to the basal level, suggesting that it has no effect on Pgp ATPase activity.
+Overall, the Pgp interaction profiles of the tested compounds were largely comparable, with no marked differences in activity among the most active compounds, and correlated well with their IC 50 and RR values.
+2.2.3.
+Structure–Activity Relationship (SAR) Based on the aforementioned results regarding the antiproliferative activity of the targeted compounds, it was found that the molecular hybridization of the 8-HQ scaffold with the phthalimide fragment afforded a library of compounds with notable anticancer activity.
+Among the HQ–phthalimide hybrids, the unsubstituted phthalimide derivative (compound 2 ) exhibited the highest cytotoxicity against both the Colo205 and multidrug-resistant Colo320 cell lines.
+The introduction of substituents at the phthalimide ring substantially influenced the antiproliferative activity.
+Substitution at position C4 with the representative electron-withdrawing nitro group (compound 3 ) resulted in an approximately 10-fold decrease in cytotoxic activity, while the relative resistance (RR) value remained unchanged.
+On the other hand, substitution with the electron-donating methoxy group at either the C4 or C5 position (compounds 4 and 5 , respectively) caused only a 2–3-fold reduction in potency, with the compounds still retaining good antiproliferative activity (IC 50 = 9.89–22.03 µM) on both cell lines.
+Interestingly, the substitution pattern exerted a pronounced effect on MDR selectivity.
+While the methoxy substitution at C4 (compound 4 ) slightly increased the RR value (1.2-fold), methoxy substitution at C5 (compound 5 ) showed a 1.5-fold decrease in the RR value, indicating enhanced selectivity toward the resistant Colo320 cell line (RR = 0.45).
+Consistent with the previous literature on 8-hydroxyquinoline derivatives, unsubstituted or small halogen substituents such as chloro or nitro groups at the 5-position are generally considered optimal for anticancer activity [ 14 , 19 , 26 , 27 ].
+Notably, our results demonstrate that the replacement of these small substituents with a bulkier phthalimide moiety is well tolerated and does not abolish the antiproliferative activity.
+This finding suggests that the 5-position of the 8-HQ scaffold can accommodate larger substituents and benefit from pharmacophore hybridization, potentially leading to synergistic biological effects.
+The transformation of the HQ–phthalimide hybrids to their corresponding Mannich bases generally showed a reduction in antiproliferative activity.
+For instance, Mannich derivatives of the nitro-substituted hybrid ( 7a–c ) were inactive on both cell lines.
+For hybrids 2 , 4 , and 5 , the incorporation of the N -methylpiperazine fragment, containing two basic nitrogen atoms, led to a marked loss of activity against both cell lines.
+However, the incorporation of piperidine or morpholine moieties caused moderate increases in the IC 50 values on both cell lines, reaching 5–7-fold ( 6a,c ), 2.5–5-fold ( 8a,c ), and 1.2–2-fold ( 9a,c ) compared to their parent hybrids.
+In spite of the reduced cytotoxic activity, the incorporation of the aminoalkyl moiety (Mannich modification) is a valuable tool to further fine-tune the MDR selectivity.
+Compounds 8a , 9a , and 9c exhibited significantly decreased RR values relative to their corresponding hybrids, with 8a showing a 2.5-fold reduction and 9a and 9c showing approximately 1.5-fold reductions in their RR values, highlighting their improved selectivity toward the resistant Colo320 cell line.
+2.3.
+Prediction of Physicochemical and Pharmacokinetic Properties The physicochemical properties and ADME profiles of the most active HQ–phthalimide hybrids ( 2 , 4 , and 5 ) and their Mannich base derivatives ( 8a , 9a , and 9c ) were evaluated using the SwissADME web tool, pkCSM platform, and Chemicalize (ChemAxon, Budapest, Hungary).
+All tested compounds had a molecular weight (MW) below 500 g/mol and complied with Lipinski’s rule of five, with fewer than 10 hydrogen bond acceptors (HBAs), fewer than five hydrogen bond donors (HBDs), and fewer than 10 rotatable bonds.
+The determined topological polar surface area (TPSA), reflecting the contribution of polar atoms (N and O), ranged from 70.50 Å 2 to 92.20 Å 2 , which is compatible with favorable oral bioavailability.
+Moreover, all derivatives showed predicted lipophilicity (iLogP) values lower than 5.
+In addition, the estimated water solubility was moderate for HQ–phthalimide hybrids 2 , 4 , 5 , while the Mannich derivatives 8a , 9a , and 9c had high solubility, indicating that Mannich modification largely improved the aqueous solubility.
+Furthermore, all compounds displayed high predicted bioavailability scores (F > zero) ( Table 4 ).
+Moreover, all evaluated derivatives exhibited high predicted intestinal absorption, with absorbed fractions ranging from 94.13% to 97.27%.
+Caco-2 permeability, used to model paracellular transport, indicated high permeability for compounds 2 , 4 , 5 , 8a , and 9a (values > 0.90), suggesting efficient transcellular passage, whereas compound 9c showed moderate permeability (0.638) ( Table 4 ).
+Importantly, all tested derivatives satisfied multiple drug-likeness criteria, including Lipinski, Ghose, Veber, Egan, and Muegge filters.
+In conclusion, these results suggest that the newly synthesized HQ–phthalimide hybrids possess favorable pharmacokinetic properties and promising drug-likeness characteristics.
+The predicted pK a values of the investigated compounds showed multiple ionizable sites, as presented in Table 4 .
+For the HQ–phthalimide hybrids 2 , 4 , and 5 , two pK a values were observed, corresponding to the phenolic OH group (pK a = 8.91) and the quinoline nitrogen (pK a = 3.83–3.84).
+In contrast, the Mannich base derivatives 8a , 9a , and 9c exhibited three ionization constants, including the phenolic OH group (pK a = 7.52–8.18), the quinoline nitrogen (pK a = 2.24–2.25), and the tertiary amine of the Mannich moiety (pK a = 6–80–9.62), reflecting their increased basicity and cationic character.
+In addition, the BOILED-Egg model (WLOGP vs.
+TPSA) for compounds 2 , 4 , 5 , 8a , 9a , and 9c predicted high gastrointestinal (GI) absorption, with all compounds located within the human intestinal absorption (HIA) zone [ 60 ].
+None of the evaluated compounds were predicted to penetrate the blood–brain barrier (BBB), except compound 2 , which showed BBB permeability ( Figure 4 ).
+Additionally, the model showed that compounds 8a , 9a , and 9c are predicted P-glycoprotein substrates (PGP+), whereas compounds 2 , 4 , and 5 are predicted non-P-glycoprotein substrates (PGP−).
+The latter feature suggests reduced susceptibility to active efflux mechanisms, which may have contributed to the enhanced antiproliferative activity observed for these compounds against the resistant Colo320 cell line.
+Moreover, compounds 2 , 4 , 5 , 8a , 9a , and 9c were predicted to possess high GI absorption, consistent with their desirable physicochemical properties, which fall within the optimal range for oral bioavailability.
+The bioavailability radar maps of the evaluated compounds are shown in Figure 5 and further support these findings.
+The radar maps comprise six axes, representing six crucial features for oral bioavailability: saturation (INSATU), flexibility (FLEX), lipophilicity (LIPO), size (SIZE), polarity (POLAR), and solubility (INSOLU).
+The pink region represents the range of ideal property values, and a red line indicates the compound’s expected attributes.
+While the parent HQ–phthalimide hybrids ( 2 , 4 , and 5 ) showed partial deviation from the optimal pink region, the Mannich-modified derivatives ( 8a , 9a , and 9c ) fully fit within the ideal physicochemical space, indicating improved predicted oral bioavailability.
+In order to gain further insights into the electronic descriptors in regard to biological activity, preliminary DFT calculations were conducted.
+Visualization of the electrostatic potential maps (EPM) and HOMO, HOMO-1, and LUMO lobes of compounds 2 – 5 , 6a , 8a , 9a , and 9c was conducted.
+A comparison of the electrostatic potential maps shed light on the crucial electronic differences in regard to the phthalimide moieties of compounds 2 – 5 ( Figure 6 ).
+It can be observed that, regarding compound 3 , the phthalimide ring has the lowest electron density among compounds 2 – 5 ; it can be also observed that the methoxy substituent at position 5 (compound 5 ) has a lower electron density than that of compound 4 at position 4.
+Additionally, regarding Mannich bases, it is apparent that the spatial extent of the HOMO lobes is localized around the aminoalkyl moiety, and the distribution of the HOMO-1 lobes is localized around the hydroxyquinoline scaffold ( Figure 7 ).
+However, in the case of 9a and 9c , the HOMO encompasses the core as well.
+In correspondence to the Pgp ATPase activity assessments, it can be hypothesized that the strong negative charge distribution of the morpholine ring in compound 9c decreased the Pgp ATPase activity compared to 9a , bearing a more neutral aminoalkyl moiety.
+3.
+Materials and Methods 3.1.
+Synthesis Melting points were determined on a Hinotek X-4 melting point apparatus (Ningbo, China).
+Merck Kieselgel 60 F254 plates (Merck KGaA, Darmstadt, Germany) were applied for TLC.
+1 H and 13 C NMR spectra were recorded in DMSO- d 6 or CDCl 3 solutions in 5 mm tubes at room temperature (RT) on a Bruker DRX-500 spectrometer (Bruker Biospin, Karlsruhe, Germany) at 500 ( 1 H) and 125 ( 13 C) MHz, with the deuterium signal of the solvent as the lock and TMS as an internal standard ( 1 H, 13 C).
+The HRMS flow injection analysis was performed with a Thermo Scientific Orbitrap Q-Exactive Plus Hybrid Quadrupole–Orbitrap (Thermo Fisher Scientific, Waltham, MA, USA) mass spectrometer coupled to a Waters Acquity I-Class UPLC™ (Waters, Manchester, UK).
+3.1.1.
+General Procedure for the Synthesis of Compounds 2 – 5 Equimolar amounts of 5-amino-8-hydroxyquinoline 1 (1 mmol, 160 mg) and the appropriate phthalic anhydride derivative (1 mmol) were dissolved in 10 mL glacial acetic acid in a round-bottom flask.
+The reaction mixture was refluxed (120 °C), stirred in an oil bath for 4–6 h, and monitored by TLC.
+After the reaction was completed, the solvent was removed under reduced pressure and the product was crystallized from diethyl ether.
+2-(8-Hydroxyquinolin-5-yl)isoindoline-1,3-dione ( 2 ) Brown powder (245 mg, 85% yield); m.p.
+265–268 °C; 1 H NMR (DMSO- d 6 ) δ 10.29 (s, 1H), 8.97 (d, J = 3.9 Hz, 1H), 8.27 (d, J = 8.6 Hz, 1H), 8.06–8.03 (m, 2H), 8.01–7.97 (m, 2H), 7.69–7.51 (m, 2H), 7.25 (d, J = 8.0 Hz, 1H); 13 C NMR (DMSO- d 6 ) δ 168.35, 154.91, 149.07, 138.85, 135.13, 132.52, 132.39, 129.47, 126.86, 123.97, 123.01, 118.86, 111.14; HRMS calcd for [M + H] + m/z = 291.07642, found m/z = 291.07629.
+2-(8-Hydroxyquinolin-5-yl)-4-nitroisoindoline-1,3-dione ( 3 ) Dark brown powder (278 mg, 83% yield); m.p.
+281–284 °C; 1 H NMR (DMSO- d 6 ) δ 10.29 (s, 1H), 8.92 (d, J = 3.4 Hz, 1H), 8.45–8.33 (m, 2H), 8.28 (d, J = 7.4 Hz, 1H), 8.15 (t, J = 7.8 Hz, 1H), 7.64–7.53 (m, 2H), 7.21 (d, J = 8.2 Hz, 1H).
+13 C NMR (DMSO- d 6 ) δ 166.50, 163.87, 155.15, 149.13, 145.02, 138.79, 136.68, 134.43, 132.67, 129.51, 128.78, 127.55, 126.88, 123.94, 122.98, 118.36, 111.16; HRMS calcd for [M + H] + m/z = 336.06150, found m/z = 336.06113.
+2-(8-Hydroxyquinolin-5-yl)-4-methoxyisoindoline-1,3-dione ( 4 ) Brown powder (288 mg, 90% yield); m.p.
+250–253 °C; 1 H NMR (DMSO- d 6 ) δ 10.26 (s, 1H), 8.92 (d, J = 3.1 Hz, 1H), 8.18 (d, J = 8.5 Hz, 1H), 7.90 (t, J = 7.9 Hz, 1H), 7.60–7.52 (m, 4H), 7.20 (d, J = 8.1 Hz, 1H), 4.00 (s, 3H).
+13 C NMR (DMSO- d 6 ) δ 167.96, 166.49, 157.08, 154.83, 149.04, 138.86, 137.38, 134.29, 132.46, 129.51, 126.91, 122.99, 119.23, 118.95, 117.30, 115.86, 111.13, 56.77; HRMS calcd for [M + H] + m/z = 321.08698, found m/z = 321.08676.
+2-(8-Hydroxyquinolin-5-yl)-5-methoxyisoindoline-1,3-dione ( 5 ) Black powder (288 mg, 90% yield); m.p.
+242–247 °C; 1 H NMR (DMSO- d 6 ) δ 10.29 (s, 1H), 8.92 (d, J = 3.8 Hz, 1H), 8.17 (d, J = 8.5 Hz, 1H), 7.92 (d, J = 8.3 Hz, 1H), 7.62–7.47 (m, 3H), 7.42 (d, J = 8.3 Hz, 1H), 7.19 (d, J = 8.1 Hz, 1H), 3.98 (s, 3H).
+13 C NMR (DMSO- d 6 ) δ 167.99, 167.96, 165.11, 154.86, 149.05, 138.86, 135.00, 132.42, 129.46, 126.85, 125.90, 124.14, 123.01, 120.67, 118.97, 111.13, 109.01, 56.89; HRMS calcd for [M + H] + m/z = 321.08698, found m/z = 321.08701.
+3.1.2.
+General Procedure for the Synthesis of Compounds 6a – c , 7a – c , 8a – c , and 9a – c A mixture of HQ–phthalimide hybrids 2 – 5 (0.1 mmol), paraformaldehyde (0.12 mmol, 4 mg), and the appropriate amine [piperidine acetate (0.12 mmol, 17.4 mg) for 6a – 9a , N -methylpiperazine acetate (0.12 mmol, 19.5 mg) for 6b–9b , or morpholine (0.12 mmol, 10.3 μL)/morpholine acetate (0.12 mmol, 18 mg) for 6c – 9c ] was dissolved in 2 mL of 1,4-dioxane in a sealed microwave tube.
+The reaction mixture was stirred in an oil bath at 80 °C for 2–3 h (for acetate salts) or 4–7 h (for free morpholine) and monitored by TLC.
+After the reaction was complete, the solvent was removed under reduced pressure, and the product was crystallized from diethyl ether.
+2-(8-Hydroxy-7-(piperidin-1-ylmethyl)quinolin-5-yl)isoindoline-1,3-dione ( 6a ) Dark brown powder (28 mg, 73% yield); m.p.
+209–213 °C; 1 H NMR (DMSO- d 6 ) δ 8.89 (d, J = 3.9 Hz, 1H), 8.18 (d, J = 8.5 Hz, 1H), 8.03–7.97 (m, 2H), 7.97–7.92 (m, 2H), 7.56 (s, 1H), 7.51 (dd, J = 8.5, 4.0 Hz, 1H), 3.77 (s, 2H), 2.5 (m, 4H, under solvent signal), 1.57–1.51 (m, 4H), 1.45–1.40 (m, 2H).
+13 C NMR (DMSO- d 6 ) δ 168.35, 153.38, 149.10, 138.75, 135.11, 132.39, 132.30, 130.17, 125.72, 123.94, 122.53, 119.80, 118.17, 57.94, 54.20, 25.92, 24.20; HRMS calcd for [M + H] + m/z = 388.16557, found m/z = 388.16544.
+2-(8-Hydroxy-7-((4-methylpiperazin-1-yl)methyl)quinolin-5-yl)isoindoline-1,3-dione ( 6b ) Brown powder (36 mg, 88% yield); m.p.
+255–259 °C; 1 H NMR (CDCl 3 ) δ 8.94–8.89 (m, 1H), 8.02–7.96 (m, 2H), 7.87–7.82 (m, 3H), 7.39 (d, J = 4.4 Hz, 1H), 7.26 (s, 1H, under solvent signal), 3.93 (s, 2H), 2.93–2.43 (m, 8H), 2.33 (s, 3H); 13 C NMR (CDCl 3 ) δ 168.00, 154.57, 149.22, 139.51, 134.60, 131.88, 130.91, 128.56, 125.67, 123.95, 122.01, 117.72, 117.35, 59.90, 54.87, 52.69, 45.84; HRMS calcd for [M + H] + m/z = 403.17647, found m/z = 403.17615.
+2-(8-Hydroxy-7-(morpholinomethyl)quinolin-5-yl)isoindoline-1,3-dione ( 6c ) Brown powder (33 mg, 85% yield); m.p.
+226–229 °C; 1 H NMR (DMSO- d 6 ) δ 8.91 (d, J = 3.4 Hz, 1H), 8.21 (d, J = 8.4 Hz, 1H), 8.03–7.96 (m, 2H), 7.98–7.90 (m, 2H), 7.63 (s, 1H), 7.54 (dd, J = 8.3, 3.9 Hz, 1H), 3.76 (s, 2H), 3.63–3.57 (m, 4H), 2.5 (m, 4H, under solvent signal); 13 C NMR (DMSO- d 6 ) δ 168.34, 152.75, 149.07, 138.61, 135.10, 132.49, 132.41, 130.56, 125.69, 123.94, 122.66, 119.65, 118.33, 66.63, 56.71, 53.64; HRMS calcd for [M + H] + m/z = 390.14483, found m/z = 390.14471.
+2-(8-Hydroxy-7-(piperidin-1-ylmethyl)quinolin-5-yl)-4-nitroisoindoline-1,3-dione ( 7a ) Brown powder (25 mg, 55% yield); m.p.
+238–240 °C (decomp.); 1 H NMR (DMSO- d 6 ) δ 8.90 (d, J = 3.5 Hz, 1H), 8.36 (d, J = 8.2 Hz, 2H), 8.27 (d, J = 7.4 Hz, 1H), 8.14 (t, J = 7.8 Hz, 1H), 7.62 (s, 1H), 7.54 (dd, J = 8.5, 4.1 Hz, 1H), 3.78 (s, 2H), 2.5 (m, 4H, under solvent signal), 1.58–1.52 (m, 4H), 1.45–1.40 (m, 2H); 13 C NMR (DMSO- d 6 ) δ 166.53, 163.90, 153.59, 149.18, 145.00, 138.65, 136.64, 134.45, 132.52, 130.31, 128.75, 127.51, 125.78, 123.98, 122.56, 119.67, 117.72, 57.73, 54.19, 25.82, 24.12; HRMS calcd for [M + H] + m/z = 433.15065, found m/z = 433.14487.
+2-(8-Hydroxy-7-((4-methylpiperazin-1-yl)methyl)quinolin-5-yl)-4-nitroisoindoline-1,3-dione ( 7b ) Brown powder (33 mg, 75% yield); m.p.
+267–270 °C (decomp.); 1 H NMR (CDCl 3 ) δ 8.93 (d, J = 3.5 Hz, 1H), 8.26 (d, J = 7.4 Hz, 1H), 8.22 (d, J = 8.1 Hz, 1H), 8.03 (t, J = 7.7 Hz, 1H), 7.81 (d, J = 8.5 Hz, 1H), 7.42 (dd, J = 8.4, 3.9 Hz, 1H), 7.26 (s, 1H, under solvent signal), 3.92 (s, 2H), 2.81–2.46 (m, 8H), 2.33 (s, 3H); 13 C NMR (CDCl 3 ) δ 165.48, 162.52, 155.01, 149.35, 145.52, 139.45, 135.92, 133.82, 130.58, 129.08, 128.62, 127.56, 125.36, 123.54, 122.21, 117.39, 116.81, 59.82, 54.85, 52.67, 45.83; HRMS calcd for [M + H] + m/z = 448.16155, found m/z = 448.16162.
+2-(8-Hydroxy-7-(morpholinomethyl)quinolin-5-yl)-4-nitroisoindoline-1,3-dione ( 7c ) Brown powder (30 mg, 70% yield); m.p.
+219–222 °C; 1 H NMR (DMSO- d 6 ) δ 8.92 (d, J = 3.6 Hz, 1H), 8.37 (t, J = 9.0 Hz, 2H), 8.27 (d, J = 7.4 Hz, 1H), 8.14 (t, J = 7.7 Hz, 1H), 7.68 (s, 1H), 7.56 (dd, J = 8.4, 3.8 Hz, 1H), 3.75 (s, 2H), 3.62–3.58 (m, 4H), 2.5 (m, 4H, under solvent signal); 13 C NMR (DMSO- d 6 ) δ 166.52, 163.89, 152.98, 149.14, 145.00, 138.52, 136.63, 134.47, 132.66, 130.65, 128.74, 127.50, 125.73, 124.00 (s), 122.67, 119.62, 117.86, 66.59, 56.62, 53.64; HRMS calcd for [M + H] + m/z = 435.12991, found m/z = 435.12964.
+2-(8-Hydroxy-7-(piperidin-1-ylmethyl)quinolin-5-yl)-4-methoxyisoindoline-1,3-dione ( 8a ) Brown powder (24 mg, 57% yield); m.p.
+209–213 °C; 1 H NMR (DMSO- d 6 ) δ 8.89 (d, J = 3.6 Hz, 1H), 8.13 (d, J = 8.4 Hz, 1H), 7.89 (t, J = 7.9 Hz, 1H), 7.57 (d, J = 8.5 Hz, 1H), 7.54–7.49 (m, 3H), 4.00 (s, 3H), 3.75 (s, 2H), 2.5 (m, 4H, under solvent signal), 1.56–1.52 (m, 4H), 1.45–1.39 (m, 2H); 13 C NMR (DMSO- d 6 ) δ 167.98, 166.52, 157.06, 153.27, 149.07, 138.74, 137.37, 134.29, 132.25, 130.20, 125.75, 122.50, 119.87, 119.22, 118.22, 117.29, 115.83, 57.96, 56.77, 54.21, 25.96, 24.22; HRMS calcd for [M + H] + m/z = 418.17613, found m/z = 418.17604.
+2-(8-Hydroxy-7-((4-methylpiperazin-1-yl)methyl)quinolin-5-yl)-4-methoxyisoindoline-1,3-dione ( 8b ) Brown powder (25 mg, 60% yield); m.p.
+221–225 °C; 1 H NMR (CDCl 3 ) δ 8.90 (d, J = 2.2 Hz, 1H), 7.86 (d, J = 8.4 Hz, 1H), 7.78 (t, J = 7.8 Hz, 1H), 7.58 (d, J = 7.2 Hz, 1H), 7.37 (dd, J = 8.2, 3.7 Hz, 1H), 7.31 (d, J = 8.4 Hz, 1H), 7.23 (s, 1H), 4.07 (s, 3H), 3.91 (s, 2H), 2.89–2.37 (m, 8H), 2.32 (s, 3H); 13 C NMR (CDCl 3 ) δ 167.73, 166.51, 157.19, 154.40, 149.13, 139.49, 136.70, 134.00, 131.09, 128.63, 125.77, 121.90, 117.96, 117.85, 117.37, 117.19, 116.02, 59.92, 56.46, 54.90, 52.71, 45.86; HRMS calcd for [M + H] + m/z = 433.18703, found m/z = 433.18719.
+2-(8-Hydroxy-7-(morpholinomethyl)quinolin-5-yl)-4-methoxyisoindoline-1,3-dione ( 8c ) Brown powder (30 mg, 72% yield); m.p.
+222–225 °C; 1 H NMR (DMSO- d 6 ) δ 8.90 (d, J = 3.5 Hz, 1H), 8.16 (d, J = 8.4 Hz, 1H), 7.89 (t, J = 7.9 Hz, 1H), 7.59–7.55 (m, 2H), 7.55–7.52 (m, 2H), 4.00 (s, 3H), 3.75 (s, 2H), 3.62–3.57 (m, 4H), 2.49–2.46 (m, 4H); 13 C NMR (DMSO- d 6 ) δ 167.96, 166.51, 157.06, 152.66, 149.04, 138.60, 137.36, 134.31, 132.45, 130.61, 125.73, 122.65, 119.70, 119.22, 118.38, 117.33, 115.85, 66.65, 56.77, 56.70, 53.64; HRMS calcd for [M + H] + m/z = 420.15540, found m/z = 420.15546.
+2-(8-Hydroxy-7-(piperidin-1-ylmethyl)quinolin-5-yl)-5-methoxyisoindoline-1,3-dione ( 9a ) Dark brown powder (25 mg, 60% yield); m.p.
+184–188 °C; 1 H NMR (500 MHz, CDCl 3 ) δ 8.91 (d, J = 2.8 Hz, 1H), 7.88 (d, J = 8.3 Hz, 1H), 7.84 (d, J = 8.4 Hz, 1H), 7.45 (d, J = 1.7 Hz, 1H), 7.38 (dd, J = 8.4, 4.0 Hz, 1H), 7.28 (d, J = 2.0 Hz, 1H), 7.21 (s, 1H), 3.98 (s, 3H), 3.94 (s, 2H), 2.82–2.52 (m, 4H), 1.75–1.68 (m, 4H), 1.57–1.49 (m, 2H); 13 C NMR (CDCl 3 ) δ 167.92, 167.81, 165.15, 155.32, 149.21, 139.59, 134.49, 130.93, 128.50, 125.81, 125.67, 123.68, 121.97, 120.56, 117.61, 116.67, 108.44, 60.84, 56.24, 54.00, 25.57, 23.75; HRMS calcd for [M + H] + m/z = 418.17613, found m/z = 418.17587.
+2-(8-Hydroxy-7-((4-methylpiperazin-1-yl)methyl)quinolin-5-yl)-5-methoxyisoindoline-1,3-dione ( 9b ) Brown powder (30 mg, 70% yield); m.p.
+228–232 °C; 1 H NMR (CDCl 3 ) δ 8.94–8.88 (m, 1H), 7.89 (d, J = 8.2 Hz, 1H), 7.85 (d, J = 8.4 Hz, 1H), 7.46 (s, 1H), 7.39 (dd, J = 8.0, 3.7 Hz, 1H), 7.31–7.27 (m, 1H), 7.26 (s, 1H, under solvent signal), 3.98 (s, 3H), 3.93 (s, 2H), 2.83–2.48 (m, 8H), 2.34 (s, 3H); 13 C NMR (CDCl 3 ) δ 167.89, 167.77, 165.19, 154.42, 149.18, 139.48, 134.51, 131.00, 128.61, 125.74, 125.68, 123.71, 121.99, 120.57, 117.94, 117.31, 108.47, 59.80, 56.23, 54.84, 52.61, 45.78; HRMS calcd for [M + H] + m/z = 433.18703, found m/z = 433.18796.
+2-(8-Hydroxy-7-(morpholinomethyl)quinolin-5-yl)-5-methoxyisoindoline-1,3-dione ( 9c ) Dark brown powder (30 mg, 70% yield); m.p.
+197–200 °C; 1 H NMR (DMSO- d 6 ) δ 8.91 (d, J = 4.0 Hz, 1H), 8.16 (d, J = 8.5 Hz, 1H), 7.92 (d, J = 8.3 Hz, 1H), 7.60 (s, 1H), 7.54 (dd, J = 8.5, 4.1 Hz, 1H), 7.51 (s, 1H), 7.42 (d, J = 8.3 Hz, 1H), 3.98 (s, 3H), 3.76 (s, 2H), 3.61–3.58 (m, 4H), 2.5 (m, 4H, under solvent signal); 13 C NMR (DMSO- d 6 ) δ 167.99, 167.96, 165.09, 152.74, 149.07, 138.61, 135.01, 132.41, 130.56, 125.88, 125.70, 124.15, 122.68, 120.62, 119.60, 118.41, 109.01, 66.61, 56.88, 56.68, 53.61; HRMS calcd for [M + H] + m/z = 420.15540, found m/z = 420.15521.
+3.2.
+Biology 3.2.1.
+Cell Lines and Their Maintenance The doxorubicin-sensitive Colo205 (ATCC-CCL-222) and the doxorubicin-resistant ABCB1- and LRP-expressing Colo320/MDR-LRP (ATCC-CCL-220.1) human colon adenocarcinoma cell lines were obtained from LGC Promochem in Teddington, UK.
+These cell lines were cultivated in RPMI 1640 medium supplemented with 10% heat-inactivated fetal bovine serum (FBS), 2 mM L-glutamine, 1 mM Na-pyruvate, and 10 mM HEPES, along with nystatin and gentamicin.
+The cell lines were incubated in a humidified atmosphere (5% CO 2 , 95% air) at 37 °C.
+The cells were detached with a Trypsin–Versene (EDTA) solution for 5 min at 37 °C.
+3.2.2.
+MTT Assay The effects of increasing concentrations of the compounds on cell growth were tested in 96-well flat-bottomed microtiter plates.
+Namely, 1 × 10 4 of human colonic adenocarcinoma cells in 100 μL of the medium (RPMI 1640) were added to each well, except for the medium control wells.
+Two-fold serial dilutions of the compounds were created in a separate plate (100–0.19 μM) and then transferred to the plates containing the cells.
+Plates were incubated at 37 °C for 24 h.
+At the end of incubation, 20 μL of MTT (thiazolyl blue tetrazolium bromide) solution (from a 5 mg/mL stock solution) was added to each well.
+After incubation at 37 °C for 4 h, 100 μL of sodium dodecyl sulfate (SDS) solution (10% SDS in 0.01 M HCl) was added to each well, and the plates were further incubated at 37 °C overnight.
+Cell growth was determined by measuring the optical density (OD) at 540 nm (ref.
+630 nm) with a Multiscan EX ELISA reader (Thermo Labsystems, Cheshire, WA, USA).
+Inhibition of cell growth was expressed as IC 50 values, defined as the inhibitory dose that reduced the growth of the cells exposed to the tested compounds by 50%.
+The IC 50 values and the SDs of triplicate experiments were calculated using the GraphPad Prism software version 5.00 for Windows, with a non-linear regression curve fit (GraphPad Software, San Diego, CA, USA; https://www.graphpad.com/ , GPS-2615994-LAV1-F3C99).
+Doxorubicin (from a 2 mg/mL stock solution, Teva Pharmaceuticals Ltd.
+(Budapest, Hungary) was used as a positive control.
+The solvent (DMSO) did not have any effect on cell growth at the tested concentrations.
+The relative resistance (RR) was calculated as the ratio of the IC 50 value in the resistant cancer cells to the IC 50 in the sensitive cancer cell line [ 59 ].
+3.2.3.
+Pgp ATPase Activity Assay P-glycoprotein ATPase activity was determined using the Pgp-Glo TM Assay System (Promega, WI, USA) [ 61 ].
+The assay was performed according to the manufacturer’s instructions.
+Briefly, 20 µL of 1.25 mg/mL recombinant human Pgp membrane was incubated for 5 min in 20 µL of sample at 37 °C.
+The concentrations of the compounds were adjusted to approximately match the IC 50 values obtained for the Colo320 cell line (5 µM for compound 2 ; 10 µM for 4 , 5 , and 9c ; 20 µM for 8a and 9a ).
+The treated samples contained less than 1% ( v / v ) DMSO.
+Sodium orthovanadate (Na 3 VO 4 , 100 µM) was applied as a selective inhibitor of Pgp, and verapamil (200 µM) was used as a stimulator/substrate control.
+The reaction was initiated by adding 10 µL of 25 mM MgATP, and samples were incubated at 37 °C for 40 min.
+The reaction was stopped after adding 50 µL of ATP detection reagent.
+Then, the tested compounds and controls were incubated at room temperature for 20 min.
+The emitted luciferase-generated luminescent signal was measured in a CLARIOstar Plus plate reader (BMG Labtech, Ortenberg, Germany) at 580 nm.
+The basal Pgp ATPase activity was determined by calculating the difference in the average luminescent signal between Na 3 VO 4 -treated samples (RLU Na3VO4 ) and untreated (NT) samples (RLU NT ).
+The Pgp ATPase activity in the presence of a test compound was determined by calculating the difference in the average luminescent signal between Na 3 VO 4 -treated and coumpound-treated (RLU TC ) samples.
+Possible outcomes were as follows: If ΔRLU TC > ΔRLU basal , then the tested compound was a stimulator of Pgp ATPase activity; If ΔRLU TC = ΔRLU basal , then the test compound had no effect on Pgp ATPase activity; If ΔRLU TC < ΔRLU basal , then the test compound was an inhibitor of Pgp ATPase activity.
+3.3.
+Prediction of Physicochemical and Pharmacokinetic Properties The ADME profiles, pharmacokinetic parameters, and drug-likeness of the most active compounds 2 , 4 , 5 , 8a , 9a , and 9c were predicted using the SwissADME online tool and pKCSM platform., and Chemicalize was used for pK a and logS calculations ( https://chemicalize.com ), developed by ChemAxon [ 62 , 63 ].
+The molecular structures were converted into smiles format and submitted to the online servers.
+All 3D molecular structures were built and preoptimized with the software Avogadro 2 version 1.102.1 ( https://www.openchemistry.org ) [ 64 ].
+The preliminary DFT calculations were conducted and exported with the software ORCA 6.1.1.
+using the B3LYP-D3 ma-def2-SVP level of theory in the gas phase [ 65 , 66 , 67 ].
+For the visualization and rendering of the results, Chemcraft Version 1.8, Build 682 ( https://www.chemcraftprog.com ) was used, with the HOMO, HOMO-1, and LUMO lobe contour value = 0.03; for the electrostatic potential maps, the contour value = 0.006, value range [−0.07, +0.07].
+4.
+Conclusions In this study, a series of novel 8-hydroxyquinoline–phthalimide hybrids was synthesized and transformed to their corresponding Mannich bases to fine-tune their pharmacological and physicochemical properties.
+Starting with 5-amino-8-hydroxyquinoline and phthalic anhydride derivatives, four new hybrid cores were formed, which were further subjected to a modified Mannich reaction using various secondary amines to develop twelve additional derivatives.
+Optimization of the Mannich reaction revealed that employing the acetate salt of the base was more effective than using the free base, improving the preparative efficiency and completion time.
+Based on the biological evaluations, the synthesized compounds showed cytotoxic activity against both the sensitive Colo205 and the doxorubicin-resistant Colo320 cell line, with consistently higher activity toward the resistant cell line.
+Among the tested compounds, compounds 2 and 4 exhibited the highest cytotoxic activity across both cell lines, with IC 50 values ranging from 4.88 to 12.58 µM.
+Additionally, compounds 5 , 8a , 9a , and 9c retained potent antiproliferative activity against the resistant cell line, with IC 50 values of 9.89, 22.79, 16.39, and 11.5 µM, respectively, while showing lower activity against the sensitive cell line.
+Notably, the introduction of a CH 2 – N substituent at the seventh position of the hybrid scaffold markedly improved the selectivity toward multidrug-resistant cells.
+Compounds 9c , 9a , and 8a were the most selective, showing the lowest RR values (0.29, 0.33, and 0.35, respectively), indicating their strong potential for overcoming resistance mechanisms.
+Furthermore, compounds 2 , 4 , 5 , 8a , and 9a showed potential inhibitory effects on Pgp ATPase activity.
+Overall, these findings highlight HQ–phthalimide hybrids as promising anticancer scaffolds, with Mannich modification providing a valuable strategy to improve their selectivity toward multidrug-resistant colorectal cancer cells.
+Acknowledgments The authors thank Róbert Berkecz for performing the high-resolution mass-spectrometric (HRMS) analysis.
+M.A.H.
+thanks Stipendium Hungaricum for his PhD fellowship, which is also supported by the Cultural Affairs & Mission Sector in Egypt.
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s).
+MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+Supplementary Materials The following supporting information can be downloaded at https://www.mdpi.com/article/10.3390/ph19020230/s1 : Figure S1: 1 H-NMR spectrum of compound 2 in DMSO- d 6 ; Figure S2: 13 C-NMR spectrum of compound 2 in DMSO- d 6 ; Figure S3: HRMS spectrum of compound 2 ; Figure S4: 1 H-NMR spectrum of compound 3 in DMSO- d 6 ; Figure S5: 13 C-NMR spectrum of compound 3 in DMSO- d 6 ; Figure S6: HRMS spectrum of compound 3 ; Figure S7: 1 H-NMR spectrum of compound 4 in DMSO- d 6 ; Figure S8: 13 C-NMR spectrum of compound 4 in DMSO- d 6 ; Figure S9: HRMS spectrum of compound 4 ; Figure S10: 1 H-NMR spectrum of compound 5 in DMSO- d 6 ; Figure S11: 13 C-NMR spectrum of compound 5 in DMSO- d 6 ; Figure S12: HRMS spectrum of compound 5 ; Figure S13: 1 H-NMR spectrum of compound 6a in DMSO- d 6 ; Figure S14: 1 H-NMR spectrum of compound 6a in CDCl 3 ; Figure S15: 13 C-NMR spectrum of compound 6a in DMSO- d 6 ; Figure S16: HRMS spectrum of compound 6a ; Figure S17: 1 H-NMR spectrum of compound 6b in CDCl 3 ; Figure S18: 1 H-NMR spectrum of compound 6b in DMSO- d 6 ; Figure S19: 13 C-NMR spectrum of compound 6b in CDCl 3 ; Figure S20: HRMS spectrum of compound 6b ; Figure S21: 1 H-NMR spectrum of compound 6c in DMSO- d 6 ; Figure S22: 1 H-NMR spectrum of compound 6c in CDCl 3 ; Figure S23: 13 C-NMR spectrum of compound 6c in DMSO- d 6 ; Figure S24: HRMS spectrum of compound 6c ; Figure S25: 1 H-NMR spectrum of compound 7a in DMSO- d 6 ; Figure S26: 1 H-NMR spectrum of compound 7a in CDCl 3 ; Figure S27: 13 C-NMR spectrum of compound 7a in DMSO- d 6 ; Figure S28: HRMS spectrum of compound 7a ; Figure S29: 1 H-NMR spectrum of compound 7b in CDCl 3 ; Figure S30: 1 H-NMR spectrum of compound 7b in DMSO- d 6 ; Figure S31: 13 C-NMR spectrum of compound 7b in CDCl 3 ; Figure S32: HRMS spectrum of compound 7b ; Figure S33: 1 H-NMR spectrum of compound 7c in DMSO- d 6 ; Figure S34: 1 H-NMR spectrum of compound 7c in CDCl 3 ; Figure S35: 13 C-NMR spectrum of compound 7c in DMSO- d 6 ; Figure S36: HRMS spectrum of compound 7c ; Figure S37: 1 H-NMR spectrum of compound 8a in DMSO- d 6 ; Figure S38: 1 H-NMR spectrum of compound 8a in CDCl 3 ; Figure S39: 13 C-NMR spectrum of compound 8a in DMSO- d 6 ; Figure S40: HRMS spectrum of compound 8a .
+Figure S41: 1 H-NMR spectrum of compound 8b in CDCl 3 ; Figure S42: 13 C-NMR spectrum of compound 8b in CDCl 3 ; Figure S43: HRMS spectrum of compound 8b ; Figure S44: 1 H-NMR spectrum of compound 8c in DMSO- d 6 ; Figure S45: 1 H-NMR spectrum of compound 8c in CDCl 3 ; Figure S46: 13 C-NMR spectrum of compound 8c in DMSO- d 6 ; Figure S47: HRMS spectrum of compound 8c ; Figure S48: 1 H-NMR spectrum of compound 9a in CDCl 3 ; Figure S49: 13 C-NMR spectrum of compound 9a in CDCl 3 ; Figure S50: HRMS spectrum of compound 9a ; Figure S51: 1 H-NMR spectrum of compound 9b in CDCl 3 ; Figure S52: 1 H-NMR spectrum of compound 9b in DMSO- d 6 ; Figure S53: 13 C-NMR spectrum of compound 9b in CDCl 3 ; Figure S54: HRMS spectrum of compound 9b ; Figure S55: 1 H-NMR spectrum of compound 9c in DMSO- d 6 ; Figure S56: 1 H-NMR spectrum of compound 9c in CDCl 3 ; Figure S57: 13 C-NMR spectrum of compound 9c in DMSO- d 6 ; Figure S58: HRMS spectrum of compound 9c ; Figure S59: Dose-response curves in Colo320 cells for compounds 4, 5, 8a and 9a .
+Author Contributions Conceptualization, I.S.
+and P.S.; investigation, M.N., M.A.H.
+and P.S.; methodology, G.S.; writing—original draft preparation, M.A.H.
+and P.S.; writing—review and editing, I.S., G.S.
+and P.S.
+All authors have read and agreed to the published version of the manuscript.
+Institutional Review Board Statement Not applicable.
+Informed Consent Statement Not applicable.
+Data Availability Statement The original contributions presented in this study are included in the article/ Supplementary Materials .
+Further inquiries can be directed to the corresponding authors.
+Conflicts of Interest The authors declare no conflicts of interest.
+References 1.
+Gupta R.
+Luxami V.
+Paul K.
+Insights of 8-Hydroxyquinolines: A Novel Target in Medicinal Chemistry Bioorg.
+Chem.
+2021 108 104633 10.1016/j.bioorg.2021.104633 33513476 2.
+Ribeiro N.
+Bulut I.
+Pósa V.
+Sergi B.
+Sciortino G.
+Pessoa J.C.
+Maia L.B.
+Ugone V.
+Garribba E.
+Enyedy É.A.
+Solution Chemical Properties and Anticancer Potential of 8-Hydroxyquinoline Hydrazones and Their Oxidovanadium(IV) Complexes J.
+Inorg.
+Biochem.
+2022 235 111932 10.1016/j.jinorgbio.2022.111932 35940023 3.
+Krawczyk M.
+Pastuch-Gawolek G.
+Mrozek-Wilczkiewicz A.
+Kuczak M.
+Skonieczna M.
+Musiol R.
+Synthesis of 8-Hydroxyquinoline Glycoconjugates and Preliminary Assay of Their Β1,4-GalT Inhibitory and Anti-Cancer Properties Bioorg.
+Chem.
+2019 84 326 338 10.1016/j.bioorg.2018.11.047 30530074 4.
+Ribeiro N.
+Bulut I.
+Sergi B.
+Pósa V.
+Spengler G.
+Sciortino G.
+André V.
+Ferreira L.P.
+Biver T.
+Ugone V.
+Promising Anticancer Agents Based on 8-Hydroxyquinoline Hydrazone Copper(II) Complexes Front.
+Chem.
+2023 11 1106349 10.3389/fchem.2023.1106349 37025548 5.
+Zhang Y.
+Yang J.
+Meng T.
+Qin Y.
+Li T.
+Fu J.
+Yin J.
+Nitric Oxide-Donating and Reactive Oxygen Species-Responsive Prochelators Based on 8-Hydroxyquinoline as Anticancer Agents Eur.
+J.
+Med.
+Chem.
+2021 212 113153 10.1016/j.ejmech.2021.113153 33453603 6.
+Faizi S.
+Sarfaraz T.
+Sumbul S.
+Jabeen A.
+Halim S.A.
+Mesaik M.A.
+Ul-Haq Z.
+Synthesis of Novel 8-Hydroxyquinoline Derivatives through Mannich Reaction and Their Biological Evaluation as Potential Immunomodulatory Agents Med.
+Chem.
+2020 16 531 543 10.2174/1573406415666190626121650 31241437 7.
+Chobot V.
+Hadacek F.
+Bachmann G.
+Weckwerth W.
+Kubicova L.
+Antioxidant Properties and the Formation of Iron Coordination Complexes of 8-Hydroxyquinoline Int.
+J.
+Mol.
+Sci.
+2018 19 3917 10.3390/ijms19123917 30544490 8.
+Joaquim A.R.
+Gionbelli M.P.
+Gosmann G.
+Fuentefria A.M.
+Lopes M.S.
+Fernandes de Andrade S.
+Novel Antimicrobial 8-Hydroxyquinoline-Based Agents: Current Development, Structure–Activity Relationships, and Perspectives J.
+Med.
+Chem.
+2021 64 16349 16379 10.1021/acs.jmedchem.1c01318 34779640 9.
+Srinivasa S.B.
+Quinoline Conjugates for Enhanced Antimalarial Activity: A Review on Synthesis by Molecular Hybridization and Structure-Activity Relationship (SAR) Investigation Am.
+J.
+Transl.
+Res.
+2025 17 1335 1375 10.62347/TTHX6526 40092075 10.
+Kumar S.
+Shah P.
+Tripathi S.K.
+Khan S.I.
+Singh I.P.
+Synthesis and In Vitro Evaluation of Hydrazonomethyl-Quinolin–8–Ol and Pyrazol–3–Yl-Quinolin–8–Ol Derivatives for Antimicrobial and Antimalarial Potential Med.
+Chem.
+2022 18 949 969 10.2174/1573406418666220303144929 35240963 11.
+Li B.
+Yang F.
+Zhang Z.
+Shen Y.
+Wang T.
+Zhao L.
+Qin J.
+Ling F.
+Wang G.
+Quinoline, with the Active Site of 8-hydroxyl, Efficiently Inhibits Micropterus Salmoides Rhabdovirus (MSRV) Infection in Vitro and in Vivo J.
+Fish Dis.
+2022 45 895 905 10.1111/jfd.13615 35445749 12.
+Li L.
+Wu H.
+Wang J.
+Ji Z.
+Fang T.
+Lu H.
+Yan L.
+Shen F.
+Zhang D.
+Jiang Y.
+Discovery of Novel 8-Hydroxyquinoline Derivatives with Potent In Vitro and In Vivo Antifungal Activity J.
+Med.
+Chem.
+2023 66 16364 16376 10.1021/acs.jmedchem.3c01771 37975824 13.
+Pape V.F.S.
+Gaál A.
+Szatmári I.
+Kucsma N.
+Szoboszlai N.
+Streli C.
+Fülöp F.
+Enyedy É.A.
+Szakács G.
+Relation of Metal-Binding Property and Selective Toxicity of 8-Hydroxyquinoline Derived Mannich Bases Targeting Multidrug Resistant Cancer Cells Cancers 2021 13 154 10.3390/cancers13010154 33466433 14.
+Pape V.F.S.
+May N.V.
+Gál G.T.
+Szatmári I.
+Szeri F.
+Fülöp F.
+Szakács G.
+Enyedy É.A.
+Impact of Copper and Iron Binding Properties on the Anticancer Activity of 8-Hydroxyquinoline Derived Mannich Bases Dalt.
+Trans.
+2018 47 17032 17045 10.1039/C8DT03088J 15.
+Oliveri V.
+Vecchio G.
+8-Hydroxyquinolines in Medicinal Chemistry: A Structural Perspective Eur.
+J.
+Med.
+Chem.
+2016 120 252 274 10.1016/j.ejmech.2016.05.007 27191619 16.
+Ding W.
+Lind S.E.
+Metal Ionophores—An Emerging Class of Anticancer Drugs IUBMB Life 2009 61 1013 1018 10.1002/iub.253 19859983 17.
+Barilli A.
+Atzeri C.
+Bassanetti I.
+Ingoglia F.
+Dall’Asta V.
+Bussolati O.
+Maffini M.
+Mucchino C.
+Marchiò L.
+Oxidative Stress Induced by Copper and Iron Complexes with 8-Hydroxyquinoline Derivatives Causes Paraptotic Death of HeLa Cancer Cells Mol.
+Pharm.
+2014 11 1151 1163 10.1021/mp400592n 24592930 18.
+Kovács H.
+Hajdu B.
+May N.V.
+Lihi N.
+Szatmári I.
+Szakács G.
+Enyedy É.A.
+A Comparative Study on the Iron and Copper Binding Properties of 8-Hydroxyquinoline-Derived Mannich Bases Targeting Multidrug-Resistance Cancer Cells ACS Omega 2026 11 2554 2569 10.1021/acsomega.5c06872 41585735 19.
+Pape V.F.S.
+Palkó R.
+Tóth S.
+Szabó M.J.
+Sessler J.
+Dormán G.
+Enyedy É.A.
+Soós T.
+Szatmári I.
+Szakács G.
+Structure-Activity Relationships of 8-Hydroxyquinoline-Derived Mannich Bases with Tertiary Amines Targeting Multidrug-Resistant Cancer J.
+Med.
+Chem.
+2022 65 7729 7745 10.1021/acs.jmedchem.2c00076 35613553 20.
+Seo H.
+Jackl M.K.
+Kalaj M.
+Cohen S.M.
+Developing Metal-Binding Isosteres of 8-Hydroxyquinoline as Metalloenzyme Inhibitor Scaffolds Inorg.
+Chem.
+2022 61 7631 7641 10.1021/acs.inorgchem.2c00891 35507007 21.
+Csuvik O.
+Szatmári I.
+Synthesis of Bioactive Aminomethylated 8-Hydroxyquinolines via the Modified Mannich Reaction Int.
+J.
+Mol.
+Sci.
+2023 24 7915 10.3390/ijms24097915 37175622 22.
+Roman G.
+Anticancer Activity of Mannich Bases: A Review of Recent Literature ChemMedChem 2022 17 e202200258 10.1002/cmdc.202200258 35678192 23.
+Kos J.
+Ku C.F.
+Kapustikova I.
+Oravec M.
+Zhang H.-J.
+Jampilek J.
+8-Hydroxyquinoline-2-Carboxanilides as Antiviral Agents Against Avian Influenza Virus ChemistrySelect 2019 4 4582 4587 10.1002/slct.201900873 24.
+Mészáros J.P.
+Poljarević J.M.
+Szatmári I.
+Csuvik O.
+Fülöp F.
+Szoboszlai N.
+Spengler G.
+Enyedy É.A.
+An 8-Hydroxyquinoline–Proline Hybrid with Multidrug Resistance Reversal Activity and the Solution Chemistry of Its Half-Sandwich Organometallic Ru and Rh Complexes Dalt.
+Trans.
+2020 49 7977 7992 10.1039/D0DT01256D 32500882 25.
+de O.
+Freitas L.B.
+Borgati T.F.
+de Freitas R.P.
+Ruiz A.L.T.G.
+Marchetti G.M.
+de Carvalho J.E.
+da Cunha E.F.F.
+Ramalho T.C.
+Alves R.B.
+Synthesis and Antiproliferative Activity of 8-Hydroxyquinoline Derivatives Containing a 1,2,3-Triazole Moiety Eur.
+J.
+Med.
+Chem.
+2014 84 595 604 10.1016/j.ejmech.2014.07.061 25062010 26.
+Hegedűs D.
+Szemerédi N.
+Petrinca K.
+Berkecz R.
+Spengler G.
+Szatmári I.
+Synthesis of Tumor Selective Indole and 8-Hydroxyquinoline Skeleton Containing Di-, or Triarylmethanes with Improved Cytotoxic Activity Molecules 2024 29 4176 10.3390/molecules29174176 39275023 27.
+Hegedűs D.
+Szemerédi N.
+Gubó D.
+Spengler G.
+Szatmári I.
+Synthesis, Transformations and Biological Evaluation of 5-chloro-8-Hydroxyquinoline Hybrids Eur.
+J.
+Pharm.
+Sci.
+2025 209 107084 10.1016/j.ejps.2025.107084 40194727 28.
+Bisht A.S.
+Bisht R.
+Microwave Assested Synthesis of Phthalimide Amino Derivatives with Their Antioxidant Potential Curr.
+Trends Pharm.
+Pharm.
+Chem.
+2021 3 23 27 10.18231/j.ctppc.2021.007 29.
+de Oliveira M.C.V.A.
+Viana D.C.F.
+Silva A.A.
+Pereira M.C.
+Duarte F.S.
+Pitta M.G.R.
+Pitta I.R.
+Pitta M.G.R.
+Synthesis of Novel Thiazolidinic-Phthalimide Derivatives Evaluated as New Multi-Target Antiepileptic Agents Bioorg.
+Chem.
+2022 119 105548 10.1016/j.bioorg.2021.105548 34959174 30.
+Tabatabaei Rafiei L.S.
+Asadi M.
+Hosseini F.S.
+Amanlou A.
+Biglar M.
+Amanlou M.
+Synthesis and Evaluation of Anti-Epileptic Properties of New Phthalimide-4,5-Dihydrothiazole-Amide Derivatives Polycycl.
+Aromat.
+Compd.
+2022 42 1271 1281 10.1080/10406638.2020.1776345 31.
+Heras Martinez H.M.
+Barragan E.
+Marichev K.O.
+Chávez-Flores D.
+Bugarin A.
+Phthalimides as Anti-Inflammatory Agents Future Med.
+Chem.
+2025 17 125 142 10.1080/17568919.2024.2437979 39740762 32.
+Shehta W.
+Alsaiari N.A.
+Farag B.
+Abdel-Aziz M.M.
+Youssif S.
+Elfeky S.M.
+El-Kalyoubi S.
+Osman N.A.
+Synthesis, In Vitro and In Silico Molecular Docking Studies of Novel Phthalimide–Pyrimidine Hybrid Analogues to Thalidomide as Potent Antitubercular Agents SynOpen 2025 9 73 83 10.1055/s-0043-1775424 33.
+Chi C.-L.
+Xu L.
+Li J.-J.
+Liu Y.
+Chen B.-Q.
+Synthesis, Antiproliferative, and Antimicrobial Properties of Novel Phthalimide Derivatives Med.
+Chem.
+Res.
+2022 31 120 131 10.1007/s00044-021-02823-5 34.
+Davood A.
+Saadabadi A.
+Torkaman P.
+Salehi E.
+Shafaroodi H.
+In Vivo Analgesic Activity of New N-Arylphthalimides Derivatives in Mice Recent Adv.
+Inflamm.
+Allergy Drug Discov.
+2023 17 121 126 10.2174/2772270817666230302145537 36861796 35.
+Shokri S.
+Ayazi H.
+Tamjid M.
+Ghoreishi F.
+Shokri M.
+Badakhshannouri S.
+Naderi N.
+Daraei B.
+Mousavi Z.
+Davood A.
+Hybrid Analogues of Hydrazone and Phthalimide: Design, Synthesis, In Vivo, In Vitro, and In Silico Evaluation as Analgesic Agents Curr.
+Comput.
+Aided.
+Drug Des.
+2024 20 685 696 10.2174/1573409919666230517121726 37194935 36.
+Mourad A.A.E.
+Khodir A.E.
+Saber S.
+Mourad M.A.E.
+Novel Potent and Selective DPP-4 Inhibitors: Design, Synthesis and Molecular Docking Study of Dihydropyrimidine Phthalimide Hybrids Pharmaceuticals 2021 14 144 10.3390/ph14020144 33670273 37.
+El-Zahabi M.A.
+Elbendary E.R.
+Bamanie F.H.
+Radwan M.F.
+Ghareib S.A.
+Eissa I.H.
+Design, Synthesis, Molecular Modeling and Anti-Hyperglycemic Evaluation of Phthalimide-Sulfonylurea Hybrids as PPARγ and SUR Agonists Bioorg.
+Chem.
+2019 91 103115 10.1016/j.bioorg.2019.103115 31310882 38.
+Aljuhani A.
+Nafie M.S.
+Albujuq N.R.
+Hourani W.
+Albelwi F.F.
+Darwish K.M.
+Samir Ayed A.
+Reda Aouad M.
+Rezki N.
+Unveiling the Anti-Cancer Potentiality of Phthalimide-Based Analogues Targeting Tubulin Polymerization in MCF-7 Cancerous Cells: Rational Design, Chemical Synthesis, and Biological-Coupled Computational Investigation Bioorg.
+Chem.
+2024 153 107827 10.1016/j.bioorg.2024.107827 39321715 39.
+Mansour N.I.
+El-Sayed S.M.
+El-Gohary N.S.
+Abdel-Aziz N.I.
+El-Subbagh H.I.
+Ghaly M.A.
+New Phthalimide-Based Derivatives as EGFR-TK Inhibitors: Synthesis, Biological Evaluation, and Molecular Modeling Study Bioorg.
+Chem.
+2022 127 105966 10.1016/j.bioorg.2022.105966 35728294 40.
+Pessoa C.
+Ferreira P.M.P.
+Lotufo L.V.C.
+de Moraes M.O.
+Cavalcanti S.M.T.
+Coêlho L.C.D.
+Hernandes M.Z.
+Leite A.C.L.
+De Simone C.A.
+Costa V.M.A.
+Discovery of Phthalimides as Immunomodulatory and Antitumor Drug Prototypes ChemMedChem 2010 5 523 528 10.1002/cmdc.200900525 20112332 41.
+Matore B.W.
+Banjare P.
+Sarthi A.S.
+Roy P.P.
+Singh J.
+Phthalimides Represent a Promising Scaffold for Multi-Targeted Anticancer Agents ChemistrySelect 2023 8 e202204851 10.1002/slct.202204851 42.
+Mourad A.A.E.
+Mourad M.A.E.
+Jones P.G.
+Novel HDAC/Tubulin Dual Inhibitor: Design, Synthesis and Docking Studies of α-Phthalimido-Chalcone Hybrids as Potential Anticancer Agents with Apoptosis-Inducing Activity Drug Des.
+Devel.
+Ther.
+2020 14 3111 3130 10.2147/DDDT.S256756 32848361 43.
+Aboelez M.O.
+Belal A.
+Xiang G.
+Ma X.
+Design, Synthesis, and Molecular Docking Studies of Novel Pomalidomide-Based PROTACs as Potential Anti-Cancer Agents Targeting EGFR WT and EGFR T790M J.
+Enzyme Inhib.
+Med.
+Chem.
+2022 37 1196 1211 10.1080/14756366.2022.2062338 35470756 44.
+Liang J.-J.
+Xie H.
+Yang R.-H.
+Wang N.
+Zheng Z.-J.
+Zhou C.
+Wang Y.-L.
+Wang Z.-J.
+Liu H.-M.
+Shan L.-H.
+Designed, Synthesized and Biological Evaluation of Proteolysis Targeting Chimeras (PROTACs) as AR Degraders for Prostate Cancer Treatment Bioorg.
+Med.
+Chem.
+2021 45 116331 10.1016/j.bmc.2021.116331 34364224 45.
+Donarska B.
+Świtalska M.
+Płaziński W.
+Wietrzyk J.
+Łączkowski K.Z.
+Effect of the Dichloro-Substitution on Antiproliferative Activity of Phthalimide-Thiazole Derivatives.
+Rational Design, Synthesis, Elastase, Caspase 3/7, and EGFR Tyrosine Kinase Activity and Molecular Modeling Study Bioorg.
+Chem.
+2021 110 104819 10.1016/j.bioorg.2021.104819 33752144 46.
+Abdel-Motaal M.
+Aldakhili D.A.
+Abo Elmaaty A.
+Sharaky M.
+Mourad M.A.E.
+Alzahrani A.Y.A.
+Mohamed N.A.
+Al-Karmalawy A.A.
+Design and Synthesis of Novel Tetrabromophthalimide Derivatives as Potential Tubulin Inhibitors Endowed with Apoptotic Induction for Cancer Treatment Drug Dev.
+Res.
+2024 85 e22197 10.1002/ddr.22197 38751223 47.
+Ihmaid S.K.
+Alraqa S.Y.
+Aouad M.R.
+Aljuhani A.
+Elbadawy H.M.
+Salama S.A.
+Rezki N.
+Ahmed H.E.A.
+Design of Molecular Hybrids of Phthalimide-Triazole Agents with Potent Selective MCF-7/HepG2 Cytotoxicity: Synthesis, EGFR Inhibitory Effect, and Metabolic Stability Bioorg.
+Chem.
+2021 111 104835 10.1016/j.bioorg.2021.104835 33798850 48.
+Kuang W.-B.
+Huang R.-Z.
+Qin J.-L.
+Lu X.
+Qin Q.-P.
+Zou B.-Q.
+Chen Z.-F.
+Liang H.
+Zhang Y.
+Design, Synthesis and Pharmacological Evaluation of New 3-(1H-Benzimidazol-2-Yl)Quinolin-2(1H)-One Derivatives as Potential Antitumor Agents Eur.
+J.
+Med.
+Chem.
+2018 157 139 150 10.1016/j.ejmech.2018.07.066 30092368 49.
+Bérubé G.
+An Overview of Molecular Hybrids in Drug Discovery Expert Opin.
+Drug Discov.
+2016 11 281 305 10.1517/17460441.2016.1135125 26727036 50.
+Hu Y.-Q.
+Gao C.
+Zhang S.
+Xu L.
+Xu Z.
+Feng L.-S.
+Wu X.
+Zhao F.
+Quinoline Hybrids and Their Antiplasmodial and Antimalarial Activities Eur.
+J.
+Med.
+Chem.
+2017 139 22 47 10.1016/j.ejmech.2017.07.061 28800458 51.
+Smolinski M.P.
+Bu Y.
+Clements J.
+Gelman I.H.
+Hegab T.
+Cutler D.L.
+Fang J.W.S.
+Fetterly G.
+Kwan R.
+Barnett A.
+Discovery of Novel Dual Mechanism of Action Src Signaling and Tubulin Polymerization Inhibitors (KX2-391 and KX2-361) J.
+Med.
+Chem.
+2018 61 4704 4719 10.1021/acs.jmedchem.8b00164 29617135 52.
+Chattaraj P.K.
+Maiti B.
+Sarkar U.
+Philicity: A Unified Treatment of Chemical Reactivity and Selectivity J.
+Phys.
+Chem.
+A 2003 107 4973 4975 10.1021/jp034707u 53.
+Bulat F.A.
+Chamorro E.
+Fuentealba P.
+Toro-Labbé A.
+Condensation of Frontier Molecular Orbital Fukui Functions J.
+Phys.
+Chem.
+A 2004 108 342 349 10.1021/jp036416r 54.
+Yang W.
+Mortier W.J.
+The Use of Global and Local Molecular Parameters for the Analysis of the Gas-Phase Basicity of Amines J.
+Am.
+Chem.
+Soc.
+1986 108 5708 5711 10.1021/ja00279a008 22175316 55.
+Vijayaraj R.
+Subramanian V.
+Chattaraj P.K.
+Comparison of Global Reactivity Descriptors Calculated Using Various Density Functionals: A QSAR Perspective J.
+Chem.
+Theory Comput.
+2009 5 2744 2753 10.1021/ct900347f 26631787 56.
+Parr R.G.
+Yang W.
+Density Functional Approach to the Frontier-Electron Theory of Chemical Reactivity J.
+Am.
+Chem.
+Soc.
+1984 106 4049 4050 10.1021/ja00326a036 57.
+Domingo L.
+Ríos-Gutiérrez M.
+Pérez P.
+Applications of the Conceptual Density Functional Theory Indices to Organic Chemistry Reactivity Molecules 2016 21 748 10.3390/molecules21060748 27294896 58.
+Grimme S.
+Steinmetz M.
+Effects of London Dispersion Correction in Density Functional Theory on the Structures of Organic Molecules in the Gas Phase Phys.
+Chem.
+Chem.
+Phys.
+2013 15 16031 10.1039/c3cp52293h 23963317 59.
+Sancha S.A.R.
+Szemerédi N.
+Spengler G.
+Ferreira M.-J.U.
+Lycorine Carbamate Derivatives for Reversing P-Glycoprotein-Mediated Multidrug Resistance in Human Colon Adenocarcinoma Cells Int.
+J.
+Mol.
+Sci.
+2023 24 2061 10.3390/ijms24032061 36768386 60.
+Daina A.
+Zoete V.
+A BOILED-Egg To Predict Gastrointestinal Absorption and Brain Penetration of Small Molecules ChemMedChem 2016 11 1117 1121 10.1002/cmdc.201600182 27218427 61.
+Dongping M.
+Cali J.J.
+Identify P-Glycoprotein Substrates and Inhibitors with the Rapid, HTS Pgp-Glo TM Assay System LUMINESCENT Promega Notes 2007 96 11 14 62.
+Daina A.
+Michielin O.
+Zoete V.
+SwissADME: A Free Web Tool to Evaluate Pharmacokinetics, Drug-Likeness and Medicinal Chemistry Friendliness of Small Molecules Sci.
+Rep.
+2017 7 42717 10.1038/srep42717 28256516 63.
+Pires D.E.V.
+Blundell T.L.
+Ascher D.B.
+PkCSM: Predicting Small-Molecule Pharmacokinetic and Toxicity Properties Using Graph-Based Signatures J.
+Med.
+Chem.
+2015 58 4066 4072 10.1021/acs.jmedchem.5b00104 25860834 64.
+Hanwell M.D.
+Curtis D.E.
+Lonie D.C.
+Vandermeersch T.
+Zurek E.
+Hutchison G.R.
+Avogadro: An Advanced Semantic Chemical Editor, Visualization, and Analysis Platform J.
+Cheminform.
+2012 4 17 10.1186/1758-2946-4-17 22889332 65.
+Neese F.
+Software Update: The ORCA Program System—Version 6.0 WIREs Comput.
+Mol.
+Sci.
+2025 15 e70019 10.1002/wcms.70019 66.
+Neese F.
+The SHARK Integral Generation and Digestion System J.
+Comput.
+Chem.
+2023 44 381 396 10.1002/jcc.26942 35678278 67.
+Neese F.
+Wennmohs F.
+Hansen A.
+Becker U.
+Efficient, Approximate and Parallel Hartree–Fock and Hybrid DFT Calculations.
+A ‘Chain-of-Spheres’ Algorithm for the Hartree–Fock Exchange Chem.
+Phys.
+2009 356 98 109 10.1016/j.chemphys.2008.10.036 Figures, Schemes and Tables Figure 1 Chemical structures of HQ and phthalimide-based anticancer agents and design strategy for the targeted compounds.
+pharmaceuticals-19-00230-sch001_Scheme 1 Scheme 1 The synthesis of hydroxyquinoline–phthalimide hybrids 2 – 5 .
+pharmaceuticals-19-00230-sch002_Scheme 2 Scheme 2 Modified Mannich reaction of regular HQ–phthalimide hybrid 2 .
+pharmaceuticals-19-00230-sch003_Scheme 3 Scheme 3 Modified Mannich reaction of substituted HQ–phthalimide hybrids 3 – 5 .
+Figure 2 Visualization and spatial distribution of LUMO lobes of compounds 2 – 5 (left to right).
+Figure 3 ( a ) Luminescence signals of the samples are presented as the mean ± SD.
+Each sample was prepared in four replicates.
+RLU: relative luminescence unit.
+( b ) Pgp ATPase activity of the samples.
+The difference in luminescent signal between Na 3 VO 4 -treated samples and untreated samples represents the basal activity.
+The level of basal activity is presented as a red line.
+The decrease in luminescence of verapamil (Ver)-treated control samples represents stimulated Pgp ATPase activity.
+Figure 4 Predictions using SwissADME online web tool for compounds 2 , 4 , 5 , 8a , 9a , and 9c in a BOILED-Egg visualization.
+Figure 5 The bioavailability radar map from the SwissADME online tool.
+The pink region shows the best property value range for oral bioavailability, while the red lines reflect the expected characteristics of compounds 2 , 4 , 5 , 8a , 9a , and 9c .
+Figure 6 Electrostatic potential maps of compounds 2 – 5 .
+Figure 7 Electrostatic potential, HOMO, HOMO-1, and LUMO maps of compounds 6a , 8a , 9a , and 9c .
+pharmaceuticals-19-00230-t001_Table 1 Table 1 Yields and conditions of the transformations of substituted HQ–phthalimide hybrids 2 – 5 *.
+Compound X N -Nucleophile Time [h] Yield [%] 6a CH 2 Free base - NA Acetate form 2 73 6b N-CH 3 Free base - NA Acetate form 3 88 6c O Free base 4 85 Acetate form 2 70 7a CH 2 Free base - NA Acetate form 3 55 7b N-CH 3 Free base - NA Acetate form 3 75 7c O Free base 5 70 Acetate form 2 65 8a CH 2 Free base - NA Acetate form 2 57 8b N-CH 3 Free base - NA Acetate form 3 60 8c O Free base 7 62 Acetate form 3 72 9a CH 2 Free base - NA Acetate form 2 60 9b N-CH 3 Free base - NA Acetate form 3 70 9c O Free base 6 70 Acetate form 2 62 * NA = not applicable due to the complex reaction mixture.
+pharmaceuticals-19-00230-t002_Table 2 Table 2 Global and local electrophilicity indices of compounds 2 – 5 .
+Compound ω k : Local Electrophilicity Index * [Eh] ω: Global Electrophilicity Index [Eh] 2 0.005895898; 0.007276757 0.10727617 3 0.006048922; 0.008243737 0.13623085 4 0.006535103; 0.005680853 0.106634625 5 0.004665552; 0.006713036 0.099979681 * at phthalimide carbonyl C-atoms.
+pharmaceuticals-19-00230-t003_Table 3 Table 3 Cytotoxic effects of the compounds on sensitive (Colo205) and resistant (Colo320) colon adenocarcinoma and the relative resistance (RR) of the compounds *.
+Compound Structure IC 50 (µM) ± SD RR Colo205 Colo320 2 7.22 ± 1.22 4.88 ± 1.27 0.68 6a 53.01 ± 5.26 33.57 ± 3.18 0.63 6b >100 40.08 ± 2.33 NA 6c >100 24.91 ± 1.35 NA 3 64.74 ± 3.4 40.92 ± 2.4 0.63 7a >100 33.63 ± 0.7 NA 7b >100 >100 NA 7c >100 >100 NA 4 12.58 ± 1.52 10.28 ± 0.18 0.82 8a 64.79 ± 1.92 22.79 ± 3.35 0.35 8b >100 99.61 ± 0.95 NA 8c >100 36.24 ± 2.24 NA 5 22.03 ± 0.96 9.89 ± 1.68 0.45 9a 49.93 ± 4.85 16.39 ± 3.31 0.33 9b >100 60.86 ± 3.17 NA 9c 39.52 ± 2.76 11.5 ± 1.42 0.29 DOXO - 1.78 ± 1.18 4.33 ± 0.63 2.43 * NA = not applicable, SD = standard deviation, stock solutions: tested compounds, 10 mM; doxorubicin, 2 mg/mL, starting concentrations: tested compounds, 100 µM; doxorubicin, 17.24 µM, cell number was 10,000 cells/well.
+pharmaceuticals-19-00230-t004_Table 4 Table 4 Physicochemical descriptors of most active compounds 2 , 4 , 5 , 8a , 9a , and 9c *.
+Parameter Compound 2 4 5 8a 9a 9c MW (g/mol) 290.27 320.30 320.30 417.46 417.46 419.43 HBD 1 1 1 1 1 1 HBA 4 5 5 6 6 7 Rotatable bonds 1 2 2 4 4 4 TPSA 70.50 79.73 79.73 82.97 82.97 92.20 ilogp 2.15 2.20 2.38 3.30 3.36 3.24 F 0.55 0.55 0.55 0.55 0.55 0.55 LogS −3.758 (Moderate) −3.742 (Moderate) −3.742 (Moderate) −3.808 (High) −3.808 (High) −3.297 (High) Caco-2 permeability (log Papp in 10 −6 cm s −1 ) 0.985 1.035 1.161 0.954 1.079 0.638 Human intestinal absorption (% absorbed) 96.574% 96.979% 97.273% 94.132% 94.379% 95.43% pK a 8.91, 3.84 8.91, 3.83 8.91, 3.83 7.52, 2.24, 9.62 7.53, 2.24, 9.62 8.18, 2.25, 6.80 * All pK a and logS values were predicted by Chemicalize (ChemAxon), and other parameters were evaluated using the SwissADME and pkCSM web tools.

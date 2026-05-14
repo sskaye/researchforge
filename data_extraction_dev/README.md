@@ -10,6 +10,7 @@ The current production version of the skill is **v1.4**, packaged as `mp-bp-extr
 data_extraction_dev/
 ├── README.md                          # this file
 ├── CHANGELOG.md                       # skill version history (v1.0 → v1.4)
+├── audit_criteria.md                  # three-tier audit framework + Phase-4 procedure
 ├── development_report.md              # full project narrative + best-practice principles
 │
 ├── mp-bp-extraction/                  # THE SKILL (production v1.4)
@@ -163,6 +164,7 @@ _to_delete/
 
 - **What is this project?** Read `development_report.md` sections 1–5 (problem statement → first attempt → architectural pivot → second attempt design).
 - **What's the current state of the skill?** `mp-bp-extraction/SKILL.md`, then `CHANGELOG.md`.
+- **How do you run / interpret a trial audit?** `audit_criteria.md` is the source of truth for what an audit measures.
 - **What's the most recent evidence?** `reports/trial2_comparison_report.md`.
 - **What's planned next?** `development_report.md` sections 15 and 19.
 - **What's the publication-ready meta-lesson?** `development_report.md` sections 13–15 (cross-model variability + agent self-analyses + the v1.5 plan derived from them).

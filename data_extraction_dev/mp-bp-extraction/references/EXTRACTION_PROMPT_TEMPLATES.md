@@ -12,11 +12,13 @@ Copy-paste these prompts when delegating mp/bp extraction to a Claude agent. The
 >
 > **Step 1 — Read and identify the paper.**
 > 1a. Read whichever of (`article.nxml`, `article_text.txt`) is present. If only `article.pdf` exists, use bash `pdftotext -layout article.pdf -` to get readable text.
-> 1b. Find the paper's canonical identifier IN THIS ORDER:
+> 1b. Find the paper's canonical identifier. **Extract it from the paper file ONLY** — not from the paper's bibliography (those DOIs belong to *cited* papers), not from your training memory (you may know a similar-sounding DOI for a different paper). The identifier must appear as a substring of the paper file's text. Look in this order:
 >     - **DOI**: NXML `<article-id pub-id-type="doi">`, PDF front matter ("https://doi.org/..." or "DOI: 10.xxxx/..."), or `metadata.json`. Set `source_url = https://doi.org/<DOI>`.
 >     - **PMC ID** (if no DOI): NXML `<article-id pub-id-type="pmc">`, or "PMC########" in text/metadata. Set `source_url = pmc:PMC########`.
 >     - **PMID** (if no DOI/PMC): NXML `<article-id pub-id-type="pmid">`, or "PMID: ########". Set `source_url = pmid:########`.
 >     - **Citation only** (older papers): If none of the above are present, that's fine — older papers predate DOIs. Make sure `source` carries journal + year + vol + page. Set `source_url` to any stable URL the paper provides, or `legacy:<paper-folder-name>` as a last resort.
+>
+>     **Never guess a DOI** — if none of these locations has one, use the next available identifier. A wrong DOI is worse than no DOI.
 > 1c. **Only if you found a DOI**, run `python3 scripts/crossref_lookup.py <DOI>` to confirm the DOI resolves and the returned title matches the paper file. If they don't match, the DOI is wrong — emit a single `flagged_review` row for the paper with reason `flagged_doi_unrelated_paper` and stop processing this paper.
 >
 > **A paper with no DOI is NOT an error**. Pre-DOI-era papers (typically pre-2000) sometimes never had one. As long as you have a complete citation in `source` and a stable identifier in `source_url`, proceed to extraction normally.
@@ -67,21 +69,15 @@ Copy-paste these prompts when delegating mp/bp extraction to a Claude agent. The
 >
 > Before adding a row to the output, re-open the paper file and run this 4-step check:
 >
-> 1. **Substring-search the paper for your `evidence_quote`.** It must be present verbatim. Allow only:
->    - Whitespace collapsing (multi-space → single space)
->    - NFC unicode normalization
->    - ASCII hyphen folding from − / – / —
->    Do NOT allow:
->    - Missing words ("White powder, mp 198 °C" present in paper ≠ "White powder mp 198" in quote)
->    - Extra/doubled words from PDF column artifacts ("White White powder, powder" doubled by `pdftotext -layout` on a 2-column paper)
->    - Reordered tokens
->    If the substring isn't found, your quote is wrong. Rewrite it from the actual paper text or DROP the row.
+> 1. **Try to capture a verbatim contiguous span that contains both the compound (or its serial code) and the value.** This is the ideal quote — verifiable by `grep -F` in 5 seconds. Permitted normalizations: whitespace collapsing, NFC unicode, ASCII hyphen folding (− / – / — → -). Avoid extra/missing words and avoid doubled-token PDF artifacts ("White White powder, powder").
 >
-> 2. **Confirm the value in the quote matches `value_raw`.** Look at the actual digits next to the compound in the quote you just verified is present. If the quote says "f.p. -161.51 °C" but your `value_raw` says "36.98 °C" (because you read a boiling-point value from an adjacent line but quoted the freezing-point line), DROP the row or fix the quote to capture the bp line specifically.
+> 2. **If you can't capture a single contiguous span containing both** (common cases: 2-column PDF wrap where the value lands on a separate physical output line; table cells separated by spacing; watermark splitting a sentence), record the closest contiguous span that supports the row — typically the local clause containing the value. Phase 3 lints will flag quote-fidelity issues for maintainer review, but they do NOT auto-drop the row. The bar for emitting a row is: compound is identifiable, value matches the paper, source citation is real.
 >
-> 3. **Confirm the compound name in the quote matches `compound_name`.** Multi-row PDF tables can put a value on the row of a different compound than the agent assumed. Re-read the row label.
+> 3. **Confirm the value matches `value_raw`.** If the quote says "f.p. -161.51 °C" but your `value_raw` says "36.98 °C" (because you read a boiling-point value from an adjacent line but quoted the freezing-point line), fix the quote to capture the bp line specifically. This is a Tier-1 correctness check — wrong value attached to a compound is the failure mode the protocol is designed to prevent.
 >
-> 4. **Confirm `conversion_arithmetic`** (if present) is mathematically correct.
+> 4. **Confirm the compound name (or its label) is correct.** Multi-row PDF tables can put a value on the row of a different compound than the agent assumed. Re-read the row label. If the row claims `compound_name="compound 4f"` but the m.p. you've captured is for compound 4g, that's a Tier-1 failure — fix the compound name or fix the value, do not commit a wrong binding.
+>
+> 5. **Confirm `conversion_arithmetic`** (if present) is mathematically correct.
 >
 > Drop any row that fails this check. Past trials caught a recurring failure where steps 1-2 weren't done carefully enough — the agent quoted an adjacent measurement or a doubled-token PDF artifact, and the row passed every other check but still pointed at non-verbatim text. Step 6 IS the last defense against this.
 >
