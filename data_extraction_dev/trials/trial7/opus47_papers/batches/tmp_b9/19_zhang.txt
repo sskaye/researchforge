@@ -1,0 +1,1063 @@
+              materials
+Article
+Design of Eutectic Hydrated Salt Composite Phase Change
+Material with Cement for Thermal Energy Regulation
+of Buildings
+Niuniu Wu, Lijie Liu, Zhiwei Yang, Yifan Wu and Jinhong Li *
+
+                                           Beijing Key Laboratory of Materials Utilization of Nonmetallic Minerals and Solid Wastes, National Laboratory of
+                                           Mineral Materials, School of Materials Science and Technology, China University of Geosciences,
+                                           Beijing 100083, China; 2103180022@cugb.edu.cn (N.W.); liulijie@cugb.edu.cn (L.L.);
+                                           yangzhiwei9401@163.com (Z.Y.); Wuyifan@cugb.edu.cn (Y.W.)
+                                           * Correspondence: jinhong@cugb.edu.cn
+
+
+                                           Abstract: An energy-efficient eutectic hydrated salt phase change material based on sodium carbonate
+                                           decahydrate and disodium hydrogen phosphate dodecahydrate (SD) was prepared. Then, SD was
+                                           encapsulated into expanded graphite (EG) to produce form-stable composite phase change materials
+                                           (SD/E), which indicated a positive effect on preventing the leakage of SD, decreasing the supercooling
+                                           and improving the thermal conductivity. SD/E was further tested for thermal efficiency by simulating
+                                           the indoor environment with a house-like model which was composed of SD/E and magnesium
+                                           oxychloride cement. The results showed an excellent thermal insulation effect. This exciting porous
+                                           composite phase shift material reveals possible architectural applications because of the attractive
+                                           thermos-physical properties of SD/E.
+
+                                           Keywords: eutectic hydrated salt; phase change materials; magnesium oxychloride cement; thermal
+         
+                                           energy storage
+         
+
+Citation: Wu, N.; Liu, L.; Yang, Z.;
+Wu, Y.; Li, J. Design of Eutectic
+Hydrated Salt Composite Phase              1. Introduction
+Change Material with Cement for                  The construction industry plays a vital role in economic development, and continuous
+Thermal Energy Regulation of               development of society leads to the energy consumption of buildings increasing [1–3].
+Buildings. Materials 2021, 14, 139.        With the decline of non-renewable energy supplies, researchers are finding innovative
+https://doi.org/10.3390/ma14010139         ways to capture and recycle energy in order to maximize the effectiveness of energy usage.
+                                           Combining renewable energy materials to design energy-saving construction materials
+Received: 16 November 2020
+                                           may prevent excessive energy waste [4]. Therefore, study on renewable energy products
+Accepted: 25 December 2020
+                                           with good efficiency and low costs in the construction industry is also worthwhile.
+Published: 30 December 2020
+                                                 Phase change materials (PCMs) are assumed to be a promising medium for heat
+                                           energy storage. With the change of ambient temperature, PCMs absorb and release energy
+Publisher’s Note: MDPI stays neu-
+                                           through regular phase transition to realize the distribution and transfer of energy in space
+tral with regard to jurisdictional clai-
+ms in published maps and institutio-
+                                           and time [5–7]. Presently, PCMs are applied in many kinds of energy storage fields such as
+nal affiliations.
+                                           domestic hot water tanks [8], product maintenance, and construction materials [4,9].
+                                                 According to the chemical composition, PCMs are usually divided into three types:
+                                           Organic PCMs (fatty acids and paraffin wax), inorganic PCMs (salts, hydrated salts and
+                                           metallics), and eutectic PCMs. Due to the advantages of low cost, excellent energy storage
+Copyright: © 2020 by the authors. Li-      density, and appropriate phase transition point, inorganic hydrated salts exhibit preferable
+censee MDPI, Basel, Switzerland.           application potential [10,11]. Unfortunately, the deficiencies of supercooling, phase separa-
+This article is an open access article     tion, and low thermal conductivity hinder the use of hydrated salts in operation. Now, the
+distributed under the terms and con-       drawback of low thermal conductivity is often improved by adding thermal conductive
+ditions of the Creative Commons At-
+                                           agents. Xiao et al. [12] designed copper foam/sodium acetate trihydrate PCM and found
+tribution (CC BY) license (https://
+                                           that the thermal conductivity was as high as 2.10 W/(m·K), which suggested that copper
+creativecommons.org/licenses/by/
+                                           foam possessed the good property of thermal conductivity enhancement. Fu et al. [13]
+4.0/).
+
+
+
+
+Materials 2021, 14, 139. https://doi.org/10.3390/ma14010139                                                   https://www.mdpi.com/journal/materials
+Materials 2021, 14, 139                                                                                         2 of 11
+
+
+
+
+                          prepared sodium acetate trihydrate-urea/expanded graphite (EG) by physical mixing, and
+                          the heat conductivity was improved to 2.076 W/(m·K) from 0.6785, indicating that EG
+                          could effectively enhance the thermal conductivity. Cheng et al. [14] improved the heat
+                          conductivity of tetradecanol from 0.481 to 1.463 W/(m·K) by adding carbon fiber and Cu
+                          powder. Therefore, the thermal conductivity of hydrated salts is able to be improved by the
+                          existing technology. Besides, the addition of thickening agents and nucleating agents is the
+                          most common methods to suppress supercooling and phase separation phenomena [15,16].
+                          Also, Mao et al. [17] added carboxymethyl cellulose or gelatin and disodium hydrogen
+                          phosphate dodecahydrate (DHPD) with an appropriate proportion into sodium acetate
+                          trihydrate, and found that it could effectively inhibit phase separation of and restrain the
+                          supercooling phenomenon. But, the addition of nucleating agent and thickening agent
+                          will still cause phase separation problems in the long run, which is not conducive to the
+                          long-term recycling of inorganic hydrated salts. Compared with single hydrated salt,
+                          eutectic hydrated salts (EHS) do not appear phase separation, meanwhile, the problem of
+                          supercooling is alleviated to a large extent.
+                                EHS can be prepared by melting a certain amount of hydrated Salts and EHS is
+                          smaller than any part phase transition point, so EHS can also be used for changing the
+                          phase transition point. EHS can even be used to minimize EHS. Li et al. [18] prepared
+                          and studied the CaCl2 ·6H2 O-MgCl2 ·6H2 O binary hydrated salts, and the phase change
+                          point was 21.4 ◦ C, which was lower than both MgCl2 ·6H2 O and CaCl2 ·6H2 O, and the
+                          supercooling degree was decreased slightly. Liu et al. [19] prepared Na2 HPO4 ·12H2 O-
+                          Na2 SO4 ·10H2 O EHS with the melting point at 31.2 ◦ C, and no phase separation occurred.
+                          The application of the eutectoid binary system was further developed, which is mostly used
+                          for PCM enhanced wall panels [20]. To be precise, EHS is a new kind of high-performance
+                          phase change energy material, which has the advantages of single hydrated salt, and
+                          equally solves the problems existing in hydrated salt to some extent.
+                                Many porous materials were used to resolve the complicated PCM leakage due to
+                          capillary activity and surface tension during the process of solid–liquid transformation.
+                          Currently, the porous package matrix mainly includes diatomite [21,22], expanded per-
+                          lite [23,24], expanded vermiculite [25], boron nitride foam [26], copper foam [12,27], and
+                          fumed silica [13,28,29]. Among them, the abundant pores of EG can not only adsorb PCMs
+                          effectively but also provide a lot of extra nucleation sites for heterogeneous nucleation of
+                          PCMs so as to reduce the supercooling degree. Song et al. [29] encapsulated magnesium
+                          chloride hexahydrate with EG, the results declared that the packaging of EG reduced the
+                          supercooling degree of magnesium chloride hexahydrate to 29.4 ◦ C and the correspond-
+                          ing heat conductivity was 1.354 W/(m·K). Li et al. [30] obtained the composite PCMs by
+                          dipping stearic acid into 6 wt.% EG and the heat conductivity rose to 2.50 W/(m·K) from
+                          0.26 W/(m·K). Hence, EG is considered as a promising candidate for PCMs packaging
+                          matrix.
+                                In this study, the eutectic compound of sodium carbonate decahydrate (SCD) and
+                          DHPD, of which was referred to as SD was used as phase change materials, EG served
+                          as a form stabilizer. SD was encapsulated into EG by physical impregnation to obtain
+                          composite phase change energy storage material (SD/E). Magnesium oxychloride cement
+                          (MOC) is one of the most attractive building materials owing to its short setting time,
+                          good mechanical strength and high flame resistance [31,32], so we designed a house-like
+                          model that was made of SD/E and MOC to simulate the indoor environment to detect the
+                          insulation effect of SD/E and explore the possibility of application in building materials.
+
+                          2. Experimental Work
+                          2.1. Materials
+                               EG was obtained by heating the expandable graphite at a high temperature of 800 ◦ C
+                          for 30 s, and the expandable graphite for the preparation of EG was sourced from China
+                          National Medicines Co., Ltd. Shanghai, China. Na2 HPO4 ·12H2 O (≥99.0%, A.R.) was
+Materials 2021, 14, 139                                                                                                3 of 12
+
+Materials 2021, 14, 139                                                                                                3 of 11
+
+                          National Medicines Co., Ltd. Shanghai, China. Na2HPO4·12H2O (≥99.0%, A.R.) was ob-
+                          tained from Beijing Chemical Reagent Co., Ltd. Shanghai, China. NaCO3·10H2O (≥99.0%,
+                          obtained
+                          A.R.) was from  Beijing
+                                    equally       Chemical
+                                            sourced        ReagentMedicines
+                                                    China National  Co., Ltd. Co.,
+                                                                               Shanghai,          NaCO3 ·10H2 O
+                                                                                          China. China.
+                                                                                   Ltd. Shanghai,
+                          (≥99.0%, A.R.) was equally sourced China National Medicines Co., Ltd. Shanghai, China.
+                          2.2. Preparation of SD/E and MOC
+                          2.2. Preparation of SD/E and MOC
+                                As shown in Figure 1, to prepare SD, SCD and DHPD were mixed according to a
+                                As shown in Figure 1, to prepare SD, SCD and DHPD were mixed according to a
+                          certain mass ratio and heated at 55 °C in the water bath for 1.5 h to melt sufficiently. The
+                          certain mass ratio and heated at 55 ◦ C in the water bath for 1.5 h to melt sufficiently. The
+                          SD/E was obtained by encapsulating SD into EG through physical impregnation, and the
+                          SD/E was obtained by encapsulating SD into EG through physical impregnation, and the
+                          mass fraction of EG was 15%.
+                          mass fraction of EG was 15%.
+
+
+
+
+                                     Figure 1.
+                                     Figure    Thepreparation
+                                            1. The preparation process
+                                                               process of
+                                                                       of SD/E
+                                                                          SD/E..
+
+                                Preparation of MOC: The active magnesium oxide, magnesium chloride hexahydrate
+                               Preparation of MOC: The active magnesium oxide, magnesium chloride hexahydrate
+                          and water were mixed and stirred in a certain proportion, left for seven days to make
+                          and water were mixed and stirred in a certain proportion, left for seven days to make the
+                          the MOC slurry fully coagulated and dried. Actually, MOC was prepared by hydration
+                          MOC slurry fully coagulated and dried. Actually, MOC was prepared by hydration reac-
+                          reaction as shown in the following Equations (1) and (2) [31,33].
+                          tion as shown in the following Equations (1) and (2) [31,33].
+                                               3MgO ++MgCl
+                                               3MgO   MgCl2 2++11H2O
+                                                                11H  = 3Mg(OH)2 ·MgCl
+                                                                   2O = 3Mg(OH)       2 ·8H
+                                                                                 2·MgCl      2 O2O
+                                                                                          2·8H
+                                                                                                                          (1)
+                                                                                                                          (1)
+                                               5MgO ++MgCl
+                                               5MgO   MgCl2 2++13H2O
+                                                                13H  = 5Mg(OH)2 ·MgCl
+                                                                   2O = 5Mg(OH)       2 ·8H
+                                                                                 2·MgCl      2 O2O
+                                                                                          2·8H
+                                                                                                                          (2)
+                                                                                                                          (2)
+                           2.3. Characterization
+                          2.3. Characterization
+                                 Scanning electron microscope (SEM, JSM-IT300, expandable graphite. 10,000×, worm-
+                           like EG. 25×, EG.
+                                Scanning       1500×
+                                           electron   , SD/E. 2000
+                                                     microscope     ×). Phase
+                                                                  (SEM,         changeexpandable
+                                                                         JSM-IT300,     parametersgraphite.
+                                                                                                     were recorded
+                                                                                                              10000×,byworm-
+                                                                                                                        using
+                           the differential
+                          like  EG. 25×, EG.scanning   calorimetry
+                                               1500×, SD/E.  2000×).(DSC,
+                                                                      PhaseNetzsch
+                                                                              change DSC214,    Selb,
+                                                                                       parameters     Germany,
+                                                                                                    were         heating
+                                                                                                          recorded        and
+                                                                                                                    by using
+                           cooling          ◦ C/min, N2). Chemical structures were collected on a Fourier transform
+                                    rate: 5 scanning
+                          the  differential            calorimetry (DSC, Netzsch DSC214, Selb, Germany, heating and
+                           infraredrate:
+                          cooling    spectroscopy
+                                          5 °C/min, (FT-IR,  Nicolet IS10,
+                                                      N2). Chemical          Madison,
+                                                                       structures  wereWisconsin,
+                                                                                          collected onUSA)  at a wavelength
+                                                                                                        a Fourier  transform
+                           from  400 to 4000  cm −1 . X-ray diffraction (XRD, Rigaku DMAX 2400, Osaka, Japan, Cu Kα
+                          infrared spectroscopy (FT-IR, Nicolet IS10, Madison, Wisconsin, USA) at a wavelength
+                           radiation:
+                          from           = 1.541
+                                 400 toλ4000  cm−1Å, 2θ: 5◦diffraction
+                                                   . X-ray –70◦ ) was introduced
+                                                                        (XRD, Rigaku to analyze  the crystalline
+                                                                                         DMAX 2400,              structure
+                                                                                                       Osaka, Japan,   Cu Kαof
+                           single  hydrate  salt and  SD.  The  thermal   conductivities   of SD  and  SD/E   were
+                          radiation: λ = 1.541 Å, 2θ: 5°–70°) was introduced to analyze the crystalline structure oftested  by
+                           laser flash
+                          single       diffusivity
+                                  hydrate  salt andapparatus    (Netzsch
+                                                     SD. The thermal       LFA 467, Selb,
+                                                                       conductivities       Germany)
+                                                                                        of SD and SD/Eatwere
+                                                                                                          roomtested
+                                                                                                                temperature.
+                                                                                                                      by laser
+                           Supercooling
+                          flash           degrees
+                                 diffusivity       of SD (Netzsch
+                                              apparatus   and SD/ELFAwere467,
+                                                                            obtained
+                                                                                Selb, by the data at
+                                                                                      Germany)    acquisition system (Toprie
+                                                                                                     room temperature.     Su-
+                          TP720,   Shenzhen,    China).
+                          percooling degrees of SD and SD/E were obtained by the data acquisition system (Toprie
+                          TP720, Shenzhen, China).
+                           3. Results and Discussion
+                           3.1. Chemical Compatibility Analysis of SD and SD/E
+                          3. Results and Discussion
+                                 As shown in Figure 2a, all characteristic diffraction peaks of SCD and DHPD could
+                          3.1. Chemical Compatibility Analysis of SD and SD/E
+                           be found from the XRD pattern of SD without new peaks appearing. This reveals that
+                           the formulated SD is a SCD-DHPD mixture without any chemical reactions. But the peak
+Materials 2021, 14, 139                                                                                                              4 of 12
+
+
+
+
+Materials 2021, 14, 139              As shown in Figure 2a, all characteristic diffraction peaks of SCD and DHPD could 4 of 11
+                                be found from the XRD pattern of SD without new peaks appearing. This reveals that the
+                                formulated SD is a SCD-DHPD mixture without any chemical reactions. But the peak in-
+                                tensity of SD was slightly different from the two pure hydrated salts, and it was caused
+                                 intensity of SD was slightly different from the two pure hydrated salts, and it was caused
+                                by the change of crystal planer spacing. So, the result exhibited that SCD and DHPD only
+                                 by the change of crystal planer spacing. So, the result exhibited that SCD and DHPD only
+                                form eutectic compounds without chemical changes.
+                                 form eutectic compounds without chemical changes.
+
+
+
+
+      Figure
+      Figure 2.
+             2. (a).
+                (a). XRD
+                     XRD patterns
+                           patterns of
+                                    of disodium
+                                       disodium hydrogen
+                                                 hydrogen phosphate
+                                                          phosphate dodecahydrate
+                                                                     dodecahydrate (DHPD),
+                                                                                    (DHPD), sodium
+                                                                                             sodium carbonate
+                                                                                                    carbonate decahydrate
+                                                                                                              decahydrate
+      (SCD), and  SD; (b). FT-IR spectra of expanded graphite (EG), DHPD, SCD, SD, and SD/E.
+      (SCD), and SD; (b). FT-IR spectra of expanded graphite (EG), DHPD, SCD, SD, and SD/E.
+
+                                       According
+                                       According to the FT-IR
+                                                           FT-IRtest,  test,there
+                                                                             therewaswasnonocharacteristic
+                                                                                              characteristic absorption
+                                                                                                           absorption    peaks
+                                                                                                                      peaks of EGof EG   ap-
+                                                                                                                                     appear
+                                pear   as shown
+                                 as shown         in Figure
+                                              in Figure   2b. 2b.     Because
+                                                                  Because      of of thecrystalline
+                                                                                   the    crystallinewater,
+                                                                                                      water,the
+                                                                                                             thepeak
+                                                                                                                 peak between
+                                                                                                                       between 3000 and and
+                                3700   cm−1−1was
+                                 3700 cm       wascaused
+                                                   causedby  bywater
+                                                                  watermolecules,
+                                                                            molecules,while
+                                                                                          whilethe
+                                                                                                 thebending
+                                                                                                     bendingvibration
+                                                                                                              vibration of
+                                                                                                                        of H-O-H
+                                                                                                                           H-O-H caused
+                                                                                                                                     caused
+                                the
+                                 theabsorption
+                                      absorption at             −
+                                                  at 1635 cm . The
+                                                                −1 1 . Thecharacteristic
+                                                                             characteristicpeaks
+                                                                                             peaksofofDHPD
+                                                                                                       DHPDandandSCD
+                                                                                                                  SCDcould
+                                                                                                                       couldbebeobserved
+                                                                                                                                  observed
+                                in
+                                 in the
+                                     the spectra
+                                         spectra of
+                                                  of SD,
+                                                     SD, and
+                                                         and there
+                                                                 there were
+                                                                          were nono peaks
+                                                                                     peaks ofof other
+                                                                                                other functional
+                                                                                                      functional groups
+                                                                                                                 groups appeared
+                                                                                                                          appeared in in the
+                                                                                                                                         the
+                                spectrum
+                                 spectrum of of SD/E.
+                                                SD/E.So,So,ititmay
+                                                               maybe    beconcluded
+                                                                            concludedthat thatphysical
+                                                                                               physicaladsorption
+                                                                                                        adsorptionhas
+                                                                                                                    has been
+                                                                                                                         been the
+                                                                                                                               the reaction
+                                                                                                                                   reaction
+                                 between eutectic
+                                between     eutectic and
+                                                      and supportive
+                                                           supportive material.
+                                                                             material.
+
+                                 3.2. Microscopic
+                                3.2.   MicroscopicMorphology
+                                                      Morphology ofof the
+                                                                       the EG
+                                                                           EG and
+                                                                               and SD/E
+                                                                                   SD/E
+                                        Figure 33 demonstrates
+                                        Figure     demonstrates thethe morphologies
+                                                                         morphologiesand andmicrostructures
+                                                                                              microstructuresofofexpandable
+                                                                                                                    expandablegraphite,
+                                                                                                                                  graph-
+                                 and    EG   and  SD/E.   The   distinct   sheet structure of expandable     graphite   can
+                                ite, and EG and SD/E. The distinct sheet structure of expandable graphite can be found in   be  found   in
+                                 Figure    3a, but the  interlayer space    between  graphite sheets   was  too small, so
+                                Figure 3a, but the interlayer space between graphite sheets was too small, so we proceededwe  proceeded
+                                 to the
+                                to   the next
+                                          next step.
+                                                step. The
+                                                       The gasification
+                                                            gasification and
+                                                                           and decomposition
+                                                                                decomposition of of the
+                                                                                                    the intercalator
+                                                                                                         intercalator existed
+                                                                                                                      existed following
+                                                                                                                               following
+                                 the   hot-temperature     heating  process   in expandable  graphite   created instantly
+                                the hot-temperature heating process in expandable graphite created instantly high          high  pressure
+                                                                                                                                    pres-
+                                 that   killed the  force of van  der   Waals  between  the layers  of graphite  and
+                                sure that killed the force of van der Waals between the layers of graphite and raised raised the  volume
+                                                                                                                                      the
+                                 by   the  perpendicular     layers several    hundred  times  simultaneously.
+                                volume by the perpendicular layers several hundred times simultaneously. A porous A  porous   worm-like
+                                 EG was formed, which could be verified by Figure 3b. As shown in Figure 3c, there were
+                                worm-like      EG was formed, which could be verified by Figure 3b. As shown in Figure 3c,
+                                 abundant micropores within EG, which could absorb large PCMs attribute to the capillary
+                                there were abundant micropores within EG, which could absorb large PCMs attribute to
+                                 force and surface tension. In Figure 3d, it could be clearly seen that SD was equably
+                                the capillary force and surface tension. In Figure 3d, it could be clearly seen that SD was
+                                 adsorbed into the porous of EG by the impregnation method. So, the fusional SD could be
+                                equably adsorbed into the porous of EG by the impregnation method. So, the fusional SD
+                                 stably adsorbed and retained into EG, which indicated EG was an excellent matrix material
+                                could be stably adsorbed and retained into EG, which indicated EG was an excellent ma-
+                                 for encapsulation.
+                                trix material for encapsulation.
+Materials 2021, 14, 139                                                                                                        5 of 11
+Materials 2021, 14, 139                                                                                                        5 of 12
+
+
+
+
+      Figure
+      Figure 3.
+             3. (a)
+                (a) SEM
+                    SEM images
+                        images of
+                               of expandable
+                                  expandable graphite;
+                                             graphite; (b)
+                                                       (b) worm-like
+                                                           worm-like expanded
+                                                                     expanded graphite;
+                                                                              graphite; (c)
+                                                                                         (c) micropores
+                                                                                             micropores of
+                                                                                                        of expanded
+                                                                                                           expanded graphite;
+                                                                                                                    graphite;
+      (d) SD/E.
+      (d) SD/E.
+
+                                3.3.
+                                3.3. Phase
+                                     Phase Change
+                                           Change Behavior
+                                                  Behavior of
+                                                           of SD
+                                                              SD and
+                                                                 and SD/E
+                                                                     SD/E
+                                3.3.1.
+                                3.3.1. Thermal
+                                       Thermal Storage
+                                               Storage Parameters
+                                                        Parameters of
+                                                                    of SD
+                                                                       SD and
+                                                                          and SD/E
+                                                                              SD/E
+                                     The
+                                     The temperature
+                                          temperatureand   andenthalpy
+                                                                 enthalpyofofthe
+                                                                               thephase transition
+                                                                                    phase          is determined
+                                                                                          transition  is determined  by by
+                                                                                                                         the the
+                                                                                                                              DSCDSC
+                                                                                                                                   in-
+                                instrument
+                                strument  asas  critical
+                                              critical    factors.The
+                                                        factors.   Thefindings
+                                                                        findingsfrom
+                                                                                  fromDSC
+                                                                                        DSCdemonstrate
+                                                                                             demonstrateininFigure
+                                                                                                                Figure44 the
+                                                                                                                          the energy
+                                conservation characteristics
+                                conservation   characteristics of SD and SD/ESD/Eduring
+                                                                                    duringthe
+                                                                                           themelting
+                                                                                                meltingandandsolidification
+                                                                                                               solidificationphases.
+                                                                                                                               phases.
+                                According
+                                According   to the  SD   DSC  curve,  during   the melting process  only    one thermal   absorption
+                                peak has
+                                peak  has been
+                                          been detected,
+                                                 detected, demonstrating
+                                                             demonstrating thatthat hydrate
+                                                                                    hydrate eutectic
+                                                                                             eutectic is
+                                                                                                       is created
+                                                                                                          created [25].
+                                                                                                                   [25]. Table
+                                                                                                                         Table 1 lists
+                                both SD
+                                both SD and
+                                         and SD/E
+                                               SD/Ethermal
+                                                       thermalstorage
+                                                                 storageparameters.
+                                                                          parameters.
+                                     The actual impregnation ratio (R), impregnation efficiency (E), and thermal storage
+                                capability (ϕ) also been calculated by Equations (3)–(5) to quantify the phase change
+                                performance [34–36].
+                                                                              H
+                                                                         R = SD/E × 100%                                           (3)
+                                                                               HSD
+                                                                      HM,SD/E + HS,SD/E
+                                                                E=                      × 100%                                    (4)
+                                                                       HM,SD + HS,SD
+   Materials 2021, 14, 139                                                                                                              6 of 11
+
+
+
+
+                                                                               HM,SD/E +HS,SD/E
+                                                                                      R
+                                                                        ϕ=                        × 100%                                   (5)
+                                                                              HM,SD + HS,SD
+                                where HM,SD/E and HS,SD/E represent the melting and solidification latent heat of the
+Materials 2021, 14, 139                                                                                          6 of 12
+                                SD/E, respectively; HM,SD and HS,SD respectively denote the melting and solidification
+                                enthalpies of SD. The three parameters prove that the energy storage efficiency of SD/E
+                                approximates 100%.
+
+
+
+
+                             Figure 4. DSC
+                                Figure     curves
+                                       4. DSC     of SD
+                                              curves    andand
+                                                     of SD  SD/E.
+                                                               SD/E.
+
+                               Table
+                             Table    1. Phase
+                                   1. Phase    change
+                                            change    parameters
+                                                   parameters    of SD
+                                                              of SD    and
+                                                                     and   SD/E.
+                                                                         SD/E.
+
+                                                    Melting
+                                                       Melting                  Solidification
+                                                                                  Solidification
+                              Samples                                                                  R(%) E(%) 𝝋(%)
+                                   SamplesTM (°C)T HE (J/g)HE HC (J/g)
+                                                                     HC TS (°C)
+                                                                              TS HE (J/g)
+                                                                                        HE HC (J/g)
+                                                                                                  HC    R(%) E(%) ϕ(%)
+                                                   M
+                                                 ◦                            ◦
+                                  SD       24.2 ( C) 239.4(J/g) 239.4
+                                                                    (J/g) 10.5
+                                                                             ( C) 207.4(J/g) 207.4
+                                                                                                 (J/g)  —    —    —
+                                SD/ESD       23.5 24.2 196.2239.4 203.5   239.4 11.510.5 168.7    207.4 176.3
+                                                                                                            207.4 82.0 — 81.7   — 99.6—
+                             Here, TMSD/E
+                                      is the melting23.5       196.2 TS is203.5
+                                                      temperature;                    11.5
+                                                                            the melting           168.7 temperature;
+                                                                                         solidification     176.3     82.0     81.7
+                                                                                                                       HE is the  experi-99.6
+                             mental
+                               Here,latent heatmelting
+                                     TM is the           HC is the theoretically
+                                                value;temperature;                calculated
+                                                                     TS is the melting         latenttemperature;
+                                                                                       solidification heat.       HE is the experimental latent
+                                heat value; HC is the theoretically calculated latent heat.
+                                 The actual impregnation ratio (R), impregnation efficiency (E), and thermal storage
+                                    In addition,
+                             capability           the theoretical
+                                        (φ) also been  calculated latent heat was(3)–(5)
+                                                                  by Equations     calculated by Equations
+                                                                                         to quantify        (6) change
+                                                                                                     the phase  and (7) per-
+                                                                                                                        [37].
+                             formance [34–36].
+                                                                        HC = η·HSD                                          (6)
+                                                                               H /
+                                                                            R=
+                                                                             η =H  ×m100%
+                                                                                     SD                                                 (3)(7)
+                                                                                 (m + m )
+                                                                                        SD        EG
+
+                               where the value of HC denotes the H calculated
+                                                                    , / + Henthalpy
+                                                                               , /     of SD and SD/E and HSD represents
+                               the enthalpy of pure SD.; η  E represents
+                                                              =           the       × 100%
+                                                                              percentage  content of SD in the SD/E;(4) mSD
+                                                                   H , +H ,
+                               and mEG represent the mass of SD and EG before encapsulation, respectively. However,
+                               the experimental enthalpy SD/E    H values   were marginally lower than those obtained by
+                                                                     , / +H , /
+                               theoretical determination, since EG’s microscopic pore structure hampered the orderly
+                                                           φ =the growthR process and
+                               organization of crystals during                       × 100%                           (5)
+                                                                                        hindered the increase of the crystal
+                                                                   H , +H ,
+                               surface, leading to further crystal defects.
+                                    According to Table 1, the melting and solidification temperatures of SD were 24.2 and
+                             where ◦H , / and H , / represent the melting and solidification latent heat of the◦
+                               10.5 C, respectively. For SD/E, the phase change temperatures were 23.5 and 11.5 C,
+                             SD/E, respectively; H , and H , respectively denote the melting and solidification
+                             enthalpies of SD. The three parameters prove that the energy storage efficiency of SD/E
+                             approximates 100%.
+                                 In addition, the theoretical latent heat was calculated by Equations (6) and (7) [37].
+
+                                                                                H = η·H                                                 (6)
+           Materials 2021, 14, 139                                                                                                     7 of 11
+
+
+
+
+                                              respectively. It could be found that the melting temperature of SD/E is lower than SD; this
+                                              phenomenon can be explained by Gibbs–Thomson Equation (8) [36,38].
+
+                                                                                              2νγsolid−liquid TSD 1
+                                                                      ∆T = TSD/E − TSD =                         ·                        (8)
+                                                                                                    ∆Hm            r
+
+                                              where TSD/E and TSD are the melting points of SD/E and SD, respectively; ν represents
+                                              the molar volume of liquid SD; γsolid−liquid is the interfacial tension between the solid and
+                                              liquid phases; ∆Hm is the molar latent heat of SD during the melting process; r is the radius
+                                              of the pores of EG. Obviously, the value of ∆T is less than zero, so the melting point of
+                                              SD/E is lower than SD.
+                                                   It could also be observed that the SD/E had a higher solidification temperature than
+                                              SD: The phenomenon could be explained by the fact that the abundant pores of the EG
+                                              provided numerous nucleation sites for SD, which promoted the nucleation rate of EHS.
+
+                                              3.3.2. Supercooling Behavior of Hydrated Salts and SD/E
+                                                    Supercooling is an important parameter that must be taken into account in the produc-
+                                              tion and implementation of hydrated salt PCMs, as well as a very critical issue. Generally
+                                              speaking, low supercooling degrees is enough to extract stored heat, while excessive super-
+                                              cooling would inhibit this process. Therefore, it was very essential to adjust and control
+                                              the supercooling degrees during the phase change processes [15].
+                                                    Figure 5a demonstrates the heat time-temperature curves of DHPD and SCD. During
+                                              the process of phase transition, and the temperature rose rapidly as soon as crystallization
+                                              started and stabilized at their melt point, which suggested that the supercooling was caused
+                                              by weak nucleation property [15]. Figure 5b shows the cooling time-temperature curves
+als 2021, 14, 139                             of SD and SD/E. on the basis of data acquisition system, the supercooling 8 of 12degrees of all
+                                              samples were shown in Table 2. It could be found that the supercooling degree of SD was
+                                              5.7 ◦ C, which was significantly reduced compared with SCD and DHPD.
+
+
+
+
+                                           Figure 5. Time-temperature curves: (a) SCD and DHPD; (b) SD and SD/E.
+                                Figure 5. Time-temperature curves: (a) SCD and DHPD; (b) SD and SD/E.
+                                              Table 2. The supercooling degrees of hydrated salts and form-stable composite phase change
+                                     The supercooling  problem was further alleviated after the SD was encapsulated with
+                                             materials (PCMs).
+                                EG. Based on Table 2, the supercooling degree of SD/E was 0.8 °C. Compared with SD,
+                                                         Samples
+                                the suppression ratio reached                 Supercooling
+                                                               up to 86.0%, which  could beDegree  (◦ C) that EG
+                                                                                              explained        Suppression
+                                                                                                                 with net- Ratio (%)
+                                work-pores provided more    abundant sites for nucleation,
+                                                          DHPD                          11.1resulting in a decrease in the
+                                                                                                                         -
+                                degree of supercooling. SCD                              7.7                             -
+                                                            SD                             5.7                             -
+                                3.4. Thermal Conductivities SD/E
+                                                            of SD and SD/E                 0.8                            86.0
+
+                                     The average PCM power can usually be increased by high thermal conductivity. Alt-
+                                hough, compared withThe supercooling
+                                                        organic PCMs,  problem  was
+                                                                         hydrated    further
+                                                                                  salts      alleviated
+                                                                                        possess  higher after the conductivity,
+                                                                                                        thermal    SD was encapsulated with
+                                               EG. Based on Table  2, the supercooling degree  of SD/E  was   0.8 ◦ C. Compared with SD, the
+                                which at the range of 0.5–1.5 W/(m·K), it’s not enough for practical application. This work
+                                tried to improve the thermal conductivity of SD by encapsulation with EG. Figure 6 illus-
+                                trates that the heat conductivity of the SD/E was up to 2.74 W/(m·K), it could because that
+                                the excellent heat transfer performance of EG reduced the overall thermal resistance of
+                                SD/E, thus improved the overall heat transfer rate. It is important to note that the data was
+                                obtained by averaging three tests.
+                                                Figure 5. Time-temperature curves: (a) SCD and DHPD; (b) SD and SD/E.
+           Materials 2021, 14, 139                                                                                                                       8 of 11
+
+                                                     The supercooling problem was further alleviated after the SD was encapsulated with
+                                                EG. Based on Table 2, the supercooling degree of SD/E was 0.8 °C. Compared with SD,
+                                                the suppression
+                                                suppression  ratioratio reached
+                                                                   reached      up86.0%,
+                                                                            up to   to 86.0%,
+                                                                                          whichwhich  could
+                                                                                                  could      be explained
+                                                                                                        be explained       thatwith
+                                                                                                                      that EG    EG with  net-
+                                                                                                                                     network-
+                                                work-pores  provided
+                                                pores provided          more abundant
+                                                                more abundant   sites forsites for nucleation,
+                                                                                          nucleation, resultingresulting in a in
+                                                                                                                in a decrease decrease  in the
+                                                                                                                                 the degree of
+                                                degree of supercooling.
+                                                supercooling.
+
+                                                3.4. Thermal Conductivities of SD and SD/E
+                                                      The average PCM  PCM power
+                                                                              power can
+                                                                                     can usually
+                                                                                           usuallybe  beincreased
+                                                                                                          increasedby  byhigh
+                                                                                                                           highthermal
+                                                                                                                                 thermalconductivity.
+                                                                                                                                             conductivity.Alt-
+                                                                                                                                                             Al-
+                                                though,compared
+                                                hough,    comparedwith  withorganic
+                                                                              organicPCMs,
+                                                                                      PCMs,hydrated
+                                                                                                hydratedsalts saltspossess
+                                                                                                                    possesshigher
+                                                                                                                              higherthermal
+                                                                                                                                      thermalconductivity,
+                                                                                                                                                   conductivity,
+                                                which
+                                                which at at the
+                                                             therange
+                                                                  rangeofof0.5–1.5
+                                                                             0.5–1.5  W/(m·K),
+                                                                                   W/(m·K),     it’s it’s
+                                                                                                     not not    enough
+                                                                                                           enough          for practical
+                                                                                                                     for practical          application.
+                                                                                                                                    application.           This
+                                                                                                                                                     This work
+                                                work   tried   to improve   the  thermal   conductivity      of SD  by   encapsulation
+                                                tried to improve the thermal conductivity of SD by encapsulation with EG. Figure 6 illus-  with    EG. Figure  6
+                                                illustrates   that the heat  conductivity   of  the  SD/E     was  up  to  2.74 W/(m    · K),
+                                                trates that the heat conductivity of the SD/E was up to 2.74 W/(m·K), it could because that   it could  because
+                                                thatexcellent
+                                                the  the excellentheatheat transfer
+                                                                        transfer     performance
+                                                                                  performance      of of
+                                                                                                       EGEG    reducedthe
+                                                                                                            reduced       theoverall
+                                                                                                                              overallthermal
+                                                                                                                                       thermal resistance
+                                                                                                                                                   resistance of
+                                                                                                                                                              of
+                                                SD/E,    thus   improved    the  overall  heat   transfer    rate. It is  important   to
+                                                SD/E, thus improved the overall heat transfer rate. It is important to note that the data  note   that the data
+                                                                                                                                                            was
+                                                was  obtained
+                                                obtained          by averaging
+                                                            by averaging     threethree
+                                                                                   tests.tests.
+
+
+
+
+                                                Figure
+                                                Figure 6.
+                                                       6. Thermal
+                                                          Thermal conductivity
+                                                                  conductivity of
+                                                                               of SD
+                                                                                  SD and
+                                                                                     and SD/E.
+                                                                                         SD/E.
+
+                                             3.5. Experimental
+                                             3.5. Experimental Exploration
+                                                                  Exploration of
+                                                                               of SD/E
+                                                                                  SD/E for
+                                                                                        for Thermal
+                                                                                             Thermal Energy
+                                                                                                      Energy Storage
+                                                                                                               Storage
+                                                   Figure 7a
+                                                   Figure   7a shows
+                                                               shows thethe SEM
+                                                                            SEM and
+                                                                                  and EIS
+                                                                                       EIS spectra
+                                                                                            spectra of
+                                                                                                     of MOC,
+                                                                                                        MOC, three
+                                                                                                               three elements
+                                                                                                                     elements Mg,
+                                                                                                                                Mg, O O and
+                                                                                                                                         and Cl
+                                                                                                                                             Cl were
+                                                                                                                                                were
+                                             found on
+                                             found   on the
+                                                         the surface.   Figure 7b
+                                                              surface. Figure   7b shows
+                                                                                   shows thethe compressed
+                                                                                                compressed SD/E      block. A
+                                                                                                               SD/E block.  A layer
+                                                                                                                               layer of
+                                                                                                                                      of magnesium
+                                                                                                                                         magnesium
+ls 2021, 14, 139                             cement slurry
+                                             cement    slurry was
+                                                               wascovered
+                                                                    coveredon  onthe
+                                                                                   thePCM
+                                                                                       PCM   block to to
+                                                                                               block  make
+                                                                                                         makethethe
+                                                                                                                 MOC-PCM
+                                                                                                                    MOC-PCM   block 12withwith
+                                                                                                                               9 ofblock   sandwich
+                                                                                                                                               sand-
+                                             structure,   as shown    in Figure  7c, and  the  corresponding    top perspective
+                                             wich structure, as shown in Figure 7c, and the corresponding top perspective view     view   was shown
+                                                                                                                                                 was
+                                             in Figure
+                                             shown    in 7d.  Six 7d.
+                                                         Figure   MOC-PCM       blocks blocks
+                                                                      Six MOC-PCM       were usedweretoused
+                                                                                                        buildtoabuild
+                                                                                                                 smallahouse
+                                                                                                                        small with
+                                                                                                                              housea with
+                                                                                                                                       certain space,
+                                                                                                                                            a certain
+                                             as in
+                               space, as shown   shown
+                                                   Figure in7e,
+                                                             Figure
+                                                                and 7e,
+                                                                      theand  the regulation
+                                                                          regulation            of temperature
+                                                                                       of temperature    change change    of the house-like model
+                                                                                                                  of the house-like
+                                             was   observed    during   the process  of temperature
+                               model was observed during the process of temperature change.             change.
+
+
+
+
+                               Figure
+                   Figure 7. (a).      7. (a).
+                                  SEM and   EDSSEM   and EDS
+                                                  spectra      spectra of magnesium
+                                                          of magnesium    oxychlorideoxychloride
+                                                                                      cement (MOC);cement (MOC);picture
+                                                                                                      (b) digital (b) digital picture
+                                                                                                                         of PCM   block; (c) digital
+                               of  PCM  block;  (c) digital picture of MOC-PCM    block; (d) top perspective view of MOC-PCM
+                   picture of MOC-PCM block; (d) top perspective view of MOC-PCM block; (e) house-like with a certain space.
+                               block; (e) house-like with a certain space.
+
+                                    In Figure 8a, with the increase of temperature, the temperature of MOC-PCM was
+                               higher than that of MOC, which was because the presence of EG in MOC-PCM increased
+                               the thermal conductivity of the whole room, making the temperature rise faster. But when
+  Materials 2021, 14, 139                                                                                                  9 of 11
+
+
+
+
+                                   In Figure 8a, with the increase of temperature, the temperature of MOC-PCM was
+                              higher than that of MOC, which was because the presence of EG in MOC-PCM increased the
+                              thermal conductivity of the whole room, making the temperature rise faster. But when the
+                              temperature rose to about 35 ◦ C, the temperature of the MOC-PCM rose more slowly, which
+                              was caused by the melting of the pcm and the absorption of surrounding heat. In the end,
+                              the temperature of both MOC-PCM and MOC was lower than the ambient temperature,
+                              but the temperature of MOC-PCM was 2.1 ◦ C lower than the temperature of MOC. In the
+                              process of temperature drop, the cooling rate of MOC-PCM was still faster, but the final
+                              temperature of MOC-PCM was 1.5 ◦ C higher than that of MOC. This kind of construction
+                              material with sandwich phase change material can block or reduce the influence of external
+                              temperature change on the indoor through phase change performance, so as to achieve
+Materials 2021, 14, 139       the effect of building thermal insulation and can be used as a building thermal insulation
+                                                                                                                10 of 12
+                              material. We presumed that using MOC-PCM as an alternative insulation material is
+                              attractive as it will allow additional environmental and economic benefits.
+
+
+
+
+                              Figure
+                            Figure     (a)(a)
+                                    8. 8.     Thermal
+                                           Thermal      performance
+                                                     performance     comparison
+                                                                  comparison      between
+                                                                               between MOCMOC
+                                                                                            andand MOC-PCM;
+                                                                                                MOC-PCM; (b) (b) Enlarged
+                                                                                                             Enlarged     view
+                                                                                                                       view
+                              after heating;   (c) Enlarged view after cooling down.
+                            after heating; (c) Enlarged view after cooling down.
+
+                              4. Conclusions
+                            4. Conclusions
+                                   In this analysis, direct impregnation prepared a new thermal regulation substance,
+                                 In this analysis, direct impregnation prepared a new thermal regulation substance,
+                              SD/E. In the solid–liquid transformation, EG was used as a supporting matrix that can
+                            SD/E. In the solid–liquid transformation, EG was used as a supporting matrix that can
+                              solve the problem of leakage efficiently. The microstructure, heat storage performance,
+                            solve the problem of leakage efficiently. The microstructure, heat storage performance,
+                              supercooling behavior, thermal conductivity and chemical stability were explored. The
+                            supercooling behavior, thermal conductivity and chemical stability were explored. The
+                              conclusions could be drawn as follows:
+                            conclusions could be drawn as follows:
+                              1.    Based on the DSC, XRD, and FT-IR results, the latent heat of SD/E was 196.2 J/g while
+                            1. Based     on thechange
+                                    the phase   DSC, XRD,pointand FT-IR
+                                                                was 23.5results,
+                                                                         ◦ C. Thethe latent
+                                                                                  SD/E      heat ofexcellent
+                                                                                         showed     SD/E waschemical
+                                                                                                              196.2 J/gstability,
+                                                                                                                        while
+                                 thewhich
+                                      phasesuggested
+                                              change point   was  23.5 °C.  The SD/E   showed   excellent chemical  stability,
+                                                        that SD/E was a promising candidate for thermal energy storage.
+                              2. which    suggested that
+                                    The combination     ofSD/E   was a promising
+                                                           EG showed    an obviouscandidate
+                                                                                     effect on for thermal the
+                                                                                               decreasing  energy  storage. of
+                                                                                                               supercooling
+                            2. The    combination    of  EG  showed  an  obvious  effect on  decreasing  the supercooling
+                                    SD. After the packaging with EG, the supercooling degree dropped from 5.7 ◦ C           ofto
+                                 SD.  After
+                                    0.8 ◦ C. the packaging with EG, the supercooling degree dropped from 5.7 °C to 0.8
+                                 °C.
+                            3. The thermal conductivity of SD was 0.82 W/(m·K), while it improved to 2.74 W/(m·K)
+                                 after the combination with EG, which indicating the encapsulation of EG could en-
+                                 hance the heat conduction performance obviously.
+                            4. Due to the environmental and economic advantages of the experimental explora-
+                                 tions, SD/E had a strong insolation prospect for construction materials.
+Materials 2021, 14, 139                                                                                                         10 of 11
+
+
+
+
+                                  3.    The thermal conductivity of SD was 0.82 W/(m·K), while it improved to 2.74 W/(m·K)
+                                        after the combination with EG, which indicating the encapsulation of EG could
+                                        enhance the heat conduction performance obviously.
+                                  4.    Due to the environmental and economic advantages of the experimental explorations,
+                                        SD/E had a strong insolation prospect for construction materials.
+
+                                  Author Contributions: N.W. contributed to the conception of the study, performed significantly to
+                                  the analysis and wrote the manuscript. L.L. took part in the experiment and helped perform the
+                                  analysis with constructive discussions. Z.Y. completed the review and revision of the manuscript.
+                                  Y.W. contributed manuscript preparation. J.L. ensured that the descriptions were accurate and
+                                  supervised the conduct of the experiment. All authors have read and agreed to the published version
+                                  of the manuscript.
+                                  Funding: This work was supported by the National Natural Science Foundation of China (NSFC
+                                  Grants No. U1607113 and U1803116).
+                                  Institutional Review Board Statement: “Not applicable” for studies not involving humans or animals.
+                                  Informed Consent Statement: “Not applicable” for studies not involving humans or animals.
+                                  Data Availability Statement: Data is contained within the article.
+                                  Acknowledgments: We would like to thank Professor Huang from China University of Geosciences,
+                                  Beijing for providing us with the experimental testing instrument.
+                                  Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.    Sayyar, M.; Weerasiri, R.R.; Soroushian, P.; Lu, J. Experimental and numerical study of shape-stable phase-change nanocomposite
+      toward energy-efficient building constructions. Energy Build. 2014, 75, 249–255. [CrossRef]
+2.    da Cunha, S.R.L.; de Aguiar, J.L.B. Phase change materials and energy efficiency of buildings: A review of knowledge. J. Energy
+      Storage 2020, 27, 101083. [CrossRef]
+3.    Xu, G.; Wang, W. China’s energy consumption in construction and building sectors: An outlook to 2100. Energy 2020, 195.
+      [CrossRef]
+4.    Marani, A.; Nehdi, M.L. Integrating phase change materials in construction materials: Critical review. Constr. Build. Mater. 2019,
+      217, 36–49. [CrossRef]
+5.    Yang, Z.; Li, J.; Luan, X.; Song, S. Effects of acid leaching and organic intercalation on the thermophysical properties of
+      paraffin/expanded vermiculite composite phase change materials. Appl. Clay Sci. 2020, 196. [CrossRef]
+6.    Lin, Y.; Jia, Y.; Alva, G.; Fang, G. Review on thermal conductivity enhancement, thermal properties and applications of phase
+      change materials in thermal energy storage. Renew. Sustain. Energy Rev. 2018, 82, 2730–2742. [CrossRef]
+7.    Pomianowski, M.; Heiselberg, P.; Zhang, Y. Review of thermal energy storage technologies based on PCM application in buildings.
+      Energy Build. 2013, 67, 56–69. [CrossRef]
+8.    de Gracia, A.; Oró, E.; Farid, M.M.; Cabeza, L.F. Thermal analysis of including phase change material in a domestic hot water
+      cylinder. Appl. Therm. Eng. 2011, 31, 3938–3945. [CrossRef]
+9.    Qureshi, W.A.; Nair, N.-K.C.; Farid, M.M. Impact of energy storage in buildings on electricity demand side management. Energy
+      Convers. Manag. 2011, 52, 2110–2120. [CrossRef]
+10.   Reddy, K.S.; Mudgal, V.; Mallick, T.K. Review of latent heat thermal energy storage for improved material stability and effective
+      load management. J. Energy Storage 2018, 15, 205–227. [CrossRef]
+11.   Nazir, H.; Batool, M.; Bolivar Osorio, F.J.; Isaza-Ruiz, M.; Xu, X.; Vignarooban, K.; Phelan, P.; Inamuddin Kannan, A.M. Recent
+      developments in phase change materials for energy storage applications: A review. Int. J. Heat Mass Transf. 2019, 129, 491–523.
+      [CrossRef]
+12.   Xiao, Q.; Zhang, M.; Fan, J.; Li, L.; Xu, T.; Yuan, W. Thermal conductivity enhancement of hydrated salt phase change materials
+      employing copper foam as the supporting material. Sol. Energy Mater. Sol. Cells 2019, 199, 91–98. [CrossRef]
+13.   Fu, W.; Zou, T.; Liang, X.; Wang, S.; Gao, X.; Zhang, Z.; Fang, Y. Thermal properties and thermal conductivity enhancement of
+      composite phase change material using sodium acetate trihydrate–urea/expanded graphite for radiant floor heating system.
+      Appl. Therm. Eng. 2018, 138, 618–626. [CrossRef]
+14.   Cheng, F.; Zhang, X.; Wen, R.; Huang, Z.; Fang, M.; Liu, Y.g.; Wu, X.; Min, X. Thermal conductivity enhancement of form-stable
+      tetradecanol/expanded perlite composite phase change materials by adding Cu powder and carbon fiber for thermal energy
+      storage. Appl. Therm. Eng. 2019, 156, 653–659. [CrossRef]
+15.   Safari, A.; Saidur, R.; Sulaiman, F.A.; Xu, Y.; Dong, J. A review on supercooling of Phase Change Materials in thermal energy
+      storage systems. Renew. Sustain. Energy Rev. 2017, 70, 905–919. [CrossRef]
+Materials 2021, 14, 139                                                                                                           11 of 11
+
+
+
+
+16.   Sandnes, B.; Rekstad, J. Supercooling salt hydrates: Stored enthalpy as a function of temperature. Sol. Energy 2006, 80, 616–625.
+      [CrossRef]
+17.   Mao, J.; Dong, X.; Hou, P.; Lian, H. Preparation research of novel composite phase change materials based on sodium acetate
+      trihydrate. Appl. Therm. Eng. 2017, 118, 817–825. [CrossRef]
+18.   Li, G.; Zhang, B.; Li, X.; Zhou, Y.; Sun, Q.; Yun, Q. The preparation, characterization and modification of a new phase change
+      material: CaCl2·6H2O–MgCl2·6H2O eutectic hydrate salt. Sol. Energy Mater. Sol. Cells 2014, 126, 51–55. [CrossRef]
+19.   Liu, Y.; Yang, Y. Use of nano-α-Al2O3 to improve binary eutectic hydrated salt as phase change material. Sol. Energy Mater. Sol.
+      Cells 2017, 160, 18–25. [CrossRef]
+20.   Baetens, R.; Jelle, B.P.; Gustavsen, A. Phase change materials for building applications: A state-of-the-art review. Energy Build.
+      2010, 42, 1361–1368. [CrossRef]
+21.   Deng, Y.; Li, J.; Qian, T.; Guan, W.; Wang, X. Preparation and Characterization of KNO3/Diatomite Shape-Stabilized Composite
+      Phase Change Material for High Temperature Thermal Energy Storage. J. Mater. Sci. Technol. 2017, 33, 198–203. [CrossRef]
+22.   Qian, T.; Li, J.; Min, X.; Deng, Y.; Guan, W.; Ning, L. Diatomite: A promising natural candidate as carrier material for low, middle
+      and high temperature phase change material. Energy Convers. Manag. 2015, 98, 34–45. [CrossRef]
+23.   Fu, L.; Wang, Q.; Ye, R.; Fang, X.; Zhang, Z. A calcium chloride hexahydrate/expanded perlite composite with good heat storage
+      and insulation properties for building energy conservation. Renew. Energy 2017, 114, 733–743. [CrossRef]
+24.   Rao, Z.; Xu, T.; Liu, C.; Zheng, Z.; Liang, L.; Hong, K. Experimental study on thermal properties and thermal performance of
+      eutectic hydrated salts/expanded perlite form-stable phase change materials for passive solar energy utilization. Sol. Energy
+      Mater. Sol. Cells 2018, 188, 6–17. [CrossRef]
+25.   Xie, N.; Luo, J.; Li, Z.; Huang, Z.; Gao, X.; Fang, Y.; Zhang, Z. Salt hydrate/expanded vermiculite composite as a form-stable
+      phase change material for building energy storage. Sol. Energy Mater. Sol. Cells 2019, 189, 33–42. [CrossRef]
+26.   Han, W.; Ge, C.; Zhang, R.; Ma, Z.; Wang, L.; Zhang, X. Boron nitride foam as a polymer alternative in packaging phase change
+      materials: Synthesis, thermal properties and shape stability. Appl. Energy 2019, 238, 942–951. [CrossRef]
+27.   Li, T.X.; Wu, D.L.; He, F.; Wang, R.Z. Experimental investigation on copper foam/hydrated salt composite phase change material
+      for thermal energy storage. Int. J. Heat Mass Transf. 2017, 115, 148–157. [CrossRef]
+28.   Peng, S.; Huang, J.; Wang, T.; Zhu, P. Effect of fumed silica additive on supercooling, thermal reliability and thermal stability of
+      Na2HPO4·12H2O as inorganic PCM. Thermochim. Acta 2019, 675, 1–8. [CrossRef]
+29.   Song, Z.; Deng, Y.; Li, J.; Nian, H. Expanded graphite for thermal conductivity and reliability enhancement and supercooling
+      decrease of MgCl2·6H2O phase change material. Mater. Res. Bull. 2018, 102, 203–208. [CrossRef]
+30.   Li, C.; Zhang, B.; Xie, B.; Zhao, X.; Chen, J.; Chen, Z.; Long, Y. Stearic acid/expanded graphite as a composite phase change
+      thermal energy storage material for tankless solar water heater. Sustain. Cities Soc. 2019, 44, 458–464. [CrossRef]
+31.   Ye, Q.; Wang, W.; Zhang, W.; Li, J.; Chen, H. Tuning the phase structure and mechanical performance of magnesium oxychloride
+      cements by curing temperature and H2O/MgCl2 ratio. Constr. Build. Mater. 2018, 179, 413–419. [CrossRef]
+32.   Li, M.; Wu, Z.; Tan, J. Heat storage properties of the cement mortar incorporated with composite phase change material. Appl.
+      Energy 2013, 103, 393–399. [CrossRef]
+33.   Xia, Y.; Zhang, X. Experimental investigation on heat transfer characteristics of a new radiant floor system with phase change
+      material. J. Southeast Univ. 2015, 31, 496–500. [CrossRef]
+34.   Yu, S.; Wang, X.; Wu, D. Microencapsulation of n-octadecane phase change material with calcium carbonate shell for enhancement
+      of thermal conductivity and serving durability: Synthesis, microstructure, and performance evaluation. Appl. Energy 2014, 114,
+      632–643. [CrossRef]
+35.   Zhang, H.; Wang, X. Synthesis and properties of microencapsulated n-octadecane with polyurea shells containing different soft
+      segments for heat energy storage and thermal regulation. Sol. Energy Mater. Sol. Cells 2009, 93, 1366–1376. [CrossRef]
+36.   Deng, Y.; Li, J.; Nian, H. Polyethylene glycol-enwrapped silicon carbide nanowires network/expanded vermiculite composite
+      phase change materials: Form-stabilization, thermal energy storage behavior and thermal conductivity enhancement. Sol. Energy
+      Mater. Sol. Cells 2018, 174, 283–291. [CrossRef]
+37.   Qian, Y.; Meng, B.; Zhang, X.; Zheng, Y.; Taylor, R.; Tiffany-Castiglioni, E. HSPA5 forms specific complexes with copper. Neurochem.
+      Res. 2013, 38, 321–329. [CrossRef]
+38.   Burba, C.M.; Janzen, J. Confinement effects on the phase transition temperature of aqueous NaCl solutions: The extended
+      Gibbs–Thomson equation. Thermochim. Acta 2015, 615, 81–87. [CrossRef]
+

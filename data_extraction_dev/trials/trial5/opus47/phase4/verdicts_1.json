@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "847",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "3,3,5-trimethyl-1-hexanol Bp 193.00 °C confirmed in Table 8 'Experimental and Calculated Bp of Alkyl Alcohols'.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "638",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4k (Benzyl L-aspartate-derived DMAP Ugi adduct) m.p. 105 °C confirmed in experimental section.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "130",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Ethyl (E)-3-(3-Hydroxyphenyl)acrylate (36) Mp 87-90 °C confirmed in Section 4.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1244",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "cholest-6-en-3beta,5alpha-diol (1a) m.p. 147-148 C confirmed (matches paper exactly).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "162",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "5-Acetyl-4-cycloheptylamino-2-ethyl-6-phenylpyridazin-3(2H)-one (4e) mp 98-100 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1875",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "3-Methylquinolin-2(1H)-one (2o) m.p. = 233-234 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "114",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "(2E,4E)-N-Isobutyl-5-(3-phenoxyphenyl)penta-2,4-dienamide (19) Mp 133-135 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "6",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Caffeine-derivative AL6 M.p.: 264.5 °C (dec.) confirmed in section 3.1.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1412",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "1-(4-Chlorophenyl)-N-ethoxymethylene-2-amino-3-cyano-4-phenylpyrrole (6a) mp 130-31 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1675",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4k (cycloheptathienopyrrolopyrimidine ester) m.p. 256-257 °C confirmed (paper uses Cyrillic 'С', extraction uses ASCII 'C').",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1203",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "3N-(4-methoxyaniline)-5-hydroxy-1,4-naphthoquinone (14) m.p. 211 °C confirmed (paper uses '°C', extracted as 'oC').",
+    "verifiable": true,
+    "verifiability_tag": "quote_whitespace_unicode_mismatch"
+  },
+  {
+    "row_id": "1284",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Tacrine-coumarin hybrid 16b mp 253-255 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "2056",
+    "verdict": "flagged_review",
+    "reason": "flagged_property_subtype_mismatch",
+    "details": "Paper explicitly labels 220.78 °C as the 'endothermic peak temperature' of MAT-26DHB (DSC peak), not a melting point. Should be DSC_peak.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1929",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "11-(Butylamino)-12-(o-tolyl)-benzo[f]pyrrolo-triazolo-diazepine-13-carbonitrile (6g) mp 144-149 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1750",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "CaBr2·6H2O melting peak 35.4 °C confirmed in Table 5 (melting peak column).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "297",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "4-(5-chloro-2,4-dihydroxyphenyl)-2-hydroxy-5,7,8-trimethyl-3,4-dihydrobenzo[e][1,2]oxaphosphinine 2-oxide (2d) m.p. 265-267 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1455",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Indirubin sublimation temperature 170 °C confirmed in Schunck 1880 analysis section.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "770",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "3,3-dimethyl-1-butanol experimental BP 143.0 °C confirmed in Table 5 of QSPR aliphatic alcohols paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1825",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "(Sp)-5c PhPhanePHOS ligand M.p. 233-234 °C confirmed in experimental.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1220",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "9-Amino-4-hydrazino-7-oxo-6-phenyl-pyrido-thieno-triazin-8-carbonitrile (13) m.p. 262 °C confirmed (paper has 'o C' with space, extracted as 'oC').",
+    "verifiable": true,
+    "verifiability_tag": "quote_whitespace_unicode_mismatch"
+  },
+  {
+    "row_id": "1186",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "anti-9-(hydroxymethyl)-tricyclo[6.2.1.0(2,7)]undeca-2,4,6,9-tetraene (9) m.p. 50-51.5 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "896",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "6-Methyl-1-(4-Methylbenzyl)-N-(piperidin-1-yl)-1,4-dihydroindeno[1,2-b]pyrrole-3-carboxamide (2e) M.p. 125-130 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1249",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "1-(2-(Benzyloxy)-4-methylphenyl)ethan-1-one (5) mp 55-56 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1779",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "(RS)-1-(tert-Butyl)-3,3-dichloro-4-((RS)-1-chloroethyl)pyrrolidin-2-one (epi-2g) m.p. 113-114 °C confirmed. Evidence quote omits compound identifier.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "2062",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Imepitoin (ImeTQ) DSC T_onset = 268.97 °C confirmed in Section 2.2.1. Evidence quote describes the DSC peak narrative but does not contain the value 268.97.",
+    "verifiable": false,
+    "verifiability_tag": "quote_truncated_before_value"
+  }
+]

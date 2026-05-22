@@ -1,0 +1,1837 @@
+                         Author Manuscript
+                         Accepted for publication in a peer-reviewed journal
+
+                                                                    National Institute of Standards and Technology • U.S. Department of Commerce
+
+                                   Published in final edited form as:
+                                    J Chem Eng Data. 2015 November ; 60(12): 3483–3495. doi:10.1021/acs.jced.5b00751.
+NIST Author Manuscript
+
+
+
+
+                                   Apparatus to measure the vapor pressure of slowly
+                                   decomposing compounds from 1 Pa to 105 Pa
+                                   Robert F. Berg
+                                   Sensor Science Division, National Institute of Standards and Technology Gaithersburg, Maryland,
+                                   20899-8411
+                                   Robert F. Berg: robert.berg@nist.gov
+
+
+                                   Abstract
+                                        This article describes an apparatus and method for measuring vapor pressures in the range from 1
+                                        Pa to 105 Pa. Its three distinctive elements are : (1) the static pressure measurements were made
+                                        with only a small temperature difference between the vapor and the condensed phase, (2) the
+                                        sample was degassed in situ, and (3) the temperature range extended up to 200 °C. The apparatus
+NIST Author Manuscript
+
+
+
+
+                                        was designed to measure metal-organic precursors, which often are toxic, pyrophoric, or unstable.
+                                        Vapor pressures are presented for naphthalene, ferrocene, diethyl phthalate, and TEMAH
+                                        (tetrakisethylmethylaminohafnium). Also presented are data for the temperature-dependent
+                                        decomposition rate of TEMAH.
+
+
+                                   1. Introduction
+                                                    Making a modern microprocessor requires half of the elements in the periodic table, many of
+                                                    which are metals that are used in features such as conducting lines (Cu), dielectric layers
+                                                    (HfO2), and diffusion barriers (TaN). The metal often arrives at the silicon wafer as the
+                                                    vapor of a metal-organic precursor, and the chemists who design the precursor must
+                                                    compromise between a large vapor pressure and other desirable properties such as thermal
+                                                    stability [ 1]. Knowing the precursor’s vapor pressure is useful because it determines the
+                                                    behavior of the vapor delivery device.
+NIST Author Manuscript
+
+
+
+
+                                                    The present apparatus was built for metal-organic precursors, which are typically used at
+                                                    temperatures from 20 °C to 200 °C and can have vapor pressures in the range from 1 Pa to
+                                                    105 Pa. They are often toxic, pyrophoric, or unstable, so the apparatus included safety
+                                                    features, and the measurements and analysis allowed for the possibility of slow
+                                                    decomposition. The apparatus and method had three distinctive elements: (1) the static
+                                                    pressure measurements were made with only a 1 K temperature difference between the
+                                                    vapor and the condensed phase, (2) the sample was degassed in situ, and (3) the temperature
+                                                    range extended up to 200 °C.
+
+                                                    Reviews of techniques to measure the vapor pressure of pure liquids and solids include
+                                                    articles or chapters by Ambrose [2,3], Verevkin [4], Růžička et al. [5], Raal and
+                                                    Ramjugernath [6], and Raal and Mühlbauer [7]. Verevkin mentions five methods to measure
+                                                    vapor pressure : ebulliometric, effusion, static, transpiration, and calorimetric. The
+                                                    ebulliometric (boiling) method is accurate because it can precisely compare the unknown
+                         Berg                                                                                                     Page 2
+
+
+                                        vapor pressure of a liquid to the known vapor pressure of a reference liquid; however, it has
+                                        difficulties below 1 kPa [5], and the samples must be liquid and relatively large (~10 cm3).
+                                        The effusion method, which measures the force or the mass loss due to the ejection of vapor
+                                        from a sample holder, uses only a small sample; however, it requires a mean free path of at
+NIST Author Manuscript
+
+
+
+
+                                        least a few mm, which makes it unsuitable above 10 Pa. Of the remaining methods, the static
+                                        method used here is the most accurate [5], and it can be applied at any pressure for which
+                                        one has a suitable sensor, from less than 1 Pa to more than 10 MPa. Examples of static
+                                        method apparatuses can be found in References [8–15].
+
+                                        The static method is simply a measurement of the pressure of vapor in equilibrium with a
+                                        condensed sample. It requires steady conditions, with the sample located at the coldest part
+                                        of the manifold; otherwise, evaporation and condensation slowly move the sample and cause
+                                        drift of the measured pressure. The usual practice is to hold the pressure gauge at a high,
+                                        fixed temperature while varying the sample temperature (Figure 1a). A less common,
+                                        alternate practice is to maintain a fixed difference between the temperatures of the pressure
+                                        gauge and the sample (Figure 1b). The alternate practice was implemented here by putting
+                                        both the sample and the pressure gauge into a temperature-controlled oven and using a
+                                        thermoelectric device [16]to control the sample temperature Tsample. The oven varied the
+                                        temperature Tair of the air surrounding the pressure gauge, and the device cooled the sample
+NIST Author Manuscript
+
+
+
+
+                                        by the fixed difference Tair- Tsample. Keeping the temperature difference small reduced
+                                        problems caused by thermal transpiration at low pressures, and it decreased the
+                                        decomposition rate of the vapor for unstable samples.
+
+                                        The sample volume was small, about 1 cm3, which reduced the risk of an accident and the
+                                        costs of handling a toxic or pyrophoric sample. A small sample also can be degassed more
+                                        quickly. Degassing the sample while it is in the apparatus eliminated the need for a separate
+                                        distillation apparatus, and it allowed the sample to be measured immediately after it was
+                                        degassed. In situ degassing is especially useful for a decomposing sample because volatile
+                                        decomposition products can be removed between sets of vapor pressure measurements.
+
+                                        The remainder of this article describes the apparatus, its operation, and the results obtained
+                                        for four compounds. A companion article [17] discusses the causes of time dependence in
+                                        the pressure measurements.
+NIST Author Manuscript
+
+
+
+
+                            2. Apparatus
+                            2.1 Hot manifold
+                                        As shown in Figure 2 and Figure 3, the apparatus had two gas manifolds, a hot manifold
+                                        contained in a convection oven and a room temperature manifold. The hot manifold
+                                        comprised the sample tube, two capacitance diaphragm pressure gauges (CDG), and a cold
+                                        trap, all of which were connected by pneumatic valves and metal gasket fittings (1/4 inch (6
+                                        mm) silver-plated nickel VCR[ 18]). The sample tube was surrounded by an aluminum
+                                        block fitted with a thermistor, a platinum resistance thermometer, and two thermoelectric
+                                        elements[ 16]. The thermoelectric elements kept the temperature of the sample tube 1 K
+                                        colder than that of the oven.
+
+
+
+                                         J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                   Page 3
+
+
+                                       The volume of the sample tube, the CDGs, and their connecting tubing was only 29 cm3. A
+                                       volume this small allowed the vapor to be pumped out many times before depleting the
+                                       sample. Such pumping was used when zeroing the CDGs and when degassing the sample by
+                                       cyclic pumping.
+NIST Author Manuscript
+
+
+
+
+                                       The sample tube was constructed by welding an end cap and a VCR fitting onto a thin-
+                                       walled stainless steel tube. Because the wall thickness was only 0.07 mm, the sample
+                                       temperature was well controlled by the thermoelectric block and variations of the oven’s air
+                                       temperature had a negligible effect.
+
+                                       There were three layers of temperature control. The first layer was the laboratory room
+                                       temperature, which was controlled to a precision of 0.2 K. Large variations of room
+                                       temperature or humidity had little effect on the sample temperature, but they did perturb the
+                                       CDG electronics. The second layer was the oven (Memmert UFE-500[ 18]), which had a
+                                       volume of 53 L and could be controlled up to 100 °C with a precision of 0.1 K, and at higher
+                                       temperatures with a precision of 0.5 K. The third layer was the thermoelectric block that
+                                       surrounded the sample tube. This device operated at temperatures as high as 200 °C while
+                                       controlling the sample with a precision of 0.02 K; below 110 °C the precision was 0.002 K.
+                                       Table 1 summarizes the layers of temperature control.
+NIST Author Manuscript
+
+
+
+
+                                       The CDGs (MKS model 616 [18]) were differential pressure gauges with ranges of 1.3 kPa
+                                       and 130 kPa. They were designed for operation at temperatures as high as 300 °C.
+
+                                       The pneumatic valves (Fujikin FWB(R)-71-6.35-2 [18]) were all-metal diaphragm valves
+                                       designed to operate at temperatures as high as 300 °C. The cold trap was the tube -in-tube
+                                       design indicated in Figure 2; during purification it was immersed in a small coolant bath.
+
+                            2.2 Room temperature manifold
+                                       The room temperature manifold included pressure gauges, gas connections, and a 56 Ls−1
+                                       turbo-drag pump backed by an oil-sealed rough pump. Zeolite-filled traps prevented pump
+                                       oil vapor and sample vapor from reaching the turbo pump. Aburner tube was used
+                                       intermittently to destroy the trapped sample vapor. The burner tube was a stainless steel tube
+                                       filled with copper wool and capped by a ceramic wool filters. An oven with ceramic fiber
+                                       insulation surrounded the burner tube.
+NIST Author Manuscript
+
+
+
+
+                                       The quartz flexure reference pressure gauge had a full scale of 310 kPa, a resolution of 1 Pa,
+                                       and a long-term stability of 31 Pa. I calibrated it against a vacuum-referenced piston gauge
+                                       over the range from 2 kPa to 208 kPa, and I extrapolated the calibration to pressures below 2
+                                       kPa by assuming that the gauge’s reading was a linear function of pressure. This assumption
+                                       was verified by a plotting the CDG reading as a function of the quartz gauge reading; the
+                                       deviations from a linear fit were smaller than 1mPa.
+
+
+
+
+                                        J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                  Page 4
+
+
+                            3. Preparing the apparatus
+                            3.1 Baking to remove hydrogen
+                                        Volatile impurities adsorbed onto the walls of the apparatus were removed by baking the
+NIST Author Manuscript
+
+
+
+
+                                        evacuated apparatus for 1 day at 200 °C. Afterwards, dP/dt measured in the empty apparatus
+                                        was dominated by hydrogen outgassing, which occurs because all stainless steel components
+                                        contain dissolved hydrogen [19,20]. It is not a concern when measuring pressures above 1
+                                        Pa at temperatures below 100 °C, but at 200 °C I observed hydrogen outgassing that caused
+                                        the pressure to rise as rapidly as 8 mPa s−1. To reduce that outgassing, the hot manifold was
+                                        pumped and baked for at least one week at temperatures from 200 °C to 250 °C. A common
+                                        procedure for degassing hydrogen is to bake the vacuum chamber at 400 °C for one day
+                                        [19,20], but that temperature was too high for the valves and CDGs used here.
+
+                                        Figure 4 shows the hydrogen outgassing that was typical for baking at 250 °C. The hot
+                                        manifold without the sample tube was pumped for 12 h, and then the outgassing rate was
+                                        measured by closing the valve to the pump and allowing hydrogen to accumulate for the
+                                        next 12 h. Repeating this cycle for 7 days reduced the outgassing rate to approximately 0.01
+                                        mPa s−1 at 250 °C; the outgassing at 200 °C was 10 times smaller. Adding the empty sample
+                                        tube, which was made from type 304 drawn stainless steel, caused much larger outgassing.
+NIST Author Manuscript
+
+
+
+
+                                        A model based on the manifold materials and geometry( Pcalc)indicated that the initial
+                                        concentration of atomic hydrogen in the sample tube was 22 mol m-3. In contrast, the initial
+                                        concentration in the remainder of the manifold, which was made of type 316 vacuum
+                                        remelted stainless steel, was 100 times smaller[ 21].
+
+                                        The hydrogen outgassing measurements and the model are discussed in a separate article
+                                        [21]. Its chief results are:
+
+                                            •    The hydrogen outgassing rate is controlled by the geometry of the vacuum
+                                                 chamber’s components, the hydrogen dissolved in those components, and the
+                                                 processes of diffusion, recombination, and trapping.
+
+                                            •    Strongly bound or “trapped” hydrogen, which occurs at heterogeneities such as
+                                                 dislocations and grain boundaries, can hold most of the dissolved hydrogen even
+                                                 though those locations comprise fewer than 0.1 % of all lattice sites.
+NIST Author Manuscript
+
+
+
+
+                                            •    The amount of hydrogen initially present in a stainless steel component can vary by
+                                                 a factor of 100.
+
+                                            •    Baking at 250 °C for as long as two weeks may be necessary.
+
+                            3.2 Calibrating the pressure gauges
+                                        The CDGs were calibrated by comparing them to the reference pressure gauge. There were
+                                        two types of calibration. A complete calibration was done after baking the empty hot
+                                        manifold, which included the CDGs, and shorter “real-time” calibrations were done during
+                                        the vapor pressure measurements. In the complete calibrations, nitrogen was used to vary the
+                                        pressure from zero to full scale at a series of temperatures T, and the resulting difference
+                                        between the true pressure P and the nominal pressure Pnom was expressed as a cubic
+                                        function of Pnom,
+
+
+                                         J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                      Page 5
+
+
+
+                                                                                                                             (1)
+
+
+                                        where the temperature dependence of each pressure coefficient was expressed as a quadratic
+NIST Author Manuscript
+
+
+
+
+                                        function of T. Figure 5 shows the typical variations of the linear coefficient between
+                                        complete calibrations.
+
+                                        The drift of the linear coefficient between calibrations could lead to an error as large as 1 %.
+                                        Such errors were avoided during normal operation by performing the real-time
+                                        measurements of kp0 and kp1 at each temperature, giving the true pressure
+
+
+
+                                                                                                         (2)
+
+
+
+                                        where Pnom was based on the most recent full calibration. The standard uncertainty of P
+                                        combined the Type A (statistical) uncertainties of Pnom, kp0, and kp1 with the Type B
+                                        uncertainty uB(dP/dPref) of the reference gauge as follows:
+
+                                                                                                                                     (3)
+NIST Author Manuscript
+
+
+
+
+                                        The last term was negligible because uB(dP/dPref) = 0.0001. Figure 6 shows values of u(P)
+                                        obtained for diethyl phthalate, ferrocene, and naphthalene during eight runs. The curves
+                                        approximately describe the standard uncertainties as linear functions of pressure:
+
+
+                                                                                                                      (4)
+
+
+
+
+                            3.3 Correcting for hydrostatic head and thermal transpiration
+                                        The difference in height between the pressure gauge and the sample, Δz = 0.2 m, caused a
+                                        “hydrostatic” pressure difference ΔPz given by
+NIST Author Manuscript
+
+
+
+
+                                                                                                        (5)
+
+
+                                        where M is the molecular mass of the vapor, g is the acceleration of gravity, and R is the
+                                        universal gas constant. This correction was negligible; for TEMAH it was only 0.03 %.
+
+                                        The difference between the temperatures of the pressure gauge and the sample, ΔT = 1 K,
+                                        caused another pressure difference ΔPT due to thermal transpiration. Šetina [22] described
+                                        the difference by
+
+
+
+
+                                         J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                   Page 6
+
+
+
+
+                                                                                                              (6)
+
+
+
+                                       where f(Kn)is a function that goes to 0 when the Knudsen number Kn→∞, namely when P
+NIST Author Manuscript
+
+
+
+
+                                       → 0. At T= 300 K, the transpiration corrections for Kn= 1 and Kn= ∞ were respectively
+                                       ΔPT/P= 0.11 %and 0.17% and therefore negligible. This correction was small because ΔT
+                                       was small and Kn= 1 occur red only at P< 1 Pa. In contrast, if the pressure gauge had been
+                                       held at the constant temperature of 200 °C, the correction at Kn= 1 would have been as large
+                                       as 16 %.
+
+                            3.4 Loading the sample
+                                       A glove box filled with dry nitrogen (<10−5 mole fraction H2O) was used to load each
+                                       sample into the sample tube. Before removing the sample tube from the glove box, it was
+                                       sealed by attaching pneumatic valve #1( Figure 2). The sample tube and valve were then
+                                       attached to the manifold, and the sample was degassed in situ by cyclic pumping, vacuum
+                                       sublimation, or both methods.
+
+
+                            4. Operation
+NIST Author Manuscript
+
+
+
+
+                            4.1 Degassing the sample
+                                       This section describes the two methods that were used to degas the samples in situ, cyclic
+                                       pumping and vacuum sublimation. The Appendix reviews degassing methods used
+                                       elsewhere.
+
+                                       4.1.1 Degassing by cyclic pumping—See Figure 7. Cyclic pumping periodically
+                                       removed a known volume of vapor from the sample. It comprised as many as 100 repetitions
+                                       of the following cycle:
+
+                                            1.   Isolate the sample tube. (Close valve 1.)
+
+                                            2.   Pump the vapor out of the hot manifold. (Open valve 2 to the hot manifold.)
+
+                                            3.   Stop pumping and open the sample tube to the hot manifold. (Close valve 2 and
+                                                 open valve 1.)
+NIST Author Manuscript
+
+
+
+
+                                       Degassing by cyclic pumping has the following advantages:
+
+                                            •    The amount of sample removed per cycle is known even if the sample is in an
+                                                 opaque container, as described below.
+
+                                            •    The amount of sample removed is small if the sample vapor pressure and the
+                                                 manifold volume are small.
+
+                                            •    The cycle time can be adjusted to allow for the impurity’s speed of diffusion into
+                                                 the vapor.
+
+                                            •    It is easily automated.
+
+                                       Assuming that the sample is a binary solution that consists almost entirely of compound
+                                       “A”, the moles of A removed during a pumping cycle is:
+
+                                         J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                               Page 7
+
+
+
+
+                                                                                                (7)
+
+
+                                where PVA is the vapor pressure of A. The amount of impurity “B” removed during the same
+NIST Author Manuscript
+
+
+
+
+                                cycle is proportional to the mole fraction yB of B in the vapor. Assuming Raoult’s law, yB is
+                                given by
+
+
+                                                                                                      (8)
+
+
+                                where P is the total pressure, xB is the molar concentration of B in the liquid (or solid), kH is
+                                Henry’s constant, and PVB is the vapor pressure of B. The moles of impurity “B” removed
+                                during cycle “i” is then
+
+
+                                                                                                                   (9)
+
+
+                                Here, α is volatility ratio defined by
+NIST Author Manuscript
+
+
+
+
+                                                                                                            (10)
+
+
+
+                                The impurity decrease per cycle Δx(i) is then given by
+
+
+
+                                                                                                                     (11)
+
+
+
+                                where nLA is the amount of compound A in liquid form. Equation (11) says that the impurity
+                                decrease is proportional to α- 1, so little improvement is possible when the impurity has a
+                                vapor pressure similar to that of compound A. Rewriting Eq. (11) as a differential equation
+                                and integrating yields the Rayleigh distillation equation, Eq. (29) in the Appendix.
+
+                                Figure 8 illustrates the degassing of diethyl phthalate by cyclic pumping. Possible impurities
+NIST Author Manuscript
+
+
+
+
+                                included nitrogen and maleic anhydride. The sample was held at Tsample= 99 ° C, and the
+                                cycle comprised a 15 min evacuation of the hot manifold followed by a 15 min observation
+                                of the increasing pressure. After 17 h, the rate of pressure increase was less than 0.3 Pa h−1.
+
+                                The sample was then degassed further at temperatures as high as 159 °C. Figure 9 shows
+                                subsequent measurements of vapor pressure at 99° C. Following an evacuation and the short
+                                recovery from evaporative cooling, the pressure increased at less than 0.02 Pa h−1, which
+                                was similar to the expected rate of hydrogen outgassing [21].
+
+                                Stirring the diethyl phthalate was tried in one run at 99 °C. The stirrer was a stainless steel
+                                ball bearing inside the sample tube that was periodically lifted and dropped by an external
+                                magnet attached to a gearhead motor. Stirring caused only a small improvement of the
+                                degassing, perhaps because boiling was already stirring the sample [17].
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                            Page 8
+
+
+                                4.1.2 Degassing by vacuum sublimation—Cyclic pumping may not be effective if the
+                                impurity has a small diffusivity, which is more likely when the sample is solid. For example,
+                                the self diffusivity of polycrystalline naphthalene near its melting point of 80 °C (D=
+                                1×10−9m2s−1 [23]) is similar to that of the liquid (Wilke-Chang method [24,25]). However,
+NIST Author Manuscript
+
+
+
+
+                                at 40 °C, it is about 40 times smaller, and the diffusion time of a 10 mm deep sample is
+                                approximately 18 days.
+
+                                In contrast, vacuum sublimation works for solids as well as liquids [5]. It is a variation of
+                                batch distillation that is performed at pressures below atmospheric. See, for example, [26].
+                                The sample is evaporated in vacuum at temperature Tsample and condensed into a cold trap at
+                                Ttrap< Tsample. Scientific laboratories typically use this method to remove an impurity of
+                                lower volatility, which remains behind in the sample container. However, when the impurity
+                                has a higher volatility, the entire sample is evaporated with the expectation that the impurity
+                                will be more likely to pass through the trap to the vacuum pump.
+
+                                The following steps were used:
+
+                                    1.   Remove gas at atmospheric pressure: Freeze the sample in the sample tube at 77 K,
+                                         open the vacuum pump, pump out all gas from above the sample, then close the
+                                         sample tube and warm it to Tsample.
+NIST Author Manuscript
+
+
+
+
+                                    2.   Cool the cold trap to Ttrap, typically 77 K or 273 K, and open the sample tube to
+                                         condense the sample into the trap. A warm value of Ttrap will allow an impurity of
+                                         moderate volatility to pass through the trap, but it also will cause more of the
+                                         sample to be lost to the pump.
+
+                                    3.   Close the vacuum pump, warm the trap to Tair, cool the sample tube to 77 K, and
+                                         then condense the sample back into the sample tube.
+
+                                The efficiency of this method depends on Tsample, which controls the rate of evaporation,
+                                Tair, which controls the sticking coefficient on the wall of the connecting manifold, and
+                                Ttrap, which controls the relative amounts of sample and impurity that pass through the trap
+                                to the vacuum pump.
+
+                                The CDG pressure reading allowed the progress of the sublimation to be followed even
+                                though the sample could not be seen inside the metal manifold. The pressure reading was
+NIST Author Manuscript
+
+
+
+
+                                always time dependent and smaller than the vapor pressure at Tsample. Its value was likely
+                                determined by the flow conductance of the hot manifold and the flow rate through the
+                                manifold.
+
+                                The simple, all-metal, tube-in-tube design used here was adequate, but more elaborate
+                                geometries are possible, such as the use of two intermediate traps by Pangrác et al. [15]. One
+                                might also replace the intermediate traps by a long tube that functioned as a preparative
+                                chromatograph. An attempt with a long coiled tube failed because condensate clogged the
+                                bottom of the first coil.
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                   Page 9
+
+
+                            4.2 Measuring PV(T)
+                                        The apparatus was driven by a sequence of commands listed in a spreadsheet and
+                                        implemented by the spreadsheet’s scripting language. Figure 10 shows a measurement run in
+                                        which the temperature was increased in 10 K steps. At each temperature two or more
+NIST Author Manuscript
+
+
+
+
+                                        pumping cycles removed vapor, and a limited “real-time” calibration obtained the
+                                        parameters kp0 and kp1 for both CDGs.
+
+                                        Figure 11 shows details of the measurements. At 169 °C, where the sample was liquid, the
+                                        pressure returned quickly to equilibrium after an evacuation, and subsequent variations were
+                                        driven by small variations of the sample temperature. At 59 °C, where the sample was solid,
+                                        the pressure equilibrated slowly.
+
+                            4.3 Response times
+                                        The speed of the vapor pressure measurements was limited by the slow responses of the
+                                        apparatus and the sample. The slowest apparatus components were the CDGs, which
+                                        required 2 h to stabilize after a change of 20 K. This long interval may have been due to the
+                                        slow relaxation of mechanical stress. Although CDG manufacturers typically do not specify
+                                        the relaxation time of their devices, variation among models is possible; the relaxation time
+NIST Author Manuscript
+
+
+
+
+                                        for a CDG made by another manufacturer was observed to be almost 4h.
+
+                                        The sample’s response can be even slower due to the diffusion of a volatile impurity out of
+                                        the condensed sample. Pumping on the sample reduces the impurity concentration at the
+                                        sample surface and creates a concentration gradient within the sample. If the sample is a
+                                        solid or an unstirred liquid, the gradient will relax with the characteristic time
+
+
+                                                                                                    (12)
+
+
+                                        where L is the sample’s effective diffusion length and D is the mass diffusion constant. Table
+                                        2 gives example values of D and τD for various liquid mixtures. See the companion article
+                                        [17] for details.
+
+                                        The sample’s time constant for thermal equilibration was expected to be only about 100 s
+NIST Author Manuscript
+
+
+
+
+                                        [17]. However, that estimate, which assumed good contact with the container wall, may have
+                                        been too small for a solid sample. Pumping on the sample preferentially evaporates the
+                                        warm layer close to the wall, and the resulting gap has a low thermal conductance.
+
+                                        Another slow process is redistribution of the sample when the temperature of the sample
+                                        container has a nonuniformity ΔT0. As discussed in [17], transpiration will cause the
+                                        difference between the measured pressure P and the vapor pressure PV(T0) at the container’s
+                                        nominal temperature T0 to be approximately
+
+
+                                                                                                             (13)
+
+
+
+
+                                         J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                    Page 10
+
+
+                                         Depending on the sample’s distribution in the container, the pressure difference can persist
+                                         for hours.
+
+                            4.4 Trapping vapor
+NIST Author Manuscript
+
+
+
+
+                                         During the measurements, zeolite trap #1 captured the vapor produced by degassing the
+                                         sample and zeroing the CDGs. Afterwards, the trapped vapor was destroyed by warming the
+                                         zeolite trap to 150 °C, heating the burner tube to 700 °C, and flowing air through the trap to
+                                         drive the vapor into the burner tube. The vapor was oxidized to metal oxides and gases such
+                                         as H2O and CO2. The oxides were trapped by the ceramic wool filter pad at the end of the
+                                         burner tube, and the gases were exhausted outside the building.
+
+                                         The zeolite trap was safer than a cryogenic trap because it required less attention. Any water
+                                         already present in the zeolite enhanced the trap’s safety by promoting the oxidation of the
+                                         vapor in the trap. Using only a small sample, typically 1 cm3, minimized the concerns of
+                                         safety and disposal. Although this trap-and-burn scheme was suitable only for small
+                                         amounts of vapor, it could handle a wide variety of compounds, which is useful for a
+                                         scientific laboratory; see, for example, [15]. In contrast, the scheme used by a semiconductor
+                                         fab can mitigate a large amount of vapor, but it must be optimized for a particular process
+                                         chemistry.
+NIST Author Manuscript
+
+
+
+
+                            5. Results
+                                         Figure 12 uses data for four compounds to show the range of data collected with the present
+                                         apparatus. For naphthalene, ferrocene, and diethyl phthalate the vapor pressure Pv was
+                                         defined to be the pressure measured when the condensed sample was in approximate
+                                         equilibrium with its vapor. This occurred after the sample temperature had recovered from
+                                         evaporative cooling, as discussed in [17], and before a significant amount of impurity had
+                                         diffused out of the sample into the vapor. The Pv values for these three compounds are
+                                         tabulated in Section 5.2. The results for TEMAH, which were affected by decomposition,
+                                         are discussed in a separate section.
+
+                            5.1 Purity
+                                         Table 3 lists the as-received purities of the compounds and the methods used to purify the
+NIST Author Manuscript
+
+
+
+
+                                         samples further in situ. As discussed in the companion article [17], an impurity B with mole
+                                         fraction xB in the sample and partial pressure PB in the vapor will cause a relative error of
+                                         approximately
+
+
+
+                                                                                                             (14)
+
+
+                                         where PVB and PVA are the vapor pressures of the impurity and the pure compound. The
+                                         error depends very much on the impurity, and one with a vapor pressure similar to PVA will
+                                         have little effect. In contrast, dissolving only 3×10−6 mole fraction of nitrogen in
+                                         naphthalene at 80 °C will double the observed pressure.
+
+
+
+
+                                          J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                      Page 11
+
+
+                                        A bound on the impurity concentration in the vapor (not the condensed sample) can be
+                                        obtained from the time dependence of the pressure P(t) observed after pumping on the
+                                        sample. At the time t= 0.01 τD, where τD is the time constant for mass diffusion, the partial
+                                        pressure of the impurity PB will be given approximately by [ 17]
+NIST Author Manuscript
+
+
+
+
+                                                                                                            (15)
+
+
+
+                                        For the first three compounds, the in situ purification typically reduced the pressure time
+                                        dependence to below the measurement resolution of (dP/dt)/P ≈ 10−6s−1. For the typical
+                                        time of τD= 14 h [ 17], the corresponding bound on the impurity concentration in the vapor
+                                        is 0.05.
+
+                                        For TEMAH, which decomposed continuously, the time dependence of the pressure was
+                                        always large. As described in [17] and later in this article, fitting Eq. (18) to P(t)obtained the
+                                        desired vapor pressure even when PB/PVA>1.
+
+                            5.2 Naphthalene, ferrocene, and diethyl phthalate
+NIST Author Manuscript
+
+
+
+
+                                        Figure 13 shows that the scatter ΔPV among the values of PV was often larger than the
+                                        pressure uncertainty u(P). The scatter was estimated by subtracting PV from a reference
+                                        function PVref, and then calculating the standard deviations of PV - P Vref three points at a
+                                        time.
+
+                                        At low pressure ΔPV varied with the compound and was as much as 50 times larger than
+                                        u(P). The curves on Figure 13 approximately describe ΔPV as follows.
+
+
+
+                                                                                                                        (16)
+
+
+
+                                        The following expression describes the total relative standard uncertainty of PV for these
+                                        three compounds.
+NIST Author Manuscript
+
+
+
+
+                                                                                                                           (17)
+
+
+
+                                        The first term of Eq. (17) was usually negligible because u(T) = 9 mK; for example, it was
+                                        0.0006 for naphthalene near its melting temperature of 353 K. There is no term for u(P)
+                                        because it is implicitly included in ΔPV.
+
+                                        Naphthalene—Figure 14 compares the naphthalene results to previous measurements.
+                                        Above the melting temperature Tmelt, the values typically have standard uncertainties from
+                                        0.02 % to 0.2 %, and they agree with previous results from Camin and Rossini [24], Fowler
+
+
+
+
+                                         J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                     Page 12
+
+
+                                     et al. [27], and Chirico et al. [28]. At the coldest temperature of 312 K, the values fall
+                                     between the values of Růžička et al. [29] and Monte et al. [13].
+
+                                     Ferrocene—Figure 15 compares present results for ferrocene from Kaplan et al. [31],
+NIST Author Manuscript
+
+
+
+
+                                     Edwards and Kington [32], Emel’yanenko [33], Siddiqi [34], Monte et al. [13], and Fulem et
+                                     al.[ 35]. Except for the two coldest points at 312 K, the present data were reported
+                                     previously by Fulem et al. [35]. In that work, the authors combined calculated ideal gas heat
+                                     capacities and critically assessed experimental data for vapor pressure, crystalline heat
+                                     capacity, and enthalpy of sublimation to obtain a consistent thermodynamic description.
+
+                                     Diethyl phthalate—Figure 16 compares the present results to previous work by Rohác et
+                                     al. [37], who used three methods to span the remarkably wide temperature range of 217 K.
+                                     Below 350 K, the present results disagree with those of [37]by as much as 20 %, and the
+                                     Knudsen and static results from [37]disagree by about 10 %.
+
+
+                            6. Tetrakisethylmethylaminohafnium (TEMAH)
+                                     Decomposition complicated the vapor pressure measurements of TEMAH. Figure 17 shows
+                                     examples of the time-dependent pressure observed after opening the manifold to the sample
+NIST Author Manuscript
+
+
+
+
+                                     tube containing TEMAH. As discussed in the companion article [17], five processes
+                                     contributed caused the time dependence:
+
+                                         1.   Evaporative cooling at t= 0.
+
+                                         2.   Temperature equilibration.
+
+                                         3.   Generation of a volatile impurity by decomposition with reaction rate kA.
+
+                                         4.   Removal of the impurity with effective reaction rate kB.
+
+                                         5.   Diffusion of the impurity from the liquid to the vapor, characterized by the rate kD.
+
+                                     Temperature equilibration was assumed to be finished after tfirst = 400 s, and the other
+                                     processes were accounted for by the following equation, which was fitted to the data at times
+                                     t> tfirst:
+
+                                                                                                                                  (18)
+NIST Author Manuscript
+
+
+
+
+                                     Here,
+
+
+
+
+                                                                                                                            (19)
+
+
+
+
+                                     and the partition parameter γ is defined by
+
+
+
+
+                                      J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                              Page 13
+
+
+
+
+                                                                                                                  (20)
+
+
+
+                                where m is the mass of the liquid sample, MA is the molar mass of TEMAH, and V1+ V2 is
+NIST Author Manuscript
+
+
+
+
+                                the volume of the vapor space. The equilibrium impurity pressure is related to the reaction
+                                rates kA and kB by
+
+
+
+                                                                                                 (21)
+
+
+                                where PVB is the vapor pressure of the impurity, and the two time constants are defined by
+
+
+
+                                                                                                                  (22)
+
+
+                                The five fitted parameters in Eq. (18) are the pressures Pfit(0) and P1 (units Pa) and the rate
+                                constants kA, kB, and kD (s−1). The most important is
+NIST Author Manuscript
+
+
+
+
+                                                                                                    (23)
+
+
+                                which is the sum of PVA, the vapor pressure of the compound of interest, and PB(0), the
+                                partial pressure of the impurity at t= 0.
+
+                                The fitted value of Pfit(0) had a weak dependence on the range of data. As shown in Figure
+                                18, decreasing the time of the first fitted point from the nominal value of tfirst = 400 s had the
+                                largest effect at 39 °C, probably because boiling-induced stirring was smaller at colder
+                                temperatures. Figure 17 shows that increasing tfirst to 800 s had little effect on Pfit(0). The
+                                value tfirst= 400 s was chosen to minimize the statistical uncertainty of Pfit(0) at all
+                                temperatures.
+
+                                Separating PVA from Pfit(0) in Eq. (23) was possible because the measurements of P(t) were
+                                preceded by cyclic pumping, which added an additional constraint. Figure 19 shows the
+NIST Author Manuscript
+
+
+
+
+                                periodic variations of P(t) that preceded a 6 h measurement: At t = 0 the sample tube
+                                (volume V1) was opened to the total manifold volume (V1+ V2). At t = t1, the sample tube
+                                was closed while the rest of the manifold was evacuated. During that second interval,
+                                decomposition continued to increase the pressure in the sample tube. As explained in [17],
+                                extrapolating the fitted pressure Pfit(t) to the time t2 allowed PVA to be estimated as :
+
+
+                                                                                                           (24)
+
+
+
+                                where the volume ratio is V12 ≡ V1/(V1+V2). Expansion of nitrogen gas from V1 to (V1
+                                +V2) was used to measure V12.
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                  Page 14
+
+
+                                Table 5 lists the present results for TEMAH, and Figure 20 compares them to previous
+                                results using the following reference function.
+NIST Author Manuscript
+
+
+
+
+                                                                                                          (25)
+
+
+
+                                The relative standard uncertainty of PV was estimated as follows.
+
+
+
+                                                                                                                                         (26)
+
+
+
+                                Here, the uncertainty u(Pfit(0)) is the statistical uncertainty of Pfit(0) associated with fitting
+                                Eq. (18), and the uncertainty associated with separating PVA from Pfit(0) was obtained by
+                                multiplying the uncertainty of V12 by the derivative of Eq. (24) with respect to V12. Table 6
+                                shows that these two uncertainties were dominant.
+
+                                Figure 21 shows the fitted values of Pfit(0), P1, and the rate constants kA, kB, and kD. Also
+                                shown is PVB, the vapor pressure of the assumed impurity, methylethylamine, which was
+NIST Author Manuscript
+
+
+
+
+                                described approximately by [40]
+
+
+                                                                                                                        (27)
+
+
+                                Methylethylamine was chosen because it can appear as a dominant species during atomic
+                                layer deposition with TEMAH [41]. However, the vapor was not analyzed here, so perhaps
+                                the decomposition created a different volatile impurity. For example, the unstable species
+                                *NCH3C2H5 could have formed and decomposed to gases such as nitrogen, methane, and
+                                ethane [42]. In any case, the derivation of Eq. (18) did not depend on the number of
+                                decomposition species [17], and the fitted value of Pfit(0) was insensitive to the assumed
+                                impurity vapor pressure PVB. Increasing the value of PVB by a factor of 104 did not change
+                                Pfit(0) or its uncertainty. Knowing the decomposition products was not necessary to obtain
+                                the vapor pressure of TEMAH.
+NIST Author Manuscript
+
+
+
+
+                                The curve drawn through the kA data is an approximate Arrhenius description of the
+                                decomposition rate above 50 °C:
+
+                                                                                                                 (28)
+
+
+
+                                The curve drawn through the kD data is the estimate kD = π2D/L2, where the Wilke-Chang
+                                method [24,25] was used to estimate the mass diffusivity D of methylethylamine in
+                                TEMAH, and fitting the sample depth to the data yielded the reasonable value L= 1.4 mm.
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                                  Page 15
+
+
+                            Acknowledgments
+                                     I thank Michal Fulemand Kveta Růžička for encouragement and advice about measuring vapor pressures, Doug
+                                     Meier for advice about metal organic chemistry, Kurt Benkstein for the loan of the glove box, and Jim Maslar and
+                                     Don Burgess for helpful conversations. This work was funded in part by the NIST Office of Microelectronic
+NIST Author Manuscript
+
+
+
+
+                                     Programs.
+
+
+                            References
+                                     1. Soulet, A.; Duquesne, L.; Jursich, G.; Inman, R.; Misra, A.; Blasco, N.; Lachaud, C.; Marot, Y.;
+                                        Prunier, R.; Vautier, M.; Anderson, S.; Clancy, P.; Havlicek, P. Semiconductor Fabtech. 27. 2005.
+                                        Optimizing the selection and supply of Hf precursor candidates for gate oxide; p. 74-81.
+                                     2. Ambrose, D. Vapor pressures. In: Le Neindre, B.; Vodar, B., editors. Experimental
+                                        Thermodynamics, Vol II, Experimental Thermodynamics of Non-Reacting Fluids. Vol. Chapter 13.
+                                        Butterworths; London: 1975.
+                                     3. Ambrose, D. Vapour pressures. Chapter 7. In: McGlashan, ML., senior reporter, editor. Chemical
+                                        Thermodynamics. Vol. I. The Chemical Society; London: 1973.
+                                     4. Verevkin, SP. Phase changes in pure component systems: Liquids and gases. In: Weir, RD.; de Loos,
+                                        TW., editors. Measurement of the Thermodynamic Properties of Multiple Phases. Vol. Chapter 2.
+                                        Elsevier; Amsterdam: 2005.
+                                     5. Růžička, K.; Fulem, M.; Růžička, V. [accessed Oct. 2015] Vapor Pressure of organic compounds.
+                                        Measurement and correlation. http://www.vscht.cz/fch/Kvetoslav.Ruzicka/
+                                        ICTP_VaporPressureGroup.pdf
+NIST Author Manuscript
+
+
+
+
+                                     6. Weir, RD.; de Loos, TW., editors. Measurement of the Thermodynamic Properties of Multiple
+                                        Phases. Elsevier; 2005.
+                                     7. Raal, JD.; Mühlbauer, AL. Phase Equilibria Measurement and Computation. Taylor & Francis;
+                                        Washington: 1998.
+                                     8. Sasse K, Jose J, Merlin J. A static apparatus for measurement of low vapor pressures. Experimental
+                                        results on high molecular-weight hydrocarbons. Fluid Phase Equilib. 1988; 42:287–304.
+                                     9. Tobaly P. An apparatus for vapor pressure measurements of organic solids using a computer
+                                        controlled null-detector. Rev Sci Instrum. 1991; 62:2011–2015.
+                                     10. Allen JE, Nelson RN, Harris BC. Apparatus for measuring thermodynamic properties at low
+                                          temperatures. Rev Sci Instrum. 1999; 70:4283–4294.
+                                     11. Nasirzadeh K, Zimin D, Neueder R, Kunz W. Vapor-pressure measurements of liquid solutions at
+                                          different temperatures: Apparatus for use over an extended temperature range and some new data.
+                                          J Chem Eng Data. 2004; 49:607–612.
+                                     12. Gorobei VN, Krutovskikh MP, Vitkovskii OS. Measurement methods and instruments for the
+                                          saturated vapor pressure of oil products. Meas Tech. 2006; 49:265–269.
+                                     13. Monte MJS, Santos LMNBF, Fulem M, Fonseca JMS, Sousa CAD. New static apparatus and vapor
+NIST Author Manuscript
+
+
+
+
+                                          pressure of reference materials: Naphthalene, benzoic acid, benzophenone, and ferrocene. J Chem
+                                          Eng Data. 2006; 51:757–766.
+                                     14. Fulem M, Růžička K, Růžička V, Šimeček T, Hulicius E, Pangrác J. Vapour pressure measurement
+                                          of metal organic precursors used for MOVPE. J Chem Thermodyn. 2006; 38:312–322.
+                                     15. Pangrác J, Fulem M, Hulicius E, Melichar K, Šimeček T, Růžička K, Moravek P, Růžička V,
+                                          Rushworth SA. Vapor pressure of germanium precursors. J Cryst Growth. 2008; 310:4720–4723.
+                                     16. Berg RF. Thermoelectric temperature control device for vapor pressure measurements. Rev Sci
+                                          Instrum. 2011; 82:085110–6. [PubMed: 21895278]
+                                     17. Berg RF. Correcting “static” measurements of vapor pressure for time dependence due to diffusion
+                                          and decomposition. J Chem Eng Data. 2015
+                                     18. Certain commercial materials or equipment are identified in this paper in order to specify the
+                                          experimental procedure adequately. Such identification is not intended to imply recommendation
+                                          or endorsement by the National Institute of Standards and Technology, nor is it intended to imply
+                                          that the materials or equipment identified are the best available for the purpose.
+
+
+
+
+                                         J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                Page 16
+
+
+                                19. Redhead, PA. Ultrahigh and extreme high vacuum. In: Lafferty, JM., editor. Foundations of
+                                    Vacuum Science and Technology. Vol. Chapter 11. Wiley; New York: 1998.
+                                20. Outlaw, RA.; Tompkins, JG. Ultrahigh Vacuum Design and Practice. AVS; New York: 2009.
+                                21. Berg RF. Hydrogen traps in the outgassing model of a stainless steel vacuum chamber. J Vac Sci
+                                    Technol A. 2014; 32:031604–13.
+NIST Author Manuscript
+
+
+
+
+                                22. Šetina J. New approach to corrections for thermal transpiration effects in capacitance diaphragm
+                                    gauges. Metrologia. 1999; 36:623–626.
+                                23. Sherwood JN, White DJ. Self-diffusion in polycrystalline naphthalene. Phil Mag. 1967; 16:975–
+                                    980.
+                                24. Wilke CR, Chang P. Correlation of diffusion coefficients in dilute solutions. AICHe J. 1955;
+                                    1:264–270.
+                                25. Reid, RC.; Prausnitz, JM.; Poling, BE. The Properties of Gases and Liquids. 4. McGraw Hill; New
+                                    York: 1987.
+                                26. Růžička M, Fulem V, Růžička. Recommended vapor pressure of solid naphthalene. J Chem Eng
+                                    Data. 2005; 50:1956–1970.
+                                27. Camin DL, Rossini FD. Physical properties of fourteen API Research hydrocarbons, C9 to C15. J
+                                    Phys Chem. 1955; 59:1173–1179.
+                                28. Fowler L, Trump WN, Vogler CE. Vapor pressure of naphthalene. New measurements between 40
+                                    and 180 C 13. J Chem Eng Data. 1968; 13:209–210.
+                                29. Chirico RD, Knipmeyer SD, Nguyen A, Steele WV. The thermodynamic properties to the
+                                    temperature 700 K of naphthalene and of 2,7-dimethylnaphthalene. J Chem Thermodyn. 1993;
+                                    25:1461–1494.
+NIST Author Manuscript
+
+
+
+
+                                30. Růžička M, Fulem V, Růžička. Recommended vapor pressure of solid naphthalene. J Chem Eng
+                                    Data. 2005; 50:1956–1970.
+                                31. NIST Standard Reference Subscription Database 3, version 2-2012-1-Pro. wtt-pro.nist.gov
+                                32. Kaplan L, Kester WL, Katz JJ. Some properties of iron biscyclopentadienyl. J Am Chem Soc.
+                                    1952; 74:5531–5532.
+                                33. Edwards JW, Kington GL. Thermodynamic properties of ferrocene. Part 2. Vapour pressure and
+                                    latent heat of sublimation at 25°C by the effusion and thermistor manometer. Trans Faraday Soc.
+                                    1962; 58:1323–1333.
+                                34. Emel’yanenko VN, Verevkin SP, Krol OV, Varushchenko RM, Chelovskaya NV. Vapour pressures
+                                    and enthalpies of vaporization of a series of the ferrocene derivatives. J Chem Thermodyn. 2007;
+                                    39:594–601.
+                                35. Siddiqi MA, Atakan B. Combined experiments to measure low sublimation pressures and diffusion
+                                    coefficients of organometallic compounds. Thermochim Acta. 2007; 452:128–134.
+                                36. Fulem M, Růžička K, Červinka C, Rocha MAA, Santos LMNBF, Berg RF. Recommended vapor
+                                    pressure and thermophysical data for ferrocene. J Chem Thermodyn. 2013; 57:530–540.
+                                37. Rohác V, Růžička K, Růžička V, Zaitsau D, Kabo G, Diky V, Aim K. Vapour pressure of diethyl
+NIST Author Manuscript
+
+
+
+
+                                    phthalate. J Chem Thermodyn. 2004; 36:929–937.
+                                38. Rushworth SA, Smith LM, Kingsley AJ, Odedra R, Nickson R, Hughes P. Vapour pressure
+                                    measurement of low volatility precursors. Microelectron and Reliab. 2005; 45:1000–1002.
+                                39. [accessed Oct. 2015] Air Liquide, TEMAHf data sheet. http://www.engineering-
+                                    solutions.airliquide.com/file/otherelement/pj/2d/8f/94/07/temahf1863163035765428806.pdf
+                                40. Wolff H, Schiller O. The vapour pressure behavior and the association of N-methylethylamine,
+                                    diethylamine and their N-deuterioanalogues in mixtures with n-hexane. Fluid Phase Equil. 1985;
+                                    22:185–207.
+                                41. Sperling BA, Kimes WA, Maslar JE, Chu PM. Time-resolved Fourier transform infrared
+                                    spectroscopy of the gas phase during atomic layer deposition. J Vac Sci Techol A. 2010; 28:613–
+                                    621.
+                                42. Růžička, K. private communication. 2015.
+                                43. Markham AE, Kobe KA. The solubility of gases in liquids. Chem Rev. 1941; 28:519–588.
+                                44. Battino R, Clever HL. The solubility of gases in liquids. Chem Rev. 1966; 66:395–463.
+                                45. Battino R, Evans FD. Apparatus for rapid degassing of liquids. Anal Chem. 1966; 38:1627–1629.
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                      Page 17
+
+
+                                     46. Hickman KCD. High-vacuum short-path distillation - A review. Chem Rev. 1944; 28:51–106.
+                                     47. Hibben JH. Removal of dissolved gases from liquids by vacuum sublimation. Bur Stand J Res.
+                                         1928; 3:97–104.
+                                     48. Bell TN, Cussler EL, Harris KR, Pepela CN, Dunlop PJ. An apparatus for degassing liquids by
+                                         vacuum sublimation. J Phys Chem. 1968; 72:4693–4695.
+NIST Author Manuscript
+
+
+
+
+                                     49. Battino R, Evans FD, Bogan M. Apparatus for the rapid degassing of liquids. Part II. Anal Chem
+                                         Acta. 1968; 43:520–522.
+                                     50. Battino R, Banzhof M, Bogan M, Wilhelm E. Apparatus for rapid degassing of liquids. Part III.
+                                         Anal Chem. 1971; 43:806–807.
+                                     51. Halvorsen, IJ.; Skogestad, S. Theory of distillation. In: Wilson, ID.; Adlard, ER.; Cooke, M.;
+                                         Poole, CF., editors. Encyclopedia of Separation Science. Vol. II. Academic Press; 2000.
+                                     52. Seader, JD.; Siirola, JJ.; Barnicki, SD. Distillation. In: Perry, RH.; Green, DW.; Maloney, JO.,
+                                         editors. Perry’s Chemical Engineers’ Handbook. Vol. chapter 13. McGraw-Hill; New York: 1997.
+
+
+                            7. Appendix: Degassing methods used elsewhere
+                                     Methods used to degas liquids have evolved slowly over the last 150 years; see the brief
+                                     reviews that are included in articles by Markham and Kobe [43], Battino and Clever [44],
+                                     and Battino and Evans [45]. See also Hickman’s review of vacuum distillation [46]. As early
+                                     as 1855, Bunsen used boiling followed by cooling in a vacuum. In 1928, Hibben [47]
+                                     described a method of vacuum sublimation and the conditions necessary for purification;
+NIST Author Manuscript
+
+
+
+
+                                     much later Bell et al. [48] published a similar method. Between 1966 and 1971, Battino and
+                                     coworkers [44,45,49,50] developed a series of degassing methods, the last of which stirred a
+                                     liquid while pumping the vapor space through a condenser. Battino and Clever [44]
+                                     mentioned two simple methods that are still frequently used to degas liquids in the
+                                     laboratory: freeze-pump-thaw and batch distillation. Here the discussion is limited to why
+                                     these were inadequate for the present purpose.
+
+                                     In the freeze-pump-thaw method, the sample is cyclically frozen, pumped under vacuum,
+                                     and then allowed to thaw while it is valved off from the vacuum pump. This method is useful
+                                     for removing a gas such as air from a liquid whose vapor pressure is so large that the sample
+                                     would be lost when pumped at room temperature. However, it is not effective for removing
+                                     an impurity that is much less volatile than air, especially if the impurity itself is frozen. Also,
+                                     if the impurity has a vapor pressure below 100 Pa, a sample with a depth of only 10 mm will
+                                     have a hydrostatic pressure that will suppress the formation of impurity vapor bubbles.
+NIST Author Manuscript
+
+
+
+
+                                     In batch distillation, one boils away under vacuum all but a fraction f of the liquid. The
+                                     Rayleigh distillation equation [51,52] predicts that, if a boiling liquid is in equilibrium with
+                                     its vapor, the concentration xB of the impurity will decrease by the factor
+
+
+
+                                                                                                    (29)
+
+
+
+                                     where α is the relative volatility defined by Eq. (10). In principle, this method would seem to
+                                     be effective. For nitrogen dissolved in naphthalene at 80 °C, Eq. (29) predicts that boiling
+                                     away only 0.01 % of the naphthalene (f = 0.9999) will decrease the nitrogen concentration to
+                                     only 2×10−16 of its initial value. In practice, such improvement rarely occurs because
+                                     maintaining the equilibrium state assumed by Eq. (29) is made difficult by the impurity’s
+
+
+                                      J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                           Page 18
+
+
+                                diffusion through the liquid. The sample cannot be stirred fast enough to ensure that the
+                                impurity concentration at the liquid-vapor interface is the same as the concentration
+                                elsewhere in the sample.
+NIST Author Manuscript
+
+
+
+
+                                Rotating the container (Kugelrohr) is effective for a liquid sample because it creates a thin
+                                film that decreases the length for mass diffusion. Unfortunately, incorporating rotation into a
+                                bakeable all-metal apparatus designed for low pressures is difficult. The simple means of
+                                stirring the sample described in Section 4.1 had little effect.
+
+                                Pumping through a semipermeable membrane for two weeks was used by Růžička et al. [24]
+                                to degas a sample of solid naphthalene. This innovative approach, which used a PDMS
+                                (polydimethylsiloxane) membrane, was effective for gases of low molecular weight. It seems
+                                unlikely that it could be used to remove a heavier hydrocarbon impurity.
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                         Page 19
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                Figure 1.
+                                Two practices for measuring vapor pressure as a function of temperature. (a) Usual: The
+                                temperature of the pressure gauge is held at a higher, fixed temperature, while the sample
+                                temperature varies. (b) Alternate: The difference between the two temperatures is fixed. The
+                                temperature of the pressure gauge was stepped before that of the sample.
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                             Page 20
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                Figure 2.
+                                Apparatus schematic. (1 Torr = 133 Pa)
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                      Page 21
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                Figure 3.
+                                Photograph of the hot manifold, which comprised five valves, two CDGs, a thin-walled
+                                sample tube, and a cold trap, all of which were connected by metal gasket fittings.
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                      Page 22
+NIST Author Manuscript
+
+
+
+
+                                Figure 4.
+                                Baking the hot manifold at 250 °C for seven days slowly reduced the rate of hydrogen
+                                outgassing. The pressure was measured while the manifold was cyclically evacuated for 12
+                                hours and then closed for 12 hours to allow hydrogen to accumulate in the manifold. The
+                                calculated pressure Pcalc is discussed elsewhere [ 21].
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                             Page 23
+NIST Author Manuscript
+
+
+
+
+                                Figure 5.
+                                Typical variations of the linear pressure coefficient kp1(T).
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                        Page 24
+NIST Author Manuscript
+
+
+
+
+                                Figure 6.
+                                Standard uncertainties of the pressure measurements for diethyl phthalate □, ferrocene ○,
+                                and naphthalene ◇. The curves depict Eq. (4).
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                             Page 25
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                Figure 7.
+                                Components used for degassing and cyclic pumping.
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                        Page 26
+NIST Author Manuscript
+
+
+
+
+                                Figure 8.
+                                Partial degassing of diethyl phthalate by cyclic pumping at 99 °C. The cycle comprised a 15
+                                min evacuation of the hot manifold followed by a 15 min observation of the increasing
+                                pressure. After 17 h, the rate of pressure increase was less than 0.3 Pa h−1.
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                         Page 27
+NIST Author Manuscript
+
+
+
+
+                                Figure 9.
+                                Typical measurements of diethyl phthalate after degassing by cyclic pumping at 99 °C and
+                                159 °C. Following the recovery from evaporative cooling, the pressure increased at less than
+                                0.02 Pa h−1.
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                          Page 28
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                Figure 10.
+                                A typical measurement run. The dense horizontal groups of points are the vapor pressure of
+                                the naphthalene sample, and the sparse vertical groups are the pressure of nitrogen gas that
+                                was used for a “real-time” pressure calibration at each temperature.
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                         Page 29
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                Figure 11.
+                                Details of Figure 10. At 169 °C (upper), the naphthalene sample was liquid, and the pressure
+                                returned quickly to equilibrium after an evacuation. Subsequent variations of pressure were
+                                driven by small variations of the sample temperature. At 59 °C (lower), the sample was
+                                solid, and the pressure equilibrated slowly. The vapor pressure was obtained by averaging
+NIST Author Manuscript
+
+
+
+
+                                the data in the indicated 1 h intervals.
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                             Page 30
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                Figure 12.
+                                Data collected with the present apparatus.
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                        Page 31
+NIST Author Manuscript
+
+
+
+
+                                Figure 13.
+                                The measured scatter ΔPV was often larger than the pressure uncertainty u(P). The three
+                                upper curves are approximate descriptions of ΔPV.
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                            Page 32
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                Figure 14.
+                                Naphthalene results compared to previous results from Sasse et al. [ 8], Monte et al. [13 ],
+                                Camin and Rossini [24], Fowler et al. [27], Chirico et al. [28], and Růžička et al. [29]. At the
+                                coldest temperature of 312 K, the values fall between the values of [29] and [13]. The
+                                reference function from[ 31]defines zero. Scatter dominated the uncertainty of the present
+NIST Author Manuscript
+
+
+
+
+                                results.
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                            Page 33
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                Figure 15.
+                                Ferrocene results compared to previous results from Kaplan et al. [32], Edwards and
+                                Kington [33], Monte et al. [13], Emel’yanenko et al. [34], Siddiqi and Atakan [35], and
+NIST Author Manuscript
+
+
+
+
+                                Fulem et al. [36]. Zero is defined by Eq. (3) of Fulem et al. [36]. Except for the two points at
+                                312 K, the present data were reported previously in [36]. Scatter dominated the uncertainty
+                                of the present results.
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                           Page 34
+NIST Author Manuscript
+
+
+
+
+                                Figure 16.
+                                Diethyl phthalate results compared to the reference function, Eq. (4) of Rohác et al. [37].
+                                The standard uncertainty of the present results is comparable to or smaller than the size of
+NIST Author Manuscript
+
+
+
+
+                                the point above 330 K, and the uncertainty of the results from [37] is indicated by error bars
+                                at selected temperatures.
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                         Page 35
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                Figure 17.
+                                Decomposition of TEMAH caused the pressure to be time dependent. UPPER: At 39 °C, the
+                                decomposition rate was small and evaporative cooling was relatively large. The curves show
+                                fits of Eq. (18) with various values of tfirst; Eq. (18) ignored temperature equilibration by
+                                fitting only to data after t> tfirst. LOWER: At 99 °C, the decomposition rate was larger.
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                           Page 36
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                Figure 18.
+                                UPPER: The fitted value of Pfit(0) had only a weak dependence on the range of data.
+                                Decreasing the time of the first fitted point from the nominal value of tfirst = 400 s had the
+                                largest effect at 39 °C, probably because boiling-induced stirring was smaller at colder
+                                temperatures. LOWER: The statistical uncertainty of Pfit(0) depended weakly on tfirst except
+                                at 39 °C and 49 °C.
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                        Page 37
+NIST Author Manuscript
+
+
+
+
+                                Figure 19.
+                                Cyclic pumping, followed by a long measurement of P(t). In periodic steady state, P(t0)=
+                                P(t2) for each cycle.
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                    Page 38
+NIST Author Manuscript
+
+
+
+
+                                Figure 20.
+                                TEMAH results compared to data published by Rushworth et al. [38] and by Air Liquide
+                                [39]. The reference function is Eq. (25).
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                        Page 39
+NIST Author Manuscript
+
+
+
+
+                                Figure 21.
+                                LEFT: Fitted values of the rate constants kA, kB, and kD. The curve drawn through the kA
+                                data is an approximate Arrhenius description of the decomposition rate, Eq.( 28), and the
+                                curve drawn through the kD data is an estimate based on the diffusivity of methylethylamine
+                                in TEMAH.RIGHT: The vapor pressure PVB assumed for the impurity, Eq. (27), and the
+NIST Author Manuscript
+
+
+
+
+                                fitted values of Pfit(0) and P1.
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                        Page 40
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                Figure 22.
+                                For Table of Contents use only. (R.F. Berg, Apparatus to measure the vapor pressure of
+                                slowly decomposing compounds from 1 Pa to 105Pa )
+NIST Author Manuscript
+
+
+
+
+                                 J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                          Page 41
+
+
+
+
+                                                                                           Table 1
+
+                         The three layers of temperature control and the resulting standard uncertainty (k = 1) and stability of the
+NIST Author Manuscript
+
+
+
+
+                         sample temperature [16].
+
+                                                       typical   uncertainty   stability
+                          1     Laboratory             23 °C     0.15 K        0.20 K
+                          2     Convection oven        70        0.25          0.10
+                          3     Thermoelectric block   69        0.006         0.002
+                                Sample tube            69        0.009         0.002
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                                  J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                         Berg                                                                                                   Page 42
+
+
+
+
+                                                                                         Table 2
+
+                         Estimates of the mass diffusion constant D and concentration relaxation time τD= L2/(π2 D) in a liquid sample
+NIST Author Manuscript
+
+
+
+
+                         of thickness L= 10 mm at 80 °C [ 17].
+
+                          liquid A            impurity B          PVB/PVA     D (10−9 m2s−1)   τD (h)
+
+                          naphthalene         nitrogen            3.6 × 105   3.6               0.8
+                          diethyl phthalate   nitrogen            2.5 × 107   0.23              12
+                          diethyl phthalate   maleic anhydride    8.9 × 101   0.16              18
+                          TEMAH               methyl ethylamine   2.4 × 103   0.37               8
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                                  J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                                                                                         NIST Author Manuscript                                           NIST Author Manuscript                                        NIST Author Manuscript
+
+
+                                                                                                                                                                            Table 3
+
+                                                                         The as -received purity and the method used to purify the samples further in situ.
+                                                                                                                                                                                                                                                 Berg
+
+
+
+
+                                                                             chemical name CAS           source        initial mole fraction purity   purification method    final mole fraction purity   analysis method
+
+                                                                                     naphthalene a    Sigma Aldrich               0.997               vacuum sublimation          e PB/PVA < 0.05            Eq. (15)
+                                                                                          91-20-3
+
+                                                                                       ferrocene b       Aldrich                  0.998               vacuum sublimation          e PB/PVA < 0.05            Eq. (15)
+                                                                                         102-54-5
+
+                                                                                diethyl phthalate c   Sigma Aldrich               0.995                 cyclic pumping            e PB/PVA < 0.05            Eq. (15)
+                                                                                           84-66-2
+
+                                                                                        TEMAH d       SAFC Hitech                 0.990                 cyclic pumping         f 0.03 < PB/PVA < 0.18        Eq. (18)
+                                                                                      352535-01-4
+
+                                                                         a
+                                                                             bicyclo[4.4.0]deca-1,3,5,7,9-pentene
+                                                                         b
+                                                                             bis(η 5-cyclopentadienyl)iron
+                                                                         c
+                                                                          diethyl benzene -1,2-dicarboxylate
+                                                                         d
+                                                                             tetrakis(ethylmethylamino)hafnium
+                                                                         e
+                                                                             Bound on PB/PVA obtained from Eq. (15).
+
+                                                                         f
+                                                                             Range of PB/PVA obtained from fits to Eq. (18).
+
+
+
+
+J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                                                                                                                                                                                                                                                 Page 43
+                                                                                     NIST Author Manuscript                           NIST Author Manuscript                            NIST Author Manuscript
+
+
+                                                                                                                                                   Table 4
+
+                                                                         Vapor pressuresa of diethyl phthalate, naphthalene, and ferrocene. The liquid phase data are separated by a dashed line and indicated in bold font.
+                                                                                                                                                                                                                               Berg
+
+
+
+
+                                                                          diethyl phthalate     naphthalene         ferrocene
+
+                                                                           T/K      PV/Pa      T/K      PV/Pa     T/K      PV/Pa
+
+                                                                          312.211    0.32     312.203   40.84    312.204    3.69
+                                                                          312.211    0.35     312.205   40.83    312.208    3.59
+                                                                          322.213    1.05     317.210   63.26    322.209    9.00
+                                                                          322.213    1.03     322.210   96.22    322.212    9.11
+                                                                          332.211    2.69     327.211   144.65   332.202   20.78
+                                                                          342.187    6.23     332.210   215.32   332.208   20.86
+                                                                          352.183    13.58    337.206   315.04   332.211   20.71
+                                                                          352.197    13.52    337.207   315.43   342.178   44.97
+                                                                          362.198    27.75    342.185   455.65   342.179   45.17
+                                                                          372.193    54.29    347.186   651.04   352.169   93.23
+                                                                          372.200    54.07    347.187   650.96   352.169   92.72
+                                                                          372.219    54.24    352.194   921.31   352.171   93.73
+
+                                                                          382.225   100.85    357.190   1200.3   352.172   93.40
+                                                                          392.241   182.06    357.191   1199.7   352.176   92.49
+                                                                          402.368   316.85    362.196   1520.7   352.176   92.64
+                                                                          412.380   530.31    367.209   1915.2   352.182   93.28
+                                                                          422.489   862.13    367.209   1913.8   352.192   93.60
+                                                                          442.276   2082.3    372.218   2393.5   362.170   185.07
+                                                                          452.116   3098.9    377.219   2966.2   362.171   185.04
+
+
+
+
+J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                                                                                              377.221   2966.9   362.184   185.43
+                                                                                              377.223   2966.2   372.197   354.27
+                                                                                              382.220   3656.6   382.193   650.79
+                                                                                              387.227   4474.7   392.198   1158.2
+                                                                                              387.232   4474.9   402.264   2000.5
+                                                                                              387.233   4475.8   402.311   2008.1
+                                                                                              392.242   5450.4   412.238   3345.9
+                                                                                              397.269   6592.6   412.318   3360.6
+                                                                                                                                                                                                                               Page 44
+                                                                         NIST Author Manuscript   NIST Author Manuscript            NIST Author Manuscript
+
+
+                                                                                                                               diethyl phthalate        naphthalene           ferrocene
+
+                                                                                                                                 T/K         PV/Pa     T/K      PV/Pa       T/K       PV/Pa
+                                                                                                                                                                                               Berg
+
+
+
+
+                                                                                                                                                      397.269   6593.1    422.287     5470.1
+                                                                                                                                                      397.271   6595.6    422.403     5501.7
+                                                                                                                                                      402.368   7961.5    432.418     8756.2
+                                                                                                                                                      407.325   9502.4    442.265     13532
+
+                                                                                                                                                      412.397   11329     452.085     19481
+                                                                                                                                                      422.548   15876
+                                                                                                                                                      432.579   21747
+                                                                                                                                                      442.461   29184
+                                                                                                                                                      452.367   38569
+
+                                                                                                                           a
+
+                                                                                                                                                      u(T) = 0.009 K
+                                                                                                                               naphthalene            u(PV)/PV= 0.004 + (0.2 Pa)/PV
+                                                                                                                               ferrocene              u(PV)/PV= 0.008 + (0.3 Pa)/PV
+                                                                                                                               diethethyl phthalate   u(PV)/PV= 0.02 + (0.08 Pa)/PV
+
+
+
+
+J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                                                                                                                                                                                               Page 45
+                         Berg                                                                                            Page 46
+
+
+
+
+                                                                                    Table 5
+
+                         Vapor pressures and standard uncertainties of TEMAH.
+NIST Author Manuscript
+
+
+
+
+                           T/K      PV/Pa        u(PV)/Pa
+
+                          312.194   2.96    ±      0.07
+                          322.200   7.15    ±      0.05
+                          332.202   15.87   ±      0.05
+                          342.179   32.87   ±      0.13
+                          352.192   64.4    ±      0.3
+                          362.195   121.0   ±      0.8
+                          372.213    216    ±       2
+                          382.212    370    ±       5
+                          392.238    591    ±       14
+NIST Author Manuscript
+NIST Author Manuscript
+
+
+
+
+                                                J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                                                                                     NIST Author Manuscript                         NIST Author Manuscript                            NIST Author Manuscript
+
+
+                                                                                                                                                 Table 6
+
+                                                                         100 times the dimensionless standard relative uncertainties: 100u(PV)/PV. The four middle columns correspond to the four terms of Eq. (26).
+                                                                                                                                                                                                                       Berg
+
+
+
+
+                                                                           T (K)     T      P     Pfit(0)   V12    total
+                                                                          312.194   0.06   0.39   2.30      0.30   2.35
+                                                                          322.200   0.06   0.19   0.61      0.21   0.67
+                                                                          332.202   0.05   0.11   0.20      0.18   0.30
+                                                                          342.179   0.05   0.08   0.33      0.19   0.39
+                                                                          352.192   0.04   0.07   0.35      0.25   0.44
+                                                                          362.195   0.04   0.06   0.60      0.30   0.67
+                                                                          372.213   0.04   0.05   0.88      0.39   0.97
+                                                                          382.212   0.03   0.05   1.17      0.55   1.30
+                                                                          392.238   0.03   0.05   2.15      0.94   2.34
+
+
+
+
+J Chem Eng Data. Author manuscript; available in PMC 2016 November 01.
+                                                                                                                                                                                                                       Page 47
+

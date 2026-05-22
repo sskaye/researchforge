@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "246",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 1f (Dioctylphosphinic Acid) mp 83-84 °C confirmed in Experimental section of the paper; measured value; DOI resolves to correct PMC paper.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "970",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 row R=3-COOH gives 3-iodylbenzoic acid with 250 dec. as the decomposition point; DOI resolves; meas_calc=measured is correct.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1023",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Spectral Data section reports Anthrone mp 152°; value, compound, and source all match.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1035",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 4.1.7 reports compound 5e as Yellow solid mp 240–242 °C; full IUPAC name matches the row's compound_name.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "990",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Spectral Data section reports Stigmasterol (6) as White needles m.p. 155–157 °C; all four checks pass.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1073",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 2.2.6 reports compound 1f as Yellow solid mp 145°C–139°C (paper's literal ordering); value range preserved as given.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "286",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 2.2.3.10 reports V10 (2-(2-Chloroquinolin-3-yl)-5-(4-methylbenzylidene)... thiazolidin-4-one) as off brown crystalline solid mp 201–203 °C; value is correct for V10 even though the evidence_quote in the row inadvertently quotes the V7 section (which coincidentally has the same mp).",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "775",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 2.3.10 reports compound 9b as white crystalline solid mp 88–89 °C; value, compound, property, and source all verify.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1019",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 8.3.9 Glutaraldehyde paragraph reports melting and boiling points of −14 °C and 187 °C; boiling_point 187 °C measured value is correctly extracted.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "292",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental compound 4 (Methyl 2-benzamido-2-(o-tolylamino)acetate) m.p. 128–130 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "908",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental: compound 1 = N,N-Dimethyl-4-thiocyanatoaniline as yellow needles mp 73–74 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1454",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Supporting information reports compound 1a (N-(2-Bromophenyl)-N-octyl-2-quinolinecarboxamide) as colorless solid Mp 54.3–56.0 °C; row's name 'quinoline-2-carboxamide' is the same chemical species.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "575",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section title for compound 6f (N-[(3,5-dimethyl-4-iodo-1H-pyrazol-1-yl)methyl]-2,6-dichloroaniline) followed by Yield 51%; mp 81–82 °C verified.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "682",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental section: Schiff's base of 3-amino-2-[1'-(4-methylphenylsulphonamido)-1'-(iso-propyl)methyl]quinazolin-4(3H)-one (compound 4) prepared from 3e + 4-chlorobenzaldehyde, pale brown crystals 69%, m.p. 160°C; matches.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "977",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Synthetic methods compound 3 reports white needles mp 58–59 °C; compound is the methyl gulofuranoside derivative named in the row.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "852",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section for compound 10b (2-(5,6-Dichloro-2-(4-methoxyphenyl)-1H-benzo[d]imidazol-1-yl)-N'-(4-hydroxybenzylidene)acetohydrazide) reports white precipitate 67% yield mp 163–165 °C.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "823",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental compound 17b (tacrine-coumarin-triazole hybrid chloride) reports Yield 61%, white solid, mp 120–122 °C in the paper.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "500",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 8 'Experimental and Calculated Bp of Alkyl Alcohols' row 13 lists 3-methyl-1-butanol with Bp exp 131.20 °C; the column is the experimental Bp; meas_calc=measured (compilation of literature experimental values) is correct.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "483",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 (cont.) Tm [K] row Thalidomide SIRM column shows 440.390 K; SIRM is a calculated thermodynamic model, so meas_calc=calculated is correct; 440.390 − 273.15 = 167.240 °C arithmetic confirmed.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "764",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 1b-(β) cholest-5-en-3β,7β-diol m.p. 184–186 °C verified in LF-sensitized photooxygenation experimental section.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1016",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DBNPA section reports 'white crystalline powder having melting point of 124.5 °C'; DBNPA is the standard acronym for 2,2-dibromo-3-nitrilopropionamide.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "940",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4a section reports 7-(4-Chorophenyl)-9-phenyl-...-pyrimidine (paper's literal typo) yield 69% Method A / 57% Method B, mp 256-58°C; row corrects 'Chorophenyl' → 'Chlorophenyl' in compound_name which is the intended chemistry; range expansion 256-58 → 256-258 is standard.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "681",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental: 3-Amino-2-[1'-(4-methylphenylsulphonamido)-1'-(iso-butyl)methyl]quinazolin-4(3H)-one (3f), Colourless crystals (71%), m.p. 170°C verified.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1163",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental compound 20a (2-Ethyl-1-(2,4,6-trimethylbenzenesulfonyl)-1H-pyrrole) reports pale yellow solid (20 mg, 36%); mp 74-75 °C; HPLC purity 95.2%; row's quote drops 'pale' so not strictly verbatim.",
+    "verifiable": false,
+    "verifiability_tag": "quote_whitespace_unicode_mismatch"
+  },
+  {
+    "row_id": "1300",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 22 (((1R,2R,3R,4R,5R)-4-Hydroxypinan-3-yl)methyl)diphenylphosphine oxide isolated as white solid mp 179–183 °C confirmed in Experimental section.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]

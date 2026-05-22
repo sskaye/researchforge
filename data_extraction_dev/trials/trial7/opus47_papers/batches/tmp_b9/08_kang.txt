@@ -1,0 +1,664 @@
+                                                                                                  This article is licensed under CC-BY-NC-ND 4.0
+
+http://pubs.acs.org/journal/acsodf                                                                                                                         Article
+
+
+
+Significantly High Melting Temperature of Homopolymer Crystals
+Obtained in a Poly(L‑Lactic Acid)/Poly(D‑Lactic Acid) (50/50) Blend
+Neimatallah Hosni Mohammed Mahmoud, Hideaki Takagi, Nobutaka Shimizu, Noriyuki Igarashi,
+and Shinichi Sakurai*
+       Cite This: ACS Omega 2023, 8, 40482−40493                                             Read Online
+
+
+ACCESS                               Metrics & More                            Article Recommendations                  *
+                                                                                                                        sı Supporting Information
+
+
+ABSTRACT: The isothermal crystallization of a poly(L-lactic acid)
+(PLLA)/poly(D-lactic acid) (PDLA) (50/50) blend, neat PLLA, and
+neat PDLA, was studied at different crystallization temperatures (110
+°C, 150 °C, 170 and 180 °C) for different durations (1−300 min) by
+means of differential scanning calorimetry (DSC), polarized optical
+microscope (POM) observations, and time-resolved wide-angle X-ray
+diffraction (WAXD). The effects of both the isothermal crystallization
+temperature and the duration of the isothermal crystallization were
+investigated for the blend specimens fully crystallized at these
+crystallization temperatures. The formation of homopolymer crystallites
+(HC) was confirmed at the isothermal crystallization temperature of
+170 °C, which was previously considered too high for its formation,
+after 70 min had elapsed from the temperature stabilization. Moreover,
+the melting temperature of the formed HC was found to be significantly high (Tm = 187.5 °C) compared to the one obtained during
+the nonisothermal DSC measurement of the same specimen of the PLLA/PDLA (50/50) blend, as well as the neat PLLA and PDLA
+specimens. To the best of our knowledge, this extremely high Tm (=187.5 °C) for HC has never been reported before.
+
+
+■    INTRODUCTION
+The COVID-19 pandemic caused a significant surge in
+                                                                                       stereoblock copolymers,13 and by processing with the aid of
+                                                                                       ionic liquids.14
+                                                                                          The relation between SC and HC has been described as
+personal protective equipment waste (e.g., masks, gloves,
+                                                                                       competitive by many studies.15−17 As the melting temperature
+etc.)1 and single-use plastics.2 This highlights the significance
+                                                                                       of HC (Tm,HC) is lower than that of SC (Tm,SC), the isothermal
+of researching environmentally friendly polymers that can                              crystallization at high temperatures, higher than Tm,HC (Tc >
+replace fossil-fuel-based ones. Polylactic acid (PLA) is an                            Tm,HC), where Tc denotes the isothermal crystallization
+aliphatic polyester produced from renewable agricultural                               temperature, can selectively produce SC. Pan et al. stated
+sources and is one of the most researched biobased polymers.3                          that only SC would form at Tc in the range of 170−180 °C.18
+Its growing popularity stems from its many favorable qualities,                        A similar result was obtained by Bao et al.9 and Pandey et al.19
+such as biodegradability, nontoxicity, bioabsorbability, and                           where they reported the almost exclusive formation of SC at Tc
+high transparency. Nevertheless, improving its mechanical and                          = 170 °C.
+thermal properties remains a challenge.                                                   Since the isothermal crystallization duration can improve the
+   PLA exists in two enantiomeric forms: poly(L-lactic acid)                           degree of crystallinity, to some extent,20 there is a need to
+(PLLA) and poly(D-lactic acid) (PDLA). Besides forming                                 thoroughly examine the effect of different durations in the case
+homo crystallites (HC), these two enantiomers can form                                 of PLLA/PDLA blends. In this study, the crystallization
+stereocomplex crystallites (SC).4 The tightly packed SC leads                          behaviors of a PLLA/PDLA (50/50) blend specimen, neat
+to the improvement of mechanical properties and a melting                              PLLA, and neat PDLA were examined through isothermal
+temperature, which is about 50 °C higher than that of HC.5                             crystallization at different temperatures for different durations.
+Therefore, promoting the stereocomplexation of PLA is one of
+the best approaches to ameliorate its poor properties, such as                         Received: July 18, 2023
+hydrolysis resistance, thermal stability and heat distortion                           Accepted: September 14, 2023
+temperature.6−8 However, the SC formation is usually                                   Published: October 17, 2023
+accompanied by the HC formation.9 Many studies attempted
+to form SC exclusively through the addition of nucleation
+agents10 or plasticizers,11,12 the formation of multiarm
+                                            © 2023 The Authors. Published by
+                                                  American Chemical Society                                                   https://doi.org/10.1021/acsomega.3c05165
+                                                                               40482                                                  ACS Omega 2023, 8, 40482−40493
+ACS Omega                                              http://pubs.acs.org/journal/acsodf                                                    Article
+
+The isothermal crystallization behaviors were studied by means               temperatures, three different heating rates (5 °C, 10, and 20
+of differential scanning calorimetry (DSC), polarized optical                °C/min) were used for some specimens isothermally crystal-
+microscope (POM) observations, and time-resolved wide-                       lized for 300 min. It is noteworthy that the specimen was
+angle X-ray diffraction (WAXD). The effects of both the                      renewed for each DSC measurement to avoid unfavorable
+temperature and duration of the isothermal crystallization will              thermal degradation of the specimens, as will be discussed later
+be discussed. The focus of this study is to confirm the effect of            in the Results and Discussion on “GPC Analysis For The
+the long crystallization duration at Tc = 170 °C, along which                PLLA/PDLA (50/50) Blend Specimen”.
+HC formation takes place, compared to shorter crystallization                   WAXD Measurements. Time-resolved WAXD measure-
+durations. The significance of this finding exists in the                    ments were performed using synchrotron radiation as the X-ray
+unexpected formation of HC at a temperature very close to                    source at beamline BL-6A of Photon Factory at KEK (High-
+its presumed melting temperature, and its actual melting                     Energy Accelerator Research Organization) in Tsukuba, Japan.
+temperature is remarkably high.                                              The wavelength of the incident X-ray beam was 0.15 nm. The
+
+■   EXPERIMENTAL SECTION
+  MATERIALS. PLLA was obtained from NatureWorks LLC,
+                                                                             blend specimen was positioned in an aluminum cell and
+                                                                             connected to a thermosensor to monitor its temperature
+                                                                             throughout the measurement duration. The cell diameter and
+USA (grade 2500 HP) and PDLA was obtained from Purac                         thickness are 4 and 1 mm, respectively. To seal the specimen in
+(grade D130). Table 1 summarizes the materials character-                    the cell, polyimide (Kapton) tape (DuPont-Toray Co., Ltd.,
+                                                                             Tokyo, Japan) was used. In order to achieve the temperature
+Table 1. Materials Characterization                                          jump from 250 °C to Tc, two heater blocks were used. The
+                                                                             specimen was melted at 250 °C for 5 min before being
+                                             PLLA        PDLA                immediately transferred to the second heater block, kept at Tc
+code                                      2500HP       D130                  = 170 °C. The WAXD measurement was performed, while
+optical purity                            99.5%        >99.5%                making sure that the temperature stabilizes at Tc within a
+number-average molecular weight (Mn)      1.74 × 105   1.41 × 105            relatively short time (1−3 min) and that temperature
+  (GPC)a                                                                     fluctuation during the measurement is within ±0.5 °C of Tc.
+Mw/Mn (GPC)                               2.22         2.03                  The magnitude of the scattering vector (q) was calibrated
+a
+ The GPC column was calibrated using the standard polystyrene with           using the standard polyethylene. q is defined as, q = |q| = (4π/
+chloroform as eluent at room temperature.                                    λ) sin(θ/2), where λ and θ are the wavelength of the X-ray and
+                                                                             the scattering angle, respectively. The two-dimensional wide-
+ization. Film specimens were prepared by solution casting                    angle X-ray diffraction (2D-WAXD) images were recorded
+using dichloromethane (DCM) as solvent from 5% (w/v) of                      every 5 s with an X-ray exposure time of 4 s on a Pilatus 100 K
+polymer concentration. PLLA and PDLA pellets were weighed                    (DECTRIS Ltd., Switzerland) as the two-dimensional
+in a 1:1 ratio then the solvent was added. The mixture was                   detector. The 1D WAXD profiles were obtained by taking
+placed over a magnetic stirrer for 24 h, before being cast in a 5            the sector average of the 2D-WAXD image.
+cm diameter Petri dish for solvent evaporation at room                          POM Observations. POM observations were conducted
+temperature. Both PLLA and PDLA were also used to prepare                    using a Nikon Eclipse Ci-POL POM equipped with a Linkam
+neat specimens of the homopolymers by following the                          THMS600 hot stage (Linkam scientific) to observe the growth
+aforementioned method.                                                       of spherulites in the PLLA/PDLA blend specimen at Tc = 170
+   DSC Measurements. DSC measurements for nonisother-                        °C. The specimen was positioned between two glass slides and
+mal crystallization of the PLLA/PDLA blend specimen were                     melted at 250 °C for 5 min before being quenched to 170 °C
+carried out, under a nitrogen atmosphere, using the Shimadzu                 with a cooling rate of 110 °C/min. Then, it was kept
+DSC-60 Plus instrument (Shimadzu, Kyoto, Japan), by the                      isothermally for 300 min before being heated up again to 250
+following thermal program. The as-cast specimen was heated                   °C to observe the fading of spherulites.
+from 25 to 250 °C, with a heating rate of 10 °C/min, and                        GPC Analysis. Gel permeation chromatography (GPC)
+maintained for 5 min to erase the thermal history during the                 analysis was conducted to determine the molecular weight
+casting process. Then, it was cooled to 25 °C at the rate of 10              distribution of the PLLA/PDLA blend sample, before and after
+°C/min. The second-heating run was conducted from 25 to                      the isothermal crystallization for 5 h at 170 and 180 °C.
+250 °C at the rate of 10 °C/min.                                             Hexafluoroisopropanol (HFIP) was selected as the eluent due
+   As for the isothermal crystallization, DSC measurements                   to its excellent solubility for the PLLA/PDLA blend sample.
+were carried out, under a nitrogen atmosphere, using                         To calibrate the GPC column, poly(methyl methacrylate) was
+NETZSCH DSC214 Polyma (NETZSCH GmbH & Co.                                    utilized as standard. The GPC analysis was performed to
+Holding, Germany). The apparatus was calibrated using                        ensure any potential thermal degradation.
+indium, zinc, bismuth, and tin as references before the
+measurements. The PLLA/PDLA blend, neat PLLA, and
+neat PDLA specimens were tested by the following thermal
+                                                                             ■   RESULTS AND DISCUSSION
+                                                                                Nonisothermal DSC Measurement. In Figure 1, the
+program. They were heated from 25 to 250 °C with a heating                   second-heating run, from 25 to 250 °C, of the nonisothermal
+rate of 10 °C/min and maintained for 5 min to erase the                      DSC measurements showed the glass transition temperature
+thermal history during the casting process. Then, they were                  (Tg) at 66.5 °C and a single exothermic crystallization peak at
+quenched to a given Tc with a cooling rate of approximately 50               104.7 °C. The endothermic melting peaks appeared at 176.7
+°C/min and kept isothermally for different durations. After-                 °C, ascribed to the melting of HC, and those at 210.4 and
+ward, the specimens were heated again to 250 °C to observe                   223.4 °C, both ascribed to the melting of SC, with the former
+the melting temperatures after the isothermal crystallization. In            SC peak attributed to the melting of smaller SC crystallites
+order to correct for the effect of heating rate on the melting               compared to the ones melting at higher temperature. In
+                                                                     40483                                      https://doi.org/10.1021/acsomega.3c05165
+                                                                                                                        ACS Omega 2023, 8, 40482−40493
+ACS Omega                                             http://pubs.acs.org/journal/acsodf                                                       Article
+
+
+
+
+Figure 1. Cooling run and the second-heating run of nonisothermal
+crystallization of a PLLA/PDLA (50/50) blend specimen.
+
+
+
+addition, an exothermic peak is observed at 162.5 °C, which is
+ascribed to the α′ to α transition of HC. The enthalpies of
+fusion (ΔHm), calculated by integrating the melting peaks,
+were 42.41 J/g for the HC, 1.6 J/g for SC1, and 14.38 J/g for
+SC2, whereas the cooling curve shows no crystallization with
+only a small change in the heat flow around the glass transition
+temperature. This means that PLA samples used in this study
+have a low crystallizability. It is worth noting that the second
+heating run ensured the complete melting of all SC crystallites
+(erasing of the thermal history of the as-cast specimen) during
+the 5 min duration at 250 °C before starting the first-cooling
+run.
+   Isothermal DSC Measurements of the PLLA/PDLA
+(50/50) Blend Specimens. The isothermal crystallization
+measurements of the PLLA/PDLA (50/50) specimens at 110
+°C, 150, and 170 °C were performed for different durations of
+1, 5, 10, 20, and 30 min, as well as 300 min. For the case of Tc
+= 170 °C, additional durations were also examined, namely, 45,
+55, 65, 80, 100, 120, 140, 160, and 180 min. Figure 2a−c
+shows the subsequent heating to 250 °C, where Tm is taken at                Figure 2. DSC curves during the heating to 250 °C (10 °C/min) after
+the endothermic peak top and the peaks are assigned to HC,                  the isothermal crystallization at (a) 110, (b) 150, and (c) 170 °C for
+SC1, or SC2. SC comprises both SC1 and SC2, where SC1 is for                the PLLA/PDLA (50/50) blend specimen.
+smaller crystallites as compared to SC2 and, thus, it has a lower
+melting temperature.                                                           As for Tc = 150 °C (Figure 2b), the shorter crystallization
+   For Tc = 110 °C (Figure 2a), all of the durations showed                 durations, 1 and 5 min, resulted in the exclusive formation of
+two melting peaks. HC appeared within 1 min elapsed with a                  SC2, exhibiting a single melting peak. This indicates the
+Tm of 173.6 °C that steadily increased to Tm = 176.1 °C after               precedence of SC formation over HC at higher crystallization
+300 min of isothermal crystallization. For all durations, except            temperatures compared to Tc = 110 °C. Starting from the
+1 min, the HC melting peak was preceded by an exothermic                    crystallization duration of 5 min, HC appeared. The Tm,HC
+peak, indicating the α′ to α transformation of HC. For the                  followed the same trend as that for the case of Tc = 110 °C, as
+duration from 5 to 300 min, this exothermic peak is preceded                it started from 176.3 °C (after 10 min) gradually increasing to
+by a melting peak at Tm of 163.3 and 163.7 °C, respectively.                180.1 °C (after 300 min). As for the Tm,SC2, it reached its
+This may indicate the partial melting of α′ crystallites before             highest value after 30 min, then gradually decreased to 220.2
+their transformation to α. As for SC2, its Tm fluctuated between            °C (after 300 min of the isothermal crystallization). As
+222.2 °C (after 10 min) and 224.3 °C (after 30 min). On the                 opposed to the cases of Tc = 110 °C and Tc = 170 °C, a clear
+contrary, SC1 appeared only after 20 min of isothermal                      melting peak of SC1 was not observed at Tc = 150 °C; instead,
+crystallization and its Tm increased steadily from 207.9 °C,                an exothermic peak was clearly observed between HC and SC2
+after 20 min, to 209.2 °C, after 300 min. As shown in Figures               peaks for the duration of 10 min and longer, presumably
+3a and 5a, the amount of SC2 (ΔHm,SC2) decreased with an                    indicating a recrystallization process of HC into SC.
+increase in the isothermal crystallization duration at Tc = 110                Figure 2c presents an interesting result for Tc = 170 °C,
+°C.                                                                         showing the DSC curves for additional durations (45, 55, 65,
+                                                                    40484                                         https://doi.org/10.1021/acsomega.3c05165
+                                                                                                                          ACS Omega 2023, 8, 40482−40493
+ACS Omega                                               http://pubs.acs.org/journal/acsodf                                                    Article
+
+
+
+
+Figure 3. Plots of ΔHm and Tm of HC, SC1, and SC2 as a function of the isothermal crystallization duration at (a) 110, (b) 150, and (c) 170 °C.
+
+                                                                             the common range of HC melting point, namely, 170 °C−180
+                                                                             °C, as reported in the previous studies of PLLA/PDLA 50/50
+                                                                             blends.12−14 In their review, Saeidlou et al.21 stated that the
+                                                                             melting temperature of PLA increases with molecular weight
+                                                                             for low Mn but reaches an asymptotical value at Mn higher than
+                                                                             100 kg/mol. This is in reference to Jamshidi et al.,22 who
+                                                                             reported a Tm of 184 °C for PLLA at infinitely high molecular
+                                                                             weight. To the best of our knowledge, the highest melting
+                                                                             temperature of HC is 186.5 °C. This result was reported by
+                                                                             Nijenhuis et al.23 for pure PLLA with an extremely high
+                                                                             molecular weight of Mv = 8 × 105 (Mv: viscosity-average
+                                                                             molecular weight).
+                                                                                Figure 3a−c shows the plots of the enthalpy of fusion
+                                                                             (ΔHm) and the melting temperatures (Tm) as a function of the
+                                                                             isothermal crystallization duration, where ΔHm was calculated
+Figure 4. Hoffman−Weeks plots for HC, SC1, and SC2.                          by integrating the melting peaks of HC, SC1, and SC2. Tm and
+                                                                             ΔHm values are presented in Table S1 of the Supporting
+                                                                             Information, as well as the percentage of each crystallite type
+80, 100, 120, 140, 160, and 180 min), as compared to the other               contribution to the overall crystallinity (φc), where φc was
+cases of Tc. The induction period was significantly longer                   evaluated using the following equations
+compared to the other cases with the first two durations, 1 and
+5 min, showing no endothermic peaks, indicating the absence                                 Hm,HC
+                                                                                 c,HC
+                                                                                        =
+of crystallites. As is the case with Tc = 150 °C, SC formation                              Hm°,HC                                                  (1)
+prevailed in shorter durations with only SC2 appearing after 10
+and 20 min. The durations from 30 to 80 min witnessed the                                   Hm,SC
+appearance of SC1 alongside SC2. Then, HC appeared much                          c,SC
+                                                                                        =
+                                                                                            Hm°,SC                                                  (2)
+later, after a 100 min duration, with a significantly high melting
+temperature of 184 °C. Furthermore, the longer durations
+                                                                                 c =    c,HC +    c,SC                                              (3)
+resulted in remarkably high Tm of 186.2 °C (180 min) and
+187.5 °C (300 min), which are more than 10 °C higher than                        Hm,SC =         Hm,SC1 +   Hm,SC2                                  (4)
+the Tm of HC obtained for the same specimen during the
+nonisothermal DSC measurement (Figure 1) with the same                       where ΔHm°,HC and ΔHm°,SC are the enthalpies of fusion of
+heating rate for the DSC measurement. This Tm is well beyond                 100% crystal for HC and SC, taken as 9324 and 142 J/g,25
+                                                                     40485                                       https://doi.org/10.1021/acsomega.3c05165
+                                                                                                                         ACS Omega 2023, 8, 40482−40493
+ACS Omega                                                  http://pubs.acs.org/journal/acsodf                                                     Article
+
+
+
+
+Figure 5. Contributing fractions of HC, SC1, and SC2 to the overall crystallinity as a function of the isothermal crystallization duration at (a) 110,
+(b) 150, and (c) 170 °C.
+
+respectively. To determine the percentage of HC or SC                            Information), indicates the action of SC as a powerful
+contribution to the overall crystallinity, the following equations               nucleating agent for HC. This result correlates to Xie et al.
+are used.                                                                        findings26 of a highly efficient nucleation of SC kebabs on SC
+                                                                                 shish in their prepared nanofibers, while HC density was a few
+                  c,HC
+   fHC =                        × 100                                            hundred times lower than SC. Nevertheless, HC kebabs grew
+             c,HC +      c,SC                                      (5)           more than 8 times larger compared to SC upon the thermal
+                                                                                 annealing of the nanofibers for 15 h at 70−80 °C. This may
+                 c,SC                                                            explain the long time needed for HC to form but once formed
+   fSC =                        × 100                                            it followed a rapid growth which agrees with our results, shown
+            c,HC +       c,SC                                      (6)           by ΔHm,HC tendency in Figure 3c. Based on the DSC results
+    ΔHm is a clear indicator of the amount of crystallites formed.               (for which the heating rate effect was corrected for by
+Figure 3a−c shows that the amount of SC1 is much smaller                         extrapolation to zero heating rate; see Figures S3 and S4 in the
+than HC and SC2 and it is almost negligible. Even for the case                   Supporting Information), we estimated the equilibrium
+of Tc = 170 °C where SC1 has comparatively high ΔHm values,                      melting temperature (Tm°) of HC, SC1, and SC2 at 191.2
+it is still 5- and 13-fold lower compared to those of the SC2 and                °C, 212.3 and 226.9 °C, respectively, as shown in the
+HC cases, respectively. It is worth noting that there is a                       Hoffman−Weeks plot in Figure 4. Here, the results at Tc =
+possibility of overestimating the actual value of ΔHm,SC2 due to                 180 °C were included, for which the DSC curve is shown in
+the melt-recrystallization of SC1. As for SC2 at Tc = 110 °C, its                Figure S1a of the Supporting Information. The obtained Tm°s
+decreasing tendency indicates the trade-off increasing of                        of both SC1 and SC2 are lower than the highest value (279 °C)
+ΔHm,HC, suggesting the transition of the SC2 to HC. At Tc =                      reported for SC by Tsuji and Ikada.27 In their study, they also
+150 °C, ΔHm,SC2 increased rapidly, reaching its maximum                          reported Tm° ranging from 214 to 263 °C for SC in PLLA/
+amount after 20 min of isothermal crystallization, before                        PDLA blends and indicated its dependence on the molecular
+decreasing in favor of HC with the longer durations. HC                          weight and optical purity of the polymer. Additionally, other
+formation at Tc = 150 °C took place after 5 min of isothermal                                         ° within the range from 181.9 to 268.5
+                                                                                 studies estimate Tm,SC
+crystallization and increased steadily with the longer durations,                °C.28−30 As for Tm° of HC, it is lower than many values
+yielding the overall highest amount of HC after 300 min, with                    reported for PLLA,23,28,31 which are in the range of 193.3 to
+an ΔHm value of 51.0 J/g. Unlike the case of Tc = 150 °C,                        198 °C. This may be due to the presence of a high D content
+ΔHm,SC2 at Tc = 170 °C increased slowly, reaching its                            (50%) in the blend specimen, that acts as impurity during
+maximum value after around 100 min, while SC1 gradually                          crystallization (melting point depression). On the other hand,
+increased even at a 300 min duration. With the HC appearance                                                                   ° = 279 °C of the
+                                                                                 there may be a possibility to account for Tm,SC
+and its rapid growth, the ΔHm value of SC2 decreased,                            highest reported value in the literature, which is by the
+suggesting a possible conversion from SC2 to HC. The                             estimation according to the broken line in Figure 4 passing
+unexpected HC formation with the long isothermal crystal-                        through only two data points at higher crystallization
+lization duration in the PLLA/PDLA blend, unlike the neat                        temperature range, although it is erroneous (Tm,SC1 ° = 266.3
+polymers (as shown in Figure S1b of the Supporting                               °C).
+                                                                         40486                                       https://doi.org/10.1021/acsomega.3c05165
+                                                                                                                             ACS Omega 2023, 8, 40482−40493
+ACS Omega                                                http://pubs.acs.org/journal/acsodf                                                     Article
+
+
+
+
+Figure 6. (a) Temperature change upon the rapid cooling for the isothermal crystallization at Tc = 170 °C upon quenching from 250 °C for the
+PLLA/PDLA (50/50) blend specimen, (b) the resulted changes in the WAXD profiles along the isothermal crystallization, (c), (d) and (e) close-
+ups of (b) showing the emergence of SC and HC peaks and (f) the temporal change of the overall degree of crystallinity (ϕHC + ϕSC) calculated
+from (b), the individual degrees of crystallinity of SC (ϕSC) and HC (ϕHC) and the HC contributing fraction (f HC) to the overall crystallinity.
+
+   Figure 3 also shows the changes in Tm as a function of the                 although the HC crystallization was very slow because Tc =
+isothermal crystallization duration. Tm,SC1 and Tm,SC2 showed                 170 °C is very close to the equilibrium melting temperature.
+no direct correlation between Tc and the crystallization                         Figure 5 shows f HC, f SC1, and f SC2, the contributing fractions
+duration and remained at almost the same temperature                          of HC, SC1, and SC2, respectively, to the overall degree of
+(refer to Table S1 of the Supporting Information for detailed                 crystallinity (ϕc) as a function of the isothermal crystallization
+values of Tm). This indicates that the chosen crystallization                 duration. The decrease of f SC2 in longer durations is clearly
+temperatures are relatively low, and the SC crystallites did not              observed in favor of f HC, whereas f SC1 is negligible for Tc = 110
+thicken. In contrast, Tm,HC increased considerably with an                    °C and absent for Tc = 150 °C. In Figure 5b, the behaviors of
+increase in Tc, indicating the formation of thicker crystallites at           f HC and f SC2 are opposite to each other, almost symmetrical
+higher crystallization temperatures. Moreover, within the same                with respect to 50%. Unlike Tc = 110 °C, where f HC was higher
+Tc, Tm,HC increased with longer crystallization durations. It is              for all the durations, for Tc = 150 °C, f SC2 decreased rapidly
+noteworthy that the thickening of the HC crystallites took                    from 100% to its lowest value, namely, 17.3%, after 300 min.
+place at a crystallization temperature as high as Tc = 170 °C,                As for Tc = 170 °C, f SC1 had the highest values among all the
+                                                                      40487                                        https://doi.org/10.1021/acsomega.3c05165
+                                                                                                                           ACS Omega 2023, 8, 40482−40493
+ACS Omega                                             http://pubs.acs.org/journal/acsodf                                                    Article
+
+
+
+
+Figure 7. DSC curves during the isothermal crystallization at (a) 170 and (b) 180 °C for the PLLA/PDLA (50/50) blend specimen, and (c) and
+(d) the resulted ΔHc(t).
+
+isothermal crystallization temperatures examined in this study;             respectively, while f HC is the fraction contributing to the
+it increased steadily until a 100 min duration and then                     overall crystallinity. Peak decomposition analysis was carried
+decreased in favor of HC. However, the trend observed in                    out to distinguish amorphous and crystalline peaks, and
+Figure 5c indicates the long induction period of HC, within                 subsequently, the degree of crystallinity as a function of time
+100 min, and it surpassed SC with a contributing fraction of                was evaluated as shown in Figure 6f. Figure 6f shows the
+56.6% (at 180 min) of the overall crystallinity.                            separate degrees of crystallinity for both SC and HC, with SC
+   WAXD Measurements of the PLLA/PDLA (50/50)                               being the major contributor to the overall crystallinity.
+Blend Specimens. The time-resolved WAXD results                             Although the behavior of f HC in Figure 6f (right axis) seems
+confirmed the evolution of the HC upon isothermal                           similar to that of f HC in Figure 5c. The values in Figure 6f are
+crystallization at Tc = 170 °C. Figure 6a demonstrates the                  much smaller compared to Figure 5c. Since the WAXD
+change in temperature during the measurement (note here that                measurements can follow the in situ isothermal crystallization
+the total isothermal duration was 200 min). Figure 6b shows                 process, those in Figure 6f are considered to be more reliable.
+the change in WAXD profiles for the PLLA/PDLA (50/50)                       Then, the result of the DSC measurements giving much larger
+blend specimen as a function of time. In Figure 6d, the                     values (Figure 5c) may be ascribed to the method itself, as the
+emergence of the first HC diffraction peaks at q = 12.6 nm−1                DSC measurement should accompany the heating of the
+and q = 13.8 nm−1 was recognized at 71 min after the                        specimens, which are isothermally annealed (crystallized).
+temperature stabilized at 170 °C. The overall degree of                     Namely, somewhat unknown and unfavorable phenomena may
+crystallinity as a function of time was calculated from the                 take place, which are subjected to affect the evolution of the
+WAXD profiles (Figure 6b) by the following equations:19                     endothermic peaks, resulting in the overestimation of ΔHm.
+                AHC                                                            In addition, Figure 6b shows that the intensity increased
+    HC =
+           AHC + ASC + A a                                    (7)           with time for all of the peaks. This clearly indicates that both
+                                                                            HC and SC grew simultaneously, despite the delayed
+                A SC
+    SC =
+           AHC + ASC + A a                                    (8)           formation of HC. In other words, SC crystallization did not
+                                                                            stop after the onset of the HC crystallization. This corresponds
+                   HC                                                       to the primary and secondary crystallization in polymers
+   fHC =                                                                    reported by many studies.32−34 The limited polymer chain
+              HC +      SC                                    (9)
+                                                                            diffusion due to the confined space between the initial SC2
+ Here Aa is the peak area of the amorphous halo. ΣAHC and                   crystallites would still allow the formation of HC and
+ΣASC are the summations of the HC and SC peak areas,                        additional SC, as observed in SC1, although smaller in size,
+                                                                    40488                                      https://doi.org/10.1021/acsomega.3c05165
+                                                                                                                       ACS Omega 2023, 8, 40482−40493
+ACS Omega                                               http://pubs.acs.org/journal/acsodf                                                    Article
+
+
+
+
+Figure 8. Avrami plots (a), (b) based on the DSC results presented in Figures 7c,d, and (c) based on the WAXD results presented in Figure 6f.
+
+which melts at a temperature lower than SC2. This can explain                divided into three parts with different slopes. First, the initial
+the dual melting behavior of SC, as the SC1 melting at lower                 part, with the highest slope, indicated the crystallite growth
+temperatures formed as a result of the secondary crystal-                    after quenching from the melt. Second, the middle part of both
+lization, restricted by the larger crystallites of SC2 formed as a           curves has a milder slope, indicating a slower crystallization
+result of the primary crystallization. Note that the duality was             due to crystallite impingement taking place. Third, the late
+found by numerous studies in melt-recrystallization process of               stage of each curve exhibits the leveling-off behavior, indicating
+crystalline polymers.15,35,36 Furthermore, it is worth noting that           a much slower crystallization at its end. Although both curves
+the appearance of double melting peaks for the same crystalline              share similar features, it is not possible to clearly distinguish
+form and the dual melting behavior of PLLA/PDLA blends                       between HC and SC contributions in Figure 7c. On the other
+were observed in many studies.35,37 The mechanism explained                  hand, for the WAXD result shown in Figure 6f, both HC and
+for the dual formation of SC by Saeidlou et al. was based on                 SC contributions to the overall crystallinity can be recognized.
+the observation of a dual network/spherulite structure in the                   The DSC isothermal crystallization of the PLLA/PDLA
+SC crystalline morphology.38 However, it should be noted that                (50/50) blend specimen at Tc = 180 °C was performed for 300
+what they presented about a network structure was not                        min. In the subsequent heating to 250 °C (shown in Figure
+observed by our POM observations.                                            S1a of the Supporting Information) two melting peaks were
+   Isothermal DSC Measurement at TC = 170 °C and TC =
+                                                                             observed at 213.3 and 223 °C, being ascribed to the melting of
+180 °C for the PLLA/PDLA (50/50) Blend Specimen.
+                                                                             SC1 and SC2, respectively, with no appearance of an HC
+Figure 7 shows the heat flow curves during the isothermal
+                                                                             melting peak. Unlike Tc = 170 °C, Tc = 180 °C proved to be
+crystallization for 300 min at Tc = 170 °C (a) and Tc = 180 °C
+(b), and their respective enthalpy of crystallization (ΔHc(t)) as            too high for the formation of HC, despite the long isothermal
+a function of time in parts (c) and (d). The broken lines in                 crystallization duration (300 min). On the other hand, the
+Figure 7a,c indicate the time when HC started to appear in the               melting temperature of SC1 shifted to a higher temperature
+DSC curves, according to Figure 2c. The heat flow curve in                   with the higher isothermal crystallization temperature. Note
+Figure 7a shows two clear peaks, supposedly ascribed to the                  that these results were already included in the Hoffman−
+crystallization of SC and successive HC. However, as proven                  Weeks plot (Figure 4). Also, the WAXD results of the
+by WAXD, HC crystallization set in after 70 min, which was                   isothermal crystallization of the blend specimen at Tc = 180 °C
+before the end of the first crystallization peak in Figure 7a.               (shown in Figure S2 of the Supporting Information) show SC
+Based on this result, the crystallization curve, as shown in                 peaks only, without the appearance of HC diffraction peaks.
+Figure 7c, can be compared with that shown in Figure 6f. The                    Crystallization Kinetics Analyzed by Avrami Plot. To
+former is obtained by DSC measurements while the latter is                   elucidate the complex crystallization behavior at Tc = 170 °C,
+obtained by WAXD measurements. Both curves show a short                      the Avrami plot was completed based on both the WAXD and
+induction period of 2−3 min, corresponding to the one                        DSC results presented in Figures 6f, 7c and d, using the
+obtained from the POM observations (shown in Figure 10). In                  Avrami equation39−41 to express the temporal evolution of the
+addition, Figures 7c and 6f are similar as both curves can be                degree of crystallinity as a function of time (ϕ(t)), as follows:
+                                                                     40489                                       https://doi.org/10.1021/acsomega.3c05165
+                                                                                                                         ACS Omega 2023, 8, 40482−40493
+ACS Omega                                                                 http://pubs.acs.org/journal/acsodf                                                   Article
+
+
+
+
+Figure 9. POM micrographs obtained (a,b) during the isothermal crystallization at 170 °C of the PLLA/PDLA (50/50) blend specimen and (c)
+during the subsequent heating to 250 °C.
+
+        (t )                                                                                   disk-like growth. Note that the instantaneous nucleation was
+                  =1              exp[   k(t     t0)n ]                                        confirmed by POM observation (Figure 9a). The crossover
+                                                                                (10)
+                                                                                               time of slope change in Figure 8a is around 21.8 min, which
+         ÄÅ                                      ÉÑ
+          ÅÅ                 i       (t ) yzzÑÑÑÑ                                              corresponds to the inflection point of the φSC curve in Figure
+   logÅÅÅÅ              lnjjjj1             zzÑÑ = nlog(k) + n log(t   t 0)                    6f. A similar crossover was more clearly found in Figure 8c for
+           ÅÅÅ               k               {ÑÑÑÖ
+             Ç                                                                  (11)           the SC Avrami plot. Since the crossover time (16−22 min) is
+                 (t )                                                                          well below 50 min (evolution of the HC peak in the WAXD
+where                     is the normalized degree of crystallinity, t0 is the                 profile; see Figure 6f), this crossover was not ascribed to the
+induction period for the crystallization, n is the Avrami                                      HC formation. Rather, the reason of the crossover was simply
+exponent, representing the dimensionality of the crystallite                                   existing in the kinetics of the pure SC phase. We will consider
+growth, and k is the crystallization rate constant.                                            again the meaning of this crossover later in the discussion of
+   Figure 8 shows the Avrami plots based on the DSC results of                                 Figure 8c. As for Figure 8b, at Tc = 180 °C, n = 1.02 definitely
+the PLLA/PDLA blend specimen crystallized for 300 min at Tc                                    indicates that the nucleation was instantaneous with a 1-
+= 170 °C and Tc = 180 °C. In Figure 8a, the Avrami exponent                                    dimensional (rod-like growth). It is noteworthy that the
+(n), found from the slope, changed from 1.86 to 1.69 °C,                                       Avrami exponent depends on Tc, in this case it decreased by
+indicating a slight change in the dimensionality of the crystal                                half with a 10 °C increase in Tc from 170 to 180 °C. Also, this
+growth. The lower exponent value, approximately 3/2, may                                       10 °C increase in Tc resulted in the doubling of t0 from 0.35 to
+indicate an instantaneous nucleation with a crystallite growth                                 0.7 min at Tc = 170 °C and Tc = 180 °C, respectively (Figure
+between 1-dimensional and 2-dimensional, rod-like, or disk-                                    7c,d). The decrease in the growth dimensionality and the
+like growth. While the higher exponent value, approximately 2,                                 increase in t0 (the induction period) may be ascribed to the
+indicates an instantaneous nucleation with a 2-dimensional,                                    deceleration of the crystallization at the higher crystallization
+                                                                                       40490                                      https://doi.org/10.1021/acsomega.3c05165
+                                                                                                                                          ACS Omega 2023, 8, 40482−40493
+ACS Omega                                             http://pubs.acs.org/journal/acsodf                                                      Article
+
+temperature. Figure 8c shows the Avrami plots based on the                  keeping the overall characteristic features of the unchanged
+WAXD results of the same specimen, isothermal crystallization               Maltese cross pattern. This means that the HC formed within
+at Tc = 170 °C. WAXD can distinguish SC and HC so that                      the already established SC spherulites because the Tm,HC for
+these kinetics can be independently discussed. As for SC, the               this specimen is 187.5 °C. A similar result was observed by
+crossover of the Avrami exponent from 1.21 at the early stage               Banpean and Sakurai for PEG-confined crystallization within
+to 0.69 at the later stage was observed clearly at 16 min.                  PLLA spherulites.43 Figure 10 presents the plot of the
+Although the Avrami exponent values are different from those
+in Figure 8a, a decrease in the Avrami exponent was observed
+upon the crossover. Although it seems that the growth
+dimensionality was decreased, Avrami exponent less than unity
+is characteristic for the case of the lack of the crystallizable
+component at the growth front.42 Namely the quick growth of
+SC in the earlier stage results in the lack of the crystallizable
+component at the growth front so that no more growth was
+met, and deceleration of the growth with time (∼t−1/2) as a
+result of the required diffusion of the crystallizable component
+may decrease the Avrami exponent value while keeping the
+dimensionality (rod-like growth). It is important to note that n
+at 180 °C in Figure 8b is 1.02 which is closer to n = 1.21 for
+SC at 170 °C in Figure 8c. The former result is reasonable
+because the DSC result can be ascribed to the formation of                  Figure 10. Plot of the spherulite diameter as a function of time, as
+only SC at 180 °C. Thus, n = 1.69−1.86 in Figure 8a at 170 °C               observed by POM at Tc = 170 °C for the PLLA/PDLA (50/50) blend
+is considered an overestimation due to the contribution of HC               specimen.
+in the DSC result at 170 °C. On the contrary, for HC, the
+Avrami exponent value was evaluated at 1.57 throughout the
+isothermal crystallization without such crossover. This is due
+to the very slow HC growth. The Avrami exponent of 1.57                     spherulite diameter as a function of time. The spherulites
+suggests an instantaneous nucleation with the mixture of 1-                 witnessed a linear growth after an induction period of 2.02
+and 2-dimensional crystal growth. As shown later, POM                       min, with a steady diameter increase with a linear growth rate
+observation confirmed the confined HC crystallization inside                of 6.8 μm/min. Note here that both the induction period and
+the SC spherulites. Therefore, a 3-dimensional growth is not                the growth rate are deduced from the linear fitting of the
+allowed which is in good accord with the results of the Avrami              observed data points.
+analysis.
+   GPC Analysis for the PLLA/PDLA (50/50) Blend
+Specimen. The GPC analysis revealed a decrease in the
+                                                                            ■   CONCLUSIONS
+                                                                            The isothermal crystallization behaviors of the PLLA/PDLA
+molecular weight from 1.33 × 105 to 1.16 × 105 and 1.15 × 105               (50/50) blend, neat PLLA, and neat PDLA specimens were
+after 5 h at 170 and 180 °C, respectively. This represents a 12−            studied at different temperatures for different durations by
+13% decrease, indicating a certain degree of thermal                        means of DSC, POM observations, and time-resolved WAXD.
+degradation. These findings also suggest that as the                        It is remarkable to observe the direct effect of the isothermal
+crystallization temperature increased, the polymer experienced              crystallization duration on the type of formed crystallites in the
+further degradation.                                                        PLLA/PDLA (50/50) blend specimen at Tc = 170 °C. After
+   POM Observations at TC = 170 °C for the PLLA/PDLA                        the longer durations, HC not only formed but its melting
+(50/50) Blend Specimen. Figure 9 shows the POM images                       temperature increased, resulting in significantly high melting
+obtained during the isothermal crystallization at Tc = 170 °C               temperature of 187.5 °C after 300 min. This Tm is more than
+for the PLLA/PDLA (50/50) blend specimen. Figure 9a                         10 °C higher compared to the one obtained during the
+shows the early stage of the crystallization process until                  nonisothermal DSC measurement of the same specimen with
+impingement took place. Nucleation took place quickly, with                 the same heating rate in the DSC measurement. To the best of
+many spherulites clearly visible at 10 min elapsed after the                our knowledge, such a high melting temperature has never
+temperature stabilized at 170 °C. Spherulite growth continued               been reported before for HC of PLLA. HC did not form
+for 65 min, at which all of the observed space was filled by                during the isothermal crystallization at 180 °C for the PLLA/
+spherulites with their distinctive Maltese cross pattern for the            PDLA (50/50) blend specimen nor in the isothermal
+negative spherulites. As shown in Figure 2c and confirmed by                crystallization at 170 °C for the neat PLLA or PDLA
+DSC and WAXD results, these spherulites comprise SC                         specimens for the same duration. In the case of the blend,
+crystallites. Figure 9b demonstrates the further change of the              HC formation is considered to be induced by the SC as a
+images with time at Tc = 170 °C after the spherulite                        powerful nucleating agent at such a high temperature. The
+impingement, implying the HC crystallization in the prolonged               WAXD results confirmed that the formed crystallites with
+crystallization time. Figure 9c presents the images taken during            considerably long duration are ascribed to HC, not SC. Also,
+the melting process from 170 to 250 °C after 300 min of                     the POM observations indicated that HC formed within the
+isothermal crystallization, showing the fading of spherulites               already-established SC spherulites. According to the DSC
+with an increase in temperature. A closer examination of the                results, ΔHm,SC2 showed a decreasing tendency during the
+images at 180, 185, and 190 °C identifies a change in the                   isothermal crystallization duration while ΔHm,HC increased
+spherulites sharpness. Namely, the spherulites at 180 °C                    instead. This may suggest a possible direct transition from SC
+exhibiting fine structures become simplified at 190 °C, while               to HC, namely, SC2 partially melts and HC reforms.
+                                                                    40491                                        https://doi.org/10.1021/acsomega.3c05165
+                                                                                                                         ACS Omega 2023, 8, 40482−40493
+ACS Omega                                                  http://pubs.acs.org/journal/acsodf                                                         Article
+
+
+■      ASSOCIATED CONTENT
+* Supporting Information
+ sı
+                                                                                  Distortion Resistance of Poly(l-lactide) with High Crystallinity under
+                                                                                  High Cooling Rate. ACS Sustain. Chem. Eng. 2015, 3 (4), 654−661.
+                                                                                   (7) Zhang, Y.; Wang, Y.; Wang, B.; Feng, X.; Ma, B.; Sui, X.
+The Supporting Information is available free of charge at                         Exclusive Formation of Poly(lactide) Stereocomplexes with Enhanced
+https://pubs.acs.org/doi/10.1021/acsomega.3c05165.                                Melt Stability via Regenerated Cellulose Assisted Pickering Emulsion
+      Isothermal DSC measurement at Tc = 170 °C for the                           Approach. Compos. Commun. 2022, 32, 101138.
+      neat specimens and at Tc = 180 °C for the blend                              (8) Luo, F.; Fortenberry, A.; Ren, J.; Qiang, Z. Recent Progress in
+      specimen, the WAXD results for the blend at Tc = 180                        Enhancing Poly(Lactic Acid) Stereocomplex Formation for Material
+                                                                                  Property Improvement. Front. Chem. 2020, 8, 688.
+      °C, the effect of heating rate on the melting temper-
+                                                                                   (9) Bao, R. Y.; Yang, W.; Jiang, W. R.; Liu, Z. Y.; Xie, B. H.; Yang,
+      atures at different crystallization temperatures and the                    M. B. Polymorphism of Racemic Poly(l- lactide)/Poly(d-lactide)
+      melting temperatures, enthalpies of fusion and con-                         Blend: Effect of Melt and Cold Crystallization. J. Phys. Chem. B 2013,
+      tributing fractions of HC and SC for each isothermal                        117 (13), 3667−3674.
+      crystallization duration (PDF)                                               (10) Han, L.; Pan, P.; Shan, G.; Bao, Y. Stereocomplex
+                                                                                  Crystallization of High-Molecular-Weight Poly(l- lactic acid)/poly-
+■      AUTHOR INFORMATION
+Corresponding Author
+                                                                                  (d-lactic acid) Racemic Blends Promoted by a Selective Nucleator.
+                                                                                  Polymer 2015, 63, 144−153.
+                                                                                   (11) Thi Ngoc Diep, P.; Mochizuki, M.; Doi, M.; Takagi, H.;
+      Shinichi Sakurai − Department of Biobased Materials Science,                Shimizu, N.; Igarashi, N.; Sasaki, S.; Sakurai, S. Effects of a Special
+        Kyoto Institute of Technology, Kyoto 606-8585, Japan;                     Diluent as an Agent of Improving the Crystallizability of Poly(L-lactic
+        Indian Institute of Technology Guwahati, Guwahati, Assam                  acid). Polym. J. 2019, 51, 283−294.
+        781015, India; orcid.org/0000-0002-5756-1066;                              (12) Bao, R.; Yang, W.; Wei, X.; Xie, B.; Yang, M. Enhanced
+        Email: shin@kit.ac.jp                                                     Formation of Stereocomplex Crystallites of High Molecular Weight
+                                                                                  Poly(l-lactide)/Poly(d-lactide) Blends from Melt by Using Poly-
+Authors                                                                           (ethylene glycol). ACS Sustain. Chem. Eng. 2014, 2 (10), 2301−2309.
+      Neimatallah Hosni Mohammed Mahmoud − Department of                           (13) Diao, X.; Chen, X.; Deng, S.; Bai, H. Substantially Enhanced
+       Biobased Materials Science, Kyoto Institute of Technology,                 Stereocomplex Crystallization of Poly(L-Lactide)/Poly(D-Lactide)
+       Kyoto 606-8585, Japan                                                      Blends by the Formation of Multi-Arm Stereo-Block Copolymers.
+      Hideaki Takagi − High Energy Accelerator Research                           Crystals 2022, 12 (2), 210.
+       Organization (KEK), Tsukuba, Ibaraki 305-0801, Japan;                       (14) Zhu, J.; Na, B.; Lv, R.; Li, C. Enhanced Stereocomplex
+                                                                                  Formation of High-Molecular-Weight Polylactides by Gelation in an
+         orcid.org/0000-0003-3389-7945                                            Ionic Liquid. Polym. Int. 2014, 63 (6), 1101−1104.
+      Nobutaka Shimizu − High Energy Accelerator Research                          (15) Xu, C.; Zhang, J.; Bai, J.; Ding, S.; Wang, X.; Wang, Z. Two-
+       Organization (KEK), Tsukuba, Ibaraki 305-0801, Japan;                      Stage Crystallization Kinetics and Morphological Evolution with
+         orcid.org/0000-0002-3636-1663                                            Stereocomplex Crystallite-Induced Enhancement for Long-Chain
+      Noriyuki Igarashi − High Energy Accelerator Research                        Branched Polylactide/Poly(D-lactic acid) Blends. Ind. Eng. Chem.
+       Organization (KEK), Tsukuba, Ibaraki 305-0801, Japan                       Res. 2021, 60 (14), 5319−5329.
+                                                                                   (16) Feng, L.; Bian, X.; Li, G.; Chen, X. Thermal Properties and
+Complete contact information is available at:
+                                                                                  Structural Evolution of Poly(L-lactide)/ Poly(D-lactide) Blends.
+https://pubs.acs.org/10.1021/acsomega.3c05165                                     Macromolecules 2021, 54 (21), 10163−10176.
+                                                                                   (17) Xiong, Z.; Zhang, X.; Wang, R.; de Vos, S.; Wang, R.; Joziasse,
+Notes                                                                             C. A. P.; Wang, D. Favorable Formation of Stereocomplex Crystals in
+The authors declare no competing financial interest.                              Poly(L-lactide)/ poly(D-lactide) Blends by Selective Nucleation.
+
+■      ACKNOWLEDGMENTS
+This study was supported by Japan Science and Technology
+                                                                                  Polymer 2015, 76, 98−104.
+                                                                                   (18) Pan, P.; Bao, J.; Han, L.; Xie, Q.; Shan, G.; Bao, Y.
+                                                                                  Stereocomplexation of High-Molecular-Weight Enantiomeric Poly-
+Agency JST Grant Number JPMJPF2114. The WAXD                                      (lactic acid)s Enhanced by Miscible Polymer Blending with Hydrogen
+                                                                                  Bond Interactions. Polymer 2016, 98, 80−87.
+experiments were performed under the approval of the Photon                        (19) Pandey, A. K.; Takagi, H.; Igarashi, N.; Shimizu, N.; Sakurai, S.
+Factory (High Energy Research Organization, Tsukuba, Japan)                       Enhanced Formation of Stereocomplex Crystallites in Poly(L-lactic
+Program Advisory Committee (proposal no: 2020G520).                               acid)/ Poly(D-lactic acid) Blends by Silk Fibroin Nanodisc. Polymer
+
+■      REFERENCES
+ (1) de Sousa, F. D. B. Plastic and Its Consequences during the
+                                                                                  2021, 229, 124001.
+                                                                                   (20) Zhao, N.; Wang, L.; Huang, D.; Zhang, T.; Zhang, L.; Xiong, C.
+                                                                                  Effect of Isothermal Annealing on Degree of Crystallinity and
+COVID-19 Pandemic. Environ. Sci. Pollut. Res. Int. 2021, 28 (33),                 Mechanical Properties of Poly(l-lactide-co-glycolide). Cryst. Res.
+46067−46078.                                                                      Technol. 2010, 45 (3), 275−280.
+ (2) Parashar, N.; Hait, S. Plastics in the Time of COVID-19                       (21) Saeidlou, S.; Huneault, M. A.; Li, H.; Park, C. B. Poly(lactic
+Pandemic: Protector or Polluter? Sci. Total Environ. 2021, 759,                   acid) Crystallization. Prog. Polym. Sci. 2012, 37 (12), 1657−1677.
+144274.                                                                            (22) Jamshidi, K.; Hyon, S.-H.; Ikada, Y. Thermal Characterization
+ (3) Sin, L. T. Polylactic Acid: PLA Biopolymer Technology and                    of Polylactides. Polymer 1988, 29 (12), 2229−2234.
+Applications; William Andrew Publishing, 2012.                                     (23) Nijenhuis, A. J.; Colstee, E.; Grijpma, D. W.; Pennings, A. J.
+ (4) Ikada, Y.; Jamshidi, K.; Tsuji, H.; Hyon, S. H. Stereocomplex                High Molecular Weight Poly(l-lactide) and Poly(ethylene oxide)
+formation between enantiomeric poly(lactides). Macromolecules 1987,               Blends: Thermal Characterization and Physical Properties. Polymer
+20 (4), 904−906.                                                                  1996, 37 (26), 5849−5857.
+ (5) Sin, L. T.; Tueen, B. S. Polylactic Acid A Practical Guide for the            (24) Tsuji, H.; Ikada, Y. Properties and Morphologies of Poly(l-
+Processing, Manufacturing, and Applications of PLA; William Andrew                lactide): 1. Annealing Condition Effects on Properties and
+Publishing, 2019.                                                                 Morphologies of Poly(l-lactide). Polymer 1995, 36 (14), 2709−2716.
+ (6) Yin, H. Y.; Wei, X. F.; Bao, R. Y.; Dong, Q.; Liu, Z.; Yang, W.;              (25) Tsuji, H.; Horii, F.; Nakagawa, M.; Ikada, Y.; Odani, H.;
+Xie, B.; Yang, M. Enhancing Thermomechanical Properties and Heat                  Kitamaru, R. Stereocomplex Formation between Enantiomeric
+
+                                                                          40492                                          https://doi.org/10.1021/acsomega.3c05165
+                                                                                                                                 ACS Omega 2023, 8, 40482−40493
+ACS Omega                                                   http://pubs.acs.org/journal/acsodf                                Article
+
+Poly(lactic acid)s. 7. Phase Structure of the Stereocomplex Crystal-
+lized from a Dilute Acetonitrile Solution as Studied by High-
+Resolution Solid-State Carbon-13 NMR Spectroscopy. Macromole-
+cules 1992, 25 (16), 4114−4118.
+  (26) Xie, Q.; Chang, X.; Qian, Q.; Pan, P.; Li, C. Y. Structure and
+Morphology of Poly(lactic acid) Stereocomplex Nanofiber Shish
+Kebabs. ACS Macro Lett. 2020, 9, 103−107.
+  (27) Tsuji, H.; Ikada, Y. Crystallization from the melt of
+poly(lactide)s with different optical purities and their blends.
+Macromol. Chem. Phys. 1996, 197, 3483−3499.
+  (28) Guo, W.; Shao, J.; Ye, X.; Sun, P.; Meng, C.; Li, Z.; Zheng, Z.;
+Yan, C. The Difference of Equilibrium Melting Point between Poly(l-
+lactic acid) and Poly(l-lactic acid)/poly(d-lactic acid) Blends: Cases
+with Three Molecular Weights. Polym. Int. 2019, 68 (2), 271−276.
+  (29) Tsuji, H.; Matsumura, N. Stereocomplex Crystallization of Star-
+Shaped 4-Armed Equimolar Stereo Diblock Poly(lactide)s with
+Different Molecular Weights: Isothermal Crystallization from the
+Melt. Macromol. Chem. Phys. 2016, 217 (14), 1547−1557.
+  (30) Rahaman, M. H.; Tsuji, H. Isothermal Crystallization and
+Spherulite Growth Behavior of Stereo Multiblock Poly(lactic acid)s:
+Effects of Block Length. J. Appl. Polym. Sci. 2013, 129 (5), 2502−
+2517.
+  (31) Pandey, A. K.; Katiyar, V.; Sasaki, S.; Sakurai, S. Accelerated
+Crystallization of Poly(l-lactic acid) by Silk Fibroin Nanodisc. Polymer
+2019, 51 (11), 1173−1180.
+  (32) Rybnikář, F. Secondary Crystallization of Polymers. J. Polym.
+Sci. 1960, 44 (144), 517−522.
+  (33) Yagpharov, M. Thermal Analysis of Secondary Crystallization
+in Polymers. J. Therm. Anal. 1986, 31, 1073−1082.
+  (34) Androsch, R.; Schick, C.; Di Lorenzo, M. L. Kinetics of
+Nucleation and Growth of Crystals of Poly(l-lactic acid). In Synthesis,
+Structure and Properties of Poly(lactic acid); Di Lorenzo, M., Androsch,
+R., Eds.; Advances in Polymer Science; Springer: Cham, 2017; Vol.
+279, p 235.
+  (35) Hu, X.; Shao, J.; Zhou, D.; Li, G.; Ding, J.; Chen, X.
+Microstructure and Melting Behavior of A Solution-Cast Polylactide
+Stereocomplex: Effect of Annealing. J. Appl. Polym. Sci. 2017, 134
+(12), 44626.
+  (36) Yasuniwa, M.; Tsubakihara, S.; Sugimoto, Y.; Nakafuku, C.
+Thermal Analysis of the Double-Melting Behavior of Poly(L-lactic
+acid). J. Polym. Sci., Part B: Polym. Phys. 2004, 42 (1), 25−32.
+  (37) Gracia-Fernandez, C. A.; Gomez-Barreiro, S.; López-Beceiro, J.;
+Naya, S.; Artiaga, R. New approach to the Double Melting Peak of
+Poly(l-lactic acid) Observed by DSC. J. Mater. Res. 2012, 27 (10),
+1379−1382.
+  (38) Saeidlou, S.; Huneault, M. A.; Li, H.; Sammut, P.; Park, C. B.
+Evidence of a Dual Network/Spherulitic Crystalline Morphology in
+PLA Stereocomplexes. Polymer 2012, 53 (25), 5816−5824.
+  (39) Avrami, M. Kinetics of phase change. I General Theory. J.
+Chem. Phys. 1939, 7 (12), 1103−1112.
+  (40) Avrami, M. Kinetics of Phase Change. II Transformation-Time
+Relations for Random Distribution of Nuclei. J. Chem. Phys. 1940, 8
+(2), 212−224.
+  (41) Avrami, M. Kinetics of Phase Change. III: Granulation, Phase
+Change and Microstructure. J. Chem. Phys. 1941, 9, 177−184.
+  (42) Schultz, J. M. Polymer Crystallization: The Development of
+Crystalline Order in Thermoplastic Polymers; American Chemical
+Society, 2001.
+  (43) Banpean, A.; Sakurai, S. Confined Crystallization of Poly-
+(ethylene glycol) in Spherulites of Poly(L- lactic acid) in a PLLA/
+PEG Blend. Polymer 2021, 215, 123370.
+
+
+
+
+                                                                           40493                 https://doi.org/10.1021/acsomega.3c05165
+                                                                                                         ACS Omega 2023, 8, 40482−40493
+

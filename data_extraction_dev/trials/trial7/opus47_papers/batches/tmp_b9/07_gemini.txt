@@ -1,0 +1,763 @@
+                                                                                                               RSC Advances
+           This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence.
+
+
+
+
+                                                                                                                                                                                                                                         View Article Online
+                                                                                                                   PAPER                                                                                                                 View Journal | View Issue
+
+
+
+
+                                                                                                                                                        Gemini ionic liquid-based surfactants: eﬃcient
+                                                                                                               Cite this: RSC Adv., 2023, 13, 31128
+                                                                                                                                                        synthesis, surface activity, and use as inducers for
+Open Access Article. Published on 24 October 2023. Downloaded on 5/9/2026 4:58:47 PM.
+
+
+
+
+                                                                                                                                                        the fabrication of Cu2O nanoparticles†
+                                                                                                                                                        Kyrillos Roshdy,‡ Hany I. Mohamed, ‡* Mohamed H. Ahmed, Wagdy I. El-
+                                                                                                                                                        Dougdoug and Mohamed A. Abo-Riya *
+
+                                                                                                                                                        Discovery of green and novel synthetic routes for nanoparticles (NPs) has drawn a lot of interest due to the
+                                                                                                                                                        distinct nano size and unusual features as well as applications of such particles. Ionic liquid-based
+                                                                                                                                                        surfactants (ILBSs) and gemini ionic liquid-based surfactants (GILBSs) have become some of the best
+                                                                                                                                                        choices to be used as inducers or dispersing agents for the fabrication of nanoparticles. This work
+                                                                                                                                                        involves the synthesis, spectroscopic characterization, and surface property evaluation of three novel
+                                                                                                                                                        GILBSs (4a–c), which incorporate the imidazolium cation as the polar head with an ethylene spacer. The
+                                                                                                                                                        simple synthetic route includes, ﬁrst, alkylating imidazole-N1 with the as-prepared fatty alkyl
+                                                                                                                                                        chloroacetates followed by quaternization of two equivalents of imidazole-N2 with ethylene dibromide.
+                                                                                                                                                        Investigations into the compounds' surface characteristics and thermodynamic parameters were carried
+                                                                                                                                                        out. The prepared GILBSs, 4a–c, were then used as inducers at various concentrations for the
+                                                                                                                                                        preparation of cuprous oxide nanoparticles. The size and shape of the produced NPs were examined by
+                                                                                                                                                        X-ray diﬀraction (XRD) and transmission electron microscopy (TEM) analysis in each case to study the
+                                                                                                               Received 11th July 2023
+                                                                                                               Accepted 16th October 2023
+                                                                                                                                                        eﬀect of concentration on the NP morphology and to determine the best concentration for the NPs
+                                                                                                                                                        fabrication. The XRD patterns of the produced Cu2O NPs contain distinguishable peaks, which refer to
+                                                                                                               DOI: 10.1039/d3ra04646j
+                                                                                                                                                        crystalline Cu2O. Also, TEM images show that the obtained Cu2O is present in form of well dispersed
+                                                                                                               rsc.li/rsc-advances                      nanorod particles with sizes about 55 and 23 nm at concentrations of 60 and 200 ppm, respectively.
+
+
+                                                                                                                                                                                                 vapor pressure, non-ammability, low toxicity, biodegrad-
+                                                                                                               1     Introduction                                                                ability, and non-volatility.1,26–28 Furthermore, they are custom-
+                                                                                                               Ionic liquids (ILs) are salts with low melting points1 or exist as                made and highly tunable, allowing them to have good surface
+                                                                                                               liquids at room temperature; the latter is known as room                          activity in both aqueous and emulsion systems,26,29,30 and to be
+                                                                                                               temperature ionic liquids (RTILs). Liquids are typically                          task-specic.
+                                                                                                               composed of neutral molecules, whereas RTILs are composed of                         In the 1930s, a new class of surfactants, gemini surfactants,
+                                                                                                               ions.2,3 Surfactants are amphiphilic compounds composed of                        was discovered and has been found to possess more surface
+                                                                                                               molecules with a hydrophobic (non-polar) tail and a hydrophilic                   activity than the corresponding conventional surfactants with
+                                                                                                               (polar) head.4 Therefore, conventional ILs can be designed to                     the same hydrophobic chain and the same hydrophilic head but
+                                                                                                               act as surfactants by attaching long hydrophobic chains to their                  in a single structure.31 Similarly, two ILBS units are linked
+                                                                                                               polar heads and are thus referred to as surface active ionic                      together by a rigid or exible spacer to form gemini ionic liquid-
+                                                                                                               liquids (SAILs) or ionic liquid-based surfactants (ILBSs).5–25                    based surfactants (GILBSs). This can be easily exploited to
+                                                                                                                  Recently, ILBSs have piqued the interest of researchers as                     produce various ILBSs and GILBSs with better physicochemical
+                                                                                                               promising replacements for conventional surfactants in order                      properties,15,32–35 allowing them to be utilized in a myriad of
+                                                                                                               to overcome limitations and disadvantages such as high                            applications.
+                                                                                                               toxicity, non-biodegradability, and the need for a high concen-                      These compounds are used as solvents, as they can dissolve
+                                                                                                               tration to form stable micelles. This is due to the promising                     a broad range of inorganic, organic, and polymeric materials. In
+                                                                                                               properties of ILBSs that include high thermal stability, low                      addition, they are utilized in solar cells, lubricants, separation
+                                                                                                                                                                                                 applications,36,37 water treatment,38 drug delivery,39 as improvers
+                                                                                                                                                                                                 for the enzymatic degradation of textile dyes,40 corrosion
+                                                                                                               Chemistry Department, Faculty of Science, Benha University, Benha 13518, Egypt.
+                                                                                                                                                                                                 inhibitors,41 biocatalysts, and as inducers for nanoparticles
+                                                                                                               E-mail: mohamed.aborya@fsc.bu.edu.eg; hany.ibrahim@fsc.bu.edu.eg
+                                                                                                                                                                                                 (NPs) synthesis.42–46 A stabilizing material that acts as a capping
+                                                                                                               † Electronic supplementary information          (ESI)   available.   See   DOI:
+                                                                                                               https://doi.org/10.1039/d3ra04646j                                                or dispersing agent is required during the synthesis of NPs to
+                                                                                                               ‡ These authors are equally contributed to the work.                              prevent the re-accumulation of the particles. Currently, ILBSs
+
+
+                                                                                                               31128 | RSC Adv., 2023, 13, 31128–31140                                             © 2023 The Author(s). Published by the Royal Society of Chemistry
+                                                                                                                                                                                                                                          View Article Online
+
+                                                                                                               Paper                                                                                                                   RSC Advances
+
+                                                                                                               have been used instead of conventional surfactants in the            Synthesis
+                                                                                                               synthesis of NPs as they exhibit better dispersing properties,
+                                                                                                                                                                                        General procedure for the synthesis of fatty alkyl 2-chlor-
+                                                                                                               which make the control of NPs' shape possible. These
+                                                                                                                                                                                    oacetates (2a–c). These derivatives were synthesized as reported
+                                                                                                               compounds can be used not only as capping agents but also in
+                                                                                                                                                                                    previously.53 Typically, the corresponding fatty alcohol (1a–c, 1
+           This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence.
+
+
+
+
+                                                                                                               the synthesis process.46
+                                                                                                                                                                                    equiv.) namely, 1-decanol, 1-dodecanol, or 1-hexadecanol, was
+                                                                                                                   When ILBSs are used as stabilizers, they help detect the
+                                                                                                                                                                                    added separately to chloroacetic acid (1 equiv.) in dry xylene.
+                                                                                                               shape and size of NPs by acting as templates for the NPs. These
+                                                                                                                                                                                    The reaction was catalyzed by p-toluenesulphonic acid (PTSA,
+                                                                                                               templates are easily customizable to achieve the desired shape       1 mol%) then the mixture was equipped by Dean–Stark under
+                                                                                                               and size. Some of the factors that inuence the size and shape       reux with stirring at about 170 °C till the formation of one
+                                                                                                               of the NPs include the length of the hydrophobic chain and the
+                                                                                                                                                                                    equivalent of water. The produced fatty alkyl 2-chloro-acetates
+                                                                                                               type and number of the ionic groups in ILBSs.43,47–52 ILBSs with 8
+Open Access Article. Published on 24 October 2023. Downloaded on 5/9/2026 4:58:47 PM.
+
+
+
+
+                                                                                                                                                                                    2a–c were isolated by extraction with petroleum ether, the
+                                                                                                               or fewer carbon atoms in their hydrophobic chain lack the
+                                                                                                                                                                                    organic phases were dried over anhydrous Na2SO4, and the
+                                                                                                               eﬀective protection power to stabilize nanoparticles, so the
+                                                                                                                                                                                    solvent was evaporated to dryness in vaccou.
+                                                                                                               particles tend to accumulate in the moment they are
+                                                                                                                                                                                        Decyl 2-chloroacetate (2a). Colorless viscous liquid, yield =
+                                                                                                               synthesized.44
+                                                                                                                                                                                    74%. FT-IR (ATR) n/cm−1 2958, 2924, 2854 (C–H of aliphatic
+                                                                                                                   In this work, three new gemini ionic liquid-based surfac-        fatty chain), 1740 (C]O of ester), 1308, 1172 (C–O), 1288, 790
+                                                                                                               tants, including imidazolium cation as the polar head and            (C–Cl), (Fig. S1†).
+                                                                                                               ethane-1,2-diyl as a spacer, were synthesized and characterized.
+                                                                                                                                                                                        Dodecyl 2-chloroacetate (2b). Oﬀ-white semisolid, yield =
+                                                                                                               The surface properties and thermodynamic parameters of these
+                                                                                                                                                                                    69%. FT-IR (ATR) n/cm−1 2952, 2923, 2853 (C–H of aliphatic
+                                                                                                               compounds were extensively investigated. One of the prepared
+                                                                                                                                                                                    fatty chain), 1736 (C]O of ester), 1308, 1170 (C–O), 1288, 791
+                                                                                                               surfactants was then used at diﬀerent concentrations in the
+                                                                                                                                                                                    (C–Cl), (Fig. S2†).
+                                                                                                               preparation of cuprous oxide nanoparticles, and the size and
+                                                                                                                                                                                        General procedure for the synthesis of fatty alkyl 2-(1H-
+                                                                                                               shape of the nanoparticles were detected by XRD and TEM in
+                                                                                                                                                                                    imidazol-1-yl) acetates (3a–c).54 Sodium (1 equiv.) was dissolved
+                                                                                                               each case to detect the eﬀect of concentration on the                in a suitable amount of absolute ethanol, then imidazole (1
+                                                                                                               morphology of the produced nanoparticles and to detect the           equiv.) was added. The mixture was stirred at room temperature
+                                                                                                               best concentration between them in the production of
+                                                                                                                                                                                    till the completion of the reaction that had been monitored by
+                                                                                                               nanoparticles.
+                                                                                                                                                                                    TLC. The excess of solvent was evaporated, and the produced
+                                                                                                                                                                                    white powder (sodium imidazole) was collected. To a solution of
+                                                                                                                                                                                    sodium imidazole (1 equiv.) in ethyl acetate, chloroacetates (2a–
+                                                                                                               2 Experimental section                                               c, 1 equiv.), diluted with the same solvent, were separately
+                                                                                                               Materials and instruments                                            added. The mixture was heated under reux with stirring at 80 °
+                                                                                                                                                                                    C for about 12 h and then extracted with ethyl acetate. The
+                                                                                                               1-Decanol, 1-dodecanol, 1-hexadecanol, 1,2-dibromoethane,            products were obtained aer evaporating the solvent from the
+                                                                                                               copper sulfate pentahydrate and chloroacetic acid were ob-           dried organic phases.
+                                                                                                               tained from Sigma-Aldrich. Potassium sodium tartarate tetra-             Decyl 2-(1H-imidazol-1-yl)acetate (3a). Yellow oil, yield = 83%.
+                                                                                                               hydrate were obtained from Fisher Scientic UK. Imidazole and        FT-IR (KBr disc) n/cm−1 3123 (C–H of imidazole), 2926, 2854 (C–
+                                                                                                               p-toluenesulphonic acid were obtained from Loba Chemie.              H of aliphatic fatty chain), 1747 (C]O of ester), 1626 (C]N of
+                                                                                                               Glucose, petroleum ether and diethyl ether were obtained from
+                                                                                                                                                                                    imidazole), 1073 (C–O). 1H NMR (400 MHz, CDCl3) d 7.76 (s, 1H,
+                                                                                                               Oxford Lab Fine Chem. Xylene, absolute ethanol, anhydrous
+                                                                                                                                                                                    imidazole), 7.08 (s, 1H, imidazole), 6.97 (s, 1H, imidazole), 4.75
+                                                                                                               sodium sulfate, ethyl acetate and sodium hydroxide were ob-          (s, 2H, N–CH2), 4.14 (t, J = 6.8 Hz, 2H, O–CH2), 1.71–1.56 (m,
+                                                                                                               tained from AL-Nasr chemical company. FT-IR (ATR or KBr disc)        2H, CH2), 1.38–1.20 (m, 14H, 7CH2), 0.84 (t, J = 6.8 Hz, 3H,
+                                                                                                               were performed on Nicolet iS10 FT-IR spectrophotometer. 1H           CH3), (Fig. S3†).
+                                                                                                               NMR spectra were generated with Bruker Avance (III) 400 MHz              General procedure for the synthesis of GILBSs (4a–c). 1,2-
+                                                                                                               signal (Switzerland), using deuterated dimethyl sulfoxide            Dibromoethane (0.5 equiv.) was added to a solution of 1-
+                                                                                                               (DMSO-d6) or deuterated chloroform (CDCl3) as a solvent and          substituted imidazole (3a–c, 1 equiv.) in ethyl acetate. The
+                                                                                                               tetramethylsilane (TMS) as internal reference. Surface tension
+                                                                                                                                                                                    mixture was stirred at 70 °C for long time (z90 h), then the
+                                                                                                               and interfacial tension values were measured by using a De-
+                                                                                                                                                                                    products were obtained in pure form by evaporating the ethyl
+                                                                                                               Noüy ring tensiometer (Kruss-K6). Miniex 600 Rigaku XRD             acetate and washing the residues several times by diethyl ether.
+                                                                                                               Instrument was used to conrm the structure of the nano-                 3,3′-(Ethane-1,2-diyl)bis(1-(2-(decyloxy)-2-oxoethyl)-1H-
+                                                                                                               particles and detect their sizes. The morphology of nano-            imidazol-3-ium) bromide (4a). Colorless viscous liquid, yield =
+                                                                                                               particles was determined by loading the sample on carbon             63%. FT-IR (ATR) n/cm−1 3418 (OH, hygroscopic water), 3137
+                                                                                                               coated copper grid, the grid with the sample on it was then          (C–H of imidazole), 2958, 2920, 2850 (C–H, aliphatic fatty
+                                                                                                               investigated by HR-TEM (JEOL, JEM-2100, Tokyo, Japan). DLS           chain), 1747 (C]O of ester), 1624 (C]N of imidazole), 1183 (C–
+                                                                                                               measurements were performed at room temperature (25 ± 2 °
+                                                                                                                                                                                    O). 1H NMR (400 MHz, DMSO-d6) d 9.18 (s, 2H), 7.79 (s, 4H), 5.34
+                                                                                                               C), with a Zetasizer Nano ZS (Malvern Instruments) equipped
+                                                                                                                                                                                    (s, 4H), 4.15 (t, J = 6.5 Hz, 4H), 3.36 (t, J = 6.5 Hz, 4H), 1.70–1.50
+                                                                                                               with a He–Ne laser (k = 633 nm) and a backscatter detector at        (m, 4H), 1.43–1.12 (m, 28H), 0.86 (t, J = 6.8 Hz, 6H). GC-EIMS for
+                                                                                                               a xed angle of 173°.
+
+
+                                                                                                               © 2023 The Author(s). Published by the Royal Society of Chemistry                                   RSC Adv., 2023, 13, 31128–31140 | 31129
+                                                                                                                                                                                                                                         View Article Online
+
+                                                                                                               RSC Advances                                                                                                                        Paper
+
+                                                                                                               C32H56Br2N4O4, RT (min) = 24.82 with molecular weight higher              50 mL of diﬀerent concentrations (60, 200, and 400 ppm) of
+                                                                                                               than 700.                                                              4b was prepared. For compounds 4a and 4c, only 200 ppm were
+                                                                                                                  3,3′-(Ethane-1,2-diyl)bis(1-(2-(dodecyloxy)-2-oxoethyl)-1H-         prepared.
+                                                                                                               imidazol-3-ium) bromide (4b). White solid, m. p. = 96–98 °C,              (5 mL) of each of (FA) and (FB) were mixed in a beaker and
+           This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence.
+
+
+
+
+                                                                                                               yield = 59%. FT-IR (ATR) n/cm−1 3417 (OH, hygroscopic water),          (50 mL) of the prepared concentration of 4a, 4b or 4c was added
+                                                                                                               3111 (C–H of imidazole), 2958, 2921, 2851 (C–H, aliphatic fatty        to the mixture and stirred for (15 min). Then an aqueous
+                                                                                                               chain), 1750 (C]O of ester), 1627 (C]N of imidazole), 1180 (C–         solution of (0.5 g) glucose in (5 mL) distilled water was added to
+                                                                                                               O). 1H NMR (400 MHz, DMSO-d6) d 9.17 (s, 2H), 7.79 (d, J =             the previous mixture and the whole content was then heated at
+                                                                                                               3.0 Hz, 4H), 5.34 (s, 4H), 4.14 (t, J = 6.6 Hz, 4H), 3.38–3.15 (m,     about (60 °C) under continuous vigorous stirring. Aer about
+                                                                                                               4H), 1.70–1.52 (m, 4H), 1.52–1.19 (m, 36H), 0.85 (t, J = 6.8 Hz,       (15–20 min.) of the reaction time a brick-red precipitate of Cu2O
+                                                                                                               6H). GC-EIMS for C36H64Br2N4O4, RT (min) = 26.78 with                  was formed, the precipitate was then ltered oﬀ, washed several
+Open Access Article. Published on 24 October 2023. Downloaded on 5/9/2026 4:58:47 PM.
+
+
+
+
+                                                                                                               molecular weight higher than 700.                                      times by deionized water then with ethanol and it was dried in
+                                                                                                                  3,3′-(Ethane-1,2-diyl)bis(1-(2-(hexadecyloxy)-2-oxoethyl)-1H-       an oven at (60 °C) for 4 h. The produced cuprous oxide nano-
+                                                                                                               imidazol-3-ium) bromide (4c). Oﬀ-white solid, m. p. = 128–130 °        particles were investigated by XRD and TEM to determine the
+                                                                                                               C, yield = 67%. FT-IR (ATR) n/cm−1 3405 (OH, hygroscopic               particle size in each case and comparing the eﬀect of diﬀerent
+                                                                                                               water), 3109 (C–H of imidazole), 2956, 2918, 2849 (C–H,                concentrations on the produced nanoparticles' sizes.
+                                                                                                               aliphatic fatty chain), 1751 (C]O of ester), 1624 (C]N of
+                                                                                                               imidazole), 1181 (C–O). 1H NMR (400 MHz, DMSO-d6) d 9.12 (s,
+                                                                                                                                                                                      3 Results and discussion
+                                                                                                               2H), 7.78 (d, J = 3.5, 4H), 5.32 (s, 2H), 5.09 (s, 2H), 4.13 (t, J =
+                                                                                                               6.7 Hz, 4H), 3.36 (t, J = 6.4 Hz, 4H), 1.60 (m, 2H), 1.27 (m, 52H),    Synthesis
+                                                                                                               0.85 (t, J = 6.8 Hz, 6H). GC-EIMS for C44H80Br2N4O4, RT (min) =        Cationic gemini surfactants showed potent behavior in inhib-
+                                                                                                               35.79 with molecular weight higher than 800.                           iting corrosion of metals, controlling sulfate-reducing bacteria
+                                                                                                                                                                                      and synthesis of nanoparticles.58–60 Ionic liquid-based surfac-
+                                                                                                                                                                                      tants and especially gemini ionic liquid-based surfactants
+                                                                                                               Surface properties
+                                                                                                                                                                                      (GILBSs) are promising compounds due to their advanced
+                                                                                                                   (a) Surface and interfacial tension measurements. The              properties and variable applications. A series of new GILBSs
+                                                                                                               surface tension (ST) was measured using a Krüss (Model K 6)            were synthesized according to the following steps (Scheme 1).
+                                                                                                               tensiometer with a platinum ring.51 Using distilled water and          Firstly, fatty alcohols (1-decanol, 1-dodecanol, 1-hexadecanol)
+                                                                                                               a ST of 72 dyne cm−1 at 25 °C, a 0.1% weight surfactant solution       were esteried with chloroacetic acid to produce the corre-
+                                                                                                               was created. Before use, the platinum ring was cleaned with            sponding chloroacetates (2a–c). FT-IR spectra of these acetates
+                                                                                                               acetone and water. At least three times were required to set the       showed characteristic absorption band for carbonyl-ester at
+                                                                                                               ST value before the average was approved. For the ionic liquid         around 1750 cm−1 beside bands for C–O and C–Cl at 1180 and
+                                                                                                               solution-oil system, interfacial tension (IT) was measured at 25 °     790 cm−1, respectively, (Fig. S1 and S2†). Then, these esters were
+                                                                                                               C using the same ionic liquid solution. The IT value at which the      reacted with the as-prepared sodium imidazole to give 1-alkyl
+                                                                                                               ring broke apart at the interface between the water and oil is         imidazole derivatives (3a–c). New peaks in FT-IR spectra at
+                                                                                                               identied. The combined IT value of the used paraﬃn oil and            around 3100 and 1620 cm−1, which conrm the presence of
+                                                                                                               distilled water is 56.2 dyne per cm−1.53–55                            aromatic C–H and C]N bonds of imidazole, respectively. In
+                                                                                                                   (b) Foam height. In a 500 mL graduated cylinder set at 25 °C,      addition, their 1H NMR spectra exhibited three signals of
+                                                                                                               100 mL of an ionic liquid aqueous solution at 0.1% (wt) was            aromatic protons at 7–8 ppm, (Fig. S3†).
+                                                                                                               violently shaken for about 20 seconds. The height of the created           Finally, the targeted GILBSs 4a–c were obtained via gentle
+                                                                                                               foam at the instant the shaking stopped was measured in                reux of alkyl imidazoles with 1,2-dibromoethane. In addition
+                                                                                                               millimeters (mm).53,55                                                 to the signals of aromatic and fatty chain protons, new signals
+                                                                                                                   (c) Emulsion stability. A 25 mL graduated cylinder contain-        appeared in the 1H NMR spectra of GILBSs 4a–c at around 5.2–
+                                                                                                               ing 10 mL of a 0.1% (wt) aqueous solution of the ionic liquid          5.4 ppm attributable to ethylene spacer protons as clearly
+                                                                                                               and 5 mL of paraﬃn oil was vigorously shaken for approxi-              shown in Fig. 1, S4, and S5.†
+                                                                                                               mately two minutes at 25 °C. The time it took to separate 9 mL
+                                                                                                               of a pure aqueous solution of the ionic liquid from the emulsion       Surface properties
+                                                                                                               system with the cylinder in a steady state was noted as
+                                                                                                                                                                                      Surface-active attributes measurements of the synthetic ionic
+                                                                                                               a measure of the emulsion stability.56,57
+                                                                                                                                                                                      liquid (GILBSs) were performed to assess their surface activity,
+                                                                                                                                                                                      and the resulting data are shown in Table 1.
+                                                                                                               Preparation of cuprous oxide NPs
+                                                                                                               Fehling's solutions were prepared as follows: Fehling A was            Surface and interfacial tension
+                                                                                                               prepared by dissolving 3.45 g of CuSO4$5H2O in 500 mL of               From Table 1, it is clear that by adding GILBSs compounds, the
+                                                                                                               distilled water. Fehling B was prepared by dissolving 17.3 g of        surface tension of water decreases, as well as the interfacial
+                                                                                                               potassium sodium tartarate tetrahydrate and 6.0 g sodium               tension, proving that these compounds have the ability to aﬀect
+                                                                                                               hydroxide in 500 mL of distilled water.                                the surface tension and work in the interfaces. The table also
+
+
+                                                                                                               31130 | RSC Adv., 2023, 13, 31128–31140                                  © 2023 The Author(s). Published by the Royal Society of Chemistry
+                                                                                                                                                                                                                                         View Article Online
+
+                                                                                                               Paper                                                                                                                  RSC Advances
+           This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence.
+Open Access Article. Published on 24 October 2023. Downloaded on 5/9/2026 4:58:47 PM.
+
+
+
+
+                                                                                                               Scheme 1   Synthetic pathway for the targeted GILBSs 4a–c.
+
+
+                                                                                                               shows that the surface tension rises as the hydrocarbon chain          This concentration is known as the CMC. Utilizing the surface
+                                                                                                               lengthens, suggesting that the compounds' inuence on surface          tension method, it is determined. It was determined by plotting
+                                                                                                               tension reduces as the lengthening of the hydrocarbon chain.           the aqueous GILBSs solutions' corresponding logarithms of
+                                                                                                                                                                                      concentration and surface tension (Fig. 2). The information is
+                                                                                                               Emulsion stability (ES)                                                displayed in Table 1, which demonstrates that the CMC values of
+                                                                                                                                                                                      compounds 4a and 4b decrease as the size of the hydrophobic
+                                                                                                               The higher the emulsion stability capacity of these compounds,
+                                                                                                                                                                                      group increases but increase once more in compound 4c. This
+                                                                                                               the longer it takes to separate the emulsion. It is evident from
+                                                                                                                                                                                      might be the fact that 4c has a huge size makes mobility more
+                                                                                                               Table 1 that the synthetic ionic liquids (GILBSs) have a signi-
+                                                                                                                                                                                      challenging, and it hardly ever migrates to the surface.
+                                                                                                               cant capacity for emulsion formation; however, when hydro-
+                                                                                                               phobicity increases, this capacity for emulsion formation
+                                                                                                                                                                                      Eﬀectiveness (pCMC)
+                                                                                                               decreases, especially with compound 4c.
+                                                                                                                                                                                      The calculation of pCMC is used to nd out how these
+                                                                                                               Foam height (FH)                                                       compounds can alter the water's surface. The higher the value
+                                                                                                                                                                                      of pCMC, the greater the compound's capacity to lower the
+                                                                                                               The types of applications of GILBSs depend on their capacity to
+                                                                                                                                                                                      surface tension of water. It was determined using the formula
+                                                                                                               foam and the height of their foam, which is a signicant
+                                                                                                                                                                                      given below using the diﬀerence between the surface tension of
+                                                                                                               occurrence. All of the prepared GILBSs had a high foaming
+                                                                                                                                                                                      pure water (go) and the surface tension of the surfactant's
+                                                                                                               height, as shown by the data in Table 1. Additionally, the values
+                                                                                                                                                                                      aqueous solution at CMC (gCMC).61 Results from the pCMC
+                                                                                                               of foam height oen decrease as the length of the fatty chain
+                                                                                                                                                                                      calculations GILBSs are shown in Table 2.
+                                                                                                               rises.
+                                                                                                                                                                                                         (pCMC = go − gCMC)                             (1)
+                                                                                                               Critical micelle concentration (CMC)
+                                                                                                               Due to the hydrophobic group that these compounds contain,
+                                                                                                               when they are dissolved in water, the molecules start to rise to the
+                                                                                                               water's surface, which helps to lower surface tension. This eﬀect      Maximum surface excess (Gmax)
+                                                                                                               lasts until the molecules stop rising, regardless of how much the      Gmax calculations are made in order to determine the material
+                                                                                                               concentration of the dissolved substances rises. This occurs as        particle concentration on the water's surface. The amount of
+                                                                                                               a result of water molecules forming micelles around themselves.        ionic liquid particles on the surface has an impact on the
+
+
+                                                                                                               © 2023 The Author(s). Published by the Royal Society of Chemistry                                  RSC Adv., 2023, 13, 31128–31140 | 31131
+                                                                                                                                                                                                                                       View Article Online
+
+                                                                                                               RSC Advances                                                                                                                      Paper
+           This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence.
+Open Access Article. Published on 24 October 2023. Downloaded on 5/9/2026 4:58:47 PM.
+
+
+
+
+                                                                                                               Fig. 1   FT-IR and 1H NMR (DMSO-d6) spectra for the GILBS 4a.
+
+
+                                                                                                               water's surface tension, as the greater the number of particles                    Gmax = −(dg/d log c)T/2.303nRT                      (2)
+                                                                                                               on the surface of the water, the lower the surface tension of the
+                                                                                                               water. Gmax was determined using the Gibbs adsorption               where, (dg/d log c) is the slope of the straight-line portion in the
+                                                                                                               isotherm eqn (2).62                                                 surface tension vs. −log concentration at 25 °C, n = 2 in case of
+
+
+
+                                                                                                               31132 | RSC Adv., 2023, 13, 31128–31140                               © 2023 The Author(s). Published by the Royal Society of Chemistry
+                                                                                                                                                                                                                                                   View Article Online
+
+                                                                                                               Paper                                                                                                                           RSC Advances
+
+                                                                                                               Table 1   Surface properties of the synthesized GILBSs 4a–c
+
+                                                                                                                                  Surface tension            Interfacial tension              Foam height                Emulsion stability
+                                                                                                               GILBS              (mN m−1)                   (mN m−1)                         0.1% (mm)                  (min:sec)                         CMC/mM
+           This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence.
+
+
+
+
+                                                                                                               4a                 35.03                      13                               140                        34:35                             2.4
+                                                                                                               4b                 40.77                      16.3                             120                        28:14                             2.2
+                                                                                                               4c                 46.07                      17.3                             110                        14:26                             3.1
+
+
+
+                                                                                                                                                                                          Thermodynamic parameters of the synthesized ionic liquid
+Open Access Article. Published on 24 October 2023. Downloaded on 5/9/2026 4:58:47 PM.
+
+
+
+
+                                                                                                                                                                                          The most crucial characteristics of ionic liquid to be researched
+                                                                                                                                                                                          are their thermodynamic properties, specically their adsorp-
+                                                                                                                                                                                                                                                       
+                                                                                                                                                                                          tion free energy ðDGads Þ and micellization free energy ðDGmic Þ.
+                                                                                                                                                                                          Through its calculations, we can judge whether the compounds
+                                                                                                                                                                                          prefer to work inside the solution and form a micelle or migrate
+                                                                                                                                                                                          to the intersurface. Gibbs adsorption equations (eqn (4) and (5))
+                                                                                                                                                                                          were used to calculate micellization and adsorption free
+                                                                                                                                                                                          energy.64
+                                                                                                                                                                                                                 
+                                                                                                                                                                                                             DGmic ¼ 2:303RT log CMC                              (4)
+                                                                                                                                                                                                                    
+                                                                                                                                                                                                          DGads ¼ DGmic  ð0:06023pcmc Amin Þ                     (5)
+
+                                                                                                                                                                                                                                              
+                                                                                                                                                                                             Table 2 displays the values of DGmic and DGads , which came
+                                                                                                                                                                                          from eqn (4) and (5). The outcomes show that the micellization
+                                                                                                                                                                                          and adsorption of Gibbs free energies are both negative.
+                                                                                                               Fig. 2 Variation of surface tension vs. the concentration of the
+                                                                                                               synthesized cationic gemini surfactant at 25 °C.                           According to fundamental thermodynamic principles, all of the
+                                                                                                                                                                                          molecules of the ionic liquid being studied tend to spontane-
+                                                                                                                                                                                          ously form micelles in the solution or become adsorbed at the
+                                                                                                                                                                                          interface.
+                                                                                                               conventional surfactants, R is the gas constant, T is the absolute            It is also obvious that the values are more negative than
+                                                                                                               temperature. Table 2 shows that the concentration of molecules             those of, indicating a higher capacity for absorption at the air/
+                                                                                                               at the air/water interface falls as the hydrocarbon chain                  water interface than micellization into the solution. From
+                                                                                                               lengthens in compounds 4a and 4b before increasing once                    Table 2, it is evident that the ionic liquid compounds have
+                                                                                                               more in compound 4c.                                                       a better probability of being absorbed at the interface as the
+                                                                                                                                                                                          length of the hydrocarbon chain increases, as opposed to
+                                                                                                                                                                                          micellization into the solution, as in the case of compounds 4a
+                                                                                                               Minimum surface area (Amin)                                                and 4b. This interpretation holds true for compound 4c,
+                                                                                                               The average surface area occupied by a molecule at the air/water           however due to the length of its chain, which makes it harder
+                                                                                                               interface is known as Amin, eqn (3) has been used to calculate             for it to move, it require a larger energy to have either micelli-
+                                                                                                               Amin.63                                                                    zation or adsorption on the interface.
+
+                                                                                                                                      Amin = 1016/NAGmax                            (3)
+                                                                                                                                                                                          Preparation and characterization of Cu2O NPs aided by
+                                                                                                               where Amin is in nm and NA, is Avogadro's constant (6.022 ×
+                                                                                                                                      2                                                   GILBSs
+                                                                                                               1023 mol−1). The space available for each molecule at the air/             Cuprous oxide stands out as an important oxide due to its
+                                                                                                               water contact shrinks as its population grows. According to                several functions. Solar cell,65 catalysis,66 and batteries67 are
+                                                                                                               the ndings in Table 2, the Amin increases in compound 4a and              a few examples of how cuprous oxide is used in chemistry. Many
+                                                                                                               4b as the number of molecules on the surface decreases.                    ways have been developed to synthesize Cu2O NPs such as
+
+
+                                                                                                               Table 2   Thermodynamic parameters of the synthesized GILBSs 4a–c
+
+                                                                                                                                                                                                                                                      
+                                                                                                               Compd        CMC/mM        gCMC/mN m−1       PCMC/mN m−1            Gmax × 1011/mol cm−2      Amin/nm2        DGmic =kJ mol1       DGads =kJ mol1
+
+                                                                                                               4a           2.4           43.62             28.38                  5.05                      3.2             −14.86                −20.30
+                                                                                                               4b           2.2           40.89             31.11                  3.61                      4.6             −15.11                −23.69
+                                                                                                               4c           3.1           43.37             28.63                  5.29                      3.15            −14.36                −19.77
+
+
+
+                                                                                                               © 2023 The Author(s). Published by the Royal Society of Chemistry                                          RSC Adv., 2023, 13, 31128–31140 | 31133
+                                                                                                                                                                                                                                         View Article Online
+
+                                                                                                               RSC Advances                                                                                                                        Paper
+           This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence.
+Open Access Article. Published on 24 October 2023. Downloaded on 5/9/2026 4:58:47 PM.
+
+
+
+
+                                                                                                               Scheme 2     Preparation route for the Cu2O NPs induced by GILBS 4b.
+
+
+
+                                                                                                               solution-phase,68 thermal decomposition,69 and sonication70            and 23 nm for the GILBS 4b at 60 and 200 ppm, respectively. The
+                                                                                                               methods. The surfactant-assisted approach is a quick, conve-           size of nanoparticles obtained from the TEM studies are in close
+                                                                                                               nient, and inexpensive way to create size-controllable nano-           agreement with those calculated from XRD diﬀraction patterns.
+                                                                                                               crystals. Surfactant molecules may work as regulators for the             Patterns for powder XRD for the nanosized Cu2O were given
+                                                                                                               growth of particles or inhibitors for their agglomeration. To          in Fig. 4 which contain ve clearly distinguishable peaks. They
+                                                                                                               prevent the newly formed particles from aggregating, a covering        are all precisely indexed to crystalline Cu2O both in terms of
+                                                                                                               lm is formed on top of them.71,72                                     peak position and relative intensity. The crystal planes 110, 111,
+                                                                                                                  In this work, we used diﬀerent concentrations of the                200, 220, 311 and 222 of crystalline Cu2O are represented by the
+                                                                                                               synthesized GILBS 4b (60, 200, and 400 ppm) as inducer for the         peaks with 2q values of 29.601, 36.521, 42.441, 61.541, 73.691
+                                                                                                               facile preparation of Cu2O NPs. The conversion of Cu2+ to Cu+ is       and 77.611, respectively. The absence of distinctive Cu–O or Cu
+                                                                                                               brought about by heating Fehling's solution in the presence of         metal peaks in the XRD patterns suggests that phase-pure
+                                                                                                               a weak reducing agent, like glucose. An orange to red precipitate      cuprous oxide can be produced easily.
+                                                                                                               of Cu2O is formed as a result of the reduction because the tar-           Nanowires of Cu2O with diameter of about 100 nm and
+                                                                                                               tarate ion cannot coordinate with the cuprous ion. Actually,           lengths of about 16 mm have been prepared by potentiostatic
+                                                                                                               when the cupric ion in the tartarate complex comes into touch          deposition by reduction of alkaline cupric lactate solution at the
+                                                                                                               with the aldehyde group of the glucose molecule, it is reduced to      cathode on polycarbonate membrane. Limitations of this
+                                                                                                               a cuprous ion, and the aldehyde is oxidized to carboxylic acid         method includes scalability issues, pH management, and
+                                                                                                               (Scheme 2). Therefore, we developed a simple technique for the         accurate temperature control.73 Firmansyah, et al. reported the
+                                                                                                               production of Cu2O NPs employing the GILBS 4b as surfactants           eﬀect of ethanol on the preparation of Cu2O NPs by copper
+                                                                                                               to control the size of these particles by utilizing Fehling's          nitrate spray pyrolysis. The produced NPs changed, by addition
+                                                                                                               solution's reactivity with glucose.                                    of ethanol, from shell-like to solid-spherical, and their sizes
+                                                                                                                  The transmission electron microscopy (TEM) images of the            decreased with increasing ethanol volume to 50 nm. This
+                                                                                                               obtained Cu2O showed well dispersed roughly nanorod parti-             process has some drawbacks, including high temperature,
+                                                                                                               cles (Fig. 3). The mean sizes of Cu2O nanorods are about 55 nm         expensive costs, and careful temperature control.74
+
+
+
+
+                                                                                                               Fig. 3   TEM images of the prepared Cu2O NPs induced by GILBS 4b at a concentration of (A) 60 ppm, and (B) 200 ppm.
+
+
+
+                                                                                                               31134 | RSC Adv., 2023, 13, 31128–31140                                  © 2023 The Author(s). Published by the Royal Society of Chemistry
+                                                                                                                                                                                                                                      View Article Online
+
+                                                                                                               Paper                                                                                                               RSC Advances
+           This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence.
+Open Access Article. Published on 24 October 2023. Downloaded on 5/9/2026 4:58:47 PM.
+
+
+
+
+                                                                                                               Fig. 4 Powder XRD patterns of the prepared Cu2O NPs induced by 4b at (A) 60 ppm, (B) 200 ppm, and (C) 400 ppm.
+
+
+
+                                                                                                                  Furthermore, Cu2O NPs were synthesized by reduction of           carbonate, then exposing the produced solution to air for 16
+                                                                                                               copper(II) sulfate present in an aqueous solution containing        days. The formed NPs have truncated octahedral inner hollow
+                                                                                                               polyvinylpyrrolidone (PVP), sodium citrate and sodium               shape with size about 700 nm and inner edge length about
+
+
+                                                                                                               © 2023 The Author(s). Published by the Royal Society of Chemistry                               RSC Adv., 2023, 13, 31128–31140 | 31135
+                                                                                                                                                                                                                                         View Article Online
+
+                                                                                                               RSC Advances                                                                                                                        Paper
+           This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence.
+Open Access Article. Published on 24 October 2023. Downloaded on 5/9/2026 4:58:47 PM.
+
+
+
+
+                                                                                                               Fig. 5   DLS analysis of the prepared Cu2O NPs induced by GILBS 4b at a concentration of 200 ppm.
+
+
+
+                                                                                                               300 nm. Time-consuming procedure and relatively large particle        spherical shape with high agglomeration and not well dispersed
+                                                                                                               size limit the application of this method.75                          with particle size 61.5 nm (Fig. 6).
+                                                                                                                   For further clarication, nanoparticles formed by using the           By comparing the results obtained based on the hydrocarbon
+                                                                                                               GILBS 4b at 200 ppm were examined using Dynamic Light                 chain length, it is evident that the process of Cu2O NPs prepa-
+                                                                                                               Scattering (DLS) technique. Fig. 5 illustrates that the prepared      ration is as follows: 61.5 nm, 23 nm, and 18 nm by using GILBS
+                                                                                                               nanoparticles have an average hydrodynamic diameter of                4a, 4b and 4c at 200 ppm, respectively, which indicates that by
+                                                                                                               ∼531 nm and polydispersity index of 0.796. These results              increasing the hydrocarbon chain length, these compounds are
+                                                                                                               indicate some aggregates formation in the applied dispersant          more eﬀective in forming nanoparticles. This could be because
+                                                                                                               media (water). Furthermore, the crystallite estimated from the        GILBS molecules are more repellent to one another as chain
+                                                                                                               XRD results are in good agreement with the TEM results,               length increases, which helps the molecules spread apart.
+                                                                                                               whereas the size values obtained with DLS are larger. This is due         XRD data in agreement with those obtained from TEM, with
+                                                                                                               to the fact that the DLS technique measures the hydrodynamic          all the peaks related to cuprous oxide and absence of distinctive
+                                                                                                               size of the particles. This nding indicates the presence of the      Cu–O or Cu metal peaks, as in case of 4b, that can be evidenced
+                                                                                                               solvation layer around the synthesized nanoparticles. However,        on phase-pure of prepared NPs (Fig. 7).
+                                                                                                               detailed analysis of the solvation shell is not a subject of this         Bai group prepared Cu2O nanoparticles with diﬀerent
+                                                                                                               study.                                                                shapes and sizes by reduction of aqueous solution of copper(II)
+                                                                                                                   Depending on the previous results, aer studying the eﬀect        acetate by ascorbic acid, the solution contained NaOH and PVP
+                                                                                                               of compound 4b on the process of Cu2O NPs preparation,                as a stabilizer. They managed this by changing the concentra-
+                                                                                                               200 ppm is the most eﬀective concentration in the process of          tions of the diﬀerent reagents and heating temperature.76
+                                                                                                               Cu2O NPs preparation. As a result, experiments were conducted         Similarly, Huang and Chiu synthesized Cu2O NPs by redox
+                                                                                                               for the other synthesized GILBS 4a and 4c at the same                 reaction from copper chloride in presence of NaOH, hydroxyl
+                                                                                                               concentration.                                                        amine and SDS as an inducer. The particle size ranges from 40
+                                                                                                                   TEM images of the obtained Cu2O showed well-dispersed             to 420 nm.77 Our strategy utilizes a novel synthesized GILBSs as
+                                                                                                               roughly spherical particles and the mean particle sizes of            inducers for the fabrication of nano-sized cuprous oxide. It
+                                                                                                               Cu2O are about 18 nm using compound GILBS 4c, whereas                 could overcome almost all the limitations of the previously re-
+                                                                                                               those prepared using GILBS 4a are complete and incomplete             ported methods as it does not need pH management, high
+
+
+
+
+                                                                                                               Fig. 6   TEM images of the prepared Cu2O NPs induced by GILBS 4a (A) and 4c (B) at a concentration of 200 ppm.
+
+
+
+                                                                                                               31136 | RSC Adv., 2023, 13, 31128–31140                                  © 2023 The Author(s). Published by the Royal Society of Chemistry
+                                                                                                                                                                                                                                        View Article Online
+
+                                                                                                               Paper                                                                                                                   RSC Advances
+           This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence.
+Open Access Article. Published on 24 October 2023. Downloaded on 5/9/2026 4:58:47 PM.
+
+
+
+
+                                                                                                               Fig. 7 Powder XRD patterns of the prepared Cu2O NPs induced by GILBS 4a (A) and 4c (B) at a concentration of 200 ppm.
+
+
+
+                                                                                                               temperature, ne chemicals, and long time. It produces nano-         estimated from XRD diﬀraction patterns are almost identical,
+                                                                                                               particles with relatively small sizes.                               and present indeed in the nano size with good size ranges even
+                                                                                                                                                                                    at very low concentrations.
+                                                                                                               4 Conclusion
+                                                                                                                                                                                    Ethical statement
+                                                                                                               In this study, three new gemini ionic liquid-based surfactants
+                                                                                                               GILBSs were synthesized and characterized. The polar head of         The study was conducted and approved according to the
+                                                                                                               these surfactants included the imidazolium cation with ethane-       guidelines of the declaration of the ethical committee of the
+                                                                                                               1,2-diyl as the spacer. Investigations into the surface properties   Faculty of Science, Benha University (No. 42 chm).
+                                                                                                               and thermodynamic parameters of these compounds were
+                                                                                                               extensively reported. In order to fabricate cuprous oxide nano-      Conﬂicts of interest
+                                                                                                               particles, the prepared surfactants, 4a–c were utilized in
+                                                                                                               a variety of concentrations. Additionally, the impact of             All authors declare that they have no conict of interest.
+                                                                                                               concentration on the morphology of the targeted nanoparticles
+                                                                                                               was evaluated and to choose the optimal concentration among          References
+                                                                                                               them, the size and shape of the nanoparticles were aerwards
+                                                                                                               evaluated by XRD and TEM in each case. The size of the nano-          1 S. Marullo, C. Rizzo, N. T. Dintcheva, F. Giannici and
+                                                                                                               particles determined by TEM examinations and the ones                   F. D'Anna, Ionic liquids gels: So materials for
+
+
+                                                                                                               © 2023 The Author(s). Published by the Royal Society of Chemistry                                RSC Adv., 2023, 13, 31128–31140 | 31137
+                                                                                                                                                                                                                                         View Article Online
+
+                                                                                                               RSC Advances                                                                                                                        Paper
+
+                                                                                                                  environmental remediation, J. Colloid Interface Sci., 2018,            aggregation of imidazolium ionic liquids in aqueous
+                                                                                                                  517, 182.                                                              solutions, Colloids Surf., A, 2007, 302, 181.
+                                                                                                                2 Z. Zeng, B. S. Phillips, J.-C. Xiao and J. n. M. Shreeve,           15 O. A. El Seoud, N. Keppeler, N. I. Malek and P. D. Galgano,
+                                                                                                                  Polyuoroalkyl,           Polyethylene        Glycol,       1,4-       Ionic Liquid-Based Surfactants: Recent Advances in Their
+           This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence.
+
+
+
+
+                                                                                                                  Bismethylenebenzene,           or     1,4-Bismethylene-2,3,5,6-        Syntheses, Solution Properties, and Applications, Polymers,
+                                                                                                                  Tetrauorobenzene Bridged Functionalized Dicationic                    2021, 13, 1100.
+                                                                                                                  Ionic Liquids: Synthesis and Properties as High                     16 N. I. Malek, Z. S. Vaid, U. U. More and O. A. El Seoud, Ionic-
+                                                                                                                  Temperature Lubricants, Chem. Mater., 2008, 20, 2719.                  liquid-based surfactants with unsaturated head group:
+                                                                                                                3 Y. Cao, J. Wu, J. Zhang, H. Li, Y. Zhang and J. He, Room               synthesis and micellar properties of 1-(n-alkyl)-3-
+                                                                                                                  temperature ionic liquids (RTILs): A new and versatile                 vinylimidazolium bromides, Colloid Polym. Sci., 2015, 293,
+Open Access Article. Published on 24 October 2023. Downloaded on 5/9/2026 4:58:47 PM.
+
+
+
+
+                                                                                                                  platform for cellulose processing and derivatization, Chem.            3213.
+                                                                                                                  Eng. J., 2009, 147, 13.                                             17 R. Vanyúr, L. Biczók and Z. Miskolczy, Micelle formation of
+                                                                                                                4 S. Sasi, M. P. Rayaroth, C. T. Aravindakumar and                       1-alkyl-3-methylimidazolium bromide ionic liquids in
+                                                                                                                  U. K. Aravind, Identication of surfactants and its                    aqueous solution, Colloids Surf., A, 2007, 299, 256.
+                                                                                                                  correlation with physicochemical parameters at the                  18 F. Geng, J. Liu, L. Zheng, L. Yu, Z. Li, G. Li and C. Tung,
+                                                                                                                  conuence region of Vembanad Lake in India, Environ. Sci.              Micelle Formation of Long-Chain Imidazolium Ionic
+                                                                                                                  Pollut. Res. Int., 2018, 25, 20527.                                    Liquids in Aqueous Solution Measured by Isothermal
+                                                                                                                5 M. Anouti, J. Jones, A. Boisset, J. Jacquemin, M. Caillon-             Titration Microcalorimetry, J. Chem. Eng. Data, 2010, 55, 147.
+                                                                                                                  Caravanier and D. Lemordant, Aggregation behavior in                19 M. Blesic, A. n. Lopes, E. Melo, Z. Petrovski, N. V. Plechkova,
+                                                                                                                  water      of    new     imidazolium      and    pyrrolidinium         J. N. C. Lopes, K. R. Seddon and L. s. P. N. Rebelo, On the
+                                                                                                                  alkycarboxylates protic ionic liquids, J. Colloid Interface Sci.,      Self-Aggregation and Fluorescence Quenching Aptitude of
+                                                                                                                  2009, 340, 104.                                                        Surfactant Ionic Liquids, J. Phys. Chem. B, 2008, 112, 8645.
+                                                                                                                6 N. Cheng, X. Ma, X. Sheng, T. Wang, R. Wang, J. Jiao and            20 A. Cornellas, L. Perez, F. Comelles, I. Ribosa, A. Manresa and
+                                                                                                                  L. Yu, Aggregation behavior of anionic surface active ionic            M. T. Garcia, Self-aggregation and antimicrobial activity of
+                                                                                                                  liquids with double hydrocarbon chains in aqueous                      imidazolium and pyridinium based ionic liquids in
+                                                                                                                  solution: Experimental and theoretical investigations,                 aqueous solution, J. Colloid Interface Sci., 2011, 355, 164.
+                                                                                                                  Colloids Surf., A, 2014, 453, 53.                                   21 M. Blesic, M. H. Marques, N. V. Plechkova, K. R. Seddon,
+                                                                                                                7 M. Ao and D. Kim, Aggregation Behavior of Aqueous                      L. P. N. Rebelo and A. n. Lopes, Self-aggregation of ionic
+                                                                                                                  Solutions of 1-Dodecyl-3-methylimidazolium Salts with                  liquids: micelle formation in aqueous solution, Green
+                                                                                                                  Diﬀerent Halide Anions, J. Chem. Eng. Data, 2013, 58, 1529.            Chem., 2007, 9, 481.
+                                                                                                                8 T. Singh and A. Kumar, Aggregation Behavior of Ionic                22 H. Wang, J. Wang, S. Zhang and X. Xuan, Structural Eﬀects
+                                                                                                                  Liquids in Aqueous Solutions: Eﬀect of Alkyl Chain Length,             of Anions and Cations on the Aggregation Behavior of
+                                                                                                                  Cations, and Anions, J. Phys. Chem. B, 2007, 111, 7843.                Ionic Liquids in Aqueous Solutions, J. Phys. Chem. B, 2008,
+                                                                                                                9 B. Dong, X. Zhao, L. Zheng, J. Zhang, N. Li and T. Inoue,              112, 16682.
+                                                                                                                  Aggregation behavior of long-chain imidazolium ionic                23 X. Wang, J. Liu, L. Yu, J. Jiao, R. Wang and L. Sun, Surface
+                                                                                                                  liquids in aqueous solution: Micellization and                         adsorption and micelle formation of imidazolium-based
+                                                                                                                  characterization of micelle microenvironment, Colloids                 zwitterionic surface active ionic liquids in aqueous
+                                                                                                                  Surf., A, 2008, 317, 666.                                              solution, J. Colloid Interface Sci., 2013, 391, 103.
+                                                                                                               10 M. A. Rather, G. M. Rather, S. A. Pandit, S. A. Bhat and            24 B. Dong, N. Li, L. Zheng, L. Yu and T. Inouen, Surface
+                                                                                                                  M. A. Bhat, Determination of cmc of imidazolium based                  Adsorption and Micelle Formation of Surface Active Ionic
+                                                                                                                  surface active ionic liquids through probe-less UV-vis                 Liquids in Aqueous Solution, Langmuir, 2007, 23, 4178.
+                                                                                                                  spectrophotometry, Talanta, 2015, 131, 55.                          25 O. A. El Seoud, P. A. Pires, T. Abdel-Moghny and E. L. Bastos,
+                                                                                                               11 N. V. Sastry, N. M. Vaghela and V. K. Aswal, Eﬀect of alkyl            Synthesis and micellar properties of surface-active ionic
+                                                                                                                  chain length and head group on surface active and                      liquids: 1-alkyl-3-methylimidazolium chlorides, J. Colloid
+                                                                                                                  aggregation behavior of ionic liquids in water, Fluid Phase            Interface Sci., 2007, 313, 296.
+                                                                                                                  Equilib., 2012, 327, 22.                                            26 M. K. Ali, R. M. Moshikur, R. Wakabayashi, Y. Tahara,
+                                                                                                               12 T. Singh, K. S. Rao and A. Kumar, Eﬀect of ethylene glycol             M. Moniruzzaman, N. Kamiya and M. Goto, Synthesis and
+                                                                                                                  and its derivatives on the aggregation behavior of an ionic            characterization of choline-fatty-acid-based ionic liquids: A
+                                                                                                                  liquid 1-butyl-3-methyl imidazolium octylsulfate in                    new biocompatible surfactant, J. Colloid Interface Sci.,
+                                                                                                                  aqueous medium, J. Phys. Chem. B, 2012, 116, 1612.                     2019, 551, 72.
+                                                                                                               13 T. Inoue, H. Ebina, B. Dong and L. Zheng, Electrical                27 T. J. Trivedi, K. S. Rao, T. Singh, S. K. Mandal, N. Sutradhar,
+                                                                                                                  conductivity study on micelle formation of long-chain                  A. B. Panda and A. Kumar, Task-specic, biodegradable
+                                                                                                                  imidazolium ionic liquids in aqueous solution, J. Colloid              amino acid ionic liquid surfactants, ChemSusChem, 2011,
+                                                                                                                  Interface Sci., 2007, 314, 236.                                        4, 604.
+                                                                                                               14 A. Modaressi, H. Sifaoui, M. Mielcarz, U. Domańska and             28 P. S. Gehlot, A. Kulshrestha, P. Bharmoria, K. Damarla,
+                                                                                                                  M. Rogalski, Inuence of the molecular structure on the                K. Chokshi and A. Kumar, Surface-Active Ionic Liquid
+                                                                                                                                                                                         Cholinium        Dodecylbenzenesulfonate:       Self-Assembling
+
+
+                                                                                                               31138 | RSC Adv., 2023, 13, 31128–31140                                  © 2023 The Author(s). Published by the Royal Society of Chemistry
+                                                                                                                                                                                                                                           View Article Online
+
+                                                                                                               Paper                                                                                                                    RSC Advances
+
+                                                                                                                  Behavior and Interaction with Cellulase, ACS Omega, 2017, 2,            nanoparticles in ionic liquids, Dalton Trans., 2013, 42,
+                                                                                                                  7451.                                                                   14473.
+                                                                                                               29 M. U. H. Shah, M. Sivapragasam, M. Moniruzzaman,                     43 K.-S. Kim, D. Demberelnyamba and H. Lee, Size-Selective
+                                                                                                                  M. M. R. Talukder, S. B. Yusup and M. Goto, Aggregation                 Synthesis of Gold and Platinum Nanoparticles Using Novel
+           This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence.
+
+
+
+
+                                                                                                                  behavior and antimicrobial activity of a micellar system of             Thiol-Functionalized Ionic Liquids, Langmuir, 2004, 20, 556.
+                                                                                                                  binary ionic liquids, J. Mol. Liq., 2018, 266, 568.                  44 O. Naderi, M. Nyman, M. Amiri and R. Sadeghi, Synthesis
+                                                                                                               30 K. S. Rao, P. S. Gehlot, T. J. Trivedi and A. Kumar, Self-              and characterization of silver nanoparticles in aqueous
+                                                                                                                  assembly of new surface active ionic liquids based on                   solutions of surface active imidazolium-based ionic liquids
+                                                                                                                  Aerosol-OT in aqueous media, J. Colloid Interface Sci., 2014,           and traditional surfactants SDS and DTAB, J. Mol. Liq.,
+                                                                                                                  428, 267.                                                               2019, 273, 645.
+Open Access Article. Published on 24 October 2023. Downloaded on 5/9/2026 4:58:47 PM.
+
+
+
+
+                                                                                                               31 M. J. Rosen and D. J. Tracy, Gemini Surfactants, J. Surfactants      45 K. Schutte, H. Meyer, C. Gemel, J. Barthel, R. A. Fischer and
+                                                                                                                  Deterg., 1998, 1, 547.                                                  C. Janiak, Synthesis of Cu, Zn and Cu/Zn brass alloy
+                                                                                                               32 R.                Zana,                Alkanediyl-alpha,omega-          nanoparticles from metal amidinate precursors in ionic
+                                                                                                                  bis(dimethylalkylammonium bromide) surfactants 10.                      liquids or propylene carbonate with relevance to methanol
+                                                                                                                  Behavior in aqueous solution at concentrations below the                synthesis, Nanoscale, 2014, 6, 3116.
+                                                                                                                  critical   micellization     concentration:      an     electrical   46 G. Singh, K. Komal, G. Singh, M. Kaur and T. S. Kang, A new
+                                                                                                                  conductivity study, J. Colloid Interface Sci., 2002, 246, 182.          sustainable approach towards preparation of sunlight active
+                                                                                                               33 F. M. Menger and C. A. Littau, Gemini Surfactants: A New                Ag/AgBr Janus nanoparticles using non-toxic surface active
+                                                                                                                  Class of Self-Assembling Molecules, J. Am. Chem. Soc.,                  ionic liquid, J. Mater. Chem. A, 2019, 7, 5185.
+                                                                                                                  1993, 115, 10083.                                                    47 D. S. Jacob, L. Bitton, J. Grinblat, I. Felner, Y. Koltypin and
+                                                                                                               34 J. r. m. Gaucheron, T. Wong, K. F. Wong, N. Maurer and                  A. Gedanken, Are Ionic Liquids Really a Boon for the
+                                                                                                                  P. R. Cullis, Synthesis and Properties of Novel Tetraalkyl              Synthesis of Inorganic Materials? A General Method for
+                                                                                                                  Cationic Lipids, Bioconjugate Chem., 2002, 13, 671–675.                 the Fabrication of Nanosized Metal Fluorides, Chem.
+                                                                                                               35 E. Fisicaro, C. Compari, E. Duce, G. Donofrio, B. Rozycka-              Mater., 2006, 18, 3162.
+                                                                                                                  Roszak and E. Wozniak, Biologically active bisquaternary             48 C. M. Lee, H. J. Jeong, S. T. Lim, M. H. Sohn and D. W. Kim,
+                                                                                                                  ammonium chlorides: physico-chemical properties of long                 Synthesis of iron oxide nanoparticles with control over shape
+                                                                                                                  chain amphiphiles and their evaluation as non-viral                     using imidazolium-based ionic liquids, ACS Appl. Mater.
+                                                                                                                  vectors for gene delivery, Biochim. Biophys. Acta, 2005,                Interfaces, 2010, 2, 756.
+                                                                                                                  1722, 224.                                                           49 E. Redel, R. Thomann and C. Janiak, First Correlation of
+                                                                                                               36 S. M. Rajput, U. U. More, Z. S. Vaid, K. D. Prajapati and               Nanoparticle Size-Dependent Formation with the Ionic
+                                                                                                                  N. I. Malek, Impact of organic solvents on the                          Liquid Anion Molecular Volume, Inorg. Chem., 2008, 47,
+                                                                                                                  micellization and interfacial behavior of ionic liquid based            14–16.
+                                                                                                                  surfactants, Colloids Surf., A, 2016, 507, 182.                      50 H. J. Ryu, L. Sanchez, H. A. Keul, A. Raj and M. R. Bockstaller,
+                                                                                                               37 S. M. Tawk, Simple one step synthesis of gemini cationic               Imidazolium-based ionic liquids as eﬃcient shape-
+                                                                                                                  surfactant-based ionic liquids: Physicochemical, surface                regulating solvents for the synthesis of gold nanorods,
+                                                                                                                  properties and biological activity, J. Mol. Liq., 2015, 209, 320.       Angew. Chem., Int. Ed., 2008, 47, 7639.
+                                                                                                               38 R. Goutham, P. Rohit, S. S. Vigneshwar, A. Swetha, J. Arun,          51 Y. Wang and H. Yang, Synthesis of iron oxide nanorods and
+                                                                                                                  K. P. Gopinath and A. Pugazhendhi, Ionic liquids in                     nanocubes in an imidazolium ionic liquid, Chem. Eng. J.,
+                                                                                                                  wastewater treatment: A review on pollutant removal and                 2009, 147, 71.
+                                                                                                                  degradation, recovery of ionic liquids, economics and                52 Y. J. Zhu, W. W. Wang, R. J. Qi and X. L. Hu, Microwave-
+                                                                                                                  future perspectives, J. Mol. Liq., 2022, 349, 118150.                   assisted synthesis of single-crystalline tellurium nanorods
+                                                                                                               39 R. M. Moshikur, M. K. Ali, M. Moniruzzaman and M. Goto,                 and nanowires in ionic liquids, Angew. Chem., Int. Ed.,
+                                                                                                                  Recent advances in surface-active ionic liquid-assisted self-           2004, 43, 1410.
+                                                                                                                  assembly systems for drug delivery, Curr. Opin. Colloid              53 M. Abo-Riya, A. H. Tantawy and W. El-Dougdoug, Synthesis
+                                                                                                                  Interface Sci., 2021, 56, 101515.                                       and evaluation of novel cationic gemini surfactants based
+                                                                                                               40 R. M. F. Bento, M. R. Almeida, P. Bharmoria, M. G. Freire               on Guava crude fat as petroleum-collecting and dispersing
+                                                                                                                  and A. P. M. Tavares, Improvements in the enzymatic                     agents, J. Mol. Liq., 2016, 221, 642.
+                                                                                                                  degradation of textile dyes using ionic-liquid-based                 54 S. Livi, J. Duchet-Rumeau, T. N. Pham and J. F. Gerard,
+                                                                                                                  surfactants, Sep. Purif. Technol., 2020, 235, 116191.                   Synthesis and physical properties of new surfactants based
+                                                                                                               41 K. Qiao and Y. Zeng, Comparative study on two                           on ionic liquids: Improvement of thermal stability and
+                                                                                                                  imidazolium-based ionic liquid surfactants as corrosion                 mechanical behaviour of high density polyethylene
+                                                                                                                  inhibitors for N80 steel in 15% hydrochloric acid solution,             nanocomposites, J. Colloid Interface Sci., 2011, 354, 555.
+                                                                                                                  Mater. Corros., 2020, 71, 1913.                                      55 M. J. Schick and E. A. Beyer, Foaming Properties of Nonionic
+                                                                                                               42 R. Bussamara, W. W. Melo, J. D. Scholten, P. Migowski,                  Detergents, J. Am. Oil Chem. Soc., 1963, 40, 66.
+                                                                                                                  G. Marin, M. J. Zapata, G. Machado, S. R. Teixeira,                  56 S. M. Alazrak, S. Awad, A. A. Khalil and W. El-Dougdoug,
+                                                                                                                  M. A. Novak and J. Dupont, Controlled synthesis of Mn3O4                Synthesis and evaluation of new cationic polymeric
+
+
+
+                                                                                                               © 2023 The Author(s). Published by the Royal Society of Chemistry                                    RSC Adv., 2023, 13, 31128–31140 | 31139
+                                                                                                                                                                                                                                      View Article Online
+
+                                                                                                               RSC Advances                                                                                                                     Paper
+
+                                                                                                                  surfactant based on N-phthalimidomethyl methacrylate.            66 M. B. Gawande, A. Goswami, F. X. Felpin, T. Asefa, X. Huang,
+                                                                                                                  Egypt, J. Chem., 2021, 64, 3861.                                    R. Silva, X. Zou, R. Zboril and R. S. Varma, Cu and Cu-Based
+                                                                                                               57 H. I. Mohamed, M. Z. Basyouni, A. A. Khalil, K. A. Hebash           Nanoparticles: Synthesis and Applications in Catalysis,
+                                                                                                                  and     A.    H.    Tantawy,     Petroleum-dispersing     and       Chem. Rev., 2016, 116, 3722.
+           This article is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported Licence.
+
+
+
+
+                                                                                                                  antimicrobial activity of newly synthesized polymeric            67 J. C. Park, J. Kim, H. Kwon and H. Song, Gram-Scale
+                                                                                                                  surfactants tethering tetrachlorophthalimide moiety, J.             Synthesis of Cu2O Nanocubes and Subsequent Oxidation
+                                                                                                                  Iran. Chem. Soc., 2021, 18, 265.                                    to CuO Hollow Nanostructures for Lithium-Ion Battery
+                                                                                                               58 B. A. A. Bader, A. H. Tantawy, M. M. Azab and W. El-                Anode Materials, Adv. Mater., 2009, 21, 803.
+                                                                                                                  Dougdoug, Novel Synthesized Cationic Gemini Surfactants          68 L. Gou and C. J. Murphy, Solution-Phase Synthesis of Cu2O
+                                                                                                                  Bearing Amido Group and Their Application in                        Nanocubes, Nano Lett., 2003, 3, 231.
+Open Access Article. Published on 24 October 2023. Downloaded on 5/9/2026 4:58:47 PM.
+
+
+
+
+                                                                                                                  Nanotechonoly, Curr. Sci. Int., 2022, 11, 184.                   69 M. Salavati-Niasari and F. Davar, Synthesis of copper and
+                                                                                                               59 W. I. El-Dougdoug, A. S. Al-Gorair, A. Abou Elsaoud,                copper(I) oxide nanoparticles by thermal decomposition of
+                                                                                                                  H. Hawsawi, A. Elaraby, E. S. Mabrouk and M. Abdallah,              a new precursor, Mater. Lett., 2009, 63, 441.
+                                                                                                                  Synthesis and assessment of Gemini cationic surfactants          70 R. V. Kumar, Y. Mastai, Y. Diamant and A. Gedanken,
+                                                                                                                  as inhibitors for corrosion of carbon steel in hydrochloric         Sonochemical synthesis of amorphous Cu and
+                                                                                                                  acid, Green Chem. Lett. Rev., 2022, 15, 796.                        nanocrystalline Cu2O embedded in a polyaniline matrix, J.
+                                                                                                               60 A. Abd-ElHamid, W. El-dougdoug, S. M. Syam, I. Aiad,                Mater. Chem., 2001, 11, 1209.
+                                                                                                                  S. M. Shaban and D.-H. Kim, Synthesis of gemini cationic         71 X. M. Sun, X. Chen, Z. X. Deng and Y. D. Li, A CTAB-assisted
+                                                                                                                  surfactants-based pyridine Schiﬀ base for steel corrosion           hydrothermal orientation growth of ZnO nanorods, Mater.
+                                                                                                                  and sulfate reducing bacteria mitigation, J. Mol. Liq., 2023,       Chem. Phys., 2002, 78, 99.
+                                                                                                                  369, 120890.                                                     72 M. Kooti and L. Matouri, Fabrication of Nanosized Cuprous
+                                                                                                               61 A. M. Badawi, M. A. S. Mohamed, M. Z. Mohamed and                   Oxide Using Fehling's Solution, Trans. F, 2010, 17, 73.
+                                                                                                                  M. M. Khowdairy, Surface and antitumor activity of some          73 A.-L. Daltin, A. Addad and J.-P. Chopart, Potentiostatic
+                                                                                                                  novel metal-based cationic surfactants, J. Cancer Res. Ther.,       deposition and characterization of cuprous oxide lms and
+                                                                                                                  2007, 3, 198.                                                       nanowires, J. Cryst. Growth, 2005, 282, 414.
+                                                                                                               62 N. A. Negm and S. M. Tawk, Characterization, surface            74 D. A. Firmansyah, T. Kim, S. Kim, K. Sullivan,
+                                                                                                                  properties and biological activity of some synthesized              M. R. Zachariah and D. Lee, Crystalline phase reduction of
+                                                                                                                  anionic surfactants, J. Ind. Eng. Chem., 2014, 20, 4463.            cuprous oxide (Cu2O) nanoparticles accompanied by
+                                                                                                               63 C. Ren, F. Wang, Z. Zhang, H. Nie, N. Li and M. Cui,                a morphology change during ethanol-assisted spray
+                                                                                                                  Synthesis, surface activity and aggregation behavior of             pyrolysis, Langmuir, 2009, 25, 7063.
+                                                                                                                  Gemini         imidazolium         surfactants      1,3-bis(3-   75 Y. Sui, Y. Zeng, W. Zheng, B. Liu, B. Zou and H. Yang,
+                                                                                                                  alkylimidazolium-1-yl) propane bromide, Colloids Surf., A,          Synthesis of polyhedron hollow structure Cu2O and their
+                                                                                                                  2015, 467, 1.                                                       gas-sensing properties, Sens. Actuators, B, 2012, 171–172,
+                                                                                                               64 N. A. Negm, A. F. El-Farargy, S. M. Tawk, A. M. Abdelnour,         135.
+                                                                                                                  H. H. Hefni and M. M. Khowdiary, Synthesis, Surface and          76 Y. Bai, T. Yang, Q. Gu, G. Cheng and R. Zheng, Shape control
+                                                                                                                  Thermodynamic            Properties       of      Substituted       mechanism of cuprous oxide nanoparticles in aqueous
+                                                                                                                  Polytriethanolamine Nonionic Surfactants, J. Surfactants            colloidal solutions, Powder Technol., 2012, 227, 35.
+                                                                                                                  Deterg., 2012, 16, 333.                                          77 M. H. Huang and C.-Y. Chiu, Achieving polyhedral
+                                                                                                               65 A. Mittiga, E. Salza, F. Sarto, M. Tucci and R. Vasanthi,           nanocrystal growth with systematic shape control, J. Mater.
+                                                                                                                  Heterojunction solar cell with 2% eﬃciency based on                 Chem. A, 2013, 1, 8081.
+                                                                                                                  a Cu2O substrate, Appl. Phys. Lett., 2006, 88, 163502.
+
+
+
+
+                                                                                                               31140 | RSC Adv., 2023, 13, 31128–31140                               © 2023 The Author(s). Published by the Royal Society of Chemistry
+

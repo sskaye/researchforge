@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "1537",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper bjoc.20.154 SI: '(3R*,4R*)-N-Cyclohexyl-4-hydroxy-2-(2-nitrobenzyl)-1-oxo-4-phenyl-1,2,3,4-tetrahydropyrazino[1,2-a]indole-3-carboxamide. (9l) Pale brown solid (72%, 737 mg) (crystallized in iPrOH). M.p. = 222 – 223 ºC.' Compound 9l identified correctly; value 222.5 (mid 222-223) matches; melting_point per disambig; measured; DOI verified in paper file.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "375",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper ph4081158: compound 15 evidence in text 'Yellow crystals, 80%, 0.16 g. mp 176-178'. Compound name and value match; melting_point; measured; DOI in paper.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "1034",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper d5ra09311b SI: compound 12e (m-tolyl) Brown solid; yield: 71%; MP = 251–253 °C. Compound name (m-tolyl substituent) matches; value matches; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "768",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper ph4071032: '2-[2-Ethoxy-4-oxoquinazolin-3(4H)-yl]pyridine-3-caboxylic acid (6c): Brown crystals from ethanol; m.p. 298-300 °C; yield 80%' (minor typo 'caboxylic' in source). Compound and value match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "205",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper ijms25126327: '4-(2,4-dimethylphenyl)-2-hydroxy-5,7,8-trimethyl-3,4-dihydrobenzo[e][1,2]oxaphosphinine 2-oxide (2c) ... White solid; yield 0.11 g, 25%; m.p. 289−291 ◦ C'. Compound name and value match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "1292",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper acsbiomedchemau.4c00060: '4-((1-((1-(4-Chlorophenyl)-1H-1,2,3-triazol-4-yl)methyl)-1H-indol-3-yl)methylene)-5-methyl-2-phenyl-2,4-dihydro-3H-pyrazol-3-one (5d). Yellow solid (0.391 g, 90%), mp: 178−180 °C'. All match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "729",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper antibiotics15020127: 'N-[(3,5-dimetyl-1H-pyrazol-1-yl)-methyl]-2,4-dichloroaniline (6b)' source has typo 'dimetyl'; CSV correctly normalized to 'dimethyl'. 'Compound 6b was synthesized according to the general procedure described for 6c Yield 91%; mp 108–110'. Value and compound match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "1155",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper 71100840: '6,7,8,9-Tetrachloro-10a,11-dihydro-4bH-5,10-dioxabenzo[b]fluorene (18): 5%; colorless needles (from chloroform–methanol 1/1); mp 158–159.5 °C'. CSV correctly captures the .5 precision (value 158.75 midpoint of 158-159.5). All match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "354",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper s-0036-1588731: 'tert-Butyl 3-{1-[(Pivaloyloxy)(methyl)amino]-2-nitroethyl}-6-chloro-1H-indole-1-carboxylate (7g) Yield: 1.54 (97%); light-brown solid; mp 108–109 °C (hexane)'. Compound 7g, value, all match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "278",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper s42250-023-00640-4: '4. [Cu(L)(PPh3)2(SO4)]: MW: 881.46; Colour: Greenish black; M.P: 220 °C; Yield: 55.8%'. Compound name (Cu complex), value 220, all match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "877",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper 80800622: '4-Acetylthiosemicarbazone-4'-acetyldiphenyl sulphone (14) ... separated and recrystallized from ethanol, m.p 185°C, yield 80.5%'. Compound 14, value 185, all match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "676",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper molecules31050862: 'N-(2-(3-Methoxyphenoxy)phenyl)-2-(pyrrolidin-1-yl)acetamide (2e) White crystals, m.p. 88–91 ◦ C (iPrOH), Yield 1.5 g (67%)'. Compound 2e, value 88-91, all match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "520",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper 80400363: '6-Bromo-3-{4-[N'(4,6-dimethyl-2-oxo-2H-pyrimidin-5-ylidene)hydrazino]phenyl}-2-methyl-3H-quinazolin-4-one (12b). Orange yellow crystals; yield 1.09 g (47 %); M.p. 210-212oC'. Compound 12b, value, all match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "1114",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper s13065-025-01402-8: 'noxy)acetate (10h) A white precipitate was obtained in a yield of 76%; mp 195–197 °C'. Compound 10h, value 195-197, all match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "1176",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper 60300244: 'The white solid 16 was collected: mp 32-34o C'. cis-complex 16. Value 32-34, compound matches; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "13",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper ph19020230: '2-(8-Hydroxyquinolin-5-yl)-4-methoxyisoindoline-1,3-dione (4) Brown powder (288 mg, 90% yield); m.p. 250–253 ◦ C'. Compound 4, value 250-253, all match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "1397",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper jo061443: '(SS,S)-(−)-N-[(1S)-1-{1-Benzyl-3-[2-(benzyloxy)ethyl]-1H-indol-2-yl}-2-(3-cyanopyridin-4-yl)ethyl]-4-methylbenzenesulfinamide (21a)' followed by 'major diastereomer as a white solid mp 49–51 °C'. Compound 21a, value 49-51, all match; melting_point; measured; DOI verified in paper.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "1233",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper 70500437: 'Methyl 5-cyano-6-deoxy-2,3-O-isopropylidene-β-L-gulofuranoside (2): KCN ... afford white needles of cyanohydrin 2 (5.6 g, 92% yield); mp 119–121 °C'. Compound 2, value 119-121, all match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "1479",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper acs.joc.9b00711: 'decahydrocycloocta[4,5]thieno[3,2-e]pyrrolo[1,2-a]pyrimidine-3-carboxylate (4l). Obtained from ... 243-244 °С (acetonitrile)'. Compound 4l, value 243-244, all match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "306",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper ijms242216359: 'Methyl rac-(2′R,3aS,4′R,6R,9aR)-1,1′,3-trimethyl-2,2″,7-trioxo-3a,9a-diphenyl-1,2,3,3a,9,9a-hexahydro-7H-dispiro[imidazo[4,5-e]thiazolo[3,2-b][1,2,4]triazine-6,3′-pyrrolidine-2′,3″-indoline]-4′-carboxylate (5a). Yield 168 mg (53%); white powder; mp: 295–297 °C'. Compound 5a, value 295-297, all match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "561",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper ijms12042448 Table 5: '22 4-nonanol 13.4120 3.0474 193.0 196.0 −3.0' where columns are 'BP (Exp.) BP (Cal.) ΔBP'. 193.0 is experimental BP. Compound 4-nonanol, value 193.0, boiling_point; measured (literature compilation); DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "802",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper 81200910: '2-{2-[(2-Methoxycarbonyl-phenyl)-hydrazono]-3-oxo-butylideneamino}-4,5,6,7-tetrahydrobenzo[b]-thiophene-3-carboxylic acid ethyl ester (3b): Dark orange crystals from ethanol; m.p. 181ºC'. Compound 3b, value 181, all match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "1044",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper d5ra09311b SI: compound 12o (2,4-dimethoxyphenyl) 'Brown solid; yield: 75%; MP = 239–241 °C'. Compound name matches (2,4-dimethoxyphenyl-substituted analog), value matches; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "94",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper ph19020239: '3.2.7. 3,5-Diamino-4-[(4-Methoxyphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide (5d) Yield: 72.8%; Color: light yellow solid; Melting Point: 173–174 ◦ C'. Compound 5d, value 173-174, all match; melting_point; measured; DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  },
+  {
+    "row_id": "522",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass",
+    "details": "Paper PMC3685236: 'PI-2. 1-Ethoxyethyl-2-bromobuthanoate: C8H15O3Br; Mw = 239.11; Boiling point: 60 0C (1 mm Hg)'. Source has typo 'bromobuthanoate' noted in CSV. Compound PI-2, value 60, boiling_point; measured; PMC ID verified.",
+    "verifiable": true,
+    "verifiability_tag": "verbatim_match"
+  }
+]

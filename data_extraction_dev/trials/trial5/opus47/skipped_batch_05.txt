@@ -1,0 +1,2 @@
+097_PMC6146420/Table_1_products_4a-g	bare_code_compounds_only
+097_PMC6146420/precursors_1a-g_and_2a-g	bare_code_compounds_only

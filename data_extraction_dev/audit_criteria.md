@@ -1,4 +1,4 @@
-# Audit criteria and procedure for mp-bp-extraction trials
+# Audit criteria and procedure for data-extraction trials
 
 This document specifies what an audit measures, the criteria a row must satisfy to pass, and the operational procedure for running a Phase-4 audit on a trial.
 
@@ -6,11 +6,13 @@ It is the source of truth for "what does it mean for the database to be X% accur
 
 This is **not** part of the installed skill — it's operational guidance for the maintainer running trial evaluations. The skill's own `references/VERIFICATION_PROMPT_TEMPLATES.md` is what an extraction agent ships with; this document is what the trial auditor uses.
 
+The audit framework is data-type-agnostic. Property-specific examples below are marked as such (e.g., "Example (mp_bp):" prefixes) — the rules apply to any data type the skill supports. The data type for a given run is established by the `--datatype` flag at extraction time and is named in the trial's audit artifacts.
+
 ## What the database needs to support
 
 The end user takes a row out of the table and wants to:
 
-1. Look up an mp/bp value for a specific compound.
+1. Look up a property value for a specific compound.
 2. Distinguish actual measurements from model predictions.
 3. Cite the source so others can find the data.
 4. Verify the row themselves with reasonable effort.
@@ -30,7 +32,7 @@ The `compound_name` field, on its own, identifies the specific compound the valu
 - Naming styles are equivalent: IUPAC, common name, recognized trivial name, ionic-liquid `[cation][anion]` shorthand. Stereo descriptors and isomer suffixes are part of the name and must match if the paper specifies them.
 - Serial codes embedded in the name (e.g., `"compound 11h (4-chlorophenyl...)"` or `"(IUPAC name) (4f)"`) are fine.
 - **Fails:**
-  - Mangled / truncated names: `((((2-(2-...` instead of `3-(4-((2-(2-...`; `H-Indeno[2,1-c]pyrrole-...` missing the leading locant digit.
+  - Mangled / truncated names: `((((2-(2-...` instead of `3-(4-((2-(2-...`; an `H-` indicated-hydrogen locant missing the leading digit (e.g., `H-Indeno[2,1-c]pyrrole-...` instead of `7H-Indeno[2,1-c]pyrrole-...`).
   - Procedure-text contamination: `(Yield 94%),`; `afforded white solid (...)`.
   - Elemental-analysis prefix prepended to a real name: `"C, 50.73; H, 5.72; N, 8.42. (correct IUPAC name)"`.
   - Bare paper-local codes with no chemistry-meaningful name: `compound 5`, `4b`, `complex 9a`.
@@ -40,27 +42,28 @@ The `compound_name` field, on its own, identifies the specific compound the valu
 
 The numeric value (or range) matches the paper's value for this specific compound, in the right units after any conversion.
 
-- Within the paper's stated precision passes. If the paper reports `"188–190 °C"`, a row with `value_celsius=189, value_celsius_min=188, value_celsius_max=190` passes.
+- Within the paper's stated precision passes. **Example (mp_bp):** if the paper reports `"188–190 °C"`, a row with `value=189, value_min=188, value_max=190, units=°C` passes.
 - Range expansion of shorthand is fine: paper `"237-39"` → row `237-239` passes (standard chemistry-shorthand interpretation).
-- Unit conversion must be arithmetically correct (K − 273.15 = °C; (°F − 32) × 5/9 = °C).
+- Unit conversion must be arithmetically correct AND use the v2.0 standardized syntax in `conversion_arithmetic` (see `data-extraction/SKILL.md`). The overlay's `SCHEMA.md` and conversion scripts are authoritative for what's a valid conversion path.
+- **Example (mp_bp):** `K − 273.15 = °C`; `(°F − 32) × 5/9 = °C`.
 - **Fails:**
-  - Wrong-compound-bound-to-value (compound 23's row carrying compound 25's m.p.).
+  - Wrong-compound-bound-to-value (compound 23's row carrying compound 25's value).
   - Transcription error (210 recorded as 201).
-  - Wrong arithmetic in K/°F conversion.
+  - Wrong conversion arithmetic.
   - Value outside the paper's stated range (paper says 256–260, row says 200).
 
 **T1.3 — Property type is correct.**
 
-The `property` field correctly distinguishes the physical phenomenon.
+The `property` field correctly names the physical phenomenon. Allowed values for the run's data type are declared in `data-extraction/datatypes/<datatype>/SCHEMA.md`.
 
-- Allowed values: `melting_point`, `boiling_point`, `DSC_onset`, `DSC_peak`, `decomposition`, `sublimation`.
+- **Example (mp_bp):** allowed values are `melting_point`, `boiling_point`, `DSC_onset`, `DSC_peak`, `decomposition`, `sublimation`.
 - **Fails:**
-  - `melting_point` for a value the paper explicitly calls "decomposition temperature" or similar — these are physically different events.
-  - `DSC_peak` for a value the paper labels `DSC_onset` (or vice versa).
+  - The `property` field names a subtype the paper doesn't actually use.
+  - **Example (mp_bp):** `melting_point` for a value the paper explicitly calls "decomposition temperature" — these are physically different events. `DSC_peak` for a value the paper labels `DSC_onset` (or vice versa).
 
-**T1.4 — Data type is correct.**
+**T1.4 — meas_calc is correct.**
 
-`data_type` matches the schema's two-valued rule:
+`meas_calc` (renamed from v1.7's `data_type`) matches the schema's two-valued rule:
 
 - `measured` = any experimental observation, whether performed by the cited paper's authors or compiled from another paper they cite.
 - `calculated` = model output (QSPR, MPBPVP, DFT, SPARC, ACD, MMP, Eq. N, "predicted by ...").
@@ -101,11 +104,11 @@ The verifiability rate is a property of how clean the extraction pipeline is, no
 
 - Quote stops before the value (2-column PDF wrap).
 - Ellipsis-bridged span joining non-adjacent text.
-- Templated / constructed quote ("Table N: compound MP value").
+- Templated / constructed quote ("Table N: compound VALUE").
 - Doubled-token PDF artifact.
 - Whitespace / Unicode mismatch between paper text and quote.
 - Missing reference-superscript that's in the paper but omitted in the quote.
-- Quote shows the paper's shorthand ("237-39") but row records the expanded range ("237-239").
+- Quote shows the paper's shorthand (`"237-39"`) but row records the expanded range (`"237-239"`).
 
 ### Tier 3 — Hygiene (CSV-validity checks)
 
@@ -114,19 +117,24 @@ Necessary for the file to be machine-readable but separate from chemistry correc
 - All required fields populated.
 - CSV well-formed (RFC-4180 quoting; columns line up).
 - `compound_smiles` validates with RDKit when populated.
-- `conversion_arithmetic` shown when K/°F → °C was applied.
+- `conversion_arithmetic` shown when a unit conversion was applied; uses v2.0 standardized syntax.
 - No duplicate rows within a paper.
 
-Tier 3 is caught by the deterministic Phase-3 scripts (`run_all_checks.py` and friends). Should never reach the agent audit.
+Tier 3 is caught by the deterministic Phase-3 scripts (`run_all_checks.py` and the overlay scripts it auto-discovers). Should never reach the agent audit.
 
 ## The verifier prompt template (use this for Phase 4)
 
 A fresh-context Phase-4 verifier agent, given a single row and the source paper, applies this protocol:
 
 ```
-You are a fresh-context Phase 4 verifier for the mp-bp-extraction skill.
+You are a fresh-context Phase 4 verifier for the data-extraction skill,
+applied to the {datatype} overlay (e.g., mp_bp, redox).
 Your only job is to confirm each row's data is correct and the citation is real.
 You have no memory of how the row was extracted.
+
+Read `data-extraction/datatypes/{datatype}/OVERLAY.md` and `SCHEMA.md` so you
+know the property enum, the standardized unit for `units`, and any extension
+columns.
 
 For each row, answer these five questions. The first four determine PASS/FAIL.
 The fifth is a separate verifiability report.
@@ -150,16 +158,18 @@ Read the paper file at the row's source. Locate the data the row is about.
     - Bare code only (`compound 5`).
     - Section title / journal name / NMR-shift list as the name.
 
-(b) Is the value (`value_celsius`, `value_celsius_min/max`, `value_raw`) 
-    the value the paper reports for THIS compound?
+(b) Is the value (`value`, `value_min/max`, `value_raw`, `units`) the value 
+    the paper reports for THIS compound?
 
     Match within the paper's stated precision.
     Range shorthand expansion is fine (paper "237-39" = row "237-239").
+    Unit conversion arithmetic must match the v2.0 standardized syntax
+    (see SKILL.md and the overlay's SCHEMA.md for what's a valid path).
     
     FAILS:
     - Value belongs to a different compound.
     - Transcription error.
-    - Wrong K/°F → °C arithmetic.
+    - Wrong conversion arithmetic.
 
 Q1 = PASS only if both (a) and (b) pass.
 
@@ -167,19 +177,20 @@ Q1 = PASS only if both (a) and (b) pass.
 Q2 — PROPERTY TYPE
 ============================================================
 Is `property` the physical phenomenon the paper actually reports for this 
-value? mp / bp / decomposition / DSC_onset / DSC_peak / sublimation.
+value? Allowed values are declared in datatypes/{datatype}/SCHEMA.md.
 
-A `melting_point` row for a value the paper explicitly labels "decomposition" 
-FAILS. A `DSC_peak` row for a paper-labeled "DSC onset" FAILS.
+Example (mp_bp): allowed values are melting_point / boiling_point / 
+decomposition / DSC_onset / DSC_peak / sublimation. A `melting_point` row 
+for a value the paper explicitly labels "decomposition" FAILS.
 
 ============================================================
-Q3 — DATA TYPE
+Q3 — meas_calc
 ============================================================
-Is `data_type` per the schema?
+Is `meas_calc` per the schema?
 - `measured` = any experimental observation (this paper OR cited from literature)
 - `calculated` = model output (QSPR, MPBPVP, DFT, etc.)
 
-A review paper's table of literature mp values labeled `measured` PASSES — 
+A review paper's table of literature values labeled `measured` PASSES — 
 the values are measurements, just by other researchers.
 A QSPR paper's "Exp." column labeled `measured` PASSES.
 A QSPR paper's "Calc." column labeled `measured` FAILS — model prediction.
@@ -210,7 +221,7 @@ Any of Q1–Q4 fails → verdict = "flagged_review" with a granular reason in
   flagged_compound_mismatch
 - flagged_value_mismatch, flagged_unit_conversion_error
 - flagged_property_subtype_mismatch
-- flagged_data_type_mismatch
+- flagged_meas_calc_mismatch
 - flagged_doi_fabricated, flagged_doi_unrelated_paper, 
   flagged_paper_unreadable, flagged_citation_incomplete
 
@@ -279,7 +290,7 @@ Split the sample into batches of **25 rows per verifier agent**:
 
 Dispatch all agents **in parallel** as a single batch. Wall time is bounded by one agent's per-row time (typically 5–10 min for 25 rows), not by total row count.
 
-Each verifier must be a **fresh context with no memory of the extraction** to prevent anchoring bias. Apply the verifier prompt above plus the row data and the URL-to-paper-folder map.
+Each verifier must be a **fresh context with no memory of the extraction** to prevent anchoring bias. Apply the verifier prompt above plus the row data, the data type, and the URL-to-paper-folder map.
 
 ### Step 3 — Aggregate verdicts
 
@@ -328,7 +339,9 @@ When the sample turns up a recurring failure pattern (e.g., 3+ rows with the sam
 2. Run the relevant deterministic lint across the **full CSV** to catch every instance:
    - `validate_compound_name.py` for name-shape defects.
    - `verify_doi.py` for DOI-fabrication.
-   - `quote_template_lint.py` / `quote_support_lint.py` for verifiability issues (Tier 2 only — won't fail the row but worth flagging).
+   - `quote_support_lint.py` for verifiability issues (Tier 2 only — won't fail the row but worth flagging).
+   - `conversion_arithmetic_lint.py` for syntax-shape issues in conversions.
+   - Overlay scripts under `data-extraction/datatypes/<datatype>/scripts/` for property-specific failure classes (e.g., `value_range_check.py`).
 3. Fix or drop the matched rows.
 4. Run **one additional 100-row sample** (different seed) to confirm the class is gone.
 
@@ -374,7 +387,7 @@ Always specify which model produced the data when reporting per-model results:
 
 > "Claude Opus 4.7 achieved 97.0 %; GPT-5.5 high achieved …; Claude Sonnet 4.6 achieved …."
 
-Cross-model variability is large enough (Trial-2 was 98 % / 86 % / 55 %) that a model-agnostic "the skill achieves X %" claim is misleading.
+Cross-model variability is large enough (Trial-2 was 98 % / 86 % / 55 % across Opus / GPT-5.5 / Sonnet on the mp/bp corpus) that a model-agnostic "the skill achieves X %" claim is misleading.
 
 ## Common pitfalls (lessons from prior audits)
 
@@ -390,9 +403,9 @@ The original Trial-2 audit used loose criteria and reported 98 %. The Trial-3 au
 
 Always apply the same criteria across all trials being compared. When the rubric changes, re-audit the older trials too.
 
-### Pitfall 3 — Mis-applying the schema's `data_type` definition
+### Pitfall 3 — Mis-applying the schema's `meas_calc` definition
 
-The schema says `measured` = any experimental observation, `calculated` = model output. Past audits flagged review-paper compilations of literature values as "data_type wrong because not measured by THIS paper" — that's a stricter rule than the schema actually requires.
+The schema says `measured` = any experimental observation, `calculated` = model output. Past audits flagged review-paper compilations of literature values as "meas_calc wrong because not measured by THIS paper" — that's a stricter rule than the schema actually requires.
 
 The schema's distinction is between **measurement** (any provenance) and **model prediction**. Don't introduce a third category in the audit.
 
@@ -436,12 +449,13 @@ Maintainer summary lives in `reports/trial<N>_comparison_report.md` and the runn
 
 Revise when:
 
-- The schema changes (e.g., adding a new `property` value, splitting `data_type` into three categories).
+- The schema changes (e.g., adding a new column, splitting `meas_calc` into three categories).
 - A new failure mode is observed that doesn't fit the existing taxonomy.
 - A pitfall is observed that should be added to the "Common pitfalls" list.
 
 Do NOT revise when:
 
+- Adding a new data-type overlay. The audit framework is property-agnostic; the new overlay supplies its own `SCHEMA.md` and the verifier reads it at audit time.
 - Just running a new trial. Use this document as-is.
 - Adjusting the verifier prompt for a one-off run. Track those in the trial's `EXTRACTION_SUMMARY.md` instead.
 

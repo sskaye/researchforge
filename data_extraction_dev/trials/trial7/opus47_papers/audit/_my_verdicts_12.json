@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "132",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Aminomethylenebisphosphonic acid (1) m.p. 258–260 °C confirmed verbatim in synthesis text; midpoint 259 and range bounds correct.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1271",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "n-Heptane Bp 98.5 °C confirmed in Dearden 2003 Table 2 ('n-Heptane 98.5 96.2'); experimental column; QSPR review-paper literature value is measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1534",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "DSC text states pure coformer (sodium acetate) shows endothermic peak at 323.58 °C corresponding to its melting point; compound identity established earlier in paper.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "344",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11c (1,2-Bis(8-(...))octyl)disulfide) mp 118–120 °C verbatim in experimental section; full IUPAC name + serial code present in paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1430",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5d = 5-Fluoro-3-iodo-1-methyl-2-phenyl-1H-indole, Mp 118.2 °C confirmed in SI Section 4.4 and main text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "448",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Chloroquine SIRM Tb=682.652 K confirmed in Table 5 (5-drug header with STRM/SIRM pair columns); 682.652-273.15=409.502 °C arithmetic correct; calculated from GC model.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "330",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6b = 5-(But-3-ynylthio)-5'-(methylthio)-2,2'-bithiophene, mp 68–70 °C confirmed in experimental section.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1439",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "8-Chlorodibenzo[b,f][1,4]oxazepine (3c) mp 70-74 °C confirmed in SI.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1441",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "4H-Benzo[f][1,2,3]triazolo[1,5-a][1,4]diazepine (5) mp 147-149 °C confirmed in SI.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1050",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4ba = 1-(4-Benzhydryl-3-(4-fluorophenyl)isoquinolin-2(1H)-yl)ethan-1-one mp 211.4–229.1 °C confirmed in section 3.23.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "489",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Ethanol Bp exp 78.30 °C confirmed in Table 8 of Molecules 2003 paper (PMC6146921); experimental column; QSPR compilation of literature measured values.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "472",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Thalidomide STRM Tb=648.734 K confirmed in Table 5 continuation; 648.734-273.15=375.584 °C arithmetic correct; calculated GC model output.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "1207",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Acetic acid 17 °C confirmed in Table 1 of Yalkowsky 2014 (Toluene/Ethane homomorphs table).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1003",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 entry '4-CH3 (2) 92' is azide decomposition temperature for compound 2 = N'-(p-toluenesulfonyl-4-methylphenoxy)carbimidoyl azide; property=decomposition correct per table caption.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "654",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "4,4'-diacetyldiphenyl sulphide (compound 2) m.p 90-92°C confirmed in experimental section; identity established in adjacent text.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "29",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "9c = Diphenyl(6-(4-(Trifluoromethyl)Phenyl)-6,6a,7,11b-Tetrahydro-5H-Indeno[2,1-c]Quinolin-4-Yl)Phosphine Oxide, yellow solid mp 234–236°C confirmed in Section 6.2.2.3.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1212",
+    "verdict": "flagged_review",
+    "reason": "flagged_doi_unrelated_paper",
+    "details": "DOI 10.1016/j.ijpharm.2009.01.026 (Chu & Yalkowsky 2009 Int J Pharm) is mapped in url_to_folder.json to Tetko PMC4724158, which only cites that paper (ref [13]) but does not contain Alprenolol or the Table 1 data; 'Alprenolol' absent from the only paper available in corpus, so value 108 °C cannot be verified.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "1249",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Aniline Bp 184.1 °C confirmed in Dearden 2003 Table 2 ('Aniline 184.1 184.0'); experimental column; QSPR review literature value is measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "423",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 12a = 3-{4-[N′(4,6-Dimethyl-2-oxo-2H-pyrimidin-5-ylidene)hydrazino]phenyl}-2-methyl-3H-quinazolin-4-one, M.p. 285-286 °C confirmed verbatim in experimental section.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "737",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "4-Chloro-6-phenylaminothieno[3,2-d]-1,2,3-triazin-7-carbonitrile (11) recrystallized as white needles m.p. 201 °C confirmed in experimental section.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "528",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5f = 4-fluoro-5-(4-phenylpiperazin-1-yl)benzene-1,2-diamine, M.P. 281–283 °C confirmed in Section 3.1.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "567",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5b = N,N-bis-[(3,5-dimethyl-4-iodo-1H-pyrazol-1-yl)-methyl]-4-chloroaniline, mp 101-102 °C confirmed in synthesis section (paper has typo 'dimetyl' but identity unchanged).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "467",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Favipiravir Tm 450.15 K from ref [52] confirmed in Table 5 (third sub-column for Favipiravir is experimental Tm); 450.15-273.15=177.000 °C arithmetic correct; meas_calc=measured correct for literature experimental value.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "797",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 12s = the long 2H-chromene-3-carboxamide bis-triazole derivative, MP = 226–228 °C confirmed in section 4.1.19.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "432",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "3-Hydroxy-3-(4-biphenylyl)butanoic acid Melting point: 136 °C confirmed verbatim in characterization paragraph of PMC3685236.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]

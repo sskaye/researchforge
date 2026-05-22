@@ -1,0 +1,486 @@
+                                                                                                          pubs.acs.org/joc                                                                                                                                  Article
+
+
+
+                                                                                                          The Chemistry of Short-Lived α‑Fluorocarbocations
+                                                                                                          Shlomo Rozen,* Inna Vints, Ana Lerner, Oded Hod, Edward N. Brothers,* and Salvador Moncho
+                                                                                                                Cite This: J. Org. Chem. 2021, 86, 3882−3889                                   Read Online
+
+
+                                                                                                          ACCESS                        Metrics & More                            Article Recommendations                *
+                                                                                                                                                                                                                         sı Supporting Information
+
+
+                                                                                                          ABSTRACT: The present study of the chemistry of short-lived α-
+                                                                                                          ﬂuorocarbocations reveals that even inactive methyl carbons can
+See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.
+
+
+
+
+                                                                                                          serve as nucleophiles, attacking a cationic center. This, in turn,
+                                                                                                          facilitates the synthesis of a cyclopropane ring in certain triterpene
+                                                                                                          backbones. We report the synthesis of compounds similar to 2,
+                                                                                                          containing a bridgehead cyclopropane, and compounds of type 3
+                                                                                                          with an 11 membered bicyclic ring consisting of two bridgehead
+                Downloaded via 179.109.168.9 on May 13, 2021 at 22:48:43 (UTC).
+
+
+
+
+                                                                                                          double bonds (anti-Bredt) within a triterpene skeleton. The
+                                                                                                          synthesis involves three unconventional chemical processes: (a) a
+                                                                                                          methyl group serving as a nucleophile; (b) the unexpected and
+                                                                                                          unprecedented synthesis of a strained system in the absence of an
+                                                                                                          external neighboring trigger; and (c) the formation of an 11-
+                                                                                                          membered bicyclic diene ring within a triterpenoid skeleton. An α-ﬂuorocarbocation mechanism is proposed and supported by
+                                                                                                          density functional theory calculations.
+
+
+                                                                                                          ■    INTRODUCTION
+                                                                                                          Following carbon, oxygen, hydrogen, and nitrogen, ﬂuorine
+                                                                                                                                                                                         collapsed into the syn product. A four-center reaction
+                                                                                                                                                                                         mechanism was ruled out because when stabilizing the α-
+                                                                                                                                                                                         ﬂuorocarbocation (as in 4-methoxystylbene), a mixture of
+                                                                                                          stands out due to its vast impact on medicinal chemistry,
+                                                                                                                                                                                         stereoisomers resulting from both syn- and anti-additions was
+                                                                                                          agriculture, material science, modern anesthetics, refrigerants,
+                                                                                                                                                                                         obtained (Figure 1b).2 Obviously the latter cannot be a
+                                                                                                          and more.1 As such, it is desirable to identify distinctive
+                                                                                                                                                                                         product of a four-center process. Because these reactions have
+                                                                                                          ﬂuorine-based intermediate structures that may serve as
+                                                                                                                                                                                         been performed at low temperatures and in the presence of
+                                                                                                          platforms for the synthesis of novel compounds and unveil                      polar solvents and/or radical inhibitors, a radical mechanism
+                                                                                                          their unique chemistry.                                                        was also ruled out, suggesting an ionic mode of addition.6
+
+                                                                                                                                                                                         ■
+                                                                                                             α-Fluorocarbocations constitute an important family of such
+                                                                                                          ﬂuorine-bearing intermediates. Nevertheless, only a limited                         RESULTS AND DISCUSSION
+                                                                                                          number of reactions that involve this halo-carbocation are
+                                                                                                          known.2 Because ﬂuorine is the most electronegative atom, α-                   Unlike the above ﬁndings, there are cases where the F2 cannot
+                                                                                                          ﬂuorocarbocation intermediates are expected to be consid-                      approach the targeted double bond in a parallel conﬁguration.
+                                                                                                          erably more reactive than the corresponding bare carbocations                  A distinctive example of such a situation can be found in
+                                                                                                          of diﬀerent types3 and hence exhibit signiﬁcantly shorter                      several important triterpene molecules, such as methyl 3-
+                                                                                                          lifetimes. This, in turn, opens the door for novel α-                          acetoxy-18β-glycyrrhetate (1),7 a member of the β-amirin
+                                                                                                          ﬂuorocarbocation-based chemistry that requires broad under-                    family (see Figure 2). Interest in this speciﬁc compound arose
+                                                                                                          standing of their nature. In the present study, we demonstrate                 mainly due to its biological activities, especially against various
+                                                                                                          and analyze examples of unusual reactions that take place when                 ulcers.8 This led to extensive explorative modiﬁcations of its
+                                                                                                                                                                                         skeleton9 none, however, around the remarkably stable enone
+                                                                                                          this intriguing species serves as an intermediate.
+                                                                                                                                                                                         in ring C. Notably, even when the highly reactive [BrF] types
+                                                                                                             Previously, some of us have shown that under suitable
+                                                                                                                                                                                         of reagents are present, the enone in 1 remains unaﬀected10
+                                                                                                          conditions, nitrogen diluted ﬂuorine can be a suitable starting
+                                                                                                                                                                                         because the bulky bromine atom cannot readily access the C12
+                                                                                                          point for many new and unprecedented reactions,4 including
+                                                                                                                                                                                         position. This supports the argument that when a ﬂuorine
+                                                                                                          syn addition across both isolated double bonds and enones.5
+                                                                                                          Unlike the heavier halogens, elemental ﬂuorine as well as other
+                                                                                                          reagents possessing a strong electrophilic ﬂuorine atom such as                Received: November 14, 2020
+                                                                                                          acetyl- and triﬂuoroacetyl hypoﬂuorites add across those π                     Published: February 22, 2021
+                                                                                                          centers in a syn mode through a fast reaction.2,3 The
+                                                                                                          underlying mechanism involved the initial formation of a
+                                                                                                          very short-lived ion pair cage constituting of the α-
+                                                                                                          ﬂuorocarbocation and its counterion (Figure 1a) that instantly
+
+                                                                                                                                               © 2021 American Chemical Society                                               https://dx.doi.org/10.1021/acs.joc.0c02731
+                                                                                                                                                                                  3882                                                J. Org. Chem. 2021, 86, 3882−3889
+The Journal of Organic Chemistry                                                  pubs.acs.org/joc                                               Article
+
+
+
+
+Figure 1. Examples of chemical reactions where an intermediate α-ﬂuorocarbocation is formed via the attack of a double bond by an electrophilic
+ﬂuorine. (a) A standard parallel attack of F2 on a double bond resulting in a short-lived α-ﬂuorocarbocation that forms a syn-addition product. (b)
+By stabilizing the α-ﬂuorocarbocation, both syn- and anti-addition products were obtained.2,5
+
+                                                                              the α-ﬂuorocarbocation A cannot easily form syn-diﬂuoro
+                                                                              derivatives and must ﬁnd an alternative route to collapse.
+                                                                                 Intuitively, one may envision two plausible pathways for the
+                                                                              collapse mechanism of the short-lived ﬂuorocarbocation in
+                                                                              cage A involving the ejection of either the hydrogen at the C12
+                                                                              or at the C18 position to form the corresponding enone.
+                                                                              Surprisingly, neither of these pathways is undertaken. Instead,
+                                                                              an unprecedented nucleophilic attack on the α-ﬂuorocarboca-
+                                                                              tion at C13 by the carbon of the angular 27-methyl group takes
+                                                                              place. This attack is accompanied by the ejection of a proton
+                                                                              from that methyl and the formation of a strained cyclopropane
+                                                                              derivative (2) with greater than 90% yield (Figure 4).
+Figure 2. Molecular structure of methyl 3-acetoxy-18β-glycyrrhetate              To substantiate this unexpected ﬁnding, we measured the
+                                                                              1
+                                                                                H NMR spectrum of 2 (see SI Section 1), which
+                                                                              demonstrates the disappearance of the 27-methyl group
+molecule attacks this bond, its ability to approach it in the                 signature, usually found at 1.22 ppm, and the appearance of
+preferred parallel orientation is inhibited by steric eﬀects                  a single cyclopropane hydrogen at 0.47 ppm. The second
+associated with the nearby methyl groups (see further                         cyclopropyl hydrogen could not be identiﬁed as it is somewhat
+discussion of this issue in SI Section 2 and below).                          deshielded by the α-ﬂuoro-carbonyl, thus appearing in a region
+   In the present study, to avoid radical reactions (and thus                 where many other methylene hydrogens resonate. This is
+mixtures of diﬀerent compounds) and to encourage an ionic                     supported by our calculated NMR signals yielding a 1.31 ppm
+mechanism that promotes more distinctive products, we                         peak for the 27-methyl group of 1 and 0.37 and 1.38 ppm
+dissolved 1 in a polar solvent mixture (CHCl3/CFCl3/EtOH                      peaks for the cyclopropane hydrogens of 2 (see Figure S1 in SI
+1/1/0.2) and reacted it with F2 (10% in N2) at −75 °C. Under                  Section 2 for the calculated NMR spectrum). Further
+these conditions, we expected the positive pole of the polarized              validation of our ﬁndings, is given by the X-ray diﬀraction
+small ﬂuorine molecule to easily attack the enone of the C ring               measurement of compound 2 (Figure 4b) which unequivocally
+in an electrophilic mode.11 However, as mentioned above, the                  demonstrates the cyclopropane structure (for the cif ﬁle, see SI
+ﬂuorine cannot approach the enone in a parallel orientation, so               Section 3).
+instead, it attacks carbon 12 in a nearly perpendicular mode                     This unique product strongly indicates the stereoelectronic
+(see Figure 3). This hypothesis is further supported by density               factors facilitating the involvement of the 27-methyl group,
+functional theory (DFT) calculations (see below). Such an                     which kinetically favors the cyclopropane structure formation
+action by the ﬂuorine results in a cage of ions (structure A in               over the thermodynamically preferred enone products. To the
+Figure 3) where the ﬂuoride anion, which is stabilized by the                 best of our knowledge, the only other triterpenoid possessing a
+acidic hydrogens of the solvent, is relatively far from the                   cyclopropane ring between rings C and D is the recently
+positively charged carbon of the α-ﬂuorocarbocation. This, in                 isolated phainanoid F (see Figure 5a for a partial structure),
+turn, implies that unlike the case of isolated double bonds or                which was found to be a stout immunosuppressant.12
+common enones, the resulting very short-lived cage containing                 Therefore, exploiting this mechanism not only unveils unique
+                                                                       3883                                        https://dx.doi.org/10.1021/acs.joc.0c02731
+                                                                                                                           J. Org. Chem. 2021, 86, 3882−3889
+The Journal of Organic Chemistry                                                pubs.acs.org/joc                                               Article
+
+
+
+
+Figure 3. Formation of the α-ﬂuorocarbocation cage of 1. (A) Schematic representation of the vicinity of the reaction center. (B) The outcome of
+the calculated path to the transition state as obtained by the DFT calculations.
+
+
+
+
+Figure 4. (a) Schematic and (b) X-ray structure of the cyclopropane derivative 2.
+
+chemistry but also opens a new route to biologically relevant               DFT calculations accordingly (the data regarding the β-side
+structural motifs.                                                          reaction is available in Figure S3 of SI Section 2).
+   To elucidate the underlying mechanism for the formation of                  To explore the entire reaction path between the reactants
+the cyclopropane species, we performed a set of DFT                         and the cyclopropanated species (2), we performed intrinsic
+calculations characterizing the reaction pathway at the                     reaction coordinate (IRC) analysis.15 We ﬁnd that after 16
+ωB97XD13/6-31+g(d,p) level of theory using the Gaussian
+                                                                            steps of the IRC procedure, the perpendicular approach of the
+Development Version14 (see SI Section 2 for further details
+regarding the calculations). In theory, the approach of the F2              ﬂuorine results in C12−F bond formation with bond length of
+toward the triterpene’s enone moiety could proceed from                     1.387 Å, which is the most stable isolated α-ﬂuorocarbocation
+either side of the triterpene’s plane with a slight preference of           geometry. The accompanied ﬂuoride anion is practically free
+the α-side, and since the experimental ﬁndings indicate that the            (2.180 Å from the other ﬂuorine) (see SI Section 2, Figures S4
+attack is indeed from that direction, we proceeded with the                 and S5).
+                                                                     3884                                        https://dx.doi.org/10.1021/acs.joc.0c02731
+                                                                                                                         J. Org. Chem. 2021, 86, 3882−3889
+The Journal of Organic Chemistry                                                    pubs.acs.org/joc                                               Article
+
+                                                                                This allows us to evaluate the importance of the ﬂuorine atom
+                                                                                within the molecular backbone for the intramolecular cyclo-
+                                                                                propanation reaction. Upon attack on the double bond, the
+                                                                                proton of the HF molecule is inserted in position C12, forming
+                                                                                a plain carbocation while the ﬂuoride anion leaves. The
+                                                                                corresponding geometry and charge distribution are given in SI
+                                                                                Section 2, Table S2, and Figure S6. As in the case of the F2
+                                                                                attack, the carbocation/ﬂuoride anion pair could potentially
+                                                                                result in the ﬂuoride abstracting a hydrogen atom from either
+                                                                                the C27 methyl group or the C14 or C18 positions. In
+                                                                                particular, the cyclopropanated species of the HF attack is 7.3
+Figure 5. The only naturally occurring (to the best of our knowledge)           kcal/mol less stable than the reactants (to be compared with
+structures that resemble those synthesized in the present study. (a) A          the corresponding F2 structures, which is about ∼100 kcal/mol
+cyclopropane ring within the naturally occurring phainanoid F. (b) An           more stable than the reactants). This indicates that the
+oxo-diene bridged 11-membered bicyclic ring in the naturally                    thermodynamically favorable option in the case of HF attack is
+occurring Tylopiol A.                                                           to decompose back to the reactants. Furthermore, the barrier
+                                                                                to cross during this endoergic reaction is extremely high (41.2
+  As was recently demonstrated by Singleton,16 however,                         kcal/mol compared to 2.7 kcal/mol for the F2 attack case),
+calculations with explicit solvent molecules are important for                  marking it also as kinetically unfavorable. Therefore, we
+concluding the exact eﬀects on ion pair stability. To evaluate                  conclude that during the reaction with F2, the ﬂuorine
+the role of the chloroform/ethanol solvent on the reaction                      insertion to the double bond leading to the short-lived α-
+mechanism, we performed calculations with a minimalistic                        ﬂuorocarbocation is essential for the rapid cyclopropane
+explicit solvent model. To this end, the α-ﬂuorocarbocation/                    moiety formation.
+ﬂuoride ion pair was placed in an implicit chloroform solvent                      Once formed, the cyclopropanated structure 2 is obviously a
+environment and optimized in the presence of a methanol                         metastable structure. We found that the presence of solvents
+molecule (see Figure 6). An intermediate structure prior to the                 possessing even weak acidic hydrogens, such as chloroform, is
+                                                                                suﬃcient to promote the opening of the strained cyclopropane
+                                                                                ring cleaving the C13−C14 bond in a matter of a few hours.
+                                                                                Notably, the resulting 11-membered bicyclic ring dienone (3),
+                                                                                whose structure was conﬁrmed by X-ray diﬀraction (Figure 7,
+
+
+
+
+Figure 6. Side (a) and top (b) views of the DFT optimized geometry
+of the α-ﬂuorocarbocation/ﬂuoride ion pair optimized with an
+implicit chloroform solvent model in the presence of an explicit
+methanol molecule. For clarity, only the relevant region is depicted.
+
+
+C27 methyl hydrogen abstraction is found. In this
+intermediate, the distance between the ﬂuoride anion and
+the C27 methyl’s hydrogen is 1.680 Å, while the corresponding
+C−H bond is elongated to 1.129 Å. The formation of such a
+structure points toward a two-step pathway. The competition
+with the alcohol molecule results in weakening of the methyl                    Figure 7. (top) The reaction of 2 converted to 3 and (bottom) the X-
+C27−H bond, which by itself is signiﬁcantly tilted toward the                   ray structure of 3.
+α-ﬂuorocarbocation, but with no full cleavage. The second
+inevitable step would be the ﬁnal construction of the
+cyclopropane. Therefore, even in the presence of an explicit                    for the cif ﬁle, see SI Section 3), was obtained in quantitative
+solvent that reduces the tendency of the leaving ﬂuoride anion                  yield. To the best of our knowledge, this is the ﬁrst example of
+to accept one of the C27 methyl hydrogens, the short live α-                    a dienone where each double bond resides on a CH2
+ﬂuorocarbocation tends to undergo a fast (though not                            bridgehead (a double anti-Bredt’s rule), although a related
+completely barrierless) cyclopropanation reaction.                              oxobicyclo [4.4.1] diene system (Tylopiol A, see Figure 5b)
+   Having established the reliability of the DFT calculations for               was recently described. 17 An interesting UV spectral
+the studied system, we harnessed the same computational                         absorption at 285 nm (ε = 2.2 × 103) was also measured for
+protocol to perform a reference calculation, where the F2 is                    3, representing a red shift of about 35 nm relative to reactant 1.
+replaced by HF forming a similar, but ﬂuorine-free carbocation.                 This value reﬂects the partial through-space interaction of the
+                                                                         3885                                        https://dx.doi.org/10.1021/acs.joc.0c02731
+                                                                                                                             J. Org. Chem. 2021, 86, 3882−3889
+The Journal of Organic Chemistry                                               pubs.acs.org/joc                                                 Article
+
+two double bonds characteristic to all compounds of this type              again obtained by X-ray crystallography (for the appropriate cif
+(see below).                                                               ﬁle see SI Section 3). To check whether the location of the
+   The two unique reactions described above that stem from                 carboxylic moiety has some eﬀect on the α-ﬂuorocarbocation,
+the short-lived nature of the α-ﬂuorocarbocation moiety are                we tested also the oleanolic acid derivative 5. The changed
+not limited to 18β-glycyrrhetic acid. To demonstrate the                   location of the carboxylic acid did not aﬀect the course of the
+viability of these reactions in other triterpenoids, we                    reaction. When a dilute 10% F2 in N2 was bubbled through a
+considered two additional molecules. The ﬁrst was methyl 3-                solution of 5 in CHCl3/CFCl3/EtOH - 1:1:0.2 at −75 °C, the
+trichloroacetoxy-α-glycyrrhetate (4) (rings D/E being in trans-            ﬂuoro-cyclopropane derivative 9 was formed in 90% yield. In
+conﬁguration), and the second was methyl 3-acetoxy-11-                     turn, this compound was also converted to the dienone 10 in
+oxooleanoate (5) made through oxidation of methyl 3-acetoxy-               higher than 95% yield with a typical UV absorption of 290 nm
+oleanoate (6) by chrome-trioxide (see Figure 8).18                         (see Figure 9).
+
+                                                                           ■    CONCLUSIONS
+                                                                           Our ﬁndings demonstrate that the α-ﬂuorocarbocation
+                                                                           resulting from the addition of F−X (X = F, OAc, OTFA,
+                                                                           and the like) to double bonds is a unique moiety, quite distinct
+                                                                           from common carbocations. Its short life span is responsible
+                                                                           for some unexpected reactions, such as the syn-addition across
+                                                                           double bonds. When, however, the reaction’s transition state
+                                                                           does not favor a parallel approach to the double bond as in the
+                                                                           cases described herein, the very short living α-ﬂuorocarboca-
+                                                                           tion intermediate may be responsible for unconventional
+Figure 8. Structures of compounds 4, 5, and 6. Note that 6 was             results such as a nucleophilic attack on it by a methyl group
+oxidized to 5 with the aid of CrO3.
+                                                                           promoting unprecedented cyclopropanation. In addition, the
+                                                                           decomposition of the strained cyclopropane expands Bredt’s
+   The purpose of the ﬂuorination of 4 was to see if the trans-            rule by forming an 11-membered bicyclic ring that includes
+conﬁguration of the D/E rings aﬀects the approach of the F2                two bridgehead double bonds within a triterpene skeleton.
+molecule to the C12−C13 double bond compared to the                        These important ﬁndings may therefore shed light on new
+methyl 3-acetoxy-β-glycyrrhetate (1). The results show that                processes involving short-lived carbocations within the realm
+the relative arrangement of these rings has a negligible eﬀect on          of ﬂuorine chemistry and beyond.
+the reaction, and only the angular methyl groups, which direct
+the attack from the α-side, govern the approach of the ﬂuorine
+toward the enone. The resulting ﬂuoro-cyclopropane derivative
+                                                                           ■   EXPERIMENTAL SECTION
+                                                                           IR spectra were recorded with an FTIR ATR spectrometer (TENSOR
+7 is formed in 95% yield (Figure 9). The properties of this                27 by Bruker), and MS were measured under ESI and APPI
+compound were found to be very similar to 2, including the 1H              conditions. 1H NMR spectra were recorded using a 400.2 MHz
+NMR spectral line of one of the hydrogens in the cyclopropane              spectrometer with CDCl3 as a solvent and Me4Si as an internal
+ring that appeared at 0.47 ppm. Similar to the β-glycyrrhetate             standard. The 19F NMR spectra were measured at 376.5 MHz with
+series, compound 7 was found to readily decompose (within a                CFCl3, serving as an internal standard. The proton broadband
+                                                                           decoupled 13C{1H} NMR spectra were recorded at 100.6 MHz. NMR
+few hours), when solvents with somewhat acidic hydrogen                    spectra of the various compounds studied herein are provided in SI
+(e.g., CHCl3) were present, to form the bridgehead 11-                     Section 1.
+membered bicyclic ring dienone (8) in quantitative yields.                    Fluorination. Fluorine is a strong oxidant and corrosive material.
+Similar to compound 3, this product revealed a typical UV                  In organic chemistry, it is used after dilution with nitrogen or helium
+absorption of 287 nm (ε = 3.7 × 103), and the ﬁnal proof was               (generally from 1% to 20% depending on the reaction type). Such
+
+
+
+
+Figure 9. Cyclopropanation reaction course of 4 and 5 with ﬂuorine and the consecutive dehydroﬂuorination.
+
+                                                                    3886                                          https://dx.doi.org/10.1021/acs.joc.0c02731
+                                                                                                                          J. Org. Chem. 2021, 86, 3882−3889
+The Journal of Organic Chemistry                                                           pubs.acs.org/joc                                                   Article
+
+dilution can be achieved by using either an appropriate copper or                     NMR (100 MHz, CDCl3) δ 199.5, 178.9, 166.0, 161.8, 124.3, 87.2,
+Monel vacuum line constructed in a well-ventilated area or by                         60.7, 55.2, 52.1, 45.1, 44.0, 42.7, 40.6, 38.8, 38.7, 37.8, 36.9, 36.1,
+purchasing prediluted ﬂuorine. A detailed description of a simple                     35.7, 33.8, 32.0, 29.9, 28.6, 28.2, 26.9, 23.0, 21.0, 20.9, 18.7, 17.6,
+setup for ﬂuorine dilution was previously presented.19 The reactions                  16.8, 16.2 ppm; HRMS (ESI-TOF) m/z [M + Na]+ Calcd for
+themselves are carried out in standard glassware. If elementary                       C33H47Cl3O5Na 651.2387; Found, 651.2389; IR 1760, 1728, 1651
+precautions are taken, work with F2 (which is less toxic and less                     cm−1.
+dangerous than chlorine or bromine (!)20) proceeds smoothly, and                         Methyl-3-trichloroacetoxy-12α-ﬂuoro-13α,14α-cyclopropane-α-
+we have had no bad experience working with it. The reactions were                     glycyrrhetate (7). 7 was prepared from (4) (0.30 g, 0.5 mmol) as
+usually carried out on scales of 1−5 mmol of the α,β-unsaturated                      described above. A white solid, mp >265 °C dec., (0.29 g, 95% yield)
+carbonyl compounds, monitored by TLC or NMR. Fluorine, at                             was obtained; 1H NMR (400 MHz, CDCl3) δ 4.60 (dd, J1 = 11.8, J2 =
+concentrations of 7−10% in N2, was slowly passed through a cold                       4.9 Hz, 1 H), 4.55 (d, J = 47.7, 1 H), 3.69 (s, 3 H), 2.37 (dt, J1 = 13.7,
+(−78 °C) and vigorously stirred solution of the triterpene dissolved in               J1 = 3.6 Hz, 1 H), 2.08 (s, 1 H), 2.00−0.79 (m, 20 H), 1.23 (s, 6H),
+100 mL of CFCl3, 125 mL CHCl3, and 25 mL of EtOH. An eﬃcient                          1.12 (s, 3 H), 0.95 (s, 6 H), 0.76 (s, 3 H), 0.47 (d, J = 6.2 Hz, 1 H,
+mixing is achieved by using a vibromixer, which also ensures a ﬁne                    one of the two cyclopropane hydrogens) ppm; 13C{1H} NMR (100
+dispersion of the gas bubbles. The reactions were completed within                    MHz, CDCl3) δ 203.1 (d, J = 15.8 Hz), 179.1, 161.7, 88.3 (d, J =
+3−4 h. They were terminated by pouring them into 200 mL of water,                     178.6 Hz), 86.8, 61.4, 55.0, 52.1, 44.2, 43.2, 41.3, 38.6, 37.7, 37.6,
+washing the organic layer with NaHCO3 solution followed by water                      36.3, 36.0, 35.5 (d, J = 9.3 Hz), 32.4, 31.6, 29.8, 29.1, 28.0, 27.1, 26.9,
+until neutral, drying the organic layer over MgSO4, and ﬁnally                        22.7, 21.0, 20.9, 20.7 (d, J = 10.9 Hz), 19.9, 17.8, 16.8, 16.5, 15.2
+evaporating the solvent. The crude product was usually puriﬁed by                     ppm; 19F NMR (376 MHz, CDCl3, CFCl3-int standard) δ −166.8 (d,
+recrystallization from EtOAc:petroleum ether. Dehydroﬂuorination                      J = 48.1 Hz) ppm; HRMS (ESI-TOF) m/z [M + Na]+ Calcd for
+(HF elimination) was achieved simply by stirring the ﬂuorinated                       C33H46Cl3FO5Na, 669.2293; Found, 669.2289; IR 1753, 1736, 1715
+product overnight in chloroform at room temperature.                                  cm−1.
+   Methyl-3-acetoxy-12α−ﬂuoro-13α,14α-cyclopropane-β-glycyr-                             Bicyclic 8 Prepared by Dehydroﬂuorination of 7. 8 was prepared
+rhetate (2). 2 was prepared from methyl-3-acetoxy-β-glycyrrhetate                     as described above. A white solid, mp >277 °C dec., (0.28 g, >95%
+(1) (0.97 g, 1.8 mmol) as described above. A white solid, mp 285−                     yield) was obtained; 1H NMR (400 MHz, CDCl3) δ 5.49 (s, 1 H),
+286 °C, (0.90 g, 90% yield) was obtained; 1H NMR (400 MHz,                            5.37 (t, J = 7.1 Hz, 1 H), 4.63 (dd, J1 = 11.9, J2 = 4.7 Hz, 1 H), 3.68
+CDCl3) δ 4.53 (d, J = 48.8 Hz, 1 H), 4.48 (dd, J1 = 10.7, J2 = 5.7 Hz,                (s, 3 H), 3.54 (d, J = 13.0 Hz, 1 H), 3.12 (d, J = 13.0 Hz, 1 H), 2.73
+1 H), 3.68 (s, 3 H), 2.46 (dt, J1 = 13.7, J2 = 3.6 Hz, 1 H), 2.16−2.13                (s, 1 H), 2.48 (dd, J1 = 14.2, J2 = 6.4 Hz, 1 H), 2.26 (dt, J1 = 13.4, J2 =
+(m, 1 H), 2.04 (s, 3 H), 1.92−1.60 (m, 9 H), 1.46−1.27 (m, 6 H),                      3.6 Hz, 1 H), 2.02−0.92 (m, 15 H), 2.05 (s, 3 H), 1.98−0.97 (m, 15
+1.16 (s, 3 H), 1.15 (s, 3 H), 1.14 (s, 3 H), 1.13−0.75 (m, 5 H), 0.86
+                                                                                      H), 1.46 (s, 3 H), 1.31 (s, 3 H), 1.14 (s, 3 H), 0.99 (s, 3 H), 0.96 (s, 3
+(s, 3 H), 0.85 (s, 6 H), 0.45 (d, J = 6.7 Hz, 1 H, one of the two
+                                                                                      H), 0.60 (s, 3 H) ppm; 13C{1H} NMR (100 MHz, CDCl3) δ 199.1,
+cyclopropane hydrogens) ppm; 13C{1H} NMR (100 MHz, CDCl3) δ
+                                                                                      178.7, 161.8, 161.2, 151.5, 126.4, 119.6, 87.2, 67.8, 56.2, 54.5, 52.1,
+203.8 (d, J = 14.6 Hz), 177.8, 171.0, 97.7 (d, J = 183.3 Hz), 80.4,
+                                                                                      43.4, 42.0, 41.8, 39.8, 39.1, 38.7, 38.2, 37.9, 36.6, 31.6, 29.8, 29.4,
+63.0, 55.2, 51.8, 43.5, 42.0, 40.2, 38.4, 38.1, 38.0, 37.9, 37.6, 37.0, 34.2
+                                                                                      28.1, 22.9, 21.3, 63 20.6, 18.8, 18.0, 16.5, 15.2 ppm; HRMS (ESI-
+(d, J = 8.8 Hz), 31.1, 29.9, 29.6, 28.2, 28.1, 27.9, 26.3, 23.5, 21.4, 21.2,
+                                                                                      TOF) m/z [M + Na]+ Calcd for C33H45Cl3O5Na, 649.2230; Found,
+20.6 (d, J = 2.5 Hz), 17.8, 17.0, 16.7, 11.3 (d, J = 8.4 Hz) ppm; 19F
+NMR (376 MHz, CDCl3, CFCl3-int standard) δ −176.9 (d, J = 48.9                        649.2232; IR 1759, 1725, 1638 cm−1; λmax, nm (ε): 287(3698).
+Hz) ppm; HRMS (ESI-TOF) m/z [M + Na] + Calcd for                                         Methyl-3β-acetoxy-12α-ﬂuoro-13α,14α-cyclopropane-oleano-
+                                                                                      late (9). 9 was prepared from methyl 3β-acetoxy-11-oxo-oleanolate
+C33H49FO5Na, 567.3462; Found, 567.3463; Anal. Calcd for
+                                                                                      (5) (0.67 g, 1.3 mmol) as described above. A white solid, mp 123−
+C33H49FO5: C, 72.76; H, 9.07. Found: C, 72.34; H, 9.07; IR 1727,
+                                                                                      125 °C, (0.60 g, 85% yield) was obtained; 1H NMR (400 MHz,
+1711 cm−1.
+                                                                                      CDCl3) δ 4.82 (d, J = 48.5 Hz, 1 H), 4.47 (dd, J1 = 10.5, J2 = 6.1 Hz,
+   Bicyclic 3 Prepared by Dehydroﬂuorination of 2. 3 was prepared
+as described above. A white solid, mp 230−232 °C, (0.87 g, >95%                       1 H), 3.66 (s, 3 H), 2.77 (dd, J1 = 12.8, J2 = 4.6 Hz, 1 H), 2.59 (dt, J1
+yield) was obtained; 1H NMR (400 MHz, CDCl3) δ 5.69 (s, 1 H),                         = 13.6, J2 = 3.6 Hz, 1 H), 2.03 (s, 3 H), 1.92−0.73 (m, 20 H), 1.10 (s,
+5.22 (t, J = 7.0 Hz, 1 H), 4.50 (dd, J1 = 11.8, J2 = 4.7 Hz, 1 H), 3.67               3 H), 0.94 (s, 3 H), 0.91 (s, 3 H), 0.88 (s, 3 H), 0.86 (s, 3 H), 0.85 (s,
+(s, 3 H), 3.36 (d, J = 13.1 Hz, 1 H), 3.11 (d, J = 13.2 Hz, 1 H), 2.95                3 H), 0.84 (s, 3 H), 0.45 (d, J = 6.7 Hz, 1 H, one of the two
+(dd, J1 = 14.4, J2 = 6.2 Hz, 1 H), 2.73 (s, 1 H), 2.26−2.06 (m, 4 H),                 cyclopropane hydrogens) ppm; 13C{1H} NMR (100 MHz, CDCl3) δ
+1.89−1.57 (m, 7 H), 1.49−1.28 (m, 6 H), 1.42 (s, 3 H), 1.25 (s, 3 H),                 204.0 (d, J = 13.4 Hz), 178.0, 171.0, 96.9 (d, J = 180.9 Hz), 80.4,
+1.12 (s, 3 H), 1.01 (dt, J1 = 13.1, J2 = 3.4 Hz, 1 H), 0.91−0.80 (m, 61               63.7, 55.3, 52.0, 44.8, 41.2, 38.6, 38.3, 38.1, 37.5, 37.3, 34.5, 34.0, 33.7
+2 H), 0.89 (s, 3 H), 0.86 (s, 3 H), 0.71 (s, 3 H) ppm; 13C{1H} NMR                    (d, J = 9.1 Hz), 32.9, 32.6, 30.3, 28.1, 24.0, 23.5, 22.6, 22.0, 21.4, 20.9,
+(100 MHz, CDCl3) δ 199.5, 177.3, 171.1, 159.8, 151.3, 129.9, 119.3,                   17.7, 16.8, 16.7, 14.2, 12.3 (d, J = 7.0 Hz) ppm; 19F NMR (376 MHz,
+80.8, 67.8, 56.3, 54.7, 52.0, 43.4, 39.9, 39.5, 39.2, 39.1, 38.1, 38.0,               CDCl3, CFCl3-int standard) δ −180.8 (d, J = 48.6 Hz) ppm; HRMS
+37.9, 35.1, 33.8, 31.9, 29.8, 28.7, 28.2, 28.0, 23.6, 21.4, 20.6, 18.8,               (ESI-TOF) m/z [M + Na]+ Calcd for C33H49FO5Na, 567.3462;
+17.9, 16.7 ppm; HRMS (APPI) m/z [M + H]+ Calcd for C33H49O5,                          Found, 567.3466; IR 1722 cm−1.
+525.3580; Found, 525.3579; Anal. Calcd for C33H48O5: C, 75.53; H,                        Bicyclic 10 Prepared by Dehydroﬂuorination of 9. 10 was
+9.22. Found: C, 75.21; H, 9.08; IR 1730, 1639 cm-1; UV (DCM)                          prepared using the dehydroﬂuorination procedure described above. A
+λmax, nm (ε): 285 (2195).                                                             white solid, mp 219−221 °C, (0.58 g, >95% yield) was obtained; 1H
+   Methyl-3-trichloroacetoxy-α-glycyrrhetate (4). 4 was prepared by                   NMR 5.68 (s, 1 H), 5.38 (t, J = 6.7 Hz, 1 H), 4.49 (dd, J1 = 11.7, J2 =
+suspending methyl-18α- glycyrrhetic acid (0.23 g, 0.5 mmol) in                        4.8 Hz, 1 H), 3.59 (s, 3 H), 3.44 (dd, J1 = 13.1, J2 = 4.0 Hz, 1 H), 3.38
+dichloromethane (30 mL), triethylamine (0.13 mL, 0.9 mmol),                           (d, J = 13.1 Hz, 1 H), 3.03 (d, J = 14.1 Hz, 1 H), 3.01(d, J = 14.3 Hz,
+tricholoacetic anhydride (0.22 mL, 1.2 mmol) and DMAP (cat.). The                     1 H), 2.68 (s, 1 H), 2.20−2.13 (m, 2 H), 2.04 (s, 3H), 1.95−1.83 (m,
+mixture was stirred overnight and then quenched by diluted HCl                        2 H), 1.78−1.24 (m, 12 H), 1.39 (s, 3 H), 1.04 (s, 3 H), 1.05 (s, 3
+(2M). The phases were separated, the organic phase dried over                         H), 1.00 (s, 3 H), 0.89 (s, 3 H), 0.85 (s, 3 H) ppm; 13C{1H} NMR
+Na2SO4 and the solvent removed in vacuo. The product was                              (100 MHz, CDCl3) δ 199.3, 176.4, 171.1, 163.0, 153.9, 130.9, 120.5,
+recrystallized from PE/EtOAc. A white solid, mp 293−295 °C, (0.3 g,                   80.8, 68.3, 56.3, 54.7, 51.8, 46.7, 39.2, 38.2, 38.1, 38.0, 37.9, 34.7,
+>95% yield) was obtained; 1H NMR (400 MHz, CDCl3) δ 5.58 (s, 1                        34.4, 33.2, 30.4, 29.9, 29.8, 28.2, 24.2, 23.6, 21.4, 21.1, 18.8, 17.9, 16.7
+H), 4.64 (dd, J1 = 11.9, J2 = 4.7 Hz, 1 H), 3.69 (s, 3 H), 2.79 (dt, J1 =             ppm; HRMS (ESI-TOF) m/z [M + Na]+ Calcd for C33H48O5Na,
+13.7, J2 = 3.6 Hz, 1 H), 2.29 (s, 1 H), 2.25−2.22 (m, 1 H), 2.02−1.01                 547.3399; Found, 547.3394; Anal. Calcd for C33H48O5: C, 75.53; H,
+(m, 17 H), 1.35 (s, 3 H), 1.24 (s, 3 H), 1.22 (s, 3 H), 1.14 (s, 3 H),                9.22. Found: C, 75.25; H, 8.79; IR 1738, 1712, 1634 cm−1; UV
+0.97 (s, 6 H), 0.83 (d, J = 10.2 Hz, 1H), 0.72 (s, 3 H) ppm; 13C{1H}                  (CH3CN) λmax, nm (ε): 287(2000).
+
+                                                                               3887                                             https://dx.doi.org/10.1021/acs.joc.0c02731
+                                                                                                                                        J. Org. Chem. 2021, 86, 3882−3889
+The Journal of Organic Chemistry
+
+■
+                                                                                     pubs.acs.org/joc                                                 Article
+
+    ASSOCIATED CONTENT                                                             (3) (a) Shao, B.; Bagdasarian, A. L.; Popov, S.; Nelson, H. M.
+*
+sı Supporting Information
+                                                                                 Arylation of hydrocarbons enabled by organosilicon reagents and
+                                                                                 weakly coordinating anions. Science 2017, 355, 1403−1407.
+The Supporting Information is available free of charge at                        (b) Popov, S.; Shao, B.; Bagdasarian, A. L.; Benton, T. R.; Zou, L.;
+https://pubs.acs.org/doi/10.1021/acs.joc.0c02731.                                Yang, Z.; Houk, K. N.; Nelson, H. M. Teaching an old carbocation
+      1
+       H, 13C, and 19F NMR spectra; calculated spectrum;                         new tricks: Intermolecular C-H insertion reactions of vinyl cations.
+      computational details; details on X-ray cif ﬁles; and                      Science 2018, 361, 381−387.
+      Cartesian coordinates of the calculated structures (PDF)                     (4) (a) Kol, M.; Rozen, S. Functionalization of Aromatic Molecules
+                                                                                 Using HOF•CH3CN and CH3OF. J. Org. Chem. 1993, 58, 1593−
+Accession Codes                                                                  1595. (b) Hebel, D.; Rozen, S. Chlorination, bromination, and
+CCDC 2002953 and 2002977−2002979 contain the supple-                             oxygenation of the pyridine ring using AcOF made from F2. J. Org.
+mentary crystallographic data for this paper. These data can be                  Chem. 1988, 53, 1123−1125.
+obtained free of charge via www.ccdc.cam.ac.uk/data_request/                       (5) (a) Rozen, S.; Brand, M. Direct addition of elemental fluorine to
+cif, or by emailing data_request@ccdc.cam.ac.uk, or by                           double bonds. J. Org. Chem. 1986, 51, 3607−3611. (b) Vints, I.;
+contacting The Cambridge Crystallographic Data Centre, 12                        Rozen, S. Fluorination of α,β-unsaturated carbonyl compounds using
+                                                                                 elemental fluorine. Tetrahedron 2016, 72, 632−636. (c) Vints, I.;
+Union Road, Cambridge CB2 1EZ, UK; fax: +44 1223 336033.
+
+■
+                                                                                 Rozen, S. Fluorination of flavones and chromones using elemental
+                                                                                 fluorine. J. Org. Chem. 2014, 79, 7261−7265.
+    AUTHOR INFORMATION                                                             (6) Alker, D.; Barton, D. H. R.; Hesse, R. H.; James, J. L.; Markwell,
+Corresponding Authors                                                            R. E.; Pechet, M. M.; Rozen, S.; Takashita, T.; Toh, H. T. Selective
+  Shlomo Rozen − School of Chemistry, Tel Aviv University, Tel                   fluorination at tertiary centers in steroids and adamantanoids using
+    Aviv 6997801, Israel; orcid.org/0000-0002-8034-9530;                         fluoroxytrifluoromethane and using molecular fluorine. Nouveau J. De
+    Email: rozens@tauex.tau.ac.il                                                Chimie 1980, 4, 239−254.
+  Edward N. Brothers − Science Program, Texas A&M                                  (7) Ruzicka, L.; Leuenberger, L. Polyterpene und polyterpenoid
+    University at Qatar, Education City, Doha 23874, Qatar;                      CIX. Zur kenntnis der Glycyrrhetinsaure. Helv. Chim. Acta 1936, 19,
+    Email: edward.brothers@qatar.tamu.edu                                        1402−1406.
+                                                                                   (8) (a) Gupta, M.B.; Gupta, G.P.; Tangri, K.K.; Bhargava, K.P. Effect
+Authors                                                                          of anti-inflammatory drugs on plasma corticosterone level in albino
+   Inna Vints − School of Chemistry, Tel Aviv University, Tel                    rats. Biochem. Pharmacol. 1969, 18, 531−532. (b) Sun, W.; Xue, H.;
+     Aviv 6997801, Israel                                                        Liu, H.; Lv, B.; Yu, Y.; Wang, Y.; Huang, M.; Li, C. Controlling
+                                                                                 chemo- and regioselectivity of a plant P450 in yeast cell toward rare
+   Ana Lerner − School of Chemistry, Tel Aviv University, Tel
+                                                                                 licorice triterpenoid biosynthesis. ACS Catal. 2020, 10, 4253−4260.
+     Aviv 6997801, Israel; Chemistry Department, Ben-Gurion                        (9) See, for example: (a) Rozen, S.; Shahak, I.; Bergmann, E. D.
+     University of the Negev, Beer-Sheva 84105, Israel                           Ketones derived from glycyrrhetic acid. Synthesis 1972, 1972, 701−
+   Oded Hod − Department of Physical Chemistry, School of                        702. (b) Shibata, S.; Takahashi, K.; Yano, S.; Harada, M.; Saito, H.;
+     Chemistry, The Raymond and Beverly Sackler Faculty of                       Tamura, Y.; Kumagai, A.; Hirabayashi, K.; Yamamoto, M.; Nagata, N.
+     Exact Sciences and The Sackler Center for Computational                     Chemical modification of glycyrrhetinic acid in relation to the
+     Molecular and Materials Science, Tel Aviv University, Tel                   biological activities. Chem. Pharm. Bull. 1987, 35, 1910−1918.
+     Aviv 6997801, Israel; orcid.org/0000-0003-3790-8613                           (10) Rozen, S.; Shahak, I.; Bergmann, E. D. Fluorination studies on
+   Salvador Moncho − Science Program, Texas A&M University                       glycyrrhetic acid derivatives. Isr. J. Chem. 1973, 11, 825−833.
+     at Qatar, Education City, Doha 23874, Qatar; orcid.org/                       (11) Rozen, S.; Gal, C. Selective substitution of aliphatic remote
+     0000-0003-1631-5587                                                         tertiary hydrogens by fluorine. J. Org. Chem. 1987, 52, 4928−4933.
+                                                                                   (12) Fan, Y. Y.; Zhang, H.; Zhou, Y.; Liu, H. B.; Tang, W.; Zhou, B.;
+Complete contact information is available at:                                    Zuo, J. P.; Yue, J. M. Phainanoids A-F, A new class of potent
+https://pubs.acs.org/10.1021/acs.joc.0c02731                                     immunosuppressive triterpenoids with an unprecedented carbon
+                                                                                 skeleton from phyllanthus hainanensis. J. Am. Chem. Soc. 2015, 137,
+Notes                                                                            138−141.
+The authors declare no competing ﬁnancial interest.                                (13) Chai, J.-D.; Head-Gordon, M. Long-range corrected hybrid
+
+
+■
+                                                                                 density functionals with damped atom-atom dispersion corrections.
+    ACKNOWLEDGMENTS                                                              Phys. Chem. Chem. Phys. 2008, 10, 6615−6620.
+                                                                                   (14) Frisch, M. J.; Trucks, G. W.; Schlegel, H. B.; Scuseria, G. E.;
+S.R. and I.V. thank the Israel Science Foundation for partial                    Robb, M. A.; Cheeseman, J. R.; Scalmani, G.; Barone, V.; Petersson,
+ﬁnancial support.
+
+■
+                                                                                 G. A.; Nakatsuji, H.; Li, X.; Caricato, M.; Marenich, A. V.; Bloino, J.;
+                                                                                 Janesko, B. G.; Gomperts, R.; Mennucci, B.; Hratchian, H. P.; Ortiz, J.
+    REFERENCES                                                                   V.; Izmaylov, A. F.; Sonnenberg, J. L.; Williams-Young, D.; Ding, F.;
+  (1) See, for example: (a) Gillis, E. P.; Eastman, K. J.; Hill, M. D.;          Lipparini, F.; Egidi, F.; Goings, J.; Peng, B.; Petrone, A.; Henderson,
+Donnelly, D. J.; Meanwell, N. Applications of fluorine in medicinal              T.; Ranasinghe, D.; Zakrzewski, V. G.; Gao, J.; Rega, N.; Zheng, G.;
+chemistry. J. Med. Chem. 2015, 58, 8315−8359. (b) Wang, J.;                      Liang, W.; Hada, M.; Ehara, M.; Toyota, K.; Fukuda, R.; Hasegawa, J.;
+Sanchez-Rosello, M.; Acena, J. L.; del Pozo, C.; Sorochinsky, A. E.;             Ishida, M.; Nakajima, T.; Honda, Y.; Kitao, O.; Nakai, H.; Vreven, T.;
+Fustero, S.; Soloshonok, V. A.; Liu, H. Fluorine in pharmaceutical               Throssell, K.; Montgomery, J. A., Jr; Peralta, J. E.; Ogliaro, F.;
+industry: fluorine-containing drugs introduced to the market in the              Bearpark, M. J.; Heyd, J. J.; Brothers, E. N.; Kudin, K. N.; Staroverov,
+last decade (2001−2011). Chem. Rev. 2014, 114, 2432−2506.                        V. N.; Keith, T. A.; Kobayashi, R.; Normand, J.; Raghavachari, K.;
+  (2) (a) Rozen, S.; Lerman, O. Synthesis and chemistry of                       Rendell, A. P.; Burant, J. C.; Iyengar, S. S.; Tomasi, J.; Cossi, M.;
+trifluoroacetyl hypofluorite with elemental fluorine - novel method              Millam, J. M.; Klene, M.; Adamo, C.; Cammi, R.; Ochterski, J. W.;
+for synthesis of α-fluorohydrins. J. Org. Chem. 1980, 45, 672−678.               Martin, R. L.; Morokuma, K.; Farkas, O.; Foresman, J. B.; Fox, D. J.
+(b) Lerman, O.; Rozen, S. A novel method for introduction of the                 Gaussian, Development Version I.11; Gaussian, Inc.: Wallingford, CT,
+perfluoroethoxy group using elemental fluorine. synthesis and                    2016.
+chemistry of fluorooxypentafluoroethane. J. Org. Chem. 1980, 45,                   (15) (a) Fukui, K. The path of chemical-reactions - The IRC
+4122−4125.                                                                       approach. Acc. Chem. Res. 1981, 14, 363−368. (b) Hratchian, H. P.;
+
+                                                                          3888                                          https://dx.doi.org/10.1021/acs.joc.0c02731
+                                                                                                                                J. Org. Chem. 2021, 86, 3882−3889
+The Journal of Organic Chemistry                                                 pubs.acs.org/joc                                 Article
+
+Schlegel, H. B. Transition States, and Following Reaction Pathways
+on Ab Initio Potential Energy Surfaces. In Theory and Applications of
+Computational Chemistry: The First 40 Years; Dykstra, C. E., Frenking,
+G., Kim, K. S., Scuseria, G., Eds.; Elsevier: Amsterdam, 2005; pp 195−
+249.
+ (16) Roytman, V. A.; Singleton, D. A. Solvation Dynamics and the
+Nature of Reaction Barriers and Ion-Pair Intermediates in
+Carbocation Reactions. J. Am. Chem. Soc. 2020, 142, 12865−12877.
+ (17) Mak, J. Y. W.; Pouwer, R. H.; Williams, C. M. Natural products
+with anti-Bredt and bridgehead double bonds. Angew. Chem., Int. Ed.
+2014, 53, 13664−13688.
+ (18) Siewert, B.; Wiemann, J.; Kowitsch, A.; Csuk, R. The chemical
+and biological potential of C ring modified triterpenoids. Eur. J. Med.
+Chem. 2014, 72, 84−101.
+ (19) Dayan, S.; Kol, M.; Rozen, S. Tertiary Amine Oxidation using
+HOF•CH3CN: A Novel Synthesis of N-Oxides. Synthesis 1999, 1999,
+1427−1430.
+ (20) American Environmental Group Ltd. AEGL (Acute Exposure
+Guideline Level). 2009, 50 (8), 51, October 2, 2009.
+
+
+
+
+                                                                          3889                      https://dx.doi.org/10.1021/acs.joc.0c02731
+                                                                                                            J. Org. Chem. 2021, 86, 3882−3889
+

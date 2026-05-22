@@ -1,0 +1,533 @@
+                                                                                                      This article is licensed under CC-BY 4.0
+
+pubs.acs.org/JACS                                                                                                                                Article
+
+
+
+Binary Phase Diagrams of Coordination Polymers with Eutectic
+Behaviors
+Karnjana Atthawilai, Hiroyasu Tabe,* Kotaro Ohara, Kanokwan Kongpatpanich, and Satoshi Horike*
+      Cite This: J. Am. Chem. Soc. 2025, 147, 5140−5148                             Read Online
+
+
+ACCESS                       Metrics & More                             Article Recommendations               *
+                                                                                                              sı Supporting Information
+
+
+
+
+ABSTRACT: We demonstrated the construction of binary phase diagrams of coordination polymer crystals by using their reversible
+solid−liquid transition (melting and crystallization) behaviors. Three types of binary phase diagrams of Ag+-based coordination
+polymers were made and the origins of each diagram formation were investigated. All diagrams showed eutectic phenomena induced
+by ligand exchange reactions at the interface of the two constituents. Solid solution formation was observed when we used two
+crystals with similar structures and coordination geometries, and the reaction was driven by both the anion and ligand exchange
+processes. The optimal binary compounds found in the phase diagrams were applicable as a latent heat storage material working at
+100 °C with high energy recovery efficiency, stability in phase-transition cycles, and large hysteresis of melting/crystallization.
+
+
+■    INTRODUCTION
+Creating binary systems of metals or ceramics is a fundamental
+                                                                               The diagram describes phases found at a given pressure and
+                                                                               temperature; two amorphous phases exist, where the liquid is
+strategy for controlling the properties and functionalities of                 at 2 GPa and 350 °C. This report is only an example of an
+materials. Steel (Fe−C) and brass (Cu−Zn) are classical                        approaching phase diagram of CP/MOFs, and no attempt has
+metallic alloys with formability and corrosion resistance.1−3                  been made to produce a binary phase diagram.
+Al2O3−La2O3 and CeO2−ZrO2 are ceramic catalysts with high                         The number of reports of organic−inorganic hybrid
+thermal stability.4 The properties of binary systems are                       materials such as CP/MOFs and hybrid perovskites showing
+dominated by both compositions and microstructures such                        reversible melting and recrystallization behavior continues to
+as solid solutions, intermetallic compounds, and alloys. The                   increase.16−22 It is important to use these compounds as a
+formation of the binary systems largely influences thermal                     platform to realize the construction of binary phase diagrams
+properties (e.g., melting and crystallization temperatures,                    and discover previously unknown phases and physical
+thermal expansion) and mechanical properties (e.g., modulus,                   properties. To date, binary phase diagrams of hybrid
+toughness).5−8                                                                 perovskites are reported.23−28 In this work, we attempted for
+   Coordination polymers (CPs) and metal−organic frame-                        the first time to construct binary phase diagrams of CP/MOFs
+works (MOFs) comprise metal ions and bridging ligands to                       and investigate the origins of the diagram formations.
+form extended structures, usually in highly crystalline states. It             Reversible melting and crystallization without forming
+has been long recognized that CP/MOFs do not exhibit a
+stable liquid state at elevated temperatures. On the other hand,
+recent reports suggest that several classes of CP/MOFs exhibit                 Received: October 31, 2024
+reversible crystal-to-liquid transformation by heating, and the                Revised: January 20, 2025
+behavior opens a new direction for materials engineering.9−14                  Accepted: January 22, 2025
+There is a report on the single phase diagram of Zn-                           Published: February 3, 2025
+(Im)1.75(bIm)0.25 (ZIF-62, Im: imidazolate, bIm: benzimida-
+zolate) whose melting temperature (Tm) at 1 bar is 430 °C.15
+
+                                     © 2025 American Chemical Society                                                    https://doi.org/10.1021/jacs.4c15317
+                                                                        5140                                         J. Am. Chem. Soc. 2025, 147, 5140−5148
+Journal of the American Chemical Society                                              pubs.acs.org/JACS                                            Article
+
+metastable states, such as glass, are essential to the making of             a N2 atmosphere. The sample was ball-milled at 400 rpm, which
+phase diagrams. The labile character of the nitrile group plays              involves 5 min run and 5 min pause for six cycles. 1x21−x with other
+an important role in melting and crystallization due to low                  ratios (x = 0.02, 0.05, 0.1, 0.2, 0.3, 0.33, 0.5, 0.67, 0.75, 0.9, 0.95),
+viscosity and melting temperature (Tm) compared with other                   binary compounds consisting of 3 and 4 (3x41−x, x = 0.1, 0.2, 0.3, 0.4,
+                                                                             0.5, 0.6, 0.7, 0.8, 0.9), and 3 and 5 (3x51−x, x = 0.1, 0.2, 0.3, 0.4, 0.5,
+CPs showing crystal melting, such as ZIFs.19,29,30 The dinitrile             0.6, 0.7, 0.8, 0.9) were obtained using the same procedure.
+CPs showing crystal melting are reported using d10 Ag+ ions. In                 Single-Crystal X-ray Structure Analysis of 5. Single-crystal X-
+this context, CPs consisting of alkyldinitrile and Ag+ ions are              ray crystallographic data of 5 were collected at 293 K on a Rigaku
+candidates as constituents of binary systems because the crystal             XtaLAB AFC10 diffractometer (Rigaku, Japan, Mo-Kα, λ = 0.71073
+similarity of Ag+-alkyldinitrile CPs is well discussed in the                Å). CrysAlisPro software (Rigaku, Japan) was used to determine the
+literature.31 We employed five compounds, all composed of                    unit cell parameters, data reduction, scaling, and absorption
+Ag+ ions and dinitrile ligands: Ag(GN)2(BF4) (1, GN =                        corrections. The structure was solved in the orthorhombic Pnna
+glutaronitrile), Ag(PN)2(BF4) (2, PN = pimelonitrile), Ag-                   space group by intrinsic phasing with SHELXT and refined by the
+(AN)2(BF4) (3, AN = adiponitrile), Ag(AN)(OTf) (4, OTf =                     full-matrix least-squares method on F2 using SHELXL as implemented
+                                                                             in OLEX.32−34 The obtained crystal structure of 5 was registered in
+trifluoromethanesulfonate ion), and Ag(AN)2(PF6) (5). We                     the Cambridge Structural Database (CSD) No. 2286694 (Table S2).
+constructed three types of binary phase diagrams and found                      Powder X-ray diffraction (PXRD) Analysis. PXRD patterns
+the behaviors of eutectic melting and solid solution formation               were recorded on a MiniFlex 600 diffractometer (Rigaku, Japan).
+depending on the combinations of crystal structures and                      Incident X-ray radiation was produced by a Cu X-ray tube operating
+compositions. It was found that the dynamic exchange of                      at 40 kV and 15 mA with Cu Kα radiation (λ = 1.54 Å). The scan rate
+ligands and anions was also the key to show eutectic and solid               was 10° min−1 within 2θ = 5−50°. Variable-temperature (VT) PXRD
+solution formation. One of the optimal binary compounds                      patterns were recorded on a MiniFlex 600 diffractometer equipped
+showed promising latent heat storage properties attributed to                with a BTS500 (Anton Paar, Austria) heating stage under a N2 flow.
+the large hysteresis by supercooling, the working temperature,               The scan rate was 2° min−1 from 2θ = 5−50°. Peaks of 2θ = 38.5 and
+                                                                             46.3° derived from silver(0) were not observed in all of the
+and high energy recovery efficiency.                                         measurements, while broad peaks of the sample tray were observed at
+
+■   EXPERIMENTAL SECTION
+   Materials. All chemicals were used as delivered. Silver
+                                                                             2θ = 7°. The simulated patterns were obtained using Mercury 4.0 and
+                                                                             structure data of 1 (180608), 2 (180616), 3 (180611), and 4
+                                                                             (180615) registered in the CSD.31,35
+tetrafluoroborate (AgBF 4 ), silver trifluoromethanesulfonate                   X-ray Total Scattering and Pair Distribution Function (PDF)
+(AgOTf), silver hexafluorophosphate (AgPF6), and benzene were                Analyses. 3, 5, and 30.250.8 were sealed in borosilicate glass capillaries
+purchased from FUJIFILM-Wako Pure Chemical Industries Corpo-                 (φ = 1.0 mm). The scattering data were collected by four CdTe and
+ration (Japan). Glutaronitrile (GN), pimelonitrile (PN), and                 two Ge detectors covering the Q range up to 25 Å at the BL04B2
+adiponitrile (AN) were purchased from Tokyo Chemical Industry                beamline in SPring-8 (112.8 keV, λ = 0.110 Å). The scattering data
+Co., Ltd. Indium powder (99.99%) was purchased from Sigma-                   were applied absorption, background, and Compton scattering
+Aldrich Co., LLC (USA). Purified water was supplied by Milli-Q               corrections. The data were normalized to give the Faber−Ziman
+(Merck-Millipore System Corporation, USA), where the electronic              total structure factor (S(Q)) processed by absorption, background,
+conductance was 18.2 MΩ cm.                                                  and Compton scattering corrections.36 PDF was calculated by the
+   Synthesis of CPs. Ag(GN)2(BF4) (1) was synthesized as follows.            Fourier transformation of S(Q) with a Lorch modification function by
+Benzene (20 mL) containing AgBF4 (97 mg, 0.5 mmol) and GN (94                using Igor Pro.37,38
+mg, 1 mmol) was magnetically mixed for 5 min and transferred to a               Spectroscopic and Thermal Measurements. Fourier trans-
+Teflon tube followed by heating at 120 °C under solvothermal                 form-infrared (FT-IR) spectroscopy was performed with a Nicolet
+conditions. After cooling to room temperature for 2 days, colorless          Magna FT-IR spectrophotometer (Thermo Scientific, USA) equipped
+crystals were obtained. The crystals were washed with benzene three          with a diamond ATR accessory and a heating unit. The resolution of
+times and dried in vacuo to obtain rodlike crystals. The obtained            the collected IR spectra was 2 cm−1. Scanning electron microscopy
+crystals have powder X-ray diffraction (PXRD) patterns similar to            (SEM) images were obtained using a JSM-6500F (JEOL, Japan)
+those simulated from the crystal structure (Figure S1). The CN               scanning electron microscope operated at 15 kV. Thermogravimetry-
+stretching band (νCN) found in Fourier transform infrared (FT-IR)            differential thermal analyses (TG/DTA) were performed using a
+spectroscopy: 2273 cm−1 (Figure S2); decomposition temperature               Rigaku TG8120 instrument (RIGAKU, Japan) under an Ar flow with
+(Td) determined by thermogravimetric analysis (TGA, Figure S3):              the ramp rate of 10 °C min−1. Differential scanning calorimetry
+161 °C; melting temperature (Tm) determined by differential                  (DSC) experiments were carried out by a DSC 8500 Lab System
+scanning calorimetry (DSC, Figure S4): 147 °C; crystallization               instrument (PerkinElmer, USA) under an Ar flow using an aluminum
+temperature determined by DSC (Tc): 143 °C (Table S1).                       sample folder and a lid with the scan rate of 10 °C min−1 unless other
+   Ag(PN)2(BF4) (2) was synthesized from AgBF4 (97 mg, 0.5                   rates are noted. The uncertainties of the phase-transition temperature
+mmol) and PN (122 mg, 1 mmol). νCN: 2277 cm−1, Tm: 120 °C, Tc:               and ΔH are 0.03 and 0.07%, respectively, estimated from the cyclic
+115 °C, Td: 156 °C. Ag(AN)2(BF4) (3) was synthesized from AgBF4              DSC measurements of indium (99.99%). The scan range is below
+(97 mg, 0.5 mmol) and AN (108 mg, 1 mmol). νCN: 2277 cm−1, Tm:               each Td determined by TG-DTA, and we confirmed no weight loss
+132 °C, Tc: 128 °C, Td: 150 °C. Endothermic and exothermic peaks             during the DSC measurements. We used DSC data of the first
+found at 40 and 37 °C result from solid−solid phase transition as            heating−cooling cycle to determine Tm and Tc to avoid the effect of
+suggested by PXRD (Figure S5). Ag(AN)(OTf) (4) was synthesized               thermal history of samples. The first deviation from baselines
+from AgOTf (128 mg, 0.5 mmol) and AN (108 mg, 1 mmol). νCN:                  represents an inset of an endothermic peak, and the intersection of
+2277 cm−1, Tm: 148 °C, Tc: 134 °C, Td: 173 °C. Ag(AN)2(PF6) (5)              baselines and final tangent lines represents an onset. Solidus and
+was synthesized from AgPF6 (127 mg, 0.5 mmol) and AN (108 mg, 1              liquidus lines were depicted by plotting the inset temperatures, while
+mmol). νCN: 2277 cm−1, Tm: 189 °C, Tc: 180 °C, Td: 213 °C. All               solvus lines were depicted by plotting the onset temperatures.39,40
+compounds have powder X-ray diffraction (PXRD) patterns similar to
+those simulated from the crystal structures (Figure S1).
+   Preparation of Binary Compounds by Mechanical Mixing. 1
+(176.1 mg, 0.46 mmol) and 2 (237.1 mg, 0.54 mmol) were weighed
+                                                                             ■   RESULTS AND DISCUSSION
+                                                                                Binary Phase Diagrams of 1 and 2. Mechanical mixing is
+by an electric balance AUY220 (Shimadzu, Japan), and 10 zirconium            a general technique to obtain binary compounds in metal-
+oxide (ZrO2) balls (φ = 10 mm) were transferred to a ZrO2 jar under          lurgy.1,2 In this study, we define the mechanical mixing
+                                                                      5141                                                 https://doi.org/10.1021/jacs.4c15317
+                                                                                                                       J. Am. Chem. Soc. 2025, 147, 5140−5148
+Journal of the American Chemical Society                                              pubs.acs.org/JACS                                          Article
+
+
+
+
+Figure 1. Binary phase diagram of Ag(GN)2(BF4) (1, right) and Ag(PN)2(BF4) (2, left) with crystal structures and components of 1 and 2. C, N,
+Ag, B, and F atoms are black, blue, pink, green, and orange, respectively. Dashed lines marked as (i), (ii), and (iii) indicate the corresponding
+PXRD patterns shown in Figure S8.
+
+
+
+
+Figure 2. (A) PXRD patterns of 10.4620.54 in the heating and cooling processes. Color masks represent diffraction peaks derived from 1 (blue) and 2
+(pink), respectively. (B) Tamman’s diagram of 1x21−x. (C) Polarized optical microscopy and (D) SEM images of 10.4620.54 after crystallization of the
+10.4620.54 liquid.
+
+products of two crystals as binary compounds. Both 1 and 2                    decrease at 95 °C. The scattering pattern at 110 °C, which is
+have four-coordinated Ag+ ions in tetrahedral geometries, two-                above Tm (100 °C, by DSC), indicates that 1 and 2
+dimensional (2D) structures of Ag+ ions and dicyanides, and                   simultaneously melt at 100 °C (Figure 2A). PXRD patterns
+BF4− anions (Figure 1).31 The size difference of the 2D                       of 10.920.1 at 40, 80, and 95 °C consist of peaks derived from 1
+structures results from the length of the alkyl chains. Binary                and 2 (composition shown as (i) in Figure 1, Figure S8A).
+compounds prepared by mixing 1 and 2 are referred to as                       10.920.1 showed the pattern of 1 at 110 °C, which is above the
+1x21−x, where x (x = 0.02, 0.05, 0.1, 0.2, 0.3, 0.33, 0.46, 0.5,              temperature of first endothermic peak (100 °C by DSC), and a
+0.67, 0.75, 0.9, and 0.95) represents the molar fraction of 1.                scattered pattern at 145 °C, which is above the temperature of
+PXRD patterns of 1x21−x involving peaks derived from 1 and 2                  second endothermic peak (143 °C by DSC, Figure S8A). The
+clarified that no chemical reaction and amorphization occurred                first and second endothermic peaks indicate the eutectic and
+in the mechanical mixing process (Figure S6A).                                equilibrium Tm, respectively. Constituents in the eutectic ratio
+   DSC curves of 1x21−x have endothermic peaks in upscan due                  (10.4620.54) and excess 1 successively melt at eutectic and
+to their melting (Figure S7A). 10.4620.54 has one endothermic                 equilibrium Tm, respectively, in 1-rich compositions. VT-
+peak at 100 °C. 1x21−x in 1-rich compositions (x > 0.46) have                 PXRD patterns of 10.120.9 indicate the disappearance of 1 and 2
+first endothermic peaks at 100 °C and second endothermic                      peaks at 110 and 130 °C, respectively (Figure S8C). The
+peaks (Table S3). For example, 10.920.1 has the second                        temperatures of first (100 °C) and second (117 °C)
+endothermic peak at 143 °C, which is lower than Tm of 1                       endothermic peaks by DSC are the eutectic and equilibrium
+(147 °C). We observed drops of the temperatures of second                     Tm, respectively (composition shown as (iii) in Figure 1,
+endothermic peaks of 10.7520.25, 10.6720.33, and 10.520.5 to 132,             Figure S8C).
+125, and 113 °C, respectively, in 1-rich compositions. The first                 We depicted a composition−temperature binary phase
+endothermic peaks of 1x21−x in 2-rich compositions (x < 0.46)                 diagram of the 1−2 system (Figure 1). The phase diagram
+are 100 °C, and the temperatures of second endothermic peaks                  represents that the 1−2 system is a binary eutectic system
+are lower than Tm of 2 (120 °C). For example, 10.120.9 has the                showing no miscibility in the solid state but complete
+first and second endothermic peaks at 100 and 118 °C,                         miscibility in the liquid state, like the Bi−Cd system.41 A
+respectively.                                                                 horizontal line (CD) is a solidus line by plotting the eutectic
+   We measured variable-temperature (VT) PXRD for 1x21−x                      Tm at 100 °C, also recognized as the eutectic temperature (Te).
+(Figures 2A and S8). PXRD patterns of 10.4620.54 at 40 and 80                 Two liquidus lines (AO and BO) are depicted by plotting the
+°C consist of the patterns of 1 and 2 (composition shown as                   equilibrium Tm versus x, and they represent the depression of
+(ii) in Figures 1, 2A, and S8B). The intensity begins to                      Tm of 2 (120 °C) and 1 (147 °C). AO and BO reach the
+                                                                       5142                                              https://doi.org/10.1021/jacs.4c15317
+                                                                                                                     J. Am. Chem. Soc. 2025, 147, 5140−5148
+Journal of the American Chemical Society                                              pubs.acs.org/JACS                                          Article
+
+
+
+
+Figure 3. Binary phase diagram of Ag(AN)2(BF4) (3, right) and Ag(AN)(OTf) (4, left) with crystal structures and components of 3 and 4. C, N,
+Ag, B, F, S, and O atoms are black, blue, pink, light green, orange, dark green, and red, respectively. Dashed lines marked as (i), (ii), and (iii)
+indicate the corresponding PXRD patterns shown in Figure S14.
+
+intersection at O. O is the eutectic point corresponding to the               and 2 liquids and crystallization (Figure S11). Lamellar
+eutectic composition (10.4620.54) and Te (100 °C). Three                      macrostructures are common in binary compounds after
+phases, i.e., 1 solid, 2 solid, and the mixed liquid of 1 and 2               solidifying liquids because the simultaneous crystallization of
+exist at O. All phases are thermodynamically stable, and no                   two constituents at Te results in low diffusion of nuclei and
+metastable phases, such as glass, appear in the diagram. We                   slow crystal growth.48,49 Scanning electron microscopy (SEM)
+made a theoretical binary phase diagram using the Schroeder−                  images of recrystallized 10.4620.54 (Figure 2D) show the
+van Laar equation (Figure S9).42,43 The estimated eutectic                    structure with striped textures of 1 and 2, which also support
+ratio and Te are 10.3820.62 and 102 °C, respectively. The                     the formation of a lamellar structure by eutectic crystallization.
+equation links the interaction parameter (χ), Tm, and fusion                     DSC measurements with the scan rates of 20, 30, 75, and
+enthalpy (ΔHfus) of two constituents. The difference between                  100 °C min−1 showed endothermic peaks resulting from
+the experimental and estimated eutectic ratio and Te results                  crystal melting at 100 °C with a ΔHfus of 40 kJ mol−1 (Figure
+from specific interactions observed in 1x21−x, which are not                  S12). We found exothermic peaks in the cooling rates of 20
+involved in the equation, such as the Ag−N coordination in                    and 30 °C min−1, but ΔHc (27 and 13 kJ mol−1, respectively)
+the liquid state.44                                                           values were smaller than that found in the cooling rate of 10
+   Tamman’s diagram is useful for discussing the eutectic point               °C min−1 (40 kJ mol−1) due to low crystallinity. DSC
+and solid solution formation of binary compounds based on                     measurements with scan rates of 75 and 100 °C min−1 did not
+thermodynamic parameters.45,46 The diagram represents the                     show exothermic peaks in the cooling process, and the
+fusion enthalpy (ΔHfus) at Te as a function of the molar                      exothermic peaks resulting from cold crystallization appeared
+fraction of constituents. ΔHfus increases as the molar fraction               in the second and third heating processes. The results indicate
+comes close to the eutectic composition. Tamman’s diagram of                  that a 10 °C min−1 cooling process is required to reach
+1 and 2 (Figure 2B) consists of PO and PQ lines, which are
+                                                                              equilibrium during the melting and crystallization processes.
+linear regressions of ΔHfus−x plots. The ΔHfus maximum at x =
+                                                                                 We tracked the crystal melting and crystallization by VT-FT-
+0.46 indicates that 10.4620.54 is in the eutectic composition
+                                                                              IR measurements of 1, 2, and 10.4620.54 (Figure S13). The CN
+(Figure 2B and Table S4). PO and PQ lines crossing the
+                                                                              stretching band (νCN) of 10.4620.54 (2274 cm−1 at 40 °C)
+composition axis at x = 0 and 1 mean no miscibility in the solid
+                                                                              shifted to 2272 cm−1 at 80 and 95 °C. The νCN of 1 and 2 also
+state in the 1−2 system.
+   The DSC measurements of 10.4620.54 in seven heating−                       shifted to the lower-wavenumber side by heating. Cooling of
+cooling cycles indicate the reversible melt and crystallization in            10.4620.54, 1, and 2 led to a higher-wavenumber side shift of the
+the heating and cooling processes (Figure S10). The                           νCN due to crystallization. The lower-wavenumber shift arises
+crystallization temperature (Tc) is 80 °C due to supercooling.                from the increase of the electron density of an antibonding
+VT-PXRD of the 10.4620.54 liquid showed a scattering pattern at               orbital of cyanides due to weak Ag−N coordination and long
+95 °C in the cooling process, which also supports supercooling                C�N covalent bonds.50 Interfacial interaction leads to
+(Figure 2A). Peaks from 1 and 2 at 80 °C in the cooling                       eutectic melting of binary compounds.8 The Ag+-dinitrile
+process resulted from eutectic crystallization. We did not                    frameworks and labile Ag+-N coordination bonds facilitate the
+observe any peaks attributable to crystals other than 1 and 2.                interfacial interaction between 1 and 2, resulting in a eutectic
+The peaks from planes (1 0 1) of 2 (2θ = 13.3°), (1 0 3) of 2                 melting.
+(2θ = 19.2°), (2 0 2) of 1 (2θ = 27.0°), and (2 2 0) of 1 (2θ =                  Binary Phase Diagrams of 3 and 4. Structural
+30.3°) did not reappear in the cooling process. The                           similarities of 1 and 2, such as four-coordinated Ag+ ions in
+phenomenon is due to the result of the anisotropic crystal                    the tetrahedral geometries and 2D structures, lead to ligand
+growth in the eutectic crystallization of 10.4620.54. The                     exchange reactions that facilitate eutectic melting of 1x21−x. We
+anisotropic crystal growth macrostructure of solids from                      examined other constituents that have less structural similarity
+eutectic crystallization depends on processes of crystal                      in creating binary compounds. 3 has Ag+ ions in tetrahedral
+nucleation and growth.47 We observed the lamellar macro-                      geometries and a three-dimensional (3D) Ag+-AN structure,
+structure in 10.4620.54 by polarized optical microscopy                       while 4 has two-coordinated Ag+ ions and a one-dimensional
+observation after the crystallization of the 10.4620.54 liquid                (1D) Ag+-AN structure (Figure 3).31 Their structural differ-
+(Figure 2C). The lamellar structures were not observed in 1                   ence arises from the different counteranions.
+                                                                       5143                                              https://doi.org/10.1021/jacs.4c15317
+                                                                                                                     J. Am. Chem. Soc. 2025, 147, 5140−5148
+Journal of the American Chemical Society                                                   pubs.acs.org/JACS                                            Article
+
+
+
+
+Figure 4. (A) PXRD patterns of 3x51−x at room temperature. Color masks represent diffraction peaks derived from 3 (gray) and 5 (pink),
+respectively. (B) DSC curves of 3x51−x in the upscan. The inset points (red triangles) representing the solidus of solid solutions are defined as the
+first deviation from baselines for 30.3550.65, 30.350.7, 30.250.8, and 30.150.9. Endothermic peaks of the solvus are shown by blue triangles for 30.350.7 and
+30.3550.65. (C) Binary phase diagram of 3x51−x with crystal structures and components of 3 (right) and 5 (left). C, N, Ag, B, F, O, and P atoms are
+black, blue, pink, green, orange, red, and purple, respectively. Dashed lines marked as (i), (ii), (iii), and (iv) indicate the corresponding PXRD
+patterns shown in Figure S15.
+
+   PXRD patterns of 3x41−x (x = 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7,                amorphization occurred in the mechanical mixing process
+0.8, and 0.9) consist of peaks derived from 3 and 4, suggesting                   (Figure 4A). Te was found at 127 °C in DSC conducted for
+that no chemical reaction and amorphization occurred in the                       3x51−x (x = 0.4, 0.5, 0.6, 0.7, 0.8, and 0.9, Figure 4B and Table
+mechanical mixing process (Figure S6B). Te was observed at                        S7). 30.950.1 has only one Tm at Te and showed a scattered
+110 °C in the DSC conducted for 3x41−x (x = 0.1, 0.2, 0.3, 0.4,                   PXRD pattern at 130 °C, which is higher than Te (Figure
+0.5, 0.6, 0.7, 0.8, and 0.9, Figure S7B). 30.640.4, having only one               S15A). 3x51−x (x = 0.4, 0.5, 0.6, 0.7, and 0.8) has the
+Tm at Te, is in the eutectic composition (Table S6). Figure 3                     equilibrium Tm at 132, 139, 144, 153, and 158 °C, respectively.
+shows the binary phase diagram of 3−4. Phases described in                        The VT-PXRD of 30.550.5 indicates the successive melting of 3
+the diagrams are determined by the VT-PXRD of 30.840.2,                           and 5 at Te (127 °C by DSC) and the equilibrium Tm (153 °C
+30.640.4, and 30.240.8 (compositions shown as (i), (ii), and (iii)                by DSC), respectively (Figure S15B). The DSC curves of
+in Figure 3, Figure S14). The diagram represents a binary                         30.350.7 and 30.3550.65 have broad endothermic peaks above 160
+eutectic system without a terminal solid solution. The two-                       °C, which are characteristic of solid solutions (Figure 4B). The
+coordinated Ag+ ions in 4 have the capability to accept more                      inset and onset temperatures represent the solidus and
+ligands and facilitate ligand exchange reactions between 3 and                    liquidus, respectively.39,40 Their crystal melting is characterized
+4 in an associative substitution mechanism, resulting in the                      by scattering PXRD patterns at 180 °C (Figure S15C). 30.350.7
+eutectic melting, like the 1−2 system.                                            and 30.3550.65 have small endothermic peaks at 111 and 116 °C,
+   Binary Phase Diagrams of 3 and 5 Showing the                                   respectively, below Te (127 °C). The peaks indicate the solvus
+Terminal Solid Solution Phase. Binary metals have a                               where 3 completely dissolves in 5. PXRD patterns of 30.350.7
+terminal solid solution phase when the metals have similar                        consist of peaks derived from 3 and 5 at 40, 60, and 100 °C
+atomic sizes, valences, and crystal space groups according to                     (Figures 4A and S15C). The disappearance of 3 peaks at 120,
+the Hume−Rothery rules.51 CPs also follow the rules when                          140, and 160 °C also indicates that 3 completely dissolves in 5
+two crystal structures are similar (i.e., coordination geometry                   at the solvus. The DSC curves of 30.150.9 and 30.250.8 have
+of metal ions, dimension of structure).52 We examined 3 and 5                     broad endothermic peaks representing the solidus and liquidus
+having structural similarity of Ag+ ions in tetrahedral                           but no peaks representing the solvus. PXRD patterns of 30.250.8
+geometries and 3D Ag+-AN structures in creating binary                            have no peaks arising from 3 at 40, 60, 120, and 150 °C
+compounds.31 5 accommodates PF6− (thermochemical radii:                           because 30.250.8 is below the maximum solubility limit of 3 in 5
+2.42 Å) and 3 accommodates BF4− (thermochemical radii:                            (Figure S15D).
+2.05 Å), resulting in different lattice dimensions.53                                PXRD patterns of 30.350.7 consist of peaks derived from 3
+   PXRD patterns of 3x51−x in 3-rich compositions (x = 0.3,                       and 5 at 40, 60, and 100 °C (Figures 4A and S15C). The
+0.4, 0.5, 0.7, and 0.9) consist of peaks derived from 3 and 5 at                  disappearance of 3 peaks at 120, 140, and 160 °C indicates that
+room temperature, suggesting that no chemical reaction and                        3 completely dissolves in 5 at the solvus. The DSC curves of
+                                                                           5144                                                 https://doi.org/10.1021/jacs.4c15317
+                                                                                                                            J. Am. Chem. Soc. 2025, 147, 5140−5148
+Journal of the American Chemical Society                                             pubs.acs.org/JACS                                         Article
+
+30.150.9 and 30.250.8 have broad endothermic peaks representing              of the supercooling state resulting from low diffusion of nuclei
+the solidus and liquidus but no peaks representing the solvus.               and slow crystal growth in the binary liquid.57 We investigated
+PXRD patterns of 30.250.8 have no peaks arising from 3 at 40,                the binary phase diagrams of 1 and 2 to explore optimal LHS
+60, 120, and 150 °C. 30.250.8 is below the maximum solubility                properties and found that 10.4620.54 shows a heat storage
+limit of 3 in 5 (Figure S15D).                                               capacity of 97 kJ kg−1 (Table S8). It stores and releases heat at
+   We depicted a composition−temperature binary phase                        100 and 80 °C, respectively, and the phase-transition hysteresis
+diagram of the 3−5 system showing a binary eutectic system                   window is 20 °C, which is four times larger than those of 1 and
+with a terminal solid solution, like the Sn−Pb system (Figure                2. The hysteresis window is comparable to poly(ethylene
+4C).41 The diagram consists of two liquidus lines (AO and                    glycol) 4000 (22 °C), recognized as an LHS material with
+BO), two solidus lines (AP and DP), and a solvus line (CP).                  large hysteresis.62 The energy recovery efficiency of 10.4620.54 is
+Part of the solvus line is shown as a dotted line because of                 0.99, which results from eutectic crystallization without solid
+uncertainties around the maximum solubility limit as observed                solution formation in the 1−2 system.
+in binary metals.8
+   We analyzed the solid solution structure using the pair
+distribution function (PDF) analysis from X-ray total
+scattering (Figure S16). 30.250.8 does not have peaks
+                                                                             ■   CONCLUSIONS
+                                                                             We demonstrated the construction of three types of binary
+contributed by the distances of neighboring Ag+ ions in 3                    phase diagrams using Ag+-based coordination polymer (CP)
+(7.7 and 11.6 Å) but shows peaks at 6.5 and 12.6 Å dominated                 crystals. Based on the five compounds from 1 to 5 with
+by the distances of neighboring Ag+ ions in 5. The SEM image                 different compositions and structure dimensionalities, we
+of 30.250.8 with elemental mapping indicates the coexistence of              prepared the binary systems and investigated their structural/
+BF4− and PF6− in 30.250.8 particles (Figure S17). Diffraction                thermal properties. All diagrams showed lower Tm values than
+peaks of (200), (020), and (002) found at 2θ = 16.49, 13.68,                 the single components due to the eutectic phenomenon. The
+and 13.91°, respectively, for 5, shifted to 2θ = 16.48, 13.53, and           binary system 3−5 only showed terminal solid solution phases,
+13.82°, respectively, for 30.150.9 and 30.350.7. The difference of           which were determined by the matching of crystal structures,
+lattice constants of 5 (a = 10.738 Å, b = 12.931 Å, and c =
+                                                                             coordination geometries, and compositions. X-ray diffraction
+12.719 Å), and 30.150.9 and 30.350.7 (a = 10.745 Å, b = 13.073 Å,
+                                                                             and elemental mapping suggested that solid solution formation
+and c = 12.800 Å) results from the unit cell expansion by the
+anion exchange of PF6− with BF4−. νCN, νPF, and νBF peaks                    is promoted by both ligands and anion exchange. Crystal-
+were observed in the FT-IR spectra of 3, 5, and 3x51−x (x = 0.1,             lization of the binary liquids on cooling resulted in the
+0.2, 0.3, 0.5, 0.7, 0.8, and 0.9), but specific peak shifts arising          formation of a lamellar macrostructure and supercooling due
+from BF4− in the 5 frameworks were not found in 30.150.9 and                 to low nuclear diffusion and slow crystal growth. The optimal
+30.350.7 (Figure S18).                                                       binary compound 10.4620.54 in the eutectic ratio represented the
+   Latent Heat Storage Functions of Binary Com-                              heat storage capacity of 97 kJ kg−1, the energy recovery
+pounds. Reversible solid−liquid phase transitions are                        efficiency of 0.99, and phase-transition hysteresis (20 °C) to
+applicable to latent heat storage (LHS).54,55 LHS materials                  store and release heat at 100 and 80 °C, respectively. The
+store and release thermal energy at Tm and Tc, respectively, and             properties are promising for reuse of waste heat from industries
+should have a large heat storage capacity estimated from ΔHfus               at intermediate-temperature ranges, which is not accessible
+and crystallization enthalpy (ΔHc) and high energy recovery                  using conventional organic and inorganic LHS materials. CP/
+efficiency (ΔHs/ΔHfus ∼ 1).56 LHS materials with large phase-                MOFs consisting of dinitrile, N-methylurea, and acetamide
+transition hysteresis defined by Tm−Tc are beneficial to long-               ligands exhibiting reversible melting and recrystallization are
+term heat storage with minimum insulation and stimuli-                       available as constituents of binary systems.17 The investigation
+responsible heat release. 57 To date, about 20 binary                        of a binary phase diagram of these CP/MOFs will be a
+compounds are in practical use. Binary organic materials                     powerful approach to exploring the unknown phases and
+such as erythritol-urea mostly work below 80 °C, and inorganic               functionalities.
+materials such as NaNO3−KNO3 work above 200 °C.58−,60
+Sugar alcohols are representative LHS materials available at
+around 100 °C. Erythritol melts at 119 °C, crystallizes at 22
+°C, and has an energy recovery efficiency of 56%.61 The large
+                                                                             ■
+                                                                             *
+                                                                                 ASSOCIATED CONTENT
+                                                                             sı Supporting Information
+
+hysteresis is beneficial but the energy recovery efficiency is low           The Supporting Information is available free of charge at
+due to formation of an amorphous solid.                                      https://pubs.acs.org/doi/10.1021/jacs.4c15317.
+   1 stores and releases heat at 147 and 143 °C, respectively,
+and has a heat storage capacity of 112 kJ kg−1, which is in the                    PXRD patterns, FT-IR spectra, TG-DTA profiles, DSC
+range of practical organic materials (Table S4, 90−248 kJ                          profiles, modeled binary phase diagram, SEM and
+kg−1). The energy recovery efficiency of 1 (0.98) is as high as                    elemental mapping images, PDF profiles, tables of
+that of [Ca(N-methylurea)6](NO3)2 (0.98), which has the                            thermophysical parameters, and crystallographic param-
+highest efficiency among the reported CP/MOFs showing                              eters of 5 (PDF)
+LHS.17 The high efficiency is due to the absence of
+amorphization and cold crystallization typically observed in                 Accession Codes
+other LHS materials. 1 is promising as an intermediate-                      Deposition Number 2286694 contains the supplementary
+temperature LHS but the phase-transition hysteresis window is                crystallographic data for this paper. These data can be obtained
+4 °C, which is not sufficient for long-term heat storage. 2                  free of charge via the joint Cambridge Crystallographic Data
+shows similar LHS properties as shown in Table S4. The                       Centre (CCDC) and Fachinformationszentrum Karlsruhe
+binary systems have wider phase-transition hysteresis because                Access Structures service.
+                                                                      5145                                             https://doi.org/10.1021/jacs.4c15317
+                                                                                                                   J. Am. Chem. Soc. 2025, 147, 5140−5148
+Journal of the American Chemical Society                                           pubs.acs.org/JACS                                           Article
+
+
+■   AUTHOR INFORMATION
+Corresponding Authors
+                                                                          ■   REFERENCES
+                                                                            (1) Modern Physical Metallurgy and Materials Engineering, 6th ed.;
+  Hiroyasu Tabe − Institute for Integrated Cell-Material                  Smallman, R. E.; Bishop, R. J., Eds.; Butterworth-Heinemann: MA,
+                                                                          1999.
+    Sciences, Institute for Advanced Study, Kyoto University,
+                                                                            (2) Elements of Metallurgy and Engineering Alloys, 1st ed.; Campbell,
+    Kyoto 606-8501, Japan; orcid.org/0000-0003-2028-                      F. C., Ed.; ASM International: OH, 2008.
+    7371; Email: tabe.hiroyasu.4y@kyoto-u.ac.jp                             (3) Alloys: Metallurgy and Engineering, 6th ed.; Gordon, N., Ed.;
+  Satoshi Horike − Department of Materials Science and                    Willford Press: NY, 2020.
+    Engineering, School of Molecular Science and Engineering,               (4) Classic and Advanced Ceramics: From Fundamentals to
+    Vidyasirimedhi Institute of Science and Technology, Rayong            Applications, 1st ed.; Heimann, R. B., Ed.; WileyVCH: Germany,
+    21210, Thailand; Institute for Integrated Cell-Material               2010.
+    Sciences, Institute for Advanced Study, Kyoto University,               (5) Cherukuvada, S.; Nangia, A. Eutectics as improved pharmaceut-
+    Kyoto 606-8501, Japan; Department of Chemistry, Graduate              ical materials: design, properties and characterization. Chem. Commun.
+    School of Science, Kyoto University, Kyoto 606-8502, Japan;           2014, 50 (8), 906−923.
+      orcid.org/0000-0001-8530-6364;                                        (6) Akamatsu, S.; Plapp, M. Eutectic and peritectic solidification
+    Email: horike.satoshi.3r@kyoto-u.ac.jp                                patterns. Curr. Opin. Solid State Mater. Sci. 2016, 20 (1), 46−54.
+                                                                            (7) Transformation and Properties, 1st ed.; Hu, G.; Cai, X.; Rong, Y.,
+Authors                                                                   Eds.; Walter de Gruyter, 2020.
+                                                                            (8) Yu, D.; Xue, Z.; Mu, T. Eutectics: formation, properties, and
+   Karnjana Atthawilai − Department of Materials Science and              applications. Chem. Soc. Rev. 2021, 50 (15), 8596−8638.
+     Engineering, School of Molecular Science and Engineering,              (9) Bennett, T. D.; Cheetham, A. K.; Fuchs, A. H.; Coudert, F. X.
+     Vidyasirimedhi Institute of Science and Technology, Rayong           Interplay between defects, disorder and flexibility in metal-organic
+     21210, Thailand                                                      frameworks. Nat. Chem. 2017, 9 (1), 11−16.
+   Kotaro Ohara − Department of Synthetic Chemistry and                     (10) Nagarkar, S. S.; Kurasho, H.; Duong, N. T.; Nishiyama, Y.;
+     Biological Chemistry, Graduate School of Engineering, Kyoto          Kitagawa, S.; Horike, S. Crystal melting and glass formation in copper
+     University, Kyoto 615-8510, Japan                                    thiocyanate based coordination polymers. Chem. Commun. 2019, 55
+   Kanokwan Kongpatpanich − Department of Materials                       (38), 5455−5458.
+     Science and Engineering, School of Molecular Science and               (11) Feng, L.; Wang, K. Y.; Day, G. S.; Ryder, M. R.; Zhou, H. C.
+     Engineering, Vidyasirimedhi Institute of Science and                 Destruction of Metal-Organic Frameworks: Positive and Negative
+     Technology, Rayong 21210, Thailand; orcid.org/0000-                  Aspects of Stability and Lability. Chem. Rev. 2020, 120 (23), 13087−
+                                                                          13133.
+     0002-4353-7057                                                         (12) Fonseca, J.; Gong, T.; Jiao, L.; Jiang, H.-L. Metal−organic
+Complete contact information is available at:                             frameworks (MOFs) beyond crystallinity: amorphous MOFs, MOF
+https://pubs.acs.org/10.1021/jacs.4c15317                                 liquids and MOF glasses. J. Mater. Chem. A 2021, 9 (17), 10562−
+                                                                          10611.
+Funding                                                                     (13) Liu, M.; McGillicuddy, R. D.; Vuong, H.; Tao, S.; Slavney, A.
+                                                                          H.; Gonzalez, M. I.; Billinge, S. J. L.; Mason, J. A. Network-Forming
+The work was supported by the Grant-in-Aid for Scientific                 Liquids from Metal-Bis(acetamide) Frameworks with Low Melting
+Research to H.T. (Grant for Young Researchers                             Temperatures. J. Am. Chem. Soc. 2021, 143 (7), 2801−2811.
+(JP21K14648)) and to S.H. (Fund for the Promotion of                        (14) Xue, W. L.; Kolodzeiski, P.; Aucharova, H.; Vasa, S.;
+Joint International Research (International Collaborative                 Koutsianos, A.; Pallach, R.; Song, J.; Frentzel-Beyme, L.; Linser, R.;
+Research, JP24K0112), Transformative Research Areas (A)                   Henke, S. Highly porous metal-organic framework liquids and glasses
+“Supra-ceramics” (JP22H05147)) from the Ministry of                       via a solvent-assisted linker exchange strategy of ZIF-8. Nat. Commun.
+Education, Culture, Sports, Science and Technology, Japan,                2024, 15 (1), No. 4420.
+the New Energy and Industrial Technology Development                        (15) Widmer, R. N.; Lampronti, G. I.; Anzellini, S.; Gaillac, R.;
+Organization (NEDO) (JPNP14004) to H. T., Networked                       Farsang, S.; Zhou, C.; Belenguer, A. M.; Wilson, C. W.; Palmer, H.;
+Exchange, United Strength for Stronger Partnerships between               Kleppe, A. K.; Wharmby, M. T.; Yu, X.; Cohen, S. M.; Telfer, S. G.;
+Japan and ASEAN of Japan Science and Technology Agency                    Redfern, S. A. T.; Coudert, F. X.; MacLeod, S. G.; Bennett, T. D.
+(JST-NEXUS, Y2024L0903006) grant to H.T., the Thailand                    Pressure promoted low-temperature melting of metal-organic frame-
+                                                                          works. Nat. Mater. 2019, 18 (4), 370−376.
+Science Research and Innovation (TSRI) under the fiscal year                (16) Gaillac, R.; Pullumbi, P.; Beyer, K. A.; Chapman, K. W.; Keen,
+2025 funding program, the Research Institute for Production               D. A.; Bennett, T. D.; Coudert, F. X. Liquid metal-organic
+Development (Seiken), and Ishizue from Kyoto University.                  frameworks. Nat. Mater. 2017, 16 (11), 1149−1154.
+Notes                                                                       (17) McGillicuddy, R. D.; Thapa, S.; Wenny, M. B.; Gonzalez, M. I.;
+The authors declare no competing financial interest.                      Mason, J. A. Metal-Organic Phase-Change Materials for Thermal
+                                                                          Energy Storage. J. Am. Chem. Soc. 2020, 142 (45), 19170−19180.
+
+■   ACKNOWLEDGMENTS
+We thank Thanakorn Tiyawarakul (Vidyasirimedhi Institute of
+                                                                            (18) Shaw, B. K.; Hughes, A. R.; Ducamp, M.; Moss, S.; Debnath,
+                                                                          A.; Sapnik, A. F.; Thorne, M. F.; McHugh, L. N.; Pugliese, A.; Keeble,
+                                                                          D. S.; Chater, P.; Bermudez-Garcia, J. M.; Moya, X.; Saha, S. K.; Keen,
+Science and Technology) for his support in the SEM                        D. A.; Coudert, F. X.; Blanc, F.; Bennett, T. D. Melting of hybrid
+                                                                          organic-inorganic perovskites. Nat. Chem. 2021, 13 (8), 778−785.
+measurement and Jetnipat Songkerdthong (Vidyasirimedhi                      (19) Das, C.; Nishiguchi, T.; Fan, Z.; Horike, S. Crystallization
+Institute of Science and Technology) for his support in the               Kinetics of a Liquid-Forming 2D Coordination Polymer. Nano Lett.
+crystal structure analysis. The synchrotron radiation experi-             2022, 22 (23), 9372−9379.
+ments were performed using the BL04B2 beamline at SPring-8                  (20) Singh, A.; Kim, Y.; Henry, R.; Ade, H.; Mitzi, D. B. Study of
+with the approval of JASRI (Proposal Nos. 2023B1721,                      Glass Formation and Crystallization Kinetics in a 2D Metal Halide
+2024A1604, and 2024B1179) under the support of Dr. Hiroki                 Perovskite Using Ultrafast Calorimetry. J. Am. Chem. Soc. 2023, 145
+Yamada (Japan Synchrotron Radiation Research Institute).                  (33), 18623−18633.
+
+                                                                   5146                                                https://doi.org/10.1021/jacs.4c15317
+                                                                                                                   J. Am. Chem. Soc. 2025, 147, 5140−5148
+Journal of the American Chemical Society                                                          pubs.acs.org/JACS                                           Article
+
+  (21) Ma, N.; Kosasang, S.; Berdichevsky, E. K.; Nishiguchi, T.;                        diagram of salicylic acid - 4-hydroxybenzoic acid. Phys. Chem. Chem.
+Horike, S. Functional metal-organic liquids. Chem. Sci. 2024, 15 (20),                   Phys. 2024, 26 (4), 3069−3080.
+7474−7501.                                                                                 (41) Moser, Z.; Dutkiewicz, J.; Zabdyr, L.; Salawa, J. The Bi-Cd
+  (22) Kronawitter, S. M.; Kieslich, G. The wondrous world of ABX3                       (Bismuth-Cadmium) System. Bull. Alloy Phase Diagrams 1988, 9,
+molecular perovskites. Chem. Commun. 2024, 60 (82), 11673−11684.                         445−448.
+  (23) Francisco-López, A.; Charles, B.; Alonso, M. I.; Garriga, M.;                       (42) Prencipe, M.; Mazzeo, P. P.; Bacchi, A. A method to predict
+Campoy-Quiles, M.; Weller, M. T.; Goñi, A. R. Phase Diagram of                          binary eutectic mixtures for mechanochemical syntheses and
+Methylammonium/Formamidinium Lead Iodide Perovskite Solid                                cocrystallizations. RSC Mechanochem. 2025, 2, 61−71.
+Solutions from Temperature-Dependent Photoluminescence and                                 (43) Kollau, L. J. B. M.; Vis, M.; van den Bruinhorst, A.; Esteves, A.
+Raman Spectroscopies. J. Phys. Chem. C 2020, 124 (6), 3448−3458.                         C. C.; Tuinier, R. Quantification of the liquid window of deep eutectic
+  (24) Yu, Z.-L.; Zhao, Y.-Q.; Wan, Q.; Liu, B.; Yang, J.-L.; Cai, M.-Q.                 solvents. Chem. Commun. 2018, 54 (95), 13351−13354.
+Exploring the Coexistence Mechanism of CsPb2Br5 and CsPbBr3                                (44) Kollau, L. J. B. M.; Tuinier, R.; Verhaak, J.; den Doelder, J.;
+Based on the Competitive Phase Diagram. J. Phys. Chem. C 2020, 124                       Filot, I. A. W.; Vis, M. Design of Nonideal Eutectic Mixtures Based on
+(42), 23052−23058.                                                                       Correlations with Molecular Properties. J. Phys. Chem. B 2020, 124
+  (25) Š imėnas, M.; Balčiu̅nas, S.; Svirskas, Š . n.; Kinka, M.; Ptak, M.;          (25), 5209−5219.
+Kalendra, V.; Ga̧gor, A.; Szewczyk, D.; Sieradzki, A.; Grigalaitis, R.;                    (45) Rycerz, L. Practical remarks concerning phase diagrams
+Walsh, A.; Ma̧czka, M.; Banys, Jr. Phase Diagram and Cation                              determination on the basis of differential scanning calorimetry
+Dynamics of Mixed MA1−xFAxPbBr3 Hybrid Perovskites. Chem.                                measurements. J. Therm. Anal. Calorim. 2013, 113 (1), 231−238.
+Mater. 2021, 33 (15), 5926−5934.                                                           (46) Hildal, K.; Perepezko, J. H.Chapter 19 - Metals and Alloys. In
+  (26) Kronawitter, S. M.; Hallweger, S. A.; Meyer, J.; Pedri, C.;                       Handbook of Thermal Analysis and Calorimetry; Elsevier, 2018; Vol. 6,
+Burger, S.; Alhadid, A.; Henke, S.; Kieslich, G. Li(C2N3) as eutectic                    pp 781−828 .
+forming modifier in the melting process of the molecular perovskite                        (47) Shtukenberg, A. G.; Punin, Y. O.; Gunn, E.; Kahr, B.
+[(C3H7)3N(C4H9)]Mn(C2N3)3. APL Mater. 2023, 11, No. 031119.                              Spherulites. Chem. Rev. 2012, 112 (3), 1805−1838.
+  (27) Simenas, M.; Gagor, A.; Banys, J.; Maczka, M. Phase                                 (48) Savas, M. A.; Smith, R. W. The structural degradation and
+Transitions and Dynamics in Mixed Three- and Low-Dimensional                             lamellar to rod transition in the Bi-Cd eutectic during unidirectional
+Lead Halide Perovskites. Chem. Rev. 2024, 124 (5), 2281−2326.                            growth. J. Mater. Sci. 1985, 20, 881−888.
+  (28) Rimkus, G.; Balčiu̅nas, S.; Ptak, M.; Smółka, S.; Klimavičius, V.;                (49) Gusakova, O. V.; Shepelevich, V. G.; Scherbachenko, L. P.
+Szewczyk, D.; Sieradzki, A.; Kalendra, V.; Banys, Jr.; Mączka, M.;                       Aging of rapidly solidified eutectic alloys Sn−Bi, Sn−Pb, and Bi−Cd.
+Š imėnas, M. Phase Diagram and Dielectric Response of Hybrid Lead                      Inorg. Mater. Appl. Res. 2016, 7 (5), 698−703.
+Halide Hollow Perovskites: A Universal Behavior of Molecular Cation                        (50) Applications in Inorganic Chemistry. In Infrared and Raman
+Mixing. Chem. Mater. 2024, 36 (15), 7397−7405.                                           Spectra of Inorganic and Coordination Compounds; Nakamoto, K., Ed.;
+  (29) Das, C.; Horike, S. Crystal melting and vitrification behaviors of                Wiley, 2008; pp 149−354.
+a three-dimensional nitrile-based metal-organic framework. Faraday                         (51) Daeneke, T.; Khoshmanesh, K.; Mahmood, N.; de Castro, I. A.;
+Discuss. 2021, 225, 403−413.                                                             Esrafilzadeh, D.; Barrow, S. J.; Dickey, M. D.; Kalantar-zadeh, K.
+  (30) Das, C.; Ogawa, T.; Horike, S. Stable melt formation of 2D                        Liquid metals: fundamentals and applications in chemistry. Chem. Soc.
+nitrile-based coordination polymer and hierarchical crystal-glass                        Rev. 2018, 47 (11), 4073−4111.
+structuring. Chem. Commun. 2020, 56 (63), 8980−8983.                                       (52) Panda, T.; Horike, S.; Hagi, K.; Ogiwara, N.; Kadota, K.;
+  (31) Carlucci, L.; Ciani, G.; Proserpio, D. M.; Rizzato, S.                            Itakura, T.; Tsujimoto, M.; Kitagawa, S. Mechanical Alloying of
+Coordination networks from the self-assembly of silver salts and the                     Metal-Organic Frameworks. Angew. Chem., Int. Ed. 2017, 56 (9),
+linear chain dinitriles NC(CH2)nCN (n = 2 to 7): a systematic                            2413−2417.
+investigation of the role of counterions and of the increasing length of                   (53) Simoes, M. C.; Hughes, K. J.; Ingham, D. B.; Ma, L.;
+the spacers. CrystEngComm 2002, 4 (70), 413−425.                                         Pourkashanian, M. Estimation of the Thermochemical Radii and Ionic
+  (32) Dolomanov, O. V.; Bourhis, L. J.; Gildea, R. J.; Howard, J. A.                    Volumes of Complex Ions. Inorg. Chem. 2017, 56 (13), 7566−7573.
+K.; Puschmann, H. OLEX2: a complete structure solution, refinement                         (54) Shi, Y.; Gerkman, M. A.; Qiu, Q.; Zhang, S.; Han, G. G. D.
+and analysis program. J. Appl. Crystallogr. 2009, 42 (2), 339−341.                       Sunlight-activated phase change materials for controlled heat storage
+  (33) Sheldrick, G. M. SHELXT-integrated space-group and crystal-                       and triggered release. J. Mater. Chem. A 2021, 9 (15), 9798−9808.
+structure determination. Acta Crystallogr., Sect. A: Found. Adv. 2015,                     (55) Aftab, W.; Usman, A.; Shi, J.; Yuan, K.; Qin, M.; Zou, R. Phase
+71, 3−8.                                                                                 change material-integrated latent heat storage systems for sustainable
+  (34) Sheldrick, G. M. Crystal structure refinement with SHELXL.                        energy solutions. Energy Environ. Sci. 2021, 14 (8), 4268−4291.
+Acta Crystallogr., Sect. C: Struct. Chem. 2015, 71, 3−8.                                   (56) Wu, S.; Yan, T.; Kuai, Z.; Pan, W. Thermal conductivity
+  (35) Macrae, C. F.; Sovago, I.; Cottrell, S. J.; Galek, P. T. A.;                      enhancement on phase change materials for thermal energy storage: A
+McCabe, P.; Pidcock, E.; Platings, M.; Shields, G. P.; Stevens, J. S.;                   review. Energy Storage Mater. 2020, 25, 251−295.
+Towler, M.; Wood, P. A. Mercury 4.0: from visualization to analysis,                       (57) Yuan, M.; Cao, D.; Liu, C.; Xu, C.; Liao, Z. Temperature-
+design and prediction. J. Appl. Crystallogr. 2020, 53 (1), 226−235.                      dependent growth kinetic and crystallization behavior of the
+  (36) Faber, T. E.; Ziman, J. M. A theory of the electrical properties                  supercooled erythritol as a phase change material in long-term heat
+of liquid metals. Philos. Mag. 1965, 11 (109), 153−173.                                  storage. Chem. Eng. J. 2023, 469, No. 143743.
+  (37) Lorch, E. Neutron diffraction by germania, silica and radiation-                    (58) Sun, M.; Liu, T.; Sha, H.; Li, M.; Liu, T.; Wang, X.; Chen, G.;
+damaged silica glasses. J. Phys. C Solid State Phys. 1969, 2, 229−237.                   Wang, J.; Jiang, D. A review on thermal energy storage with eutectic
+  (38) Kohara, S.; Itou, M.; Suzuya, K.; Inamura, Y.; Sakurai, Y.;                       phase change materials: Fundamentals and applications. J. Energy
+Ohishi, Y.; Takata, M. Structural studies of disordered materials using                  Storage 2023, 68, 905−919.
+high-energy x-ray diffraction from ambient to extreme conditions. J.                       (59) Kosmadakis, G. Estimating the potential of industrial (high-
+Phys.: Condensed Matter 2007, 19 (50), No. 506101.                                       temperature) heat pumps for exploiting waste heat in EU industries.
+  (39) Mohajerani, S. S.; Ricci, F.; Nordstrom, F. L. Solubility                         Appl. Therm. Eng. 2019, 156, 287−298.
+enhancements through crystalline solid solutions, the non-linear                           (60) Soni, V.; Kumar, A.; Jain, V. K. Fast waste heat recovery in
+Tammann diagram and the T−X phase diagram of salicylic acid−                             100−150 °C using close-contact charging of nano-enhanced PCM
+benzoic acid. CrystEngComm 2023, 25 (17), 2607−2617.                                     composite. J. Mol. Liq. 2019, 285, 347−361.
+  (40) Wang, Y.; Ricci, F.; Linehan, B.; Nordstrom, F. L. Terminal                         (61) Shao, X.; Wang, C.; Yang, Y.; Feng, B.; Zhu, Z.; Wang, W.;
+crystalline solid solutions, solubility enhancements and T-X phase                       Zeng, Y.; Fan, L. Screening of sugar alcohols and their binary eutectic
+
+                                                                                  5147                                                https://doi.org/10.1021/jacs.4c15317
+                                                                                                                                  J. Am. Chem. Soc. 2025, 147, 5140−5148
+Journal of the American Chemical Society                                  pubs.acs.org/JACS                               Article
+
+mixtures as phase change materials for low-to-medium temperature
+latent heat storage. Energy 2018, 160, 1078−1090.
+  (62) Qian, T.; Li, J.; Min, X.; Guan, W.; Deng, Y.; Ning, L.
+Enhanced thermal conductivity of PEG/diatomite shape-stabilized
+phase change materials with Ag nanoparticles for thermal energy
+storage. J. Mater. Chem. A 2015, 3 (16), 8526−8536.
+
+
+
+
+                                                                   5148                           https://doi.org/10.1021/jacs.4c15317
+                                                                                              J. Am. Chem. Soc. 2025, 147, 5140−5148
+

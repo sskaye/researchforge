@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "1258",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Dearden 2003 Table 2 shows Chloroform b.p.(exp.) = 61.2 °C; row reports it as boiling_point measured. Quote contains compound name and value 61.2 91.2.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "139",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 014 (ph19020256) Section 'Compound 8 synthesis' states 'N-(n-Undecylamino)methylenebisphosphonic acid (8) ... mp. 205 °C'. Matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "571",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 075 reports compound 6b 'N-[(3,5-dimetyl-1H-pyrazol-1-yl)-methyl]-2,4-dichloroaniline' (paper typo: dimetyl/dimethyl) with mp 108–110 °C; chemistry-meaningful name match.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "666",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 094 (70100096) reports '2,3-Diphenyl-3,4-dihydroquinazolin-4-imine (10a): ... M.p. 214-215 o C'; matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "523",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 068 (molecules31050844) reports compound 4j '2-(4-(5-amino-2-fluoro-4-nitrophenyl)piperazin-1-yl)ethanol ... M.P.: 150–151 °C'; matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "479",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5 row 'T m [K]' shows Hydroxychloroquine STRM = 417.170 K; this is a calculated model output (Stage Three Reduced Model). Conversion 417.170 − 273.15 = 144.020 °C correct.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "370",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 045 reports compound 4f '(1SR) N-(1-(N-tert-Butylcarbamoyl)-1-(4-(dimethylamino)pyridyn-3-yl)methyl)- L -phenylglycine methyl ester (4f): ... m.p. 146–149 °C'. Matches CSV (CSV uses 'pyridyn-3-yl' matching paper).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1560",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Khan 2019 (heliyon) Table 3 row '7:3' shows melting point 115.1 ± 0.4 °C for the ethyl diclofenac : diclofenac acid 7:3 molar ratio mixture; matches CSV.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "1425",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Huang 2026 (molecules31030494) Section 3.2.2 reports '(Sp)-1,4(1,4)-dibenzenacyclohexaphane-12,43-diylbis(2,1-phenylene) bis(trifluoromethanesulfonate) [(Sp)-3a] ... M.p. 129–130 °C'; matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1262",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Dearden 2003 Table 2 shows Cyclohexanone b.p.(exp.) = 155.8 °C; quote contains compound name and value.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "773",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 113 Section 2.3.8 reports '1-(2-(2-(Benzyloxy)-5-bromo-4-methylphenyl)-2-oxoethyl)pyrrolidine-2,5-dione (11) ... 550 mg of 11 as a slightly orange solid (66%), mp 88–90 °C'; matches CSV.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "623",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 090 (70800681) reports '3-(2-furanyl)-6-(2,4-dichlorophenoxymethyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2n): Yield 51 %; M.p.193-195°C'; matches CSV.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "780",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 114 Section 4.1.2 reports '2-oxo-7-((1-(2-oxo-2-(o-Tolylamino)ethyl)-1H-1,2,3-triazol-4-yl)methoxy)-N-((1-(2-oxo-2-(o-tolylamino)ethyl)-1H-1,2,3-triazol-4-yl)methyl)-2H-chromene-3-carboxamide (12b) Brown solid; yield: 78%; MP = 222–225 °C'; matches CSV.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "810",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 116 reports '2-Methyl-2-(4-methylpent-3-en-1-yl)-6-[(E)-(4-nitrophenyl)diazenyl]-7-pentyl-2H-chromen-5-ol (16) ... mp 62–65 °C'; matches CSV.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "91",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 012 (cmdc.202500922) Section 4.2.1.2 reports 'N-(1-Benzylpiperidin-4-yl)-N-Methyl-2-Propylpentanamide (2b) White solid (375 mg, yield 75%): mp 170°C–173°C'; matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "49",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 009 (ph19020239) Section 3.2.4 reports '3,5-Diamino-4-(Phenyldiazenyl)-N-Tosyl-1H-Pyrazole-1-Carboxamide (5a) ... Melting Point: 206–207 °C'; matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1283",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Dearden 2003 Table 2 shows Propionic acid b.p.(exp.) = 141.2 °C; matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "685",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 095 (60300267) reports compound 5c '2-(4-Methoxyphenyl-4-isopropyl-4,10-dihydro-1H-[1,2,4]triazino[6,1-b] quinazolin-10-one (5c).- Prepared from 3e and 4-methoxybenzaldehyde as brown crystals (60%), m.p. 170°C'. Paper has minor parenthesis error; CSV name is chemistry-meaningful and matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "511",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6146921 Table 8 shows 1-octanol Bp(exp) = 195.20 °C in row 45; matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1373",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Muller 2020 (ma13204486) Table 5 shows Eicosane (CAS 112-95-8, Paraffin) Melting Onset 36 ± 0.03 °C; property DSC_onset is correct.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1254",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Dearden 2003 Table 2 shows Bromotrichloromethane b.p.(exp.) = 104.9 °C; matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "201",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 010 reports '(E)-N-(3-Hydroxyadamantan-1-yl)-3-(3-hydroxyphenyl)acrylamide (34) ... White solid. Yield: 27%. Mp 238 °C'; matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1419",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Kim 2026 (acsomega.5c13222) Section 4.2.17 reports '1,5-Naphthyridin-2(1H)-one (4a). A white solid; mp = 253−256 °C'; matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "657",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 093 (80800622) reports compound 14 '4-Acetylthiosemicarbazone-4'-acetyldiphenyl sulphone (14) ... m.p 185°C, yield 80.5%'; matches CSV.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "1500",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Yanovich 2024 (bjoc.20.48) reports '(E)-9-Benzylidene-7-(4-(trifluoromethyl)phenyl)-1-oxa-7-azaspiro[4.4]nonane-6,8-dione (4c) ... Yield: 87 mg (45%) White solid, mp 164.7–164.9 °C'; matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]

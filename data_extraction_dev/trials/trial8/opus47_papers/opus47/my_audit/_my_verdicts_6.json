@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "803",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: compound 3c m.p. 189°C confirmed in experimental section; melting_point classification correct; measured; DOI 10.3390/81200910 present in paper.",
+    "details": "Quote 'm.p. 189°C' verified verbatim in compound 3c experimental description.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "1540",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: compound 9o, M.p. = 221-222 ºC confirmed; range 221-222 captured correctly; measured; bjoc.20.154 DOI confirmed.",
+    "details": "Quote 'Pale brown solid (71%, 823 mg) (crystallized in iPrOH). M.p. = 221 – 222 ºC.' matches verbatim.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "1446",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: Chloromethane MP -114 °C verified in Table 1; melting_point correct; measured (literature compilation); jps.24034 DOI confirmed.",
+    "details": "Table 1 Aliphatic column row: 'Chloromethane − 114'. Quote captures Chlorobenzene-Chloromethane row spanning.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "1702",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: EtDEA diclofenac salt, Tpeak = 76 °C from Table 1 row 10 confirmed; DSC_peak classification correct (Tpeak of salt melting); measured; pharmaceutics2020136 DOI confirmed.",
+    "details": "Quote '10 Ethyl-diethanolamine EtDEA 246 430.15 76' matches Table 1; column header confirms 'Tpeak of salt melting'.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "578",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: 3-me-3-hexanol BP(Exp.) = 142.4 confirmed in Table 5 row 39; boiling_point classification correct; measured (compiled literature BP); ijms12042448 DOI confirmed.",
+    "details": "Table 5 caption: 'Experimental and calculated boiling points (BP) of 58 saturated alcohols'; row 39 entry verified.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "920",
+    "verdict": "flagged_review",
+    "reason": "Q2 fails: paper reports 'm.p. > 300°C' for compound 8 with no decomposition annotation. Per v2.1 disambiguation, bare m.p. value (even with >) defaults to melting_point, not decomposition. Q1, Q3, Q4 pass.",
+    "details": "Quote 'recrystallized to give 7 as pale yellow crystals (66%), m.p. > 300°C' — should be melting_point with relation '>'. Note: source text shows 'give 7' not 'give 8' but context refers to compound 8 — verifier accepts compound identity from preceding paragraph. Decomposition classification incorrect.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "925",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: (±)-vincadifformine m.p. 125 °C confirmed in 'Preparation of (±)-vincadifformine (2)' section; melting_point correct; measured; 61000803 DOI confirmed.",
+    "details": "Quote 'obtained as colouress prisms; m. p. 125 °C' matches paper verbatim.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "1681",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: Trans-polydatin Tm = 504.65 K (= 231.50 °C) confirmed in Table 1 Exp. column; melting_point correct; measured (DSC); molecules30010199 DOI confirmed. Conversion arithmetic noted.",
+    "details": "Table 1 'Experimental melting temperatures, Tm... Trans-polydatin 504.65'. K to °C conversion correct.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "1265",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: copper(II) complex melting point 188-190 °C confirmed in experimental section; melting_point correct; measured; PMC6147103 paper confirmed.",
+    "details": "Quote 'Blue crystals formed after a few days... melting point: 188-190 °C (ethanol)' matches.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "527",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: 3-Hydroxy-2-methyl-3-(2-chlorophenyl)propanoic acid Melting point 84 °C (PDF artifact '0C' for °C); melting_point correct; measured; PMC3685236 confirmed.",
+    "details": "Quote 'C10H11ClO3; Mw = 214.65; Melting point: 84 0C' verified; '0C' is degree-symbol PDF artifact.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "1442",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: Ethane MP -183 °C in Yalkowsky Table 1; melting_point correct; measured (literature compilation); jps.24034 DOI confirmed.",
+    "details": "Table 1 row 'Toluene − 93 0 Ethane − 183' verified.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "459",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: compound 3 DSC reaction onset at 259.1 °C (CO2 elimination); decomposition classification correct per v2.1 ('Onset of decomposition' / DSC reaction = decomposition); measured; 80500453 DOI confirmed.",
+    "details": "Quote from footnote 9: 'A sample of 7.041 mg of 3 was heated... The reaction set in at 259.1 °C' with CO2 loss — decomposition reaction.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "480",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: compound 1c (X=H, R=3,4-Cl2) mp 199-201 °C in Table 1; melting_point correct; measured; 81100756 DOI confirmed.",
+    "details": "Table 1 row '1c C16H14Cl2N2 H 3,4-Cl2 199-201' verified.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "108",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: Diethyl (E)-(4-(Isobutylamino)-4-oxobut-2-en-1-yl)phosphonate (compound 8) Mp 90-91 °C in section 3.1.5; melting_point correct; measured; ijms27041716 DOI confirmed.",
+    "details": "Quote 'white solid (1.17 g, 42% yield). Mp 90–91 ◦C.' matches paper.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "1407",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: [N4,4,4,4][Fap] Subsequent cycles Te = 56.0 in Krossing Table 1 ('Measured melting points'); table caption establishes these as melting points (Te = peak onset method); melting_point acceptable; measured (DSC); cphc.201100522 DOI confirmed.",
+    "details": "Table 1 caption: 'Measured melting points [°C]. Te = peak onset, Tp = peak maximum temperature.' Row '[N4,4,4,4][Fap] 45.9, 47.5, 56.0 58.0 62'. Subsequent-cycles Te column = 56.0.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "267",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: compound 4b (1,1'-(Propane-1,3-diyl)bis{3-[(3,5-dimethyladamantan-1-yl)methyl]urea}, n=3) mp 163.5°C in experimental; melting_point correct; measured; S107042802211001X DOI confirmed.",
+    "details": "Quote 'Yield 0.232 g (99%), mp 163.5°C' matches paper.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "1711",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: N-methyl-diethanolamine (MeDEA) B.p. 248 °C in Table 1 row 9 (free base B.p. column); boiling_point correct; measured; pharmaceutics2020136 DOI confirmed.",
+    "details": "Table 1 row '9 Methyl-diethanolamine MeDEA 248 415.31 102' verified with B.p. (free base) column header.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "1001",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: compound 7 (4-(Trans-2-butenyl)-5-methyl-3-phenyl-4H-1,2,4-triazole) Mp. 103-104 °C; melting_point correct; measured; 60500481 DOI confirmed.",
+    "details": "Quote 'gave 0.98 g (48%) of pure 7 as colorless crystals. Mp. 103-104 °C' matches.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "625",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: compound 5f (4-fluoro-5-(4-phenylpiperazin-1-yl) benzene-1,2-diamine) M.P. 281-283 °C in section 3.1.5; melting_point correct; measured; molecules31050844 DOI confirmed.",
+    "details": "Quote 'Solid cream crystals; molecular formula: C16H19FN4. Yield 0.95 g, 99.4%, M.P.: 281–283 ◦C.' matches.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "1556",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: (Sp)-4f compound M.p. 85-86 °C in section 3.2.3; melting_point correct; measured; molecules31030494 DOI confirmed.",
+    "details": "Quote '[(Sp)-4f]. 677 mg, 83% yield; white solid; M.p. 85–86 ◦C' matches.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "828",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: compound 3b (1-(1-Pentafluorophenyl-1H-pyrrole-3-yl)-ethanone) m.p. 114-115 °C; melting_point correct; measured; 80700536 DOI confirmed.",
+    "details": "Quote '1-(1-Pentafluorophenyl-1H-pyrrole-3-yl)-ethanone (3b): m.p. 114-115 oC' matches.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "1194",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: compound 7a (3-Amino-4-imino-5-phenyl-7-(4-chlorophenyl)-7H-pyrrolo[2,3-d]pyrimidine) mp 201-02 °C (range 201-202); melting_point correct; measured; 70700554 DOI confirmed.",
+    "details": "Quote 'Yield: 89 %; mp: 201-02 C' matches; '201-02' is shorthand for 201-202.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "1165",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: Schiff-base ligand 3 ((1S,2S)-(-)-1,2-diphenylethylenebis(2-hydroxyacetophenonylideneimine)) mp 173-175 °C; melting_point correct; measured; 70700511 DOI confirmed.",
+    "details": "Quote 'afforded bright yellow crystals (312mg, 69.6%), mp: 173-175°C' matches.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "510",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: compound 8b (3-{[4-(6-Bromo-2-methyl-4-oxo-4H-quinazolin-3-yl)phenyl]hydrazono}-pentane-2,4-dione) M.p. 165-167 °C; melting_point correct; measured; 80400363 DOI confirmed.",
+    "details": "Quote matches paper exactly: 'Pale yellow crystals; yield 2.91 g (66 %); M.p. 165-167 oC'.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  },
+  {
+    "row_id": "516",
+    "verdict": "verified_extraction",
+    "reason": "All Q1-Q4 pass: compound 9d (6-Bromo-2-methyl-3-{4-[N'-(3-methyl-5-oxo-1-phenyl-1,5-dihydropyrazol-4-ylidene)hydrazino]-phenyl}-3H-quinazolin-4-one) M.p. 259-261 °C; melting_point correct; measured; 80400363 DOI confirmed.",
+    "details": "Quote 'Orange yellow crystals; yield 2.16 g (42 %); M.p. 259-261 oC' matches.",
+    "verifiable": true,
+    "verifiability_tag": "fully_verifiable"
+  }
+]

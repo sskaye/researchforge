@@ -1,0 +1,1 @@
+id,verification_status,compound_name,compound_smiles,property,value_celsius,value_celsius_min,value_celsius_max,value_raw,relation,data_type,source,source_url,evidence_location,evidence_quote,conversion_arithmetic,notes

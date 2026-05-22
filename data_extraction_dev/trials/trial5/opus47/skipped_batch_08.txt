@@ -1,0 +1,2 @@
+143_PMC6147071_Novel_4-Aroyl-3-alkoxy-25H-furanones	bare_code_compounds_only
+153_PMC3692303_Organo-niobate_Ionic_Liquids	formulation_only_no_discrete_compound

@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "650",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 4.1.16 in paper confirms carboxamide 1h with M.p. 192-195 C; compound name matches the IUPAC name in section header.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1020",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6b in paper NXML confirmed as 1-(2-(Benzyloxy)-5-chloro-4-methylphenyl)ethan-1-one with mp 76-78 C (84% yield).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1415",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9 in J Med Chem 2013 confirmed as 2-Fluoro-5-[4-(2,4,6-trimethylbenzenesulfonyl)phenyl]pyridine with mp 150-151 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1528",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5f in Beilstein bjoc.20.154 confirmed; yellow solid 63%, 625 mg, M.p. 169-171 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1100",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6b (QN019) in ijms27041738 confirmed: 50 mg 65% yield, mp 223-225 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1108",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10b in BMC Chem 2025 confirmed: white precipitate 67% yield, mp 163-165 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "44",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9b in ChemMedChem 2026 confirmed: 4.38 g (85%) white solid mp 200-202 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "783",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2u (dicarbonylcyclopentadienyl(4-hydroxymethylphenyl)iron) confirmed with m.p. 92-93 C in Materials 2009 paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1579",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 4.2.5 (2e) in ACS Omega 2026 confirms 6-Methyquinolin-2(1H)-one (paper's typo) with m.p. 233-234 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "695",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 4.2.3 compound 8 in Molecules 31, 655 confirmed: N-(2-Methoxybenzyl)-6-chloro-4-hydroxy-2-quinolone-3-carboxamide, 0.70 g 52% yield, m.p. decomposes at 230 C; property correctly tagged decomposition.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "244",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 54 in Molecules 29 2942 confirmed: white solid 85%, m.p. > 250 C; relation '>' captured correctly.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1424",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 20e in J Med Chem 2013 confirmed: pale red solid 58% yield, mp 55-57 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "207",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2e in ijms25126327 confirmed: white solid 0.43 g 81%, m.p. 268-270 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1680",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 of Molecules 30 199 lists Trans-resveratrol experimental Tm = 541.95 K; conversion 541.95 - 273.15 = 268.80 C is correct. Measured Tm from DSC.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "577",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 row 38 of QSPR paper shows 2-me-2-hexanol with BP(Exp.) = 142.5 C; experimental column confirms measured boiling point.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "101",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.2.14 compound 5k in Pharmaceuticals 19 239 confirmed: yield 85.2%, Melting Point: 169-170 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "603",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 of CDC 2022 100820 shows Fingolimod Tm column with literature value 400.15 K; conversion 400.15 - 273.15 = 127.00 C is correct. Compilation paper as source per v2.1 rule.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1354",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.7.5 compound 8e in Molecules 29 2839 confirmed: large yellow blocks 68.5% yield, mp 141-142 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1062",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 15a in Molecules 31 595 confirmed: 76% yield white solid, mp 226-228 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "132",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5i in Molecules 31 706 confirmed: 9-fluoro-6-(4-nitrobenzyl)-6H-benzo[c]chromene, yield 91%, Mp 144 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1271",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 8.8 in textbook chapter lists chlorine dioxide with 'Boiling point of 11 C' — matches row.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1534",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9h in Beilstein bjoc.20.154 SI confirmed: White Solid 49% 483 mg, M.p. = 207-208 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "344",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9a in Synthesis 2017 (Topsentin C paper) confirmed: yield 7.6 g (55% from indole), yellow solid, mp 144-145 C (MeOH).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1430",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 22b in J Med Chem 2013 confirmed: white solid 84% yield, mp 131-133 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1604",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.1.8 of Beilstein bjoc.19.99 SI confirms compound 5h (3-Iodo-1-methyl-2-(p-tolyl)-1H-indole), 116 mg 34% yellow solid, Mp 63.8 C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]

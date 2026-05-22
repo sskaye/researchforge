@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "527",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5e: 4-fluoro-5-(4-butylpiperazin-1-yl)benzene-1,2-diamine. Paper explicitly reports 'M.P.: 119–121 °C', measured value. Citation and DOI resolve.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1442",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4a: 3-(Cyclohexylamino)-2-phenyldibenzo[b,f]pyrrolo[1,2-d][1,4]oxazepine-1-carbonitrile. Paper synthesis section reports mp 87-89 °C; verbatim quote present.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "459",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Chloroquine STRM Tm = 393.375 K confirmed in Table 5; conversion to 120.225 °C correct. Group-contribution (STRM) is a model output, so meas_calc=calculated is correct.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "480",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Hydroxychloroquine SIRM Tm = 414.588 K confirmed in Table 5 continuation; K→°C conversion correct (141.438). SIRM is a regression model so calculated is appropriate.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "108",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3i: 1-(2'-bromo-5-fluoro-[1,1'-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol. Paper reports 'Mp: 112 °C' for 3i; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1407",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "6-Methylquinolin-2(1H)-one (2e): paper writes 'm.p. = 233−234 °C'; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "267",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10a (4-Benzylphthalazin-1-ylamino)phenol: paper says 'Compound 10a Yellow crystals, 90%, 0.17 g. mp 240-242 °C'; matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1001",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Cu(II) complex: paper reports 'melting point: 188-190 °C (ethanol)' for the synthesized complex; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "625",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "3-(2-furanyl)-6-(4-nitrophenyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2p): paper reports 'M.p. 304-306°C'; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1556",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Heliyon paper Table 3 row '3:7' (ethyl diclofenac:diclofenac acid molar ratio) shows 70.1 ± 0.8 °C melting point; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "828",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "FURL-TA: N-((4-bromophenyl)carbamoyl)furan-2-carboxamide; paper reports 'White solid; yield 89.43%; mp: 139.8–140 °C'; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1194",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Yalkowsky 2014 Table 1 (Toluene homomorphs): Chlorobenzene −46 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1165",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 20d (1-(4-Chlorobenzenesulfonyl)-2-ethyl-1H-pyrrole): 'pale red solid (mp 61-62 °C)'; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "510",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "1-heptanol Bp experimental = 176.30 °C in PMC6146921 Table 8 (alkyl alcohols). Compiled experimental value; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "516",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4b: 4-fluoro-5-(4-methylpiperazin-1-yl)-2-nitroaniline; paper reports 'M.P.: 135–137 °C'; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1537",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Khan 2017 Adv Pharm Bull Table 2 row 'Piroxicam-sodium acetate' 1:2 column shows 189-191 °C; measured cocrystal mp.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "375",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4k: (1SR)-Benzyl N-(...)-aspartic acid methyl ester; paper reports 'For mixture of two diastereomers: m.p. 105 °C'; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1034",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5d: triazole-indole-pyrazolone hybrid; paper reports 'Yellow solid (0.391 g, 90%), mp: 178–180 °C'; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "768",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6b: 1-(2-(Benzyloxy)-5-chloro-4-methylphenyl)ethan-1-one; paper reports 'afford 1.6 g of white crystals of 6b (84%), mp 76–78 °C'; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "205",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4b: bis-urea adamantane derivative; paper reports 'Yield 0.232 g (99%), mp 163.5°C'; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1292",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Dearden 2003 QSPR review Table 2 (Experimental and predicted values of b.p.) shows 1,2,4-trimethylbenzene experimental = 169.4 °C. First column = experimental, so measured is correct for this literature-compiled value.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "729",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4: 4-Amino-6-phenylaminothieno[3,2-d]pyrimidin-7-carbonitrile; paper reports white powder, m.p. >271 °C; relation='>' is correctly captured; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1155",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8a: 2-(4-Iodobenzenesulfonyl)-1,3,5-trimethylbenzene; paper reports '(266 mg, 69%) as a white solid (mp 123-124 °C)'; measured. Quote does not contain compound name/code (already noted in source notes).",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "354",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6a: 2-[4-(6-Cyanobenzothiazol-2-yl)phenyl]-5-(6-cyanobenzothiazol-2-yl)furan; paper reports 'm.p.>300°C (DMF)'; relation='>', value=300 captured correctly.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "278",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound V2: 5-(3-Chlorobenzylidene)-2-(2-chloroquinolin-3-yl)-3-(4-oxo-2-phenylquinazolin-3(4H)-yl)thiazolidin-4-one. Paper text 'V ) 2' is the PDF-fragmented form of label V2; paper reports 'mp 148–150 °C'; measured.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]

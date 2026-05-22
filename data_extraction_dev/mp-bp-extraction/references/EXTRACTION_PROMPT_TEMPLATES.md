@@ -117,17 +117,48 @@ Copy-paste these prompts when delegating mp/bp extraction to a Claude agent. The
 
 ## Template 2 — Bulk-corpus extraction (multiple papers)
 
-For a directory containing many paper subdirectories:
+For a directory containing many papers (in any layout — indexed subdirectories, standalone PDFs, category subfolders with PDFs inside, mixed):
 
-> Same rules as Template 1, applied to every subdirectory in `{input_dir}`. Process each paper independently and append rows to a single CSV. Use a sequential `id` counter across the whole corpus.
+> **Step 0 — Build the corpus manifest before extraction.**
 >
-> After all papers are processed, run sanity checks on the full CSV at once:
+> Enumerate every paper-bearing location in `{input_dir}`. A paper-bearing location is anything that contains an article body: an indexed subdirectory with `article.nxml` / `article.pdf` / `article_text.txt`, a standalone `.pdf` at the corpus root, a `.pdf` inside a category subfolder, an `article.html` companion, or any other layout the corpus uses. **Descend into subfolders** — past trials have silently missed papers in category subfolders by enumerating only the top level.
+>
+> Use whatever enumeration mechanism is appropriate for the corpus layout (`ls`, `find`, `glob`). The skill does not prescribe a command because corpora vary.
+>
+> Write `_corpus_manifest.txt` with one paper-bearing location per line. Verify the count is plausible for the corpus you've been given — if you got 10 lines and expected 200, the enumeration is broken.
+>
+> **Step 0a — Skip-list with reasons.**
+>
+> Anything you intentionally exclude from extraction goes in `_skipped.txt`, one line per location:
+> `<location>\t<reason>`
+>
+> Use the most specific reason from this list:
+> - `review_no_per_compound_binding`
+> - `bare_code_compounds_only`
+> - `no_mp_bp_data_in_text`
+> - `tga_or_nmr_only_no_mp_bp`
+> - `binding_ambiguous`
+> - `image_only_compound_table`
+> - `formulation_only_no_discrete_compound`
+> - `paper_unreadable`
+>
+> Free-text reasons are permitted but ask the user before using one. **Do not skip a location because a prior trial skipped it** — past trials are reference, not protocol.
+>
+> **Step 1+ — Per-paper extraction (Template 1).**
+>
+> For each location in the manifest that is NOT in `_skipped.txt`, apply Template 1. Process each paper independently and append rows to a single CSV. Use a sequential `id` counter across the whole corpus.
+>
+> **Step N — Sanity checks.**
+>
+> After all papers are processed, run:
 >
 > ```bash
 > python3 scripts/run_all_checks.py <output.csv>
 > ```
 >
-> Report a per-paper summary: how many rows emitted, how many flagged, which papers were INACCESSIBLE or had DOI verification failures.
+> **Step N+1 — Account for every manifest entry.**
+>
+> Your EXTRACTION_SUMMARY.md must include the accounting equation `processed + skipped == manifest`. Report the per-paper summary (rows emitted, rows flagged, INACCESSIBLE entries) AND the per-skip-reason histogram from `_skipped.txt`. Numbers that don't balance indicate silent loss; you must investigate before declaring the run complete.
 
 ## Template 3 — Single-paper extraction with smaller scope
 

@@ -1,0 +1,2005 @@
+          molecules
+Article
+Influence of Carboxylate Anions on Phase Behavior of
+Choline Ionic Liquid Mixtures
+Fred Elhi 1, * , Mikhail Gantman 2 , Gunnar Nurk 3 , Peter S. Schulz 4 , Peter Wasserscheid 4 ,
+Alvo Aabloo 1 and Kaija Põhako-Esko 1
+ 1   Institute of Technology, University of Tartu, Nooruse 1, 50411 Tartu, Estonia; alvo.aabloo@ut.ee (A.A.);
+     kaija.pohako@ut.ee (K.P.-E.)
+ 2   Forschungszentrum Jülich GmbH, Helmholtz Institute Erlangen-Nürnberg for Renewable Energy (IEK-11),
+     Egerlandstr. 3, 91058 Erlangen, Germany; m.gantman@fz-juelich.de
+ 3   Institute of Chemistry, University of Tartu, Ravila 14a, 50411 Tartu, Estonia; gunnar.nurk@ut.ee
+ 4   Department of Chemical and Biological Engineering (CBI), Institute of Chemical Reaction Engineering,
+     University of Erlangen-Nuremberg, Egerlandstraße 3, 91058 Erlangen, Germany; peter.schulz@fau.de (P.S.S.);
+     peter.wasserscheid@fau.de (P.W.)
+ *   Correspondence: fred.elhi@ut.ee; Tel.: +372-533-20-474
+                                                                                                      
+ Received: 17 March 2020; Accepted: 2 April 2020; Published: 7 April 2020                             
+
+
+ Abstract: Mixing ionic liquids is a suitable strategy to tailor properties, e.g., to reduce melting points.
+ The present study aims to widen the application range of low-toxic choline-based ionic liquids
+ by studying eight binary phase diagrams of six different choline carboxylates. Five of them show
+ eutectic points with melting points dropping by 13 to 45 ◦ C. The eutectic mixtures of choline acetate
+ and choline 2-methylbutarate were found to melt at 45 ◦ C, which represents a remarkable melting
+ point depression compared to the pure compounds with melting points of 81 (choline acetate) and
+ 90 ◦ C (choline 2-methylbutarate), respectively. Besides melting points, the thermal stabilities of the
+ choline salt mixtures were investigated to define the thermal operation range for potential practical
+ applications of these mixtures. Typical decomposition temperatures were found between 165 and
+ 207 ◦ C, with choline lactate exhibiting the highest thermal stability.
+
+ Keywords: choline; eutectic mixture; differential scanning calorimetry; ionic liquid; phase diagram
+
+
+
+
+1. Introduction
+     Ionic liquids (ILs), salts liquid below a generally agreed 100 ◦ C limit, are important in many
+research fields, such as chemical synthesis, cost efficiency of production, reduction of waste, and
+toxic reagents. ILs are known for their attractive properties such as high chemical and thermal
+stability, negligible vapor pressure and interesting electrochemical as well as solvating properties.
+These properties can be tailored by variation of the composition of cations and anions [1]. Even more
+variability is offered by using mixtures of ILs, an option that is considered the fourth evolution of
+ILs [2]. In this contribution, we deal with mixtures of choline carboxylate ILs. We anticipate that
+these mixtures will widen the application range of this class of ILs. We see potential applications in
+the medical [3] and environmental fields [1] where these systems offer a combination of low toxicity,
+adjustable solvation properties, and tunable ionic conductivity [2].
+     One of the most practically relevant properties of IL mixtures is their low melting point. Given
+the limited thermal stability of organic ions, a low melting point leads to a wide liquidus range in
+the resulting ionic system. A viable alternative for low melting ILs and IL mixtures are deep eutectic
+solvents (DESs) [4], which are defined as eutectic mixtures formed from Lewis or Brønsted acids and
+bases containing ionic species [5] whose real eutectic point is lower than their ideal eutectic point [6].
+
+
+Molecules 2020, 25, 1691; doi:10.3390/molecules25071691                         www.mdpi.com/journal/molecules
+Molecules 2020, 25, 1691                                                                                2 of 12
+
+
+
+Advantages of DESs compared to pure ILs include easy preparation and therefore low production
+costs, increased biocompatibility in case of certain components, and bigger variety for customization
+concerning acidity, hydrophobicity, or polarity. DES systems have demonstrated their practical use in
+several applications, such as interfacial polymerizations [7], electrochemistry [8], and organic reactions [9].
+      So far, the published research describing IL mixtures has mainly focused on imidazolium [10,11],
+pyrrolidinium [12], and pyridinium [13] ILs. In these works, significant melting point suppression
+effects were found for the respective eutectic mixtures. However, imidazolium, pyrrolidinium, and
+pyridinium ILs and their mixtures face some limitations when it comes to large-scale applications in
+contact with microorganisms or living matter [14]. Challenges include toxicity aspects and the cost
+for the organic cation synthesis. This is why a more detailed investigation of choline salts is highly
+interesting. Based on the available literature, choline salts are characterized by their low toxicity
+for different cell-lines [15,16], bacteria [17], and other organisms [18]. Moreover, choline salts are
+industrially available on a large scale.
+      The most widely studied choline salt used in eutectic mixtures is choline chloride [19–26]. One of
+the first reported DESs was a mixture of choline chloride (liquefaction temperature 302 ◦ C), and urea
+(melting point 134 ◦ C) that resulted in a 2:1 molar mixture with a remarkable melting point suppression
+to 12 ◦ C [4]. The typical strategy was to combine choline ILs with molecular compounds such as
+carboxylic acids, alcohols, and urea derivates [27], and such choline-based DESs have been used in
+various applications, e.g., as drug solubilization vehicles [28–30]. Note, however, that by mixing a
+choline IL with molecular substances, some of the very attractive IL properties, e.g., non-volatility,
+non-flammability, and high ionic conductivity can get lost to a large extent. This is why the mixing of
+two choline ILs is a very attractive, yet widely unexplored, alternative.
+      In the present study, we focus on IL mixtures based on choline carboxylates with a different alkyl
+chain length at the cation, and various anions. The combination of the choline cation with anions
+derived from carboxylic acids leads to biologically benign ILs, which have been used e.g., in separation
+processes [31] and microemulsions with low toxicity [32]. As temperature influences the properties of
+IL mixtures [21,22,25], tailoring the melting point of mixtures opens interesting options for performance
+optimization. Thus, knowledge of the phase behavior of these IL mixtures is needed to leverage the
+full application potential of the approach. The purpose of our study is to identify eutectic mixtures of
+choline carboxylates salts with melting points close to room temperature and high thermal stability.
+We use differential scanning calorimetry (DSC) to determine the eutectic composition of the mixtures
+under investigation together with the thermophysical properties of the individual components.
+
+2. Results and Discussion
+
+2.1. Thermophysical Properties on Choline ILs
+     Table 1 summarizes the thermophysical information on choline carboxylate mixtures collected
+in this study. A comparison with previously published data indicates a certain underestimation
+of the melting points of choline ILs in the literature. For example, the melting point for choline
+acetate ([Ch][Ac]) measured in the present study (81 ◦ C) is significantly higher than the ones reported
+previously (51 [33] and 72 ◦ C [34]). For choline isobutyrate ([Ch][Ib]) the difference is even more
+pronounced: Petkovic et al. reported a melting point of 35 ◦ C [35], while we found 68 ◦ C. The
+discrepancy in the melting points can be explained by the variable water content and purity of the
+analyzed samples. The measurement conditions and interpretation of the DSC curves might lead
+to different results, too: determination of melting points as peak onsets had lower reproducibility
+compared to the top values reported in our study.
+     All choline carboxylates showed a glass transition temperature in a narrow range below −60 ◦ C,
+which is quite typical for ammonium ILs with similar molecular weights [36]. Only a minimal discrepancy
+between the values from literature and our results was found. For example, we found a glass transition
+temperature for choline malonate ([Ch][Mal]) of −67 ◦ C, while Mourão, et al. reported −65 ◦ C [31].
+      Molecules 2020, 25, 1691                                                                                                                                                3 of 12
+    Molecules2020,
+    Molecules
+    Molecules 2020,25,
+              2020, 25,xxxFOR
+                    25,     FORPEER
+                            FOR PEERREVIEW
+                                PEER REVIEW
+                                     REVIEW                                                                                                                     333ofof 12
+                                                                                                                                                                     of 12
+                                                                                                                                                                        12
+    Molecules
+    Molecules 2020,
+    Molecules 2020, 25,
+                    25, xxx FOR
+              2020, 25,     FOR PEER
+                            FOR PEER REVIEW
+                                PEER REVIEW
+                                     REVIEW                                                                                                                      333 of
+                                                                                                                                                                     of  12
+                                                                                                                                                                     of 12
+                                                                                                                                                                         12
+                                           Table
+                                         Table1.
+                                                  1. Key
+                                               1. Key
+                                                         properties
+                                                  Keyproperties
+                                                      properties of
+                                                                      of tested
+                                                                 of tested
+                                                                     tested ionic
+                                                                                 ionic
+                                                                             ionic liquids
+                                                                                          liquids
+                                                                                    liquids (ILs).
+                                                                                             (ILs).
+                                                                                                   (ILs).
+                                        Table
+                                         Table 1. Key properties of  tested  ionic  liquids  (ILs).
+                                         Table
+                                         Table 1.
+                                         Table 1. Key
+                                               1. Key properties
+                                                  Key properties of
+                                                      properties of  tested
+                                                                 of tested   ionic
+                                                                     tested ionic   liquids
+                                                                             ionic liquids   (ILs).
+                                                                                    liquids (ILs).
+                                                                                             (ILs).
+        IL
+       IL           IL            Abbreviation
+                            Abbreviation
+                            Abbreviation             AnionStructure
+                                                     Anion
+                                                    Anion  Structure
+                                                           Structure             Tg TTgg Tm TTmm w% w%    w%Td, 5%,
+                                                                                                                  Td,d,
+                                                                                                                 TT d,N2    N2 Td,
+                                                                                                                        5%,N2    T5%,
+                                                                                                                                TT       air
+                                                                                                                                    d, 5%,  air
+        IL
+        IL
+       IL                   Abbreviation
+                            Abbreviation
+                            Abbreviation             Anion
+                                                     Anion
+                                                     Anion Structure
+                                                           Structure                   T
+                                                                                       T g        T
+                                                                                                  T  m    w%
+                                                                                                          w%      T
+                                                                                                                       5%,
+                                                                                                                        5%, N2   T
+                                                                                                                                   d,
+                                                                                                                                    d,5%,
+                                                                                                                                       5%, air
+                                                                                                                                            air
+        IL                  Abbreviation             Anion Structure
+                                                           Structure                   T
+                                                                                       Tggg       T
+                                                                                                  Tmmm    w%
+                                                                                                          w%      T
+                                                                                                                  Td,d, 5%,
+                                                                                                                    d, 5%,  N2
+                                                                                                                        5%, N2
+                                                                                                                            N2   T
+                                                                                                                                 Td,d, 5%,
+                                                                                                                                    d, 5%,  air
+                                                                                                                                       5%,air
+                                                                                                                                            air
+
+
+    choline
+    choline
+    choline
+         choline acetate[Ch][Ac]
+     choline
+    choline
+     choline                   [Ch][Ac]
+                         [Ch][Ac]
+                         [Ch][Ac]                                                                       −65−65
+                                                                                                           −65 81 81
+                                                                                                           −65    81 2.7 2.7
+                                                                                                                  81     2.7
+                                                                                                                         2.7                      178178
+                                                                                                                                                     178
+                                                                                                                                                     178               176
+                                                                                                                                                                        176
+                                                                                                                                                                        176
+                                                                                                                                                                        176
+     acetate
+    acetate
+     acetate             [Ch][Ac]
+                        [Ch][Ac]
+                         [Ch][Ac]                                                                          −65
+                                                                                                           −65
+                                                                                                            −65   81
+                                                                                                                  81
+                                                                                                                   81    2.7
+                                                                                                                         2.7
+                                                                                                                          2.7                        178
+                                                                                                                                                     178
+                                                                                                                                                      178               176
+                                                                                                                                                                        176
+                                                                                                                                                                         176
+     acetate
+    acetate
+     acetate
+
+
+
+     choline choline
+     choline
+     choline
+      choline
+     choline
+      choline            [Ch][Ib]
+                               [Ch][Ib]
+                        [Ch][Ib]
+                         [Ch][Ib]                                                                          −66 68 68
+                                                                                                        −66−66
+                                                                                                           −66    68 0.1 0.1
+                                                                                                                  68     0.1
+                                                                                                                         0.1                         178
+                                                                                                                                                  178178
+                                                                                                                                                     178                172
+                                                                                                                                                                       172
+                                                                                                                                                                        172
+                                                                                                                                                                        172
+   isobutyrate           [Ch][Ib]
+            isobutyrate [Ch][Ib]
+   isobutyrate
+  isobutyrate            [Ch][Ib]                                                                          −66
+                                                                                                           −66
+                                                                                                            −66   68
+                                                                                                                  68
+                                                                                                                   68    0.1
+                                                                                                                         0.1
+                                                                                                                          0.1                        178
+                                                                                                                                                     178
+                                                                                                                                                      178               172
+                                                                                                                                                                        172
+                                                                                                                                                                         172
+   isobutyrate
+  isobutyrate
+   isobutyrate
+
+
+
+      choline choline
+      choline
+      choline
+       choline
+      choline
+       choline            [Ch][Iv]
+                         [Ch][Iv]
+                          [Ch][Iv]
+                                [Ch][Iv]                                                                 NA* 61 61
+                                                                                                         NA*
+                                                                                                         NA*
+                                                                                                       NA*      61 0.0 0.0
+                                                                                                                61     0.0
+                                                                                                                       0.0                           176
+                                                                                                                                                  176176
+                                                                                                                                                     176                176
+                                                                                                                                                                        176
+                                                                                                                                                                        176
+                                                                                                                                                                       176
+    isovalerate
+   isovalerate
+    isovalerate           [Ch][Iv]
+             isovalerate [Ch][Iv]
+                          [Ch][Iv]                                                                       NA*
+                                                                                                         NA*
+                                                                                                         NA*    61
+                                                                                                                61
+                                                                                                                 61    0.0
+                                                                                                                       0.0
+                                                                                                                        0.0                          176
+                                                                                                                                                     176
+                                                                                                                                                      176               176
+                                                                                                                                                                        176
+                                                                                                                                                                         176
+    isovalerate
+   isovalerate
+    isovalerate
+
+
+
+     choline
+     choline
+     choline
+      choline
+     choline           [Ch][2mb]
+      choline choline [Ch][2mb]
+                       [Ch][2mb]                                                                           −61
+                                                                                                           −61
+                                                                                                           −61     90
+                                                                                                                   90
+                                                                                                                   90      0.3
+                                                                                                                           0.3
+                                                                                                                           0.3                        175
+                                                                                                                                                     175
+                                                                                                                                                      175               174
+                                                                                                                                                                        174
+                                                                                                                                                                        174
+2-methylbutyrate
+2-methylbutyrate
+2-methylbutyrate       [Ch][2mb]
+                      [Ch][2mb]
+                             [Ch][2mb]
+                       [Ch][2mb]                                                                           −61
+                                                                                                        −61−61     90
+                                                                                                            −61 90 90      0.3
+                                                                                                                    90 0.3 0.3
+                                                                                                                            0.3                       175
+                                                                                                                                                  175 175
+                                                                                                                                                      175               174
+                                                                                                                                                                        174
+                                                                                                                                                                       174
+                                                                                                                                                                         174
+2-methylbutyrate
+        2-methylbutyrate
+2-methylbutyrate
+ 2-methylbutyrate
+
+
+
+    choline
+    choline
+    choline
+     choline
+    choline
+     choline          [Ch][Mal]
+                     [Ch][Mal]
+                      [Ch][Mal]                                                                            −67
+                                                                                                           −67
+                                                                                                           −67      ND**
+                                                                                                                   ND**
+                                                                                                                    ND**    0.2
+                                                                                                                            0.2
+                                                                                                                            0.2                       165
+                                                                                                                                                     165
+                                                                                                                                                      165               129
+                                                                                                                                                                        129
+                                                                                                                                                                        129
+   malonate
+   malonate           [Ch][Mal]
+                      [Ch][Mal]
+        choline malonate
+   malonate                 [Ch][Mal]
+                      [Ch][Mal]                                                                            −67
+                                                                                                        −67−67      ND**
+                                                                                                            −67 ND**ND**    0.2
+                                                                                                                    ND**0.2 0.2
+                                                                                                                             0.2                      165
+                                                                                                                                                  165 165
+                                                                                                                                                      165               129
+                                                                                                                                                                        129
+                                                                                                                                                                       129
+                                                                                                                                                                         129
+   malonate
+   malonate
+   malonate
+
+
+
+
+ choline lactate
+ choline
+ choline  lactate
+          lactate         [Ch][Lac]
+                         [Ch][Lac]
+                          [Ch][Lac]                                                                        −62
+                                                                                                           −62
+                                                                                                           −62      ND**
+                                                                                                                   ND**
+                                                                                                                    ND**    0.8
+                                                                                                                            0.8
+                                                                                                                            0.8                       207
+                                                                                                                                                     207
+                                                                                                                                                      207               206
+                                                                                                                                                                        206
+                                                                                                                                                                        206
+  choline
+ choline  lactate
+  choline lactate
+          lactate         [Ch][Lac]
+           choline lactate[Ch][Lac]
+                                [Ch][Lac]
+                          [Ch][Lac]                                                                        −62
+                                                                                                        −62−62      ND**
+                                                                                                            −62 ND**ND**    0.8
+                                                                                                                    ND**0.8 0.8
+                                                                                                                             0.8                      207
+                                                                                                                                                  207 207
+                                                                                                                                                      207               206
+                                                                                                                                                                       206
+                                                                                                                                                                        206
+                                                                                                                                                                         206
+
+
+
+           TTTggg—glass
+                  —glass transition
+                  —glass    transition temperature
+                            transition      temperature in
+                                           temperature    in◦°C;
+                                                          in  °C; TT
+                                                              °C;   Tmm —melting temperature
+                                                                       m—melting
+                                                                        —melting        temperature in
+                                                                                        temperature          in  °C; w%—water
+                                                                                                              ◦ °C;
+                                                                                                             in  °C;    w%—water content
+                                                                                                                        w%—water       content in
+                                                                                                                                       content   in %;
+                                                                                                                                                 in   %; TT
+                                                                                                                                                      %;    Td,d,d,
+            TT    —glass
+             TgTgg—glass
+                  —glass    transition
+                  g —glasstransition
+                            transition      temperature
+                              transitiontemperature
+                                            temperature in
+                                            temperature    in
+                                                          in  °C;
+                                                               C; TT
+                                                           in °C;
+                                                              °C;   T
+                                                                    Tmmm
+                                                                       m—melting
+                                                                        —melting
+                                                                        —melting        temperature
+                                                                         —meltingtemperature
+                                                                                        temperature
+                                                                                        temperature     inin in   °C;
+                                                                                                             inC;°C;
+                                                                                                                  °C;   w%—water
+                                                                                                                    w%—water
+                                                                                                                       w%—water
+                                                                                                                        w%—water       content
+                                                                                                                                  content        in
+                                                                                                                                             in %;
+                                                                                                                                       content
+                                                                                                                                       content        %;
+                                                                                                                                                  inT%;
+                                                                                                                                                 in   %;   TT
+                                                                                                                                                            Td,d,d,N2 —5%
+                                                                                                                                                       d, 5%,
+             5%,
+           5%,
+             5%,  N2
+               mass
+                  N2
+                     —5%
+                  N2—5%
+                     —5%
+                       loss mass
+                            mass
+                            mass    loss
+                                   loss
+                                    loss
+                             temperature   temperature
+                                          temperature
+                                           temperature
+                                              in 100% N   in
+                                                         in
+                                                          in  100%
+                                                             100%
+                                                              100%
+                                                           atmosphere NNN2   atmosphere
+                                                                          2atmosphere
+                                                                                 ◦ C; T
+                                                                          22 atmosphere
+                                                                              in             in
+                                                                                            in
+                                                                                             in   °C;
+                                                                                                 °C;
+                                                                                                  °C;
+                                                                                                  —5% TT
+                                                                                                       T d,
+                                                                                                        d,
+                                                                                                         d, 5%,
+                                                                                                          mass
+                                                                                                             5%, air
+                                                                                                                     —5%
+                                                                                                                 air—5%
+                                                                                                             5%,air
+                                                                                                                     —5%
+                                                                                                                     loss   mass
+                                                                                                                            mass
+                                                                                                                            mass  loss
+                                                                                                                                 loss
+                                                                                                                                  loss
+                                                                                                                          temperature    temperature
+                                                                                                                                        temperature
+                                                                                                                                         temperature
+                                                                                                                                         in 80%   N     and  in20% O2
+                                                                                                                                                            in
+                                                                                                                                                             in
+             5%,
+            5%,   N2
+                  N2 —5%    mass
+                            mass    loss
+                                   loss    temperature
+                                           temperature    in
+                                                        2in   100%
+                                                             100%      NN2   atmosphere
+                                                                             atmosphere      in
+                                                                                       d, 5%,in   °C;
+                                                                                              air °C; TT
+             5%, N2—5% mass◦loss temperature in 100% N2 atmosphere in °C; Td, 5%, air—5% mass loss temperature in
+                     —5%                                                                                 d,
+                                                                                                         d,  5%,
+                                                                                                            5%,  air
+                                                                                                                 air —5%
+                                                                                                                    —5%     mass
+                                                                                                                            mass   loss
+                                                                                                                                  loss   temperature
+                                                                                                                                        temperature  2       in
+                                                                                                                                                             in
+             80%
+           80%
+             80%     N
+               atmosphere
+                     N
+                     N2   and
+                       2 and
+                       22 and
+                                20%
+                                in
+                               20%
+                                20% C;
+                                     O
+                                     OO*
+                                       2   atmosphere
+                                           NA—not
+                                        2 atmosphere
+                                        22 atmosphere
+                                                         in
+                                                        in
+                                                         in  °C;
+                                                     available;
+                                                            °C;
+                                                             °C; **
+                                                                  **
+                                                                  *  NA—not
+                                                                      ND—not
+                                                                    NA—not
+                                                                     NA—not         available;
+                                                                                    detected
+                                                                                    available;
+                                                                                    available;  in **
+                                                                                                  **
+                                                                                                   ** ND—not
+                                                                                                    this  study.
+                                                                                                      ND—not
+                                                                                                      ND—not            detected
+                                                                                                                       detected
+                                                                                                                        detected  in
+                                                                                                                                 in
+                                                                                                                                  in  this
+                                                                                                                                     this
+                                                                                                                                      this  study.
+                                                                                                                                           study.
+                                                                                                                                            study.
+             80%
+            80%
+             80% N   N    and
+                     N22 and    20%
+                          and 20%
+                                20% O O    atmosphere
+                                      O22 atmosphere
+                                           atmosphere in in  °C;
+                                                         in °C;   *  NA—not
+                                                             °C; ** NA—not          available;
+                                                                     NA—not available;
+                                                                                     available; ** ** ND—not
+                                                                                                   ** ND—not
+                                                                                                      ND—not detected   detected  in
+                                                                                                                        detected in   this
+                                                                                                                                  in this   study.
+                                                                                                                                      this study.
+                                                                                                                                            study.
+            All
+           All
+            All    choline carboxylates
+                  choline
+                   choline
+              Decomposition    carboxylates
+                               carboxylates          showed aaawere
+                                                     showed
+                                                     showed
+                                          temperatures                  glassmeasured
+                                                                        glass
+                                                                        glass      transition temperature
+                                                                                  transition
+                                                                                   transition       temperature
+                                                                                                          evaluate in
+                                                                                                    temperature
+                                                                                                    to                     in aaathermal
+                                                                                                                           in
+                                                                                                                          the      narrow range
+                                                                                                                                  narrow
+                                                                                                                                   narrow      range
+                                                                                                                                               range
+                                                                                                                                                stabilitybelow
+                                                                                                                                                        below
+                                                                                                                                                         below of −60−60 °C,
+                                                                                                                                                                     −60
+                                                                                                                                                                     the   °C, The
+                                                                                                                                                                           °C,
+                                                                                                                                                                           ILs.
+            All
+           All
+            All    choline
+                   choline     carboxylates
+                   choline carboxylates
+                                carboxylates          showed
+                                                      showed aaa glass
+                                                     showed             glass      transition
+                                                                        glass transition             temperature
+                                                                                   transition temperature
+                                                                                                     temperature           in
+                                                                                                                           in aaa narrow
+                                                                                                                          in       narrow
+                                                                                                                                   narrow rangerange
+                                                                                                                                               range     below
+                                                                                                                                                        below
+                                                                                                                                                         below       −60
+                                                                                                                                                                     −60   °C,
+                                                                                                                                                                     −60 °C,
+                                                                                                                                                                           °C,
+     which
+    which
+     which       is
+                is
+                 is  quite
+                     quite
+                     quite     typical
+                              typical
+                               typical      for
+                                           for
+                                            for   ammonium
+                                                 ammonium
+                                                  ammonium                ILs
+                                                                         ILs
+                                                                          ILs     with
+                                                                                 with
+                                                                                  with    similar
+                                                                                          similar
+                                                                                          similar          molecular
+                                                                                                          molecular
+                                                                                                          molecular         weights
+                                                                                                                            weights
+                                                                                                                            weights         [36].
+                                                                                                                                           [36].
+                                                                                                                                            [36].   Only
+                                                                                                                                                    Only
+                                                                                                                                                    Only     aa
+                                                                                                                                                              a   minimal
+                                                                                                                                                                 minimal
+                                                                                                                                                                  minimal
+      Thermogravimetric
+     which
+    which
+     which is    is  quite
+                 is quite      typical
+                     quite typical       Analysis
+                               typical for  for   ammonium
+                                            for ammonium   (TGA)
+                                                  ammonium ILs           results
+                                                                          ILs
+                                                                          ILs withwith for   5%
+                                                                                           similar
+                                                                                  with similar        mass        decomposition
+                                                                                                           molecular
+                                                                                           similar molecular
+                                                                                                           molecular weightsweights
+                                                                                                                             weights [36].   in
+                                                                                                                                            [36].nitrogen
+                                                                                                                                                    Only
+                                                                                                                                            [36]. Only        a   and
+                                                                                                                                                                  minimal
+                                                                                                                                                     Only aa minimal
+                                                                                                                                                                  minimal synthetic
+     discrepancy between
+    discrepancy
+     discrepancy         between the
+                         between        the values
+                                        the    values from
+                                               values      from literature
+                                                           from       literature
+                                                                      literature
+                                                                           ◦ C·min    and
+                                                                                      and
+                                                                                        −1 our
+                                                                                      and     our results
+                                                                                              our      results was
+                                                                                                       results     was found.
+                                                                                                                   was     found. For
+                                                                                                                           found.      For example,
+                                                                                                                                       For   example, we
+                                                                                                                                             example,        we found
+                                                                                                                                                             we     found aaa
+                                                                                                                                                                   found
+     discrepancy
+      air obtained
+    discrepancy
+     discrepancy         between
+                           with a the
+                         between
+                         between        the
+                                        heatingvalues
+                                        the values
+                                               values      from
+                                                        rate
+                                                          from
+                                                           from       literature
+                                                                of literature
+                                                                      10
+                                                                      literature      and
+                                                                                      andare
+                                                                                      and     our
+                                                                                             our       results
+                                                                                              ourpresented
+                                                                                                      results
+                                                                                                       results was was
+                                                                                                                   was     found.
+                                                                                                                       infound.
+                                                                                                                            Table For
+                                                                                                                           found.      For    example,
+                                                                                                                                        1. According
+                                                                                                                                       For   example,
+                                                                                                                                              example, we    we
+                                                                                                                                                             we     found
+                                                                                                                                                               tofound        aa
+                                                                                                                                                                    these aresults,
+                                                                                                                                                                    found
+     glass
+    glass
+     glass   transition
+            transition
+             transition       temperature
+                             temperature
+                              temperature           for
+                                                   for
+                                                    for   choline
+                                                         choline
+                                                          choline        malonate
+                                                                        malonate
+                                                                         malonate        ([Ch][Mal])
+                                                                                        ([Ch][Mal])
+                                                                                         ([Ch][Mal])            of
+                                                                                                               of
+                                                                                                                of  −67
+                                                                                                                   −67
+                                                                                                                    −67   °C,
+                                                                                                                         °C,
+                                                                                                                          °C,    while
+                                                                                                                                while
+                                                                                                                                while      Mourão,
+                                                                                                                                          Mourão,
+                                                                                                                                           Mourão,      et
+                                                                                                                                                       et
+                                                                                                                                                        et  al.
+                                                                                                                                                            al.
+                                                                                                                                                            al.   reported
+                                                                                                                                                                 reported
+                                                                                                                                                                 reported
+     glass
+    glass
+     glass   transition
+      the most        stable
+             transition
+             transition       temperature
+                                  IL was choline
+                             temperature
+                              temperature           for
+                                                   for    choline
+                                                              lactate
+                                                    for choline
+                                                          choline        malonate
+                                                                             ([Ch][Lac]),
+                                                                        malonate
+                                                                         malonate        ([Ch][Mal])
+                                                                                         ([Ch][Mal])
+                                                                                         ([Ch][Mal])and the     of
+                                                                                                                of  −67
+                                                                                                                    lowest
+                                                                                                                of −67    °C,
+                                                                                                                    −67 °C,      while
+                                                                                                                          °C, while
+                                                                                                                                 while     Mourão,
+                                                                                                                                 decomposition
+                                                                                                                                          Mourão,
+                                                                                                                                           Mourão, et    et al.   reported
+                                                                                                                                                         ettemperature
+                                                                                                                                                            al.   reported was
+                                                                                                                                                            al. reported
+     −65 °C
+    −65
+     −65  °C [31].
+          °C    [31].
+                [31].
+     −65
+    −65   °C
+          °C     [31].
+          °C [31].
+      determined
+     −65         [31]. for [Ch][Mal], in both inert and oxygen-containing atmospheres. Available literature data
+            Decomposition
+           Decomposition
+            Decomposition             temperatures were
+                                     temperatures
+                                      temperatures              were measured
+                                                                were       measured to
+                                                                          measured          to evaluate
+                                                                                            to     evaluate the
+                                                                                                   evaluate        the thermal
+                                                                                                                   the    thermal stability
+                                                                                                                          thermal        stability of
+                                                                                                                                         stability    of the
+                                                                                                                                                      of   the ILs.
+                                                                                                                                                           the    ILs. The
+                                                                                                                                                                  ILs.    The
+                                                                                                                                                                          The
+            Decomposition
+           Decomposition
+            Decomposition
+      on choline         salt thermal temperatures
+                                      temperatures
+                                      temperatures
+                                                stability       were
+                                                                were
+                                                                 were
+                                                                 show      measured
+                                                                          measured
+                                                                           measured
+                                                                             small           to
+                                                                                            to
+                                                                                        deviations evaluate
+                                                                                             to evaluate
+                                                                                                   evaluate    fromthe
+                                                                                                                   the
+                                                                                                                   theour thermal
+                                                                                                                         thermal
+                                                                                                                          thermal
+                                                                                                                                findings.stability
+                                                                                                                                        stability
+                                                                                                                                         stability
+                                                                                                                                                 For  of
+                                                                                                                                                      of
+                                                                                                                                                      of   the
+                                                                                                                                                          the     ILs.
+                                                                                                                                                           the ILs.
+                                                                                                                                                       [Ch][Ac]           The
+                                                                                                                                                                         The
+                                                                                                                                                                   ILs. weThefound
+     Thermogravimetric
+    Thermogravimetric
+     Thermogravimetric               Analysis
+                                     Analysis
+                                     Analysis         (TGA)
+                                                     (TGA)
+                                                      (TGA)        results
+                                                                  results
+                                                                   results      for
+                                                                               for
+                                                                                for  5%
+                                                                                     5%
+                                                                                     5%    mass
+                                                                                           mass
+                                                                                           mass        decomposition
+                                                                                                      decomposition
+                                                                                                       decomposition              in
+                                                                                                                                 in
+                                                                                                                                  in  nitrogen
+                                                                                                                                     nitrogen
+                                                                                                                                      nitrogen      and
+                                                                                                                                                   and
+                                                                                                                                                    and    synthetic
+                                                                                                                                                          synthetic
+                                                                                                                                                          synthetic         air
+                                                                                                                                                                           air
+                                                                                                                                                                            air
+     Thermogravimetric
+    Thermogravimetric
+     Thermogravimetric
+      a decomposition                Analysis
+                                     Analysis
+                                     Analysis (TGA)
+                                    temperature       (TGA)
+                                                      (TGA) of     results
+                                                                  results
+                                                                   results
+                                                                  178     ◦ C,  for
+                                                                                for
+                                                                                for  5%
+                                                                                     5%
+                                                                                     5%     mass
+                                                                                           mass
+                                                                                            mass       decomposition
+                                                                                                       decomposition
+                                                                                                       decomposition  ◦           in
+                                                                                                                                 in
+                                                                                                                                  in  nitrogen
+                                                                                                                                      nitrogen
+                                                                                                                                      nitrogen      and
+                                                                                                                                                    and
+                                                                                                                                                    and    synthetic
+                                                                                                                                                          synthetic
+                                                                                                                                                           synthetic        air
+                                                                                                                                                                           air
+                                                                                                                                                                            air For
+     obtained        with   a   heating      rate    of   10    °C·min       −1 are presented in Table 1. According to these results, [33].
+                                                                                  compared            with       189    C   reported         by   Fukaya         et   al.  the
+    obtained
+     obtained       with
+                     with  aa  heating
+                                heating      rate
+                                             rate   of
+                                                     of  10
+                                                          10   °C·min
+                                                                °C·min      −1
+                                                                             −1 are
+                                                                                 are  presented
+                                                                                      presented           in
+                                                                                                           in  Table
+                                                                                                                Table  1.1. According
+                                                                                                                             According         to
+                                                                                                                                                to these
+                                                                                                                                                    these   results,
+                                                                                                                                                             results,     the
+                                                                                                                                                                           the
+     obtained
+    obtained
+     obtained
+      [Ch][Ib],      with
+                    with
+                     with
+                      weIL  a
+                            a
+                            a   heating
+                               heating
+                                heating
+                           reported           rate
+                                             rate
+                                              rate
+                                           178 C, ◦  of
+                                                     of
+                                                     of   10
+                                                         10
+                                                          10    °C·min
+                                                                °C·min
+                                                                °C·min
+                                                         compared
+                                                                             −1
+                                                                            −1   are
+                                                                             −1 are
+                                                                                 are
+                                                                              with 172presented
+                                                                                      presented
+                                                                                              ◦
+                                                                                      presented            in
+                                                                                                          in
+                                                                                                           in   Table
+                                                                                                               Table
+                                                                                                                Table    1.
+                                                                                                                        1.
+                                                                                                                         1.  According
+                                                                                                                            According
+                                                                                                                             According          to
+                                                                                                                                               to
+                                                                                                                                                to  these
+                                                                                                                                                   these
+                                                                                                                                                    these    results,
+                                                                                                                                                             results,
+                                                                                                                                                             results,      the
+                                                                                                                                                                          the
+                                                                                                                                                                           the
+     most
+    most
+     most     stable
+              stable
+              stable      IL
+                          IL   was choline
+                              was
+                               was     choline
+                                       choline        lactate
+                                                     lactate
+                                                      lactate        ([Ch][Lac]),
+                                                                    ([Ch][Lac]),
+                                                                     ([Ch][Lac]),         andCthe
+                                                                                         and
+                                                                                          and
+                                                                                                     reported
+                                                                                                   the
+                                                                                                   the       lowestbydecomposition
+                                                                                                            lowest
+                                                                                                             lowest
+                                                                                                                           Petkovic et al.temperature
+                                                                                                                        decomposition
+                                                                                                                        decomposition
+                                                                                                                                                   [35]. These differences
+                                                                                                                                                   temperature
+                                                                                                                                                   temperature           was
+                                                                                                                                                                        was
+                                                                                                                                                                         was
+     most
+    most
+     most
+      reflect  stable
+              stable
+               stable     IL
+                         IL
+                  variabilitieswas
+                          IL was
+                               was in  choline
+                                       choline
+                                       choline
+                                           the        lactate
+                                                      lactate
+                                                 samplelactatequality([Ch][Lac]),
+                                                                    ([Ch][Lac]),
+                                                                     ([Ch][Lac]),
+                                                                                and    theand
+                                                                                          and
+                                                                                          and       the
+                                                                                                   the
+                                                                                             measurement     lowest
+                                                                                                    the lowest          decomposition
+                                                                                                             lowest decomposition
+                                                                                                                        decomposition
+                                                                                                                       protocols,          e.g.,   temperature
+                                                                                                                                                  temperature
+                                                                                                                                                   temperaturethe
+                                                                                                                                                  concerning             was
+                                                                                                                                                                         was
+                                                                                                                                                                         was applied
+     determinedfor
+    determined
+     determined         for[Ch][Mal],
+                        for  [Ch][Mal],in
+                             [Ch][Mal],         inboth
+                                                in  bothinert
+                                                    both     inertand
+                                                             inert     andoxygen-containing
+                                                                       and     oxygen-containingatmospheres.
+                                                                               oxygen-containing                  atmospheres.Available
+                                                                                                                  atmospheres.          Availableliterature
+                                                                                                                                        Available       literaturedata
+                                                                                                                                                        literature      data
+                                                                                                                                                                        data
+     determined
+    determined
+     determined         for
+                        for  [Ch][Mal],
+                             [Ch][Mal],         in
+                                                in  both
+                                                    both     inert
+                                                            inert      and
+                                                                       and     oxygen-containing
+                                                                               oxygen-containing
+                        for [Ch][Mal], in both inert and oxygen-containing atmospheres. Available literature data atmospheres.
+                                                                                                                 atmospheres.            Available
+                                                                                                                                        Available       literature
+                                                                                                                                                       literature        data
+                                                                                                                                                                        data
+    onheating
+     on choline
+     on  choline
+                    ramp.
+         choline salt  salt thermal
+                      salt   thermal stability
+                             thermal        stability show
+                                            stability      show small
+                                                           show        small deviations
+                                                                       small      deviations from
+                                                                                  deviations          from our
+                                                                                                      from       our findings.
+                                                                                                                 our  findings. For
+                                                                                                                      findings.        For [Ch][Ac]
+                                                                                                                                       For    [Ch][Ac] we
+                                                                                                                                              [Ch][Ac]      we found
+                                                                                                                                                            we     found aaa
+                                                                                                                                                                   found
+     on
+    on   choline
+     on choline
+         choline       salt
+                      salt   thermal
+                       salt thermal
+                             thermal        stability
+                                           stability
+                                            stability      show
+                                                           show
+                                                           show        small
+                                                                       small
+                                                                       small      deviations
+                                                                                  deviations
+                                                                                  deviations          from
+                                                                                                      from
+                                                                                                      from       our
+                                                                                                                our   findings.
+                                                                                                                 our findings.
+                                                                                                                      findings. For    For
+                                                                                                                                       For    [Ch][Ac]
+                                                                                                                                             [Ch][Ac]
+                                                                                                                                              [Ch][Ac] we   we      found
+                                                                                                                                                                    found aaa inert
+                                                                                                                                                                   found
+                                                                                                                                                            webetween
+              Interestingly,
+     decomposition
+    decomposition
+     decomposition                   we
+                              temperature
+                             temperature
+                              temperature    found   of
+                                                    of
+                                                     of  only
+                                                          178
+                                                         178
+                                                          178       a
+                                                                  °C,
+                                                                  °C,
+                                                                  °C,  minor
+                                                                         compared
+                                                                         compared
+                                                                         compared   difference
+                                                                                            with
+                                                                                           with
+                                                                                            with         in
+                                                                                                        189
+                                                                                                       189
+                                                                                                       189    decomposition
+                                                                                                                °C
+                                                                                                               °C
+                                                                                                                °C   reported
+                                                                                                                    reported
+                                                                                                                     reported        by
+                                                                                                                                     by
+                                                                                                                                     by  temperatures
+                                                                                                                                           Fukaya
+                                                                                                                                          Fukaya
+                                                                                                                                           Fukaya      et
+                                                                                                                                                      et
+                                                                                                                                                       et   al.
+                                                                                                                                                           al.
+                                                                                                                                                            al.   [33].
+                                                                                                                                                                 [33].
+                                                                                                                                                                  [33].   For
+                                                                                                                                                                          For
+                                                                                                                                                                          For
+     decomposition
+    decomposition
+     decomposition            temperature
+                              temperature
+                              temperature            of
+                                                     of   178
+                                                         178
+                                                          178 °C,
+                                                     ofcontaining  °C,   compared
+                                                                   °C, compared
+                                                                          compared          with
+                                                                                            with
+                                                                                            with 189    189
+                                                                                                        189our  °C
+                                                                                                               °C    reported
+                                                                                                                °C reported
+                                                                                                                     reported        by
+                                                                                                                                     by    Fukaya
+                                                                                                                                     by Fukaya
+                                                                                                                                           Fukaya et   et
+                                                                                                                                                       et   al.
+                                                                                                                                                           al.    [33].
+                                                                                                                                                                 [33].    For
+                                                                                                                                                                  [33]. For
+                                                                                                                                                            al.exception  For was
+      conditions
+     [Ch][Ib],
+    [Ch][Ib],
+     [Ch][Ib],      we
+                    we
+                    we    and
+                         reported
+                        reported
+                         reported the    oxygen
+                                        178
+                                       178
+                                        178    °C,
+                                              °C,
+                                               °C,   compared
+                                                    compared
+                                                     compared            with
+                                                                        with
+                                                                         with  atmosphere
+                                                                                  172
+                                                                                 172
+                                                                                  172   °C
+                                                                                       °C
+                                                                                        °C   reported
+                                                                                            reported
+                                                                                             reported  in      by
+                                                                                                               by
+                                                                                                               by    TGA
+                                                                                                                    Petkovic
+                                                                                                                   Petkovic
+                                                                                                                    Petkovic  experiments.
+                                                                                                                                    et
+                                                                                                                                   et
+                                                                                                                                    et al.
+                                                                                                                                       al.
+                                                                                                                                       al.  [35].
+                                                                                                                                           [35].
+                                                                                                                                            [35]. TheseThe
+                                                                                                                                                   These
+                                                                                                                                                   These     differences
+                                                                                                                                                            differences
+                                                                                                                                                             differences
+     [Ch][Ib],
+    [Ch][Ib],
+     [Ch][Ib], we   we   reported
+                    we reported
+                         reported 178   178
+                                        178 °C,°C,   compared
+                                               °C, compared
+                                                     compared with       with
+                                                                         with 172 172
+                                                                                  172 °C°C   reported
+                                                                                        °C reported
+                                                                                             reported by       by   Petkovic
+                                                                                                               by Petkovic
+                                                                                                                    Petkovic et     et al.
+                                                                                                                                    et al.  [35].
+                                                                                                                                       al. [35].   These
+                                                                                                                                            [35]. These       differences
+                                                                                                                                                   These differences
+                                                                                                                                                              differences
+      [Ch][Mal],
+     reflect
+    reflect
+     reflect            which in
+                variabilities
+               variabilities
+                variabilities      showed
+                                   inthe
+                                   in  thesample
+                                       the        a significantly
+                                              sample
+                                              sample       qualityand
+                                                          quality
+                                                           quality        and
+                                                                          and lower
+                                                                                 the
+                                                                                  the   decomposition
+                                                                                  themeasurement
+                                                                                       measurement
+                                                                                       measurement                   temperature
+                                                                                                                  protocols,
+                                                                                                                 protocols,
+                                                                                                                  protocols,       e.g.,
+                                                                                                                                    e.g.,  in syntheticthe
+                                                                                                                                    e.g.,concerning
+                                                                                                                                           concerning
+                                                                                                                                           concerning          airapplied
+                                                                                                                                                             the
+                                                                                                                                                             the     as compared
+                                                                                                                                                                    applied
+                                                                                                                                                                    applied
+     reflect
+    reflect     variabilities
+     reflect variabilities
+                variabilities in   in  the
+                                   in the     sample
+                                       the sample          quality
+                                              sample qualityquality and   and
+                                                                          and the the   measurement
+                                                                                  the measurement
+                                                                                        measurement protocols,    protocols,
+                                                                                                                  protocols, e.g.,  e.g.,  concerning
+                                                                                                                                    e.g., concerning
+                                                                                                                                           concerning the    the    applied
+                                                                                                                                                             the applied
+                                                                                                                                                                    applied
+     heating
+    heating
+     heating      ramp. Taking into account that TGA measurements with a heating rate of 10 C·min−1 tend to
+      with nitrogen.
+                  ramp.
+                  ramp.
+                                                                                                                                                            ◦
+     heating
+    heating
+     heating ramp. ramp.
+                   ramp.
+            Interestingly,
+           Interestingly,
+      overestimate
+            Interestingly,  thermalwe found
+                                   we
+                                   we    found
+                                            stability
+                                         found       only[37],
+                                                     only
+                                                     only     aaa minor
+                                                                   minor        differencethat
+                                                                               difference
+                                                                      we conclude
+                                                                   minor       difference         in decomposition
+                                                                                                 in
+                                                                                                  in    decomposition
+                                                                                                        the other choline
+                                                                                                       decomposition               temperatures
+                                                                                                                                  temperatures
+                                                                                                                                       ILs under between
+                                                                                                                                   temperatures         between inert
+                                                                                                                                                        investigation
+                                                                                                                                                        between         inert show
+                                                                                                                                                                        inert
+            Interestingly,
+           Interestingly,
+            Interestingly, we      we    found
+                                   we found
+                                         found only   only
+                                                      only aaa minor
+                                                                   minor        difference
+                                                                   minor difference
+                                                                                difference in     in    decomposition
+                                                                                                  in decomposition
+                                                                                                        decomposition temperatures temperatures
+                                                                                                                                   temperatures between between
+                                                                                                                                                         between◦inert  inert
+                                                                                                                                                                        inert
+     conditions
+    conditions
+      at least
+     conditions        and
+                      and
+                    short-term
+                       and      the
+                              the
+                               the    oxygen
+                                     oxygen
+                                      stability,
+                                     oxygen          containing
+                                                    containing
+                                                        even
+                                                     containing   in      atmosphere
+                                                                         atmosphere
+                                                                       oxygenated
+                                                                          atmosphere             in
+                                                                                                in     our
+                                                                                                      our
+                                                                                             environments
+                                                                                                 in    our     TGA
+                                                                                                               TGA
+                                                                                                               TGA      experiments.
+                                                                                                                       experiments.
+                                                                                                                        at   temperatures
+                                                                                                                        experiments.            The
+                                                                                                                                               The
+                                                                                                                                                The  upexception
+                                                                                                                                                      exception
+                                                                                                                                                          to
+                                                                                                                                                       exception170     Cwas
+                                                                                                                                                                        was
+                                                                                                                                                                         was in these
+     conditions
+    conditions
+     conditions and    and
+                       and the  the   oxygen
+                                the oxygen           containing
+                                      oxygen containing
+                                                     containing atmosphereatmosphere
+                                                                          atmosphere in          in
+                                                                                                 in ourour
+                                                                                                       our TGA TGA      experiments.
+                                                                                                                TGA experiments.
+                                                                                                                        experiments. The        The    exception
+                                                                                                                                                The exception
+                                                                                                                                                       exception was     was
+                                                                                                                                                                         was
+     [Ch][Mal],
+    [Ch][Mal],
+      particular
+     [Ch][Mal],         which
+                       which
+                       dynamic
+                       which       showed
+                                   showed
+                                       conditions.
+                                   showed         aa
+                                                   a    significantly
+                                                       significantly
+                                                        significantly            lower
+                                                                                lower
+                                                                                 lower      decomposition
+                                                                                           decomposition
+                                                                                            decomposition                temperature
+                                                                                                                        temperature
+                                                                                                                         temperature            in
+                                                                                                                                               in
+                                                                                                                                                in   synthetic
+                                                                                                                                                    synthetic
+                                                                                                                                                     synthetic        air
+                                                                                                                                                                      air
+                                                                                                                                                                      air    as
+                                                                                                                                                                            as
+                                                                                                                                                                             as
+     [Ch][Mal],
+    [Ch][Mal],
+     [Ch][Mal], which   which
+                        which showedshowed
+                                    showed aaa significantly
+                                                        significantly
+                                                        significantly lower      lower      decomposition
+                                                                                 lower decomposition
+                                                                                            decomposition temperature    temperature
+                                                                                                                         temperature in         in   synthetic
+                                                                                                                                                in synthetic
+                                                                                                                                                     synthetic air    air
+                                                                                                                                                                      air as as
+                                                                                                                                                                             as
+Molecules 2020, 25, 1691                                                                                                  4 of 12
+
+
+
+2.2. Thermophyscial Behaviour of the IL Mixtures
+     Overall, we report eight phase diagrams involving six different ILs as mixtures. First, [Ch][Ac]
+was combined with other choline salts. ILs that gave eutectic mixtures with [Ch][Ac], namely [Ch][Ib],
+choline isovalerate ([Ch][Iv]), and choline 2-methylbutyrate ([Ch][2mb]), were subsequently combined
+with each other (Table 2). The binary mixtures with [Ch][Ac] could be divided into three categories:
+mixtures with monocarboxylic ILs showed eutectic behavior, mixtures with [Ch][Mal] resulted in
+gradually lower melting points with an increasing concentration of [Ch][Mal], and finally, mixtures
+with [Ch][Lac] did not show crystallization in our study. All studied mixtures showed glass transition
+temperatures very close to those of the pure ILs.
+
+      Table 2. Overview of the studied binary phase diagrams. (Shading provided to avoid double entries
+      and non-mixtures.)
+
+                              [Ch][Ac]             [Ch][Ib]           [Ch][Iv]       [Ch][2mb] [Ch][Mal] [Ch][Lac]
+         [Ch][Ac]
+         [Ch][Ib]          eutectic, Tm , Tg
+         [Ch][Iv]          eutectic, Tm , Tg   eutectic, Tm , Tg
+       [Ch][2mb]           eutectic, Tm , Tg   eutectic, Tm , Tg       Tm , Tg
+       [Ch][Mal]               Tm , Tg                 -                 -                -
+        [Ch][Lac]                 Tg                   -                 -                -            -
+
+
+     As shown in Table 2, five binary eutectic mixtures were found. The corresponding phase diagrams
+are presented as Figures 1–5, and the Tammann plots are shown in the Supplementary Materials.
+Unfortunately, none of the eutectic mixtures were liquid at room temperature (Figures 1–5, Table 3).
+The lowest melting point achieved was found for the eutectic mixture of [Ch][Ac] and [Ch][Iv], for
+which a melting temperature of 39 ◦ C was determined. All eutectic points were found at a molar
+        Molecules 2020, 25, x FOR PEER REVIEW                                                 3 of 12
+fraction between 0.6 and 0.4 for both components. The greatest melting point depression of 45 ◦ C
+(compared to the pure ILs) was determined for the case of the [Ch][2mb] + [Ch][Ac] mixture.
+
+
+
+
+      Figure 1.Figure  1. Temperature
+                 Temperature             composition
+                                 composition      phasephase  diagram
+                                                         diagram   for for
+                                                                        thethe mixtureofofcholine
+                                                                            mixture         choline acetate
+                                                                                                    acetate ([Ch][Ac])
+                                                                                                            ([Ch][Ac])and
+                                                                                                                        and
+      choline isobutyrate ([Ch][Ib]), and their individual components at 0.0 and 1.0 mole fractions.Legend:
+               choline  isobutyrate  ([Ch][Ib]), and their individual  components  at 0.0 and  1.0 mole fractions.  Legend:
+      —melting▪—melting
+                    point ofpoint
+                               theofexcess
+                                      the excess  component
+                                            component          [Ch][Ac]
+                                                           [Ch][Ac]      in the
+                                                                      in the    mixture;—melting
+                                                                             mixture;      ▪—melting point
+                                                                                                       pointofofthe
+                                                                                                                 theexcess
+                                                                                                                     excess
+               component [Ch][Ib] in the mixture; ▪—glass transition temperature; ▪—eutectic point; – eutectic
+      component [Ch][Ib] in the mixture; —glass transition temperature; —eutectic point; – eutectic
+               transition line.
+      transition line.
+          choline isobutyrate ([Ch][Ib]), and their individual components at 0.0 and 1.0 mole fractions. Legend:
+          ▪—melting point of the excess component [Ch][Ac] in the mixture; ▪—melting point of the excess
+          component [Ch][Ib] in the mixture; ▪—glass transition temperature; ▪—eutectic point; – eutectic
+          transition line.
+Molecules 2020, 25, 1691                                                                                               5 of 12
+
+
+
+
+    Molecules 2020, 25, x FOR PEER REVIEW                                                                                 3 of 12
+
+          Figure
+      Figure   2. 2.Temperature
+          ▪—melting   Temperature     composition
+                       point of thecomposition
+                                      excess         phasediagram
+                                             component
+                                                   phase   diagramin
+                                                          [Ch][Ac]    for
+                                                                    for thethe
+                                                                         the    mixture
+                                                                            mixture;
+                                                                              mixture   ofof [Ch][Ac]
+                                                                                              [Ch][Ac]
+                                                                                      ▪—melting    pointand
+                                                                                                       and    choline
+                                                                                                          of choline
+                                                                                                              the      2-
+                                                                                                                  excess
+          methylbutyrate    ([Ch][2mb]),
+          component [Ch][2mb]
+      2-methylbutyrate              in the
+                          ([Ch][2mb]),     and their
+                                        andmixture;  individual  components
+                                                      ▪—glass components
+                                             their individual                  at 0.0
+                                                               transition temperature;and  1.0 mole
+                                                                            at 0.0 and 1.0▪—eutecticfractions.   Legend:
+                                                                                                      point;Legend:
+                                                                                           mole fractions.     – eutectic
+          transitionpoint
+      —melting      line. of the excess component [Ch][Ac] in the mixture; —melting point of the excess
+      component [Ch][2mb] in the mixture; —glass transition temperature; —eutectic point; – eutectic
+      transition line.
+
+
+
+
+              3. Temperature
+          Figure
+      Figure      3. Temperaturecomposition
+                                    compositionphase  diagram
+                                                   phase diagram for the mixture
+                                                                     for the      of [Ch][Ac]
+                                                                             mixture            andand
+                                                                                      of [Ch][Ac]    choline  isovalerate
+                                                                                                         choline isovalerate
+      ([Ch][Iv]), andand
+          ([Ch][Iv]), theirtheir
+                            individual  components
+                                 individual            at 0.0atand
+                                              components            1.0 mole
+                                                                0.0 and       fractions.
+                                                                         1.0 mole        Legend:
+                                                                                   fractions.      —melting
+                                                                                              Legend:   ▪—meltingpoint of of
+                                                                                                                     point
+      the the
+          excess  component
+              excess  component[Ch][Ac]   in the
+                                    [Ch][Ac]   in mixture; —melting
+                                                  the mixture;   ▪—meltingpoint  of the
+                                                                              point     excess
+                                                                                     of the     component
+                                                                                            excess  component [Ch][Iv] in in
+                                                                                                                  [Ch][Iv]
+      the the
+          mixture;   —glass
+              mixture;        transition
+                        ▪—glass            temperature;
+                                  transition  temperature;—eutectic
+                                                              ▪—eutectic point; – eutectic
+                                                                           point;          transition
+                                                                                   – eutectic          line.
+                                                                                              transition  line.
+          Figure 3. Temperature composition phase diagram for the mixture of [Ch][Ac] and choline isovalerate
+          ([Ch][Iv]), and their individual components at 0.0 and 1.0 mole fractions. Legend: ▪—melting point of
+          the excess component [Ch][Ac] in the mixture; ▪—melting point of the excess component [Ch][Iv] in
+          the mixture; ▪—glass transition temperature; ▪—eutectic point; – eutectic transition line.
+Molecules 2020, 25, 1691                                                                                              6 of 12
+
+
+
+
+    Molecules 2020, 25, x FOR PEER REVIEW                                                                                 3 of 12
+
+
+         Figure 4. Temperature-composition phase diagram for the mixture of [Ch][Ib] and [Ch][2mb], and
+         their individual components at 0.0 and 1.0 mole fractions. Legend: ▪—melting point of the excess
+         component
+      Figure          [Ch][Ib] in the mixture;
+              4. Temperature-composition         ▪—melting
+                                             phase           point
+                                                   diagram for  theof  the excess
+                                                                    mixture         component
+                                                                             of [Ch][Ib]         [Ch][2mb]and
+                                                                                           and [Ch][2mb],    in the
+         mixture;
+      their        ▪—glass
+            individual     transitionattemperature;
+                       components                   ▪—eutectic
+                                        0.0 and 1.0 mole        point;
+                                                         fractions.    – eutectic
+                                                                    Legend:       transitionpoint
+                                                                              —melting      line. of the excess
+      component [Ch][Ib] in the mixture; —melting point of the excess component [Ch][2mb] in the mixture;
+      —glass transition temperature; —eutectic point; – eutectic transition line.
+
+
+
+
+      Figure  5. Temperature-composition
+          Figure   5. Temperature-composition  phase  diagram
+                                                   phase  diagramfor the mixture
+                                                                     for the       of [Ch][Ib]
+                                                                             mixture           andand
+                                                                                       of [Ch][Ib]  [Ch][Iv], andand
+                                                                                                        [Ch][Iv],  their
+                                                                                                                      their
+      individual   components   at 0.0 and 1.0 mole fractions.  Legend:   —melting     point of the
+          individual components at 0.0 and 1.0 mole fractions. Legend: ▪—melting point of the excess excess component
+      [Ch][Ib]  in the mixture;
+          component              —melting
+                        [Ch][Ib] in the mixture;point of the excess
+                                                  ▪—melting    pointcomponent
+                                                                      of the excess[Ch][Iv]  in the[Ch][Iv]
+                                                                                     component       mixture;
+                                                                                                            in —glass
+                                                                                                               the mixture;
+      transition
+          ▪—glass temperature;   —eutectic point;
+                    transition temperature;           – eutectic
+                                               ▪—eutectic  point;transition
+                                                                   – eutecticline.
+                                                                               transition line.
+
+                           Table 3. Properties of eutectic compositions of choline ILs in this study.
+
+                    Mixture                               Eutectic Composition          Melting Point Depression
+              Comp. A    Comp. B            Tm, eu, °C    Comp. A     Comp. B            Tm,A, °C       Tm,B, °C
+              [Ch][Ac]   [Ch][Ib]              41           0.46        0.54               40             26
+Molecules 2020, 25, 1691                                                                                             7 of 12
+
+
+
+                       Table 3. Properties of eutectic compositions of choline ILs in this study.
+
+             Mixture                                      Eutectic Composition            Melting Point Depression
+   Comp. A            Comp. B         Tm, eu   , ◦C     Comp. A           Comp. B          Tm,A , ◦ C        Tm,B , ◦ C
+    [Ch][Ac]          [Ch][Ib]            41               0.46             0.54               40               26
+    [Ch][Ac]         [Ch][2mb]            45               0.42             0.58               36               45
+    [Ch][Ac]          [Ch][Iv]            39               0.43             0.57               42               22
+    [Ch][Ib]         [Ch][2mb]            54               0.51             0.49               13               36
+    [Ch][Ib]          [Ch][Iv]            48               0.60             0.40               20               13
+      Tm, eu —melting point of eutectic mixture; Tm,A —melting point of pure component A; Tm,B —melting point of pure
+      component B.
+
+
+      Low IL melting points can be achieved when pairing ions with different levels of bulkiness.
+Extending this idea to mixtures helps to understand the melting point depression observed. A
+comparison of the obtained eutectic mixtures (Table 3) revealed that mixing anions with different sizes,
+like [Ac]− and [2mb]− , leads to a somewhat greater melting point depression than mixing anions of
+similar levels of bulkiness, such as [Iv]− and [2mb]− .
+      Three of the studied binary phase diagrams did not present eutectic behavior (Table 3). Mixtures
+of [Ch][Ac] and [Ch][Mal] exhibited melting point decreases with an increasing concentration of
+  Molecules 2020, 25, x FOR PEER REVIEW                                                                            3 of 12
+[Ch][Mal] until a mole fraction of 0.8 was reached. Further addition of [Ch][Mal] resulted in mixtures
+with
+  pointonly
+         haveglass
+                beentransition    behavior (Figure
+                        called low-transition         6). In
+                                               mixtures        contrast,
+                                                           [39],         when
+                                                                 and a lack     choline chloride
+                                                                             of crystallization  haswas
+                                                                                                      beenmixed   with
+                                                                                                            also related
+malonic    acid,viscosity
+  to the high      a eutecticofmixture   was formed
+                                 these mixtures   [28].atIt 50
+                                                             is mol%
+                                                                worth [38].  Mixtures
+                                                                       mentioning       with
+                                                                                     that  theno  detectable
+                                                                                               absence         meltingor
+                                                                                                          of melting
+point
+  freezing in the DSC measurement does not indicate that these phase transitions are impossible.toIt
+       have   been   called  low-transition mixtures    [39],  and a lack of crystallization has  been  also related
+the  high viscosity
+  simply   means that   of these mixtures [28].
+                           crystallization      It isoccur
+                                           did not    worth    mentioning
+                                                             under          that the
+                                                                    the applied       absence of
+                                                                                  conditions   of our
+                                                                                                  melting  or freezing
+                                                                                                      experiment.
+in the DSC measurement does not indicate that these phase transitions are impossible. It simply means
+that crystallization did not occur under the applied conditions of our experiment.
+
+
+
+
+        Figure6.6.Temperature-composition
+      Figure       Temperature-compositionphase
+                                             phasediagram
+                                                    diagramfor
+                                                             forthe
+                                                                  themixture
+                                                                      mixtureofof[Ch][Ac]
+                                                                                  [Ch][Ac]and andcholine
+                                                                                                  cholinemalonate
+                                                                                                           malonate
+        ([Ch][Mal]).  Legend: ●—melting   points of mixture and    [Ch][Ac] component      at 1.0 mole
+      ([Ch][Mal]). Legend: •—melting points of mixture and [Ch][Ac] component at 1.0 mole fraction;     fraction; ▪—
+        glass transition temperatures of the mixture  and [Ch][Ac]   component     at 1.0 mole  fraction.
+      —glass transition temperatures of the mixture and [Ch][Ac] component at 1.0 mole fraction.
+
+       Exothermic devitrification effects were often detected in the melting curves of the DSC
+ thermograms (a typical example is presented in the Supplementary Materials). These were
+ interpreted as solid–solid crystallization effects, where glass crystallizes into a solid and later melts
+ at a higher temperature [28,40]. The presence of several exothermic transitions indicates the existence
+ of different crystal structures at different temperatures [41]. So-called cold crystallization (when a
+Molecules 2020, 25, 1691                                                                                8 of 12
+
+
+
+     Exothermic devitrification effects were often detected in the melting curves of the DSC thermograms
+(a typical example is presented in the Supplementary Materials). These were interpreted as solid–solid
+crystallization effects, where glass crystallizes into a solid and later melts at a higher temperature [28,40].
+The presence of several exothermic transitions indicates the existence of different crystal structures
+at different temperatures [41]. So-called cold crystallization (when a low-temperature metastable
+state turns into a stable crystalline state, which only happens during heating) is highly dependent
+on the heating rate [41,42]. Such effects have also been described previously for pyrrolidinium [43],
+imidazolium [41], and pyridinium [13] ILs, and for binary IL mixtures [44].
+
+3. Materials and Methods
+
+3.1. Materials
+     The tested choline ILs were synthesized by mixing choline bicarbonate (Sigma-Aldrich, St. Louis,
+USA, 80% in H2 O) with carboxylic acids (acetic acid, lactic acid, malonic acid, isovaleric acid, isobutyric
+acid, 2-methylbutyric acid; all from Sigma-Aldrich, used as received) in aqueous solutions [34]. The
+chemical identity of the obtained ILs (for structures, names and abbreviations, see Table 1) was
+confirmed by 1 H-NMR spectroscopy (Bruker Avance II 400 MHz, Bruker Corporation, Billerica, MA,
+USA) using D2 O as a solvent. The water content was determined by Karl Fischer’s coulometric titration
+(Metrohm 756 KF Coulometer, Metrohm AG, Herisau, Switzerland). All ILs were dried under high
+vacuum and stored in a glovebox under an argon atmosphere (water content below 0.5 ppm) prior
+to use.
+
+3.2. DSC Sample Preparation
+     For binary IL mixtures consisting of components A and B, the molar concentrations of both
+components varied in the range from 100% to 0% with 10% steps. The IL mixtures were prepared
+by weighing the appropriate amounts of components A and B. The mixture was stirred at 100 ◦ C
+under argon to ensure homogeneity. They crystallized upon cooling down. For DSC measurements,
+2–9 mg of the IL mixtures or of the pure ILs were weighted into aluminum sample pans. All sample
+handling was carried out under an Ar atmosphere. DSC samples were prepared immediately before
+the measurement.
+
+3.3. DSC Measurements
+      The DSC measurements were performed using a NETZSCH DSC 204 F1 Phoenix® differential
+scanning calorimeter (NETZSCH Group, Selb, Germany) equipped with nitrogen cooling accessories,
+under normal pressure (p = 1 bar). The measurements were carried out in three repeated cycles in
+the temperature range −100 to 100 ◦ C (except for mixtures with [Ch][Iv], which were measured from
+−50 to 150 ◦ C). The samples were cooled to −100 ◦ C at a screening rate of 10 ◦ C·min−1 and kept at an
+isotherm for 30 min to facilitate crystallization (3 h in case of [Ch][Mal] and [Ch][Lac]), then heated
+with a temperature ramp of 5 ◦ C·min−1 to 100 ◦ C. An empty sample pan with a small hole in the lid
+served as the reference. To avoid condensation of water, the instrument was purged with dry nitrogen.
+      Top values of phase transition peaks during heating in the second cycle are reported as melting
+points. The uncertainty of temperatures was estimated to be 1 ◦ C. The phase transition of the heating
+curve should be preferred because, unlike crystallization, it is not dependent on the history of the
+sample and the measurement conditions. For each binary system, eleven different concentrations
+were measured. Based on these data, the Tammann plots (Supplementary Materials) and the liquidus
+lines of the phase diagrams (Figures 1–5) were constructed, using linear and second order polynomial
+fits (OriginPro 9.1 inbuilt function). Eutectic compositions were found from the Tammann plots and
+additional DSC measurements were carried out with the supposed eutectic mixtures to experimentally
+confirm their melting points. For clear determination of the possible phases at each composition of
+the mixtures tested, the eutectic thermal transitions for the mixtures tested are depicted as eutectic
+Molecules 2020, 25, 1691                                                                                   9 of 12
+
+
+
+transition lines in Figures 1–5. Glass transitions temperatures were determined for all samples as the
+midpoint of the glass transition part of the DSC curve.
+
+3.4. TGA Measurements
+     Thermogravimetric analyses (TGA, NETZSCH STA449F3, Selb, Germany) were performed to
+determine the decomposition temperatures of the ILs under investigation. Samples were placed in
+Al2 O3 crucibles and heated from 40 to 300 ◦ C with a heating rate of 10 ◦ C·min−1 under a constant flow
+of N2 or synthetic air (80 vol% N2 and 20 vol% O2 ). The 5% mass loss temperature values were taken
+from the corresponding inflection point on the thermogravimetric (TG) curve where the necessary mass
+loss was detected. The data obtained do not represent the long-term stability of the investigated IL
+mixtures in application scenarios. They rather reflect relative stability differences among the mixtures
+under investigation.
+
+4. Conclusions
+     The phase behavior of binary mixtures of choline carboxylate ILs has been investigated. Eight
+phase diagrams have been reported from mixtures of six different choline carboxylates. Five of the
+obtained phase diagrams presented eutectic points with melting point suppression between 13 and
+45 ◦ C. Anions with different levels of bulkiness like, for example, in the mixture of [Ch][Ac] and
+[Ch][2mb], led to a higher decrease in the melting point at the eutectic composition compared to anions
+of similar size, like in [Ch][Iv] and [Ch][2mb]. More drastic changes in the anion structure, such as the
+addition of carboxylate or hydroxyl group in the case of [Ch][Mal] and [Ch][Lac] resulted in mixtures
+without eutectic behavior.
+     From the thermogravimetric analysis, we conclude that the tested choline ILs can be applied at
+temperatures below 100 ◦ C under inert as well as under oxygen-containing atmospheres. The thermal
+stability measurements with a steep heating rate of 10 ◦ C·min−1 gave decomposition temperatures
+between 129 and 206 ◦ C with a clear dependence on the IL anion. Choline lactate was found to be the
+most stable salt among the tested choline salts.
+     The present study adds useful data for the wider applications of choline salts and their mixtures.
+As many choline salts are solid at ambient temperature, their usage as low-toxicity alternatives for
+conventional ILs has been limited so far. Our study proves that mixing different choline salts can lead
+to significantly lower melting points while fully maintaining the typical IL properties of extremely
+low vapor pressure and high ionic conductivity. Excellent availability and low toxicity of both the
+choline cation and the short-chain carboxylate anions make the here-described choline salt mixtures
+interesting candidates for solvent applications in the food and pharmaceutical industry.
+
+Supplementary Materials: The following are available online at http://www.mdpi.com/1420-3049/25/7/1691/s1,
+Figure S1: Tammann diagram of the mixture from [Ch][Ac] + [Ch][Ib], Figure S2: Tammann diagram of the
+mixture from [Ch][Ac] + [Ch][2mb], Figure S3: Tammann diagram of the mixture from [Ch][Ac] + [Ch][Iv], Figure
+S4: Tammann diagram of the mixture from [Ch][Ib] + [Ch][2mb], Figure S5: Tammann diagram of the mixture
+from [Ch][Ib] + [Ch][Iv], Figure S6: DSC thermogram of [Ch][Ac] (39.1%) and [Ch][Ib] (60.9%) mixture showing
+the cold-crystallization peak at −34◦ C, Figure S7: An example of a DSC thermogram of [Ch][Ac] (0.46) and [Ch][Ib]
+(0.54) eutectic mixture, Figure S8: An example of a DSC thermogram of [Ch][Ac] (0.42) and [Ch][2mb] (0.58)
+eutectic mixture, Figure S9: An example of a DSC thermogram of [Ch][Ac] (0.43) and [Ch][Iv] (0.57) eutectic
+mixture, Figure S10: An example of a DSC thermogram of [Ch][Ib] (0.51) and [Ch][2mb] (0.49) eutectic mixture,
+Figure S11: An example of a DSC thermogram of [Ch][Ib] (0.60) and [Ch][Iv] (0.40) eutectic mixture, Figure S12:
+The DSC diagram of [Ch][Ac], Figure S13: The DSC diagram of [Ch][Ib], Figure S14: The DSC diagram of [Ch][Iv],
+Figure S15: The DSC diagram of [Ch][Mal], Figure S16: The DSC diagram of [Ch][Lac], Figure S17: The 1 H NMR
+of [Ch][Ac], Figure S18: The 1 H NMR of [Ch][Ib], Figure S19: The 1 H NMR of [Ch][Iv], Figure S20: The 1 H NMR
+of [Ch][2mb], Figure S21: The 1 H NMR of [Ch][Mal], Figure S22: The 1 H NMR of [Ch][Lac], Figure S23: The 13 C
+NMR of [Ch][Mal].
+Author Contributions: Conceptualization, K.P.-E.; methodology, K.P.-E. and F.E.; validation, F.E. and K.P.-E.;
+formal analysis, F.E.; investigation, F.E.; resources, P.W., P.S.S., A.A., K.P.-E. and G.N.; data curation, F.E.;
+writing—original draft preparation, F.E. and K.P.-E.; writing—review and editing, K.P.-E., P.W., M.G., P.S.S., and
+Molecules 2020, 25, 1691                                                                                        10 of 12
+
+
+
+G.N.; visualization, F.E.; supervision, K.P.-E., M.G.; project administration, K.P.-E. and A.A.; funding acquisition,
+K.P.-E. and A.A. All authors have read and agreed to the published version of the manuscript.
+Funding: This project has received funding from the European Union’s Horizon 2020 research and innovation
+program under the Marie Sklodowska-Curie grant agreement No 793377 (BIOACT) and was partially supported
+by Graduate School of Functional materials and technologies, receiving funding from the European Regional
+Development Fund in University of Tartu, Estonia.
+Conflicts of Interest: The authors declare no conflict of interest. The funders had no role in the design of the
+study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to
+publish the results.
+
+References
+1.    Xiao, J.; Chen, G.; Li, N. Ionic Liquid Solutions as a Green Tool for the Extraction and Isolation of Natural
+      Products. Molecules 2018, 23, 1765. [CrossRef] [PubMed]
+2.    MacFarlane, D.R.; Chong, A.L.; Forsyth, M.; Kar, M.; Vijayaraghavan, R.; Somers, A.; Pringle, J.M. New
+      dimensions in salt–solvent mixtures: A 4th evolution of ionic liquids. Faraday Discuss. 2018, 206, 9–28.
+      [CrossRef] [PubMed]
+3.    Peng, H.; Wang, S.; Xu, H.; Dai, G. Preparations, properties, and formation mechanism of novel cellulose
+      hydrogel membrane based on ionic liquid. J. Appl. Polym. Sci. 2018, 135, 45488. [CrossRef]
+4.    Abbott, A.P.; Capper, G.; Davies, D.L.; Rasheed, R.K.; Tambyrajah, V. Novel solvent properties of choline
+      chloride/urea mixtures. Chem. Commun. 2003, 70–71. [CrossRef]
+5.    Smith, E.L.; Abbott, A.P.; Ryder, K.S. Deep Eutectic Solvents (DESs) and Their Applications. Chem. Rev. 2014,
+      114, 11060–11082. [CrossRef]
+6.    Martins, M.A.R.; Pinho, S.P.; Coutinho, J.A.P. Insights into the Nature of Eutectic and Deep Eutectic Mixtures.
+      J. Solution Chem. 2019, 48, 962–982. [CrossRef]
+7.    Natour, S.; Levi-Zada, A.; Abu-Reziq, R. Magnetic Polyurea Nano-Capsules Synthesized via Interfacial
+      Polymerization in Inverse Nano-Emulsion. Molecules 2019, 24, 2663. [CrossRef]
+8.    Wei, H.; Wu, X.-S.; Wen, G.-Y.; Qiao, Y. Imidazolium Ionic Liquid Functionalized Carbon Nanotubes for
+      Improved Interfacial Charge Transfer and Simultaneous Determination of Dihydroxybenzene Isomers.
+      Molecules 2016, 21, 617. [CrossRef] [PubMed]
+9.    Nie, Y.; Hou, Q.; Li, W.; Bai, C.; Bai, X.; Ju, M. Efficient Synthesis of Furfural from Biomass Using SnCl4 as
+      Catalyst in Ionic Liquid. Molecules 2019, 24, 594. [CrossRef]
+10.   Alves, M.B.; Umpierre, A.P.; Santos, V.O., Jr.; Soares, V.C.D.; Dupont, J.; Rubim, J.C.; Suarez, P.A.Z.
+      The use of Differential Scanning Calorimetry (DSC) to characterize phase diagrams of ionic mixtures of
+      1-n-butyl-3-methylimidazolium chloride and niobium chloride or zinc chloride. Thermochim. Acta 2010, 502,
+      20–23. [CrossRef]
+11.   Kick, M.; Keil, P.; König, A. Solid–liquid phase diagram of the two Ionic Liquids EMIMCl and BMIMCl. Fluid
+      Phase Equilib. 2013, 338, 172–178. [CrossRef]
+12.   Stolarska, O.; Rodríguez, H.; Smiglak, M. Eutectic mixtures of pyrrolidinium-based ionic liquids. Fluid Phase
+      Equilib. 2016, 408, 1–9. [CrossRef]
+13.   Stolarska, O.; Soto, A.; Rodríguez, H.; Smiglak, M. Thermal behaviour of mixtures of 1-alkylpyridinium
+      halides with and without a common ion. J. Mol. Liq. 2018, 268, 781–790. [CrossRef]
+14.   Egorova, K.S.; Ananikov, V.P. Toxicity of Ionic Liquids: Eco(cyto)activity as Complicated, but Unavoidable
+      Parameter for Task-Specific Optimization. ChemSusChem 2014, 7, 336–360. [CrossRef]
+15.   Klein, R.; Müller, E.; Kraus, B.; Brunner, G.; Estrine, B.; Touraud, D.; Heilmann, J.; Kellermeier, M.; Kunz, W.
+      Biodegradability and cytotoxicity of choline soaps on human cell lines: Effects of chain length and the cation.
+      RSC Advances 2013, 3, 23347–23354. [CrossRef]
+16.   Rengstl, D.; Kraus, B.; Van Vorst, M.; Elliott, G.D.; Kunz, W. Effect of choline carboxylate ionic liquids on
+      biological membranes. Colloids Surf. B: Biointerfaces 2014, 123, 575–581. [CrossRef]
+17.   Hou, X.-D.; Liu, Q.-P.; Smith, T.J.; Li, N.; Zong, M.-H. Evaluation of Toxicity and Biodegradability of
+      Cholinium Amino Acids Ionic Liquids. PLoS ONE 2013, 8, e59145. [CrossRef]
+18.   Zhang, S.; Ma, L.; Wen, P.; Ye, X.; Dong, R.; Sun, W.; Fan, M.; Yang, D.; Zhou, F.; Liu, W. The ecotoxicity and
+      tribological properties of choline amino acid ionic liquid lubricants. Tribol. Int. 2018, 121, 435–441. [CrossRef]
+Molecules 2020, 25, 1691                                                                                          11 of 12
+
+
+
+19.   Alcalde, R.; Gutiérrez, A.; Atilhan, M.; Aparicio, S. An experimental and theoretical investigation of the
+      physicochemical properties on choline chloride – Lactic acid based natural deep eutectic solvent (NADES).
+      J. Mol. Liq. 2019, 290, 110916. [CrossRef]
+20.   Harifi-Mood, A.R.; Buchner, R. Density, viscosity, and conductivity of choline chloride + ethylene glycol
+      as a deep eutectic solvent and its binary mixtures with dimethyl sulfoxide. J. Mol. Liq. 2017, 225, 689–695.
+      [CrossRef]
+21.   Cui, Y.; Li, C.; Yin, J.; Li, S.; Jia, Y.; Bao, M. Design, synthesis and properties of acidic deep eutectic solvents
+      based on choline chloride. J. Mol. Liq. 2017, 236, 338–343. [CrossRef]
+22.   Aroso, I.M.; Paiva, A.; Reis, R.L.; Duarte, A.R.C. Natural deep eutectic solvents from choline chloride and
+      betaine – Physicochemical properties. J. Mol. Liq. 2017, 241, 654–661. [CrossRef]
+23.   Alcalde, R.; Atilhan, M.; Aparicio, S. On the properties of (choline chloride + lactic acid) deep eutectic solvent
+      with methanol mixtures. J. Mol. Liq. 2018, 272, 815–820. [CrossRef]
+24.   Shafie, M.H.; Yusof, R.; Gan, C.-Y. Synthesis of citric acid monohydrate-choline chloride based deep eutectic
+      solvents (DES) and characterization of their physicochemical properties. J. Mol. Liq. 2019, 288, 111081.
+      [CrossRef]
+25.   Chemat, F.; Anjum, H.; Shariff, A.M.; Kumar, P.; Murugesan, T. Thermal and physical properties of (Choline
+      chloride+urea+l-arginine) deep eutectic solvents. J. Mol. Liq. 2016, 218, 301–308. [CrossRef]
+26.   Kuddushi, M.; Nangala, G.S.; Rajput, S.; Ijardar, S.P.; Malek, N.I. Understanding the peculiar effect of
+      water on the physicochemical properties of choline chloride based deep eutectic solvents theoretically and
+      experimentally. J. Mol. Liq. 2019, 278, 607–615. [CrossRef]
+27.   Ruß, C.; König, B. Low melting mixtures in organic synthesis – an alternative to ionic liquids? Green Chem.
+      2012, 14, 2969. [CrossRef]
+28.   Morrison, H.G.; Sun, C.C.; Neervannan, S. Characterization of thermal behavior of deep eutectic solvents
+      and their potential as drug solubilization vehicles. Int. J. Pharm. 2009, 378, 136–139. [CrossRef]
+29.   Patidar, P.; Bahadur, A.; Prasad, K.; Tiwari, S.; Aswal, V.K.; Bahadur, P. Synthesis, self-assembly and
+      micellization characteristics of choline alkanoate ionic liquids in association with a star block copolymer.
+      Colloids Surf. A Physicochem. Eng. Asp. 2018, 555, 691–698. [CrossRef]
+30.   Sastry, N.V.; Singh, D.K.; Trivedi, P.A. Studies on Micellar Behavior of PEO-PBO or PEO-PBO-PEO Copolymers,
+      or Surface Active Amphiphilic Ionic Liquids in Aqueous Media and Exploration of the Micellar Solutions for
+      Solubilization of Dexamethasone and its Delayed Release. J. Surfactants Deterg. 2018, 21, 65–79. [CrossRef]
+31.   Mourão, T.; Tomé, L.C.; Florindo, C.; Rebelo, L.P.N.; Marrucho, I.M. Understanding the Role of Cholinium
+      Carboxylate Ionic Liquids in PEG-Based Aqueous Biphasic Systems. ACS Sustain. Chem. Eng. 2014, 2,
+      2426–2434. [CrossRef]
+32.   Kunz, W.; Maurer, E.; Klein, R.; Touraud, D.; Rengstl, D.; Harrar, A.; Dengler, S.; Zech, O. Low Toxic Ionic
+      Liquids, Liquid Catanionics, and Ionic Liquid Microemulsions. J. Dispers. Sci. Technol. 2011, 32, 1694–1699.
+      [CrossRef]
+33.   Fukaya, Y.; Iizuka, Y.; Sekikawa, K.; Ohno, H. Bio ionic liquids: Room temperature ionic liquids composed
+      wholly of biomaterials. Green Chem. 2007, 9, 1155–1157. [CrossRef]
+34.   Muhammad, N.; Hossain, M.I.; Man, Z.; El-Harbawi, M.; Bustam, M.A.; Noaman, Y.A.; Mohamed
+      Alitheen, N.B.; Ng, M.K.; Hefter, G.; Yin, C.-Y. Synthesis and Physical Properties of Choline Carboxylate
+      Ionic Liquids. J. Chem. Eng. Data 2012, 57, 2191–2196. [CrossRef]
+35.   Petkovic, M.; Ferguson, J.L.; Gunaratne, H.Q.N.; Ferreira, R.; Leitão, M.C.; Seddon, K.R.; Rebelo, L.P.N.;
+      Pereira, C.S. Novel biocompatible cholinium-based ionic liquids—toxicity and biodegradability. Green Chem.
+      2010, 12, 643–649. [CrossRef]
+36.   Sun, J.; Forsyth, M.; MacFarlane, D.R. Room-Temperature Molten Salts Based on the Quaternary Ammonium
+      Ion. J. Phys. Chem. B 1998, 102, 8858–8864. [CrossRef]
+37.   Maton, C.; De Vos, N.; Stevens, C.V. Ionic liquid thermal stabilities: Decomposition mechanisms and analysis
+      tools. Chem. Soc. Rev. 2013, 42, 5963. [CrossRef]
+38.   Abbott, A.P.; Boothby, D.; Capper, G.; Davies, D.L.; Rasheed, R.K. Deep Eutectic Solvents Formed between
+      Choline Chloride and Carboxylic Acids: Versatile Alternatives to Ionic Liquids. J. Am. Chem. Soc. 2004, 126,
+      9142–9147. [CrossRef]
+39.   Francisco, M.; van den Bruinhorst, A.; Kroon, M.C. Low-Transition-Temperature Mixtures (LTTMs): A New
+      Generation of Designer Solvents. Angew. Chem. Int. Ed. 2013, 52, 3074–3085. [CrossRef]
+Molecules 2020, 25, 1691                                                                                     12 of 12
+
+
+
+40.   Boisset, A.; Menne, S.; Jacquemin, J.; Balducci, A.; Anouti, M. Deep eutectic solvents based on
+      N-methylacetamide and a lithium salt as suitable electrolytes for lithium-ion batteries. Phys. Chem.
+      Chem. Phys. 2013, 15, 20054. [CrossRef]
+41.   Gómez, E.; Calvar, N.; Domínguez, Á.; Macedo, E.A. Thermal Analysis and Heat Capacities of
+      1-Alkyl-3-methylimidazolium Ionic Liquids with NTf2 − , TFO− , and DCA− Anions. Ind. Eng. Chem.
+      Res. 2013, 52, 2103–2110. [CrossRef]
+42.   Meng, X.; Ballerat-Busserolles, K.; Husson, P.; Andanson, J.-M. Impact of water on the melting temperature
+      of urea + choline chloride deep eutectic solvent. New J. Chem. 2016, 40, 4492–4499. [CrossRef]
+43.   Annat, G.; Forsyth, M.; MacFarlane, D.R. Ionic Liquid Mixtures—Variations in Physical Properties and Their
+      Origins in Molecular Structure. J. Phys. Chem. B 2012, 116, 8251–8258. [CrossRef] [PubMed]
+44.   Maximo, G.J.; Santos, R.J.B.N.; Brandão, P.; Esperança, J.M.S.S.; Costa, M.C.; Meirelles, A.J.A.; Freire, M.G.;
+      Coutinho, J.A.P. Generating Ionic Liquids from Ionic Solids: An Investigation of the Melting Behavior of
+      Binary Mixtures of Ionic Liquids. Cryst. Growth Des. 2014, 14, 4270–4277. [CrossRef]
+
+Sample Availability: Samples of the choline IL mixtures and pure choline ILs are available from the authors.
+
+                           © 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+                           article distributed under the terms and conditions of the Creative Commons Attribution
+                           (CC BY) license (http://creativecommons.org/licenses/by/4.0/).
+

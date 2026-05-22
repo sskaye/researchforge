@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "400",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 2f confirms 'C 18 H 17 ClN 2 S 328.9 Cl 4-isoC 3 H 7 135-136 68'; compound 2f decoded from Scheme 1 is exactly the 6-chloro-3-(4-isopropylphenyl)-2-methylquinazoline-4(3H)-thione named in the CSV. mp 135-136 °C measured (Kofler block).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "273",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper text: '4-(4-Benzylphthalazin-1-ylamino)diphenyl amine ( 10g ). Green crystals, 70%, 0.13 g. mp 215-217 °C' matches compound name, value 216 (mid of 215-217), and units.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "868",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.1.1.2: 'N'-(4-Hydroxy-3-methoxybenzylidene)benzo[d]thiazole-2-carbohydrazide (6b) Yield: 91%; mp 232–234 °C' matches exactly; measured value 233 = mid of 232-234.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1137",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Brown 2000 Table 2 lists 'C6H5OH phenol 314.1' (Kelvin). 314.1 K − 273.15 = 40.95 °C arithmetic correct. Compound name and value match.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1365",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 lists 'Methyl hexadecanoate 112-39-0 Ester 205.03 ± 1.12 28.9 ± 0.05 ...'; column header is 'Melting Onset (°C)'. DSC_onset property classification matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "855",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental section gives '...hydrazono)methyl)phenoxy)acetic acid (10e) A white precipitate was obtained in a yield of 68%; mp 153–155 °C' matching the CSV compound name and value range.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1146",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental section for sulfinamide 20c reports '(SS)-(E)-N-((1-Benzyl-3-(2-(benzyloxy)ethyl)-1H-indol-2-yl)methylene)-2-methylpropane-2-sulfinamide (20c)... mp 147–150 °C'; compound name and value confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1068",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 2.2.1: '4-(2-benzylidenehydrazinyl)-2,10,14-trimethylpentadeca-2,9,13-trien-6-one (1a) White solid; mp: 119°C–114°C' matches CSV (range stated reversed by paper; value 116.5 is midpoint).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1541",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 column 'Cocrystal melting point (1:1)' for 'Piroxicam-Urea' lists 171-173 °C, matching CSV value/range.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1580",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 2.2.1 ImeTQ (= polymorph I marketed form): 'The onset temperature (T onset ) was constant and equal to 268.97 ± 0.13 °C' matches DSC_onset classification and value.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1418",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 4.2.16: '4-Methylquinolin-2(1H)-one (2p).25 A white solid; m.p. = 220−222 °C' matches compound name and mp range exactly.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "250",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental section: 'tert-butyl 5-bromo-3-[(E)-2-nitrovinyl]-1H-indole-1-carboxylate. Yield: 2.11 g (83% from 5-bromoindole); pale-yellow solid; mp 156–157 °C' matches compound name and value.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "43",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6d entry: '...trimethylbicyclo[3.1.1]heptan-3-yl)amino)methyl)-N-(4-methyl-3-((4-(pyridin-3-yl)pyrimidin-2-yl)amino)phenyl)benzamide 6d Yield 91%. mp 118–120 °C' matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1467",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental: '6-Methoxy-6-oxohexyl 4-(3-hydroxyphenyl)-6-methyl-2-oxo-1,2,3,4-tetrahydropyrimidine-5-carboxylate (6c). MW = 376.41 g mol−1; white solid; M. P. 128–130 °C' matches CSV.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "913",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental: 'filtered and dried in vacuo at 50°C. Mp >300°C. Anal. % calcd. for C 28 H 28 Na 2 NO 3 P 3' (this is the disodium ligand). Relation '>' and value 300 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "221",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Acetohydrazide (3) Method 2: 'white crystals 3 ( 3.15 g, 64%); mp. 60 °C' matches CSV value 60 °C (Method 2 specifically cited in CSV).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "579",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 4.1.1 (intermediate 4): 'melting point: 46–47 °C (lit. 46–48 °C [19])' matches CSV value and compound name 2-Chloro-1-(2,4-difluorophenyl)ethanone.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "633",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 lists compound 15 with m.p. 223-225 °C; Scheme 2 identifies 15 as the symmetric bis-product of quinazolidin-4(3H)-one + 1,4-dibromobutane, i.e. 3,3'-(butane-1,4-diyl)bis(quinazolidin-4(3H)-one). Compound name and value verified.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "470",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 (cont.) under Hydroxychloroquine column STRM: Tb [K] = 681.390. Paper estimates Tb by GC+ method, so meas_calc=calculated is correct. 681.390 K − 273.15 = 408.240 °C arithmetic correct.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "309",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental: 'N-Hydrazinocarbonylmethyl-2-(5-benzyl-4-phenyl-4H-[1,2,4]triazol-3-thio)-acetamide ( 7b ). From ester 6b (0.40 g). Colorless crystals (0.37 g, 93%); mp 152–153 °C' matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1191",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Yalkowsky 2014 Table 1: 'Ethane −183' (degrees C, mp listed in same column as toluene). Compound name and value match.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1533",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper: 'The pure drug and coformer showed characteristic endothermic peak at 200.39 °C and 323.58 °C respectively corresponding to their melting point.' The 200.39 °C is the DSC endothermic peak the authors explicitly call piroxicam's melting point, supporting property=melting_point and value.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "178",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental: '4-(Pyridin-4-yl)benzaldehyde ( 1 ) Eluent: PE/EtOAc 7:1. Yellow solid (97% yield). Mp 87–90 °C (lit. [45] 87–88 °C)' matches CSV compound name and value.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1118",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Brown 2000 Table 1: 'C6H4Cl2 o-dichlorobenzene 256.5'. 256.5 K − 273.15 = −16.65 °C arithmetic correct. Compound name and value match.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "701",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental section: 'Procedure for the Preparation of 2-(Benzocoumarin-3/-yl)-5-(3-benzocoumarinoyl)pyirdine ( 8 )...recrystallized from ethanol to give 8 as buff crystals (64%), mp 220°C'. CSV compound name corrects typographical artifacts (3'-yl, pyridine) but is chemically equivalent. Value verified.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]

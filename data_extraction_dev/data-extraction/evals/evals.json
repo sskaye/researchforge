@@ -1,0 +1,203 @@
+{
+  "skill": "data-extraction",
+  "version": "v2",
+  "evals": [
+    {
+      "name": "scripts-clean-baseline",
+      "datatype": "mp_bp",
+      "description": "Five evidence-locked rows that exercise edge cases (range conversion, °F conversion, calculated value, very high mp, very low bp). All should pass every sanity check.",
+      "type": "deterministic",
+      "command": "python3 scripts/run_all_checks.py --datatype mp_bp datatypes/mp_bp/evals/files/clean_baseline.csv",
+      "expected_exit_code": 0,
+      "expected_stdout_contains": ["Loaded 5 rows"]
+    },
+    {
+      "name": "scripts-detect-seeded-errors",
+      "datatype": "mp_bp",
+      "description": "Eleven rows with deliberately seeded errors of distinct types — bare code, truncated name, value out of range, wrong arithmetic, placeholder citation, empty name, implausible SMILES, intra-paper duplicate, plus two truncated-indicated-hydrogen-locant cases ('H-Indeno...' and 'H-Pyrrolo...' that should be '7H-Indeno...' / '1H-Pyrrolo...'). Run_all_checks should flag every error.",
+      "type": "deterministic",
+      "command": "python3 scripts/run_all_checks.py --datatype mp_bp datatypes/mp_bp/evals/files/seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "bare paper-local code",
+        "truncated",
+        "exceeds",
+        "arithmetic",
+        "placeholder citation",
+        "missing compound_name",
+        "duplicate group",
+        "indicated-hydrogen locant"
+      ]
+    },
+    {
+      "name": "csv-quote-lint-detects-unquoted-commas",
+      "datatype": "generic",
+      "description": "A 3-row fixture where row 2 has an unquoted comma in the compound_name field (N-(2,5-Dimethyl...). csv_quote_lint.py should detect this by column count mismatch OR by data_type carrying an unexpected value. Row 1 (no commas) and row 3 (commas properly quoted) should pass.",
+      "type": "deterministic",
+      "command": "python3 scripts/csv_quote_lint.py evals/files/malformed_csv_quoting.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "row 2",
+        "column count"
+      ]
+    },
+    {
+      "name": "validate-compound-name-detects-truncated-locant",
+      "datatype": "generic",
+      "description": "Specific check: 'H-Indeno[2,1-c]Quinolin-7-One' and 'H-Pyrrolo[3,2-d]pyrimidine' should be flagged as truncated-indicated-hydrogen-locant — real names are '7H-Indeno...' and '1H-Pyrrolo...' with a leading digit before the H. The fixture lives in datatypes/mp_bp/evals/files/ because the rest of seeded_errors.csv is mp/bp-shaped, but the lint itself is generic chemistry-name shape.",
+      "type": "deterministic",
+      "command": "python3 scripts/validate_compound_name.py datatypes/mp_bp/evals/files/seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "indicated-hydrogen locant"
+      ]
+    },
+    {
+      "name": "value-range-helium-tungsten-edge",
+      "datatype": "mp_bp",
+      "description": "Values at the extremes of the plausible range — helium bp ~ -269 °C, tungsten mp ~ 3422 °C — should NOT be flagged.",
+      "type": "deterministic",
+      "command": "python3 datatypes/mp_bp/scripts/value_range_check.py datatypes/mp_bp/evals/files/clean_baseline.csv",
+      "expected_exit_code": 0
+    },
+    {
+      "name": "unit-conversion-arithmetic-K",
+      "datatype": "mp_bp",
+      "description": "Verify K → °C arithmetic on a clean baseline (Camostat 492.478 K → 219.328 °C). Should pass.",
+      "type": "deterministic",
+      "command": "python3 datatypes/mp_bp/scripts/unit_conversion_arithmetic.py datatypes/mp_bp/evals/files/clean_baseline.csv",
+      "expected_exit_code": 0
+    },
+    {
+      "name": "unit-conversion-arithmetic-F",
+      "datatype": "mp_bp",
+      "description": "Verify °F → °C arithmetic on a clean baseline (tungsten 6191.6 °F → 3422 °C). Should pass.",
+      "type": "deterministic",
+      "command": "python3 datatypes/mp_bp/scripts/unit_conversion_arithmetic.py datatypes/mp_bp/evals/files/clean_baseline.csv",
+      "expected_exit_code": 0
+    },
+    {
+      "name": "validate-compound-name-flags-bare-code",
+      "datatype": "generic",
+      "description": "validate_compound_name.py flags 'compound 3' and '5-acetyl-' as invalid names. Generic chemistry-name shape rule.",
+      "type": "deterministic",
+      "command": "python3 scripts/validate_compound_name.py datatypes/mp_bp/evals/files/seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": ["bare paper-local code", "truncated"]
+    },
+    {
+      "name": "dedup-within-paper-flags-duplicate",
+      "datatype": "generic",
+      "description": "dedup_within_paper.py flags two rows in seeded_errors.csv (rows 8 and 9) as duplicates within the same paper.",
+      "type": "deterministic",
+      "command": "python3 scripts/dedup_within_paper.py datatypes/mp_bp/evals/files/seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": ["duplicate group"]
+    },
+    {
+      "name": "INACCESSIBLE-handling",
+      "datatype": "generic",
+      "description": "Agent given a paper directory with no readable files must flag with `flagged_paper_unreadable` rather than emit fabricated rows. (Agent-based eval — needs the skill-creator harness.)",
+      "type": "agent",
+      "instructions": "Apply the EXTRACTION_PROMPT_TEMPLATES.md Template 1 to a paper subdirectory containing only an empty article.pdf. The agent must NOT emit any data rows. It should emit either zero rows or one row with verification_status=flagged_review and notes containing flagged_paper_unreadable."
+    },
+    {
+      "name": "extract-from-known-paper-with-provenance",
+      "datatype": "generic",
+      "description": "Apply the EXTRACTION_PROMPT_TEMPLATES.md Template 1 to a known paper subdirectory. Confirm: every emitted row has a non-empty evidence_quote; the quote is verbatim present in the paper file; meas_calc is correctly measured vs calculated. Use a known paper from the supported data type; mp/bp known papers are in trials/trial5/opus47/ (Trial-5 corpus).",
+      "type": "agent",
+      "instructions": "Apply Template 1 to {known_paper_subdir} with the appropriate datatype overlay. After extraction, run scripts/run_all_checks.py --datatype <X> with --paper-root. Expected: zero flags."
+    },
+    {
+      "name": "verifier-prompt-detects-fabrication",
+      "datatype": "generic",
+      "description": "Independent verifier correctly flags a row whose evidence_quote is not in the paper file.",
+      "type": "agent",
+      "instructions": "Build a CSV with one correct row plus one row whose evidence_quote is a plausible-sounding string that doesn't actually appear in the paper. Apply VERIFICATION_PROMPT_TEMPLATES.md to both rows. The verifier must verify the first and flag the second with flagged_evidence_quote_not_found."
+    },
+    {
+      "name": "v15-quote-support-lint-detects-missing-value-in-quote",
+      "datatype": "generic",
+      "description": "v1.5: quote_support_lint should hard-fail on rows where the quote is verbatim present in the paper but does not contain the numeric value (the 'Dark red solid;' Opus row 80 failure mode, and the GPT-5.5 masthead failure mode).",
+      "type": "deterministic",
+      "command": "python3 scripts/quote_support_lint.py datatypes/mp_bp/evals/files/v15_seeded_errors.csv 2>&1 | grep -v advisory",
+      "expected_stdout_contains": [
+        "row 4: evidence_quote does not contain any numeric token",
+        "row 5: evidence_quote does not contain any numeric token"
+      ]
+    },
+    {
+      "name": "v16-quote-template-lint-deprecated",
+      "datatype": "generic",
+      "description": "v1.6: quote_template_lint.py is a deprecated no-op. Confirm it exits 0 with a deprecation notice. Ellipsis and template-quote checks were removed because they affected verifiability (Tier 2), not correctness (Tier 1), and forced agents to drop correct rows.",
+      "type": "deterministic",
+      "command": "python3 scripts/quote_template_lint.py datatypes/mp_bp/evals/files/v15_seeded_errors.csv",
+      "expected_exit_code": 0
+    },
+    {
+      "name": "v16-compound-name-EA-prefix-detection",
+      "datatype": "generic",
+      "description": "v1.6: validate_compound_name flags rows with elemental-analysis line prepended to the compound name (e.g., 'C, 50.73; H, 5.72; N, 8.42. (IUPAC name)'). Caught 3 of T3 Opus's original failures and ~140 contaminated rows across the full corpus. (Reclassified as generic in v2.0: EA-prefix contamination can leak from any characterization table, not only mp/bp ones.)",
+      "type": "deterministic",
+      "command": "python3 scripts/validate_compound_name.py datatypes/mp_bp/evals/files/v15_seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "row 16: compound_name has elemental-analysis prefix contamination"
+      ]
+    },
+    {
+      "name": "v16-compound-name-leading-code-prefix-detection",
+      "datatype": "generic",
+      "description": "v1.6: validate_compound_name flags rows where the compound_name field starts with a paper-local code prefix like '6 (IUPAC name)'. This is the Phase 6e leading-context-prefix pattern; restored as an active lint in v1.6.",
+      "type": "deterministic",
+      "command": "python3 scripts/validate_compound_name.py datatypes/mp_bp/evals/files/v15_seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "row 17: compound_name starts with a paper-local code prefix"
+      ]
+    },
+    {
+      "name": "v16-compound-name-procedure-at-start-detection",
+      "datatype": "generic",
+      "description": "v1.6: validate_compound_name flags rows where compound_name begins with procedure-text or appearance description (Yield, White, Yellow, solid, powder, etc.) rather than chemistry.",
+      "type": "deterministic",
+      "command": "python3 scripts/validate_compound_name.py datatypes/mp_bp/evals/files/v15_seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "row 18: compound_name starts with procedure-text"
+      ]
+    },
+    {
+      "name": "v15-compound-name-shape-expanded",
+      "datatype": "generic",
+      "description": "v1.5: validate_compound_name extends to terminal unfinished-suffix tokens (Carboxamid), dangling hyphen/prime tails, unbalanced parens, narrow procedure-text contamination. Crucially: must NOT false-positive on legitimate parenthesized stereo descriptors (E)-, (S,S)-, (-)-.",
+      "type": "deterministic",
+      "command": "python3 scripts/validate_compound_name.py datatypes/mp_bp/evals/files/v15_seeded_errors.csv",
+      "expected_exit_code": 1,
+      "expected_stdout_contains": [
+        "row 9: compound_name ends in unfinished suffix token",
+        "row 10: compound_name ends with a dangling hyphen/prime",
+        "row 11: compound_name has unbalanced parens",
+        "row 12: compound_name contains procedure-text token"
+      ]
+    },
+    {
+      "name": "v20-conversion-arithmetic-lint-shapes",
+      "datatype": "generic",
+      "description": "v2.0: conversion_arithmetic_lint.py accepts the three SKILL.md example shapes (K→°C, °F→°C, redox SCE→SHE) plus their ASCII-operator equivalents, and rejects four malformed shapes (missing =, missing operator, missing units, missing input number).",
+      "type": "deterministic",
+      "command": "python3 evals/check_conversion_arithmetic_lint.py",
+      "expected_exit_code": 0,
+      "expected_stdout_contains": ["UNEXPECTED FAILURES: NONE"]
+    },
+    {
+      "name": "v15-stereo-descriptors-not-flagged",
+      "datatype": "generic",
+      "description": "v1.5: legitimate IUPAC stereo / optical descriptors that start with '(' must NOT be flagged by validate_compound_name. Rows 13-15 of v15_seeded_errors are (E)-, (S,S)-, and (-)- patterns and should pass through cleanly. This is a guard against the false-positive pattern observed in the initial v1.5 draft (which had a too-broad leading-paren rule).",
+      "type": "deterministic",
+      "command": "python3 evals/check_no_stereo_false_positives.py",
+      "expected_exit_code": 0,
+      "expected_stdout_contains": ["UNEXPECTED FAILURES: NONE"]
+    }
+  ]
+}

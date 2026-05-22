@@ -1,0 +1,903 @@
+             materials
+Article
+Towards Investigating the Effect of Ammonium Nitrate on the
+Characteristics and Thermal Decomposition Behavior of
+Energetic Double Base NC/DEGDN Composite
+Hani Boukeciat 1 , Ahmed Fouzi Tarchoun 1,2, * , Djalal Trache 1, * , Amir Abdelaziz 1 , Rania Ahmed Hamada 1 ,
+Ayemen Bouhantala 1 , Chamseddine Bousstila 1 , Sabrina Hanafi 1 , Mohammed Dourari 1
+and Thomas M. Klapötke 3
+
+                                          1   Energetic Materials Laboratory (EMLab), Teaching and Research Unit of Energetic Processes, Ecole Militaire
+                                              Polytechnique, BP 17, Bordj El-Bahri, Algiers 16046, Algeria
+                                          2   Energetic Propulsion Laboratory, Teaching and Research Unit of Energetic Processes, Ecole Militaire
+                                              Polytechnique, BP 17, Bordj El-Bahri, Algiers 16046, Algeria
+                                          3   Department of Chemistry, Ludwig Maximilian University, Butenandtstrasse 5-13 (D),
+                                              D-81377 Munich, Germany
+                                          *   Correspondence: tarchounfouzi@gmail.com (A.F.T.); djalaltrache@gmail.com (D.T.)
+
+
+                                          Abstract: This research work aimed to elaborate on a new modified double-base propellant contain-
+                                          ing nitrocellulose (NC), ammonium nitrate (AN), and diethylene glycol dinitrate (DEGDN). The
+                                          developed AN/NC-DEGDN formulation was successfully obtained through a casting process and
+Citation: Boukeciat, H.; Tarchoun,        fully characterized in terms of its chemical structure, morphological features, and thermal behavior.
+A.F.; Trache, D.; Abdelaziz, A.;          Beforehand, theoretical calculation by the CEA-NASA program was applied to select the optimal
+Ahmed Hamada, R.; Bouhantala, A.;         composition of the formulation. Experimental findings demonstrated the homogenous dispersion of
+Bousstila, C.; Hanafi, S.; Dourari, M.;   AN oxidizer in the NC-DEGDN matrix without alteration of their molecular structures. The catalytic
+Klapötke, T.M. Towards Investigating      influence of AN on the thermal decomposition behavior of NC-DEGDN film was also elucidated
+the Effect of Ammonium Nitrate on
+                                          by thermal analyses. When AN was incorporated into the formulation, the decomposition peak
+the Characteristics and Thermal
+                                          temperatures for the different decomposition processes were shifted toward lower temperatures,
+Decomposition Behavior of Energetic
+                                          while the total enthalpy of decomposition increased by around 1272.24 J/g. In addition, the kinetics of
+Double Base NC/DEGDN
+                                          the thermal decomposition of the developed modified double base propellant were investigated using
+Composite. Materials 2022, 15, 8138.
+https://doi.org/10.3390/
+                                          DSC results coupled with model kinetic approaches. It was found that the addition of AN decreases
+ma15228138                                the activation energy of nitrate esters from 134.5 kJ/mol to 118.84 kJ/mol, providing evidence for its
+                                          excellent catalytic effect. Overall, this investigation could serve as a reference for developing future
+Academic Editor: Aleksander B.
+                                          generation of modified double-base propellants.
+Vorozhtsov
+
+Received: 25 October 2022                 Keywords: ammonium nitrate; nitrocellulose; diethylene glycol dinitrate; energetic composite;
+Accepted: 14 November 2022                decomposition kinetics
+Published: 16 November 2022
+
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affil-   1. Introduction
+iations.                                        Nowadays, the development and characterization of new energetic formulations have
+                                          addressed numerous challenges in the field of insensitive munitions and solid rocket pro-
+                                          pellants [1,2]. As a crucial branch of energetic formulations, modified double-base solid
+                                          propellants (MDBs), corresponding to energetic composites that contain cellulose nitrate
+Copyright: © 2022 by the authors.
+                                          (NC) as a binder, plasticizers, oxidizers (ammonium perchlorate, AP), energetic additives
+Licensee MDPI, Basel, Switzerland.
+                                          (e.g., nitramines), stabilizers, and catalysts, among others, play a prominent role in chemical
+This article is an open access article
+                                          propulsion systems [3]. Such energetic formulations are known for their excellent energetic
+distributed under the terms and
+                                          performance, interesting mechanical characteristics, attractive operational features, and
+conditions of the Creative Commons
+                                          mature processing technology, increasing their demand for several military uses in missiles,
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+                                          rocket motors, and boosters [4]. As an important ingredient in MDBs, energetic plasticizers
+4.0/).
+                                          such as nitroglycerine (NG), diethylene glycol dinitrate (DEGDN) and ethylene glycol
+
+
+
+
+Materials 2022, 15, 8138. https://doi.org/10.3390/ma15228138                                                https://www.mdpi.com/journal/materials
+Materials 2022, 15, 8138                                                                                            2 of 14
+
+
+
+
+                           dinitrate (EGDN) act as a fuel and improve the overall energy level, plasticity, and physical
+                           characteristics of the propellant [5,6]. Broadly, an appropriate plasticizer should display ac-
+                           ceptable sensitivity, compatibility with other components, suitable melting point, and good
+                           density [6]. Nonetheless, nitroglycerine, the most largely employed energetic plasticizer,
+                           suffers from various problems, including sensitivity to friction and impact, low oxygen
+                           balance (3.5%), reduced thermal stability, and migratory issues [7–9]. To address the above-
+                           mentioned issues associated with traditional NG reliance, several emergent plasticizers
+                           comprising DEGDN and EGDN are revealed as promising candidates to replace NG, owing
+                           to their inherent characteristics such as improved participation and wetting features that
+                           lead to softer boundaries at NC interfaces, thus decreasing the sensitivity of the energetic
+                           formulation. Furthermore, they can decrease the freezing temperature of nitroglycerine [10].
+                           As an energetic plasticizer, EGDN was found to be more effective than NG and present high
+                           energy, while being less sensitive to impact [11]. In one research paper, Yunlu Li et al. [6]
+                           mentioned that the introduction of hydrogen bond functional groups such as -NH2 , -CH3,
+                           or other functions into energetic compounds would enhance their safety. Therefore, the
+                           use of DEGDN, which forms homogenous matrices with NC promoted by the electrostatic
+                           N–O interactions and the hydrogen bond network, has actually attracted much attention as
+                           a prominent alternative plasticizer in energetic formulations [8,9]. However, such propel-
+                           lant formulations (NC-DEGDN) demonstrate reduced energetic performance due to their
+                           low oxygen balance [10]. To address this issue, oxidizers such as ammonium perchlorate
+                           (AP), hydrazinium nitroformate (HNF), ammonium nitrate (AN), ammonium dinitramide
+                           (ADN), and hexanitrohexaazaisowurtzitane (CL-20) were introduced to the double-base
+                           energetic formulation to compensate the oxygen deficiency and allow producing effective
+                           propellant composites with better energetic performance [12]. MDBs based on nitrate esters
+                           (NC and NG) and AP as an oxidizer have been widely employed for military purposes
+                           owing to their high oxygen balance of 34% [12]. Nevertheless, the use of AP causes serious
+                           problems of toxicity and corrosiveness due to the released hydrochloric acid (HCl) [12,13].
+                           Therefore, AN is actually used in most composite propellants to replace AP owing to its
+                           low cost, its coating, the effect of additives, its applications and usability [12,14,15]. In
+                           addition, the good thermal stability of AN and its ability to form homogenous systems with
+                           NC and DEGDN motivated us to explore this new composite-modified double-base solid
+                           propellant [7,16]. To the best of our knowledge, MDBs based on nitrocellulose, diethylene
+                           glycol dinitrate and ammonium nitrate have never been studied. Therefore, investigation
+                           of the characteristics and thermal behavior that occur within such energetic composites is
+                           crucial for developing future generations of modified double-base propellants.
+                                 The main purpose of the present investigation was to elucidate the potential effect
+                           of AN on the characteristics and thermo-kinetic decomposition of NC-DEGDN. The en-
+                           ergetic composite of AN/NC-DEGDN was firstly optimized using NASA-CEA software,
+                           where the specific impulse was calculated. The characteristics of the optimized energetic
+                           composite were characterized using, respectively, scanning electron microscopy (SEM),
+                           Fourier transform infrared spectroscopy (FTIR), and an electronic densimeter. The ther-
+                           mal features of AN/NC-DEGDN were evaluated by thermogravimetric analysis (TGA)
+                           and differential scanning calorimetry (DSC). The kinetic triplet, namely, the activation
+                           energy, the pre-exponential factor, and the best reaction model were also predicted based
+                           on isoconversional kinetic methods.
+
+                           2. Experimental Section
+                           2.1. Materials
+                                AN powder used in the present research was commercial grade purchased from
+                           Prolabo. Cellulose nitrate (NC) with a nitrogen content of 12.68% was prepared following
+                           the method detailed in our recent studies [17,18]. All other reactants and solvents were of
+                           analytical grade and were used without further purification.
+                           method detailed in our recent studies [17,18]. All other reactants and solvents were of
+                           analytical grade and were used without further purification.
+
+                           2.2. Preparation of DEGDN Plasticizer
+Materials 2022, 15, 8138          The preparation method for DEGDN was inspired by the study of Yahya et                     3 ofal.,
+                                                                                                                                  14 with
+                           some modifications [9]. Briefly, the sulfonitric acid was prepared by dropwise addition of
+                           nitric acid (8 mL, 99%) to sulfuric acid (8 mL, 98%). The obtained acid mixture was cooled
+                           to 52.2.
+                                 °C,Preparation
+                                      and a certain    amount
+                                                 of DEGDN          of dichloromethane (60 mL) was added. After that, diethy-
+                                                              Plasticizer
+                           lene glycol     (DEG) (0.04
+                                     The preparation       mol) for
+                                                        method     wasDEGDN
+                                                                         slowlywas
+                                                                                 poured,    under
+                                                                                     inspired      stirring,
+                                                                                              by the study ofinto
+                                                                                                              Yahyatheetsolution.
+                                                                                                                         al., with The
+                           mixture
+                               some modifications [9]. Briefly, the sulfonitric acid was prepared by dropwise addition ofwhile
+                                       was   then  stirred   for  35 min.   Next,  the bottom   acidic  phase  was   removed,
+                           thenitric
+                                organic     phase
+                                      acid (8       was to
+                                              mL, 99%)    rinsed,   respectively,
+                                                             sulfuric               withThe
+                                                                       acid (8 mL, 98%).   water, sodium
+                                                                                              obtained acid bicarbonate,     10% urea,
+                                                                                                            mixture was cooled
+                                  5 ◦ C, andchloride.
+                           andtosodium                  It is important
+                                             a certain amount               to mention
+                                                                 of dichloromethane   (60that
+                                                                                          mL) after each stage
+                                                                                               was added.        of purification,
+                                                                                                           After that, diethylene our
+                               glycol (DEG)
+                           solution            (0.04 mol)
+                                        was shaken,     andwasonly
+                                                                 slowly
+                                                                      thepoured,
+                                                                           lower under
+                                                                                  phasestirring, into the solution.
+                                                                                           was recuperated.         Thethe
+                                                                                                               Lastly,    mixture
+                                                                                                                               resulting
+                           product was filtered using a rotary evaporator (Laborota 4000, Heidolph, organic
+                              was   then  stirred for 35 min.  Next,   the bottom  acidic phase was removed,   while  the Schwabach,
+                               phase was rinsed, respectively, with water, sodium bicarbonate, 10% urea, and sodium
+                           Germany).       The purity of the obtained DEGDN was 99.9%.
+                              chloride. It is important to mention that after each stage of purification, our solution was
+                              shaken, and only the lower phase was recuperated. Lastly, the resulting product was
+                           2.3.filtered
+                                 Evaluation   of the Theoretical Performance of CSPs
+                                        using a rotary evaporator (Laborota 4000, Heidolph, Schwabach, Germany). The
+                                  Before
+                              purity       proceeding
+                                       of the           to the formulation
+                                              obtained DEGDN     was 99.9%. of the energetic composite, an evaluation of the
+                           theoretical performance was performed using NASA Chemical Equilibrium with Appli-
+                              2.3. Evaluation of the Theoretical Performance of CSPs
+                           cations   (CEA) thermochemical software in order to select the ideal composition [19]. It is
+                                    Before
+                           interesting     to proceeding
+                                              mention that to the formulationrecently
+                                                               Bondarchuk        of the energetic
+                                                                                           developedcomposite,
+                                                                                                           a newan    evaluation
+                                                                                                                   approach     toof  the
+                                                                                                                                    perform   a
+                              theoretical performance was performed using NASA Chemical Equilibrium with Appli-
+                           preliminary crude estimation of the detonation performance of a C-H-N-O energetic ma-
+                              cations (CEA) thermochemical software in order to select the ideal composition [19]. It is
+                           terial without quantum-chemical calculations [20]. The proposed method can be also ef-
+                              interesting to mention that Bondarchuk recently developed a new approach to perform
+                           fectively   used tocrude
+                              a preliminary       design   new energetic
+                                                        estimation            materials or
+                                                                      of the detonation       modify existing
+                                                                                            performance              ones. energetic
+                                                                                                             of a C-H-N-O
+                                 In the without
+                              material     case of quantum-chemical
+                                                    solid rocket propellants,        specific
+                                                                           calculations   [20].impulse      is considered
+                                                                                                 The proposed      method can a crucial
+                                                                                                                                 be also ener-
+                           getic  performance
+                              effectively    used toparameter
+                                                     design newto     measure
+                                                                    energetic     the efficiency
+                                                                               materials   or modifyof existing
+                                                                                                        a rocketones.
+                                                                                                                    motor. Therefore, this
+                           parameter,
+                                    In thewhich
+                                             case ofcan  reach
+                                                     solid       high
+                                                            rocket      values when
+                                                                     propellants,        theimpulse
+                                                                                    specific  ratio between       flamea temperature
+                                                                                                        is considered       crucial ener- and
+                           thegetic  performance
+                               combustion             parameter
+                                                product’s     molarto mass
+                                                                      measure   the efficiency
+                                                                            increases,    is used ofas
+                                                                                                     a rocket   motor.criterion.
+                                                                                                        a selection      Therefore,
+                                                                                                                                  Thethis
+                                                                                                                                        MDBP
+                              parameter,     which   can  reach  high  values   when   the  ratio  between
+                           composition was optimized and simulated with AN as an oxidizer and NC/DEGDN as a   flame   temperature    and
+                              the combustion product’s molar mass increases, is used as a selection criterion. The MDBP
+                           matrix.   It is worth noting that the percentage of DEGDN used in this research ranged from
+                              composition was optimized and simulated with AN as an oxidizer and NC/DEGDN as a
+                           5% to 30% in order to put the system on a scale and select the maximal specific impulse.
+                              matrix. It is worth noting that the percentage of DEGDN used in this research ranged from
+                           The5%chemical
+                                  to 30% instructures
+                                               order to putofthethe  studied
+                                                                 system   on a samples     are shown
+                                                                               scale and select           in Figure
+                                                                                                  the maximal           1a,impulse.
+                                                                                                                 specific   whereasThe the ob-
+                           tained  findings
+                              chemical          corresponding
+                                           structures               to the
+                                                       of the studied      calculated
+                                                                        samples          specific
+                                                                                   are shown        impulse
+                                                                                                in Figure       (Isp) are illustrated
+                                                                                                            1a, whereas    the obtained in Fig-
+                           urefindings
+                                1b.       corresponding to the calculated specific impulse (Isp ) are illustrated in Figure 1b.
+
+
+
+
+                              Figure 1. (a) Chemical structures of AN, NC, and DEGDN. (b) Variation of the specific im-
+                              pulse of AN/NC-DEGDN formulation versus the mass fraction of AN. (c) AN/NC-DEGDN film.
+                              (d) Elaboration process of AN/NC-DEGDN formulation.
+Materials 2022, 15, 8138                                                                                             4 of 14
+
+
+
+
+                           2.4. Elaboration of AN/NC-DEGDN Propellant
+                                The dried nitrocellulose was firstly solubilized in acetone for 30 min at room tempera-
+                           ture. After that, DEGDN was introduced to the mixture under stirring for 15 min. Then,
+                           AN was slowly included in the NC-DEGDN mixture. Next, the mixture was placed in a
+                           Petri dish to allow the solvent’s evaporation and dried at 60 ◦ C. The weight fractions of
+                           the compounds used to prepare our MDBP, which represented the optimal composition
+                           calculated using the CEA program, were equal to 60% AN, 10% NC, and 30% DEGDN. The
+                           elaboration pathway is presented in Figure 1d, while a digital image of the as-prepared
+                           MDBP is depicted in Figure 1c.
+
+                           2.5. Characterization Methods
+                                A scanning electron microscope (SEM) apparatus (model FEI Quanta 60, Hillsboro,
+                           Oregon, USA), through a secondary electron detector at an accelerating voltage of 5 kV, was
+                           used to examine the surface morphology and the homogeneity of the different samples. A
+                           Perkin Elmer spectrometer (Waltham, Massachusetts, USA) was used to study the chemical
+                           structure using Fourier transform infrared spectroscopy (FTIR) at ambient temperature in
+                           the wavenumber range of 4000 to 400 cm−1 . All FTIR spectra were captured in ATR mode
+                           with an accumulation of 64 scans and a resolution of 4 cm−1 . Thermal characteristics of
+                           the investigated samples were elucidated by Perkin-Elmer TGA 8000 analyzers (Waltham,
+                           Massachusetts, USA). After sample drying, a sample mass of 0.8–1 mg was analyzed in the
+                           temperature range of 50 ◦ C to 500 ◦ C at a heating rate of 10 ◦ C/min. All measurements were
+                           recorded under a constant nitrogen atmosphere (30 mL/min) to prevent oxidation effects.
+                           In order to evaluate the thermo-kinetic factors of the developed MDBP, differential scanning
+                           calorimetry (DSC) measurements were performed on a Perkin-Elmer DSC 8000 analyzer
+                           (Waltham, Massachusetts, USA) for approximately 1 mg specimens at different heating
+                           rates (5, 10, 15, and 20 ◦ C/min) under nitrogen atmosphere from 50 ◦ C to 350 ◦ C.
+
+                           2.6. Kinetic Modeling
+                                A kinetic evaluation was carried out by applying isoconversional kinetic analysis
+                           to the non-isothermal DSC data in order to better understand the thermal behavior of
+                           the developed AN/NC-DEGDN propellant. According to the recommendations of the
+                           International Confederation for Thermal Analysis and Calorimetry (ICTAC), at constant
+                           conversion (α), the only factor affecting reaction rate is temperature. Basically, the progress
+                           of the conversion versus time is given by Equation (1).
+
+                                                                  dα
+                                                                     = k( T ) f (α)                                     (1)
+                                                                  dT
+                           where T refers to the temperature at t instant, k (T) presents the rate constant, and f (α)
+                           stands for the differential model. The value of α (0< α <1) can be derived from the peak
+                           area of the DSC curves, as the ratio of the current enthalpy ∆H to the total enthalpy ∆H total ,
+                           as shown in Equation (2).
+                                                                  R t  dH 
+                                                                   t0 dt dt        ∆H
+                                                            α = Rt   =                                              (2)
+                                                                     f  dH
+                                                                             dt  ∆H  total
+                                                                  t0   dt
+
+                                Two isoconversional linear methods, called Trache-Abdelaziz-Siwani (TAS) [21], it-
+                           erative Kissinger-Akahira-Sunose (it-KAS) [22], and Vyazovkin’s non-linear approach
+                           combined with the compensation effect method (VYA/CE) [23], were employed to predict
+                           the Arrhenius parameters (the activation energy (Ea ) and the preexponential factor (Log
+                           (A))) and the most probable mechanism of decomposition (g(α)).
+Materials 2022, 15, 8138                                                                                                   5 of 14
+
+
+
+
+                                3. Results and Discussions
+                                3.1. Evaluation of the Optimal Composition
+                                     The theoretical investigation of the energetic properties is important to choose the
+                               optimal composition of propellant formulations with the best performance. The main
+                               purpose of the current investigation was to determine the impact of AN on the specific
+                               impulse (Isp) of the NC/DEGDN formulation. A tertiary variation between the basic
+                               constituents, namely DEGDN (5% to 30%) and AN (10% to 60%), was studied. For practical
+                               feasibility, a minimum and maximum amount of 5% and 30%, respectively, were considered
+                               for DEGDN. It can be revealed from Figure 1b that by varying the weight fraction of the
+                               AN/NC-DEGDN compounds within the composite, the values of Isp were determined. It
+                               was found that the increase in AN content improved the Isp, which was explained by the
+                               rise in oxygen content and the gaseous decomposition of AN [14]. This growth in oxygen
+                               balance could also improve the flame temperature [24]. It was also found that the insertion
+                               of AN into NC/DEGDN increased the flame temperature from 2625 K for NC/DEGDN
+                               (1:3 wt.%) to 2716 K for the optimal AN/NC-DEGDN (60:10:30, wt.%) formulation. This
+                               augmentation in the flame temperature promoted the Isp from 244.6 s to 245.9 s. This
+                               result suggests that raising the flame temperature can improve the AN/NC-DEGDN
+                               formulation’s burning rate, which can be also enhanced by the exothermic processes
+                               that happen within the propellant, as demonstrated by DSC. Additionally, it is worth
+                               mentioning that the AN content within the prepared MDBP was less than that employed in
+                               the standard composite propellants, which broadly ranged between 65–80% [25,26].
+
+                                3.2. Morphology and Chemical Structure
+                                         The morphological features and the chemical structure of the as-prepared MDBP were
+                                    assessed by scanning electron microscopy and infrared spectroscopy, respectively, and the
+                                    obtained findings are illustrated in Figures 2 and 3. It is clear from the first screening of
+   Materials 2022, 15, x FOR PEER REVIEW                                                                                 6 of 15
+                                    the digital images shown in Figure 2a,b that homogeneous and uniform structures were
+                                    formed either with or without the presence of AN.
+
+
+
+
+                                 Figure 2. (a) NC-DEGDN composite film; (b) AN/NC-DEGDN composite film; SEM images of ((c)
+                               Figure  2. (a) NC-DEGDN composite film; (b) AN/NC-DEGDN composite film; SEM images of
+                                 NC-DEGDN mixture, (d) AN/NC-DEGDN mixture).
+                               ((c) NC-DEGDN mixture, (d) AN/NC-DEGDN mixture).
+                                      A comparison between the morphologies of the NC-DEGDN and AN/NC-DEGDN
+                                 composites is shown in Figure 2c,d. As can be seen, the double-base film without AN
+                                 exhibited a uniform structure with a smooth surface, which was referred to as good dis-
+                                 solution of NC/DEGDN. Furthermore, the observed sheet structure after the dissolution
+                                 pathway was improved by the addition of DEGDN. However, a few holes on the sheet
+                           For instance, the bands detected at 3260 cm−1 and 1417 cm−1 were attributed, respectively,
+                           to the stretching and bending vibrations of N-H. In addition, the presence of a typical
+                           vibrational peak of -O-H at 3500 cm−1 confirmed the hydrogen bond interactions between
+                           AN and NC-DEGDN [31]. Besides that, there were no alterations in the chemical struc-
+Materials 2022, 15, 8138
+                           tures of AN or NC-DEGDN as originated by the preparation pathway, providing evidence6 of 14
+                           for good chemical compatibility between the different energetic compounds and confirm-
+                           ing the successful elaboration of the desired composites.
+
+
+
+
+                           Figure  3. (a)
+                           Figure 3.   (a) FTIR
+                                           FTIRspectra
+                                                   spectraofofDEGDN,
+                                                              DEGDN,NC/DEGDN,
+                                                                      NC/DEGDN, and and AN/NC-DEGDN.
+                                                                                         AN/NC-DEGDN. (b)   (b) TG-DTG
+                                                                                                                TG-DTG profiles
+                                                                                                                         profiles of
+                                                                                                                                  of
+                           mixtures          ◦ C/min. (c) DSC thermograms of the different samples at different heating rates of 5,
+                           mixtures atat 10
+                                         10 °C/min.     (c) DSC thermograms of the different samples at different heating rates of 5,
+                           10,
+                           10, 15
+                               15and
+                                  and20 20◦°C/min.
+                                            C/min. (d) Mathematical deconvolution
+                                                                       deconvolution of
+                                                                                      of the
+                                                                                         the DSC
+                                                                                             DSC thermogram
+                                                                                                  thermogramof  ofAN/NC-DEGDN
+                                                                                                                  AN/NC-DEGDN
+                           formulation at
+                           formulation                ◦ C/min.
+                                           at ββ = 10 °C/min.
+
+                                A comparison between the morphologies of the NC-DEGDN and AN/NC-DEGDN
+                           composites is shown in Figure 2c,d. As can be seen, the double-base film without AN exhib-
+                           ited a uniform structure with a smooth surface, which was referred to as good dissolution
+                           of NC/DEGDN. Furthermore, the observed sheet structure after the dissolution pathway
+                           was improved by the addition of DEGDN. However, a few holes on the sheet surface
+                           could be detected, which was probably caused by small solvent droplets evaporating.
+                           Additionally, a few NC aggregates were visible, which was probably due to the intermolec-
+                           ular interactions between the NC fibers. Figure 2c,d shows the difference in morphology
+                           after the introduction of AN. It was found that when AN microparticles were added, the
+                           smooth surface disappeared, which was evenly distributed throughout the NC-DEGDN
+                           film or surface-coated in. Such efficient dispersion can improve the interfacial interactions
+                           among the compounds and is expected to promote the decomposition temperatures of the
+                           energetic formulation.
+                                To appreciate what was previously stated, an important parameter called density
+                           must be measured. According to the current trend in energetic materials, high densities
+                           lead to better energy performance and a high burning rate. For each sample, to assess
+                           their experimental densities, 10 analyses were carried out to determine the average density
+                           and standard deviation with an electronic Accupyc 1340 II densimeter. It was revealed
+                           that the presence of AN within the NC-DEGDN film provided an increased density of
+                           1.5872 ± 0.0013 g/cm3 with respect to the NC-DEGDN formulation, which presented a
+                           value of 1.4271 ± 0.0054 g/cm3 . This increase in density is expected to enhance the
+                           performance of the developed MDBP. In addition, the obtained experimental densities were
+                           found to be comparable to their theoretical densities, corresponding to 1.6178 g/cm3 for
+Materials 2022, 15, 8138                                                                                          7 of 14
+
+
+
+
+                           AN/NC-DEGDN and 1.4570 g/cm3 for NC-DEGDN, thus implying that the open porosity
+                           of the designed energetic composites was very low and demonstrating the high loading
+                           capacity of the NC-DEGDN formulation. These outcomes agreed well with those obtained
+                           by SEM, and highlight the potential advantages of adding AN to develop a promising
+                           energetic formulation for advanced applications.
+                                FTIR characterization was carried out to elucidate the chemical structure of the de-
+                           veloped energetic composites, and the obtained spectra are shown in Figure 3a. It is clear
+                           that both composites exhibited a large absorption peak at 2990~2850 cm−1 , which corre-
+                           sponded to the stretching vibration of C-H available in NC and DEGDN [27]. The other
+                           characteristic bands, observed at 1620 cm−1 , 1270 cm−1 , and 814 cm−1 , were attributed to
+                           the asymmetric stretching of the N–O bond in NO2 , the symmetric elongation of -NO2 and
+                           the twisting vibration of O–NO2 , respectively [9]. In addition, the absorption band, located
+                           at 1114 cm−1 , was assigned to the overlapped vibration of C-O-C [28]. The other bands
+                           associated with NC and/or DEGDN were comparable to those mentioned in previous
+                           works [19,29,30]. Additional peaks that could be observed when AN was introduced to
+                           the NC-DEGDN formulation were related to the characteristic functional groups of this
+                           oxidizer. For instance, the bands detected at 3260 cm−1 and 1417 cm−1 were attributed,
+                           respectively, to the stretching and bending vibrations of N-H. In addition, the presence of a
+                           typical vibrational peak of -O-H at 3500 cm−1 confirmed the hydrogen bond interactions
+                           between AN and NC-DEGDN [31]. Besides that, there were no alterations in the chemical
+                           structures of AN or NC-DEGDN as originated by the preparation pathway, providing
+                           evidence for good chemical compatibility between the different energetic compounds and
+                           confirming the successful elaboration of the desired composites.
+
+                           3.3. TGA Characterization
+                                 The thermal decomposition features of the developed MDBP formulations were in-
+                           vestigated by TGA, and the obtained TGA/DTG thermograms are plotted in Figure 3b.
+                           As can be seen, NC-DEGDN composite showed two weight-loss events appearing at
+                           DTG peak temperatures of 161.5 ◦ C and 204.6 ◦ C with a weight loss of 34% and 56%,
+                           respectively. The first mass loss was mainly induced by the volatilization and decompo-
+                           sition of DEGDN [28,32], whereas the second stage of decomposition was attributed to
+                           the well-known thermolysis process of nitrocellulose [33]. After the addition of AN, it
+                           was evident, as seen in Figure 3b, that the obtained AN/NC-DEGDN composite exhib-
+                           ited three decomposition stages. The first step, at 103.5 ◦ C, was mainly caused by water
+                           evaporation. The second and the last weight losses, observed at 201.7 ◦ C and 215.5 ◦ C,
+                           were related to the decomposition of NC-DEGDN matrix and AN, respectively [34,35]. It
+                           is important to note that on reaching 500 ◦ C, both energetic formulations (NC/DEGDN
+                           and AN/NC-DEGDN) lost around 90% of their initial weight. In addition, the influence
+                           of AN on the thermolysis of the NC-DEGDN composite, as clearly revealed from the
+                           presented TGA/DTG thermograms, notably decreased the decomposition temperatures
+                           of the obtained AN/NC-DEGDN propellant. Therefore, the first event of NC-DEGDN
+                           decomposition was accelerated by the highly reactive products generated during the de-
+                           composition of AN oxidizer. Such behavior was also reported by Abd-Elghany et al. [36],
+                           who highlighted that the addition of an oxidizer into an NC-based formulation accelerates
+                           the thermolysis and the combustion performance. Another interesting finding was that
+                           the thermal decomposition of AN was also shifted to a lower temperature (from 260 ◦ C for
+                           pure AN to 215.5 ◦ C), which was probably due to the early thermolysis of NC-DEGDN that
+                           catalyzed the decomposition of AN. According to the above discussion, we can conclude
+                           that the thermal behavior of the developed MDBP was dominated by the decomposition of
+                           the NC-DEGDN composite.
+
+                           3.4. DSC Characterization
+                                To carefully investigate the influence of AN on the thermal reactivity and enthalpy of
+                           the decomposition of NC-DEGDN propellant and elucidate the thermolysis events of the
+Materials 2022, 15, 8138                                                                                                                                  8 of 14
+
+
+
+
+                                             developed AN/NC-DEGDN formulation, DSC characterizations were also carried out at
+                                             four heating rates to identify the exothermic/endothermic decomposition events and to
+                                             calculate the kinetic parameters of thermal decomposition.
+                                                  The obtained DSC curves of NC/DEGDN with or without AN composites at various
+                                             β are depicted in Figure 3c, while the onset and maximum peak temperatures (Tonset and
+                                             Tpeak ), as well as the enthalpy of reaction (∆H) at β = 10 ◦ C/min, are listed in Table 1. Based
+                                             on Figure 3c, the NC-DEGDN mixture displayed one exothermic process, comparable to
+                                             what is mainly obtained for double-base propellants [17,37]. However, two exothermic
+                                             events were detected for the AN/NC-DEGDN formulation, comprising the decomposition
+                                             peaks of NC-DEGDN matrix and AN oxidizer [34,35]. Furthermore, the two first endother-
+                                             mic processes, which were independent of the heating rate, corresponded, respectively, to
+                                             two solid–solid transitions. The first one, which appeared at around 50 ◦ C, was attributed
+                                             to orthorhombic–orthorhombic transition, where a modification of crystalline parameters
+                                             occurred, while the second one, observed at around 123 ◦ C, was due to the tetragonal–cubic
+                                             transition. These processes were then followed by a melting phenomenon of AN [12]. It is
+                                             worth mentioning that the first peak encountered in the TGA curves of the investigated
+                                             energetic composites, attributed to the evaporation process, did not appear in the DSC
+                                             result, which was due to the lower mass employed in the DSC, and that the amount of
+                                             absorbed energy during the endothermic evaporation process was beyond the lower limits
+                                             of the DSC device.
+
+                                             Table 1. Thermal characteristics of the investigated energetic composites obtained at a heating rate of
+                                             β = 10 ◦ C/min.
+
+                                             1st Decomposition Stage                                          2nd Decomposition Stage
+       Sample
+                           T onset   (◦ C)    T peak   (◦ C)   ∆T * (◦ C)    ∆H (J/g)       T onset   (◦ C)    T peak (◦ C)   ∆T * (◦ C)   ∆H (J/g)   ∆HT (J/g)
+    NC-DEGDN                  182.5              200.4           17.9          1624.6             /                 /             /           /        1624.6
+  AN/NC-DEGDN                 187.5              192.3            4.8          1961.8           204.4             212.4           8        935.04     2896.84
+                                                                                                                                                      803–805
+         AN                     /                  /               /             /              300.04            318.2          24          805
+                                                                                                                                                        [35]
+                                             * ∆T =Tpeak − Tonset ; ∆HT , total heat release.
+
+                                                   Additionally, it is clear from Table 1 and Figure 3c that the addition of AN into
+                                             NC-DEGDN significantly affected the thermolysis of the NC-DEGDN matrix, where its
+                                             decomposition peak moved to lower temperature, taking advantage of the excellent interfa-
+                                             cial contact between NC-DEGDN matrix and AN particles, as demonstrated by SEM. This
+                                             behavior could be related to the nitrate ions in AN that improve the heat and mass transfer
+                                             within the nitrate esters and accelerate their thermolysis, which could also be sustained
+                                             by the difference between the peak and the onset temperatures (∆T) for AN/NC-DEGDN,
+                                             which notably decreased with regard to those of the NC-DEGDN baseline (Table 1). In
+                                             addition, it was found that the overall enthalpy of decomposition of AN/NC-DEGDN
+                                             (2896.84 J/g) appeared to be higher than that of the NC-DEGDN matrix (1624.6 J/g). This
+                                             finding seems to be promising for future propellant formulation and indicates the positive
+                                             effects of AN on the increase in the energetic performance of the developed energetic
+                                             formulation. Additionally, it is worth noting that the newly designed AN/NC-DEGDN
+                                             propellant has better or comparable thermal stability than some reported NC-based en-
+                                             ergetic formulations, including dihydroxylammonium 5,50 -bistetrazole-1,10 -diolate/NC-
+                                             NG (Tpeak = 170.9 ◦ C, β = 10 ◦ C/min), hexahydro-1,3,5-trinitro-1,3,5-triazine/NC-TEGDN
+                                             (Tpeak = 194.9 ◦ C, β = 10 ◦ C/min) and NC/HMX (Tpeak = 168.2 ◦ C, β = 10 ◦ C/min) [38].
+
+                                             3.5. Evaluation of Thermal Decomposition Kinetics
+                                                  Owing to the risk of thermal runaway in NC-based composites, it is crucial to analyze
+                                             their thermal behaviors. Therefore, the DSC data obtained at various heating rates (i.e., 5,
+                                             10, 15 and 20 ◦ C/min) were used to determine the kinetic triplet, namely, the activation
+                                             energy (Ea), the pre-exponential factor (Log(A)), and the most probable reaction model
+Materials 2022, 15, 8138                                                                                                   9 of 14
+
+
+
+
+                              (g(α)). Before examining the computed kinetic factors, it is interesting to define them.
+                              Ea represents the lower energy needed to initiate a reaction, whereas the collision rate
+                              between molecules per unit of time is determined by Log(A). Most of the time, Log(A) may
+                              be computed using a model-free technique called compensating effect, which requires that
+                              Ea and Log(A) have a linear relationship [18,39].
+                                   As advised by the ICTAC, the asymmetric Frazer–Suzuki function, the most popular
+                              technique for accurately fitting the multistep kinetic decomposition, was used for peak
+                              deconvolution of the DSC thermogram of the AN/NC-DEGDN formulation. The obtained
+                              data were then subjected to three model-free methods to determine the kinetic parameters
+                              for each exothermic decomposition event. The mean values of Ea and Log(A) with their
+                              corresponding errors for both energetic composites (NC/DEDGN and AN/NC-DEDGN),
+                              as well as their most probable mechanisms g(α), are given in Table 2.
+
+                              Table 2. Thermo-kinetic parameters of the elaborated energetic formulations.
+
+       Samples              Isoconversional Methods              Eα (kJ/mol)        Log(A(s−1 ))                g(α)
+                                      TAS                       118.9 ± 16.6         12.2 ± 2.1              P1/4 = a1/4
+                                    it-KAS                      118.8 ± 16.5         12.2 ± 2.0              P1/4 = a1/4
+
+  AN/NC-DEGDN                                β = 5 ◦ C/min                           12.3 ± 1.4                  /
+     1st Pic                                 β = 10 ◦ C/min                          12.6 ± 1.4                  /
+                           VYA/CE                               118.8 ± 16.4
+                                             β = 15 ◦ C/min                          12.7 ± 1.4                  /
+                                             β = 20 ◦ C/min                          13.8 ± 1.4                  /
+                                      TAS                       119.2 ± 23.3         13.4 ± 2.8        A4 = [− ln (1 − α)]1/4
+                                    it-KAS                      119.2 ± 23.3         13.2 ± 2.8              P1/2 = a1/2
+
+  AN/NC-DEGDN                                β = 5 ◦ C/min                           13.3 ± 1.4                  /
+     2nd pic                                 β = 10 ◦ C/min                          13.4 ± 1.4                  /
+                           VYA/CE                               119.1 ± 20.9
+                                             β = 15 ◦ C/min                          13.3 ± 1.4                  /
+                                             β = 20 ◦ C/min                          13.3 ± 1.4                  /
+                                      TAS                       134.5 ± 23.9         12.9 ± 3.2       A5/2 = [− ln (1 − α)]2/5
+                                    it-KAS                      134.5 ± 23.9         12.7 ± 3.2       G7 = [1 − (1 − α)1/2 ]1/2
+                                             β = 5 ◦ C/min                           13.3 ± 3.3                  /
+     NC-DEGDN
+                                             β = 10 ◦ C/min                          13.4 ± 3.3                  /
+                           VYA/CE                               134.4 ± 23.9
+                                             β = 15 ◦ C/min                          13.5 ± 3.3                  /
+                                             β = 20 ◦ C/min                          13.6 ± 3.3                  /
+
+
+                                    The main result was that the computed Ea and Log(A) using the three isoconversional
+                              models for both propellants (NC/DEDGN and AN/NC-DEDGN) agreed well with each
+                              other, highlighting the high consistency of the computed calculations. The accurateness of
+                              the determined Arrhenius factors using the linear TAS and it-KAS approaches also could
+                              be demonstrated by the high value of the linear correlation coefficients (R2 ) higher than
+                              0.9993 [40–43].
+                                    Figures 4–6 represent the evolution of activation energy and the pre-exponential factor,
+                              with their associated confidence intervals, and the most probable reaction model g(α) as a
+                              function of conversion (α) for the thermolysis process of NC/DEDGN, AN/NC-DEDGN
+                              1st stage, and AN/NC-DEDGN 2st stage, respectively. In order to avoid the inherent errors
+                              related to the initial and end periods, the conversion α range was fixed from 0.02 to 0.98.
+                              The resulting findings show that the employed kinetic approaches provided close values
+                              and similar trends of Arrhenius parameters for each investigated sample. Another finding
+Materials 2022, 15, 8138                                                                                                          10 of 14
+
+
+
+    Materials 2022, 15, x FOR PEER REVIEW                                                                        11 of 15
+                                   was that the evolution trends of Ea and Log(A) with conversion, for each decomposition
+     Materials 2022, 15, x FOR PEER REVIEW
+                                      event, were identical, which was explained by the energy compensation effects 11 of 15
+                                                                                                                    [44].
+
+
+
+
+                                     Figure 4. Variation of the kinetic parameters versus conversion for the thermal decomposition of
+                                   Figure 4. 4.Variation
+                                     Figure     Variationofofthe
+                                                              the kinetic
+                                                                  kinetic parameters  versusconversion
+                                                                          parameters versus  conversionforfor
+                                                                                                           thethe thermal
+                                                                                                               thermal    decomposition
+                                                                                                                       decomposition of of
+                                     NC-DEGDN      composite.
+                                     NC-DEGDNcomposite.
+                                   NC-DEGDN        composite.
+
+
+
+
+                                     Figure
+                                     Figure 5. Variation of the kinetic
+                                                                kinetic parameters
+                                                                        parametersversus
+                                                                                   versusconversion
+                                                                                          conversionfor
+                                                                                                     forthe
+                                                                                                         thefirst
+                                                                                                              firstthermal
+                                                                                                                    thermaldecomposition
+                                                                                                                            decomposition
+                                   Figure 5. Variation of the kinetic parameters versus conversion for the first thermal decomposition
+                                     event of
+                                     event of AN/NC-DEGDN propellant.
+                                                                 propellant.
+                                   event of AN/NC-DEGDN propellant.
+                           of AN that accelerated the thermolysis process and boosted both heat and mass transfers
+                           within the nitrate esters. The same behavior was mentioned in the studies of Jain et al. and
+                           Li et al., who reported an improvement in the thermolysis rate of nitrate esters when AP
+                           was introduced [45,46]. Moreover, the average value of Ea (≈ 119 kJ/mol) for the second
+                           decomposition event, which corresponded to the decomposition of AN in NC/DEGDN
+Materials 2022, 15, 8138
+                           matrix, was found to be lower than that of pure AN reported in previous work (Ea11≈of146   14
+
+                           kJ/mol) [44,47].
+
+
+
+
+                           Figure 6. Variation
+                           Figure 6. Variationof
+                                               ofthe
+                                                  thekinetic
+                                                      kineticparameters
+                                                              parametersversus
+                                                                         versusconversion forfor
+                                                                                 conversion   thethe
+                                                                                                  second thermal
+                                                                                                     second      decomposition
+                                                                                                            thermal decomposi-
+                           event of AN/NC-DEGDN
+                           tion event of AN/NC-DEGDN   propellant.
+                                                           propellant.
+
+                                It can important
+                                 Other  be clearly parameters
+                                                    seen in Figure     4 and Table
+                                                                  to determine       2 that
+                                                                                in the kinetictheanalysis
+                                                                                                  decomposition    of double-
+                                                                                                          of the prepared   en-
+                           base  NC/DEDGN       propellant    was  controlled by  a one-step    process described
+                           ergetic formulations were their most probable mechanisms (g(α)) derived from the used   by  a stable
+                           evolution   of Arrhenius
+                           kinetic approaches.   The parameters
+                                                       mathematical  [42]. Furthermore,
+                                                                        formula  of g(α) isitsummarized
+                                                                                              is worth noting   that 2,
+                                                                                                           in Table       Ea its
+                                                                                                                     theand  of
+                           NC-DEGDN       predicted   in this study  (134.5 ± 24  kJ/mol)   agreed   well with that found
+                           evolution vs. 𝛼 is illustrated in Figures 4–6. It is interesting to note that the Vyazovkin      for
+                           other double-base
+                           approach            propellants
+                                       did not provide        [9]. The incorporation
+                                                          a mathematical    formula ofofg(α),
+                                                                                         AN intobut the  NC-DEGDNwith
+                                                                                                    its combination   film led
+                                                                                                                            the
+                           to a decrease in Ea values by about 12% (Figure 5), which was attributed to the catalytic
+                           compensation effect could offer numerical values of the model. According to the obtained
+                           effect of AN that accelerated the thermolysis process and boosted both heat and mass
+                           results, we could conclude that the studied samples decomposed following different
+                           transfers within the nitrate esters. The same behavior was mentioned in the studies of
+                           mechanisms. Referring to the TAS method, the NC-DEGDN composite decomposed fol-
+                           Jain et al. and Li et al., who reported an improvement in the thermolysis rate of nitrate
+                           lowing the random nucleation process of Avrami–Erofeev. However, the addition of AN
+                           esters when AP was introduced [45,46]. Moreover, the average value of Ea (≈ 119 kJ/mol)
+                           to the NC-DEGDN, which caused a drop in Ea, changed the decomposition behavior of
+                           for the second decomposition event, which corresponded to the decomposition of AN in
+                           the nitrate esters in NC/DEGDN from A5/2 to P1/4, which conformed to the nucleation pro-
+                           NC/DEGDN matrix, was found to be lower than that of pure AN reported in previous
+                           cess (power law) for both the TAS and it-KAS methods. However, the second stage of
+                           work (Ea ≈ 146 kJ/mol) [44,47].
+                                Other important parameters to determine in the kinetic analysis of the prepared
+                           energetic formulations were their most probable mechanisms (g(α)) derived from the used
+                           kinetic approaches. The mathematical formula of g(α) is summarized in Table 2, and its
+                           evolution vs. α is illustrated in Figures 4–6. It is interesting to note that the Vyazovkin
+                           approach did not provide a mathematical formula of g(α), but its combination with the
+                           compensation effect could offer numerical values of the model. According to the obtained
+                           results, we could conclude that the studied samples decomposed following different
+                           mechanisms. Referring to the TAS method, the NC-DEGDN composite decomposed
+                           following the random nucleation process of Avrami–Erofeev. However, the addition of AN
+                           to the NC-DEGDN, which caused a drop in Ea , changed the decomposition behavior of
+                           the nitrate esters in NC/DEGDN from A5/2 to P1/4 , which conformed to the nucleation
+                           process (power law) for both the TAS and it-KAS methods. However, the second stage of
+                           decomposition, which corresponded to the exothermic decomposition of AN, followed an
+                           Avrami–Erofeev mechanism (A4 ) [34]. On the other hand, the same model was provided by
+Materials 2022, 15, 8138                                                                                                          12 of 14
+
+
+
+
+                                  it-KAS for the 1st and 2nd stages of AN/NC-DEGDN, whereas NC-DEGDN decomposed
+                                  following the G7 model. Overall, the findings of this study give new insights into the
+                                  importance of developing energetic double-base composites based on DEGDN and AN
+                                  rather than the use of highly sensitive NG [48,49].
+
+                                  4. Conclusions and Future Work
+                                        A new, modified double-base solid propellant (AN/NC-DEGDN) was successfully
+                                  prepared through AN dispersion in a mixture of NC and DEGDN. The optimal formula-
+                                  tion, which corresponded to AN/NC-DEGDN (60/10/30 wt.%), was obtained based on
+                                  maximizing the critical parameter, the specific impulse, using the CEA-NASA program.
+                                  Morphology characterization and density assessments of the prepared energetic compos-
+                                  ites indicated an appropriate homogeneity of AN in the NC-DEGDN formulation with
+                                  good dispersion. The AN/NC-DEGDN composite showed lower thermal and kinetic
+                                  characteristics than the NC-DEGDN composite, while a higher enthalpy of decomposition
+                                  was obtained, demonstrating the positive catalytic influence of the incorporation of AN.
+                                  Furthermore, the thermolysis of AN was also increased by the released hot reactive species,
+                                  which was expected to enhance the burning rate of the propellant. In addition, the em-
+                                  ployed isoconversional kinetic models revealed that the developed energetic formulations
+                                  decomposed following different mechanisms, which could change from a random nucle-
+                                  ation mechanism of Avrami–Erofeev to power law nucleation. Overall, it can be concluded
+                                  that the developed AN/NC-DEGDN formulation, which has inherent thermal and kinetic
+                                  characteristics as well as high energetic performance with respect to the NC-DEGDN
+                                  baseline, can be seen as a promising candidate for advanced high-performance modified
+                                  double-base propellants in the future.
+
+                                  Author Contributions: Conceptualization, H.B., A.F.T. and D.T.; Methodology, H.B.; Resources, H.B.;
+                                  Investigation, H.B.; data treatment, H.B.; Writing—Original Draft, H.B.; Supervision, A.F.T. and D.T.;
+                                  Review & Editing, A.F.T., D.T., A.A., R.A.H., A.B., C.B., S.H., M.D. and T.M.K. All authors have read
+                                  and agreed to the published version of the manuscript.
+                                  Funding: This research received no external funding.
+                                  Institutional Review Board Statement: Not applicable.
+                                  Informed Consent Statement: Not applicable.
+                                  Data Availability Statement: Not applicable.
+                                  Conflicts of Interest: The authors declare that they have no conflict of interest.
+
+References
+1.    Benhammada, A.; Trache, D. Thermal decomposition of energetic materials using TG-FTIR and TG-MS: A state-of-the-art review.
+      Appl. Spectrosc. Rev. 2020, 55, 724–777. [CrossRef]
+2.    Klapötke, T.M. Chemistry of high-energy materials. In Chemistry of High-Energy Materials; de Gruyter: Berlin, Germany, 2019.
+3.    Elbasuney, S.; Fahd, A.; Mostafa, H.E. Combustion characteristics of extruded double base propellant based on ammonium
+      perchlorate/aluminum binary mixture. Fuel 2017, 208, 296–304. [CrossRef]
+4.    Elghafour, A.M.; Radwan, M.A.; Mostafa, H.E.; Fahd, A.; Elbasuney, S. Highly energetic nitramines: A novel platonizing agent
+      for double-base propellants with superior combustion characteristics. Fuel 2018, 227, 478–484. [CrossRef]
+5.    Damse, R.; Singh, A. Studies on the high-energy gun propellant formulations based on 1, 5-diazido-3-nitrazapentane. J. Hazard.
+      Mater. 2009, 172, 1699–1702. [CrossRef] [PubMed]
+6.    Li, Y.; Chen, P.; Liu, Y.; Yin, P.; He, C.; Pang, S. Synthesis and Characterization of Fluorodinitrobenzenes with Tunable Melting
+      Point: Potential Low Sensitive Energetic Plasticizer and Melt-Cast Carrier. Chin. J. Chem. 2020, 38, 1619–1624. [CrossRef]
+7.    Reese, D.A.; Groven, L.J.; Son, S.F. Formulation and Characterization of a New Nitroglycerin-Free Double Base Propellant.
+      Propellants Explos. Pyrotech. 2014, 39, 205–210. [CrossRef]
+8.    Buszek, R.J.; Soto, D.; Dailey, J.M.; Bolden, S.; Tall, T.L.; Hudgens, L.M.; Marshall, C.A.; Boatz, J.A.; Drake, G.W. Structures and
+      binding energies of nitrate plasticizers DEGDN, TEGDN, and nitroglycerine. Propellants Explos. Pyrotech. 2018, 43, 115–121.
+      [CrossRef]
+9.    Yahya, P.K.I.; Moniruzzaman, M.; Gill, P.P. Interaction and thermal studies on graphene oxide in NC/DEGDN/GO nanocompos-
+      ites. RSC Adv. 2019, 9, 35158–35164. [CrossRef]
+Materials 2022, 15, 8138                                                                                                            13 of 14
+
+
+
+
+10.   Agrawal, J.P. High Energy Materials: Propellants, Explosives and Pyrotechnics; John Wiley & Sons: Hoboken, NJ, USA, 2010.
+11.   Badgujar, D.; Talawar, M.; Zarko, V.; Mahulikar, P. New directions in the area of modern energetic polymers: An overview.
+      Combust. Explos. Shock. Waves 2017, 53, 371–387. [CrossRef]
+12.   Trache, D.; Klapötke, T.M.; Maiz, L.; Abd-Elghany, M.; DeLuca, L.T. Recent advances in new oxidizers for solid rocket propulsion.
+      Green Chem. 2017, 19, 4711–4736. [CrossRef]
+13.   Singh, G. Recent Advances on Energetic Materials; Nova Science Publishers: Hauppauge, NY, USA, 2015; pp. 1–411.
+14.   Oommen, C.; Jain, S. Ammonium nitrate: A promising rocket propellant oxidizer. J. Hazard. Mater. 1999, 67, 253–281. [CrossRef]
+15.   Chaturvedi, S.; Dave, P.N. A review on the use of nanometals as catalysts for the thermal decomposition of ammonium perchlorate.
+      J. Saudi Chem. Soc. 2013, 17, 135–149. [CrossRef]
+16.   Touidjine, S.; Boulkadid, K.M.; Trache, D.; Belkhiri, S.; Mezroua, A. Preparation and Characterization of Polyurethane/Nitrocellulose
+      Blends as Binder for Composite Solid Propellants. Propellants Explos. Pyrotech. 2022, 47, e202000340. [CrossRef]
+17.   Tarchoun, A.F.; Trache, D.; Abdelaziz, A.; Bekhouche, S.; Boukeciat, H. Exploration of palm fronds as a prominent alternative
+      resource for the production of energetic cellulose-rich biopolymers. Mater. Today Proc. 2022, 53, 31–35. [CrossRef]
+18.   Tarchoun, A.F.; Trache, D.; Klapötke, T.M.; Slimani, K.; Belouettar, B.-E.; Abdelaziz, A.; Bekhouche, S.; Bessa, W. Valorization of es-
+      parto grass cellulosic derivatives for the development of promising energetic azidodeoxy biopolymers: Synthesis, characterization
+      and isoconversional thermal kinetic analysis. Propellants Explos. Pyrotech. 2022, 47, e202100293. [CrossRef]
+19.   Chalghoum, F.; Trache, D.; Maggi, F.; Benziane, M. Effect of Complex Metal Hydrides on the Elimination of Hydrochloric Acid
+      Exhaust Products from High-Performance Composite Solid Propellants: A Theoretical Analysis. Propellants Explos. Pyrotech. 2020,
+      45, 1204–1215. [CrossRef]
+20.   Bondarchuk, S.V. Magic of Numbers: A Guide for Preliminary Estimation of the Detonation Performance of C–H–N–O Explosives
+      Based on Empirical Formulas. Ind. Eng. Chem. Res. 2021, 60, 1952–1961. [CrossRef]
+21.   Trache, D.; Abdelaziz, A.; Siouani, B. A simple and linear isoconversional method to determine the pre-exponential factors and
+      the mathematical reaction mechanism functions. J. Therm. Anal. Calorim. 2017, 128, 335–348. [CrossRef]
+22.   Trache, D.; Maggi, F.; Palmucci, I.; DeLuca, L.T. Thermal behavior and decomposition kinetics of composite solid propellants in
+      the presence of amide burning rate suppressants. J. Therm. Anal. Calorim. 2018, 132, 1601–1615. [CrossRef]
+23.   Sbirrazzuoli, N. Determination of pre-exponential factor and reaction mechanism in a model-free way. Thermochim. Acta 2020,
+      691, 178707. [CrossRef]
+24.   Law, C.K.; Makino, A.; Lu, T.F. On the off-stoichiometric peaking of adiabatic flame temperature. Combustion 2006, 145, 808–819.
+      [CrossRef]
+25.   Chaturvedi, S.; Dave, P.N. Solid propellants: AP/HTPB composite propellants. Arab. J. Chem. 2019, 12, 2061–2068. [CrossRef]
+26.   Wang, H.; Kline, D.J.; Rehwoldt, M.; Wu, T.; Zhao, W.; Wang, X.; Zachariah, M.R. Architecture can significantly alter the energy
+      release rate from nanocomposite energetics. ACS Appl. Polym. Mater. 2019, 1, 982–989. [CrossRef]
+27.   Huang, X.; Luo, Q.; Zhu, J.; Li, Z.; Li, C.; Pei, C. The preparation and rheological properties of novel energetic composites
+      TEGDN/NBC. Propellants Explos. Pyrotech. 2020, 45, 101–110. [CrossRef]
+28.   Wei, W.; Jiang, X.; Lu, L.; Yang, X.; Wang, X. Study on the catalytic effect of NiO nanoparticles on the thermal decomposition of
+      TEGDN/NC propellant. J. Hazard. Mater. 2009, 168, 838–842. [CrossRef] [PubMed]
+29.   Hu, J.; Liu, Y.; Cong, K.; He, J.; Yang, R. Curing behaviors of alkynyl-terminated copolyether with glycidyl azide polymer in
+      energetic plasticizers. Polymers 2020, 12, 1199. [CrossRef]
+30.   Trache, D.; Khimeche, K. Study on the influence of ageing on thermal decomposition of double-base propellants and prediction
+      of their in-use time. Fire Mater. 2013, 37, 328–336. [CrossRef]
+31.   Zhao, W.; Ren, H.; Ou, Y.; Jiao, Q. Nanocomposites with Al and Ti binary fuels and potassium oxysalts for energetic applications.
+      Mater. Lett. 2020, 262, 127189. [CrossRef]
+32.   Wang, Y.; Jiang, L.; Dong, J.; Li, B.; Shen, J.; Chen, L.; Fu, Y.; He, W. Three-dimensional network structure nitramine gun propellant
+      with nitrated bacterial cellulose. J. Mater. Res. Technol. 2020, 9, 15094–15101. [CrossRef]
+33.   Wei, R.; Huang, S.; Huang, Q.; Ouyang, D.; Chen, Q.; Yuen, R.; Wang, J. Experimental study on the fire characteristics of typical
+      nitrocellulose mixtures using a cone calorimeter. J. Therm. Anal. Calorim. 2018, 134, 1471–1480. [CrossRef]
+34.   Gunawan, R.; Zhang, D. Thermal stability and kinetics of decomposition of ammonium nitrate in the presence of pyrite. J. Hazard.
+      Mater. 2009, 165, 751–758. [CrossRef] [PubMed]
+35.   Vargeese, A.A.; Muralidharan, K. Anatase–brookite mixed phase nano TiO2 catalyzed homolytic decomposition of ammonium
+      nitrate. J. Hazard. Mater. 2011, 192, 1314–1320. [CrossRef] [PubMed]
+36.   Abd-Elghany, M.; Klapötke, T.M.; Elbeih, A. Investigation of 2, 2, 2-trinitroethyl-nitrocarbamate as a high energy dense oxidizer
+      and its mixture with Nitrocellulose (thermal behavior and decomposition kinetics). J. Anal. Appl. Pyrolysis 2017, 128, 397–404.
+      [CrossRef]
+37.   Tarchoun, A.F.; Sayah, Z.B.D.; Trache, D.; Klapötke, T.M.; Belmerabt, M.; Abdelaziz, A.; Bekhouche, S. Towards investigating the
+      characteristics and thermal kinetic behavior of emergent nanostructured nitrocellulose prepared using various sulfonitric media.
+      J. Nanostructure Chem. 2022, 12, 1–15. [CrossRef]
+38.   Wang, Y.; Song, X.; Song, D.; Liang, L.; An, C.; Wang, J. Synthesis, thermolysis, and sensitivities of HMX/NC energetic
+      nanocomposites. J. Hazard. Mater. 2016, 312, 73–83. [CrossRef]
+Materials 2022, 15, 8138                                                                                                      14 of 14
+
+
+
+
+39.   Hanafi, S.; Trache, D.; Meziani, R.; Boukciat, H.; Mezroua, A.; Tarchoun, A.F.; Derradji, M. Synthesis, characterization and
+      thermal decomposition behavior of a novel HNTO/AN co-crystal as a promising rocket propellant oxidizer. Chem. Eng. J. 2021,
+      417, 128010. [CrossRef]
+40.   Vyazovkin, S. How much is the accuracy of activation energy affected by ignoring thermal inertia? Int. J. Chem. Kinet. 2020,
+      52, 23–28. [CrossRef]
+41.   Burnham, A.K.; Stanford, V.L.; Vyazovkin, S.; Kahl, E.M. Effect of pressure on TATB and LX-17 thermal decomposition. Thermochim.
+      Acta 2021, 699, 178908. [CrossRef]
+42.   Vyazovkin, S. Isoconversional Kinetics of Thermally Stimulated Processes; Springer: Berlin/Heidelberg, Germany, 2015.
+43.   Sbirrazzuoli, N. Determination of pre-exponential factors and of the mathematical functions f (α) or G (α) that describe the
+      reaction mechanism in a model-free way. Thermochim. Acta 2013, 564, 59–69. [CrossRef]
+44.   Vara, J.A.; Dave, P.N. Metal oxide nanoparticles as catalyst for thermal behavior of AN based composite solid propellant. Chem.
+      Phys. Lett. 2019, 730, 600–607. [CrossRef]
+45.   Li, X.; Liu, X.; Cheng, Y.; Li, Y.; Mei, X. Thermal decomposition properties of double-base propellant and ammonium perchlorate.
+      J. Therm. Anal. Calorim. 2014, 115, 887–894. [CrossRef]
+46.   Jain, S.; Chakraborty, S.; Qiao, L. Burn rate enhancement of ammonium perchlorate–nitrocellulose composite solid propellant
+      using copper oxide–graphene foam micro-structures. Combust. Flame 2019, 206, 282–291. [CrossRef]
+47.   Babrauskas, V.; Leggett, D. Thermal decomposition of ammonium nitrate. Fire Mater. 2020, 44, 250–268. [CrossRef]
+48.   Liu, Z. Review and prospect of thermal analysis technology applied to study thermal properties of energetic materials.
+      FirePhysChem 2021, 1, 129–138. [CrossRef]
+49.   El-Sayed, S.A.; Pyrolysis, A. Review of thermal decomposition, kinetics parameters and evolved gases during pyrolysis of
+      energetic materials using different techniques. J. Anal. 2022, 161, 105364. [CrossRef]
+

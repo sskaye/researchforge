@@ -1,0 +1,611 @@
+              materials
+Article
+Thermal Decomposition Kinetics and Compatibility
+of 3,5-difluoro-2,4,6-trinitroanisole (DFTNAN)
+Fei Hu 1 , Lin-Jian Wang 1 , Wei Zhao 1 , Yu-Cun Liu 1, *, Su-Ming Jing 1, *, Ping Liu 2 and Jin-Xuan He 3, *
+
+                                            1   School of Environment and Safety Engineering, North University of China, Taiyuan 030051, China;
+                                                B1914079@st.nuc.edu.cn (F.H.); S1914007@st.nuc.edu.cn (L.-J.W.); S1814082@st.nuc.edu.cn (W.Z.)
+                                            2   Chongqing Hongyu Precision Industry Group Co., Ltd., Chongqing 402760, China; 18234138606@sohu.com
+                                            3   Science and Technology on Aerospace Chemical Power Laboratory, Hubei Institute of Aerospace
+                                                Chemotechnology, Xiangyang 441003, China
+                                            *   Correspondence: lyc2ct@vip.sina.com (Y.-C.L.); 20160075@nuc.edu.cn (S.-M.J.);
+                                                hejinxuan42@sina.com (J.-X.H.)
+
+
+                                            Abstract: In this paper, the thermal decomposition behavior of 3,5-difluoro-2,4,6-trinitroanisole
+                                            (DFTNAN) was studied by differential scanning calorimetry (DSC) and thermogravimetry (TG) by
+                                            using different heating rates (2, 5, 10, 15 ◦ C·min−1 ). Subsequently, the kinetic and thermodynamic
+                                            parameters of non-isothermal thermal decomposition of DFTNAN were calculated. The critical
+                                            temperature of thermal explosion (Tb ) and self-accelerating decomposition temperature (TASDT )
+                                            were determined to be 249.03 ◦ C and 226.33 ◦ C, respectively. The compatibility of DFTNAN with
+                                            a number of high explosives (cyclo-1,3,5-trimethylene-2,4,6-trinitramine (RDX), 1,3,5,7-tetranitro-
+                                            1,3,5,7-tetrazocine (HMX), 2,4,6,8,10,12-hexanitro-2,4,6,8,10,12-hexaaza-tetracyclo-[5.5.0.05,9.03,11]-
+                                  dodecane (CL-20) and dihydroxylammonium 5,5’-bistetrazole-1,1’-diolate (TKX-50)) was studied at
+         
+                                            different mass ratios using DSC. The criteria to judge the compatibility between the materials were
+Citation: Hu, F.; Wang, L.-J.; Zhao,
+                                            based on a standardization agreement (STANAG 4147). The thermodynamic study results revealed
+W.; Liu, Y.-C.; Jing, S.-M.; Liu, P.; He,
+                                            that DFTNAN possessed superior thermal safety and stability. The experimental of compatibility
+J.-X. Thermal Decomposition Kinetics
+                                            results indicated that the mass ratios of the high explosives in the DFTNAN/RDX, DFTNAN/HMX
+and Compatibility of 3,5-difluoro-
+2,4,6-trinitroanisole (DFTNAN).
+                                            and DFTNAN/CL-20 compositions more than 40%, 60% and 70% exhibited good compatibility,
+Materials 2021, 14, 4186. https://          whereas DFTNAN/TKX-50 demonstrated poor compatibility.
+doi.org/10.3390/ma14154186
+                                            Keywords: DFTNAN; cast explosives; thermal behavior; compatibility
+Academic Editors: Daniela
+Kovacheva and Nicolas Sbirrazzuoli
+
+
+Received: 18 June 2021                      1. Introduction
+Accepted: 22 July 2021
+                                                 The melt-cast explosive is a mixed explosive material that can be cast in the molten
+Published: 27 July 2021
+                                            state [1]. As the melt-cast explosive can adapt to various shapes and has a comprehensive
+                                            performance, it represents a military grade mixed explosive. It is widely used in the
+Publisher’s Note: MDPI stays neutral
+                                            loading of grenades, armor piercing bombs, aerial bombs, mine and missile warheads [2,3],
+with regard to jurisdictional claims in
+                                            etc. The liquid phase carrier of the melt-cast explosive is a key component. As a special
+published maps and institutional affil-
+                                            energetic binder [4], the melt-casting carrier can not only improve the safety of high-
+iations.
+                                            energy explosives alone [5], but also enhance the structural integrity and mechanical
+                                            properties of propellant and ammunition charges [6–8]. Compared with ordinary polymer
+                                            binder, it has environmental friendliness and higher economic benefits [9,10]. For long,
+                                            2,4,6-trinitrotoluene (TNT) has been widely used as a carrier of the melt-cast explosive.
+Copyright: © 2021 by the authors.
+                                            With the requirement of low vulnerability of the military explosives put forward in the
+Licensee MDPI, Basel, Switzerland.
+                                            1970s, TNT no longer meets the requirements for developing the modern weapons and
+This article is an open access article
+                                            ammunition [11]. In addition, TNT as the liquid carrier of the explosives has been improved
+distributed under the terms and
+                                            by adding other high-energy materials to form a low eutectic material. Overall, an effective
+conditions of the Creative Commons
+                                            synthesis and design of the liquid phase carrier is needed to replace TNT [12].
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+                                                 Currently, a number of melt-cast explosive carriers which are expected to replace
+4.0/).
+                                            TNT have been synthesized, such as 2,4-dinitrobenzene (DNAN), 3,4-dinitropyrazole
+
+
+
+
+Materials 2021, 14, 4186. https://doi.org/10.3390/ma14154186                                             https://www.mdpi.com/journal/materials
+Materials 2021, 14, 4186                                                                                         2 of 13
+
+
+
+
+                           (DNP) [13], 1-methyl-3,4,5-trinitropyrazole (MTNP) [14], 1-methyl-2,4,5-trinitroimidazole
+                           (MTNI) [15,16], 3,4-dinitrofurazanfuroxan (DNTF) [17], 1-methyl-3,5-dinitropyrazole
+                           (DNMT) [18], 1-nitroamino-2,3-dinitrate propane (NG-N1) [19], etc. However, these suffer
+                           from different shortcomings and do not meet the requirements of widespread application.
+                                2,4,6-trinitro-3,5-difluorophenyl methyl ether (DFTNAN) is a new class of fusion
+                           casting carrier [20]. Its structure is shown in Figure 1. DFTNAN possesses high density
+                           (1.81 g·cm−3 ), low melting point (82 ◦ C), high decomposition temperature (285 ◦ C) and
+                           low sensitivity to external stimuli [20]. In addition, it demonstrates a superior detonation
+                           velocity and detonation pressure. Its thermal behavior and compatibility have not been
+                           reported in the literature so far, thus, requiring in-depth analysis.
+
+
+
+
+                           Figure 1. Chemical structure of DFTNAN.
+
+                                 Therefore, in this study, the thermal decomposition behavior of DFTNAN was studied
+                           by differential scanning calorimetry (DSC) and thermogravimetry (TG). The non-isothermal
+                           thermal decomposition kinetics of DFTNAN was explored by using the Kissinger and
+                           Ozawa methods. The apparent activation energy and pre-exponential factor were obtained
+                           subsequently. At the same time, the thermodynamic parameters, including the peak
+                           decomposition temperature, self-accelerating decomposition temperature and thermal
+                           explosion critical temperature were determined, along with evaluating the thermal safety of
+                           DFTNAN. Based on the STANAG 4147 standard, the compatibility of DFTNAN with cyclo-
+                           1,3,5-trimethylene-2,4,6-trinitramine (RDX), 1,3,5,7-tetranitro-1,3,5,7-tetrazocine (HMX),
+                           2,4,6,8,10,12-hexanitro-2,4,6,8,10,12-hexaaza-tetracyclo-[5.5.0.05,9.03,11]-dodecane (CL-20)
+                           and dihydroxylammonium 5,5’-bistetrazole-1,1’-diolate (TKX-50) composite explosives
+                           were evaluated at different mass ratios by DSC. The findings obtained in this study are
+                           expected to act as a benchmark for the application of DFTNAN in melt-casting explosives.
+
+                           2. Experimental
+                           2.1. Materials
+                                DFTNAN was prepared in the lab with a purity of 98%.
+                                The solid high energy explosives, technical grade RDX, HMX, CL-20 and TKX-50
+                           with a purity of more than 97% were supplied by Qingyang Chemical Industry Corpora-
+                           tion (Liaoning, China), Gansu Yinguang Chemical Industry Group (Gansu China, North
+                           Industries Group (Beijing, China) and Liming Research Institute of Chemical Industry
+                           (Henan, China), respectively.
+
+                           2.2. Preparation of Samples
+                                Preparation of the test sample for the thermal decomposition analysis: DFTNAN was
+                           dried in an explosion-proof oven at 60 ◦ C for 4 h, followed by grinding with an agate
+                           mortar and passing through 120 mesh screen.
+Materials 2021, 14, 4186                                                                                                     3 of 13
+
+
+
+
+                                         Preparation of the sample for the compatibility test: The binary mixtures of DFTNAN
+                                    with RDX, HMX, CL-20 and TKX-50 were prepared at different mass ratios, as shown in
+                                    Table 1.
+                                                   Table 1. Test samples information.
+
+     Test Sample                        Test Sample                                          Number
+                           Number                                                         Mass Ratio (%)
+    Single System                     Mixture System
+                                                            9:1       8:2       7:3        6:4     5:5     4:6   3:7   2:8   1:9
+       DFTNAN               A1        DFTNAN/RDX            B1        B2        B3         B4      B5      B6    B7    B8    B9
+         RDX                A2        DFTNAN/HMX            C1        C2        C3         C4      C5      C6    C7    C8    C9
+         HMX                A3       DFTNAN/CL-20           D1        D2        D3         D4      D5      D6    D7    D8    D9
+         CL-20              A4       DFTNAN/TKX-50          E1        E2        E3         E4      E5      E6    E7    E8    E9
+        TKX-50              A5                                                        /
+
+
+                                         The components were dried in an explosion-proof oven at 60 ◦ C for 4 h. Afterwards,
+                                    DFTNAN was completely melted, and the solid high explosive (RDX/HMX/CL-20/TKX-50)
+                                    was added in batches as per the relation shown in Table 1. The capillary stirring was em-
+                                    ployed during the process. After the addition of the explosive, the mixture was stirred for
+                                    5 min, followed by cooling to room temperature. The solidified casting explosives with
+                                    different compositions were ground into powder form with an agate mortar.
+
+                                    2.3. Characterization
+                                          Thermal stability: The thermal decomposition behavior the samples were determined
+                                    in the temperature range 50–350 ◦ C using the heating rates of 2, 5, 10 and 15 ◦ C·min−1
+                                    by, respectively, employing HCT-1 (HENVEN Instruments, Beijing, China) and TAG 5500
+                                    (TA Instruments, New Castle, DE, USA) under N2 atmosphere. For DSC, about 1.0~1.5 mg
+                                    sample mass was taken in the aluminum pans with cover. On the other hand, the TG
+                                    sample weighing about 5.0 mg was taken in a ceramic crucible.
+                                          Compatibility: The samples (1.0 mg) taken in the aluminum pans with cover were
+                                    characterized by using HCT-1 in the temperature range 50 ◦ C to 350 ◦ C at a heating
+                                    rate of 5 ◦ C·min−1 from under N2 atmosphere. For assessing the compatibility, the peak
+                                    decomposition of DFTNAN was compared with the peak decomposition of the mixtures
+                                    (DNTNAN and RDX/HMX/CL-20/TKX-50).
+
+                                    3. Results and Discussion
+                                    3.1. Thermal Decomposition Behavior of DFTNAN
+                                    3.1.1. DSC Analysis
+                                         The DSC curves of DFTNAN under different conditions acquired using a heating
+                                    rate of 5 ◦ C·min−1 are presented in Figure 2. In the open condition, the DSC curve of
+                                    DFTNAN demonstrated two endothermic peaks at 82 ◦ C and 211 ◦ C, which indicated
+                                    the melting and evaporation processes, respectively. However in the closed condition, an
+                                    endothermic peak and an exothermic peak were observed, which corresponded to the
+                                    melting at 82 ◦ C and decomposition at 273 ◦ C. In the open condition, no decomposition
+                                    was detected up to 273 ◦ C, as DFTNAN reached the boiling point before reaching the
+                                    decomposition temperature.
+                                         The DSC curves of DFTNAN acquired using the heating rates of 2, 5, 10 and 15 ◦ C·min−1
+                                    are shown in Figure 3. As shown, the temperature of the decomposition peak (Tp ) increased
+                                    on enhancing the heating rate, with the peak becoming wider. However, the temperature
+                                    of the melting peak exhibited only a slight change. The observed shifting of the exothermic
+                                    peak to the high temperature might be attributed to an increment in the thermal effect
+                                    per unit time and temperature difference. Further, the reduction in the reaction time and
+                                    incomplete decomposition reaction on enhancing the heating rate also contributed to this
+                                    effect [21]. Thus, the synthesis leads to a lag in the heat release. The epitaxial starting
+Materials 2021, 14, 4186                                                                                                  4 of 13
+
+
+
+
+                           temperature (Teo ), peak temperature (Tp ) and end decomposition temperature (Tf ) of
+                           DFTNAN at different heating rates are listed in Table 2.
+
+
+
+
+                           Figure 2. DSC curves for DFTNAN at heating rate 5 ◦ C min−1 (under different conditions).
+
+
+
+
+                           Figure 3. DSC curves for DFTANA at different heating rates of 2, 5, 10 and 15 ◦ C min−1 .
+
+                           Table 2. DSC data of DFTNAN at different heating rates.
+
+                                 β/◦ C·min−1                T ’ eo /◦ C               T p /◦ C                 T f /◦ C
+                                      2                      246.20                   251.64                   255.41
+                                      5                      266.63                   272.59                   275.76
+                                      10                     285.45                   289.72                   295.12
+                                      15                     291.17                   297.99                   304.02
+
+
+                           3.1.2. TG Analysis
+                                 The TG-DTG curves of DFTNAN at various heating rates are shown in Figure 4. Only
+                           one step decomposition was observed in the TG curves, and the mass loss rate was close to
+                           100%. It indicated that the decomposition of DFTNAN was a complete and continuous
+                           process. On increasing the heating rate, the temperature TV at the maximum mass loss
+                           rate increased, as expected. The observed behavior was consistent with the trend observed
+Materials 2021, 14, 4186                                                                                                           5 of 13
+
+
+
+
+                                   in the DSC curves: on increasing the heating rate, Tp and TV at the maximum mass loss
+                                   rate exhibit an increase. A significant difference was observed between the TV (DTG)
+                                   and Tp (DSC) values at different heating rates, which was due to the fact that the DSC
+                                   analysis was performed in the closed conditions, and the TG analysis was carried out in
+                                   the open condition.
+
+
+
+
+                                   Figure 4. TG curves for DFTANA at different heating rates of 2, 5, 10 and 15 ◦ C min−1 .
+
+                                   3.1.3. Non-Isothermal Decomposition Kinetics
+                                        In order to obtain the apparent activation energy ( Ek ) and pre-exponential factor ( Ak )
+                                   for the thermal decomposition of DFTNAN, the Ozawa and Kissinger methods were
+                                   applied. The equations for the Kissinger (1) and Ozawa (2) methods can be written as
+                                   follows [22,23]:
+                                                                  β       A R      E
+                                                              ln 2i = ln k − k , i = 1, 2, . . . , 4                           (1)
+                                                                 Tpi       Ek     RT pi
+                                                                          
+                                                                     Ak Eo            0.4567Eo
+                                                      log βi = log           −2.315−            , i = 1, 2, 3, . . .           (2)
+                                                                     Rgα                RT pi
+
+                                   where, R is the gas constant (8.314 J·mol−1 ·K−1 ), β i is the linear heating rate (K·min−1 ) and
+                                   Tpi corresponds to the peak decomposition temperature in case the heating rate is β i (K).
+                                                                                                          β
+                                         As per the Kissinger and Ozawa equations, the values of ln T2i and log β i were plotted
+                                                                                                           pi
+                                   against T1pi , respectively. The regression equation and correlation coefficient were subse-
+                                   quently obtained, where the Ek and Eo values were determined from the slope, and the
+                                   values of Ak were obtained from the intercept, as shown in Table 3. As observed, the
+                                   apparent activation energy of DFTNAN obtained by the Kissinger method was in good
+                                   agreement with the energy obtained by the Ozawa method. Further, the linear correlation
+                                   coefficients were noted to be close to 1, indicating that the calculation results were reliable.
+
+      Table 3. Thermal decomposition kinetic parameters, thermodynamic parameters and thermal safety parameters of DFTNAN.
+
+          Kissinger’s Method                Ozawa’s Method                                     ∆H 6= /       ∆S6= /             ∆G6= /
+                                                                    T ASDT /◦ C   T b /◦ C
+ Ak /min−1       Ek /kJ·mol−1    R2      Eo /kJ·mol−1     R2                                 kJ·mol−1    kJ·mol−1 ·K−1        kJ·mol−1
+ 4.73 × 108         97.93       0.9977     101.78       0.9980       226.33       249.03       95.28          −92.26           146.13
+Materials 2021, 14, 4186                                                                                            6 of 13
+
+
+
+
+                           3.1.4. Thermodynamic Parameters of Activation Reaction
+                                The entropy (∆S6= ), enthalpy (∆H 6= ) and Gibbs free energy (∆G 6= ) of activation of the
+                           exothermic decomposition of DFTNAN were calculated according to Equations (3)–(5) [24].
+                                                                                   !
+                                                                   kTp       ∆S6=
+                                                              A=        exp                                             (3)
+                                                                    h          R
+
+                                                                   ∆H 6= = Ek − RT p                                   (4)
+
+                                                              ∆G 6= = ∆H 6= − T p ∆S6=                                 (5)
+                           where, k is the Boltzmann’s constant (1.3807 × 10−23 J·K−1 ), and h is the Planck’s constant
+                           (6.625 × 10−34 J·s−1 ).
+                                By using the calculated data, ∆S6= , ∆H 6= and ∆G 6= at Tp were calculated. The ∆S6=
+                           value was noted to be negative, as per the transition state theory, which indicated that the
+                           order of the transition state structure was increased. On the other hand, the ∆H 6= and ∆G 6=
+                           values were observed to be positive, which indicated a non-spontaneous process related to
+                           the introduction of heat, thereby revealing the superior thermal stability of DFTNAN.
+
+                           3.1.5. Thermal Safety Parameters
+                                The critical temperature of thermal explosion (Tb ) is a vital parameter to evaluate the
+                           safety of the materials and ascertain the transformation from thermal decomposition to
+                           thermal explosion [25]. On the other hand, the self-accelerating decomposition temperature
+                           (TASDT ) represents the maximum allowable ambient temperature for practical application.
+                                For DFTNAN, the polynomial regression method (Tei = Teo + αβ i + bβ2i + cβ3i ) was
+                           used. For β = 0, the epitaxial starting temperature Teo was obtained more accurately and
+                           TASDT = Teo [26]. The Tb value was obtained by substituting Teo in Equation (6) [27].
+                                                                                     1 
+                                                                         2              2
+                                                         Tb = E − E − 4ERTeo                  /2R                      (6)
+
+                                The values of Teo (TASDT ) and Tb were determined to be 226.33 ◦ C and 249.03 ◦ C,
+                           respectively. Therefore, the high epitaxial starting temperature and critical temperature
+                           of thermal explosion of DFTNAN revealed its superior thermal safety and stability at
+                           room temperature.
+
+                           3.2. Compatibility
+                                 The compatibility is closely related to the safety and reliability of the explosives [28].
+                           The compatibility of DFTNAN with the high energy solid explosives was evaluated by
+                           determining the maximum peak temperature difference ∆Tp from DSC, according to the
+                           STANAG 4147 criterion [29] (Table 4).
+                                 The DSC curves of pure DFTNAN (A1), pure RDX (A2), pure HMX (A3), pure CL-20
+                           (A4), pure TKX-50 (A5), DFTNAN/RDX (B1–B9), DFTNAN/HMX (C1~C9), DFTNAN/CL-
+                           20 (D1~D9) and DFTNAN/TKX-50 (E1–E9) in the closed condition at a heating rate of
+                           5 ◦ C·min−1 are presented in Figures 5–8. The corresponding evaluated compatibility values
+                           are summarized in Table 5.
+                                 As observed, the addition of the high explosives to DFTNAN significantly reduced
+                           the decomposition peak temperature of the mixed samples, especially on adding TKX-50.
+                           The reason for the observed behavior might be attributed to the partial solubility of the
+                           N-nitramines explosives (RDX, HMX and CL-20) in DFTNAN. On increasing the tem-
+                           perature, a part of the N-nitramines explosive was dissolved in the melting DFTNAN.
+                           Due to the advanced decomposition of DFTNAN induced by the liquid N-nitramines
+                           explosive, the peak decomposition temperature of the DTNAN/N-nitramines explosive
+                           composition decreased correspondingly. However, TKX-50 is an energetic ionic salt, and
+                           the proton transfer may reduce the reaction barrier under thermal stimulation [30], leading
+Materials 2021, 14, 4186                                                                                                            7 of 13
+
+
+
+
+                                  to the formation of a molten mixture with melting DFTNAN. The led to the decomposition
+                                  temperature of DFTNAN/TKX-50 decrease significantly.
+
+                                  Table 4. Evaluation standards of the compatibility for explosives.
+
+                                         Criteria 4T p (◦ C)                                         Content
+                                                 <4                -the mixture is considered to be compatible
+                                                                   -the mixture is considered “moderately” incompatible (it is necessary
+                                                4–20
+                                                                   to apply other methods of determining the compatibility);
+                                                >20                -the mixture is considered to be incompatible
+
+
+                             Table 5. Compatibility results of DFTNAN-based mixture explosives by DSC.
+
+        System             Mass Ratios of Mixture          OB/%            T p /◦ C      ∆T p /◦ C             Compatibility Judgment
+       DFTNAN                        /                    −43.01            273             /                            /
+          RDX                        /                    −21.62            231             /                         /
+                                   90:10                  −40.87            240             9              “Moderately” incompatible
+                                   80:20                  −38.73            224             7              “Moderately” incompatible
+                                   70:30                  −36.59            225             6              “Moderately” incompatible
+                                   60:40                  −34.46            227             4                    Compatible
+   DFTNAN/RDX                      50:50                  −32.32            228             3                    Compatible
+                                   40:60                  −30.18            228             3                    Compatible
+                                   30:70                  −28.04            227             4                    Compatible
+                                   20:80                  −25.90            229             2                    Compatible
+                                   10:90                  −23.76            229             2                    Compatible
+         HMX                         /                    −21.62            281             /                            /
+                                   90:10                  −40.87            245            28                       Incompatible
+                                   80:20                  −38.73            239            34                       Incompatible
+                                   70:30                  −36.59            239            34                       Incompatible
+                                   60:40                  −34.46          240,272         33,9                      Incompatible
+   DFTNAN/HMX                      50:50                  −32.32          239,269         34,12                     Incompatible
+                                   40:60                  −30.17            277             4                        Compatible
+                                   30:70                  −28.04            277             3                        Compatible
+                                   20:80                  −25.90            279             1                        Compatible
+                                   10:90                  −23.76            279             2                        Compatible
+         CL-20                       /                    −10.96            237             /                            /
+                                   90:10                  −39.81          210,231         24,42                     Incompatible
+                                   80:20                  −36.60            207            66                       Incompatible
+                                   70:30                  −33.40            207            66                       Incompatible
+                                   60:40                  −30.19            209            63                       Incompatible
+  DFTNAN/CL-20                     50:50                  −26.98          209,244         64,7                      Incompatible
+                                   40:60                  −23.78          208,243         65,6                      Incompatible
+                                   30:70                  −20.57            239             2                        Compatible
+                                   20:80                  −17.37            239             2                        Compatible
+                                   10:90                  −14.16            240             3                        Compatible
+        TKX-50                       /                    −27.12          240,289           /                            /
+                                   90:10                  −41.42            179             94                      Incompatible
+                                   80:20                  −39.83            174             99                      Incompatible
+                                   70:30                  −38.24            170            103                      Incompatible
+                                   60:40                  −36.65            169            104                      Incompatible
+ DFTNAN/TKX-50                     50:50                  −35.06            160            113                      Incompatible
+                                   40:60                  −33.48            161            112                      Incompatible
+                                   30:70                  −31.89        160,214,294      113,265                    Incompatible
+                                   20:80                  −30.30        155,221,294      118,195                    Incompatible
+                                   10:90                  −28.71        154,225,301     1,191,512                   Incompatible
+Materials 2021, 14, 4186                                                                             8 of 13
+
+
+
+
+                           Figure 5. DSC curves of DFTNAN, RDX and mixtures with different ratios.
+
+
+
+
+                           Figure 6. DSC curves of DFTNAN, HMX and mixtures with different ratios.
+Materials 2021, 14, 4186                                                                                9 of 13
+
+
+
+
+                           Figure 7. DSC curves of DFTNAN, CL-20 and mixtures with different ratios.
+
+
+
+
+                           Figure 8. DSC curves of DFTNAN, TKX-50 and mixtures with different ratios.
+Materials 2021, 14, 4186                                                                                        10 of 13
+
+
+
+
+                                The solubility of the N-nitramines explosives in DFTNAN is limited. On enhanc-
+                           ing the N-nitramines explosive content, the induction effect of the liquid N-nitramines
+                           explosive decreased. The peak decomposition temperature of the mixed samples was
+                           correspondingly affected. The DSC curves of the DFTNAN/N-nitramines composition are
+                           shown in Figures 5–7.
+
+                           3.2.1. DFTNAN/RDX
+                                As observed in Figure 5, there were an exothermic peak in DSC curves of samples
+                           B1–B9. The peak temperature observed in B1 sample was higher than A2 (237 ◦ C), which
+                           corresponded to the decomposition of DFTNAN. The ∆Tp values for B1 sample was 9 ◦ C.
+                           The peak temperatures of the B2–B9 samples were lower than A2 (237 ◦ C), which was
+                           ascribed to the decomposition of RDX. Apart from B2 and B3 samples which had the ∆Tp
+                           values of 7 and 6 ◦ C, all other samples did not exceed 4 ◦ C. The ∆Tp values of the samples
+                           indicated that RDX was compatible with DFTNAN, except for the mass ratio of 10:90, 20:80
+                           and 30:70 exhibiting moderate incompatibility.
+                                As reported in literature [31], the melting point of RDX is 207 ◦ C. The DSC curve
+                           for the composition with a high content of DFTNAN exhibited no melting peak of RDX,
+                           whereas the melting peak appeared on increasing the RDX content. This was due to
+                           the reason that the low RDX content led to the partial dissolution of RDX through an
+                           autocatalytic reaction, thus, speeding up the decomposition rate of the whole system. The
+                           melting process was carried out together with the decomposition process, thus, that the
+                           melting peak of RDX did not appear in the DSC curve.
+
+                           3.2.2. DFTNAN/HMX
+                                 There was a single exothermic peak in DSC curves of samples C1–C3, which was
+                           ascribed to the decomposition of DFTNAN. The peak temperatures of these samples
+                           were noted to be lower than A1. The ∆Tp values for the C1–C3 samples were more
+                           than 20 ◦ C, while the result indicated these compositions to be incompatible. On further
+                           increasing the HMX content, the peak decomposition temperature of the mixed samples
+                           was correspondingly affected.
+                                 In Figure 6, the DSC curves for the samples C4 and C5 exhibited two exothermic
+                           peaks, which corresponded to the decomposition of DFTNAN and HMX. The first peak
+                           became weaker, whereas the second peak became stronger on increasing the HMX content.
+                           The Tp values for the first and second peaks for the samples were determined to be 33 and
+                           34 ◦ C or 9 and 12 ◦ C, respectively. As the HMX content was more than 60%, the DSC curves
+                           for the C6–C9 samples displayed only a single exothermic peak, which was ascribed to
+                           the decomposition of HMX. The ∆Tp values for the samples were noted to be <4 ◦ C. This
+                           indicated that the DFTNAN/HMX composition with the mass ratios of 10:90, 20:80, 30:70
+                           and 90:10 exhibited optimal compatibility. It should be noted that the melting endothermic
+                           peak of A3 was not observed due to the low heating rate [32].
+
+                           3.2.3. DFTNAN/CL-20
+                                 In Figure 7, except for the D1 sample which had two partially overlapping exothermic
+                           peak, the DSC curves of D2–D4 samples displayed one exothermic peak, which was
+                           attributed to the decomposition of DFTNAN. The peak temperatures of these samples were
+                           noted to be lower than A1. The ∆Tp values for the D1–D4 samples were more than 20 ◦ C,
+                           while the result indicated these compositions to be incompatible.
+                                 On increasing the CL-20 content, two exothermic peaks were observed in the DSC
+                           curves of D5 and D6 sample, which correspond to the decompositions of CL-20 and
+                           DFTNAN, respectively. The first peak became weaker, whereas the second peak became
+                           stronger on increasing the CL-20 content. It indicated that the DFTNAN/CL-20 mixture
+                           with the mass ratios of 50:50 and 40:60 were incompatible.
+Materials 2021, 14, 4186                                                                                                 11 of 13
+
+
+
+
+                                For the DFTNAN/CL-20 mixture with mass ratio of 30:70, 20:80 and 10:90, only a
+                           single exothermic peak was noted, which corresponded to the decomposition of CL-20.
+                           The ∆Tp values of the samples indicated that CL-20 was compatible with DFTNAN.
+
+                           3.2.4. DFTNAN/TKX-50
+                                 In Figure 8, for the mass ratios of the high explosives in the DFTNAN/TKX-50
+                           compositions less than 60%, only a single exothermic peak was noted, which was ascribed
+                           to the decomposition of DFTNAN. The peak temperatures of these samples were noted to
+                           be lower than A1. The ∆Tp values for the E1–E6 samples were more than 20 ◦ C, while the
+                           result indicated these compositions to be incompatible.
+                                 On further increasing the TKX-50 content, three exothermic peaks were observed in
+                           the DSC curves of E7, E8 and E9. Among these, the first peak was attributed to DFTNAN,
+                           and the ∆Tp values were noted to be 113, 118 and 119 ◦ C, respectively. The second and third
+                           peaks were attributed to TKX-50 and were lower than the peak temperature of A5 (26, 19,
+                           15 ◦ C and 5, 5, 12 ◦ C, respectively). This indicated that TKX-50 was incompatible with
+                           DFTNAN, and the thermal stability of pure explosive was reduced by mixing DFTNAN
+                           with TKX-50. It should be noted that the peak temperature of the third exothermic peak of
+                           E8 was higher than that of the second decomposition peak of TKX-50. Thus, it could be
+                           suggested that the addition of DFTNAN affected the thermal decomposition characteristics
+                           of TKX-50.
+
+                           4. Conclusions
+                                The thermal decomposition behavior of DFTNAN was investigated by DSC and
+                           TG using different heating rates (2, 5, 10 and 15 ◦ C·min−1 ). The peak decomposition
+                           temperature (Tp ) was observed in the range 252–298 ◦ C, whereas the melting temperature
+                           was about 82 ◦ C. The TG curves exhibited a single step decomposition for different heating
+                           rates, and the mass loss rate was close to 100%.
+                                By applying the DSC data, the kinetic and thermodynamic thermal decomposition
+                           parameters, as well as the thermal safety parameters of DFTNAN, were calculated. The ap-
+                           parent activation energy (Ek,0 ) and pre-exponential factor (Ak )for the thermal decomposition
+                           of DFTNAN were estimated by the Ozawa and Kissinger methods. The values of Ek , Ak and
+                           E0 were determined to be 97.93 kJ·mol−1 , 4.73 × 108 min−1 and 101.78 kJ·mol−1 , respectively.
+                                The entropy (∆S6= ), enthalpy (∆H 6= ) and Gibbs free energy (∆G 6= ) of activation at Tp
+                           as well as the critical temperature of thermal explosion (Tb ) and self-accelerating decom-
+                           position temperature (T ASDT ) were calculated as follows: ∆S6= = −92.10 kJ·mol−1 ·K−1 ,
+                           ∆H 6= = 95.28 kJ·mol−1 , ∆G 6= = 146.04 kJ·mol−1 , TASDT = 226.33 ◦ C and Tb = 249.03 ◦ C. The
+                           observed thermal parameters confirmed that DFTNAN possessed superior thermal safety
+                           and stability. The research results further confirm the potential of DFTNAN as a substitute
+                           for melt-casting carrier, and provide a basis for the development, production and storage
+                           of explosives.
+                                For the mass ratios of the high explosives in the DFTNAN/RDX mixture no less
+                           than 40%, the DFTNAN and RDX have good compatibility. The DFTNAN/HMX mix-
+                           ture with the mass ratios of 40:60, 30:70, 20:80 and 10:90 revealed optimal compatibility.
+                           The DFTNAN/CL-20 mixture with the mass ratios of 30:70, 20:80 and 10:90 have good
+                           compatibility. On the other hand, DFTNAN was noted to be incompatible with TKX-50.
+                           As some basic data, further research on the formula design and cocrystal explosive of
+                           DFTNAN/HMX, DFTNAN/RDX and DFTNAN/CL-20 will be carried out, focusing on
+                           the study of DFTNAN/CL-20 based casting formula.
+
+                           Author Contributions: Conceptualization, Y.-C.L. and S.-M.J.; investigations, F.H., L.-J.W., P.L. and
+                           W.Z.; data curation P.L., L.-J.W. and F.H.; Formal analysis, F.H., L.-J.W., W.Z. and J.-X.H.; writing—
+                           original draft preparation, F.H., L.-J.W., W.Z., P.L. and J.-X.H.; writing—review and editing, F.H.,
+                           Y.-C.L., S.-M.J., L.-J.W. and J.-X.H. All authors have read and agreed to the published version of
+                           the manuscript.
+Materials 2021, 14, 4186                                                                                                              12 of 13
+
+
+
+
+                                   Funding: We acknowledge the financial support from the 17th postgraduate science and technology
+                                   project of North University of China [No. 20201764], and the National Natural Science Foundation of
+                                   China [No. 21875061, No. 21975066].
+                                   Institutional Review Board Statement: Not applicable.
+                                   Informed Consent Statement: Not applicable.
+                                   Data Availability Statement: Data sharing is not applicable to this article.
+                                   Acknowledgments: Sincere thanks to all the authors for their hard work on this article.
+                                   Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.    Li, Y.; Yuan, J.M.; Zhao, W.; Qu, Y.; Xing, X.W.; Meng, J.W.; Liu, Y.C. Application and Development of 3,4-Bis(3-nitrofurazan-4-
+      yl)furoxan (DNTF). Russ. J. Gen. Chem. 2021, 91, 445–455. [CrossRef]
+2.    Ou, Y.X. Explosives; Beijing Institute of Technology Press: Beijing, China, 2014; pp. 387–388. ISBN 978-7-5640-8621-3.
+3.    Agrawal, J.P.; Hodgson, R.D. Organic Chemistry of Explosives; John Wiley & Sons: Chichester, UK, 2006.
+4.    Anniyappan, M.; Talawar, M.B.; Sinha, R.K.; Murthy, K.P.S. Review on Advanced Energetic Materials for Insensitive Munition
+      Formulations. Combust. Explos. Shock. Waves 2020, 56, 495–519. [CrossRef]
+5.    Vijayalakshmi, R.; Radhakrishnan, S.; Shitole, P.; Pawar, S.J.; Mishra, V.S.; Garg, R.K.; Talawar, M.B.; Sikder, A.K. Spherical
+      3-nitro-1,2,4-triazol-5-one (NTO) based melt-cast compositions: Heralding a new era of shock insensitive energetic materials.
+      RSC Adv. 2015, 5, 101647–101655. [CrossRef]
+6.    Smith, M.W.; Lu, J.P. Aging of the Insensitive Explosive, ARX-4024; DSTO Systems Sciences Laboratory: Edinburgh, UK, 2004.
+7.    Hang, G.-Y.; Yu, W.-L.; Wang, T.; Wang, J.-T.; Li, Z. Comparative studies on structures, mechanical properties, sensitivity, stabilities
+      and detonation performance of CL-20/TNT cocrystal and composite explosives by molecular dynamics simulation. J. Mol. Model.
+      2017, 23, 281. [CrossRef]
+8.    Meng, J.-J.; Luo, Y.-M.; Niu, G.-T.; Wang, H.-X.; Yang, F. Effect of additives on the interface binding strength of DNAN/HMX
+      melt-cast explosives. J. Energ. Mater. 2020, 38, 467–482. [CrossRef]
+9.    Mishra, V.; Vadali, S.; Bhagat, A.; Garg, R.; Kugaonkar, V.; Subramanian, R.; Sinha, R.; Asthana, S. Studies on NTO-, FOX-7- and
+      DNAN-based Melt Cast Formulations. Central Eur. J. Energ. Mater. 2017, 14, 403–417. [CrossRef]
+10.   Ou, Y.X.; Han, T.J.; Rui, J.H.; Zhao, Y. High Energy Materials; National Defense Industry of Press: Beijing, China, 2013;
+      pp. 85, 86, 140, ISBN 978-7-118-08692-8.
+11.   Yang, R.; Dong, Z.; Ye, Z. Tetrazolium Nitrate Anion Based Salts as Potential Melt-Castable Explosives. ChemistrySelect 2019, 4,
+      14208–14213. [CrossRef]
+12.   Wang, H.X.; Wang, X.F.; Luo, Y.M. Research Status and Development Trend of Insensitive Melt-Cast Explosive. Explos. Mater.
+      2021, 50, 4–12. [CrossRef]
+13.   Tang, W.Q.; Ren, H.; Jiao, Q.J.; Zheng, W. Property Characterization of 3,4-Dinitropyrazole and its Application. Chin. J. Energ.
+      Mater. 2017, 25, 44–48. [CrossRef]
+14.   Hervé, G.; Roussel, C.; Graindorge, H. Selective Preparation of 3,4,5-Trinitro-1H-Pyrazole: A Stable All-Carbon-Nitrated Arene.
+      Angew. Chem. 2010, 122, 3245–3249. [CrossRef]
+15.   Anniyappan, M.; Varma, K.V.; Amit, R.; Nair, J. 1-methyl-2,4,5-trinitroimidazole (MTNI), a melt-cast explosive: Synthesis and
+      studies on thermal behavior in presence of explosive ingredients. J. Energetic Mater. 2019, 38, 111–125. [CrossRef]
+16.   Lian, P.-B.; Chen, J.; Chen, L.-Z.; Zhao, C.-Y.; Wang, J.-L.; Shen, F.-F. Preparation of 1-methyl-2,4,5-trinitroimidazole from
+      derivatives of 1-methylimidazole and its oxidation under nitration conditions. Chem. Heterocycl. Compd. 2020, 56, 55–59.
+      [CrossRef]
+17.   Li, X.; Wang, B.-L.; Lin, Q.-H.; Chen, L.-P. Compatibility Study of DNTF with Some Insensitive Energetic Materials and Inert
+      Materials. J. Energetic Mater. 2016, 34, 409–415. [CrossRef]
+18.   Price, D.; Morris, J. Synthesis of DNMT: A New Energetic Melt-pour Ingredient. In Proceedings of the Insensitive Munitions and
+      Energetic Materials Technology Symposium, Munich, Germany, 11–13 October 2010.
+19.   Altenburg, T.; Klapötke, T.M.; Penger, A. Primary nitramines related to nitroglycerine: 1-nitramino-2,3-dinitroxypropane and
+      1,2,3-trinitraminopropane. Cent. Euro. J. Energ. Mater. 2009, 6, 255–275.
+20.   Jing, S.; Jiang, Z.; Jiao, Q.; Li, Z.; Liu, Y.; Yang, L. 3,5-difluoro-2,4,6-trinitroanisole: Promising melt-cast insensitive explosives
+      instead of TNT. J. Energ. Mater. 2021, 1–12. [CrossRef]
+21.   Hu, Y.F.; Gu, W.B.; Liu, J.Q.; Wang, H.X.; Huang, H.; Xu, J.L. Numerical study on Propagation of Stress Wave in Aluminum Foam
+      Sandwiched Plates. Explo. Mater. 2014, 43, 21–25. [CrossRef]
+22.   Kissinger, H.E. Reaction Kinetics in Differential Thermal Analysis. Anal. Chem. 1957, 29, 1702–1706. [CrossRef]
+23.   Ozawa, T. A New Method of Analyzing Thermogravimetric Data. Bull. Chem. Soc. Jpn. 1965, 38, 1881–1886. [CrossRef]
+24.   Xiao, L.-B.; Zhao, F.-Q.; Luo, Y.; Li, N.; Gao, H.-X.; Xue, Y.-Q.; Cui, Z.-X.; Hu, R.-Z. Thermal behavior and safety of dihydroxylam-
+      monium 5,50 -bistetrazole-1,10 -diolate. J. Therm. Anal. Calorim. 2015, 123, 653–657. [CrossRef]
+Materials 2021, 14, 4186                                                                                                           13 of 13
+
+
+
+
+25.   Zhang, S.; Zhang, J.; Kou, K.; Jia, Q.; Xu, Y.; Liu, N.; Hu, R. Standard Enthalpy of Formation, Thermal Behavior, and Specific Heat
+      Capacity of 2HNIW·HMX Co-crystals. J. Chem. Eng. Data 2018, 64, 42–50. [CrossRef]
+26.   Liu, Y.; Jiang, Y.-T.; Zhang, T.-L.; Feng, C.-G.; Yang, L. Thermal kinetic performance and storage life analysis of a series of
+      high-energy and green energetic materials. J. Therm. Anal. Calorim. 2014, 119, 659–670. [CrossRef]
+27.   Yi, J.-H.; Zhao, F.-Q.; Wang, B.-Z.; An, T.; Wang, Y.; Gao, H.-X. BTATz–HNIW–CMDB propellants. J. Therm. Anal. Calorim. 2013,
+      115, 1227–1234. [CrossRef]
+28.   Yan, Q.-L.; Xiao-Jiang, L.; La-Ying, Z.; Ji-Zhen, L.; Hong-Li, L.; Zi-Ru, L. Compatibility study of trans-1,4,5,8-tetranitro-1,4,5,8-
+      tetraazadecalin (TNAD) with some energetic components and inert materials. J. Hazard. Mater. 2008, 160, 529–534. [CrossRef]
+      [PubMed]
+29.   De Klerk, W.P.C.; Schrader, M.A.; Van Der Steen, A.C. Compatibility Testing of Energetic Materials, Which Technique? J. Therm.
+      Anal. Calorim. 1999, 56, 1123–1131. [CrossRef]
+30.   Muravyev, N.V.; Monogarov, K.; Asachenko, A.F.; Nechaev, M.S.; Ananyev, I.V.; Fomenkov, I.V.; Kiselev, V.; Pivkina, A. Pursuing
+      reliable thermal analysis techniques for energetic materials: Decomposition kinetics and thermal stability of dihydroxylammo-
+      nium 5,50 -bistetrazole-1,10 -diolate (TKX-50). Phys. Chem. Chem. Phys. 2016, 19, 436–449. [CrossRef]
+31.   Lee, J.-S.; Hsu, C.-K.; Chang, C.-L. A study on the thermal decomposition behaviors of PETN, RDX, HNS and HMX. Thermochim.
+      Acta 2002, 392–393, 173–176. [CrossRef]
+32.   Kimura, J.; Kubota, N. Thermal Decomposition Process of HMX. Propellants Explos. Pyrotech. 1980, 5, 1–8. [CrossRef]
+

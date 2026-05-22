@@ -1,8 +1,231 @@
-# Changelog — mp-bp-extraction skill
+# Changelog — data-extraction skill (formerly mp-bp-extraction)
 
-Records changes to the `mp-bp-extraction` skill across versions. This file lives outside the skill directory so it's not packaged with the installed skill — agents applying the skill shouldn't need (or see) historical version notes.
+Records changes to the property-extraction skill across versions. This file lives outside the skill directory so it's not packaged with the installed skill — agents applying the skill shouldn't need (or see) historical version notes.
 
-For the protocol itself, see `mp-bp-extraction/SKILL.md`. For the development arc and rationale, see `development_report.md`.
+For the protocol itself, see `data-extraction/SKILL.md` (v2.0+) or `mp-bp-extraction/SKILL.md` (v1.x, preserved at the repo root as the historical reference). For the development arc and rationale, see `development_report.md`.
+
+## v2.1 — 2026-05-22
+
+Consolidation release. v2.0's modular three-files-per-overlay structure
+(OVERLAY.md + SCHEMA.md + COMMON_ERRORS.md per data type) was diagnosed
+as a meaningful contributor to Trial-7's regression (97.3 % Tier-1 vs
+T5's 99.7 %). Cross-reference count jumped from v1.7's 6 to v2.0's 69
+(an 11× increase). v2.1 reduces it by ~64 % while preserving full
+modularity.
+
+The trigger was the Trial-7 failure analysis. Four of T7's eight Tier-1
+failures and the 37 Tier-2 `quote_missing_compound_token` cases traced
+to rules that v1.7 had inline but v2.0 moved behind cross-references.
+
+### Consolidated
+
+- **Each data type's overlay collapses to a single file.**
+  - `datatypes/mp_bp/{OVERLAY,SCHEMA,COMMON_ERRORS}.md` → `datatypes/mp_bp/OVERLAY.md` only.
+  - `datatypes/redox/{OVERLAY,SCHEMA,COMMON_ERRORS}.md` → `datatypes/redox/OVERLAY.md` only.
+  - `datatypes/redox/REFERENCE_ELECTRODES.md` kept (it's a data table consulted by the conversion script, not protocol documentation).
+- **Generic patterns moved up.** All 11 cross-property failure modes
+  formerly in `datatypes/mp_bp/COMMON_ERRORS.md` (NMR-as-value, PDF
+  sign-loss, compound-name truncation, multi-row thead misalignment,
+  workup solvents, bare codes, wrong-paper DOI, memory fabrication,
+  adjacent-measurement quote, doubled-token, quote-stops-before-value)
+  moved to `references/COMMON_ERRORS.md` with `**Example (mp_bp):**`
+  tagged illustrations. File grew from 929 → ~2,200 words.
+- **Generic skip-reason vocabulary moved up to SKILL.md.** Six
+  property-agnostic reasons (`review_no_per_compound_binding`,
+  `bare_code_compounds_only`, `binding_ambiguous`,
+  `image_only_compound_table`, `formulation_only_no_discrete_compound`,
+  `paper_unreadable`) now live in `SKILL.md` Phase 0. Overlays add
+  property-specific reasons (e.g., mp_bp adds
+  `no_mp_bp_data_in_text`, `tga_or_nmr_only_no_mp_bp`).
+- **Property-disambiguation table added to each overlay.** mp_bp's
+  table maps borderline labels ("onset of decomposition" → `decomposition`
+  not `DSC_onset`; `"X °C, decomp."` → `decomposition` not
+  `melting_point`). T7's two property-subtype failures (rows 163, 660)
+  trace to this gap.
+- **Affirmative compilation-table source_url rule.** Promoted from
+  Phase 6 (failure handling) to Phase 1 step 2 (per-row decision):
+  *"`source_url` is the DOI of the paper file you are physically
+  reading, NOT the DOI of any paper it cites — even when the value was
+  originally measured by an earlier paper and compiled into the
+  paper-at-hand."* Mirrored in `EXTRACTION_PROMPT_TEMPLATES.md`. T7's
+  rows 1212, 1233, 1236, 1244 (the four corpus-availability defects)
+  trace to this rule being implied rather than stated.
+- **Trailing-decimal / dangling-hyphen suspicion rule.** Added to Phase 2
+  quote re-confirmation (step 7) and `EXTRACTION_PROMPT_TEMPLATES.md`
+  Step 6: *"If `value_raw` ends at a non-token boundary (trailing
+  decimal point with no digits, dangling hyphen), suspect a PDF line
+  wrap and read forward to the next physical line."* T7's row 902
+  (`mp 158-159.5 °C` truncated to `158-159` because `.5 °C` wrapped to
+  the next physical line) is the motivating case.
+- **Worked examples in each overlay.** mp_bp now includes four:
+  ordinary mp from a synthesis section, K→°C conversion, decomp
+  annotation → `property = decomposition`, and a compilation table
+  where `source_url` is the corpus paper's DOI not the upstream
+  primary's. Same shape for redox.
+- **Per-row drop list vs per-paper skip vocabulary explicitly
+  distinguished** in SKILL.md and the overlay. v2.0 conflated them
+  adjacent on a single OVERLAY.md screen; v2.1 uses explicit
+  heading-level labels. *"A paper with some bare-code rows and some
+  named-compound rows is NOT a `bare_code_compounds_only` skip — emit
+  the named rows and drop the bare-code rows individually per
+  Phase 2 step 5."*
+- **`textbook:<short-id>` source_url form** documented in SKILL.md
+  Phase 1 step 2 (was implicit in v2.0, used in Trial-6).
+
+### Removed
+
+- `datatypes/mp_bp/SCHEMA.md` (content folded into `OVERLAY.md` and
+  `SKILL.md`).
+- `datatypes/mp_bp/COMMON_ERRORS.md` (generic patterns to
+  `references/COMMON_ERRORS.md`; mp/bp-specific anti-patterns to
+  `OVERLAY.md`).
+- `datatypes/redox/SCHEMA.md` and `datatypes/redox/COMMON_ERRORS.md`
+  (same consolidation pattern).
+
+### Numeric impact
+
+| | v1.7 | v2.0 | v2.1 |
+|---|---:|---:|---:|
+| Total words across files agent reads | 11,405 | 13,833 | ~12,700 |
+| Files agent reads for mp/bp extraction | 4 | 8 | 6 |
+| Cross-references between files | 6 | 69 | ~25 |
+| Files per overlay | n/a | 3 | 1 |
+
+The cross-reference reduction is the load-bearing change. v2.1's 25
+cross-references is 4× v1.7's 6 but a substantial drop from v2.0's 69.
+For an orchestrator distilling the skill into subagent prompts, this is
+~64 % fewer "inline or link?" decisions.
+
+### Migration steps for v2.0 → v2.1
+
+No schema change. v2.0 CSVs (already v2.0-schema) work unchanged with
+v2.1. The migration was 11 documentation / structure edits inside the
+skill package, plus this CHANGELOG entry and a new
+`development_report.md` section.
+
+### Validation
+
+- 17 / 17 deterministic evals pass under v2.1.
+- Step-8-style regression on the migrated Trial-5 CSV produces the same
+  flag list as v2.0 (no new behavior diffs introduced by the
+  consolidation; the v2.0 → v2.1 changes are documentation-only).
+- The Step-9 install-and-load test in a real Claude Code / Cowork
+  harness is deferred until the next trial.
+
+### Not yet validated
+
+- A fresh extraction trial under v2.1 hasn't been run. The hypothesis
+  is that the cognitive-load reduction + the explicit compilation-table
+  rule + the property-disambiguation table close most of the v2.0→T7
+  gap relative to v1.7→T5. The next trial will measure this.
+
+## v2.0 — 2026-05-21
+
+Modularization release. Generalizes the v1.7 mp/bp-specific skill so it can be applied to other measurement data types (redox potentials, viscosity, etc.) while preserving every "context shapes the result" defense from v1.4–v1.7. The skill is renamed from `mp-bp-extraction` to `data-extraction`; v1.7 stays at the repo root as `mp-bp-extraction/` until v2.0 is validated by a real trial run.
+
+The migration was specified in `generalization_proposal.md` and executed in 11 testable steps.
+
+### Renamed / restructured
+
+- **Skill renamed:** `mp-bp-extraction` → `data-extraction`. The skill is property-agnostic at its core.
+- **Schema generalized:**
+  - `value_celsius` → `value` (generic, unit-bearing).
+  - `value_celsius_min` → `value_min`.
+  - `value_celsius_max` → `value_max`.
+  - **New column `units`** (e.g., `°C`, `V vs SHE`, `Pa·s`) — required for numeric values; allowed empty for categorical-valued properties.
+  - `data_type` → `meas_calc` (renamed to avoid clashing with "data type" used everywhere in the proposal to mean the property family).
+- **Schema width 17 → 18 columns.** v2.0-canonical column order documented in `data-extraction/SKILL.md` and `data-extraction/datatypes/<X>/SCHEMA.md`.
+- **Modular layout.** Property-specific content moves into `data-extraction/datatypes/<X>/{OVERLAY.md, SCHEMA.md, COMMON_ERRORS.md, scripts/, evals/files/}` overlays. Two data types ship in v2.0: `mp_bp` (the production mp/bp skill, fully migrated) and `redox` (built from the archived `_archive/example_skill_redox/`).
+
+### Added
+
+- **`--datatype <name>` required flag** on `run_all_checks.py` and `verify_row.py`. Both halt with exit 2 and an available-data-types listing if the flag is missing or names an overlay that doesn't exist. No implicit "generic only" mode — the agent must specify the data type up front (or halt and ask the user).
+- **Halt-on-missing-overlay rule** in `SKILL.md` MANDATORY READING block.
+- **Standardized `conversion_arithmetic` syntax** (v2.0): `<input_value_with_units> <operator> <constant> = <output_value_with_units>`. Both ASCII (`-`, `*`) and unicode (`−`, `×`) operators are accepted as input; new output should use unicode.
+- **New generic script `scripts/conversion_arithmetic_lint.py`** verifies the syntax shape. Ships with unit tests (`evals/check_conversion_arithmetic_lint.py`) covering 6 valid and 4 invalid shape examples.
+- **Empty-when-not-applicable conventions** documented in `SKILL.md`: `compound_smiles`, `value_min`/`value_max`, `units` (for categorical), `conversion_arithmetic`, and `notes` may be empty; all other generic columns required.
+- **`datatypes/mp_bp/` overlay** — preserves the v1.7 production behavior: property enum, value-range checks, K/°F → °C conversion, mp/bp-specific failure-mode catalog.
+- **`datatypes/redox/` overlay** — ported from `_archive/example_skill_redox/`. Adds extension columns: `reference_electrode` (required), `solvent`, `ph`, `n_electrons` (optional). Standardized unit string `V vs SHE`.
+- **`migrate_v17_to_v20.py` at the repo root** — one-time migration utility (not part of the shipped skill). Renames v1.7 columns and inserts `units = "°C"`. Used in Step 7 to migrate Trial-5 and Trial-6 CSVs (`opus47_mp_bp_v20.csv`, `mp_bp_data_v20.csv`).
+
+### Changed
+
+- **`validate_compound_name.py` is now generic** (stays in `data-extraction/scripts/`). The only v1.7-era rule that was actually mp/bp-specific — the `mp =` / `m.p. =` tokens inside `_PROCEDURE_WORDS` — was stripped. The other rules (bare codes, truncated locants, EA-prefix, leading paper-local code, procedure-text-at-start) are all property-agnostic compound-name shape rules and apply to any chemistry data type.
+- **`references/COMMON_ERRORS.md` slimmed** to keep only the property-agnostic LLM-behavior anti-patterns (entries K, M, N from v1.7: regex extractors, templated quotes, memory-guessed DOIs). The mp/bp-specific patterns (entries A–H, I, J, L) moved to `datatypes/mp_bp/COMMON_ERRORS.md`.
+- **`SKILL.md` schema section rewritten** to document the 18-column generic core inline. Overlays now own their property enum, standardized unit string, and any extension columns.
+- **`run_all_checks.py` auto-discovers** `datatypes/<name>/scripts/*.py` and invokes each after the generic scripts. The hard-coded `value_range_check.py` / `unit_conversion_arithmetic.py` calls are gone — they're picked up via the overlay glob.
+- **`verify_row.py` rewritten** to import overlay scripts via `importlib`; calls every overlay script with a `check_row(row) -> str | None` signature.
+- **`audit_criteria.md` at the project root** rewritten to be data-type-agnostic. mp/bp-specific examples are now explicitly marked `**Example (mp_bp):**`. The verifier prompt template parameterizes Q1(b)/Q2 with overlay pointers. `data_type` → `meas_calc` flag rename (`flagged_data_type_mismatch` → `flagged_meas_calc_mismatch`).
+- **`csv_quote_lint.py`** updated to check the `meas_calc` column instead of `data_type`.
+- **`dedup_within_paper.py`** reads `value` and `meas_calc` instead of `value_celsius` and `data_type`. Tolerance default unchanged at 0.5; documented as overridable for unit scales other than °C.
+- **README.md fully rewritten** to document v2.0 usage (data-type specification, halt rule, modular layout) and include a "How to add a new data type" recipe.
+- **Verifier prompt** (`references/VERIFICATION_PROMPT_TEMPLATES.md`) parameterized with `{datatype}` placeholder; Q1(b) and Q2 reference the overlay's `SCHEMA.md` and `OVERLAY.md`.
+
+### Removed
+
+- **`flags.csv` artifact** at the skill root (leftover from a prior `run_all_checks.py` run; not part of the package).
+
+### Behavior diffs vs v1.7 (Step-8 regression test)
+
+Running the v2.0 modular skill against the migrated Trial-5 (2,063 rows, full) and a uniform-random 500-row subset of migrated Trial-6 produced one intentional flag-count diff vs the v1.7 baseline:
+
+- **`conversion_arithmetic_lint.py`** (new in v2.0) surfaces +58 syntax-shape issues in Trial-5 conversion strings and +1 in the Trial-6 subset. These weren't checked under v1.7. All other categories (value-out-of-range, conversion-math-disagrees, dedup, required-field, EA-prefix, etc.) showed +0 diff. No regressions from the schema rename or the overlay restructure.
+
+### Migration tests run
+
+All Step-1-through-Step-10 tests in `generalization_proposal.md` passed:
+
+- Step 1: byte-identical copy (md5 + `diff -r`).
+- Step 2: `_audit_notes.md` covers every file with no silent omissions.
+- Step 3: file moves verified by checksum; new overlay docs non-empty.
+- Step 4: 17 deterministic evals pass; halt rule works; new `conversion_arithmetic_lint.py` ships with unit tests.
+- Step 5: `audit_criteria.md` grep shows mp/bp matches only in `Example (mp_bp):` blocks.
+- Step 6: 17/17 deterministic evals pass under the new structure.
+- Step 7: Trial-5 (2,063 rows) and Trial-6 (15,741 rows) migrated to `*_v20.csv` with full row-count parity, `units = °C` on every row, `meas_calc` row-for-row match with v1.7 `data_type`.
+- Step 8: Regression flag counts match v1.7 except for the one intentional `conversion_arithmetic_lint` increment noted above.
+- Step 9: `dist/data-extraction.skill` zip integrity passes; front matter parses to `name: data-extraction, version: v2.0`. Harness install-and-load deferred until the v2.0 package is dropped into Claude Code / Cowork.
+- Step 10: `run_all_checks.py --datatype redox` runs all three redox scripts plus the generic checks without crashing on a 3-row clean baseline; halt rule lists both `mp_bp` and `redox`.
+
+### Operational notes (not part of the .skill artifact)
+
+- v1.7 `mp-bp-extraction/` stays at the repo root until v2.0 is validated on a fresh corpus. After that we can formally archive it.
+- The redox overlay is structurally complete but hasn't been audit-tested against a real redox corpus. The existing redox fixtures from `_archive/example_skill_redox/redox-extraction/evals/files/` use the v1.7 redox-schema (`molecule`, `voltage_v_she`), not v2.0 — a separate one-off migration would be needed to use them as regression baselines.
+- The harness install-and-load test (Step 9) requires dropping `dist/data-extraction.skill` into a real Claude Code or Cowork install — defer until v2.0 is being trialed for real.
+
+## v1.7 — 2026-05-14
+
+Motivated by Trial-4's recall analysis (see `reports/trial4_comparison_report.md`). v1.6 audited at 98.0 % Tier-1 correctness on Opus (statistically tied with both T2 and T3 under matched criteria) — that part of the skill is stable. But Trial-4 emitted 1,529 rows vs T2's 1,864, and 91 % of the gap traced to 31 papers in four category subfolders that Opus explicitly filtered out. In its self-analysis Opus admitted: *"I lifted the framing from the Trial3-full-opus47/EXTRACTION_SUMMARY.md that I read as a reference at the start of the run, without questioning whether the same exclusion applied here."*
+
+This is a new failure mode — cross-trial contamination — where past trial outputs were treated as if they defined protocol. v1.7 adds two structural defenses in the skill plus an operational note about sandboxing future trial dispatches.
+
+### Added
+
+- **Phase 0 — corpus manifest (required, before Phase 1).** New section in SKILL.md and a new Step 0 in EXTRACTION_PROMPT_TEMPLATES.md Template 2. The agent must enumerate every paper-bearing location in the corpus (descending into subfolders) and write `_corpus_manifest.txt` before processing any paper. Phase 1 is gated on the manifest being non-empty. The skill stays generic — it does not prescribe a specific `find` pattern because corpora vary in layout.
+- **`_skipped.txt` requirement.** Anything the agent intentionally excludes from extraction must be logged as `<location>\t<reason>` with a reason from a fixed taxonomy: `review_no_per_compound_binding`, `bare_code_compounds_only`, `no_mp_bp_data_in_text`, `tga_or_nmr_only_no_mp_bp`, `binding_ambiguous`, `image_only_compound_table`, `formulation_only_no_discrete_compound`, `paper_unreadable`. Free-text reasons require asking the user first. Taxonomy starts from Opus's Trial-4 categorization of its 24 zero-row papers.
+- **EXTRACTION_SUMMARY accounting requirement.** The agent's run report must include the equation `processed + skipped == manifest`. Numbers that don't balance indicate silent loss.
+- **Past-trials anti-pattern.** New entry in the SKILL.md anti-patterns list: "❌ The prior trial run did X, so I'll do X too." Codifies the lesson that past trial outputs are observations, not protocol. Names the Trial-4 example (17 % recall loss from regex-grepping out category subfolders that a prior trial had also excluded).
+- **Pre-flight checklist** gains two new bullets: corpus enumeration before Phase 1, and "treat past trial outputs as reference, not protocol."
+
+### Operational note (not part of the .skill artifact)
+
+Future trial dispatches should sandbox the agent's read scope to the skill directory + the corpus. Past `Trial*-*/` directories, `audit_criteria.md`, `development_report.md`, and other prior-run artifacts should be out of scope unless explicitly handed over with framing. The v1.7 skill-side defenses are belt-and-suspenders; sandboxing is the primary defense.
+
+### Unchanged from v1.6
+
+- All Tier-1 correctness rules (DOI-from-file-only, compound-name shape lint with EA-prefix / leading-code-prefix / procedure-text-at-start, no regex extractors, no data-entry scripts).
+- All Tier-2 verifiability rules (`quote_support_lint.py` advisory; `quote_template_lint.py` deprecated stub).
+- Phase 4 sampling rule (`max(100, 5 %)` parallel-dispatch).
+- The verifier prompt template structure (Q1–Q4 = PASS/FAIL, Q5 = separate verifiability report).
+
+### What v1.7 did NOT add
+
+- **No reconciliation-checker script.** The Phase 0 manifest + `_skipped.txt` are enforcement by design (the agent has to write them) rather than enforcement by check. If a future trial shows a "manifest-vs-emitted mismatch" failure pattern, add the script then.
+- **No new compound-name lint patterns for Trial-4's single occurrences** (the "sodium salt route" suffix, the wrong-isomer-binding in PMC7148931). Single occurrences don't justify lint additions.
+- **No corpus-specific enumeration mechanism.** The skill stays generic so it can be applied to differently-structured corpora.
+
+### Predicted Trial-5 outcome
+
+Same Tier-1 correctness (~98 %), same Tier-2 verifiability (~95–96 %), recall back at T2-equivalent (~1,800–1,900 rows) because the manifest step + sandbox forces full corpus coverage with explicit skip-accounting.
 
 ## v1.6 — 2026-05-13
 

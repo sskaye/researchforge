@@ -1,0 +1,1272 @@
+              molecules
+Perspective
+Ionic Liquids Based on the Concept of Melting Point Lowering
+Due to Ethoxylation
+Manuel Rothe             , Eva Müller, Patrick Denk and Werner Kunz *
+
+                                          Institute of Physical and Theoretical Chemistry, Faculty of Chemistry and Pharmacy, University of Regensburg,
+                                          D-93040 Regensburg, Germany; Manuel.Rothe@ur.de (M.R.); Eva.Mueller@ur.de (E.M.);
+                                          Patrick.Denk@ur.de (P.D.)
+                                          * Correspondence: Werner.Kunz@ur.de
+
+
+                                          Abstract: Most of the commonly used Ionic Liquids (ILs) contain bulky organic cations with suitable
+                                          anions. With our COMPLET (Concept of Melting Point Lowering due to Ethoxylation), we follow a
+                                          different approach. We use simple, low-toxic, cheap, and commercially available anions of the type
+                                          Cx (EO)y CH2 COO– to liquefy presumably any simple metal ion, independently of its charge. In the
+                                          simplest case, the cation can be sodium or lithium, but synthesis of Ionic Liquids is also possible
+                                          with cations of higher valences such as transition or rare earth metals. Anions with longer alkyl
+                                          chains are surface active and form surface active ionic liquids (SAILs), which combine properties
+                                          of ionic and nonionic surfactants at room temperature. They show significant structuring even
+                                          in their pure state, i.e., in the absence of water or any other added solvent. This approach offers
+                                          new application domains that go far beyond the common real or hypothetical use of classical Ionic
+                                          Liquids. Possible applications include the separation of rare earth metals, the use as interesting media
+                                          for metal catalysis, or the synthesis of completely new materials (for example, in analogy to metal
+                                organic frameworks).
+         
+
+Citation: Rothe, M.; Müller, E.; Denk,    Keywords: ionic liquids; surface active ionic liquids (SAILs); room temperature ionic liquids (RTILs);
+P.; Kunz, W. Ionic Liquids Based on       alkyl ethylene glycol ether carboxylates; rare earth metals; transition metals; colloids; green chemistry
+the Concept of Melting Point
+Lowering Due to Ethoxylation.
+Molecules 2021, 26, 4034. https://
+doi.org/10.3390/molecules26134034
+                                          1. Introduction
+Academic Editor: João Paulo Leal               Some years ago, one of the authors of the present paper coauthored a publication
+                                          entitled The hype with Ionic Liquids as solvents [1]. Indeed, sometimes it seems that this
+Received: 22 May 2021                     topic is (ab-)used as a machinery to increase the number of publications and the re-
+Accepted: 29 June 2021                    searchers’ impact factors rather than providing useful information about basic concepts or
+Published: 1 July 2021                    potential applications.
+                                               Today, the majority of colleagues agree that Ionic Liquids are not necessarily “green”.
+Publisher’s Note: MDPI stays neutral      Their synthesis usually is “red” and involves many steps and their lacking vapor pressure is
+with regard to jurisdictional claims in   not always a favourable property, because they cannot be separated by distillation. Further,
+published maps and institutional affil-   they are often quite toxic, badly biodegradable, etc.
+iations.                                       However, they also undoubtedly have advantages. They enormously widen the
+                                          spectrum of available liquids at room temperature. Although there is a general tendency to
+                                          increasingly limit the number of industrially used solvents and liquids, ILs may provide
+                                          alternatives to currently applied and well-known ones. In this sense, their role as “designer
+Copyright: © 2021 by the authors.         solvents” may be justified, provided that it is rigorously checked that existing classical
+Licensee MDPI, Basel, Switzerland.        solvents, which are usually cheaper, cannot fulfil equally well the intended purpose.
+This article is an open access article         So why do we need ILs?
+distributed under the terms and                First of all, and almost trivial: they provide the opportunity to dissolve certain so-
+conditions of the Creative Commons        lutes better than conventional solvents, often by means of special solute–solvent inter-
+Attribution (CC BY) license (https://     actions. Thus, a) the liquid state matters and b) the solubility performance is important.
+creativecommons.org/licenses/by/          Compared to these features, the fact that the liquid consists of ions and therefore electro-
+4.0/).
+
+
+
+
+Molecules 2021, 26, 4034. https://doi.org/10.3390/molecules26134034                                         https://www.mdpi.com/journal/molecules
+Molecules 2021, 26, 4034                                                                                             2 of 10
+
+
+
+
+                           static interactions may play a prominent role, is (often) of minor importance, except, e.g.,
+                           in electrochemistry.
+                                 Second, and sometimes important and useful: the liquid may be structured in a way
+                           that goes beyond structuring in conventional low-molecular weight liquids. For example,
+                           there are surface-active, amphiphilic ILs (SAILs), where the imidazolium ring is connected
+                           to one or two long alkyl-chains thus creating cationic surfactants with convenient, usually
+                           small negatively charged counterions, mostly halides. Whereas these molecules may
+                           have some relevance when diluted in water (where they have some interesting properties,
+                           because of the smearing of the positive charges throughout the imidazolium ring), see [2]
+                           and references there, the current application in its pure IL state is rather limited.
+                                 In light of the demands and the quest for new room-temperature liquids and solvents,
+                           it seems evident to look for alternative approaches to ILs that avoid the inherent shortcom-
+                           ings, such as laborious synthesis and purification and the limitation that always more or
+                           less complex organic cations are required. These facts motivated us to follow a different
+                           strategy: instead of lowering the melting points of salts via the bulkiness of the cations with,
+                           as a consequence, an increase of the solid-state Gibbs energy due to hindered packing, we
+                           lower the Gibbs energy of the liquid state by increasing the entropy of the anions [3]. It is, in
+                           fact, an already established concept and partly explains the relative success of the so-called
+                           Akypo™ surfactants, commercialized by the Japanese company Kao Chemicals. Note that
+                           the concept can also be applied to cations, but this is not part of the present paper [4].
+                                 The general chemical structure of the molecules is M+ Cx EOy CH2 COO– , which we
+                           call alkyl ethylene glycol ether carboxylates in what follows. Usually, these substances are
+                           commercialized as neutral acids, i.e., M+ = H+ . Most interestingly, M+ can be any type
+                           of cation, even as simple as Na+ , Li+ , K+ , NH4 + , etc., but it can be also a complex cation
+                           and even a cationic surfactant. In the latter case, one can generate “true” cat-anionics, i.e.,
+                           a mixture of cationic and anionic surfactants without any further counterions and this
+                           combination being even liquid at room temperature.
+                                 Let us have a closer look at the anion. Evidently, if x ≥ 8, the anion is a surfactant,
+                           independently of y, but there are also very short anions available with x = 1–6 only. Then,
+                           the resulting ILs behave as hydrotropes or as “simple” more or less unstructured solvents
+                           (at least one would not expect any mesoscopic structuring). To have them be liquid at
+                           room temperature, a sufficient number of ethylene glycol groups (EO) is mandatory. These
+                           groups are not only significantly hydrated in water thus ensuring high water solubility,
+                           but they also exhibit a high conformational entropy even in the pure state. This is the secret
+                           behind their low melting points: they lose this entropy upon freezing, which is (Gibbs)
+                           energetically unfavorable. We called this approach to ILs Concept of Melting Point Lowering
+                           due to Ethoxylation (COMPLET) [3,5].
+                                 Compared to the “classical” concept to conceive ILs, several advantages are evident:
+                           (i)   The ingredients are readily available. Akypos are quite cheap and sold in tons. A
+                                 simple mixing with alkali hydroxides and subsequent (freeze) drying is sufficient. No
+                                 laborious synthesis and purification are necessary.
+                           (ii) ILs can be made with simple cations and, as we demonstrate in what follows, even
+                                 with di- and trivalent cations.
+                           (iii) The ILs are of low toxicity and readily biodegradable so that they can be even used in
+                                 cosmetics, of course, only with a convenient cation.
+                           (iv) The anion in the IL can be surface active (and thus structuring) and can be liquid even
+                                 with a surface-active cation forming “true cat-anionics” without further counterions.
+                           (v) Some of them are even of very low viscosity at room temperature.
+                                In the following sections, we discuss three different cases. In the first case, we consider
+                           ILs with metal cations of different valency, in the second case, surface active ILs based on
+                           the COMPLET concept, and finally, a particular case, where a partly protonated IL consists
+                           of direct micelles even in its pure state.
+Molecules 2021, 26, 4034                                                                                              3 of 10
+
+
+
+
+                           2. Ionic Liquids with Metal Ions of Different Valency
+                                 Ionic Liquids are often praised for their flexibility and customizability, to the point of
+                           being called “designer solvents”. In reality, however, this is only true to a degree. While a
+                           variety of properties can be achieved with conventional ILs, their makeup, and especially
+                           the strategy behind them, is often quite limited. Only a few choice cations act as the “heart”
+                           of nearly every “modern” Ionic Liquid, modified to suit the desired application. Besides
+                           some phosphonium- and ammonium-based ILs, the majority possesses an imidazolium
+                           cation as their “builder ion”. These ions can be modified and customized to a high degree
+                           and reliably lead to compounds with sufficiently low melting points to be classified as
+                           ionic liquids.
+                                 If one desires to incorporate metal ions as part of their ionic liquids, however, a
+                           problem arises: metal ions also carry positive charges and are thus inherently incompatible
+                           with all conventional “builder ions”. Naturally, there are established ways to circumvent
+                           this issue. The metal cations can be incorporated into larger complexes with a single
+                           negative excess charge, which is then compensated by one of the conventional “builder
+                           ions”. This strategy is often employed in the context of transition metals, which usually
+                           prefer higher oxidation states. A second common solution to the incompatibility issue
+                           is to skip the additional complexation compounds, and instead to attach residues to the
+                           “builder ion” that can bind to the metal ions [6–8].
+                                 Some arguments can be made against these two strategies. The transformation into a
+                           negatively charged complex adds additional compounds into the mix. They can alter the
+                           properties of the metal, for example, in catalytic applications, or introduce unwanted ions
+                           into the IL. Complexation by a sidechain of the main “builder ion” may allow the direct
+                           incorporation of bare metal ions, avoiding this issue. As the IL exists independently of the
+                           metal ion, however, one can also argue that instead of forming an ionic liquid with that
+                           metal ion, an IL is made that can only solubilize it instead.
+                                 Ideally, one would combine an anionic builder ion directly with the bare metal cation.
+                           Although avoiding the aforementioned issues, another is introduced: many metal ions
+                           carry more than a single charge. The reason why this is an issue lies once again in the
+                           conventional concept for ionic liquids: they usually share a 1:1 stoichiometry. While ionic
+                           liquids with higher charges do exist, they are usually achieved by the simple linkage of
+                           several “builder ions” [7,8].
+                                 With our alkyl ethylene glycol ether carboxylate salts, all these issues can be avoided.
+                           As they are built on a different concept, relying on entropy differences of the liquid and
+                           solid phases instead of enthalpy differences, they are much more flexible, especially when
+                           it comes to the combination with different cations. With C8 EO5 CH2 COO– ([C8E5c]), we
+                           put an anion at the center of the ionic liquid, and can easily combine it with a variety of
+                           metal ions. The COMPLET also allows for a deviation of the classical 1:1 stoichiometry,
+                           and di- and trivalent transition and rare earth metals ([REM]) can be easily incorporated
+                           (M = Fe2+ , Fe3+ , Cu2+ , Co2+ , Ni2+ , Mn2+ , Y3+ , La3+ , Dy3+ , Eu3+ , Gd3+ ). The synthesis of
+                           these ionic liquids is as simple as it can be: the free acid [H][C8E5c] is mixed with a
+                           basic metal salt, usually a hydroxide or carbonate, and stirred for several hours under
+                           gentle heating. Figure 1 shows a selection of typical divalent Ionic Liquids based on the
+                           COMPLET (M2+ = Cu2+ , Co2+ , Ni2+ , Mn2+ ).
+Molecules 2021, 26, 4034                                                                                                                                4 of 10
+ Molecules 2021, 26, x                                                                                                                                   4 of 10
+
+
+
+
+                            Figure1.1.Typical
+                           Figure      TypicalCOMPLET-based
+                                               COMPLET-basedionic
+                                                             ionicliquids
+                                                                    liquidscontaining
+                                                                            containingdivalent
+                                                                                       divalenttransition
+                                                                                                 transitionmetal
+                                                                                                            metalions.
+                                                                                                                   ions.
+
+                                   Theresulting
+                                  The    resultingILs    ILsshow
+                                                              showveryvery    diverse
+                                                                           diverse        properties
+                                                                                       properties      and and    ion-specific
+                                                                                                              ion-specific           effects.
+                                                                                                                               effects.     As As    an exam-
+                                                                                                                                                 an example,
+                            ple,dynamic
+                           the    the dynamic viscosities     at 15 ◦atC15
+                                                      viscosities             °C range
+                                                                          range    from low,frominlow,the in   theofcase
+                                                                                                            case             of [Cu][C8E5c]
+                                                                                                                        [Cu][C8E5c]       2 (849     (849
+                                                                                                                                                   mPa
+                                                                                                                                                   2       s),mPa
+                                                                                                                                                               to
+                            s), to in
+                           high,    high,   in theof
+                                       the cases       cases   of [Eu][C8E5c]
+                                                          [Eu][C8E5c]      3  (126.6 3 (126.6
+                                                                                        Pa  s)   Pa
+                                                                                                or   s)   or [La][C8E5c]
+                                                                                                    [La][C8E5c]        3 (152.2 3 (152.2
+                                                                                                                                   Pa   s), Pa
+                                                                                                                                            and  s), and
+                                                                                                                                                   very      very
+                                                                                                                                                          high,
+                           in  the case
+                            high,   in theofcase[Mn][C8E5c]        2 (429.3
+                                                      of [Mn][C8E5c]           Pa s) [9].
+                                                                            2 (429.3    Pa s)The[9].viscosity
+                                                                                                     The viscosity  of a liquid      is a measure
+                                                                                                                           of a liquid      is a measure of theof
+                           mobility
+                            the mobilityof itsofmolecules,
+                                                    its molecules,and as and such    it canitprovide
+                                                                                as such          can providesome some basic information
+                                                                                                                              basic information   about about
+                                                                                                                                                           how
+                           the
+                            how ILsthemayILsbemay structured.      If the viscosity
+                                                        be structured.                    is high,isthe
+                                                                             If the viscosity               molecules
+                                                                                                         high,               within the
+                                                                                                                  the molecules               liquid
+                                                                                                                                          within    thecannot
+                                                                                                                                                          liquid
+                           freely
+                            cannot  flow   pastflow
+                                       freely      one past
+                                                          another,
+                                                                 oneand     it is reasonable
+                                                                      another,                     to assume that
+                                                                                    and it is reasonable                  multiple
+                                                                                                                     to assume           metal
+                                                                                                                                      that        centersmetal
+                                                                                                                                            multiple          are
+                           crosslinked
+                            centers are via       the alkylvia
+                                            crosslinked         ethylene
+                                                                    the alkylglycol     ether glycol
+                                                                                  ethylene      carboxylates.
+                                                                                                          ether carboxylates.
+                                  To
+                                   Tobetter
+                                        better understand the       the mobility
+                                                                         mobilitywithin withinthe  the    liquid,
+                                                                                                      liquid,         specifically
+                                                                                                                  specifically      thetheion ion    mobility,
+                                                                                                                                                mobility,     vis-
+                           viscosity    measurements            can  be  supplemented           with    the  measurement
+                            cosity measurements can be supplemented with the measurement of electrical conductiv-                   of  electrical    conduc-
+                           tivities.
+                            ities. TheThe      combination
+                                          combination              of these
+                                                              of these    twotwo       mobilities,
+                                                                                 mobilities,      so the so general
+                                                                                                             the general        molecular
+                                                                                                                          molecular              mobility
+                                                                                                                                          mobility     is givenis
+                           given
+                            by thebyviscosity
+                                        the viscosityand theandionthemobility
+                                                                       ion mobility        is given
+                                                                                    is given           by the
+                                                                                                  by the          electrical
+                                                                                                            electrical          conductivity,
+                                                                                                                           conductivity,             provides
+                                                                                                                                                 provides      in-
+                           information
+                            formation about  aboutthe  theassociation
+                                                            associationof   of the
+                                                                                the ions
+                                                                                      ions inin the
+                                                                                                the IL.
+                                                                                                     IL. InIn an
+                                                                                                               an ideal
+                                                                                                                    ideal case
+                                                                                                                            case with
+                                                                                                                                    withfull
+                                                                                                                                           fulldissociation
+                                                                                                                                                 dissociation
+                           of
+                            of the anion(s) and the cation, the system behaves like a strong electrolyte.In
+                               the   anion(s)     and     the  cation,   the   system      behaves       like  a   strong    electrolyte.         Inaadouble
+                                                                                                                                                        double
+                           logarithmic      plot    of  the  molar    conductivity         Λ  against     the   fluidity    η −1 , also called a Walden
+                            logarithmic plot of the molar conductivity Λ against the fluidity η , also called a Walden           −1
+                           Plot,
+                            Plot,this
+                                   thisbehavior
+                                         behaviorisisrepresented
+                                                            representedby      byaalinelineofofunit
+                                                                                                  unitslope.
+                                                                                                         slope.Such SuchILs ILsarearealsoalsooften
+                                                                                                                                                oftentermed
+                                                                                                                                                        termed
+                           “good”
+                            “good” ionic liquids. In contrast, “poor” ionic liquids show large negative deviationsfrom
+                                      ionic   liquids.     In contrast,    “poor”      ionic   liquids     show     large   negative       deviations       from
+                           this
+                            this ideal line (often also “KCl line”) as a result of ion pairing [10,11]. It is importanttoto
+                                 ideal   line    (often    also   “KCl   line”)    as   a result    of  ion   pairing      [10,11].     It is  important
+                           keep
+                            keep in in mind
+                                        mind thatthat this     classification into
+                                                        this classification        into “good”
+                                                                                          “good”or     or“poor”
+                                                                                                            “poor”does   doesnotnotimply
+                                                                                                                                       implythe  thequality
+                                                                                                                                                       quality  of
+                           of  the   substance,       but   rather   is a   measure       of  its  ionicity—a
+                            the substance, but rather is a measure of its ionicity—a spectrum from fully ionic to mo- spectrum        from    fully   ionic    to
+                           molecular      liquids.
+                            lecular liquids.
+                                  For three of these ionic liquids, a Walden Plot such as this has been previously created
+                                   For three of these ionic liquids, a Walden Plot such as this has been previously created
+                           and can be seen in Figure 2 [9]. The ILs chosen are all based on rare earth metals, which are
+                            and can be seen in Figure 2 [9]. The ILs chosen are all based on rare earth metals, which
+                           generally known to have quite similar properties. These similarities do not hold true in
+                            are generally known to have quite similar properties. These similarities do not hold true
+                           the case of our ILs. Not only do they possess vastly different fluidities, but also vary quite
+                            in the case of our ILs. Not only do they possess vastly different fluidities, but also vary
+                           strongly in their measures of ion association. Both [Eu][C8E5c]3 and [Y][C8E5c]3 show
+                            quite strongly in their measures of ion association. Both [Eu][C8E5c]3 and [Y][C8E5c]3
+                           significant negative deviations from the ideal line, indicating quite strong association of
+                            show significant negative deviations from the ideal line, indicating quite strong associa-
+                           the ions. [La][C8E5c]3 , however, remarkably displays only small deviations, and conse-
+                            tion of the ions. [La][C8E5c]3, however, remarkably displays only small deviations, and
+                           quently, strong dissociation of the ions. This difference in ion mobilities and association
+                            consequently, strong dissociation of the ions. This difference in ion mobilities and associ-
+                           presumptively is rooted in structural differences within the IL. It is known that related
+                            ation presumptively is rooted in structural differences within the IL. It is known that re-
+                           ionic liquids with alkali metals form both interconnected networks and globular complexes
+                            lated ionic liquids with alkali metals form both interconnected networks and globular
+                           for sodium and potassium, respectively [12]. This difference in structure is also reflected
+                            complexes
+                           in               for sodium
+                               the difference                 and potassium,
+                                                     in melting      points—therespectively
+                                                                                        sodium salt[12].   meltsThis atdifference
+                                                                                                                         −57 ◦ C and    in structure
+                                                                                                                                            the potassium is also
+                            reflected
+                           salt  at +60in ◦ Cthe   difference
+                                               [13].    Transition in metals,
+                                                                       meltingand  points—the
+                                                                                         especiallysodium
+                                                                                                        rare earth  saltmetals,
+                                                                                                                          melts athave −57 quite
+                                                                                                                                             °C and     the po-
+                                                                                                                                                     versatile
+                            tassium     salt  at  +60    °C  [13].  Transition      metals,
+                           complexation behavior and allow for much more diverse structures.    and    especially       rare  earth     metals,    have     quite
+                            versatile complexation behavior and allow for much more diverse structures.
+Molecules 2021, 26, 4034                                                                                                                     5 of 10
+Molecules 2021, 26, x                                                                                                                        5 of 10
+
+
+
+
+                           Figure
+                            Figure2.2.Walden
+                                      Walden Plot
+                                               Plot of
+                                                    of selected
+                                                       selected rare
+                                                                rare earth
+                                                                     earth metal
+                                                                           metal ionic
+                                                                                  ionic liquids
+                                                                                        liquids in
+                                                                                                in aa range
+                                                                                                      range of
+                                                                                                            of 15–60
+                                                                                                               15–60 °C
+                                                                                                                     ◦ C in
+                                                                                                                          in comparison
+                                                                                                                             comparison
+                           to the ideal KCl line, adapted   from Reference  [9] (Copyright   © 2021   Wiley–VCH   GmbH,
+                            to the ideal KCl line, adapted from Reference [9] (Copyright © 2021 Wiley–VCH GmbH, Weinheim).   Weinheim).
+
+                                   The
+                                    The diversity
+                                         diversity in    in properties
+                                                            properties does
+                                                                          does notnot endend inin these
+                                                                                                  these transport
+                                                                                                           transport properties,
+                                                                                                                       properties, butbut extends
+                                                                                                                                           extends
+                           into
+                            intoother
+                                    otherattributes
+                                            attributeswith  withmore
+                                                                   more direct
+                                                                          direct application
+                                                                                    application   as well.   We We
+                                                                                                      as well.    havehave
+                                                                                                                        previously     shown
+                                                                                                                              previously        that
+                                                                                                                                             shown
+                           the    solubilities     of   [REM][C8E5c]          ILs  in   different    solvents,    or
+                            that the solubilities of [REM][C8E5c]3 ILs in different solvents, or rather the resulting
+                                                                          3                                           rather   the   resulting   oc-
+                           tanol/water        partition     coefficients    P,  are   highly    dependent       on  the
+                            octanol/water partition coefficients P, are highly dependent on the associated cation, see   associated     cation,  see
+                           Figure
+                            Figure 22 [9].
+                                        [9]. These
+                                               These proof-of-concept
+                                                         proof-of-concept separation
+                                                                                separation experiments
+                                                                                                experiments have have already
+                                                                                                                        already shown
+                                                                                                                                   shown that
+                                                                                                                                            that the
+                                                                                                                                                 the
+                           otherwise
+                            otherwise resource-
+                                           resource- and   and labor-intensive
+                                                                labor-intensive separation
+                                                                                      separation of  of rare
+                                                                                                         rare earth
+                                                                                                               earth metals
+                                                                                                                      metals isis accessible
+                                                                                                                                   accessible with
+                                                                                                                                               with
+                           the
+                            the use
+                                  use of
+                                       of alkyl
+                                           alkyl ethylene
+                                                    ethylene glycol
+                                                                 glycol ether
+                                                                         ether carboxylates.
+                                                                                  carboxylates. The    The partition
+                                                                                                             partition coefficients
+                                                                                                                        coefficients areare greatly
+                                                                                                                                             greatly
+                           affected
+                            affected by by the
+                                             the presence
+                                                   presence of   of other
+                                                                    other ions,
+                                                                            ions, providing
+                                                                                    providing aa highly
+                                                                                                      highly sensitive
+                                                                                                                sensitive and
+                                                                                                                            and tunable
+                                                                                                                                  tunable system.
+                                                                                                                                            system.
+                            The unique
+                           The     unique structure
+                                             structure of   of the
+                                                               the [C8E5c]
+                                                                    [C8E5c] anion
+                                                                                anion also
+                                                                                         also makes
+                                                                                               makes itit responsive
+                                                                                                            responsive toto changes
+                                                                                                                             changes in in pH,
+                                                                                                                                           pH, due
+                                                                                                                                                 due
+                            to its
+                           to   its carboxylic
+                                     carboxylic acid,
+                                                    acid, and
+                                                            and changes
+                                                                  changes in in temperature,
+                                                                                 temperature, due to its ethylene glycol chain.
+                                    This novel
+                                   This   novel class
+                                                    class ofof ionic
+                                                               ionic liquids
+                                                                      liquids shows
+                                                                                 shows great
+                                                                                           great promise
+                                                                                                   promise in  in a multitude
+                                                                                                                    multitude of applications
+                                                                                                                                      applications
+                            due to
+                           due     to their
+                                      their unique approach
+                                                          approach to toliquefying
+                                                                         liquefyingmetal  metalions.
+                                                                                                  ions.InIncombination
+                                                                                                              combinationwith withsuitable
+                                                                                                                                     suitablemetals,
+                                                                                                                                               met-
+                            alkyl
+                           als,      ethylene
+                                 alkyl  ethylene   glycol
+                                                      glycol ether  carboxylate
+                                                                ether  carboxylate    ionic
+                                                                                         ionicliquids
+                                                                                                liquidscould
+                                                                                                          couldbe beused
+                                                                                                                      used as fluorescent
+                                                                                                                                fluorescent dyes,
+                                                                                                                                               dyes,
+                            in synthesis
+                           in   synthesisand   andcatalysis,
+                                                      catalysis,ororasasprecursors
+                                                                          precursorsfor     forstructured
+                                                                                                 structuredceramics
+                                                                                                                ceramicsoror    nanoparticles.
+                                                                                                                              nanoparticles.        It
+                                                                                                                                                It is
+                            is clear   that   the   properties      of the   ionic   liquids    strongly     depend
+                           clear that the properties of the ionic liquids strongly depend on the choice of cation, and on   the  choice   of cation,
+                            and consequently,
+                           consequently,        their their     application.
+                                                         application.   However,  However,       the influence
+                                                                                        the influence              of theshould
+                                                                                                           of the anion    anion should       not be
+                                                                                                                                    not be forgot-
+                            forgotten:     it is  indubitably      responsible     for   much     of the   solution
+                           ten: it is indubitably responsible for much of the solution and structuring behavior, and and   structuring    behavior,
+                            andalso
+                           has     has also
+                                        beenbeen shown shown     to greatly
+                                                            to greatly   affectaffect  fluorescence,
+                                                                                   fluorescence,         enablingfluorescence
+                                                                                                       enabling      fluorescenceininthe the visible
+                                                                                                                                             visible
+                            spectrum for
+                           spectrum       for otherwise
+                                                otherwise nonluminescent
+                                                               nonluminescent metal   metal ions
+                                                                                               ions [9].
+                                                                                                      [9]. Variation
+                                                                                                            Variation and
+                                                                                                                       and modification
+                                                                                                                             modification of  of the
+                                                                                                                                                 the
+                            anion     will surely    enable     the  production      of  tailor-made,      metal-based
+                           anion will surely enable the production of tailor-made, metal-based ionic liquids.             ionic   liquids.
+
+                            3. Surface Active Alkyl Ethylene Glycol Ether Carboxylates
+                           3. Surface Active Alkyl Ethylene Glycol Ether Carboxylates
+                                  In Reference [3], we have shown that the COMPLET concept can be used to liquefy
+                                 In Reference [3], we have shown that the COMPLET concept can be used to liquefy
+                            cationic surfactants such as long-chain alkylammonium ones by combining them with
+                           cationic surfactants such as long-chain alkylammonium ones by combining them with
+                            short-chain methyl tetra ethylene glycol ether carboxylates. How to directly incorporate
+                           short-chain methyl tetra ethylene glycol ether carboxylates. How to directly incorporate
+                            ethylene glycol groups into cationic surfactants to liquefy them with any type of anion, will
+                           ethylene glycol groups into cationic surfactants to liquefy them with any type of anion,
+                            be subject of several forthcoming papers, e.g., [4].
+                           will be subject of several forthcoming papers, e.g., [4].
+                                  By contrast, in the present section, we focus on surfactants of the type dodecyl ethylene
+                                 By contrast, in the present section, we focus on surfactants of the type dodecyl eth-
+                            glycol ether carboxylate with two or four ethylene glycol groups ([C12E2c] or [C12E4c])
+                           ylene glycol ether carboxylate with two or four ethylene glycol groups ([C12E2c] or
+                            and either choline (Ch) or triethanolammonium (TEA) as counterions, see Figure 3.
+                           [C12E4c]) and either choline (Ch) or triethanolammonium (TEA) as counterions, see Fig-
+                           ure 3.
+Molecules 2021, 26, 4034                                                                                                                            6 of 10
+ Molecules 2021, 26, x                                                                                                                             6 of 10
+ Molecules 2021, 26, x                                                                                                                            6 of 10
+
+
+
+
+                            Figure3.3. The
+                           Figure      The anions
+                                           anions and
+                                                  and cations
+                                                      cations giving
+                                                              giving SAILs,
+                                                                     SAILs, as
+                                                                            as discussed
+                                                                               discussed in
+                                                                                          in Section
+                                                                                             Section 3.
+                                                                                                     3.
+                           Figure 3. The anions and cations giving SAILs, as discussed in Section 3.
+                                  Thermal stability
+                                  Thermal       stability is  is an
+                                                                 an important
+                                                                      important feature of Ionic Liquids.  Liquids. Commonly
+                                                                                                                         Commonlyused      usedorganic
+                                                                                                                                                   organic
+                                  Thermal
+                            solvents
+                           solvents    are      stability is anby
+                                        are characterized
+                                              characterized          important     feature
+                                                                        either a high
+                                                                                  high    vapor
+                                                                                          vaporof Ionic  Liquids.
+                                                                                                   pressure
+                                                                                                    pressure   or     Commonly
+                                                                                                                oraalowlowboiling        used
+                                                                                                                               boilingpoint,
+                                                                                                                                          point, organic
+                                                                                                                                                  ororboth.
+                                                                                                                                                       both.
+                            solvents
+                            Since Ionic are Liquids
+                                    Ionic    characterized     notbyhave
+                                                          do not       either a appreciable
+                                                                                 high vapor pressure
+                                                                                                   vapor      or a low they boiling    point,   or both.in
+                           Since            Liquids      do                  an appreciable        vapor pressure,
+                                                                                                            pressure,       they cancan  bebe applied
+                                                                                                                                               applied     in
+                            Since
+                            liquidIonic
+                                     stateupLiquids
+                                             up to    thedo
+                                                  to the       not have an appreciable
+                                                            temperature                           vapor pressure,
+                                                                                              decomposition        [8].   they can be applied in
+                           liquid   state                  temperature        of thermal decomposition              [8].
+                            liquidTherefore,
+                                    state up to the temperatureofofthe          thermal decomposition            [8].
+                                  Therefore, thermal stability  stability of theSAILs SAILs   discussed
+                                                                                                discussed  hereherewaswas studied
+                                                                                                                               studiedusing    a thermo-
+                                                                                                                                            using    a ther-
+                                  Therefore,      thermal      stability   of the  SAILs     discussed    here   was     studied     using    a thermo-
+                           mogravimetric analyzer TGA 7 from Perkin-Elmer (Waltham, MA, USA). Sampleswere
+                            gravimetric       analyzer       TGA      7  from   Perkin-Elmer         (Waltham,       MA,      USA).     Samples        were
+                            gravimetric
+                            measured at    atanalyzer
+                                               a heating     TGA of  7 from    Perkin-Elmer
+                                                                              ◦C      –1,−applying  (Waltham,
+                                                                                           1 , applying             MA, nitrogen
+                                                                                                                             USA). Samples           were
+                           measured               heating rate rate of10  10°C  minmin                 a continuous
+                                                                                                            a  continuous                flow.flow.
+                                                                                                                                   nitrogen       Decom-  De-
+                            measured      at a heating rate
+                            position temperatures              wereof   10 °C min–1,using
+                                                                       determined        applying
+                                                                                                onset a continuous
+                                                                                                        points     of mass nitrogen     flow.
+                                                                                                                                 loss, loss,
+                                                                                                                                        defined Decom-
+                                                                                                                                                     as the
+                           composition        temperatures           were   determined using          onset    points      of mass             defined     as
+                            position
+                            intersectiontemperatures
+                                             of the           werebefore
+                                                                      determined      using onset   andpoints     of mass   to loss,   defined as      the
+                           the  intersection        of baseline
+                                                        the baseline          decomposition
+                                                                           before    decomposition       the
+                                                                                                           andtangent
+                                                                                                                   the tangent  the mass
+                                                                                                                                      to thelossmassversus
+                                                                                                                                                         loss
+                            intersection
+                            temperature.     of the baseline before decomposition and the tangent to the mass loss versus
+                           versus    temperature.
+                            temperature.
+                                  All the
+                                        the compounds
+                                              compounds tested    tested show
+                                                                           show decomposition
+                                                                                   decomposition only                             ◦ C. Decomposition
+                                  All                                                                   only above
+                                                                                                                above 200   200 °C.    Decomposition
+                                  All  the
+                            temperatures     compounds
+                                                of   common      tested
+                                                                   Ionic  show
+                                                                          Liquids decomposition
+                                                                                     can   be  found   only
+                                                                                                       in  the above      200   °C.  Decomposition
+                           temperatures of common Ionic Liquids                                            the same range [14].In
+                                                                                                                same      range    [14].   Inthe
+                                                                                                                                               thecase
+                                                                                                                                                     caseofof
+                            temperatures
+                            the  pure           of common
+                                         substances,       while  Ionic
+                                                                     the  Liquids
+                                                                          onset   ofcan   be found in the
+                                                                                     decomposition         is  same
+                                                                                                              at        range
+                                                                                                                  slightly        [14]. In
+                                                                                                                               higher       the case of
+                                                                                                                                          temperatures
+                           the pure substances, while the onset of decomposition is at slightly higher temperatures for
+                            the  pure
+                            forILs,
+                                 Ch     substances,
+                                      ILs,  the TEA        while
+                                                          ILs       the onset
+                                                                exhibit   higher of decomposition         is at temperatures.
+                                                                                                                 slightly higher temperatures
+                           Ch         the TEA       ILs exhibit      higher   bulkbulk     decomposition
+                                                                                     decomposition        temperatures. BulkBulk               decompo-
+                                                                                                                                         decomposition
+                            for Ch   ILs,  the
+                            sition temperatures  TEA     ILs   exhibit
+                                                          are determined  higher   bulk   decomposition        temperatures.         Bulk    decompo-
+                           temperatures         are determined           as the as  the intersection
+                                                                                 intersection       betweenbetween       the tangent
+                                                                                                                the tangent         to thetoinitial
+                                                                                                                                               the initial
+                                                                                                                                                       mass
+                            sition
+                            mass    temperatures
+                                   loss   and            are determined
+                                                 the tangent                    as the intersection       between      the    tangent to the       initial
+                           loss  and    the  tangent       to thetomorethe more
+                                                                             rapidrapid
+                                                                                     massmass loss loss  at
+                                                                                                    at higherhigher     temperatures.
+                                                                                                                  temperatures.          NoNo      signifi-
+                                                                                                                                               significant
+                            mass   loss and the
+                            cant difference           tangent to
+                                                  in thermal          the more rapid
+                                                                   destruction    occurs   massCh  loss at  higher    temperatures. eitherNo twosignifi-
+                           difference     in thermal         destruction      occurs    forforCh oror   TEA
+                                                                                                      TEA       species
+                                                                                                              species        witheither
+                                                                                                                           with                    or
+                                                                                                                                                    orfour
+                                                                                                                                                        four
+                            cant difference in thermal destruction occurs for Ch or TEA species with either two or four
+                            ethoxyunits
+                           ethoxy     units in in the
+                                                   the anionic
+                                                        anionic part,
+                                                                    part, see Figure 4.
+                            ethoxy units in the anionic part, see Figure 4.
+
+
+
+
+                            Figure 4. Temperature-dependent mass loss curves. Comparison of different counterions and de-
+                           Figure 4.
+                           Figure  4. Temperature-dependent
+                                      Temperature-dependent mass
+                                                              massloss
+                                                                   losscurves.
+                                                                        curves.Comparison
+                                                                               Comparisonof
+                                                                                          ofdifferent
+                                                                                             differentcounterions
+                                                                                                       counterionsand
+                                                                                                                   anddegree
+                                                                                                                       de-
+                            gree of ethoxylation, adapted from Reference [15].
+                           gree of ethoxylation, adapted from Reference [15].
+                           of ethoxylation, adapted from Reference [15].
+Molecules 2021, 26, 4034                                                                                                            7 of 10
+
+
+
+
+                                         As can be seen in Figure 4, TEA leads to more resistant derivatives, while the point
+                                    of decomposition decreases by 40 ◦ C for choline species. Table 1 contains additional data
+                                    for the four SAILs presented here. Further details about the experimental methods and
+                                    the characterization of more SAILs can be found in [15]. Note that all of the SAILs have
+                                    glass transition temperatures far below 0 ◦ C, exhibit high viscosities at room temperature,
+                                    and, for anionic surfactants, show relatively low critical micelle concentrations (cmc) when
+                                    dissolved in water. They all exhibit a pseudoplastic behavior at room temperature.
+
+      Table 1. Decomposition temperature, glass transition temperature, and viscosities at two temperatures for the four salts
+      (SAILs) considered, together with their rheological behavior. For aqueous Scheme 15.
+
+                                                                             Viscosity 20 ◦ C   Viscosity 80 ◦ C
+  Composition         T Decomp. [◦ C]   T glass Trans. [◦ C]   Cmc [mol/L]                                               Rheology
+                                                                                 [Pa s]             [Pa s]
+  [TEA][C12E2c]            222                −39.0             2 × 10−4          ~100                ~4               pseudoplastic
+  [Ch][C12E2c]             240                −44.0             2 × 10−4           ~30                ~5               pseudoplastic
+                                                                                                                   pseudoplastic ≤ 70 ◦ C
+  [TEA][C12E4c]            234                −42.0             2 × 10−4           ~60            30 × 10−3
+                                                                                                                    Newtonian > 70 ◦ C
+                                                                                                                   pseudoplastic ≤ 60 ◦ C
+  [Ch][C12E4c]             241                −49.5             2 × 10−4           ~80            10 × 10−3
+                                                                                                                    Newtonian > 60 ◦ C
+
+
+                                        Unlike simple anionic surfactants, these SAILs usually only have a low tendency to
+                                    form viscous liquid crystalline phases and are liquid at high concentrations and in absence
+                                    of water.
+
+                                    4. The Special Case of M+ C8 EO8 CH2 COO−
+                                          With x = 8 and y = 8, octyl octaethylene glycol ether carboxylic acid (C8 EO8 CH2 COOH)
+                                    with its commercial name Akypo LF2, is a surfactant consisting of a rather small hydropho-
+                                    bic and a much larger hydrophilic moiety. The comparatively long ethylene glycol chain
+                                    ensures a sufficiently low melting point to keep the surfactant in its liquid state at room tem-
+                                    perature, even in absence of water. As demonstrated above, C8 EO5 CH2 COOH ([H][C8E5c])
+                                    (Section 2) and similar molecules (Section 3) can be deprotonated and combined with
+                                    any metal cation, while retaining their liquid state, rendering them room temperature
+                                    ionic liquids. Unsurprisingly, Akypo LF2 ([H][C8E8c]) can be treated similarly to obtain
+                                    ionic liquids.
+                                          In a recent paper [16], we reported on the aqueous phase behavior of [H][C8E8c] and
+                                    elucidated its microstructuring over a wide range of concentrations by small-angle X-ray
+                                    scattering (SAXS). Within the scope of that work, we also analyzed the effect of CaCl2
+                                    and NaOH on the phase behavior. Apart from a small coacervation regime at very low
+                                    surfactant concentrations (<1 wt.%), the acid form features a phase behavior similar to that
+                                    of the nonionic surfactant C8 EO8 [17] with a typical clouding phenomenon. The lower
+                                    critical solution temperature (LCST) of [H][C8E8c] was found to be 66 ◦ C, thus significantly
+                                    lower than the LCST of 96 ◦ C reported for C8 EO8 . This difference can be attributed to
+                                    enhanced intermicellar interactions, enabled by the additional carboxylic acid moieties.
+                                    Ca2+ ions can act as intermicellar bridging agents between two carboxylate functions, as
+                                    such lowering the LCST to 49 ◦ C. As opposed to that, deprotonation of [H][C8E8c] with
+                                    NaOH enhances its ionic character, completely suppressing the clouding phenomenon for
+                                    [Na]0.5 [H]0.5 [C8E8c]. Yet, the phase behavior is remarkably simple in all cases. No liquid
+                                    crystalline or reversed phases are observed, and the systems are isotropic, micellar liquids
+                                    of relatively low viscosity at all ratios with water and all temperatures (above the critical
+                                    micelle concentration and below the cloud point).
+                                          A careful SAXS study revealed that [H][C8E8c] forms direct spherical micelles of
+                                    constant size (hydrocarbon core radius RHC ≈ 1.2 nm, aggregation number Nagg ≈ 30) and
+                                    shape over the whole concentration range. Only at concentrations above 70 wt.%, when
+                                    there is no longer any bulk water due to hydration of EO-groups, does the size start to
+                                    decrease gradually. In the almost water-free state, Nagg is reduced to 8 and RHC is reduced
+Molecules 2021, 26, 4034                                                                                                                                           8 of 10
+
+
+      Molecules 2021, 26, x                                                                                                                              8 of 10
+
+                                         to approximately 0.8 nm. Obviously, the normal core-shell micelles cannot persist without
+                                         any bulk water. Spherical micelles are then only possible, if the hydrophilic headgroups
+                                            any bulk water. Spherical micelles are then only possible, if the hydrophilic headgroups
+                                         interdigitate and form a hydrophilic medium of more or less hydrated headgroups, in
+                                            interdigitate and form a hydrophilic medium of more or less hydrated headgroups, in
+                                         which
+                                            whichthe
+                                                   thehydrophobic    cores,consisting
+                                                       hydrophobic cores,    consisting    of hydrocarbon
+                                                                                       of hydrocarbon       chains,
+                                                                                                       chains,        are dispersed.
+                                                                                                               are dispersed.         Indeed,
+                                                                                                                              Indeed, we
+                                         wecould
+                                             couldsubstantiate
+                                                     substantiate
+                                                               this idea through a combination of SAXS and vapor pressure osmom- os-
+                                                                   this idea  through     a combination   of SAXS    and  vapor  pressure
+                                         mometry     measurements.
+                                            etry measurements.   FigureFigure   5 is a sketch
+                                                                        5 is a sketch          of the observed
+                                                                                       of the observed structuresstructures
+                                                                                                                  at high andatlow
+                                                                                                                                high and low
+                                                                                                                                   water
+                                         water  concentrations.
+                                            concentrations.
+
+
+
+
+             Figure 5. Scaled sketch of the two regimes observed in binary [H][C8E8c] water solutions. Left: the common core-shell
+              5. Scaledof
+      Figurestructuring    sketch
+                             direct of the two
+                                    micelles:     regimes observed
+                                                a hydrocarbon     core (RHCin =binary
+                                                                                1.2 nm,[H][C8E8c]
+                                                                                        shown in yellow)waterissolutions.
+                                                                                                                 surrounded   Left:
+                                                                                                                                by athe  common
+                                                                                                                                      hydrated        core-shell
+                                                                                                                                                 ethylene
+      structuring   of direct
+            glycol shell       micelles:
+                          (shown           a hydrocarbon
+                                   in green);                  core (RHC
+                                                the bulk represented          = 1.2contains
+                                                                          in blue   nm, shown       in yellow)
+                                                                                             monomers            is surrounded
+                                                                                                            at cmc.                  by a hydrated
+                                                                                                                     Right: the confined     hydrocarbonethylene
+      glycolcore
+             shell(HC)  regime
+                    (shown       observed
+                              in green);  thein bulk
+                                                water-poor    solution
+                                                      represented     in with
+                                                                         blue interdigitated    headgroups
+                                                                                contains monomers              andRight:
+                                                                                                          at cmc.    the absence   of bulk water;
+                                                                                                                            the confined            in this core
+                                                                                                                                             hydrocarbon
+            regime, observed
+      (HC) regime     the interparticle  distance gives
+                                 in water-poor             a scattering
+                                                    solution             peak at D* = 2π/q
+                                                               with interdigitated            max. As can be inferred from osmotic pressure meas-
+                                                                                        headgroups       and the absence of bulk water; in this regime,
+            urements, the compression of the water-poor ethylene glycol layer (tw) is responsible of the stability of the structure. The
+      the interparticle distance gives a scattering peak at D* = 2π/qmax . As can be inferred from osmotic pressure measurements,
+            figure was reused from Reference [16] (Copyright © 2021 Elsevier Inc.).
+      the compression of the water-poor ethylene glycol layer (tw ) is responsible of the stability of the structure. The figure was
+      reused from Reference [16] (Copyright        The©effects
+                                                          2021 Elsevier
+                                                                 of CaCl2Inc.).
+                                                                             addition and transformation of [H][C8E8c] to [Na]0.5[H]0.5[C8E8c]
+                                            (pH = pKa ≈ 4) can be summarized as follows. Neither the addition of CaCl2 nor the addi-
+                                            tionThe  effects changes
+                                                  of NaOH      of CaCl2the   addition
+                                                                                general and    transformation
+                                                                                          structuring                 of [H][C8E8c]
+                                                                                                          of the system.    However, to  both[Na]  0.5 [H]0.5
+                                                                                                                                                partially      [C8E8c]
+                                                                                                                                                             sup-
+                                        (pH     =  pKa    ≈   4) can    be  summarized          as   follows.    Neither      the
+                                            press interdigitation and decrease the area per molecule 𝑎. In this case, a reduction ofaddition     of  CaCl    2 nor
+                                                                                                                                                                 𝑎 the
+                                        addition     of   NaOH      changes      the general     structuring      of   the  system.
+                                            corresponds to an increase of Nagg. Yet, the mechanism leading to the partial suppression   However,      both    partially
+                                        suppress      interdigitation
+                                            of interdigitation              and decrease
+                                                                    is different               the area
+                                                                                   in both cases.      Ca2+ per   can bridgea.carboxylate
+                                                                                                            ionsmolecule          In this case,    a reduction
+                                                                                                                                                functions      be- of a
+                                            tween or within
+                                        corresponds                 micelles, of
+                                                           to an increase        inhibiting
+                                                                                    Nagg . Yet,interdigitation
+                                                                                                   the mechanism   either    way. Nevertheless,
+                                                                                                                          leading    to the partialCa      2+ en-
+                                                                                                                                                        suppression
+                                        of hances     micellar attraction.
+                                            interdigitation        is different  Deprotonation
+                                                                                    in both cases.        Ca2+ ionswith
+                                                                                                      of [H][C8E8c]       can NaOH,
+                                                                                                                               bridge on      the other hand,
+                                                                                                                                          carboxylate       functions
+                                            enhances      micellar   repulsion    by  increasing     the  charge,   consequently
+                                        between or within micelles, inhibiting interdigitation either way. Nevertheless,              impeding     headgroup Ca2+
+                                            interdigitation
+                                        enhances       micellar at attraction.
+                                                                    the same time. Deprotonation of [H][C8E8c] with NaOH, on the other hand,
+                                                   Since  the  publication
+                                        enhances micellar repulsion            of our  referenced work
+                                                                                  by increasing               [16], [Na][C8E8c]
+                                                                                                       the charge,      consequently and [Ca][C8E8c]      2 were
+                                                                                                                                           impeding headgroup
+                                            prepared with less than 0.5 wt.% residual water. Both are isotropic ILs above their glass
+                                        interdigitation at the same time.
+                                            transition point. [Na][C8E8c] is liquid above 27.5 °C, whereas [Ca][C8E8c]2 is already liq-
+                                                Since the publication of our referenced work [16], [Na][C8E8c] and [Ca][C8E8c]2 were
+                                            uid above 19.5 °C. These ionic liquids will be investigated by SAXS in the future, but ex-
+                                        prepared       with less than 0.5 wt.% residual water. Bothconsist
+                                            trapolation of our published data suggests that they also
+                                                                                                                         are isotropic      ILs above their glass
+                                                                                                                                 of spherical hydrocarbon
+                                        transition      point.     [Na][C8E8c]       is  liquid     above     27.5  ◦ C, whereas [Ca][C8E8c] is already
+                                            cores, dispersed in a hydrophilic medium of interdigitated headgroups. If this is the                        2 case,
+                                        liquid     above    19.5   ◦ C. These ionic liquids will be investigated by SAXS in the future, but
+                                            these ionic liquids are highly interesting, because they possess (a) hydrophobic
+                                        extrapolation
+                                            nanodropletsofdispersed
+                                                                 our published        data suggests
+                                                                             in a hydrophilic       medium thatwith
+                                                                                                                 theya also
+                                                                                                                          largeconsist
+                                                                                                                                interface of and
+                                                                                                                                              spherical
+                                                                                                                                                   (b) thehydrocar-
+                                                                                                                                                              car-
+                                        bon    cores, dispersed
+                                            boxylate                   in a hydrophilic
+                                                        functions enable        charge transfer medium
+                                                                                                    between  ofboth
+                                                                                                                interdigitated
+                                                                                                                       domains, since headgroups.
+                                                                                                                                           the EO-chains If this
+                                                                                                                                                               areis the
+                                        case,    these
+                                            highly       ionic liquids
+                                                      flexible.  Owing are       highly
+                                                                            to those       interesting,
+                                                                                       features,             because
+                                                                                                     the [C8E8c]         theyseem
+                                                                                                                     SAILs     possessto be(a)  hydrophobic
+                                                                                                                                              very  promising nan-
+                                            solventsdispersed
+                                        odroplets       for catalytic in purposes.
+                                                                         a hydrophilic Nanoparticle
+                                                                                             medium synthesis
+                                                                                                           with a large in such   a confined
+                                                                                                                            interface    and (b)environment
+                                                                                                                                                    the carboxylate
+                                            may    also  be  conceivable.
+                                        functions enable charge transfer between both domains, since the EO-chains are highly
+                                         flexible. Owing to those features, the [C8E8c] SAILs seem to be very promising solvents
+                                         for catalytic purposes. Nanoparticle synthesis in such a confined environment may also
+                                         be conceivable.
+      Molecules 2021, 26, 4034                                                                                                                              9 of 10
+Molecules 2021, 26, x                                                                                                                                9 of 10
+
+
+
+                                              Concerning catalysis of organic reactions, it is also worth considering the phase
+                                      Concerning
+                                       behavior of the   catalysis
+                                                             SAILsofonorganic       reactions,
+                                                                           the addition             it is also worth
+                                                                                              of hydrophobic              considering
+                                                                                                                     solvents    and water.  the phase
+                                                                                                                                                   Ternary  be-phase
+                                 havior   of the SAILs
+                                       diagrams       of the on   the addition
+                                                              systems               of hydrophobic
+                                                                          [H][C8E8c]/H                      solvents and water. Ternary phase
+                                                                                              2 O/n-dodecane and [Na]0.5 [H]0.5 [C8E8c]/H2 O/n-
+                                 diagrams     of theatsystems
+                                       dodecane           T ≈ 23 [H][C8E8c]/H
+                                                                    ◦ C are given and  2O/n-dodecane
+                                                                                            compared inand          [Na]6.0.5[H]
+                                                                                                               Figure        Note0.5[C8E8c]/H
+                                                                                                                                     that the glass 2O/n-do-
+                                                                                                                                                          transition
+                                 decaneof at
+                                          dry T [Na]
+                                                 ≈ 23 0.5
+                                                        °C[H]
+                                                            are0.5given
+                                                                   [C8E8c]and(<0.5
+                                                                                compared
+                                                                                       wt.% H   in2 O)
+                                                                                                    Figure    6. Note
+                                                                                                        is shifted    to that
+                                                                                                                          lower thetemperatures
+                                                                                                                                      glass transition       of
+                                                                                                                                                         compared
+                                       to that of neat [Na][C8E8c]. It is liquid at temperatures above approximately 22–23 ◦ C.
+                                 dry [Na]  0.5 [H] 0.5 [C8E8c]   (<0.5   wt.%   H 2 O)   is shifted    to lower    temperatures        compared        to  that
+                                 of neat
+                                       In [Na][C8E8c].
+                                          both cases, atItany    is liquid   at temperatures
+                                                                      surfactant    concentration,     above
+                                                                                                          onlyapproximately
+                                                                                                                  a certain amount    22–23 of °C.    In both can
+                                                                                                                                                n-dodecane
+                                 cases,beatsolubilized.
+                                            any surfactant    Any concentration,
+                                                                      excess n-dodecaneonly a certain       amount of This
+                                                                                                  phase separates.          n-dodecane        can be solu-
+                                                                                                                                   can be explained          by the
+                                 bilized.  Any excess of
+                                       incorporation        n-dodecane
+                                                               n-dodecane    phase
+                                                                                intoseparates.
+                                                                                        the hydrophobicThis cancores
+                                                                                                                   be explained       by the incorpora-
+                                                                                                                          of the (interdigitated)          micelles,
+                                 tion of  n-dodecane
+                                       which                into the to
+                                                 is only possible        hydrophobic        cores of
+                                                                            a certain extent,        as the (interdigitated)          micelles, which
+                                                                                                               packing of the surfactant                     is is
+                                                                                                                                                      molecules
+                                 only possible
+                                       constrained to a and
+                                                          certain
+                                                               most  extent,
+                                                                       likelyasonly
+                                                                                 the allows
+                                                                                        packingspherical
+                                                                                                    of the surfactant
+                                                                                                                structures. molecules
+                                                                                                                               Further,isit constrained
+                                                                                                                                                is likely that the
+                                 and most    likely only
+                                       separating            allows spherical
+                                                        n-dodecane                   structures.
+                                                                         phase contains        almost Further,    it is likelydue
+                                                                                                           no surfactant        thattothe itsseparating
+                                                                                                                                               inability to  n-form
+                                 dodecane
+                                       reversedphase    contains almost
+                                                     structures.              no surfactant
+                                                                      Since there     is also a duephase to separation
+                                                                                                             its inabilityin  to the
+                                                                                                                                  form    reversed
+                                                                                                                                       case   of the struc-
+                                                                                                                                                         water-free
+                                 tures.SAIL,
+                                        Sinceunlike,
+                                                 there isfor   example,
+                                                            also   a phasethe    case of the
+                                                                              separation      in nonionic
+                                                                                                  the case of  surfactant     C8 EO6SAIL,
+                                                                                                                  the water-free        , which      is completely
+                                                                                                                                                 unlike,    for
+                                       miscible
+                                 example,          withof
+                                             the case      n-dodecane
+                                                             the nonionic   [18], a simpleCextraction
+                                                                               surfactant         8EO6, which   of possible    reaction
+                                                                                                                    is completely            products
+                                                                                                                                        miscible      with might
+                                                                                                                                                             n- be
+                                       feasible.
+                                 dodecane          [H][C8E8c]
+                                                [18],   a simplecan       uptake about
+                                                                      extraction             10 wt.%reaction
+                                                                                     of possible         n-dodecane,       and [Na]
+                                                                                                                      products          0.5 [H]
+                                                                                                                                    might      be0.5 [C8E8c]
+                                                                                                                                                     feasible.up to
+                                       13 wt.%.
+                                 [H][C8E8c]      can uptake about 10 wt.% n-dodecane, and [Na]0.5[H]0.5[C8E8c] up to 13 wt.%.
+
+
+
+
+                                 FigureFigure
+                                         6. Ternary
+                                                  6. phase Ternary
+                                                            diagrams of [H][C8E8c]/H
+                                                                      phase    diagrams2O/n-dodecane () and [Na]0.5[H]0.5[C8E8c]/H2O
+                                                                                            of [H][C8E8c]/H2 O/n-dodecane () and
+                                 /n-dodecane    () at a temperature of 23 °C (±1 °C). Concentrations
+                                       [Na]0.5 [H]0.5 [C8E8c]/H2 O /n-dodecane (•) at a temperature   are given
+                                                                                                            of 23in ◦wt.%.
+                                                                                                                     C (±The   precision
+                                                                                                                           1 ◦ C). Concentra-
+                                 in w(n-dodecane) is usually ±0.5 wt. %, whereas the deviation of the other weights is negligible; 1ϕ
+                                       tions are given in wt.%. The precision in w(n-dodecane) is usually ±0.5 wt. %, whereas the deviation
+                                 denotes a monophasic system, and 2ϕ, realms of existence of two liquids in equilibrium.
+                                       of the other weights is negligible; 1φ denotes a monophasic system, and 2φ, realms of existence of
+                                       two liquids in equilibrium.
+                                 5. Conclusions and Outlook
+                                      Compared
+                                       5. Conclusionsto classical  ionic liquids (ILs), the ILs based on COMPLET (Concept of
+                                                          and Outlook
+                                 Melting Point     Lowering    due
+                                             Compared to classical  to ionic
+                                                                        Ethoxylation)      offerthe
+                                                                               liquids (ILs),      numerous
+                                                                                                       ILs basedadvantages.
+                                                                                                                    on COMPLET     They  are very
+                                                                                                                                     (Concept    of Melt-
+                                 easy to  prepare,   they  are cheap,   exhibit   low   toxicity,   and    the  organic
+                                       ing Point Lowering due to Ethoxylation) offer numerous advantages. They are very   part is  readily  biode-easy to
+                                 gradable   whenthey
+                                       prepare,     appropriate
+                                                        are cheap,simple
+                                                                     exhibitions
+                                                                              lowsuch    as Naand
+                                                                                     toxicity,   +, Fe2+, etc. are chosen. Further, they can
+                                                                                                       the organic part is readily biodegradable
+                                 be used
+                                       whento liquefy  virtually
+                                               appropriate        anyions
+                                                             simple     cation,
+                                                                            suchbeasitNamono-,    di-,
+                                                                                           + , Fe2+      or are
+                                                                                                     , etc.  triple-charged,   at room
+                                                                                                                  chosen. Further,    theytemper-
+                                                                                                                                            can be used
+                                 ature.toSince  the virtually
+                                          liquefy   ILs presented     here are
+                                                               any cation,     beliquefied
+                                                                                   it mono-,via     theorhigh
+                                                                                                 di-,            flexibility ofatthe
+                                                                                                            triple-charged,          organic
+                                                                                                                                   room        ani-
+                                                                                                                                          temperature.
+                                 ons, simple
+                                       Since thecations  such as Nahere
+                                                   ILs presented      + and Li+ can be used as well as Fe2+ or Fe3+ or Eu3+ or, prob-
+                                                                            are liquefied via the high flexibility of the organic anions,
+                                 ably, simple
+                                        any other   cation
+                                                cations     that
+                                                         such  asisNa + and Li+ can
+                                                                    interesting    for catalysis
+                                                                                        be used as    orwell
+                                                                                                         thatas    Fe2+be
+                                                                                                                must       Fe3+ or Eu
+                                                                                                                        orextracted     3+ or,
+                                                                                                                                       and  recov-
+                                                                                                                                               probably,
+                                 ered. any
+                                        Theother
+                                              anions   can  also be   surface-active.     Although        surface-active    ILs   (SAILs)
+                                                   cation that is interesting for catalysis or that must be extracted and recovered.        are  al- The
+                                 readyanions
+                                         known,   thealso
+                                                can    COMPLET-based
+                                                          be surface-active. SAILs     offer anionic
+                                                                                 Although                surfactants,
+                                                                                                surface-active           which are
+                                                                                                                    ILs (SAILs)    aremuch   more
+                                                                                                                                       already   known,
+                                 relevant   for large applications
+                                       the COMPLET-based          SAILsthan   cationic
+                                                                          offer   anionic ones.   They arewhich
+                                                                                              surfactants,      available   in large
+                                                                                                                        are much       quantities,
+                                                                                                                                    more   relevant for
+                                 they large
+                                       are easily   dilutablethan
+                                              applications     with   water ones.
+                                                                   cationic   and hydrophobic
+                                                                                      They are available solvents,   depending
+                                                                                                                 in large           on the
+                                                                                                                           quantities,  theyalkyl-
+                                                                                                                                               are easily
+                                 chain length, and the formation of highly viscous liquid crystals upon water dilution can
+                                 be widely avoided.
+Molecules 2021, 26, 4034                                                                                                            10 of 10
+
+
+
+
+                                   dilutable with water and hydrophobic solvents, depending on the alkyl-chain length, and
+                                   the formation of highly viscous liquid crystals upon water dilution can be widely avoided.
+                                        On the other hand, COMPLET-based ILs offer several advantages just as other ILs:
+                                   they are of low volatility and liquid and stable over a wide temperature range. Finally, the
+                                   properties, ranging from surfactant-like via hydrotrope-like to purely solvent-like, can be
+                                   tuned at will by conveniently choosing the appropriate alkyl-chain length, typically C1 to
+                                   C12, provided that the number of ethylene glycol groups is sufficient.
+                                        Given all these advantages, we believe that this type of ILs may have a significant
+                                   future and impact on improved industrial processes and products. We invite researchers
+                                   interested in Ionic Liquids to try these and to further deepen our knowledge on them.
+
+                                   Author Contributions: Conceptualization, W.K., E.M., P.D. and M.R.; writing—original draft prepa-
+                                   ration, W.K., E.M., P.D. and M.R.; writing—review and editing, W.K., E.M., P.D. and M.R.; supervision,
+                                   W.K.; project administration, W.K. All authors have read and agreed to the published version of
+                                   the manuscript.
+                                   Funding: This research received no external funding.
+                                   Data Availability Statement: Additional data are available on request to the authors.
+                                   Conflicts of Interest: The authors declare no conflict of interest.
+                                   Sample Availability: Samples of the compounds are not available from the authors.
+
+References
+1.    Häckl, K.; Kunz, W. Some aspects of green solvents. C. R. Acad. Sci. 2018, 21, 572–580. [CrossRef]
+2.    Kunz, W.; Zemb, T.; Harrar, A. Using ionic liquids to formulate microemulsions: Current state of affairs. Curr. Opin. Colloid
+      Interface Sci. 2012, 17, 205–211. [CrossRef]
+3.    Müller, E.; Zahnweh, L.; Estrine, B.; Zech, O.; Allolio, C.; Heilmann, J.; Kunz, W. Oligoether Carboxylate Counterions: An
+      Innovative Way Towards Surfactant Ionic Liquids. J. Molec. Liq. 2018, 251, 61–69. [CrossRef]
+4.    Braun, L.; Kellermeier, M.; Engelhardt, N.; Oetter, G.; Engert, S.; Kunz, W. A new type of cationic surfactant: The insertion of
+      ethoxy groups as a way towards soluble catanionic mixtures at equimolar ratio. (in preparation)
+5.    Klein, R.; Zech, O.; Maurer, E.; Kellermeier, M.; Kunz, W. Oligoether Carboxylates–Task Specific Room-Temperature Ionic Liquids.
+      J. Phys. Chem. B 2011, 115, 8961–8969. [CrossRef] [PubMed]
+6.    Binnemans, K. Lanthanides and Actinides in Ionic Liquids. Chem. Rev. 2007, 107, 2592–2614. [CrossRef] [PubMed]
+7.    Prodius, D.; Mudring, A.V. Rare earth metal-containing ionic liquids. Coord. Chem. Rev. 2018, 363, 1–16. [CrossRef]
+8.    Ionic Liquids in Synthesis, 1st ed.; Wasserscheid, P.; Welton, T. (Eds.) Wiley-VCH: Weinheim, Germany, 2002.
+9.    Rothe, M.; Tress, M.; Allacher, C.; Nürnberger, P.; Kunz, W. Ionic Liquids [M3+ ][A– ]3 with three-valent cations and their possible
+      use to easily separate rare earth metals. Chem. Eur. J. (submitted in May 2021).
+10.   Austen Angell, C.; Ansari, Y.; Zhao, Z. Ionic Liquids: Past, present and future. Faraday Discuss 2012, 154, 9–27. [CrossRef]
+      [PubMed]
+11.   Xu, W.; Cooper, E.I.; Austen Angell, C. Ionic Liquids: Ion Mobilities, Glass Temperatures, and Fragilities. J. Phys. Chem. B 2003,
+      107, 6170–6178. [CrossRef]
+12.   Zech, O.; Hunger, J.; Sangoro, J.R.; Iacob, C.; Kremer, F.; Kunz, W.; Buchner, R. Correlation between polarity parameters and
+      dielectric properties of [Na][TOTO]–a sodium ionic liquid. Phys. Chem. Chem. Phys. 2010, 12, 14341–14350. [CrossRef] [PubMed]
+13.   Zech, O.; Kellermeier, M.; Thomaier, S.; Maurer, E.; Klein, R.; Schreiner, C.; Kunz, W. Alkali Metal Oligoether Carboxylates–A
+      New Class of Ionic Liquids. Chem. Eur. J. 2009, 15, 1341–1345. [CrossRef] [PubMed]
+14.   Zhou, Z.; Matsumoto, H.; Tatsumi, K. Low-Melting, Low-Viscous, Hydrophobic Ionic Liquids: Aliphatic Quaternary Ammonium
+      Salts with Perfluoroalkyltrifluoroborates. Chem. Eur. J. 2005, 11, 752–766. [CrossRef] [PubMed]
+15.   Maurer, E. Melting and Aggregation Behaviour of Novel Bio-Compatible Anionic, Cationic and Catanionic Surfactant Systems.
+      Ph.D. Thesis, University of Regensburg, Regensburg, Germany, 2011.
+16.   Denk, P.; El Maangar, A.; Lal, J.; Kleber, D.; Zemb, T.; Kunz, W. Phase diagrams and microstructures of aqueous short alkyl chain
+      polyethylene glycol ether carboxylate and carboxylic acid triblock surfactant solutions. J. Colloid Interface Sci. 2021, 590, 375–386.
+      [CrossRef] [PubMed]
+17.   Mitchell, D.J.; Tiddy, G.J.T.; Waring, L.; Bostock, T.; McDonald, M.P. Phase behaviour of polyoxyethylene surfactants with water.
+      Mesophase structures and partial miscibility (cloud points). J. Chem. Soc. Faraday Trans. 1 1983, 79, 975–1000. [CrossRef]
+18.   Marland, J.S.; Mulley, B.A. A phase-rule study of multiple-phase formation in a model emulsion system containing water,
+      n-octanol, n-dodecane and/a non-ionic surface-active agent at 10 and 25◦ . J. Pharm. Pharmacol. 1971, 23, 561–572. [CrossRef]
+      [PubMed]
+

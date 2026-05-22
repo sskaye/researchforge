@@ -27,6 +27,16 @@ Thumbs.db
 data_extraction_dev/corpora/
 test_data/
 
+# Copyrighted journal full-text bundled inside trial runs — same rationale as corpora/
+data_extraction_dev/trials/**/*.pdf
+data_extraction_dev/trials/**/*.nxml
+data_extraction_dev/trials/**/*.html
+# Bundled input paper corpora inside trial runs (article full-text, not trial results)
+data_extraction_dev/trials/trial3/Trial3-full-gpt55_high/paper_root_index/
+data_extraction_dev/trials/trial6/book/
+data_extraction_dev/trials/trial8/opus47_books/books/
+data_extraction_dev/trials/trial8/opus47_papers/Papers/
+
 # Files staged for deletion during reorgs
 _to_delete/
 **/_to_delete/

@@ -1,0 +1,876 @@
+                  ARTICLE
+                  https://doi.org/10.1038/s41467-021-25970-0                OPEN
+
+                  Ionic liquid facilitated melting of the metal-organic
+                  framework ZIF-8
+                  Vahid Nozari1, Courtney Calahoo1, Joshua M. Tuffnell2, David A. Keen                                   3, Thomas D. Bennett              2 &
+
+                  Lothar Wondraczek 1,4 ✉
+1234567890():,;
+
+
+
+
+                  Hybrid glasses from melt-quenched metal-organic frameworks (MOFs) have been emerging
+                  as a new class of materials, which combine the functional properties of crystalline MOFs with
+                  the processability of glasses. However, only a handful of the crystalline MOFs are meltable.
+                  Porosity and metal-linker interaction strength have both been identiﬁed as crucial parameters
+                  in the trade-off between thermal decomposition of the organic linker and, more desirably,
+                  melting. For example, the inability of the prototypical zeolitic imidazolate framework (ZIF)
+                  ZIF-8 to melt, is ascribed to the instability of the organic linker upon dissociation from the
+                  metal center. Here, we demonstrate that the incorporation of an ionic liquid (IL) into the
+                  porous interior of ZIF-8 provides a means to reduce its melting temperature to below its
+                  thermal decomposition temperature. Our structural studies show that the prevention of
+                  decomposition, and successful melting, is due to the IL interactions stabilizing the rapidly
+                  dissociating ZIF-8 linkers upon heating. This understanding may act as a general guide for
+                  extending the range of meltable MOF materials and, hence, the chemical and structural
+                  variety of MOF-derived glasses.
+
+
+
+
+                  1 Otto Schott Institute of Materials Research, University of Jena, Jena, Germany. 2 Department of Materials Science and Metallurgy, University of Cambridge,
+
+                  Cambridge, United Kingdom. 3 ISIS Facility, Rutherford Appleton Laboratory, Harwell Campus, Didcot, Oxfordshire, United Kingdom. 4 Center of Energy and
+                  Environmental Chemistry, University of Jena, Jena, Germany. ✉email: lothar.wondraczek@uni-jena.de
+
+                  NATURE COMMUNICATIONS | (2021)12:5703 | https://doi.org/10.1038/s41467-021-25970-0 | www.nature.com/naturecommunications                                  1
+ARTICLE                                                                   NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25970-0
+
+
+
+
+M
+           etal-organic frameworks (MOFs) are porous crystalline                structure reaches a characteristic level (instability)13, which is
+           three-dimensional networks composed of organic lin-                  achieved by heating17. However, in the more open networks such as
+           kers coordinated to inorganic metal centers. They are of             ZIF-8 [Zn(mIm)2, Zn(C4H5N2)2], the (calculated) temperature at
+great interest owing to their structural tunability and potential               which Lindemann’s ratio reaches the threshold for melting by far
+applications in gas storage and separation, catalysis, drug delivery,           exceeds those of ZIF-4 (1200–1500 K) and ZIF-zni (1500–1750 K):
+and clean water harvesting1–5. Research on developing new                       the higher energy barrier for linker mobility in ZIF-8 precludes
+structures has led to the discovery of over 70,000 MOFs, mostly in              framework melting18.
+the form of polycrystalline powders6. The use of such powders in                   ZIF-8, a commercially available ZIF with sodalite topology, has
+certain applications requires handling and processing into bulk                 been investigated extensively in the literature for a wide range of
+and mechanically stable shapes or geometries. For instance,                     applications such as microelectronics19, catalysis20, drug
+preparation of pellets is a possible route, however, pellet forma-              delivery21, and gas separation22. Theoretical studies on ZIF-8
+tion and achievement of the required mechanical stability can be                melting revealed that the bond cleavage activation enthalpy and
+challenging7. Alternative routes for the fabrication of bulk,                   entropy of ZIF-8 exhibit a signiﬁcant difference (43% for enthalpy
+shapeable, and robust architectures with enhanced processability                and 60% for entropy) between Zn–N and Zn–Im coordination
+are therefore highly desired, thereby broadening the range of                   (where Im is the center of mass of the imidazolate linker).
+potential MOF applications8.                                                    However, for other ZIFs such as ZIF-4 and ZIF-zni variations of
+   Liquid MOFs and melt-quenched MOF glasses from zeolitic                      activation enthalpy and entropy in Zn–N and Zn–Im are less than
+imidazolate frameworks (ZIFs) have emerged recently as a new class              3%. This observation showed that Zn–N bonding strength is not
+of materials, offering processable bulk shapes which still retain the           the only parameter determining meltability. The speciﬁc behavior
+advantageous chemical functionality of crystalline MOFs9. ZIFs are              of ZIF-8 was further conﬁrmed in simulation studies which found
+a subset of MOFs having similar topologies as those which are                   Zn to retain fourfold coordination up to 1250 K (in silico). The
+found in inorganic zeolites (tetrahedral Zn2+ are coordinated by                extent of interionic interactions, i.e., interactions between metal
+imidazolates instead of tetrahedral SiO44− and AlO45− species                   cations and organic anions, is, therefore, a crucial factor for
+bonded via corner-shared oxygens)10–12. However, only a handful                 melting; weaker interionic interactions facilitate melting18.
+of ZIFs have been observed to form melt-quenched glasses13–15.                     The energy of defect formation was found to be similar for
+The limited meltability of crystalline MOFs results from the                    ZIF-8, ZIF-4, and ZIF-zni, i.e., 71, 56, and 67 kJ mol−1,
+decomposition temperature (Td) being lower than the melting                     respectively18. The striking difference between these three ZIFs is
+temperature (Tm) of the MOF framework. In the majority of cases,                in their surface area (or porosity); ZIF-8 has a dramatically higher
+the organic linkers decompose prior to metal-ligand coordination                porosity as compared to the other two ZIFs (~1200 vs. 400 and
+bond breakage and reformation (i.e., melting). This prevents the                4 m2g−1)23–25. This difference is even more evident (see Fig. 1a)
+material from reaching the potential liquid state. Post-processing              when comparing the pore diameter dp of ZIF-8 (11.6 Å) with
+strategies by which Tm could be reduced to below Td would enable                those of ZIF-4 (2.1 Å) and ZIF-62 (1.3 Å), Fig. 1a26, suggesting
+access to a much more diverse array of MOF glasses. This could                  that porosity is a key factor determining meltability.
+open a wide variety of physicochemical properties, and signiﬁcantly                There is thus a major constraint which prevents the melting of
+broaden the range of potential applications.                                    ZIF-8. Speciﬁcally, the relatively high porosity of the framework,
+   The microscopic mechanism of ZIF melting, the breaking and                   which is linked to the absence of charge stabilization of the newly
+reformation of Zn–N bonds (referred to as defect formation) has                 dissociated linker18. Hence, melting should occur where the high
+been observed for meltable ZIFs such as ZIF-4 [Zn(Im)2,                         free energy (stemming from the highly porous nature of ZIF-8)
+Zn(C3H3N2)2], ZIF-zni [Zn(Im)2, Zn(C3H3N2)2], and ZIF-62                        and interionic interactions between the metal cation and organic
+[Zn(Im)2-x(bIm)x, Zn(C3H3N2)2-x(C7H5N2)x for 0 < x < 0.35]13,14,16.             anion are both diminished. Following this hypothesis, we incor-
+This mechanism occurs via rapid dissociation and replacement of an              porated an ionic liquid (IL), 1-ethyl-3-methylimidazolium bis(-
+initially coordinated linker with a neighboring linker9. Melting                triﬂuoromethanesulfonyl)imide, [EMIM][TFSI] into ZIF-8 pores
+requires that the vibrational displacement of atoms in the crystal              aiming to decrease the Tm of ZIF-8 to below its Td, and reaching
+
+
+
+
+Fig. 1 Crystal structure of ZIF-8 and ZIF-62 and molecular structure of [EMIM][TFSI] used in IL@ZIF-8 composite. a Crystal structures and pore
+diameters of ZIF-8 and ZIF-62. The orange spheres in the crystal structures are drawn to mark the free space inside the cages26. Crystallographic data of
+ZIF-8 and ZIF-62 are taken from literature24, 25. b Molecular structure of [EMIM][TFSI]. Color codes: Zn – purple tetrahedra, N – blue, C – gray, S – yellow,
+O – red, F – olive. H – omitted for clarity.
+
+2                  NATURE COMMUNICATIONS | (2021)12:5703 | https://doi.org/10.1038/s41467-021-25970-0 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25970-0                                                                   ARTICLE
+
+the liquid state as a result of interactions between the IL and ZIF-            temperature) and HT (high temperature) conditions, respectively.
+8 at elevated temperatures.                                                     After heating, samples were cooled down to room temperature at
+   Interactions between different ILs and MOFs have been                        a rate of 50 °C·min−1. The obtained samples are henceforth
+extensively investigated experimentally and computationally at                  referred to as ag(IL@ZIF-8-LT) and ag(IL@ZIF-8-HT).
+low temperatures. It has previously been shown that the inter-                     Throughout these experiments, the heating temperature and
+actions between IL molecules and the MOF structure are crucial                  time were selected in such a way that fully and partially amor-
+in creating new functional sites favorable for adsorption, catalysis,           phous samples could be acquired for HT and LT conditions
+and ion conduction27. For example, a simulation study investi-                  respectively, as demonstrated by XRD analysis (see Fig. 2a). The
+gated IRMOF-1 supported IL membranes for CO2 capture. Four                      XRD pattern of ag(IL@ZIF-8-HT) contains the broad diffuse
+different ILs with ﬁxed cation and different anions were used to                scattering characteristic of glass (with a small unidentiﬁed Bragg
+demonstrate that the anion of the IL plays an important role in                 peak at 11.6°). A pure sample of ZIF-8 subjected to the same (HT)
+the extent of interactions between IL and MOF28.                                treatment retained its crystallinity. However, ag(IL@ZIF-8-LT)
+   Combined density functional theory (DFT) calculations and                    contained weak diffuse scattering, alongside Bragg peaks remi-
+experimental vibrational spectroscopy have also been used to                    niscent of the starting crystalline phase. This suggests that
+probe the molecular interactions between a Cu-based MOF,                        treatment temperature and time are important parameters in the
+copper benzene-1-3-5-tricarboxylate (CuBTC), and an IL, 1-                      formation of IL@ZIF-8 glasses and crystal-glass composite sam-
+ethyl-3-methylimidazolium ethyl sulfate ([EMIM][EtSO4]). Here,                  ples, as indicated in Supplementary Fig. 3 for a range of tested
+the results showed that interactions between the IL anion and                   synthesis conditions. A DSC upscan (Fig. 2c) performed on
+Cu2+ ions caused the transfer and redistribution of electron                    ag(IL@ZIF-8-HT) revealed a glass transition temperature (Tg) of
+density over the metal sites. A corresponding red-shift was                     322 °C (595 K), conﬁrming the glassy nature of this sample. With
+observed in the experimental vibrational spectra in IR bands                    the melting temperature of ~381 °C (654 K), this results in a
+associated with Cu–O bonding. It was concluded that inter-                      nominal value of Tg/Tm of ~0.91, which even surpasses the
+molecular interactions between the linker molecules and Cu                      ultrahigh glass-forming ability of 0.84 which was reported for
+weaken upon simultaneous interaction with IL ions29. Weakening                  melts of ZIF-6237. To more clearly observe the glass transition,
+metal-ligand bonding was further shown via incorporating seven                  referenced DSC runs were conducted in order to extract the
+different imidazolium-based ILs into CuBTC pores. It was shown                  isobaric heat capacity Cp (denoted Cp scans). Cyclic Cp scans were
+that when the interionic interaction within the IL was higher, the              performed on ag(IL@ZIF-8-HT) samples at various heating and
+IL was interacting strongly with the structure and Cu–O bonding                 cooling rates (see Methods section for further details). Figure 2d
+became weaker, resulting in lower thermal stability of the                      shows a cyclic Cp scan for ag(IL@ZIF-8-HT) using 20 °C·min−1 as
+IL@MOF composites30.                                                            heating and cooling rate. A pronounced glass–liquid transition is
+   Here, we use the synergistic concepts of (i) an adjustment of                detected at ~328 °C, with a conﬁgurational heat capacity ΔCp of
+metal-linker bond strength and (ii) a greater extent of energetic               ~0.11 J·g−1·K−1 (Fig. 2d). The magnitude of the jump in Cp is
+stabilization of a newly dissociated linker, to investigate the IL              comparable to the values observed for other ZIF glasses such as
+mediated melting of a prototypical porous framework, ZIF-8.                     ZIF-4, 0.11 and 0.16 J·g−1·K−1 for LDA and HDA phases, and
+                                                                                0.19 J·g−1·K−1 for ZIF-6237,38. The minor up-shift in the glass
+                                                                                transition as compared to the DSC scan (Fig. 2c) is attributed to
+Results                                                                         the higher scanning rate (20 °C·min−1 vs. 5 °C·min−1). Although
+[EMIM][TFSI] was chosen since it is a hydrophobic IL, enabling                  the second upscan exhibits a similar ΔCp to the ﬁrst, a slight delay
+incorporation into the hydrophobic pores of ZIF-831. It has a very              is found in the glass transition. We attribute this observation to
+high Td (~440 °C) compared to other imidazolium-based ILs31,32.                 the continuing interaction between the glass phase and residual
+35 wt% of [EMIM][TFSI] were loaded into ZIF-8 using a wet                       IL, simultaneously overlapping with ongoing IL decomposition
+impregnation technique (see Methods section for further details).               during extended exposure of the glass to high temperatures in the
+The resultant composite is herein referred to as IL@ZIF-8 (Fig. 1).             ﬁrst upscan and subsequent down scan (which is why we limited
+The IL loading was adjusted in such a way as to obtain a powder                 the scanning range to the upper limit of 360 °C). Additional cycle
+sample without the presence of excess liquid.                                   Cp scans with different cooling/heating rates are provided in
+   The IL@ZIF-8 composite was characterized using X-ray diffrac-                Supplementary Fig. 4. For ag(IL@ZIF-8-LT), shown in Supple-
+tion (XRD) (Fig. 2a), scanning electron microscopy (SEM) (Sup-                  mentary Fig. 5, the glass−liquid transition is not as clearly visible
+plementary Fig. 1), and Fourier transform infrared spectroscopy                 as in the HT sample, which is because crystalline ZIF-8 (together
+(FTIR) (Fig. 2b). XRD and SEM results conﬁrmed that IL incor-                   with residual IL) remains the primary phase in this case, and
+poration did not damage the crystal structure and morphology of                 neither ZIF-8 nor the IL exhibit a DSC feature in this temperature
+ZIF-8. FTIR measurements were carried out in order to examine                   range (Fig. 2c). However, in the second upscan, a weak glass
+the incorporation of IL into ZIF-8; they show that all IL IR features           transition is detected also for the LT sample, which is in line with
+are present in the composite sample. These results are in agreement             our interpretation of progressive reactions during DSC scanning.
+with previous studies on crystalline IL@MOF composites33–36.                       Confocal microscopy images displayed in Fig. 3 show clear evi-
+   To study the bonding interactions between the IL and ZIF-8 at                dence of macroscopic ﬂow as a result of melting, as well as direct
+high temperature, thermogravimetric analyses (TGA) coupled                      light transmittance and smooth glass-like surfaces. Macroscopic ﬂow
+with differential scanning calorimetry (DSC), TGA-DSC, were                     and melting of the IL@ZIF-8 heated from room temperature to
+done on ZIF-8, the IL, and the IL@ZIF-8 composite (Fig. 2c and                  390 °C were observed in situ using a laser scanning microscope
+Supplementary Fig. 2). No phase transitions were observed in                    (LSM), whereas no morphological changes were seen when heating
+pristine ZIF-8 and the bulk IL before the start of decomposition at             the parent ZIF-8 to the same temperature (observations are provided
+around 550 and 440 °C, respectively. A small endothermic peak at                as Supplementary Movies 1 and 2 for ZIF-8 and IL@ZIF-8,
+381 °C was noted in the IL@ZIF-8 composite, very close to the                   respectively. All these observations show that ZIF-8, a non-meltable
+decomposition temperature (~412 °C). To properly assign this                    MOF, transforms into a meltable, glass-forming composite through
+feature to melting, IL@ZIF-8 was heated at 387 and 390 °C under                 the incorporation of an IL into its pores.
+nitrogen (slightly above Tm, deﬁned as the offset temperature of                   To uncover the microscopic mechanism which facilitates the
+the melting peak) for 30 and 40 min, deﬁned as LT (low                          melting of the IL@ZIF-8 composite, FTIR, TGA,
+
+NATURE COMMUNICATIONS | (2021)12:5703 | https://doi.org/10.1038/s41467-021-25970-0 | www.nature.com/naturecommunications                           3
+ARTICLE                                                                                       NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25970-0
+
+
+
+                      a                                                                           b                 entire ring streching in-plane bending out-of-plane bending
+
+                                                                      ag(IL@ZIF-8-HT)                                ag(IL@ZIF-8-HT)
+
+              Normalized intensity                                                                                   ag(IL@ZIF-8-LT)
+                                                                      ag(IL@ZIF-8-LT)
+
+
+
+
+                                                                                                       Intensity
+                                                                                ZIF-8-HT                             IL@ZIF-8
+
+                                                                                IL@ZIF-8
+                                                                                                                     IL
+                                                                                   ZIF-8
+                                                                                                                     ZIF-8
+                                                                      ZIF-8-calculated
+                                     5     10     15     20      25        30    35      40                        1800 1600 1400 1200 1000                     800   600
+                                                           2 /°                                                                 Wavenumber / cm            -1
+                     c                                                                            d
+                                                                                                             1.8
+             DSC signal / mW mg-1
+
+
+
+
+                                                                                                                                       Cp = 0.11 Jg-1K-1
+                                                  Tm = 381 °C                                                1.6
+                                                                      Td                      Cp / Jg-1K-1
+                                            ZIF-8
+                                            IL                                                               1.4
+                                            IL@ZIF-8
+                                            ag(IL@ZIF-8-HT)                                                                                    1st upscan
+                                                       Tg = 322 °C                                           1.2                               downscan
+                                                                                   exo
+                                                                                                                                               2nd upscan
+                                     200 250 300 350 400 450 500 550 600                                           200 220 240 260 280 300 320 340 360
+
+                                                          T / °C                                                                          T / °C
+Fig. 2 Structural characterization, enthalpic responses, and cyclic Cp scan. a XRD patterns of ZIF-8, IL@ZIF-8 crystalline composite, ag(IL@ZIF-8-LT), and
+ag(IL@ZIF-8-HT) samples. Crystallographic data were taken from literature25. b FTIR spectra obtained for ZIF-8, IL, crystalline IL@ZIF-8 composite,
+ag(IL@ZIF-8-LT), and ag(IL@ZIF-8-HT). c DSC scans of ZIF-8, IL, IL@ZIF-8, and ag(IL@ZIF-8-HT) samples with a heating rate of 5 °C·min−1. Tm and Td are
+indicated as offset temperatures of the melting peak and onset temperature of decomposition of IL@ZIF-8, respectively. Tg is deﬁned as the onset
+temperature of the glass transition feature of ag(IL@ZIF-8-HT). d Cyclic Cp scan of ag(IL@ZIF-8-HT) with heating and cooling rates of 20 °C·min−1.
+
+
+
+
+Fig. 3 Confocal microscopy images showing evidence of melting and glass formation. a–c ag(IL@ZIF-8-LT). d–f ag(IL@ZIF-8-HT). Scale bars are 100 µm.
+
+
+
+
+4                                    NATURE COMMUNICATIONS | (2021)12:5703 | https://doi.org/10.1038/s41467-021-25970-0 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25970-0                                                                    ARTICLE
+
+thermogravimetric analysis coupled with mass spectrometry                       and HT conditions. Assignment of m/z values to decomposition
+(TG–MS), 1H NMR, 13C NMR, and total scattering measure-                         products has been reported previously41,43. Moreover, TG–MS
+ments were performed on ZIF-8, IL, IL@ZIF-8, ag(IL@ZIF-8-LT),                   shows that detection of masses occurs in the isothermal segments
+and ag(IL@ZIF-8-HT) samples. As expected, IR bands in the                       of LT and HT heating conditions. This agrees with mass losses
+glassy composites are broader compared to crystalline ZIF-8 and                 observed in TGA experiments (see Supplementary Fig. 8).
+the IL@ZIF-8 composite (see Fig. 2b). Further analysis of                          Digested liquid 1H NMR was also performed on ZIF-8, IL,
+deconvoluted spectra in Supplementary Figs. 6 and 7, corre-                     IL@ZIF-8, ag(IL@ZIF-8-LT), and ag(IL@ZIF-8-HT) samples to
+sponding to 600–800 cm−1 (out of plane bending of imidazole                     ascertain the stability of the ZIF-8 linker and of the IL; the spectra
+ring) and 800–1700 cm−1 (in-plane bending and entire ring                       are discussed in the Supplementary Information. The results
+stretching of imidazole ring) regions, revealed that the IR bands               suggest large-scale decomposition of the IL and some linker
+belonging to ZIF-8 are shifted in IL@ZIF-8, ag(IL@ZIF-8-LT),                    decomposition within the glass, as also indicated by the darkened
+and ag(IL@ZIF-8-HT) samples. The shifts are summarized in                       color in the optical images (Fig. 3).
+Supplementary Tables 1 and 2. They reﬂect a clear difference in                    The top of Fig. 4 compares the 1H–13C cross-polarization (CP)
+the interactions between ZIF-8 and IL in crystalline IL@ZIF-8, the              NMR spectra for ZIF-8, IL@ZIF-8, ag(IL@ZIF-8-LT), and
+melt-quenched glass, ag(IL@ZIF-8-HT), and the crystal-glass                     ag(IL@ZIF-8-HT). CP experiments result in much higher signal/
+composite ag(IL@ZIF-8-LT). The shifts are signiﬁcantly larger in                noise (S/N) than single-pulse experiments, but also only allow
+ag(IL@ZIF-8-LT) and ag(IL@ZIF-8-HT) compared to crystalline                     observation of solid-like carbons (1H T1 times must be longer
+IL@ZIF-8, representing stronger electrostatic interactions                      than the time needed for 1H–X polarization transfer)44. There are
+between the metal center and organic linker of ZIF-8 and the                    three main carbon peaks highlighted with blue boxes from the
+anion and cation of the IL component in these samples, respec-                  mIm linker of ZIF-8: CH3 (C1), CH (C4,5), and C (C2) at 14.26,
+tively. The shifts show that most of the IR bands of ZIF-8 are                  124.67, and 151.66 ppm; the peaks from pure ZIF-8 are sharp
+shifted to lower frequencies (redshifted), indicating that intra-               with widths of 0.2–0.3 ppm indicating crystallinity. In compar-
+molecular bonding within the 2-methylimidazolate ring of ZIF-8                  ison, a broad shoulder emerges in ag(IL@ZIF-8-LT) and almost
+becomes weaker as a result of intense interaction with IL ions,                 all sharp peaks are absent in ag(IL@ZIF-8-HT), agreeing with the
+which only occurs at higher temperatures29,39. The resulting                    XRD results displayed in Fig. 2a. Although these NMR experi-
+interaction becomes stronger when temperature and heating time                  ments only probe short-range interactions, the broadness and
+increase, as evidenced by larger redshifts in IR features of                    sharpness of the peaks are clear indications of the degree of
+ag(IL@ZIF-8-HT) compared to ag(IL@ZIF-8-LT).                                    crystallinity, allowing for assignment of the peaks to amorphous
+   The thermal stability of the bulk IL, pristine ZIF-8, and IL@ZIF-            and crystalline features in Fig. 4. The variety of electronic
+8 composites was examined with the same thermal treatment used                  environments found in broad NMR peaks is assumed to be from
+to melt the ag(IL@ZIF-8-LT) and ag(IL@ZIF-8-HT) samples. TGA                    varying bond angles and bond lengths, and strongly indicates a
+measurements are presented in Supplementary Fig. 8, demon-                      system without long-range order. This loss of crystallinity is
+strating the differences between IL vs. IL@ZIF-8 weight losses.                 conﬁrmed for the ag(IL@ZIF-8-LT), and ag(IL@ZIF-8-HT) by
+Corresponding quantitative data are provided in Supplementary                   both XRD and pair distribution function (PDF) measurements, as
+Table 3. Consistent with the XRD result obtained for ZIF-8-HT,                  well as by single-pulse 13C NMR (Supplementary Figs. 16–18).
+pristine ZIF-8 shows almost no mass loss (1.0 and 0.9% for LT and                  For a more thorough discussion of the 1H–13C spectra, we turn
+HT conditions, respectively), while the bulk IL loses 17.5 and                  to the ﬁts of the C (C2), CH (C4,5), and CH3 (C1) peaks,
+50.0% of its initial mass when heated to LT and HT conditions,                  respectively, in Fig. 4b. Upon IL addition, the three main carbon
+respectively, attributed to the decomposition of IL that happens                peaks remain mostly unchanged, yet, a substantially shifted sec-
+mostly in the isothermal heating step (see Supplementary Fig. 8).               ond peak emerges downﬁeld (higher ppm) of the CH3 (C1) and
+The thermal stability of ILs has been studied in dynamic and                    CH (C4,5) peaks. Since the intensity of CP peaks in liquids is very
+isothermal TGA experiments previously40. ILs mostly decompose                   low (as can be seen for pure EMIM peaks in IL@ZIF-8 in Fig. 4a
+at lower temperatures when heated isothermally as compared to                   and in Supplementary Fig. 22), these new peaks in the IL@ZIF-8
+the onset decomposition temperature in dynamic heating                          in Fig. 4 correspond to ZIF-8 interacting with the IL. Moreover,
+conditions32,40–42. In the present case, the IL@ZIF-8 composite                 Supplementary Fig. 24 conﬁrms the appearance of a new peak at
+showed 20.7 and 34.4% weight loss for LT and HT heating con-                    ~15.4 ppm in IL@ZIF-8 that does not exist in either pure IL or
+ditions, respectively.                                                          ZIF-8. Finally, IL-ZIF-8 interactions are further corroborated by
+   To understand whether the decomposed species are from IL or                  the different chemical shifts of IL vs. IL@ZIF-8 in Supplementary
+ZIF-8 in IL@ZIF-8, we probed the possible decomposition pro-                    Fig. 23.
+ducts by conducting TG–MS analysis. TG–MS experiments were                         For the HT condition, ag(IL@ZIF-8-HT), there are at least three
+performed on bulk IL and IL@ZIF-8 composites with LT and HT                     types of carbon peaks (Fig. 4b). The ﬁrst type of peak, very slight
+heating conditions. As for the decomposition of bulk [EMIM]                     retention of the sharp ZIF-8 and IL-associated sharp ZIF-8 peaks,
+[TFSI], it was previously found that elimination and nucleophilic               is in simple agreement with the XRD results. We note that the LT
+substitution are major mechanisms of decomposition43. At high                   condition shows the same trends (Supplementary Fig. 21). Like the
+temperatures (over 350 °C), decomposition of the anion to more                  IL-associated carbon peaks, the broad peaks (Fig. 4b) are found
+nucleophilic groups such as NH2 and F, and the subsequent                       downﬁeld of the sharp peaks, indicative of interactions with IL
+attack of cation methyl and ethyl groups resulted in the occur-                 and/or strain of ZIF-8 linkers. The third type of peak is located
+rence of different decomposition products in isothermal and                     upﬁeld (lower ppm), identiﬁed as free ZIF-8 linkers which are
+scanning TG-MS experiments (in order to minimize the pro-                       unbonded to Zn2+45. Overall, the spectral regions representing
+gressive effect of such reactions on the cyclic Cp scans performed              amorphous features and the free linker are very wide and some-
+on quenched IL@ZIF-8 glasses, Fig. 2d, the upper limit of these                 times contain more than one clear peak; these large ppm ranges
+scans was set at 360 °C; on the other hand, a further reduction of              represent the many different types of chemical environments and
+the scanning range would compromise accurate assignment of the                  bonding which exist after heating. Returning to more quantitative
+glass transition region). According to the results shown in Sup-                single-pulse 13C NMR, in Supplementary Fig. 25, we ﬁnd that for
+plementary Fig. 9, almost all mass to charge ratios, m/z, coming                the C2 carbon in the LT sample roughly 21, 58, and 21% can be
+from IL@ZIF-8 match the masses detected from the bulk IL at LT                  identiﬁed as crystalline, amorphous, and free linker, respectively.
+
+NATURE COMMUNICATIONS | (2021)12:5703 | https://doi.org/10.1038/s41467-021-25970-0 | www.nature.com/naturecommunications                            5
+ARTICLE                                                                                                  NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25970-0
+
+
+
+              a
+                                                                                      3                                        d            h
+                                                                                4    N                                                                  a                         C1: CH3
+                                                         C4, 5: CH                        2                              e             N    +   N
+                                                                                                 1
+                                   C2: C                                       5     N
+                                                                                     6                                                 c        b
+                                                                                                                                                        Cd         Ca
+                                                 Ch                                              ag(IL@ZIF-8-HT)                                                              *
+                                                                                                                                                *
+
+                                                                                                 ag(IL@ZIF-8-LT)
+                                                                                                                                                *                             *
+
+                                                                                                       IL@ZIF-8
+                                                                                                                                                *                             *
+
+                                                                                                            ZIF-8
+                                                                                                                                                *                             *
+                       160                      140               120                    100                   80                      60                    40                   20                 0
+
+              b                                                                                      Chemical Shift / ppm
+
+
+                                 Amorphous-2                                        Amorphous                                  Spectrum                                                   Spectrum
+                                                    Amorphous                                                                  Model                Amorphous                             Model
+                                                                               Amorphous-2
+               ag(IL@ZIF-8-HT)
+
+
+
+
+                                                                 Spectrum
+                                                                 Model
+
+
+                                                         Free-linker                                                                                                                   Free-linker
+                                                                                                                                                                    Crystalline
+                                                                                                              IL         Free-linker
+                                                                       IL + Imid.               IL-assoc.           IL
+                                           Crystalline                                                                              Imid.               IL-assoc.
+
+
+
+
+                                                                                                             Crystalline
+                                                                                                                                                                              Crystalline
+               IL@ZIF-8
+
+
+
+
+                                                                                    IL-associated                                                      IL-associated
+               ZIF-8
+
+
+
+
+                     158 156 154 152 150 148 146 144 142                                  129     126       123     120       117      114             18         16     14        12         10     8
+                                           Chemical Shift / ppm                                  Chemical Shift / ppm                                        Chemical Shift / ppm
+
+Fig. 4 1H-13C CP NMR analysis of mIm carbons in ZIF-8. a 1H-13C CP NMR of ZIF-8, IL@ZIF-8, a (IL@ZIF-8-LT), and a (IL@ZIF-8-HT). Spinning sidebands
+                                                                                                                                            g                             g
+are marked with asterisks. b Insets of ﬁts for C2:C, C4,5:CH, and C1: CH3 (methyl) carbons. For the ﬁts of ag(IL@ZIF-8-LT) please see Supplementary Fig. 21.
+
+
+
+
+   Simultaneously, in Fig. 5a and Supplementary Fig. 23, we also                                                  The 1H–15N CP NMR spectra for ZIF-8, IL@ZIF-8, and
+ﬁnd a large increase in S/N for the IL peaks in ag(IL@ZIF-8-LT)                                                ag(IL@ZIF-8-LT) are provided in Fig. 5b, perfectly matching the
+and ag(IL@ZIF-8-HT), indicating that much more of the IL is now                                                trends of 1H–13C CP NMR, Fig. 4a. Upon heating, a broad shoulder
+immobilized and behaving like a solid. This result is unsurprising                                             appears downﬁeld along with a broad peak upﬁeld identiﬁed again
+in consideration of the collapse of the pores as evidenced by the                                              as free-linker. The free-linker peak position represents a much dif-
+dramatic differences in the out-of-plane bending and C = N                                                     ferent environment than that of the original ZIF-8 linker. This is
+stretches in the IR after heating (see Supplementary Tables 1 and                                              expected, given that the nitrogen of the ZIF-8 linker bonds directly
+2). The most substantial changes in chemical shifts, i.e., electronic                                          to the Zn2+ metal center: the shift direction suggests the formation
+environments, are observed for the Cd: CH2 and Ca: CH3 carbons                                                 of Zn–H bonding as the imidazole peak is found at −171.6 ppm in
+in EMIM (see Supplementary Fig. 23). In the heat-treated samples,                                              DMSO48. This general increase in shielding, i.e., electron density, on
+we further observe the formation of imidazole, highlighted in gold,                                            the nitrogen of the mIm applies for the carbon atoms of the ZIF-8
+conﬁrming the loss of ethyl and methyl from EMIM observed in                                                   linker as well, as all the assigned free-linker peaks have lower che-
+the 1H NMR results. Finally, for the ag(IL@ZIF-8-HT) sample, the                                               mical shifts than their corresponding intact framework peaks.
+signals from Ch in the IL cation and C1 in imidazole are very                                                  Comparing to 1H-15N CP NMR of ag(IL@ZIF-8-LT), the sharp peak
+broad. This is in line with our 1H NMR and literature data which                                               which would be evidence for a crystalline phase is not detected in
+reveal this hydrogen to be the most reactive and likely to interact                                            1H-15N CP NMR of a (IL@ZIF-8-HT), shown in Supplementary
+                                                                                                                                         g
+with other molecules in the material46,47.                                                                     Fig. 26, which is in agreement with XRD data in Fig. 2a.
+
+6                                NATURE COMMUNICATIONS | (2021)12:5703 | https://doi.org/10.1038/s41467-021-25970-0 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25970-0                                                                                                                                                     ARTICLE
+
+             a                                                                                                                                                b
+
+
+              ag(IL@ZIF-8-LT) ag(IL@ZIF-8-HT)
+                                                                     Spectrum
+                                                                     Model
+                                                                                          Cb,c: CH                                              Ce: CH3
+                                                    a
+
+
+
+
+                                                                                                                           Ca: CH3                                      Crystalline
+                                                                                                                 Cd: CH2
+                                                                  Ch:C + Im:C1
+                                                                                                  Im: C3,4
+
+                                                                                                         1
+                                                                     Spectrum
+                                                                                                  2 N             5
+                                                                     Model                                   N                              Ce: CH3
+                                                                                                     3       4
+                                                                Ch: C                      Cb,c: CH              Cd: CH2 C : CH                                          Amorphous
+                                                                        Im: C1
+                                                                                                                          a     3                                                                       Free-linker
+                                                                                                  Im: C3,4                                                                            ag(IL@ZIF-8-LT)
+                     IL@ZIF-8
+
+
+
+
+                                                                     Ch: C               Cb,c: CH
+                                                                                                             Cd: CH2 C : CH
+                                                                                                                      a     3                                                           IL@ZIF-8
+
+                                                                                                                                      Ce: CH3
+                                                        d        h                     Cb,c: CH          Cd: CH2 C : CH
+                                                                                                                  a     3
+                                                                           a
+                                                e           N        N
+                    IL (EMIM)
+
+
+
+
+                                                                 +
+                                                                         Ch: C
+                                                            c        b
+                                                                                                                                                                                            ZIF-8
+
+
+                                160                     150          140         130      120                         40        30   20    10             0       210     200         190     180       170      160   150
+                                                                                   Chemical Shift / ppm                                                                         Chemical Shift / ppm
+
+Fig. 5 NMR analysis of EMIM carbons and mIm nitrogen of the ZIF-8 linker. a EMIM NMR Signatures Comparison. Decoupled 13C SSNMR of IL, 1H-13C
+CP SSNMR of IL@ZIF-8, ag(IL@ZIF-8-LT), and ag(IL@ZIF-8-HT). Pronounced broadening and shifting of the IL carbon peaks in ag(IL@ZIF-8-LT) and
+ag(IL@ZIF-8-HT) conﬁrms immobilization of the IL and collapse of ZIF-8 pores at elevated temperatures. For clarity, IL cation peaks are highlighted, while
+the ZIF-8 peaks are grayed out in the heat-treated samples. In the ag(IL@ZIF-8-LT) and ag(IL@ZIF-8-HT) spectra appearance of Im cations can be observed
+in gold. b 1H-15N CP NMR Comparison of ZIF-8, IL@ZIF-8, and ag(IL@ZIF-8-LT).
+
+
+
+   According to the literature, strong interionic interactions occur                                                                                          samples, in Fig. 7b, c, respectively. The general trends are that
+between [EMIM] and [TFSI] within the IL49. Moreover, it has                                                                                                   zinc remains, while ﬂuorine, oxygen, and sulfur content decrease
+been shown that IL ([BMIM][TFSI]) interacts with ZIF-8 via the                                                                                                substantially in the LT sample and are absent entirely in the HT
+N or S atoms of the IL anion and Zn sites in ZIF-835. Although                                                                                                sample. Commensurately, the carbon and nitrogen concentra-
+ILs are composed of charged ions, they also are molecules with                                                                                                tions also increase, however, they do so in an unexpected fashion:
+substantial intermolecular hydrogen bonding50. For example, the                                                                                               the increase in nitrogen content is more than double that of the
+S = O group in triﬂuoromethanesulfonic acid has been found to                                                                                                 carbon content. Indeed, the many possible decomposition pro-
+form a hydrogen bond with a CH carbon in an imidazole                                                                                                         ducts from the IL make it challenging to discern the exact
+ring51,52. Surprisingly to most chemists, several studies show the                                                                                            structure of the resulting glass after further heating. Nevertheless,
+protons attached to sp3 carbons (methyl and ethyl groups) of                                                                                                  one possible structure for the LT sample is depicted in Fig. 7b,
+EMIM forming H-bonds with halogens and nitrogen33,50. We are                                                                                                  where some of the original IL cation and anion can be found, as
+unsure of the strength of the interaction between CH3 and an                                                                                                  some F, S, and O remains, but where there are also new mole-
+H-acceptor such as S = O, but our 1H–13C CP NMR agrees: the                                                                                                   cules, such as imines (ketimines, aldimines, sulﬁnyl imines, and
+interactions between ZIF-8 linker hydrogens and IL ions explain                                                                                               ﬂuoro-substituted amines), which contain the elements known to
+the reason that only the ZIF-8 linker CH (C4,5) and CH3 (C1)                                                                                                  remain, and are liquids at RT and fairly stable in the absence of
+carbons are affected by the incorporation of IL, while the ZIF-8                                                                                              water (expected from our Brunauer–Emmet–Teller (BET) mea-
+linker C2 or lone C is mostly unaffected by IL incorporation.                                                                                                 surements in Supplementary Fig. 32 and Supplementary Table 9),
+Furthermore, hydrogen bonding results in positive shifts                                                                                                      especially in the case of hexaﬂuoroacetone, (CF3)2CNH.
+(deshielding) of carbon peaks in conjugated ring systems, just like                                                                                              In the HT sample, only Zn, C, N, and H remain in the material,
+our emerging peaks in IL@ZIF-8 in Fig. 453. Thus, we believe the                                                                                              yet again the increase in N content is notably high. Consequently,
+IL anion to interact with the ZIF-8 mIm linkers via H bonding as                                                                                              we believe only imines (ketimines and aldimines) without ﬂuor-
+shown in Fig. 6a.                                                                                                                                             ine substitution remain, which are stabilized by interactions with
+   We know from DSC that melting of the composite occurs well                                                                                                 the Zn2+ sites, as has been shown with silver in the literature54. In
+before the substantial mass loss (381 °C vs. 410 °C). Given the                                                                                               fact, if the R′ group is not H, these molecules are speciﬁcally
+evidence of amorphization and formation of free linkers from the                                                                                              known as Schiff bases when they act as negatively charged ligands
+solid-state NMR, alongside the proposed mechanism of melting                                                                                                  to form metal complexes55. For example, such an R′ group could
+in ZIFs9, we suggest that upon dissociation from the Zn2+ metal                                                                                               be resulting from one of the ethyl/methyl groups that are lost
+centers, the 2-methylimidazolate linkers are stabilized by elec-                                                                                              from the EMIM cation, as shown by both the solution 1H NMR
+trostatic interactions with the IL ions (or partially decomposed IL                                                                                           and 13C SSNMR. Although the exact composition of the partially
+molecules), which leads to a stable liquid (see Fig. 6b, c).                                                                                                  decomposed IL and ZIF-8 mixture is hard to determine, the mass
+   After incorporation into ZIF-8 and subsequent heating at LT                                                                                                loss from the ZIF-8 linkers is low and the net result is the for-
+and HT conditions, mass spectroscopy and solution 1H NMR tell                                                                                                 mation of a glass.
+us that much of the IL anion is lost and that the IL cation loses                                                                                                We investigated the removal of IL residues from the ag(IL@-
+some of its methyl/ethyl groups upon heating. The leaving groups                                                                                              ZIF-8-HT) and ag(IL@ZIF-8-LT) samples by conducting post-
+and percentages of each, based on the area under the TG–MS                                                                                                    process washing experiments in acetone. Details are provided in
+curves, are shown in Fig. 7a. The mass loss curves were also used                                                                                             the Supplementary Information, Supplementary Fig. 29–32, and
+to calculate the elemental composition of the ﬁnal LT and HT                                                                                                  Supplementary Table 9 for the obtained results. In short, washing
+
+NATURE COMMUNICATIONS | (2021)12:5703 | https://doi.org/10.1038/s41467-021-25970-0 | www.nature.com/naturecommunications                                                                                                         7
+ARTICLE                                                                  NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25970-0
+
+
+
+
+Fig. 6 2D schematic of possible interactions between IL and ZIF-8. a Interactions with the IL anion; b Interactions with the IL cation. c Melting/
+amorphization of IL@ZIF-8 at 381 °C. Orange and green bonds represent Zn2+–N− bonding and H bonding between IL and ZIF-8, respectively. For a
+schematic view of the whole pore, see Supplementary Fig. 27.
+
+
+results in a signiﬁcant reduction of the brownish tint (which we              their amorphous nature. The S(Q) for the ag(IL@ZIF-8-HT) sample
+have assigned to the decomposition products) and notably                      is most similar to the S(Q) of amZIF-8, both of which have a broad
+enhanced gas adsorption performance by partially removing the                 ﬁrst sharp diffraction peak (FSDP) often described as a manifes-
+unreacted or decomposed compounds from the glass matrix.                      tation of intermediate-range order in glasses58,59. In addition to this
+TGA-DSC scanning of post-washed ag(IL@ZIF-8-HT), Supple-                      broad peak at ~1 Å−1 in the S(Q) of ag(IL@ZIF-8-HT), there is a
+mentary Fig. 31, conﬁrmed that the glassy nature of the sample is             small sharper peak at 0.52 Å−1. This matches the scattering vector
+preserved during washing. Gas adsorption experiments using N2                 observed for the (011) Bragg peak in the PXRD of ZIF-8.
+or CO2 (Supplementary Fig. 32) reveal a fourfold increase of the                 From the background-corrected X-ray total scattering data, the
+glass’ total porosity after washing; in particular, the washed                real space PDFs, G(r) could be extracted by Fourier transform
+ag(IL@ZIF-8-LT) sample which contains a major fraction of                     and were subsequently converted to D(r) in order to emphasize
+crystalline ZIF-8 (being only partially amorphized) exhibited                 the peaks at high r60–62. These peaks correspond to atom–atom
+improved CO2 uptake compared to the adsorption capacity                       correlations in the sample, with the peak position determined by
+observed for other MOF glasses such as agZIF-62 and ag[(ZIF-                  the interatomic distances between atom pairs and the intensity
+8)0.2(ZIF-62)0.8]56,57. While outside of the scope of the present             proportional to the product of the scattering factors from all of
+study, future exploration of LT-type composite materials con-                 the atoms which correspond to a particular interatomic distance.
+taining crystalline ZIF-8 in a partially melted IL@ZIF-8 matrix               As such, PDF analysis is a powerful tool for studying amorphous
+phase may be beneﬁcial towards the application of these mate-                 materials and glasses as the local short-range order can still be
+rials, for example, in gas adsorption and separation.                         probed, but the presence of disorder and loss of structural
+   To further investigate, and compare, the structures of the                 coherence at longer length scales leads to the absence of peaks at
+crystalline and glassy composites, room temperature synchrotron               this extended regime.
+X-ray total scattering experiments were conducted on the IL, ZIF-                As the X-ray atomic form factor is proportional to the atomic
+8, IL@ZIF-8, ag(IL@ZIF-8-LT), and ag(IL@ZIF-8-HT) samples.                    number, Z, the relatively light elements such as those in the IL
+For comparison with the heat-treated samples, ag(IL@ZIF-8-LT)                 component do not contribute as intensely as correlations with the
+and ag(IL@ZIF-8-HT), a sample of ZIF-8 was amorphized (see                    heavier zinc atoms in ZIF-8. Additionally, the IL only accounts
+Supplementary Fig. 33) via ball milling for 30 min at 30 Hz in a              for a theoretical 35 wt% of the composite sample, so the overall
+shaker-type grinding mill—as detailed in the Methods section.                 contribution of the IL towards the PDF pattern of the IL@ZIF-8
+This ball-milled sample is herein referred to as amZIF-8, in                  composite is expected to be small. Even so, a comparison of the
+accordance with prior nomenclature15.                                         PDFs of the IL@ZIF-8 composite, along with its constituent
+   The structure factors, S(Q) in Supplementary Fig. 34a show                 components in Fig. 8a, shows that for correlations in which there
+Bragg peaks for the ZIF-8 and IL@ZIF-8 samples, in agreement                  are peaks in both the IL and ZIF-8 patterns (e.g., the peaks at
+with the XRD data collected in this work. The intensities of the              ~1.4 Å), the intensity of the corresponding peaks in the IL@ZIF-8
+Bragg peaks are reduced for the ag(IL@ZIF-8-LT) sample (see                   composite is greater than in the pure ZIF-8 pattern. For peaks
+Supplementary Fig. 34) but it is clear that the sample has not been           which only correspond to correlations in ZIF-8 (e.g., the peaks at
+fully amorphized. As expected, the S(Q)s for the IL and amZIF-8               2.01, 3.01, 4.17, and 6.02 Å), the intensity is smaller than in pure
+samples show a noticeable absence of Bragg scattering, indicating             ZIF-8 due to the reduced ZIF-8 content in the composite.
+
+8                 NATURE COMMUNICATIONS | (2021)12:5703 | https://doi.org/10.1038/s41467-021-25970-0 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25970-0                                                                      ARTICLE
+
+
+
+
+Fig. 7 Route of decomposition and possible ﬁnal compositions. a Likely leaving groups and their percentages of the total mass loss observed from mass
+spectrometry. Detected masses <1 wt% loss are not included. Possible ﬁnal compositions of b ag(IL@ZIF-8-LT) and c ag(IL@ZIF-8-HT) as determined from
+the peak area of the MS curves. Decomposition products are highlighted. R1 is H/F or CH3−xFx and R1′ is only CH3−xFx and, while R2 is only an H-containing
+organic group, H or CH3 and R2′ is only CH3. For a schematic view of the whole pore, see Supplementary Fig. 28.
+
+   Long-range order was evident in the ZIF-8 and IL@ZIF-                        short-range order also suggests that the sample has not com-
+8 samples, with peaks in the D(r) extending out to 25 Å (see                    pletely decomposed due to the heating procedure, or due to beam
+Supplementary Fig. 34b). However, the D(r) for the ag(IL@ZIF-8-                 damage, consistent with the digestive 1H NMR data. Finally, the
+HT) sample appears largely featureless at extended distances                    PDF patterns of the ag(IL@ZIF-8-HT) sample and the amZIF-8,
+(>6.02 Å) which would be consistent with the vitriﬁcation of the                shown in Fig. 8b are remarkably similar which, together with the
+ZIF-8 component. This loss of long-range order, alongside the                   S(Q) only showing broad scattering features and very weak
+retention of the local structure (short-range order), is consistent             remnant Bragg scattering (Supplementary Fig. 34a), provides
+with glass formation, as has been observed for other glass-                     further evidence for the almost complete amorphization of the
+forming MOFs37. The retained short-range order is very similar                  ZIF-8 framework within the composite.
+to that exhibited by the pure ZIF-8 sample (see Fig. 8b), sug-                     We conducted further investigations on the physical properties
+gesting that the secondary building block units (i.e., the Zn(2-                of the ag(IL@ZIF-8-HT) glass by examining optical absorbance as
+MeIm)4 clusters) of ZIF-8 are still intact, though, their arrange-              well as mechanical properties. Absorbance spectra taken of an
+ment at extended length scales is disrupted. The presence of this               ag(IL@ZIF-8-HT) glass ﬁlm on a platinum substrate are presented
+
+NATURE COMMUNICATIONS | (2021)12:5703 | https://doi.org/10.1038/s41467-021-25970-0 | www.nature.com/naturecommunications                                9
+ARTICLE                                                                   NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25970-0
+
+
+
+
+Fig. 8 Ambient temperature X-ray pair distribution function data. a Comparison of the X-ray pair distribution functions, D(r) of IL@ZIF-8 with its
+constituent components. b Comparison of the X-ray pair distribution functions, D(r) of ag(IL@ZIF-8-HT), ZIF-8, and amZIF-8. The limit of short-range order
+is shown along with the chemical connectivity of the ZIF-8 structure which accounts for the correlations within this limit.
+
+in Supplementary Fig. 35 (experimental details are provided as                 stability may strongly vary as a function of the employed
+Supplementary Information). The ag(IL@ZIF-8-HT) glass is                       synthesis conditions: values of H ranging from 0.501 to 0.643 GPa
+generally optically transparent but absorbing in the blue to the               have been reported for crystalline ZIF-8. Likewise, E was reported
+green part of the visible spectrum. This results in the brownish-              with values of only 3.10 GPa up to about 7.33 GPa63,64. In this
+red coloration observed in the microscope images presented in                  regard, the present ag(IL@ZIF-8-HT) falls in the same category as
+Fig. 3. Interestingly, the absorbance decreases towards the UV                 other ZIF-type glasses, such as agZIF-4 (H = 0.676 GPa and
+region, in the spectral range of ~500–360 nm (limit of the                     E = 7.17 GPa) or agZIF-62 (H = 0.656 GPa and E = 6.85 GPa)65.
+detector), which is a clear indicator for the absence of light
+scattering by crystal inclusions or other heterogeneities with a               Discussion
+characteristic size corresponding to the wavelength of observa-                In summary, the incorporation of an IL into the pores of ZIF-8
+tion. Coloration aside, the obtained glass samples are highly                  makes this otherwise unmeltable compound meltable. Based on
+transparent and possess no evidence of large-scale phase                       structural investigations, we hypothesize that melting is achieved
+separation.                                                                    by reducing the melting temperature of ZIF-8 to below its thermal
+   The mechanical properties of the ag(IL@ZIF-8-HT) glass were                 decomposition temperature, using electrostatic interactions of the
+studied through instrumented indentation testing using a                       IL (or partially decomposed IL fragments) at the ZIF-8 pores’
+nanoindenter (see Methods for details). The obtained depth                     interior surface in order to stabilize the rapidly dissociating ZIF-8
+proﬁles of hardness (H) and elastic modulus (E) are depicted in                linkers upon heating. Although the methyl in mIm (ZIF-8 linker)
+Supplementary Fig. 36. The indentation response displays a                     likely changes the Zn2+-linker bonding in ZIF-8 relative to mel-
+marked load dependence, which reﬂects in a continuous decrease                 table ZIF-4 (where only Im is present), the largest change is in
+of H and E with increasing displacement into the glass’ surface                topology: the sodalite ZIF-8 topology is over three times as porous
+(h). This effect is more pronounced at small indentation depths                as the cag ZIF-4 topology18. The IL anion and cation interact
+and tends to level off as the indenter penetration increases, with             strongly with the Zn2+ and linker, respectively, and the IL is less
+the values of E and H eventually approaching the values of                     constrained than the ZIF-8 linker; upon inﬁltration, it decreases
+crystalline ZIF-8 reported in the literature (H = 0.501 GPa and                the internal surface area of ZIF-8 (see Supplementary Fig. 32 and
+E = 3.10 GPa)63. Averaging the values of E and H between the                   Supplementary Table 9 for surface area and pore volume analysis).
+upper 10% and lower 20% of each indentation depth proﬁle                       Thus, the high porosity of ZIF-8, or the low mobility and isolation
+resulted in mean values of H = 0.730 ± 0.136 GPa and                           of its linkers no longer present a barrier to melting: the IL ions are
+E = 5.42 ± 1.10 GPa for ag(IL@ZIF-8-HT). In a direct comparison                immediately available to exchange with the rapidly dissociating
+with crystalline ZIF-8, we must emphasize that the mechanical                  Zn2+-linker bond and prevent decomposition at elevated
+
+10                 NATURE COMMUNICATIONS | (2021)12:5703 | https://doi.org/10.1038/s41467-021-25970-0 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25970-0                                                                                         ARTICLE
+
+temperatures. We note that similar hydrophobicity and high                               Fourier transform infrared (FTIR) spectroscopy. FTIR spectra were collected
+thermal stability of the IL are important factors determining the                        using a Thermo Scientiﬁc Nicolet iS10 model FTIR spectrometer in attenuated total
+                                                                                         reﬂection mode. Sixty-four and 128 scans were measured for background and
+meltability of IL-incorporated MOF composites. More generally,                           sample spectra with 2 cm−1 resolution. Evaluation of the spectra was done using
+we conclude that a suitable, i.e., strongly bonding, IL stabilizes ZIF                   Fityk software66.
+(and potentially other MOF) melts by reducing the lifetime of
+unstable conﬁgurations via Zn2+–N− bonding and H bonding.                                Thermogravimetric analysis coupled with differential scanning calorimetry
+The corresponding melt-quenched glass has a glass-forming                                (TGA-DSC). Thermogravimetric analysis (TGA) and DSC analysis were per-
+ability which exceeds even those of previously reported super-                           formed using a Netzsch STA 449 F1 instrument. Approximately 15 mg of each
+strong glasses from conventionally meltable ZIFs.                                        sample was placed in a platinum crucible and gently pressed by hand to ensure
+                                                                                         good contact between the crucible and the powder sample. All measurements were
+   This approach strongly broadens the variety of hybrid glass                           performed under 20 mL∙min−1 of nitrogen ﬂow. First, the sample was heated to
+chemistries which may be derived from the MOF family. It offers                          120 °C with a ramp of 20 °C ∙ min−1 and equilibrated for 4 h to remove any
+exciting opportunities to melt other non-meltable crystalline                            volatiles. Subsequently, it was heated to 600 °C with a ramp rate of 5 °C ∙ min−1. To
+MOFs, potentially enabling a broad range of hybrid glasses with a                        obtain the glass transition temperature (Tg), ag(IL@ZIF-8-HT) in powder form was
+                                                                                         placed in a platinum crucible and heated to 400 °C with a 5 °C ∙ min−1 ramp rate.
+variety of physicochemical properties and corresponding appli-                           Tm, Td, and Tg are determined as the intersection of the starting baseline and the
+cations, in particular, ones which are derived from MOF archi-                           tangent to the DSC curve at the maximum gradient point.
+tectures with large pore sizes.
+                                                                                         Cyclic Cp scan. A Netzsch STA 449 F1 instrument was used to perform cyclic Cp
+                                                                                         scans. In these, the sample was heated up to 360 °C, then cooled to 200 °C, and heated
+Methods                                                                                  again to 360 °C. All experiments used the identical heating rate of 20 °C·min−1. The
+Preparation of IL@ZIF-8 composite. ZIF-8 and the IL, 1-ethyl-3-
+                                                                                         cooling rate between the ﬁrst and the second upscan was varied from 10 °C min−1 to
+methylimidazolium bis(triﬂuoromethylsulfonyl)imide, [EMIM][TFSI] (>99%),
+                                                                                         15 °C min−1 and 20 °C min−1. For each cycle, a baseline and a sapphire reference scan
+were purchased from ACSYNAM Inc and IoLiTec, respectively. To remove
+                                                                                         were recorded prior to the sample scan using the same temperature program. A
+moisture and volatile impurities, ZIF-8 was evacuated at 105 °C under vacuum
+                                                                                         platinum crucible was used for each cycle with a sample mass of around 15–20 mg. For
+overnight. IL@ZIF-8 composite was prepared using wet impregnation at a stoi-
+                                                                                         each cycle, a new sample of IL@ZIF-8 was produced by placing the starting batch into
+chiometric IL loading of 35 wt%, according to previous reports. Brieﬂy, 0.35 g of IL
+                                                                                         the same Pt crucible as used for the subsequent DSC experiment and melting using the
+was dissolved in 20 mL acetone and stirred for 1 h at room temperature in a sealed
+                                                                                         HT condition with a cooling rate of 5 °C·min−1.
+container to hinder acetone evaporation. Afterward, activated ZIF-8 (0.65 g) was
+added to the solution and the mixture was stirred at 35 °C for about 7 h under an
+open atmosphere until the acetone was evaporated. The resultant powder sample            Thermogravimetric analysis coupled with mass spectrometry (TG–MS).
+was dried overnight at 105 °C to remove the remaining acetone.                           TG–MS analysis was performed using Netzsch STA 449 F1/QMS 403 instrument
+                                                                                         with multiple ion detection (MID) mode. Approximately 15 mg of each sample was
+                                                                                         placed in a platinum crucible and TG–MS analysis was performed for the samples at
+Glass samples. Approximately 25 mg of powder IL@ZIF-8 composite was placed               LT (387 °C for 30 min) and HT (390 °C for 40 min) conditions under 20 mL∙min−1
+in a platinum crucible and pressed by hand to provide better contact with the            of nitrogen ﬂow.
+crucible. To facilitate an even heat transfer in the sample, a smaller platinum
+crucible that could ﬁt inside the sample crucible was placed on the sample. To
+obtain ag(IL@ZIF-8-LT) and ag(IL@ZIF-8-HT), the sample was heated to 120 °C              Scanning electron microscopy (SEM). A JSM-7001 F microscope (Jeol Ltd,
+with a ramp rate of 20 °C ∙ min−1 and kept for 45 min, followed by heating to 387        Japan) was used to analyze the morphology of ZIF-8 and IL@ZIF-8 samples.
+and 390 °C with a ramp rate of 10 °C ∙ min−1 and kept for 30 and 40 min,                 Approximately 10 mg of each sample was placed on a carbon tape and pasted on an
+respectively. Afterward, the sample was cooled down to room temperature with a           aluminum cell. Prior to measurement, samples were coated with a thin layer of
+ramp rate of 50 °C ∙ min−1. All heating and cooling steps were performed under           carbon. Voltage and working distance were set to 20 kV and 14 mm, respectively.
+nitrogen ﬂow (20 mL∙min−1).
+                                                                                         Digital optical microscopy. Imaging the glass samples was done using a Keyence
+                                                                                         VHX-6000 digital microscope with VHX-H2MK software and VHX-500 3D viewer
+Washing experiment. Approximately 40 mg of ag(IL@ZIF-8-HT) and ag(IL@ZIF-                1.02. A VH-Z100UR differential interference contrast lens was used and the images
+8-LT) were powdered gently and placed individually in 50 ml containers with 5 ml         were created by focal scanning along the z-axis and stacking images. Top lights
+of acetone. Containers were covered with paraﬁlm to hinder acetone evaporation           with a side-lit lighting conﬁguration was used to capture the photos with variable
+during washing. Using a magnetic stirrer, washing was done at 50 °C for 4 h. After       magniﬁcations (200X, 250X, and 300X).
+this step, washed ag(IL@ZIF-8-HT), ag(IL@ZIF-8-LT), and the ﬁltrate were sepa-
+rated using ﬁlter paper. Collected washed ag(IL@ZIF-8-HT) and ag(IL@ZIF-8-LT)
+samples were dried in an oven at 80 °C for 4 h to remove residual acetone. To            Confocal laser scanning microscopy. Melting of IL@ZIF-8 composite was
+enhance the concentration of washed species in the ﬁltrate, some of the ﬁltrates         recorded using a Carl Zeiss Axio imager-Z1m LSM700 confocal LSM. ZIF-8 and
+were evaporated at 60 °C to a residue of 0.5 ml for further qualitative analysis.        IL@ZIF-8 powders were placed on a quartz disc (5 mm diameter) and placed in a
+                                                                                         Linkam T95-HT stage. Samples were heated to 390 °C with a ramp rate of
+                                                                                         10 °C ∙ min−1 under 18 mL∙min−1 of argon ﬂow. Images were captured in 1 min
+X-ray diffraction (XRD). A Rigaku MiniFlex diffractometer (Cu Kα X-ray source            intervals and ZEN-black software was used to create videos from captured images.
+with a wavelength of 1.54059 Å) was used to collect diffractograms in the 2θ range
+of 5 to 40° with a step size of 0.02°. The voltage and current of the X-ray tube were
+                                                                                         Nuclear magnetic resonance spectroscopy (1H NMR). A Bruker 300 MHz
+set to 40 kV and 15 mA, respectively.
+                                                                                         spectrometer was used to measure 1H NMR spectra. Approximately 6 mg of each
+                                                                                         sample was digested in 0.7 mL of a stock solution of DCl (20%)/D2O (0.889 mL)
+Ambient temperature X-ray pair distribution function (XPDF). Synchrotron                 and DMSO-d6 (3 mL). Data analysis was performed in TopSpin software. Predicted
+                                                                                         1H NMR spectra of decomposed IL structures was generated using www.nmrdb.org
+X-ray total scattering data were measured at the Diamond Light Source, UK
+(EE20038). Samples were hand-ground and loaded into borosilicate capillaries with        after drawing the corresponding chemical structure of decomposed EMIM
+a 1.17 mm inner diameter. The ZIF-8 and crystalline IL@ZIF-8 samples required the        cations67,68.
+use of a beam ﬁlter due to detector saturation, giving a transmission factor of 0.519;
+all other samples were used without this beam ﬁlter. Data were collected for an          Solid-state nuclear magnetic resonance (SSNMR) spectroscopy. Single-pulse
+empty capillary (used as a background) and for all samples to a Qmax of 25.0 Å−1         13C, as well as 1H-13C and 1H-15N CP SSNMR, was done using a Bruker Avance III
+(λ = 0.161669 Å, 76.69 keV) with a collection time of 10 min per sample. Data
+normalization, background subtraction, and subsequent Fourier transform was              400 (9.4 T magnet, 400.17 MHz for 1H, 100.62 MHz for 13C, and 40.55 MHz for
+                                                                                         15N) equipped with a 4 mm MAS probehead. Carbon and nitrogen spectra were
+performed using the GudrunX program to obtain the PDFs for each sample60,61.
+The atomic compositions used for this analysis were calculated from TG–MS data           referenced to the external standard α-glycine (carbonyl peak at 176.5 ppm and 15N
+for the ag(IL@ZIF-8-LT) and ag(IL@ZIF-8-HT) samples.                                     peak at 32.9 ppm, respectively). For single-pulse 13C experiments, relaxation times
+                                                                                         were varied from 10 − 150 s for the crystalline IL@ZIF-8 sample and the intensity
+                                                                                         for the longest relaxing carbon (C without any H) was found to be invariant for
+Amorphization of ZIF-8 via ball-milling. About 50 mg of ZIF-8 was loaded into a          D1 > 100 s (t1 ≈ 20 s); this relaxation time was used for all the single-pulse 13C
+10 mL stainless steel jar with 2 mm × 7 mm stainless steel ball bearings. The jar was    experiments, assuming that glassy and IL carbons would relax faster. A 90° pulse of
+then placed into a Retsch MM400 grinder mill operating at 30 Hz for 30 min. The          10 μs (25 kHz) was used for single-pulse 13C, as were optimized on adamantane
+successful amorphization was conﬁrmed by powder XRD.                                     previously, spinning at 10 kHz, while the number of scans varied from 800 to 4104,
+
+NATURE COMMUNICATIONS | (2021)12:5703 | https://doi.org/10.1038/s41467-021-25970-0 | www.nature.com/naturecommunications                                                    11
+ARTICLE                                                                              NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25970-0
+
+
+depending on the sample. Finally, for the collection of the IL spectrum, no spinning     12. Tian, Y. Q. et al. The silica-like extended polymorphism of cobalt(II)
+was used, a 90° pulse of 3.5 μs (71 kHz) was used with SPINAL-64 decoupling was              imidazolate three-dimensional frameworks: X-ray single-crystal structures and
+also used at an rf ﬁeld of 49 kHz.                                                           magnetic properties. Chem. Eur. J. 9, 5673–5685 (2003).
+    For 1H-13C CP, a 2.4 μs (104 kHz) 1H 90° pulse was used with a contact time of       13. Bennett, T. D. et al. Melt-quenched glasses of metal-organic frameworks. J.
+2 ms with a recycle delay of 2.5 s at a 13C rf ﬁeld of 71 kHz whilst the 1H rf ﬁeld          Am. Chem. Soc. 138, 3484–3492 (2016).
+amplitude was ramped up to a maximum of 81 kHz. The number of scans varied               14. Tao, H., Bennett, T. D. & Yue, Y. Melt-quenched hybrid glasses from
+from 2300 to 68,000 for ZIF-8 vs. ag(IL@ZIF-8-HT). In the case of 1H-15N CP, a               metal–organic frameworks. Adv. Mater. 29, 1–6 (2017).
+2.5 μs (100 kHz) 1H 90° pulse was used with a contact time of 3 ms with a recycle        15. Tuffnell, J. M. et al. Novel metal-organic framework materials: blends, liquids,
+delay of 2.5 s at a 15N rf ﬁeld of 56 kHz whilst the 1H rf ﬁeld amplitude was ramped         glasses and crystal-glass composites. Chem. Commun. 55, 8705–8715 (2019).
+up to a maximum of 68 kHz. The number of scans varied from 24,000 to 168,000             16. Frentzel-Beyme, L., Kloß, M., Kolodzeiski, P., Pallach, R. & Henke, S. Meltable
+for ZIF-8 vs. ag(IL@ZIF-8-LT). Spinal-64 decoupling was applied with an rf ﬁeld              mixed-linker zeolitic imidazolate frameworks and their microporous glasses:
+strength of 104 and 100 kHz for 13C and 15N, respectively. 13C was collected                 from melting point engineering to selective hydrocarbon sorption. J. Am.
+spinning at 10 kHz, while 15N was spun at 12 kHz.                                            Chem. Soc. 141, 12362–12371 (2019).
+                                                                                         17. Stillinger, F. H. A topographic view of supercooled liquids and glass
+Gas sorption and Brunauer–Emmet–Teller (BET) analysis. An Autosorb iQ                        formation. Science 267, 1935–1939 (1995).
+instrument (Quantachrome) was used for BET surface area and pore volume                  18. Gaillac, R., Pullumbi, P. & Coudert, F. X. Melting of zeolitic imidazolate
+analysis of ZIF-8, IL@ZIF-8, ag(IL@ZIF-8-LT), and ag(IL@ZIF-8-HT) samples. To                frameworks with different topologies: insight from ﬁrst-principles molecular
+quantify the BET surface area N2 adsorption was monitored at 77 K. Around 50 mg              dynamics. J. Phys. Chem. C. 122, 6730–6736 (2018).
+of sample material were used for each measurement. Samples were outgassed for            19. Stassen, I. et al. Chemical vapour deposition of zeolitic imidazolate framework
+20 h at 10−8 mbar, 125 °C prior to measurement. For the relatively low surface               thin ﬁlms. Nat. Mater. 15, 304–310 (2016).
+areas for ag(IL@ZIF-8-LT) and ag(IL@ZIF-8-HT) samples, N2 and CO2 adsorption             20. Tran, U. P. N., Le, K. K. A. & Phan, N. T. S. Expanding applications of metal-
+experiments at 77 and 273 K, respectively, were repeated using adjusted parameters           organic frameworks: Zeolite imidazolate framework zif-8 as an efﬁcient
+(equilibrium times of 100 s, pressure tolerance of 2% with respect to P0, and                heterogeneous catalyst for the knoevenagel reaction. ACS Catal. 1, 120–127
+degassing temperature of 150 °C).                                                            (2011).
+                                                                                         21. Sun, C. Y. et al. Zeolitic imidazolate framework-8 as efﬁcient pH-sensitive
+Nanoindentation tests. Instrumented indentation experiments were carried at                  drug delivery vehicle. Dalt. Trans. 41, 6906–6909 (2012).
+room temperature using a nanoindenter (G200, KLA Co.) equipped with a Ber-               22. Song, Q. et al. Zeolitic imidazolate framework (ZIF-8) based polymer
+kovich diamond tip (Synton-MDP Inc.). Samples were mounted in a thermosetting                nanocomposite membranes for gas separation. Energy Environ. Sci. 5,
+epoxy resin (Araldite CY212, Agar Scientiﬁc Ltd.). The tip area function and the             8359–8369 (2012).
+instrument’s frame compliance were calibrated prior to the ﬁrst experiments on a         23. Bennett, T. D. et al. Facile mechanosynthesis of amorphous zeolitic
+fused silica reference glass (Corning Code 7980, Corning Inc.), following the                imidazolate frameworks. J. Am. Chem. Soc. 133, 14546–14549 (2011).
+method of Oliver and Pharr69. Depth proﬁles of hardness H and modulus E were             24. Lewis, D. W. et al. Zeolitic imidazole frameworks: structural and energetics
+obtained from indentations conducted in the continuous stiffness mode70. In total,           trends compared with their zeolite analogues. CrystEngComm 11, 2272–2276
+25 indents with a depth limit of 2000 nm were performed per sample at a strain               (2009).
+rate of 0.05 s−1. Values of H were calculated from the load divided by the projected     25. Morris, W. et al. NMR and X-ray study revealing the rigidity of zeolitic
+contact area of the indenter tip and values of E were derived from the reduced               imidazolate frameworks. J. Phys. Chem. C. 116, 13307–13312 (2012).
+modulus71.                                                                               26. Banerjee, Rahul et al. High-throughput synthesis of zeolitic imidazolate
+                                                                                             frameworks and application to CO2 capture. Science 939, 939–944 (2008).
+Data availability                                                                        27. Kinik, F. P., Uzun, A. & Keskin, S. Ionic liquid/metal–organic framework
+The data that support the ﬁndings of this study are shown in the manuscript or
+                                                                                             composites: from synthesis to applications. ChemSusChem 10, 2842–2863
+supporting information, or available from the corresponding author on any request.           (2017).
+                                                                                         28. Gupta, K. M., Chen, Y., Hu, Z. & Jiang, J. Metal-organic framework supported
+                                                                                             ionic liquid membranes for CO2 capture: anion effects. Phys. Chem. Chem.
+Received: 27 January 2021; Accepted: 10 September 2021;                                      Phys. 14, 5785–5794 (2012).
+                                                                                         29. Dhumal, N. R., Singh, M. P., Anderson, J. A., Johannes, K. & Kim, H. J.
+                                                                                             Molecular interactions of a Cu-based metal organic framework with a
+                                                                                             conﬁned imidazolium-based ionic liquid: a combined density-functional
+                                                                                             theory and experimental vibrational spectroscopy study. J. Phys. Chem. C. 120,
+                                                                                             3295–3304 (2016).
+References                                                                               30. Nozari, V., Keskin, S. & Uzun, A. Toward rational design of ionic liquid/
+1.  Furukawa, H., Cordova, K. E., O’Keeffe, M. & Yaghi, O. M. The chemistry and              metal–organic framework composites: effects of interionic interaction energy.
+    applications of metal-organic frameworks. Science 341, 1230444 (2013).                   ACS Omega 2, 6613–6618 (2017).
+2. McDonald, T. M. et al. Cooperative insertion of CO2 in diamine-appended               31. Huddleston, J. G. et al. Characterization and comparison of hydrophilic and
+    metal-organic frameworks. Nature 519, 303–308 (2015).                                    hydrophobic room temperature ionic liquids incorporating the imidazolium
+3. Lee, J. et al. Metal-organic framework materials as catalysts. Chem. Soc. Rev.            cation. Green. Chem. 3, 156–164 (2001).
+    38, 1450–1459 (2009).                                                                32. Maton, C., De Vos, N. & Stevens, C. V. Ionic liquid thermal stabilities:
+4. Horcajada, P. et al. Porous metal-organic-framework nanoscale carriers as a               decomposition mechanisms and analysis tools. Chem. Soc. Rev. 42, 5963–5977
+    potential platform for drug delivery and imaging. Nat. Mater. 9, 172–178                 (2013).
+    (2010).                                                                              33. Kinik, F. P. et al. [BMIM][PF6] Incorporation doubles CO2 selectivity of ZIF-
+5. Xu, W. & Yaghi, O. M. Metal-organic frameworks for water harvesting from                  8: elucidation of interactions and their consequences on performance. ACS
+    air, anywhere, anytime. ACS Cent. Sci. 6, 1348–1354 (2020).                              Appl. Mater. Interfaces 8, 30992–31005 (2016).
+6. Moghadam, P. Z. et al. Development of a Cambridge structural database                 34. Nozari, V., Zeeshan, M., Keskin, S. & Uzun, A. Effect of methylation of ionic
+    subset: a collection of metal-organic frameworks for past, present, and future.          liquids on the gas separation performance of ionic liquid/metal-organic
+    Chem. Mater. 29, 2618–2625 (2017).                                                       framework composites. CrystEngComm 20, 7137–7143 (2018).
+7. Ahmed, A., Forster, M., Clowes, R., Myers, P. & Zhang, H. Hierarchical                35. Ban, Y. et al. Conﬁnement of ionic liquids in nanocages: tailoring the
+    porous metal-organic framework monoliths. Chem. Commun. 50,                              molecular sieving properties of ZIF-8 for membrane-based CO2 capture.
+    14314–14316 (2014).                                                                      Angew. Chem. Int. Ed. 54, 15483–15487 (2015).
+8. Hindocha, S. & Poulston, S. Study of the scale-up, formulation, ageing and            36. Fujie, K., Otsubo, K., Ikeda, R., Yamada, T. & Kitagawa, H. Low temperature
+    ammonia adsorption capacity of MIL-100(Fe), Cu-BTC and CPO-27(Ni) for                    ionic conductor: ionic liquid incorporated within a metal–organic framework.
+    use in respiratory protection ﬁlters. Faraday Discuss 201, 113–125 (2017).               Chem. Sci. 6, 4306–4310 (2015).
+9. Gaillac, R. et al. Liquid metal–organic frameworks. Nat. Mater. 16, 1149–1154         37. Qiao, A. et al. A metal-organic framework with ultrahigh glass-forming ability.
+    (2017).                                                                                  Sci. Adv. 4, 1–8 (2018).
+10. Park, K. S. et al. Exceptional chemical and thermal stability of zeolitic            38. Bennett, T. D. et al. Hybrid glasses from strong and fragile metal-organic
+    imidazolate frameworks. Proc. Natl Acad. Sci. USA 103, 10186–10191 (2006).               framework liquids. Nat. Commun. 6, 1–7 (2015).
+11. Tian, Y. Q. et al. Design and generation of extended zeolitic metal-organic          39. Dutta, R., Rao, M. N. & Kumar, A. Investigation of ionic liquid interaction
+    frameworks (ZMOFs): synthesis and crystal structures of zinc(II) imidazolate             with ZnBDC-metal organic framework through scanning EXAFS and inelastic
+    polymers with zeolitic topologies. Chem. Eur. J. 13, 4146–4154 (2007).                   neutron scattering. Sci. Rep. 9, 14741 (2019).
+
+
+
+12                   NATURE COMMUNICATIONS | (2021)12:5703 | https://doi.org/10.1038/s41467-021-25970-0 | www.nature.com/naturecommunications
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25970-0                                                                                          ARTICLE
+
+40. Cao, Y. & Mu, T. Comprehensive investigation on the thermal stability of 66       68. Banﬁ, D. & Patiny, L. Resurrecting and processing NMR spectra on-line.
+    ionic liquids by thermogravimetric analysis. Ind. Eng. Chem. Res. 53,                 Chim. 62, 280–281, www.nmrdb.org (2008).
+    8651–8664 (2014).                                                                 69. Oliver, W. C. & Pharr, G. M. An improved technique for determining
+41. Hao, Y., Peng, J., Hu, S., Li, J. & Zhai, M. Thermal decomposition of allyl-          hardness and elastic modulus using load and displacement sensing
+    imidazolium-based ionic liquid studied by TGA-MS analysis and DFT                     indentation experiments. J. Mater. Res. 7, 1564 (1992).
+    calculations. Thermochim. Acta 501, 78–83 (2010).                                 70. Limbach, R., Rodrigues, B. P. & Wondraczek, L. Strain-rate sensitivity of
+42. Xue, Z., Zhang, Y., Zhou, X. Q., Cao, Y. & Mu, T. Thermal stabilities and             glasses. J. Non Cryst. Solids 404, 124–134 (2014).
+    decomposition mechanism of amino- and hydroxyl-functionalized ionic               71. Longley, L. et al. Metal-organic framework and inorganic glass composites.
+    liquids. Thermochim. Acta 578, 59–67 (2014).                                          Nat. Commun. 11, 1–12 (2020).
+43. Chen, Y., Cao, Y., Shi, Y., Xue, Z. & Mu, T. Quantitative research on the
+    vaporization and decomposition of [EMIM][Tf2N] by thermogravimetric
+    analysis-mass spectrometry. Ind. Eng. Chem. Res. 51, 7418–7427 (2012).            Acknowledgements
+44. Packer, K. J., Harris, R. K., Kenwright, A. M. & Snape, C. E. Quantitative        This project has received funding from the European Research Council (ERC) under the
+    aspects of solid state 13C n.m.r. of coals and related materials. Fuel 62,        European Union’s Horizon 2020 research and innovation program (ERC grant no.
+    999–1002 (1983).                                                                  681652), the Carl Zeiss Foundation (Durchbrüche 2019), and the Deutsche For-
+45. Baxter, E. F. et al. Combined experimental and computational NMR study of         schungsgemeinschaft (DFG, German Research Foundation) under Germany’s Excellence
+    crystalline and amorphous zeolitic imidazolate frameworks. Phys. Chem.            Strategy—EXC 2051—Project-ID 390713860. T.D.B. acknowledges the Royal Society for
+    Chem. Phys. 17, 25191–25196 (2015).                                               a University Research Fellowship (UF150021), the Leverhulme Trust for a Philip
+46. Noack, K., Schulz, P. S., Paape, N. & Kiefer, J. The role of the C2 position in   Leverhulme Prize, and the University of Canterbury Te Whare Wānanga o Waitaha, New
+    interionic interactions of imidazolium based ionic liquids: a vibrational and     Zealand, for a University of Cambridge Visiting Canterbury Fellowship. J.M.T.
+    NMR spectroscopic study. Phys. Chem. Chem. Phys. 12, 14153–14161 (2010).          acknowledges funding from the NanoDTC EPSRC Grant EP/L015978/1. We extend our
+47. Wulf, A., Fumino, K. & Ludwig, R. Spectroscopic evidence for an enhanced          gratitude to Diamond Light Source, Rutherford Appleton Laboratory, UK, for access to
+    anion-cation interaction from hydrogen bonding in pure imidazolium ionic          Beamline I15-1 (EE20038), Michael F. Thorne and Lauren N. McHugh at the University
+    liquids. Angew. Chem. Int. Ed. 49, 449–453 (2010).                                of Cambridge, for their assistance in carrying out room temperature XPDF measure-
+48. Chen, B. C., Von Philipsborn, W. & Nagarajan, K. 15N-NMR spectra of azoles        ments, as well as Aaron Reupert, Rene Limbach, and Erik Troschke at the University of
+    with two heteroatoms. Helv. Chim. Acta 66, 1537–1555 (1983).                      Jena, for technical assistance with laser scanning microscopy, indentation testing, and gas
+49. Fujii, K. et al. Liquid structure of room-temperature ionic liquid, 1-ethyl-3-    adsorption experiments, respectively.
+    methylimidazolium bis-(triﬂuoromethanesulfonyl) imide. J. Phys. Chem. B
+    112, 4329–4336 (2008).                                                            Author contributions
+50. Dong, K., Zhang, S. & Wang, J. Understanding the hydrogen bonds in ionic          L.W., V.N., and T.D.B. conceived of this study. Sample synthesis, preparation, thermal
+    liquids and their roles in properties and reactions. Chem. Commun. 52,            analysis, and optical spectroscopy were done by V.N. C.C. conducted NMR studies.
+    6744–6764 (2016).                                                                 X-ray total scattering measurements and interpretations were carried out by J.M.T., with
+51. Stejskal, J., Dybal, J. & Trchová, M. The material combining conducting           the assistance of D.A.K. and T.D.B. Microscopic investigations were performed by V.N.,
+    polymer and ionic liquid: hydrogen bonding interactions between polyaniline       C.C., and L.W. V.N. and C.C. wrote the ﬁrst draft of the manuscript with the help of
+    and imidazolium salt. Synth. Met. 197, 168–174 (2014).                            L.W. All authors were involved in data interpretation, critical discussion, and manuscript
+52. Zhang, Q. G., Wang, N. N. & Yu, Z. W. The hydrogen bonding interactions           revisions.
+    between the ionic liquid 1-Ethyl-3-methylimidazolium ethyl sulfate and water.
+    J. Phys. Chem. B 114, 4747–4754 (2010).
+53. Gowda, C. M. et al. Hydrogen bonding and chemical shift assignments in            Funding
+    carbazole functionalized isocyanides from solid-state NMR and ﬁrst-principles     Open Access funding enabled and organized by Projekt DEAL.
+    calculations. Phys. Chem. Chem. Phys. 13, 13082–13095 (2011).
+54. Casas, J. M., Forniés, J., Martín, A. & Rueda, A. J. Synthesis of a dinuclear
+    platinum-silver complex containing a reactive acetone imine prepared in situ
+                                                                                      Competing interests
+                                                                                      The authors declare no competing interests.
+    from acetone and ammonia and stabilized by metal complexation.
+    Organometallics 21, 4560–4563 (2002).
+55. Sinn, E. & Harris, C. M. Schiff base metal complexes as ligands1. Coord. Chem.    Additional information
+    Rev. 4, 391–422 (1969).                                                           Supplementary information The online version contains supplementary material
+56. Longley, L. et al. Flux melting of metal-organic frameworks. Chem. Sci. 10,       available at https://doi.org/10.1038/s41467-021-25970-0.
+    3592–3601 (2019).
+57. Wang, Y. et al. A MOF glass membrane for gas separation. Angew. Chem. Int.        Correspondence and requests for materials should be addressed to Lothar Wondraczek.
+    Ed. 59, 4365–4369 (2020).
+58. Shatnawi, M. T. M. The ﬁrst sharp diffraction peak in the total structure         Peer review information Nature Communications thanks Shuhei Furukawa and the
+    function of amorphous chalcogenide glasses: anomalous characteristics and         other, anonymous, reviewer(s) for their contribution to the peer review of this work. Peer
+    controversial views. N. J. Glas. Ceram. 06, 37–46 (2016).                         reviewer reports are available.
+59. Crupi, C., Carini, G., González, M. & D’Angelo, G. Origin of the ﬁrst sharp
+    diffraction peak in glasses. Phys. Rev. B Condens. Matter Mater. Phys. 92, 1–7    Reprints and permission information is available at http://www.nature.com/reprints
+    (2015).
+60. Soper, A. K. GudrunN and GudrunX: Programs for Correcting Raw Neutron             Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in
+    and X-ray Diffraction Data to Differential Scattering Cross Section. Report No.   published maps and institutional afﬁliations.
+    RAL-TR-201 (2011).
+61. Soper, A. K. & Barney, E. R. Extracting the pair distribution function from
+    white-beam X-ray total scattering data. J. Appl. Crystallogr. 44, 714–726
+                                                                                                        Open Access This article is licensed under a Creative Commons
+    (2011).
+                                                                                                        Attribution 4.0 International License, which permits use, sharing,
+62. Keen, D. A. A comparison of various commonly used correlation functions for
+                                                                                      adaptation, distribution and reproduction in any medium or format, as long as you give
+    describing total scattering. J. Appl. Crystallogr. 34, 172–177 (2001).
+                                                                                      appropriate credit to the original author(s) and the source, provide a link to the Creative
+63. Tan, J. C., Bennett, T. D. & Cheetham, A. K. Chemical structure, network
+                                                                                      Commons license, and indicate if changes were made. The images or other third party
+    topology, and porosity effects on the mechanical properties of zeolitic
+                                                                                      material in this article are included in the article’s Creative Commons license, unless
+    imidazolate frameworks. Proc. Natl Acad. Sci. USA 107, 9938–9943 (2010).
+64. Tian, T., Velazquez-Garcia, J., Bennett, T. D. & Fairen-Jimenez, D.               indicated otherwise in a credit line to the material. If material is not included in the
+    Mechanically and chemically robust ZIF-8 monoliths with high volumetric           article’s Creative Commons license and your intended use is not permitted by statutory
+    adsorption capacity. J. Mater. Chem. A 3, 2999–3005 (2015).                       regulation or exceeds the permitted use, you will need to obtain permission directly from
+65. Li, S. et al. Mechanical properties and processing techniques of bulk metal-      the copyright holder. To view a copy of this license, visit http://creativecommons.org/
+    organic framework glasses. J. Am. Chem. Soc. 141, 1027–1034 (2019).               licenses/by/4.0/.
+66. Wojdyr, M. Fityk: a general-purpose peak ﬁtting program. J. Appl. Crystallogr.
+    43, 1126–1128 (2010).
+                                                                                      © The Author(s) 2021
+67. Aires-de-Sousa, J., Hemmer, M. C. & Gasteiger, J. Prediction of 1H NMR
+    chemical shifts using neural networks. Anal. Chem. 74, 80–90 (2002).
+
+
+
+NATURE COMMUNICATIONS | (2021)12:5703 | https://doi.org/10.1038/s41467-021-25970-0 | www.nature.com/naturecommunications                                                     13
+

@@ -1,0 +1,16 @@
+# Corpus manifest — CRC Handbook of Chemistry and Physics, 97th Edition (2016-2017)
+# Editor: W. M. Haynes; CRC Press; ISBN 978-1-4987-5429-3 (eBook - PDF)
+# File: /book/CRC_Handbook_of_Chemistry_and_Physics_97.pdf (2643 pages)
+#
+# This single textbook is enumerated as a corpus of its mp/bp-bearing TABLE SECTIONS.
+# Each entry is a (section, PDF page range) bearing per-compound melting-point and/or
+# boiling-point data. The textbook is a recognized standard reference; source_url
+# uses textbook:crc_hcp_97.
+#
+# Format: SECTION_ID<TAB>PDF_PAGE_RANGE<TAB>BOOK_PAGE_RANGE<TAB>DESCRIPTION
+S3_ORGANIC	142-690	3-4 to 3-552	Physical Constants of Organic Compounds (data on even PDF pages, structures on odd) — ~10,900 compounds with mp/°C and bp/°C columns
+S4_INORGANIC	764-815	4-45 to 4-96	Physical Constants of Inorganic Compounds — ~3,200 compounds with mp/°C and bp/°C columns
+S4_ELEMENTS	835-837	4-116 to 4-118	Melting, Boiling, Triple, and Critical Points of the Elements — ~118 elements with tm/°C and tb/°C
+S4_RARE_EARTH	830	4-111	Physical Properties of the Rare Earth Metals — Table 1 has melting point (°C) column for ~17 rare earths
+S4_VAPOR_PRESSURE_MET	840-842	4-121 to 4-123	Vapor Pressure of the Metallic Elements — has mp/K column for ~65 metallic elements
+S6_ENTHALPY_FUSION	1207-1215	6-154 to 6-162	Enthalpy of Fusion — has tm/°C column for hundreds of compounds

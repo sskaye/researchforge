@@ -1,0 +1,14 @@
+# Sections of the CRC Handbook 97th Edition intentionally excluded from extraction
+# Format: section<TAB>reason
+S15_METALS_ALLOYS_LOW_MT	formulation_only_no_discrete_compound	# PDF p. 2471 — alloy eutectics (Bi-Cd-Pb-Sn, etc.) are mixtures, not pure compounds. Pure-element rows duplicate S4_ELEMENTS.
+S6_ENTHALPY_VAPORIZATION_redundant	dedup_with_S3_S4	# PDF ~1190-1207 — bp values restated for compounds already in S3 organic / S4 inorganic. Same source. Skipping to avoid intra-textbook duplication.
+S6_SURFACTANTS_dedup	dedup_with_S3	# PDF ~1250-1260 — surfactant table mp/bp columns mostly duplicate S3 organic entries.
+S5_VAPOR_PRESSURE_REFRIGERANTS	no_per_compound_mp_bp_row	# Tabulates vapor pressure curves, not mp/bp values
+S4_HEAT_CAPACITY	no_mp_bp_data_in_text	# PDF p. 838 — heat capacity table, no mp/bp columns
+S4_DENSITY_MOLTEN	no_mp_bp_data_in_text	# PDF p. 843 — density at mp listed but no mp value itself in this table
+S6_ICE_MELTING_VS_PRESSURE	formulation_only_no_discrete_compound	# Single substance (ice) at varying pressure; not a compound database
+S6_MERCURY_THERMAL	formulation_only_no_discrete_compound	# Single substance (Hg) tabulated as a function of T; mp value duplicates elements table
+S6_SUBLIMATION_PRESSURE	no_per_compound_mp_bp_row	# Sublimation pressure curves; sublimation temperatures rather than mp/bp at 1 atm
+S2_NOBEL_NAMES	no_mp_bp_data_in_text
+S5_THERMODYNAMICS	no_mp_bp_data_in_text	# Standard ΔHf, S° etc., no mp/bp
+S16_FLAMMABILITY	dedup_with_S3	# Flammability table has bp for solvents but these are subset of S3 organic

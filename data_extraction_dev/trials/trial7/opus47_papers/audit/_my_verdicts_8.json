@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "390",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row '1g C 16 H 15 ClN 2 S 337.3 Cl H 218-219 83' confirms compound 1g = 6-chloro-2,2-dimethyl-3-phenyl-1,2-dihydroquinazoline-4(3H)-thione (X=Cl, R=H) with mp 218-219 °C in Molecules 2003, 8, 756-769; DOI 10.3390/81100756 resolves to this paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "698",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2 (1-(3-Benzocoumarinyl)-3-dimethylamino-2-propen-1-one) described as orange crystals with mp 157 °C; quote present verbatim with name; DOI 10.3390/80700541 resolves to Al-Zaydi paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "753",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 17 in paper text matches '3-(2-oxopropyl)-1H-indole-2-carboxylic acid ethyl ester' (after correcting typo 'oxopropil') with m.p. 114-116 °C; DOI 10.3390/60800683 resolves to paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "781",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 12c (full IUPAC matches CSV) described as brown solid, MP = 230-232 °C in section 4.1.3; DOI 10.1039/d5ra09311b resolves to paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1410",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 4.2.8 reports '6-(Trifluoromethyl)quinolin-2(1H)-one (2h)... A white solid; m.p. = 195-196 °C'; DOI 10.1021/acsomega.5c13222 resolves to paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "949",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row '4-Cl C 69 114-16 109.8-113.2 [20]' identifies 4-ClC6H4I(OAc)2 (1-(Diacetoxyiodo)-4-chlorobenzene) with mp 114-116 °C (range-shorthand '114-16' expanded correctly); DOI 10.3390/61100881 resolves to paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1172",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 22b text: '1-(2,4,6-Trimethylbenzenesulfonyl)-1H-indole-5-carboxylic acid methyl ester (22b)... white solid (mp 131-133 °C)'; DOI 10.1021/jm3014162 resolves to Zhou 2013 paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "405",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 14: '(1R,2S,3R,5R)-1,2-O-cyclohexylidene-5-C-[(O-tosyl)-hydroxymethyl]-cyclohexane-1,2,3,5-tetrol (14): m p 134-136 °C'; DOI 10.3390/60900728 resolves to paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "647",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8b text: '3-{3-[4-(2-pyrimidinyl)-1-piperazinyl]propyl}-2-phenyl-2,3-dihydrophthalazine-1,4-dione ( 8b ) Base 8b was obtained in 63% yield, m.p. 128-130°C'; DOI 10.3390/60900784 resolves.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "60",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.2.15 reports '3,5-Diamino-4-[(3,5-Dimethylphenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide (5l)... Melting Point: 228-229 °C'; DOI 10.3390/ph19020239 resolves.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "726",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6a labeled '10H-benzo[i]quino[2,3,4-kl]acridin-10-one (6a)' afforded as amorphous powder, m.p. 255 °C; DOI 10.3390/60400300 resolves to paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "622",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2m: '3-(2-furanyl)-6-phenyl-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2m): Yield 53 %; M.p. 203-205 °C'; DOI 10.3390/70800681 resolves.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "321",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6a: '2-(Benzylsulfanyl)-8-[(4-methoxyphenyl)hydrazono]-1,8-dihydropurin-6-one (6a). Yellow solid; mp > 300 °C'; relation '>' correctly captured; DOI 10.3390/molecules16108788 resolves.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "531",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6a: '6-fluoro-5-(4-piperazin-1-yl)-1H-benzo[d]imidazole (6a) Solid orange crystals... M.P.: 234-236 °C'; DOI 10.3390/molecules31050844 resolves.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1071",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 2.2.4 reports '(E)-2,10,14-trimethyl-4-(phenylamino)pentadeca-2,9,13-trien-6-one (1d) White Solid; mp: 147 °C-149 °C'; DOI 10.3389/fchem.2023.1303479 resolves.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1095",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4b: '2-[2-(1-{2-[1,3-Dimethyl-2,6-dioxo-2,3-dihydro-1H-purin-7(6H)-yl]ethyl}-5-methyl-2-oxo-2,3-dihydro-1H-indol-3-ylidene)hydrazinyl]-N,N,N-trimethyl-2-oxoethan-1-aminium chloride (4b). Yield 0.13 g (89%), yellow powder, mp >300°C (decomp.)'; property 'decomposition' correct given (decomp.) annotation; DOI resolves.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "820",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 16a: '2-(4-(((2-oxo-2H-chromen-7-yl)oxy)methyl)-1H-1,2,3-triazol-1-yl)-N-(1,2,3,4-tetrahydroacridin-9-yl)acetamide (16a). Yield 65%, white solid, mp 259-261 °C'; DOI 10.3390/molecules31040595 resolves.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1383",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 row 'Octadecanoic acid 57-11-4 Fatty Acid 228.26 ± 1.01 67.8 ± 0.2 70 ± 0.1 63.66-66.31 195.4 ± 1.4'; the 67.8 ± 0.2 column corresponds to Melting Onset (°C) confirming DSC_onset; DOI 10.3390/ma13204486 resolves.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "786",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 4.1.8 reports compound 12h (full IUPAC matches) as 'Cream solid; yield: 68%; MP = 212-214 °C'; DOI 10.1039/d5ra09311b resolves. Note: CSV evidence_quote field says 'Cream solid' while my extraction shows 'Cream solid' (matches paper); Q5 verifiable.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1101",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Brown 2000 Table 1 lists 'C5H12 2,2-dimethylpropane 256.6' (K); conversion 256.6 - 273.15 = -16.55 °C is arithmetically correct; legacy citation matches PDF in corpus.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "499",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 8 row '12. 2-methyl-1-butanol 128.70 126.39 2.31 1.80 127.97 (0.73)'; the 128.70 is the experimental Bp column (a literature-compiled experimental value, valid for meas_calc=measured); pmc:PMC6146921 resolves to the article.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1136",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Brown 2000 Table 2 lists 'C6H5I iodobenzene 241.9' (K); conversion 241.9 - 273.15 = -31.25 °C is arithmetically correct; legacy citation matches PDF in corpus.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "312",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11: '3-Cyclohexyl-1-(5-benzyl-4-phenyl-4H-[1,2,4]triazol-3-thiomethyl)-urea (11). From cyclohexylamine (0.10 g). Colorless crystals (0.35 g, 83%); mp 99 °C'; DOI 10.3390/molecules15106759 resolves.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "784",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 4.1.6 reports compound 12f (full IUPAC matches CSV) as 'Cream solid; yield: 63%; MP = 235-237 °C'; DOI 10.1039/d5ra09311b resolves.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1290",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Dearden 2009 Table 2 row 'Tetrahydrofuran 64.9 69.4 ...' where 64.9 is the experimental boiling point column (column 1); QSPR Exp. column is an experimental literature-compiled value, valid for meas_calc=measured; DOI 10.1897/01-363 resolves.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]

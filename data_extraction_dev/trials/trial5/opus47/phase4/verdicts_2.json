@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "644",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3, m.p. 109-110 °C verbatim in experimental section of Sun 2001; DOI 10.3390/61201001 matches paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1803",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10a (1-Benzyl-N-cyclohexyl...carboxamide), M.p. = 206 – 207 °C in Gomez-Ayuso 2024 (bjoc.20.154).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "169",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5g (5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-3-ylmethyl)-amino]pyridazin-3(2H)-one), mp = 163–164 °C; DOI 10.3390/molecules31040699 matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1255",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8b, mp 90–92 °C in PMC13103808; quote matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1736",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Propionic acid melting peak −22.2 ± 0.08 °C in Table 5 of Muller 2020 (ma13204486); measured DSC peak value.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1231",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 7 (4-(trans-2-butenyl)-5-methyl-3-phenyl-4H-1,2,4-triazole), Mp 103-104 °C; DOI 10.3390/60500481 matches.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "370",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4h, mp 99.6 °C in experimental section of Russ. J. Org. Chem. 2022 (10.1134/S107042802211001X).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1554",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11b (4-methoxy-N-(2-oxo-2H-chromen-6-yl)benzenesulfonamide), mp 202–204 °C in ijms25126803.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "143",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2m, mp 161–162 °C; DOI 10.3390/molecules31040699 matches paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1469",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Caloxanthone B (compound 2), m.p. 157–158 °C in molecules16053999.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1598",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Methylcyclobutane sample constants give bp 37.1° at 760 mm in Lemaire & Livingston 1952; legacy source_url matches paper. OCR is degraded but value extracted matches.",
+    "verifiable": false,
+    "verifiability_tag": "compound_name_missing_from_quote"
+  },
+  {
+    "row_id": "314",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5 (2-((4-Hydroxybenzyl)oxy)isoindoline-1,3-dione), mp 145–148 °C in molecules29122942.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "893",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2b (6-Methyl-1-(4-methylbenzyl)-N-(pyrrolidin-1-yl)... carbohydrazide), M.p. 102–105 °C in ijms27052306.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "167",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5d, mp 193–195 °C; quote has minor leading-character truncation ('-' instead of '4-') but unique substring match holds.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "815",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "4-methyl-2-pentanol experimental bp 131.70 °C in Table 8 of PMC6146921; measured (experimental column).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1679",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4o, m.p. 287-288 °C in Rubstov 2019 (acs.joc.9b00711) experimental section.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1002",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6a (4-[2-Ethoxy-4-quinazolon-3-yl]benzoic acid), m.p. 151–152 °C in ph4071032.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "689",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9b, M.p. 308-310 °C in experimental section of 10.3390/80400363.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "352",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10f, mp 167 °C in molecules28227590 synthesis section.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "714",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "3-Hydroxy-2-methyl-3,3-diphenylpropanoic acid, Melting point 180 °C in PMC3685236.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "529",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 13a (Morpholine-4-carboxylic acid (5-benzyl-4-phenyl-4H-[1,2,4]triazol-3-thiomethyl)-amide), mp 91 °C in molecules15106759.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1107",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8c-HCl (hydrochloride salt of 8c), m.p. 179-183 °C in 10.3390/60900784.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "669",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2d (3-(4-bromophenyl)-6-chloro-2-methylquinazoline-4(3H)-thione), mp 212-214 °C in Table 1 of 10.3390/81100756.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "448",
+    "verdict": "flagged_review",
+    "reason": "source_url_not_paper_specific",
+    "details": "Compound 2b and mp 34–36 °C verified in PMC6193367, but source_url https://doi.org/10.1055/s-00000084 is the Thieme Synthesis journal-level DOI prefix, not the article DOI; metadata.json shows DOI field empty. Compound/value correct.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "106",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11 ((2E,4E)-N-Isobutyl-5-phenylpenta-2,4-dienamide), Mp 109–112 °C in ijms27041716.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]

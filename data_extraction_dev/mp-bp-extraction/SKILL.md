@@ -1,7 +1,7 @@
 ---
 name: mp-bp-extraction
-description: LLM-driven evidence-locked extraction of melting-point and boiling-point data (plus DSC onset, decomposition, sublimation) from supplied journal articles. The agent reads each paper directly (Read / bash / pdftotext) and writes rows with a mandatory evidence_quote. The four fields compound_name, value_raw, evidence_quote, source_url come from LLM reading, not scripts — no regex extractors and no data-entry helpers that hardcode paper content. The bar for emitting a row is compound + value + source correct; quote fidelity is a separate verifiability metric that lints flag advisory-only (Phase-3 lints do NOT auto-drop rows on quote-fidelity issues). DOIs must come from the paper file, never from training memory. Phase 4 independent verification is mandatory before declaring success (max(100, 5%) sample, parallel verifier agents). Apply when compiling, auditing, or extending an mp/bp database from supplied papers. Do NOT use to fetch papers from the web.
-version: v1.6
+description: LLM-driven evidence-locked extraction of melting-point and boiling-point data (plus DSC onset, decomposition, sublimation) from supplied journal articles. The agent reads each paper directly (Read / bash / pdftotext) and writes rows with a mandatory evidence_quote. Phase 0 requires enumerating the corpus to `_corpus_manifest.txt` first (descending into subfolders) and logging intentional exclusions to `_skipped.txt`; silent omission is forbidden. The four fields compound_name, value_raw, evidence_quote, source_url come from LLM reading, not scripts — no regex extractors and no data-entry helpers. The bar for emitting a row is compound + value + source correct; quote fidelity is a separate verifiability metric (advisory). DOIs must come from the paper file, never from memory. Past trial outputs are reference, not protocol. Phase 4 independent verification is mandatory (max(100, 5%) parallel sample). Apply when compiling, auditing, or extending an mp/bp database from supplied papers.
+version: v1.7
 ---
 
 # mp/bp extraction protocol
@@ -12,10 +12,11 @@ version: v1.6
 
 You — the agent invoking this skill — will:
 
-1. **Iterate the corpus one paper at a time.** Use the Read tool / bash / `pdftotext` to open each paper's `article.nxml`, `article_text.txt`, or `article.pdf` and read the actual text.
-2. **For each paper, write extracted rows yourself.** Apply the EXTRACTION_PROMPT_TEMPLATES.md Template 1 protocol per paper. Each row must include a verbatim `evidence_quote` drawn from text you actually read.
-3. **Run the bundled scripts AFTER extraction as deterministic checks** — they validate SMILES, value ranges, unit arithmetic, CSV formatting, evidence-quote presence, etc. They are NOT the extraction engine.
-4. **Run mandatory Phase 4 independent verification** before declaring the output ready. Dispatching fresh Claude agents (or equivalent) to re-audit a random sample against the source papers is required, not optional.
+1. **Enumerate the corpus first (Phase 0).** Before processing any paper, write `_corpus_manifest.txt` listing every paper-bearing location, descending into subfolders. Any location you intentionally skip goes in `_skipped.txt` with a reason. Do NOT silently omit corpus parts.
+2. **Iterate the corpus one paper at a time.** Use the Read tool / bash / `pdftotext` to open each paper's `article.nxml`, `article_text.txt`, or `article.pdf` and read the actual text.
+3. **For each paper, write extracted rows yourself.** Apply the EXTRACTION_PROMPT_TEMPLATES.md Template 1 protocol per paper. Each row must include a verbatim `evidence_quote` drawn from text you actually read.
+4. **Run the bundled scripts AFTER extraction as deterministic checks** — they validate SMILES, value ranges, unit arithmetic, CSV formatting, evidence-quote presence, etc. They are NOT the extraction engine.
+5. **Run mandatory Phase 4 independent verification** before declaring the output ready. Dispatching fresh Claude agents (or equivalent) to re-audit a random sample against the source papers is required, not optional.
 
 You will NOT:
 
@@ -29,8 +30,10 @@ Before starting, confirm:
 
 - [ ] I am an LLM agent applying this protocol by reading papers directly.
 - [ ] I will NOT write a Python regex extractor. The scripts in `scripts/` are post-extraction checks only.
+- [ ] **Before Phase 1**, I will enumerate every paper-bearing location in the corpus (descending into subfolders) and write the enumeration to `_corpus_manifest.txt`. Anything I intentionally skip will be logged in `_skipped.txt` with a one-line reason. I will NOT silently skip parts of the corpus. See Phase 0 below.
 - [ ] I will process each paper via Read / bash / `pdftotext` and produce rows with mandatory verbatim `evidence_quote`.
 - [ ] I will run Phase 4 independent verification (fresh-context agent re-audit of a random sample) before declaring success.
+- [ ] I will treat any past trial's outputs as historical reference, NOT as protocol. Operational choices made in previous runs do not bind this one.
 
 ## Goal
 
@@ -126,9 +129,34 @@ A calculated value:
 3,pending_verification,Anthracene,,melting_point,210.0,,,210.0 °C,=,calculated,"AI-powered prediction of critical properties ...",https://doi.org/10.xxxx/xxxxx,"Table 4 row 'Anthracene' col 'mp_calc'","Anthracene 210.0 °C (predicted by MPBP)",,QSPR_SOFTWARE
 ```
 
-## The six phases
+## The phases
 
-### Phase 1 — Source preparation (always do this first)
+### Phase 0 — Corpus manifest (required, before anything else)
+
+Before processing any paper, enumerate every paper-bearing location in the corpus. The goal is to make the set of papers you will process explicit and accounted for. Silent omission of corpus parts has been the dominant recall problem in past trials.
+
+**Required outputs:**
+
+- `_corpus_manifest.txt` — one entry per paper-bearing location in the corpus. **Descend into subfolders.** A paper-bearing location is anything that contains an article body: an indexed subdirectory containing `article.nxml` / `article.pdf` / `article_text.txt`, a standalone `.pdf` file at the corpus root or inside a category subfolder, an `article.html` companion to a PDF, or any other layout the corpus actually uses. Use whatever enumeration mechanism is appropriate for the corpus layout you've been given (`ls`, `find`, `glob`, etc.). The skill does not prescribe a specific command because corpora vary in structure.
+- `_skipped.txt` — one line per paper-bearing location you intentionally exclude from extraction, formatted as `<location>\t<reason>`. Allowed reasons (use the most specific):
+  - `review_no_per_compound_binding` — review / ML / QSPR paper with no per-compound mp/bp table.
+  - `bare_code_compounds_only` — compounds referenced only by codes like `compound 4a-l`, no IUPAC names.
+  - `no_mp_bp_data_in_text` — paper has no melting/boiling-point data at all.
+  - `tga_or_nmr_only_no_mp_bp` — characterization without mp/bp (TGA, NMR, IR alone).
+  - `binding_ambiguous` — values present but not cleanly bindable to compounds in the linearized text.
+  - `image_only_compound_table` — compound table is structure images without textual names.
+  - `formulation_only_no_discrete_compound` — values are for mixtures / formulations, not pure compounds.
+  - `paper_unreadable` — file is corrupt, encrypted, or empty after `pdftotext`.
+
+Anything not in this list goes in `_skipped.txt` with a free-text reason; ask the user before doing so.
+
+**Phase 1 is gated on the manifest being non-empty.** If your manifest has zero entries, stop — the corpus path is wrong or the enumeration is broken.
+
+**The EXTRACTION_SUMMARY.md you produce at the end must account for every manifest entry as either processed or skipped-with-reason.** The accounting is `processed + skipped == manifest`, no silent loss.
+
+**Do not skip a paper-bearing location because a prior trial run skipped it.** Past trials are reference, not protocol. See the anti-pattern about this in the anti-patterns section.
+
+### Phase 1 — Source preparation (per-paper, after Phase 0)
 
 For each paper subdirectory in the user's input:
 
@@ -296,6 +324,7 @@ Scripts are NOT allowed for:
 - ❌ "I'll add author names to the source field" — DOI is the canonical identifier.
 - ❌ "I'll truncate the compound name to save space" — never truncate.
 - ❌ "I'll extract this NMR shift, it looks like an mp value" — read the surrounding context (NMR / MS values can land in mp/bp range numerically but aren't mp/bp).
+- ❌ **"The prior trial run did X, so I'll do X too."** — Past trial outputs (e.g., a `Trial<N>-*/EXTRACTION_SUMMARY.md`, a sibling agent's run notes, an example run from documentation) are *observations* about what some other agent did on some other day. They can inform what to look out for, but they do NOT define protocol. Only this SKILL.md and your assigned corpus define your task. If a past run skipped part of the corpus, that's a fact about that run, not a directive for yours. If a past run made a particular methodological choice, that's a data point, not authority. When in doubt, ask the user; do not adopt prior-run choices as if they were rules. (Trial-4 observed an agent silently excluding ~50 papers by lifting an exclusion regex from a previous trial's summary — a 17 % recall loss caused by treating reference material as protocol.)
 
 ## How this protocol catches errors observed in the wild
 

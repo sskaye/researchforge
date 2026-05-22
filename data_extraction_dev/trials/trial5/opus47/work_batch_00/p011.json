@@ -1,0 +1,242 @@
+{
+  "2a": {
+    "name": "5-Acetyl-2-ethyl-6-phenyl-4-phenylaminopyridazin-3(2H)-one",
+    "mp": "187–189",
+    "quote": "l. 5-Acetyl-2-ethyl-6-phenyl-4-phenylaminopyridazin-3(2H)-one, 2a Yield = 43%; mp = 187–189 °C"
+  },
+  "2b": {
+    "name": "5-Acetyl-2-ethyl-4-(3-fluorophenylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "174–175",
+    "quote": ". 5-Acetyl-2-ethyl-4-(3-fluorophenylamino)-6-phenylpyridazin-3(2H)-one, 2b Yield = 52%; mp = 174–175 °C"
+  },
+  "2c": {
+    "name": "5-Acetyl-4-(3-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "186–187",
+    "quote": ". 5-Acetyl-4-(3-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2c Yield = 64%; mp = 186–187 °C"
+  },
+  "2d": {
+    "name": "5-Acetyl-4-(3-bromophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "189–190",
+    "quote": ". 5-Acetyl-4-(3-bromophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2d Yield = 65%; mp = 189–190 °C"
+  },
+  "2e": {
+    "name": "5-Acetyl-2-ethyl-4-(3-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "158–159",
+    "quote": ". 5-Acetyl-2-ethyl-4-(3-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2e Yield = 54%; mp = 158–159 °C"
+  },
+  "2f": {
+    "name": "3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)-benzonitrile",
+    "mp": "226–227",
+    "quote": "3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)-benzonitrile, 2f Yield = 53%; mp = 226–227 °C"
+  },
+  "2g": {
+    "name": "5-Acetyl-2-ethyl-6-phenyl-4-(3-trifluoromethylphenylamino)pyridazin-3(2H)-one",
+    "mp": "157–159",
+    "quote": ". 5-Acetyl-2-ethyl-6-phenyl-4-(3-trifluoromethylphenylamino)pyridazin-3(2H)-one, 2g Yield = 35%; mp = 157–159 °C"
+  },
+  "2h": {
+    "name": "5-Acetyl-2-ethyl-4-(3-hydroxyphenylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "185–187",
+    "quote": ". 5-Acetyl-2-ethyl-4-(3-hydroxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2h Yield = 22%; mp = 185–187 °C"
+  },
+  "2i": {
+    "name": "3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)benzoic acid",
+    "mp": "262–264",
+    "quote": "3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)benzoic Acid, 2i Yield = 77%; mp = 262–264 °C"
+  },
+  "2j": {
+    "name": "5-Acetyl-2-ethyl-4-(2-fluorophenylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "184–186",
+    "quote": ". 5-Acetyl-2-ethyl-4-(2-fluorophenylamino)-6-phenylpyridazin-3(2H)-one, 2j Yield = 43%; mp = 184–186 °C"
+  },
+  "2k": {
+    "name": "5-Acetyl-4-(4-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "183–184",
+    "quote": ". 5-Acetyl-4-(4-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2k Yield = 64%; mp = 183–184 °C"
+  },
+  "2l": {
+    "name": "5-Acetyl-4-(4-bromophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "185–186",
+    "quote": ". 5-Acetyl-4-(4-bromophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2l Yield = 70%; mp = 185–186 °C"
+  },
+  "2m": {
+    "name": "5-Acetyl-2-ethyl-4-(4-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "161–162",
+    "quote": ". 5-Acetyl-2-ethyl-4-(4-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2m Yield = 67%; mp = 161–162 °C"
+  },
+  "2o": {
+    "name": "4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydro-pyridazin-4-ylamino)benzoic acid ethyl ester",
+    "mp": "171–173",
+    "quote": "4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydro-pyridazin-4-ylamino)benzoic Acid Ethyl Ester, 2o Yield = 40%; mp = 171–173 °C"
+  },
+  "2p": {
+    "name": "5-Acetyl-2-ethyl-4-(4-nitrophenylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "209–211",
+    "quote": ". 5-Acetyl-2-ethyl-4-(4-nitrophenylamino)-6-phenylpyridazin-3(2H)-one, 2p Yield = 73%; mp = 209–211 °C"
+  },
+  "2q": {
+    "name": "3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydro-pyridazin-4-ylamino)-benzonitrile",
+    "mp": "204–205",
+    "quote": "3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydro-pyridazin-4-ylamino)-benzonitrile, 2q Yield = 80%; mp = 204–205 °C"
+  },
+  "2r": {
+    "name": "5-Acetyl-4-(benzo [1,3]dioxol-5-ylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "189–191",
+    "quote": ". 5-Acetyl-4-(benzo [1,3]dioxol-5-ylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2r Yield = 66%; mp = 189–191 °C"
+  },
+  "2s": {
+    "name": "5-Acetyl-4-(3-chloro-4-methoxyphenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "180–182",
+    "quote": ". 5-Acetyl-4-(3-chloro-4-methoxyphenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2s Yield = 64%; mp = 180–182 °C"
+  },
+  "3a": {
+    "name": "5-Acetyl-2-ethyl-6-phenyl-4-(pyridin-3-ylamino)pyridazin-3(2H)-one",
+    "mp": "185–186",
+    "quote": "s. 5-Acetyl-2-ethyl-6-phenyl-4-(pyridin-3-ylamino)pyridazin-3(2H)-one, 3a Yield = 26%; mp = 185–186 °C"
+  },
+  "3b": {
+    "name": "5-Acetyl-2-ethyl-6-phenyl-4-(quinolin-8-ylamino)pyridazin-3(2H)-one",
+    "mp": "179–180",
+    "quote": ". 5-Acetyl-2-ethyl-6-phenyl-4-(quinolin-8-ylamino)pyridazin-3(2H)-one, 3b Yield = 75%; mp = 179–180 °C"
+  },
+  "3c": {
+    "name": "4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)naphthalene-1-carboxylic acid",
+    "mp": "258–260",
+    "quote": "4-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)naphthalene-1-carboxylic Acid, 3c Yield = 54%; mp = 258–260 °C"
+  },
+  "3d": {
+    "name": "5-Acetyl-2-ethyl-4-(6-hydroxynaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "235–236",
+    "quote": ". 5-Acetyl-2-ethyl-4-(6-hydroxynaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one, 3d Yield = 76%; mp = 235–236 °C"
+  },
+  "3e": {
+    "name": "5-Acetyl-2-ethyl-4-(5-hydroxynaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "234–236",
+    "quote": "5 -Acetyl-2-ethyl-4-(5-hydroxynaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one, 3e Yield = 24%; mp = 234–236 °C"
+  },
+  "3f": {
+    "name": "5-Acetyl-2-ethyl-6-phenyl-4-(quinolin-5-ylamino)pyridazin-3(2H)-one",
+    "mp": "220–221",
+    "quote": ". 5-Acetyl-2-ethyl-6-phenyl-4-(quinolin-5-ylamino)pyridazin-3(2H)-one, 3f Yield = 75%; mp = 220–221 °C"
+  },
+  "3g": {
+    "name": "5-Acetyl-2-ethyl-4-(4-nitronaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "185–186",
+    "quote": ". 5-Acetyl-2-ethyl-4-(4-nitronaphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one, 3g Yield = 11%; mp = 185–186 °C"
+  },
+  "3h": {
+    "name": "5-Acetyl-2-ethyl-4-(8-hydroxyquinolin-5-ylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "261–262",
+    "quote": ". 5-Acetyl-2-ethyl-4-(8-hydroxyquinolin-5-ylamino)-6-phenylpyridazin-3(2H)-one, 3h Yield = 90%; mp = 261–262 °C"
+  },
+  "3i": {
+    "name": "5-Acetyl-2-ethyl-4-(8-fluoroquinolin-5-ylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "217–218",
+    "quote": ". 5-Acetyl-2-ethyl-4-(8-fluoroquinolin-5-ylamino)-6-phenylpyridazin-3(2H)-one, 3i Yield = 71%; mp = 217–218 °C"
+  },
+  "4a": {
+    "name": "5-Acetyl-2-ethyl-4-ethylamino-6-phenylpyridazin-3(2H)-one",
+    "mp": "113–114",
+    "quote": "t. 5-Acetyl-2-ethyl-4-ethylamino-6-phenylpyridazin-3(2H)-one, 4a Yield = 30%; mp = 113–114 °C"
+  },
+  "4b": {
+    "name": "5-Acetyl-2-ethyl-4-isopropylamino-6-phenylpyridazin-3(2H)-one",
+    "mp": "80–83",
+    "quote": ". 5-Acetyl-2-ethyl-4-isopropylamino-6-phenylpyridazin-3(2H)-one, 4b Yield = 56%; mp = 80–83 °C"
+  },
+  "4c": {
+    "name": "5-Acetyl-4-cyclopentylamino-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "97–99",
+    "quote": ". 5-Acetyl-4-cyclopentylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4c Yield = 38%; mp = 97–99 °C"
+  },
+  "4d": {
+    "name": "5-Acetyl-4-cyclohexylamino-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "123–125",
+    "quote": ". 5-Acetyl-4-cyclohexylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4d Yield = 34%; mp = 123–125 °C"
+  },
+  "4e": {
+    "name": "5-Acetyl-4-cycloheptylamino-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "98–100",
+    "quote": ". 5-Acetyl-4-cycloheptylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4e Yield = 36%; mp = 98–100 °C"
+  },
+  "4g": {
+    "name": "5-Acetyl-4-butylamino-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "67–69",
+    "quote": ". 5-Acetyl-4-butylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4g Yield = 48%; mp = 67–69 °C"
+  },
+  "5a": {
+    "name": "5-Acetyl-2-ethyl-4-(4-methoxybenzylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "106–107",
+    "quote": "l. 5-Acetyl-2-ethyl-4-(4-methoxybenzylamino)-6-phenylpyridazin-3(2H)-one, 5a Yield = 57%; mp = 106–107 °C"
+  },
+  "5b": {
+    "name": "5-Acetyl-4-(4-chlorobenzylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "131–133",
+    "quote": ". 5-Acetyl-4-(4-chlorobenzylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 5b Yield = 59%; mp = 131–133 °C"
+  },
+  "5c": {
+    "name": "5-Acetyl-4-[2-(3,4-dimethoxyphenyl)ethylamino]-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "111–112",
+    "quote": ". 5-Acetyl-4-[2-(3,4-dimethoxyphenyl)ethylamino]-2-ethyl-6-phenylpyridazin-3(2H)-one, 5c Yield = 48%; mp = 111–112 °C"
+  },
+  "5d": {
+    "name": "4-[(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)-methyl]benzoic acid",
+    "mp": "193–195",
+    "quote": "-[(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)-methyl]benzoic Acid, 5d Yield = 52%; mp = 193–195 °C"
+  },
+  "5e": {
+    "name": "5-Acetyl-2-ethyl-4-(2-methoxybenzylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "97–99",
+    "quote": ". 5-Acetyl-2-ethyl-4-(2-methoxybenzylamino)-6-phenylpyridazin-3(2H)-one, 5e Yield = 47%; mp = 97–99 °C"
+  },
+  "5g": {
+    "name": "5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-3-ylmethyl)-amino]pyridazin-3(2H)-one",
+    "mp": "163–164",
+    "quote": ". 5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-3-ylmethyl)-amino]pyridazin-3(2H)-one, 5g Yield = 57%; mp = 163–164 °C"
+  },
+  "5h": {
+    "name": "5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-2-ylmethyl)-amino]pyridazin-3(2H)-one",
+    "mp": "138–140",
+    "quote": ". 5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-2-ylmethyl)-amino]pyridazin-3(2H)-one, 5h Yield = 42%; mp = 138–140 °C"
+  },
+  "5i": {
+    "name": "5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-4-ylmethyl)amino]pyridazin-3(2H)-one",
+    "mp": "150–151",
+    "quote": ". 5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-4-ylmethyl)amino]pyridazin-3(2H)-one, 5i Yield = 50%; mp = 150–151 °C"
+  },
+  "5k": {
+    "name": "5-Acetyl-2-ethyl-6-phenyl-4-[(thiophen-3-ylmethyl)-amino]pyridazin-3(2H)-one",
+    "mp": "133–135",
+    "quote": ". 5-Acetyl-2-ethyl-6-phenyl-4-[(thiophen-3-ylmethyl)-amino]pyridazin-3(2H)-one, 5k Yield = 71%; mp = 133–135 °C"
+  },
+  "5l": {
+    "name": "5-Acetyl-2-ethyl-4-[(4-methylisoxazol-3-ylmethyl)-amino]-6-phenylpyridazin-3(2H)-one",
+    "mp": "113–115",
+    "quote": ". 5-Acetyl-2-ethyl-4-[(4-methylisoxazol-3-ylmethyl)-amino]-6-phenylpyridazin-3(2H)-one, 5l Yield = 47%; mp = 113–115 °C"
+  },
+  "2t": {
+    "name": "5-Acetyl-2-ethyl-4-(3-nitrophenylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "242–243",
+    "quote": "t. 5-Acetyl-2-ethyl-4-(3-nitrophenylamino)-6-phenylpyridazin-3(2H)-one, 2t Yield = 40%; mp = 242–243 °C"
+  },
+  "2u": {
+    "name": "5-Acetyl-4-(2-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "177–178",
+    "quote": ". 5-Acetyl-4-(2-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2u Yield = 43%; mp = 177–178 °C"
+  },
+  "2v": {
+    "name": "5-Acetyl-2-ethyl-4-(2-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "205–207",
+    "quote": ". 5-Acetyl-2-ethyl-4-(2-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one, 2v Yield = 30%; mp = 205–207 °C"
+  },
+  "2w": {
+    "name": "5-Acetyl-4-(3,5-difluorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one",
+    "mp": "243–245",
+    "quote": ". 5-Acetyl-4-(3,5-difluorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2w Yield = 54%; mp = 243–245 °C"
+  },
+  "3l": {
+    "name": "5-Acetyl-2-ethyl-4-(naphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one",
+    "mp": "196–198",
+    "quote": ". 5-Acetyl-2-ethyl-4-(naphthalen-1-ylamino)-6-phenylpyridazin-3(2H)-one, 3l Yield = 51%; mp = 196–198 °C"
+  }
+}

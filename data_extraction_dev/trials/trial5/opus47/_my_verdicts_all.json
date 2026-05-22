@@ -1,0 +1,2402 @@
+[
+  {
+    "row_id": "1295",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound name, mp value 127.0\u2013127.3 \u00b0C, DOI 10.3390/molecules31040629, and quote all confirmed in paper 119.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "729",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "1-hexanol BP 157.0 \u00b0C from Table 5 row 6 of paper 062; DOI 10.3390/ijms12042448 present; QSPR paper reports compiled experimental BPs (measured/literature).",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "1074",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 3h (5,5,10,10-tetrachlorotricyclo[7.1.0.0^4,6]decane) with mp 167-169 \u00b0C confirmed in Table 1 of paper 089; DOI 10.3390/80800608 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "1338",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 10h with mp 195\u2013197 \u00b0C verified in paper 124; DOI s13065-025-01402-8 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "1567",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 5c (thiomorpholine analogue of naphtho[2,3-d]thiazole-4,9-dione) mp 245\u2013246 \u00b0C verified in paper 175; DOI 10.3390/molecules29122777 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "357",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 10k mp 94 \u00b0C verified in paper 021; DOI 10.3390/molecules28227590 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "508",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Methyl 2-benzamido-2-(4-chloro-2-fluorophenylamino)acetate (compound 6) m.p. 152-154 \u00b0C verified in paper 034; DOI 10.3390/molecules15129354 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "923",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "(S)-prolinium dichloro((S)-prolinate-\u03ba2N,O)palladate(II) complex (S)-4 mp 177\u2013179 \u00b0C (decomposition) verified in paper 071; DOI 10.3390/molecules31040599 present. Paper uses 'palladium(II)' wording; CSV's 'palladate(II)' is a valid alternative nomenclature for the anionic Pd complex.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "1577",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 8h with mp 148\u2013150 \u00b0C and 48% yield confirmed in paper 176; DOI 10.3390/molecules29122839 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "727",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "1-butanol BP 117.0 \u00b0C from Table 5 row 4 of paper 062; experimental BP at 1 atm.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "576",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 2c (8-(4-(3-(5'-(Methylthio)-2,2'-bithiophen-5-ylthio)propyl)-...triazol-1-yl)octane-1-thiol) mp 76\u201378 \u00b0C verified in paper 038; DOI 10.3390/molecules16108758 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "1433",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "2-Me row of Table 1, mp 140-42 \u00b0C ((Diacetoxyiodo)-2-methylbenzene), verified in paper 139; DOI 10.3390/61100881 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "1918",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 4h (3-(tert-Butylamino)-6-methyl-2-phenyldibenzo[b,f]pyrrolo[1,2-d][1,4]oxazepine-1-carbonitrile) mp 227-229 \u00b0C and DOI 10.3762/bjoc.20.241 both confirmed in norouzi PDF.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "1019",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 16c m.p. 303\u2013304 \u00b0C verified in paper 083; DOI 10.3390/ph4071032 present. Name 5-[2-Ethoxyquinazolone-3-yl]-... matches paper context.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "673",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "2-Deoxy-2-(2-furamido)-1,3,4,6-tetra-O-acetyl-\u03b2-D-glucopyranoside (6) mp 208-210 \u00b0C verified in paper 051; DOI 10.3390/60900728 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "59",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 11e (4-(Diphenylphosphoryl)-6-(4-methoxyphenyl)-7H-indeno[2,1-c]quinolin-7-one) mp 275-276 \u00b0C verified in paper 005; DOI 10.1002/cmdc.202500751 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "710",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "3-Hydroxy-2,2-dimethyl-3,3-diphenylpropanoic acid mp 162 \u00b0C verified in paper 055; PMC3685236 URL valid source.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "165",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 5b (5-Acetyl-4-(4-chlorobenzylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one) mp 131\u2013133 \u00b0C verified in paper 011; DOI 10.3390/molecules31040699 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "676",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "2-Deoxy-2-(furfural)-imino-1,3,4,6-tetra-O-acetyl-\u03b2-D-glucopyranoside (8) mp 114-116 \u00b0C verified in paper 051; DOI 10.3390/60900728 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "1102",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 8a (3-[3-(4-phenyl-1-piperazinyl)propyl]-2-phenyl-2,3-dihydrophthalazine-1,4-dione) m.p. 54-56\u00b0C verified in paper 092; DOI 10.3390/60900784 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "220",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 5s (6-((4'-nitro-[1,1'-biphenyl]-4-yl)methyl)-6H-benzo[c]chromene) Mp 157 \u00b0C verified in paper 013; DOI 10.3390/molecules31040706 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "1099",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Hydrochloride of compound 7c (3-[4-(4-phenyl-1-piperazinyl)butyl]-quinazolidin-4(3H)-one) m.p. 216-219\u00b0C verified in paper 092; DOI 10.3390/60900784 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "970",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 6e (N-[(3,5-dimetyl-1H-pyrazol-1-yl)methyl]-2,6-dichloroaniline; paper has 'dimetyl' typo) mp 108\u2013110 \u00b0C, Rf 0.79 verified in paper 075; DOI antibiotics15020127 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "1825",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "(Sp)-5c [(Sp)-1\u2082,4\u2083-bis(2-(bis(4-methoxyphenyl)phosphanyl)phenyl)-1,4(1,4)-dibenzenacyclohexaphane] M.p. 233\u2013234 \u00b0C verified in huang_2026 PDF; DOI 10.3390/molecules31030494 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "454",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 9e (tert-Butyl 6-chloro-3-[(E)-2-nitrovinyl]-1H-indole-1-carboxylate) mp 130-132 \u00b0C verified in paper 031 (Topsentin C); DOI 10.1055/s-00000084 (journal series prefix) is present in paper text and is the URL given for the row.",
+    "verifiable": true,
+    "verifiability_tag": "quote_supports_all_fields"
+  },
+  {
+    "row_id": "366",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4d (pentane-1,5-diyl bisurea) experimental section gives mp 127.1\u00b0C, yield 76% \u2014 matches exactly; DOI 10.1134/S107042802211001X appears on first line of paper text.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1135",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2b experimental section: 'colourless crystals (71%), m.p. 155\u00b0C' matches; DOI 10.3390/60300267 present in paper.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1229",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 36 (4-Amino-3-phenyl-1H-1,2,4-triazole) experimental: '63.3 g (79%) of 36 as white needle shaped crystals, (m.p. 86-88 \u00b0C)' matches; DOI 10.3390/60500481 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "416",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5j experimental: 'Yield 168 mg (48%); white powder; mp: 192\u2013195 \u00b0C' matches; DOI ijms242216359 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "435",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5c experimental: 'Mp. 101\u2013103 \u00b0C, white solid, yield 92.9%' matches exactly; DOI s11164-022-04839-x present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1115",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9c hydrochloride: 'Hydrochloride m.p.199-202\u00b0C (methanol)' matches; salt noted; DOI 10.3390/60900784 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "2028",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 2 of Khan 2017 piroxicam cocrystal paper lists 277\u00b0C as the coformer melting point in the 'Piroxicam-saccharine sodium' row \u2014 value matches the table cell for saccharine sodium coformer; DOI 10.15171/apb.2017.048 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1510",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Text states: 'Sulfolane is a polar aprotic solvent... its relatively high melting point (28 \u00b0C) introduces some difficulties in handling' \u2014 matches exactly; PMC3756327 source URL is a valid PMC identifier present in paper metadata.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "385",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 (ligand 4 and its Hg(II)/Pb(II) complexes) shows complex 9 with MP 185\u00b0C, white color, Rf 0.47 \u2014 extraction matches the table row; DOI s13738-021-02358-x present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1578",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.7.9, compound 8i: 'greenish-yellow cubic crystals (60% yield) with mp 148\u2013150 \u00b0C' matches; DOI molecules29122839 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "985",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental: 'the desired 3,6-dinitro-9H-carbazole (Cz-2NO2) as yellow solid 5.16 g (85 %). mp: 244-245 \u00b0C' matches; PMC8540882 paper for Polymer Research paper, DOI s10965-021-02803-8 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1772",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.1.6: 'resulting in 7 at 55% yield; mp. 250\u2013251 \u00b0C' matches; molecules26175383 DOI present in PDF.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1981",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5a heading 'White solid, mp 156.7\u2013156.9 \u00b0C' matches; bjoc.20.48 DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "517",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6c experimental: 'Colorless crystals (0.34 g, 75 %); mp 94 \u00b0C' matches; DOI molecules15106759 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "230",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 13: 'obtained with a 58% yield; mp. 215\u2013216 \u00b0C' matches; DOI ph19020256 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1023",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "For compound 2j the experimental data block ends with 'Calcd. for C16H14FeO4...m.p.: 67-68 \u00b0C'; this mp belongs to 2j (each compound's mp is given at end of its analytical block); DOI ma2030978 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1568",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5d, Section 3.7: 'Recrystallization with MeOH produced orange needles. Mp: 221\u2013222 \u00b0C' matches; DOI molecules29122777 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1499",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Text reads 'boiling point: >120 \u00b0C, melting point: <\u221210 \u00b0C' for TCMTB; DOI 10.1016/B978-0-12-803409-5.00008-2 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "971",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6f experimental: 'Yield 51%; mp 81\u201382 \u00b0C; Rf 0.76' matches; paper writes 'dimetyl' (typo) \u2014 extraction corrected to 'dimethyl', acceptable naming-style normalization; PMC12937307 / antibiotics15020127 DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "765",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 of QSPR paper lists '3-et-3-pentanol 9.9583 3.2345 142.5' \u2014 boiling-point compilation; literature compilation qualifies as 'measured' per Q3 rubric; DOI ijms12042448 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1122",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 15 (4-Acetylsemicarbazone-4'-acetyldiphenyl sulphone) experimental: 'm.p 200\u00b0C, yield 82%' matches; DOI 10.3390/80800622 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1619",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 20e: 'The title compound was obtained as a pale red solid (mp 55-57 \u00b0C)' matches; midpoint 56.0\u00b0C correct; DOI 10.1021/jm3014162 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "929",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6b (3-(4-methoxyphenyl)cyclohex-2-en-1-one): '0.027 g of a white solid was obtained with a yield of 80%; melting point of 73\u201375 \u00b0C' matches; DOI molecules31040599 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1541",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 26a: '26a (4.32 g, 7.63 mmol, 98%) as a white solid... mp: 104\u2013106 \u00b0C' matches; DOI acsomega.4c03241 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1284",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 16b experimental: 'Yield 66%, white solid, mp 253\u2013255 \u00b0C' matches; DOI molecules31040595 present.",
+    "verifiable": true,
+    "verifiability_tag": "all_pass"
+  },
+  {
+    "row_id": "1784",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 3d 4-(6'-(Thiophen-2''-yl)pyridazin-3'-yl)benzonitrile mp 249-252 \u00b0C confirmed in experimental section of fernandes_2018; measured, DOI in file.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "775",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Table 5 row 52 of paper 062 lists 2,2-dime-3-pentanol BP(Exp.)=136.0 \u00b0C; experimental literature value, DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "988",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 082 Section 2.1.1 for compound Ia 2-(1H-indol-3-yl)-4-phenyl-5,6-dihydrobenzo[h]quinoline-3-carbonitrile gives Yield 89%; m.p. 287\u2013288\u00b0C; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "618",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 043 Table II lists L1 mp 94\u201395 \u00b0C; compound name in text 2,6-Bis[(5-methylthio-1,3,4-thiadiazol-2-ylthio)methyl]pyridine; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "630",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 045 experimental lists compound 4c (L-t-leucine methyl ester DMAP derivative) m.p. 165\u2013166 \u00b0C; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1213",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 103 compound 6 (9-Amino-7-oxo-6-phenyl-4-phenylmethanimido-...-carbonitrile) m.p. 220 oC, white crystals from pyridine; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "599",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 040 compound 2b 5-(4-carboxyphenyl)-2-thiophenecarboxylic acid m.p. >300 \u00b0C; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1461",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 147 review states coenzyme Q10 (CoQ10) has low melting point ca. 48 \u00b0C; measured (literature reference value); DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1013",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 083 compound 14a 2-{2-(Ethoxy)quinazolin-4-one-3-yl}propanoic acid m.p. 183\u2013184 \u00b0C; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "947",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 072 compound 22 (N-(Pyridine-3-ylmethyl)-6-chloro-4-hydroxy-2-quinolone-3-carboxamide) m.p. 245\u2013248 \u00b0C; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "479",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 032 compound 10j 7-(4-benzylphthalazin-1-ylamino)-4-hydroxynaphthalene-2-sulfonic acid mp > 340 \u00b0C; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1942",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "rios_2026 DHPM compound 6a 6-Methoxy-6-oxohexyl 6-methyl-2-oxo-4-phenyl-1,2,3,4-tetrahydropyrimidine-5-carboxylate M.P. 128\u2013131 \u00b0C; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "722",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 055 lists compound 14 3-Hydroxy-3,3-diphenylpropanoic acid C15H14O3 Melting point: 217 0C; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1961",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "rios_2026 compound 8j 6-(Hydroxyamino)-6-oxohexyl 4-(furan-2-yl)-6-methyl-2-oxo-1,2,3,4-tetrahydropyrimidine-5-carboxylate M.P. 157\u2013160 \u00b0C; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "457",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 031 (Topsentin C, Synthesis 2018) compound 7c tert-Butyl 3-{1-[(Pivaloyloxy)(methyl)amino]-2-nitroethyl}-1H-indole-1-carboxylate mp 113 \u00b0C (hexane), Yield 1.42 g (97%); measured. DOI source URL is the journal-level Synthesis index (s-00000084) rather than article-specific, but paper present in corpus.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1416",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 138 compound 6e 1,4-Di(4-chlorophenyl)-N-ethoxymethylene-2-amino-3-cyanopyrrole mp 200-01\u00b0C (=200\u2013201) Yield 81%; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1794",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "gomezayuso_2024 SI compound 9f (3R*,4R*)-N-Cyclohexyl-4-hydroxy-2-(2-nitrobenzyl)-1-oxo-4-phenyl-... M.p. = 176\u2013177 \u00baC, brown solid 77%; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1536",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 171 compound 4af 1-(4-((4-Chlorophenyl)(phenyl)methyl)-3-phenylisoquinolin-2(1H)-yl)ethan-1-one mp 205.5\u2013233.9 \u00b0C (CHCl3), yield 96%; measured (as reported, broad range); DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "746",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Table 5 row 23 of paper 062 lists 5-nonanol BP(Exp.) 195.1; experimental literature value, DOI verified.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1388",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 134 compound 2 N,N'-(1R,2R)-(-)-1,2-cyclohexylenebis(2-hydroxyacetophenonylideneimine) mp 144-145 \u00b0C, yellow needles; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1057",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 087 compound 9b 3-(4-Chlorophenyl) 4-(2-methoxycarbonylphenylazo) pyrazole m.p. 189\u00b0C, yield 50%; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "429",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 028 compound 11f (dispiro imidazo[4,5-e]thiazolo[2,3-c][1,2,4]triazine-pyrrolidine-indoline ethyl carboxylate) mp 239\u2013241 \u00b0C, white powder 70%; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1559",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 174 compound 13c 4-Chloro-N-(2-oxo-2H-chromen-6-yl)-N-(prop-2-yn-1-yl)benzenesulfonamide mp 165\u2013167 \u00b0C, white solid 83%; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "784",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 064 Table 5 reports Chloroquine Tm = 363.15 K from cited literature [50] (column labeled [50] for Chloroquine); 363.15 K - 273.15 = 90.0 \u00b0C arithmetic correct; measured (literature compilation); DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1120",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Paper 093 compound 7 4-Acetyl-4'-acetylsemicarbazone diphenyl sulphide m.p 190-191\u00b0C, yield 85%; measured; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1521",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5k mp 210-212 \u00b0C with matching name and DOI verified in paper text.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "297",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2d mp 265-267 \u00b0C verified verbatim in synthesis section; DOI present in nxml.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "633",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4f mp 146-149 \u00b0C verified verbatim with matching diastereomer description.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "308",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound A (beige crystalline solid 75%) mp 144-146 \u00b0C verified verbatim.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "319",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10 mp 165-168 \u00b0C verified with 89.5% yield matching the quote.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "313",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4 pink solid mp 145-147 \u00b0C verified verbatim.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "2041",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Piroxicam-resorcinol (1:2) mp 189-190 \u00b0C verified in Table 2; 1:2 stoichiometry confirmed in text.",
+    "verifiable": true,
+    "verifiability_tag": "quote_table"
+  },
+  {
+    "row_id": "244",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 27 (N-(Piperidylamino)methylenebisphosphonic acid) mp 241-244 \u00b0C verified verbatim.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1383",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 7 white solid 81% Mp 105-106 \u00b0C verified verbatim.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1936",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5b Mp 165-166 \u00b0C in EtOH verified verbatim in synthesis section.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1854",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound M19 white powder mp 270-274 \u00b0C verified verbatim (93% yield, 640 mg).",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "872",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6b orange crystals MP 118-120 \u00b0C verified verbatim with C12H15FN4 formula.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "619",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Ligand L2 mp 207-212 \u00b0C verified in table; formula C17H13N9S6 matches; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_table"
+  },
+  {
+    "row_id": "56",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11a yellow solid mp 274-275 \u00b0C verified verbatim with 70% yield.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "469",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 7 white crystals 86% mp 130-132 \u00b0C verified verbatim.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "264",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "[Glu(OiPr)2][HCl] T_onset 174.4 \u00b0C verified in Table 2; TGA decomposition classification correct.",
+    "verifiable": true,
+    "verifiability_tag": "quote_table"
+  },
+  {
+    "row_id": "946",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 21 m.p: decomposes at 287 \u00b0C verified verbatim; reported under m.p. measurement.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "419",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6e white powder mp 269-271 \u00b0C verified verbatim with 19% yield.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1874",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2n white solid mp 199-208 \u00b0C verified verbatim; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1600",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 21a white solid mp 49-51 \u00b0C verified verbatim; midpoint 50 \u00b0C correct.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "151",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3c mp 258-260 \u00b0C verified verbatim with 54% yield in EtOH.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "749",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "2-methyl-1-butanol bp 128.7 \u00b0C verified in Table 5 row 26; experimental literature compilation = measured under v1.7.",
+    "verifiable": true,
+    "verifiability_tag": "quote_table"
+  },
+  {
+    "row_id": "1322",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5b mp 275-277 \u00b0C verified verbatim with 90% yield.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "280",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "[Glu(OPr)][IBU] T_max 230.8 \u00b0C verified in Table 2; TGA DTG-peak decomposition correctly classified.",
+    "verifiable": true,
+    "verifiability_tag": "quote_table"
+  },
+  {
+    "row_id": "883",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 1c beige solid M.p. 169-173 \u00b0C verified verbatim.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "327",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 38 N-Hydroxypiridinedione synthesis section, m.p. 102-104 \u00b0C (dec.) matches; DOI 10.3390/molecules29122942 present in paper.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "1715",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Table 1 of rogers 2021 SAIL paper lists [TEA][C12E4c] with T Decomp. 234 \u00b0C; DOI 10.3390/molecules26134034 corresponds to the supplied PDF.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "386",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Table row for Pb(II) complex 10 shows '10 > 300 White ...' matching mp >300 \u00b0C; DOI 10.1007/s13738-021-02358-x present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "964",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 5c experimental: 'Yield 86%; mp 113-114 \u00b0C; Rf 0.63'; paper spelling 'dimetyl' corrected to 'dimethyl' is acceptable.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "55",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 10e (indenoquinolinyl-phosphine oxide, 4-methoxybenzaldehyde-derived) mp 212-213 \u00b0C confirmed; DOI 10.1002/cmdc.202500751 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "1815",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "(Sp)-4a paracyclophane phosphine oxide '661 mg, 87% yield; white solid; M.p. 164-165 \u00b0C' confirmed; DOI 10.3390/molecules31030494 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "471",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 10b 'Yellow crystals, 80%, 0.12 g. mp 236-237 \u00b0C' confirmed; DOI 10.3390/ph4081158 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "1724",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Wei 2019 DSC text 'peaks located at 48.8, 85.8, and 128.9 \u00b0C correspond to phase transformation of AN' confirmed; DSC_peak property tag is acceptable; DOI present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "1292",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Cyclotriphosphazene compound 4a-I 'mp 218 \u00b0C' confirmed in synthesis section; DOI 10.1021/acsomega.5c11955 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "1206",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 20 (3-nitro-benzoquinoacridinone) '53%, yellow needles, m.p. 339 \u00b0C' confirmed; DOI 10.3390/60400300 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "628",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "DMAP-Ugi product 4a major diastereomer 'm.p. 119 \u00b0C' confirmed; full IUPAC name including paper's 'pyridyn' typo preserved; DOI 10.3390/molecules16108815 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "703",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Table row '7a yellow 81 329-331 C21H20N2O2' for 2-aryl-6,7-dihydro-9,10-dimethoxy-4-iminobenzo[a]quinolizine series; 7a corresponds to aryl=Ph so 2-phenyl is correct; DOI 10.3390/70700540 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "1395",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Title compound (N,N-bis(diphenylphosphinomethyl)-2-aminoethylphosphonic acid) experimental: '(34.6g), mp 146-148\u00b0C'; DOI 10.3390/60400390 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "866",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 5e 'Solid cream crystals... Yield 0.96 g, 99.5%, M.P.: 119-121 \u00b0C' confirmed; DOI 10.3390/molecules31050844 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "1377",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 15 '8%; colorless needles (from chloroform-methanol 2/1); 159.5-160 \u00b0C' confirmed; DOI 10.3390/71100840 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "367",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Urea 4e 'Yield 0.247 g (98%), mp 128.9\u00b0C' confirmed; DOI 10.1134/S107042802211001X present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "1686",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 4v 'Yellow solid; 1.8 g, 81 % yield; m.p. 278-279 \u00b0C (acetonitrile)' confirmed; DOI 10.1021/acs.joc.9b00711 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "1439",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Table 2 row for R=H (iodylbenzene) 'H 8 86 236 expl. 235 expl. [23]' confirmed; DOI 10.3390/61100881 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "2060",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "ITR-TER cocrystal 'sharp endothermic peak at 198 \u00b0C ... indicated the melting of the new phase' confirmed; DOI 10.3390/pharmaceutics12080741 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "972",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 6g 'Yield 86%; mp 112-113 \u00b0C; Rf 0.85' confirmed; paper spelling 'dimetyl' fix to 'dimethyl' acceptable.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "1220",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 13 (9-amino-4-hydrazino-...-triazin-8-carbonitrile) 'recrystallized from dioxane as white crystals; m.p. 262 \u00b0C' confirmed; DOI 10.3390/71000756 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "1667",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 4c 'Yellow solid; 2.08 g, 87 % yield; m.p. 253-254 \u00b0C (acetonitrile)' confirmed; DOI 10.1021/acs.joc.9b00711 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "678",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 18 (full IUPAC name matches CSV exactly) 'm p 124-126 \u00b0C (lit ... m p 123-125 \u00b0C)' confirmed; DOI 10.3390/60900728 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "80",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 20 'N-Isopropyl-1-[5-(5-nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidine-4-carboxamide (20): Orange solid, mp 228 \u00b0C-230 \u00b0C' confirmed; DOI 10.1002/ardp.70227 present.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "1232",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Hantzsch paper isolates compounds 1 and 6, then reports 'm.p. 206-208 \u00b0C'; NMR following (NH + H2 + single OH) matches 1,2-dihydropyridine (6); compound name string matches paper exactly; DOI 10.3390/60800683 present. Caveat: mp ambiguity between 1 and 6 in source text but NMR evidence and section context support assignment to 6.",
+    "verifiable": true,
+    "verifiability_tag": "exact_quote"
+  },
+  {
+    "row_id": "60",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11f heading '4-(Diphenylphosphoryl)-6-(3-Methoxyphenyl)-7H-Indeno[2,1-c]Quinolin-7-One (11f)' with mp 283\u00b0C-285\u00b0C in section 6.3.2.5; DOI 10.1002/cmdc.202500751 confirmed in paper.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "456",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Topsentin C paper (PMC6193241) lists 'tert-Butyl 3-{1-[(Pivaloyloxy)amino]-2-nitroethyl}-5-bromo-1H-indole-1-carboxylate (7b)' with mp 108-109 \u00b0C; journal DOI 10.1055/s-00000084 appears in article files.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1764",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 row 'meso-Erythritol 149-32-6 Sugar Alcohol 337.76\u00b17.51 118.7\u00b10.21 120.4\u00b10.17' confirms DSC_peak 120.4; DOI 10.3390/ma13204486 present in muller_2020 PDF.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1770",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.1.4 'Synthesis of O-Ethyl N-phenylcarbamothioate (4)' yields compound 4 with mp 55-56 \u00b0C; DOI 10.3390/molecules26175383 confirmed in alsayari_2021.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "821",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 8 of PMC6146921 lists '31. 3.3-dimethyl-1-butanol 143.00 ...' as experimental boiling point; source_url PMC URL maps to the paper.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "86",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Synthesis section reports compound 6e '4-((Methyl((1R,2R,3R,5S)-2,6,6-trimethylbicyclo[3.1.1]heptan-3-yl)amino)methyl)-N-(4-methyl-3-...)benzamide' with mp 118\u2013120 \u00b0C; DOI 10.3390/ph19020198 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1174",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "PMC6146883 experimental: 'Compound 21 was obtained as dark yellow crystals (45%), mp 194\u00b0C'; compound name '2-Amino-4-(coumarin-3'-yl)pyrimidine (21)' matches paper heading; DOI 10.3390/80700541 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "171",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Synthesis section: '5-Acetyl-2-ethyl-6-phenyl-4-[(pyridin-4-ylmethyl)amino]pyridazin-3(2H)-one, 5i Yield = 50%; mp = 150\u2013151 \u00b0C'; DOI 10.3390/molecules31040699 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1798",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 9j: 'Pink Solid (65%, 277 mg) (crystallized in iPrOH). M.p. = 201 \u2013 202 \u00b0C'; DOI 10.3762/bjoc.20.154 confirmed in gomezayuso_2024 PDF.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1077",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2c heading '3-(2-furanyl)-6-(1-naphthylmethyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole (2c): Yield 64%; Mp. 146-148\u00b0C'; DOI 10.3390/70800681 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1655",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 of Yalkowsky 2014 lists 'Methylamine \u221294 89'; literature compilation counts as measured per Q3 rule; DOI 10.1002/jps.24034 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "6",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3.1 synthesis: 'N\u2032-(1-(4-bromophenyl)ethylidene)-3-(...purin-8-yl)thio)propanehydrazide (AL6). M.p.: 264.5 \u00b0C (dec.)'; DOI 10.3390/antiox15020217 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "769",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 row '46 2,3-dime-1-butanol 7.8889 2.7417 149.0' shows experimental bp 149.0 \u00b0C; DOI 10.3390/ijms12042448 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1594",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental: '...2,3-dimethylpyridinium bromide (3d). Yield 0.14 g (90%), yellow powder, mp 218\u00b0C (decomp.)'; DOI 10.1134/S1070428022030101 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "217",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 3 synthesis: '6-(5-methoxy-2-nitrobenzyl)-6H-benzo[c]chromene (5p). Yield: 49%; Mp: 170 \u00b0C'; DOI 10.3390/molecules31040706 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1225",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental section: 'Compound 17b: orange crystals; m.p.179 \u00b0C (from methanol)'; compound 17b's complex octahydroimidazo-thieno-pyrimidine name matches scheme description; DOI 10.3390/71000756 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "670",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row '2e C16H13ClN2S (300.8) Cl 4-CH3 157-158 70' confirms mp; compound name 6-chloro-2-methyl-3-(4-methylphenyl)quinazoline-4(3H)-thione consistent with scaffold/substituents; DOI 10.3390/81100756 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1022",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2i heading 'Dicarbonylcyclopentadienyl(4-ethoxycarbonylphenyl)iron (2i)' with 'm.p.: 104\u2013106 \u00b0C'; DOI 10.3390/ma2030978 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "715",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental: '3-Hydroxy-2,2-dimethyl-3-(4-chlorophenyl)propanoic acid; C11H13ClO3; Mw = 228.67; Melting point: 142 \u00b0C'; PMC3685236 URL valid source identifier.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "142",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Synthesis: '5-Acetyl-4-(4-bromophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one, 2l Yield = 70%; mp = 185\u2013186 \u00b0C'; DOI 10.3390/molecules31040699 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1452",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Review paper PMC6236399 lists 'Tyrindoleninone: [112] red needles, mp 109.5 \u00b0C' compiled from ref [112]; literature compilation of experimental value counts as measured per Q3; DOI 10.3390/60900736 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1923",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6a section: '11-(Cyclohexylamino)-12-phenyl-9H-benzo[f]pyrrolo[1,2-d][1,2,3]triazolo[1,5-a][1,4]diazepine-13-carbonitrile (6a); White powder; yield: 166 mg (79%); mp 126-129 \u00b0C'; DOI 10.3762/bjoc.20.241 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "642",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Synthesis of compound 5 '2-Hydroxy-3-hydroxymethyl-5-methylbenzaldehyde' gave 'yellowish needles (yield: 7.6g, 38%). M.p. 72-73\u00b0 (lit.[7] 75-76\u00b0C)'; DOI 10.3390/61201001 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1035",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4i heading exactly matches paper: '1-(4-trifluoromethylphenyl)-1-(2-fluorophenyl)-O,O-dimethylphosphonate (4i). Yield 26.6%; m.p. 110-111\u00b0C'; DOI 10.3390/80100186 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1178",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Experimental: 'Compound 31 was obtained as yellowish green crystals (45%), mp 190\u00b0C'; section heading lists '6-Benzoyl-3-(benzocoumarin-3'-yl)isoxazole (31)'; DOI 10.3390/80700541 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_exact"
+  },
+  {
+    "row_id": "1645",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Table 1 in Yalkowsky 2014 lists Aniline -6 \u00b0C; DOI 10.1002/jps.24034 confirmed in paper.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "1663",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Marek 2019 (bjoc.15.242) experimental: '22 (0.472 g, 32%) was isolated as a white solid (mp 179-183 C)' for compound 22 (4-hydroxypinan diphenylphosphine oxide).",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "1767",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Alsayari 2021 \u00a73.1.2: '...afford target compound 2 at 90% yield; mp: 210-211 C'; DOI 10.3390/molecules26175383 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "2061",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Wirth 2024 \u00a72.2.1 ImeTQ Sample: 'The onset temperature (Tonset) was constant and equal to 268.97 \u00b1 0.13 \u00b0C'; DOI 10.3390/molecules29081724 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "1076",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Zhang 2002 (Molecules 7:681) compound 2b: 'Yield 57 %; Mp. 189-191\u00b0C' for 3-(2-furanyl)-6-(3-pyridyl)-triazolo-thiadiazole.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "1792",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Gomez-Ayuso 2024 compound 7b: 'White solid (74%, 219 mg). M. p. 222-223 \u00baC.'; DOI 10.3762/bjoc.20.154 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "108",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 010 (ijms27041716) synthesis of 13: 'affording a cream-white solid (0.17 g, 94% yield). Mp 227-230 \u00b0C.'; DOI confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "132",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 011 (molecules31040699) compound 2b: '5-Acetyl-2-ethyl-4-(3-fluorophenylamino)-6-phenylpyridazin-3(2H)-one, 2b Yield = 52%; mp = 174-175 \u00b0C'.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "219",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 013 (molecules31040706) compound 5r: '6-(3-fluoro-4-nitrobenzyl)-6H-benzo[c]chromene (5r). Yield: 71%; Mp: 91 \u00b0C'.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "725",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 062 (ijms12042448) Table 5 lists ethanol 78.3 \u00b0C as experimental BP; DOI confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "1184",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 099 (10.3390/60300194): 'The 2,4-dinitrophenylhydrazone derivative was recrystallised from ethyl acetate giving bright yellow crystals, m.p. 177-178 \u00b0C'; binds to syn-9-formyl precursor described immediately prior.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "1928",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Norouzi 2024 (bjoc.20.241) compound 6f: 'yield: 153 mg (78%); mp 163-165 \u00b0C' for 11-(Butylamino)-12-phenyl-benzo[f]pyrrolo-triazolo-diazepine-carbonitrile.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "2029",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Khan 2017 (10.15171/apb.2017.048) Table 2 shows Piroxicam-Urea co-former 132-135; Urea reported mp matches.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "1738",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Muller 2020 (ma13204486) Table 5: 'Dodecane | 112-40-3 | Paraffin | 209.14 \u00b1 1.45 | -10.2 \u00b1 0.94 | -8 \u00b1 0.25'; DSC peak value matches.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "1535",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 171 (molecules29122917) \u00a73.12 compound 2e: 'white solid; mp 123.5-157.2 \u00b0C (CHCl3)'; unusual broad range matches paper exactly.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "603",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 040 (80300342) compound 4b: '2-(4-Chlorocarbonylphenyl)-5-(6-cyanobenzothiazol-2-yl)thiophene (4b). Yield: 2.7 g (62%); m.p.>300\u00b0C'.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "2052",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Liu 2024 (ph17010094): '...25DHB (203.60 \u00b0C and 207.19 \u00b0C)'; two DSC peaks for 2,5-dihydroxybenzoic acid confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "326",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 020 (molecules29122942) compound 37: 'Rf = 0.25 (AcOEt), m.p. 118-120 \u00b0C (dec.)' confirmed from PDF.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "893",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 069 (ijms27052306) carbohydrazide 2b: 'isolated as a white solid (30 mg, 25.34%). M.p.: 102-105 \u00b0C'.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "798",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 067 (PMC6146921) Table 8: '8. 2-methyl-2-propanol 82.40' as experimental BP; PMC URL valid.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "116",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 010 (ijms27041716) compound 21: 'to give a white solid (0.12 g, 77% yield). Mp 80-84 \u00b0C'.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "555",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 037 (molecules16108788) compound 3 synthesis: '...dried to give a blue powder; mp 198 \u00b0C; yield 86%' for 6-Amino-2-(benzylsulfanyl)-5-nitrosopyrimidin-4-one.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "1910",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Norouzi 2024 compound 5: '4H-Benzo[f][1,2,3]triazolo[1,5-a][1,4]diazepine (5)... mp 147-149 \u00b0C'.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "1261",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 113 (acsomega.6c01037) \u00a72.3.13 'Synthesis of 2-(2-Acetoxy-4-methylphenyl)-2-oxoethyl acetate (10)' reports 'mp 46-48 \u00b0C' for the product; binding to section-header compound 10 is reasonable despite intra-text label inconsistency noted by extractor.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "164",
+    "verdict": "verified_extraction",
+    "reason": "ok",
+    "details": "Paper 011 (molecules31040699) compound 5a: '5-Acetyl-2-ethyl-4-(4-methoxybenzylamino)-6-phenylpyridazin-3(2H)-one, 5a Yield = 57%; mp = 106-107 \u00b0C'.",
+    "verifiable": true,
+    "verifiability_tag": "verified"
+  },
+  {
+    "row_id": "1119",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper PMC6146903 confirms 'Yield 74.8%; m.p 190-192\u00b0C' for Compound 5 (4-acetylthiosemicarbazone-4'-acetyldiphenyl sulphide). Compound, value, property type, source/DOI all match.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "307",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper ijms25126327 confirms 'White solid; yield 0.12 g, 25%; m.p. 202-203 \u00b0C' for compound 3 (4-ethyl-1-hydroxy-8,9,11-trimethyl-12H-6,12-methanodibenzo[d,g][1,3,2]dioxaphosphocine-2-carbaldehyde 6-oxide). All fields match.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "2058",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper pharmaceutics12080741 confirms 'the drug melted at around 166 \u00b0C' for itraconazole (ITR). Quote, value, property and source match. DSC-measured.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "1512",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper acsbiomedchemau.4c00060 confirms compound 5b 'Yellow solid (0.414 g, 95%), mp: 180-200 \u00b0C'. Long name in CSV matches paper's name. Value type, source, DOI all match.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "1161",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper Molecules 2003, 8, 541-555 confirms 'Compound 7 was obtained as dark yellow crystals (85%), mp 245\u00b0C'. The 3,7-bis-(2-hydroxyphenyl)... compound 7 matches.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "896",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper ijms27052306 confirms compound 2e (carbohydrazide) 'M.p.: 125-130 \u00b0C' as white solid. Compound name structure matches (indeno-pyrrole-carboxamide skeleton).",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "2034",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper apb.2017.048 Table 2 confirms Piroxicam-saccharine sodium cocrystal 1:1 melting point 181-183 \u00b0C. Value, property, source, DOI all match.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "1256",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper acsomega.6c01037 confirms compound 11 (succinimide derivative) '550 mg of 11 as a slightly orange solid (66%), mp 88-90 \u00b0C'. Quote, value match (en-dash vs hyphen minor).",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "119",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper ijms27041716 confirms compound 24 'white solid (0.11 g, 65% yield). Mp 103-104 \u00b0C'. The penta-2,4-dienamide structure name matches.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "173",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper molecules31040699 confirms compound 5l '5-Acetyl-2-ethyl-4-[(4-methylisoxazol-3-ylmethyl)-amino]-6-phenylpyridazin-3(2H)-one... mp = 113-115 \u00b0C'. Full name and value match.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "145",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper molecules31040699 confirms compound 2p '5-Acetyl-2-ethyl-4-(4-nitrophenylamino)-6-phenylpyridazin-3(2H)-one... mp = 209-211 \u00b0C'. All fields match.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "1195",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 10.3390/60400300 confirms '2(N)-(2,2'-diamino-4,4'-dimethoxybenzophenone)-1,4-naphthoquinone (5b)... red prisms (from EtOH), m.p. 214\u00b0C'. Compound name and value match.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "750",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper ijms12042448 Table 5 confirms '27 2-me-2-butanol 6.4444 3.0353 102.0' as experimental boiling point at 1 atm. Compiled from literature - measured per Q3 allowance.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "940",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper molecules31040655 confirms compound 15 (N-(3-Fluorobenzyl)-6-chloro-4-hydroxy-2-quinolone-3-carboxamide) 'White powder (0.72 g) with yield 56%... m.p: 260-263 \u00b0C'.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "863",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper molecules31050844 confirms compound 5b '4-fluoro-5-(4-methylpiperazin-1-yl)benzene-1,2-diamine... M.P.: 79-81 \u00b0C'. Midpoint stored correctly. Compound name and value match.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "2000",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper molecules30010199 Table 2 confirms Kaempferol Td = 631.97 K. Conversion 631.97 - 273.15 = 358.82 \u00b0C is correct. Decomposition property type.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "1647",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper jps.24034 (Yalkowsky 2014) Table 1 confirms 'Benzamide 130 223'. Literature compilation but Q3 explicitly allows measured tag for literature compilations. DOI verified in paper.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "955",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper ijms27042032 confirms compound 8 (Triphenylphosphino-[1,3-diethyl-4-anisyl-5-(4-chlorophenyl)imidazole-2-ylidene]gold(I) tetrafluoroborate) 'colorless solid of m.p. 110 \u00b0C (dec.)'.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "166",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper molecules31040699 confirms compound 5c '5-Acetyl-4-[2-(3,4-dimethoxyphenyl)ethylamino]-2-ethyl-6-phenylpyridazin-3(2H)-one... mp = 111-112 \u00b0C'. All fields match.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "1343",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper s13065-025-01402-8 confirms compound 10m 'yellowish-white precipitate... yield of 72%; mp 262-264 \u00b0C'. The 5,6-dichlorobenzimidazole derivative name matches.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "545",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper s-0036-1589496 confirms compound 6c (8-Ethoxy-1-methyl-1,12-dihydrochromeno[2',3':4,5]imidazo[1,2-a]pyrrolo[3,2-e]pyridine) 'Brown solid; yield: 0.058 g (36%); mp 149 \u00b0C'.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "1867",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper acsomega.5c13222 confirms compound 2g (6-Chloroquinolin-2(1H)-one) 'A white solid; m.p. = 264-265 \u00b0C'. CSV quote slightly abbreviated but compound + value + source correct.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "98",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper ph19020239 confirms compound 5h '3,5-Diamino-4-[(3-Nitrophenyl)Diazinyl]-N-Tosyl-1H-Pyrazole-1-Carboxamide... Melting Point: 214-215 \u00b0C; light orange solid'. Name and value match.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "2008",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper pharmaceutics2020136 Table 1 confirms TRIS diclofenac salt Tpeak = 209 \u00b0C ('Tris-methylol methane TRIS 220 418.15 209'). Measured (DSC). DOI verified in paper.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "659",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 10.3390/81100756 Table 1 confirms compound 1e (3-(4-ethylphenyl)-2,2-dimethyl-1,2-dihydroquinazoline-4(3H)-thione) '1e C18H20N2S H 4-C2H5 187-188'. Name, substituent, value all match.",
+    "verifiable": true,
+    "verifiability_tag": "quote_matches_paper"
+  },
+  {
+    "row_id": "312",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Compound 3 = 2-(3-Methoxybenzyloxy)isoindolin-1,3-dione; mp 120-121 \u00b0C confirmed in synthesis section ('White foamy solid (214.6 mg, 62%) ... m.p. 120-121 \u00b0C'). DOI 10.3390/molecules29122942 present in paper.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1712",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "DFTNAN = 2,4,6-trinitro-3,5-difluorophenyl methyl ether; DSC endothermic peak at 82 \u00b0C indicating melting confirmed in Section 3.1.1. DOI 10.3390/ma14154186 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "625",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "L8 ligand (5,5'-Bis-bipyridyl-bi-thiadiazole) mp 248-250 \u00b0C confirmed in Table II row 'L 8 80 Dioxane/DMF 248-250 C'. DOI 10.3390/80300310 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1797",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Compound 9i mp 206-207 \u00b0C confirmed in experimental section. DOI 10.3762/bjoc.20.154 present in paper.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1210",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Compound 3 (4,9-diamino thienopyridindione) mp > 320 \u00b0C from diethyl malonate route confirmed ('Compound 3 ... recrystallized from ethanol as orange crystals; m. p. > 320 oC'). DOI 10.3390/71000756 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1046",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Compound 3c = 2-{3-(4-Chlorophenyl)-2-[(2-cyanophenyl)-hydrazono]-3-oxo-propylideneamino}-tetrahydro-benzothiophene-3-carboxylic acid ethyl ester; mp 189 \u00b0C confirmed. DOI 10.3390/81200910 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "467",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Compound 5 = 4-Benzyl-2-mercaptomethyl-2H-phthalazin-1-one; mp 145-146 \u00b0C confirmed ('White crystals, 80%, 0.10 g. mp 145-146 \u00b0C'). DOI 10.3390/ph4081158 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1822",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "(Sp)-4h paracyclophane bis-phosphine oxide mp 127-128 \u00b0C confirmed in experimental ('(Sp)-...bis(bis(3,5-dimethylphenyl)phosphine oxide) [(Sp)-4h] ... M.p. 127-128 \u00b0C'). DOI 10.3390/molecules31030494 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1124",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Compound 10 = 4-(5\"-carboxyethyl-4\"-thiazolidinone-2\"-acetylazino)-4'-acetyldiphenyl sulphide; mp 260 \u00b0C decomp confirmed in table ('10 260\u00b0C, decomp'). DOI 10.3390/80800622 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "31",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "3e = 4-(4-Hydroxyphenyl)-N-phenylpiperazine-1-carbothioamide; mp 196.83 \u00b0C confirmed (DSC; 'White solid; 196.83 \u00b0C'). DOI 10.1021/acsomega.5c12576 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "967",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Compound 6b = N-[(3,5-dimet[h]yl-1H-pyrazol-1-yl)-methyl]-2,4-dichloroaniline; mp 108-110 \u00b0C confirmed ('Yield 91%; mp 108-110 \u00b0C; Rf 0.69'). Paper uses 'dimetyl' typo; CSV corrects to 'dimethyl' \u2014 acceptable. DOI domain confirmed via PMC12937307.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "2046",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Ginsenoside Compound K form IV; second melting endothermal peak 178.5 \u00b0C confirmed in Section 2.2 ('the second melting endothermal peak followed at about 178.5 \u00b0C'). DOI 10.3390/molecules26071983 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1995",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Myricetin experimental Tm 638.75 K confirmed in Table 1; conversion 638.75-273.15=365.6 \u00b0C correct. DOI 10.3390/molecules30010199 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1773",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Compound 8 = 3,6-Dimethylpyrazolo[5,1-b]thiazole-2,7-dicarbonyl Azide; mp 120-121 \u00b0C confirmed ('precipitate 8 ... yield 90%; mp 120-121 \u00b0C'). CSV calls it 'diazide' vs paper's 'Azide' \u2014 minor stylistic; compound identity/value/source correct. DOI 10.3390/molecules26175383 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1778",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Compound 2d = 3,3-Dichloro-4-(chloromethyl)-1-phenylpyrrolidin-2-one; mp 127-130 \u00b0C confirmed in Section 3.1.3 ('Physical state: white solid, m.p. 127-130 \u00b0C'). DOI 10.3390/molecules29092035 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "854",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "4c = 4-fluoro-5-(4-ethylpiperazin-1-yl)-2-nitroaniline; M.P. 143-145 \u00b0C confirmed ('Yield 6.73 g, 94.91%, M.P.: 143-145 \u00b0C'). DOI 10.3390/molecules31050844 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "384",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Complex 8 = Pb(II) complex of compound 4 (5-methyl-1,3,4-oxadiazole-2(3H)-thione); mp 78 \u00b0C confirmed in Table 1 ('8 78 Yellow 0.6 ...'). DOI 10.1007/s13738-021-02358-x present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1732",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Methanoic acid (formic acid) Melting Peak -49.4 \u00b1 0.01 \u00b0C confirmed in Table 5 ('Methanoic acid | 64-18-6 | Fatty Acid | 233.81 \u00b1 0.95 | -50.4 \u00b1 0.02 | -49.4 \u00b1 0.01'). Property DSC_peak corresponds to melting peak column \u2014 Q2 OK. DOI 10.3390/ma13204486 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1643",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Nitrobenzene mp 6 \u00b0C from Table 1 (literature compilation in review paper). Q3 'measured' acceptable since values are experimental observations compiled from literature. DOI 10.1002/jps.24034 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1845",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "M10 thiopyrimidine sulfonamide acetamide; mp 224-226 \u00b0C confirmed ('White powder, mp 224-226 \u00b0C, 693 mg, 88%'). DOI 10.3390/molecules29194778 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1876",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "4-Methylquinolin-2(1H)-one (2p); m.p. = 220-222 \u00b0C confirmed in section 4.2.16. DOI 10.1021/acsomega.5c13222 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "252",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Compound 35 = Cis-2,6-dimethyl-N-(morpholino)methylenebisphosphonic acid; mp 222 \u00b0C confirmed ('was obtained with a 59% yield; mp. 222 \u00b0C'). DOI 10.3390/ph19020256 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1823",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "(Sp)-5a paracyclophane bis(diphenylphosphanyl); M.p. 105-106 \u00b0C confirmed ('(Sp)-...-bis(2-(diphenylphosphanyl)phenyl)-...-[(Sp)-5a]. 328 mg, 90% yield; white solid; M.p. 105-106 \u00b0C'). DOI 10.3390/molecules31030494 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1260",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "Hofmeisterin I (compound 1) mp 86-87 \u00b0C confirmed ('to yield 800 mg of 1 as white crystals (61%), mp 86-87 \u00b0C'). DOI 10.1021/acsomega.6c01037 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1661",
+    "verdict": "verified_extraction",
+    "reason": "all_checks_pass",
+    "details": "o,o'-Quaterphenyl (compound 17) mp 110-113 \u00b0C confirmed in synthesis section ('to yield o,o'-quaterphenyl as a white solid (0.040 g, mp 110-113 \u00b0C, lit 116-118 \u00b0C, 20% yield)'). DOI 10.3762/bjoc.15.258 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_verbatim"
+  },
+  {
+    "row_id": "1405",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 138: compound 3f mp 237-39\u00b0C is quoted verbatim; compound name matches; DOI 10.3390/70700554 present in paper.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "174",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 011: compound 2t '5-Acetyl-2-ethyl-4-(3-nitrophenylamino)-6-phenylpyridazin-3(2H)-one' mp 242-243 \u00b0C confirmed in synthesis section; DOI 10.3390/molecules31040699 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1334",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 124: compound 10d benzimidazole mp 265-267 \u00b0C confirmed verbatim; DOI 10.1186/s13065-025-01402-8 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "782",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 064 Table 5: Baricitinib literature Tm column [47] = 487.15 K confirmed (column-aligned to Baricitinib); 487.15-273.15=214.0\u00b0C arithmetic correct; DOI 10.1016/j.cdc.2021.100820 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "73",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 006: compound 13 '{1-[5-(5-Nitrofuran-2-yl)-1,3,4-thiadiazol-2-yl]piperidin-4-yl}(piperidin-1-yl)methanone' mp 252\u00b0C-254\u00b0C confirmed; DOI 10.1002/ardp.70227 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "465",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 032: 4-Benzyl-2-chloromethyl-2H-phthalazin-1-one (3) mp 125-127 \u00b0C confirmed; DOI 10.3390/ph4081158 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "124",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 010: compound 30 (E)-N-(Adamantan-1-yl)-3-(4-bromophenyl)acrylamide Mp 232-233 \u00b0C confirmed; DOI 10.3390/ijms27041716 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "758",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 062 Table 5: 4-me-2-pentanol bp 131.7 confirmed (experimental dataset); DOI 10.3390/ijms12042448 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1078",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 090: compound 2d '3-(2-furanyl)-6-(3,5-dinitrophenyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole' Mp 290-292\u00b0C confirmed; DOI 10.3390/70800681 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1572",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 176: compound 8c (triazolo-tetraacetyl-glucose) mp 145-146 \u00b0C confirmed; DOI 10.3390/molecules29122839 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1250",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 113: compound 6a (1-(2-(Benzyloxy)-5-bromo-4-methylphenyl)ethan-1-one) mp 72-73 \u00b0C confirmed; DOI 10.1021/acsomega.6c01037 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1064",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 087: compound 17a '4-(2-Furoyl)-2-(2-methoxycarbonylphenyl)-1,2,3-triazole' m.p. 138\u00b0C confirmed; DOI 10.3390/81200910 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1150",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 095: compound 7 '2-[11-Oxo-5,11-dihydro-1H-[1,2,4]triazepino[7,1-b]quinazolin-2-ylidine]-malononitrile' m.p. 250\u00b0C confirmed (paper has 11-Oxo5,11- without dash, normalization not Q1 failure); DOI 10.3390/60300267 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1465",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 149 SNMICON abstract: Mebrofenin melting point 205\u00b0C confirmed in abstract text; DOI 10.4103/ijnm.ijnm_144_24 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1447",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 139 Table 2: 4-Br iodylbenzene 241 expl. confirmed as this paper's measured decomposition value (next column 240 expl. [30] is literature); compound named 4-Bromoiodylbenzene matches paper's iodylarene series; DOI 10.3390/61100881 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1103",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 092: compound 8a hydrochloride m.p. 215-218 \u00b0C confirmed (the salt of 3-[3-(4-phenyl-1-piperazinyl)propyl]-2-phenyl-2,3-dihydrophthalazine-1,4-dione); DOI 10.3390/60900784 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "577",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 038: compound 3a '8-(1-(2-(5'-(Methylthio)-2,2'-bithiophen-5-ylthio)ethyl)-1H-1,2,3-triazol-4-yl)octane-1-thiol' mp 76-78 \u00b0C confirmed; DOI 10.3390/molecules16108758 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "236",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 014: compound 19 'N-(Cyclopentylo)methylenebisphosphonic acid' mp 210-211 \u00b0C confirmed; DOI 10.3390/ph19020256 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1318",
+    "verdict": "flagged_review",
+    "reason": "wrong-compound-bound-to-value",
+    "details": "Paper 123: extraction labels compound 2 as '6-iodoquinazolin-4(3H)-one' but paper text shows compound 2 = 2-amino-5-iodobenzoic acid; 6-iodoquinazolin-4(3H)-one is compound 3. The mp(dec) 219-221 \u00b0C in the quote is for compound 2 (2-amino-5-iodobenzoic acid), not for 6-iodoquinazolin-4(3H)-one. Q1 fails.",
+    "verifiable": false,
+    "verifiability_tag": "wrong_compound"
+  },
+  {
+    "row_id": "181",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 012: compound 2c 'N-(1-Benzylpiperidin-4-yl)-4-Phenylbutanamide Hydrochloride' mp 162\u00b0C-164\u00b0C confirmed; DOI 10.1002/cmdc.202500922 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1399",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 137: compound 14 procedure heading is '(\u00b1)-trans-2,5-Diisopropyl-B-methoxyborolane (14)' with b.p. 47 \u00b0C at 1 mmHg (paper has internal typo 'trans-2,5-diisopropyl-B-borolane (14)' but section heading and earlier mixture description confirm 14 is methoxyborolane); DOI 10.3390/60300244 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "146",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 011: compound 2q '3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydro-pyridazin-4-ylamino)-benzonitrile' mp 204-205 \u00b0C confirmed; DOI 10.3390/molecules31040699 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1366",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 128: compound 2a '(2S,11S,3Z,9Z)-2,11-Di[(tert-butoxycarbonyl)amino]-1,12-diphenyldodeca-3,9-diene' mp 91-93 \u00b0C confirmed; DOI 10.3390/71000767 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1362",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 127: 'N-(4-Hydroxy-2-methylquinolin-6-yl)-N'-phenylthiourea (4)' mp 325\u00b0C (decomp.) confirmed; DOI 10.1134/S1070428022100086 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "139",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper 011: compound 2i '3-(5-Acetyl-2-ethyl-3-oxo-6-phenyl-2,3-dihydropyridazin-4-ylamino)benzoic acid' mp 262-264 \u00b0C confirmed; DOI 10.3390/molecules31040699 present.",
+    "verifiable": true,
+    "verifiability_tag": "fully_supported"
+  },
+  {
+    "row_id": "1176",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 27 = 3-(Benzocoumarin-3'-yl)-2-cyano-5-dimethylamino-2,4-pentadienoic amide, mp 250 \u00b0C, confirmed in experimental section of PMC6146883; DOI 10.3390/80700541 present in file.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "1201",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 11 = 11-Acetoxy-10H-benzo[i]quino[2,3,4-kl]acridin-10-one, m.p. 222\u00b0C, confirmed in PMC6236359; DOI 10.3390/60400300 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "757",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "3-methyl-2-pentanol (paper uses '3-me-2-pentanol' abbreviation) BP 134.2 in Table 5 of QSPR alcohols paper; DOI 10.3390/ijms12042448 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "1462",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "PCL melting point of about 60\u00b0C confirmed in narrative of PMC10671727; quote matches; DOI 10.3390/ijms242216180 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "1277",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 15c full IUPAC name matches paper exactly; mp 255-257\u00b0C; DOI 10.3390/molecules31040595 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "915",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 2f = N-(2-(3-Methoxyphenoxy)phenyl)-2-(piperidin-1-yl)acetamide, m.p. 89-92\u00b0C confirmed; DOI 10.3390/molecules31050862 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "1754",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "1-Tetradecanol row in Table 5 of Muller 2020; Melting Peak column = 39.7 \u00b1 0.1 \u00b0C; DSC_peak property type matches column header; DOI 10.3390/ma13204486 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "1565",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 5a = N-(4,9-dioxo-4,9-dihydronaphtho[2,3-d]thiazol-2-yl)benzamide, Mp 280-281\u00b0C; DOI 10.3390/molecules29122777 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "1390",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 4 = R-(+)-1,1'-binaphthalene-2,2'-diaminobis(2-hydroxyacetophenonylideneimine), mp 262-264\u00b0C; DOI 10.3390/70700511 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "1574",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 8e full name matches paper (\u03b2-D-glucose vs \u1d05-glucose lowercase small caps equivalent); mp 141-142\u00b0C; DOI 10.3390/molecules29122839 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "834",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "2,4-dimethyl-3-pentanol BP 138.80 in Table 8 (Experimental and Calculated Bp of Alkyl Alcohols) of PMC6146921; URL points to PMC, paper file confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "794",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "2-propanol BP 82.30 in Table 8 of PMC6146921; URL points to PMC, paper file confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "149",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 3a = 5-Acetyl-2-ethyl-6-phenyl-4-(pyridin-3-ylamino)pyridazin-3(2H)-one, mp 185-186\u00b0C; DOI 10.3390/molecules31040699 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "1142",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 3c = 3-Amino 2-[1'-(4-methylphenylsulphonamido)-1'-(benzyl)methyl]quinazoline-4-(3H)-one, m.p. 170\u00b0C confirmed; DOI 10.3390/60300267 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "849",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 1 = N-(3-chloro-4-fluorophenyl)acetamide, M.P. 119-120\u00b0C confirmed in experimental section; DOI 10.3390/molecules31050844 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "585",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "(Z)-6-(1-Pentenyl)salicylic acid (8a), Mp 85-86\u00b0C confirmed; DOI 10.3390/molecules16054059 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "1259",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 12 = 1-(2-(5-Bromo-2-hydroxy-4-methylphenyl)-2-oxoethyl)pyrrolidine-2,5-dione, mp 87-88\u00b0C confirmed; DOI 10.1021/acsomega.6c01037 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "734",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "2-propanol BP 82.3 from Table 5 of QSPR alcohols paper; DOI 10.3390/ijms12042448 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "1036",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 4j name '1-(4-trifluoromethylphenyl)-1-(4-fluorophenyl)-O,O-dimethylphosphonate' matches paper text exactly (paper drops 'amino' though molecule is aminophosphonate; this is paper's own name, not extractor error); m.p. 139-141\u00b0C; DOI 10.3390/80100186 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "258",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "[Glu(OEt)2][HCl] T_onset 168.3\u00b0C from Table 2 (thermal stability column); decomposition mapping appropriate; DOI 10.3390/molecules28227523 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "614",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 6 = dimethyl 2,4-diphenylquinazoline-6,7-dicarboxylate, mp 156-158\u00b0C; DOI 10.3390/70700507 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "811",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "3-methyl-1-pentanol BP 152.40 in Table 8 of PMC6146921; URL points to PMC paper file confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "690",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 10a name matches paper text (paper has '3-{4-N'-(3-Amino-5-oxo-1,5-dihydropyrazol-4-ylidene)hydrazino]phenyl}-2-methyl-3H-quinazolin-4-one'); M.p. 180-182\u00b0C; DOI 10.3390/80400363 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "1368",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 5 = (5R)-1,5-Di[(tert-butoxycarbonyl)amino]-dodecane, mp 63-64\u00b0C; DOI 10.3390/71000767 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "1966",
+    "verdict": "verified_extraction",
+    "reason": "all_pass",
+    "details": "Compound 2b = (E)-7-Benzyl-9-benzylidene-4-(4-fluorophenyl)-1-oxa-7-azaspiro[4.4]non-3-ene-2,6,8-trione, mp 188.1-188.4\u00b0C; DOI 10.3762/bjoc.20.48 present.",
+    "verifiable": true,
+    "verifiability_tag": "quote_present"
+  },
+  {
+    "row_id": "544",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6b mp 188 \u00b0C confirmed in experimental section; DOI 10.1055/s-0036-1589496 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "505",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Ethyl 2-benzamido-2-(p-tolylamino)acetate (3') m.p. 164-166 \u00b0C confirmed in Section 3.2; DOI 10.3390/molecules15129354 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "350",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10d mp 91 \u00b0C confirmed in synthesis section; DOI 10.3390/molecules28227590 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1018",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 16b mp 289-290 \u00b0C confirmed in experimental; DOI 10.3390/ph4071032 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1555",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11c mp 234-236 \u00b0C confirmed in Section 3.4; DOI 10.3390/ijms25126803 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1718",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "[Ca][C8E8c]2 liquid above 19.5 \u00b0C (mp lower-bound) confirmed in Section 4; DOI 10.3390/molecules26134034 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1852",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound M17 White powder mp 177-180 \u00b0C confirmed; DOI 10.3390/molecules29194778 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "747",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "2-methyl-1-propanol experimental BP 107.9 \u00b0C in Table 5 (experimental data from literature compilation); DOI 10.3390/ijms12042448 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "839",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "1-nonanol experimental BP 213.10 confirmed in Table 8; PMC URL is valid for this paper (PMC6146921 in paper metadata).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1700",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Bicyclic 10 (prepared by dehydrofluorination of 9) white solid mp 219-221 \u00b0C confirmed; DOI 10.1021/acs.joc.0c02731 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1192",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "2,2'-Diaminobenzophenone (4a) m.p. 134 \u00b0C confirmed in experimental; DOI 10.3390/60400300 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1743",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Methyl hexadecanoate mp 28.9 \u00b1 0.05 confirmed in Table 5; DOI 10.3390/ma13204486 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "175",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2u (5-Acetyl-4-(2-chlorophenylamino)-2-ethyl-6-phenylpyridazin-3(2H)-one) mp 177-178 \u00b0C confirmed; DOI 10.3390/molecules31040699 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "212",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5k Mp 234 \u00b0C confirmed; DOI 10.3390/molecules31040706 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1589",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2a orange powder mp >300 \u00b0C confirmed; DOI 10.1134/S1070428022030101 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "428",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 11e white powder mp 231-232 \u00b0C confirmed in Section 3.4; DOI 10.3390/ijms242216359 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1818",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "(Sp)-4d yellow solid M.p. 124-125 \u00b0C confirmed; DOI 10.3390/molecules31030494 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "268",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "[Glu(OBu)2][HCl] Tmax 192.1 \u00b0C (TGA fastest decomposition) confirmed in Table 2; DOI 10.3390/molecules28227523 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "135",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2e (5-Acetyl-2-ethyl-4-(3-methoxyphenylamino)-6-phenylpyridazin-3(2H)-one) mp 158-159 \u00b0C confirmed; DOI 10.3390/molecules31040699 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1526",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2a white solid Mp 76.6-80.6 \u00b0C confirmed in experimental section; DOI 10.1021/acsbiomedchemau.4c00079 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "532",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 1a (7-(Cyanomethyl)-1H-pyrrolo[2,3-b]pyridin-7-ium Chloride) mp 203 \u00b0C with yield 2.587 g (79%) confirmed in experimental; DOI 10.1055/s-0036-1589496 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1422",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4a (7-(4-Chorophenyl)-9-phenyl-7H-triazolo[1,5-c]-7H-pyrrolo[3,2-e]pyrimidine) mp 256-58 \u00b0C confirmed; DOI 10.3390/70700554 present in paper text. Name 'Chorophenyl' matches paper typo.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1977",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3d white solid mp 130-132 \u00b0C confirmed; DOI 10.3762/bjoc.20.48 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "122",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 28 (N-(3-Hydroxy)adamant-1-yl cinnamamide, naming variant of N-(3-Hydroxyadamantan-1-yl)cinnamamide) Mp 265-269 \u00b0C confirmed; DOI 10.3390/ijms27041716 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1267",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10 (Z)-(6aR,10aR)-6,6,9-Trimethyl-2-[2-(4-nitrophenyl)hydrazineylidene]-3-pentyl-2,6,6a,7,8,10a-hexahydro-1H-benzo[c]chromen-1-one red solid mp 63-65 \u00b0C confirmed; DOI 10.3390/molecules31050796 present in paper text.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]

@@ -1,0 +1,405 @@
+Chiral terpene auxiliaries V: Synthesis of new chiral
+γ-hydroxyphosphine oxides derived from α-pinene
+Anna Kmieciak and Marek P. Krzemiński*
+
+
+
+
+  Full Research Paper                                                                                                          Open Access
+
+  Address:                                                           Beilstein J. Org. Chem. 2019, 15, 2493–2499.
+  Faculty of Chemistry, Nicolaus Copernicus University in Toruń, 7   doi:10.3762/bjoc.15.242
+  Gagarin St., 87-100 Toruń, Poland
+                                                                     Received: 08 May 2019
+  Email:                                                             Accepted: 09 October 2019
+  Marek P. Krzemiński* - mkrzem@chem.umk.pl                          Published: 22 October 2019
+
+  * Corresponding author                                             This article is dedicated to Professor Marek Zaidlewicz on the occasion of
+                                                                     his 80th birthday.
+  Keywords:
+  isopinocamphone; monoterpenes; phosphines; [2,3]-sigmatropic       Associate Editor: S. Bräse
+  rearrangement; verbanone
+                                                                     © 2019 Kmieciak and Krzemiński; licensee Beilstein-Institut.
+                                                                     License and terms: see end of document.
+
+
+
+
+Abstract
+New chiral regioisomeric γ-hydroxyphosphine ligands were synthesized from α-pinene. The key transformation was the thermal
+[2,3]-sigmatropic rearrangement of allyldiphenylphosphinites, obtained from (1R,2R,4S,5R)-3-methyleneneoisoverbanol and
+(1R,2R,3R,5R)-4-methyleneneoisopinocampheol, to allylphosphine oxides. Hydroxy groups were introduced stereoselectively
+through a hydroboration–oxidation reaction proceeding from the less hindered site providing a trans relationship between the
+hydroxy and the phosphine substituents.
+
+
+
+Introduction
+Chiral phosphorus compounds, despite many years of research,          organometallics with chlorophosphines, the reaction of metal
+still enjoy unflagging interest of many research groups [1].          phosphides with haloalkanes, and transition-metal-catalyzed
+Compounds with a phosphorus atom attached to a stereogenic            cross-coupling reactions to form C–P bonds are the most widely
+carbon center in acyclic and cyclic structures play an important      used methods for the synthesis of phosphines [13,14]. Since
+role as chiral ligands in transition metal complexes [2]. They        phosphines are easily oxidized to phosphine oxides, the addi-
+were applied to various catalytic asymmetric reactions [3,4],         tion of phosphine oxide P–H nucleophiles were also realized
+such as hydrogenations [3-6], conjugated additions to enones          [15]. The phosphine oxide group can also be introduced starting
+[7], and allylic alkylations [8,9]. Another direction of research     from allylic alcohols employing the rearrangement of allylic
+is the use of phosphines in organocatalysis [10,11] and bifunc-       diphenylphosphinites to allylphosphine oxides [16,17].
+tional catalysis [12].
+                                                                      Recently, we have shown the synthesis and applications of
+Several methods were developed to introduce the phosphine             chiral PHOX ligands that were obtained from readily available
+functionality to organic molecules. The reaction of                   natural (1S)-β-pinene and (1S)-α-pinene [18]. We applied these
+
+
+                                                                                                                                            2493
+                                                                                               Beilstein J. Org. Chem. 2019, 15, 2493–2499.
+
+
+
+
+ligands for the formation of the ruthenium complexes, which           aldehyde in the presence of sodium carbonate to give (+)-3-
+were successfully used as catalysts in asymmetric transfer            methyleneverbanone (5) in 57% yield from 3. α,β-Unsaturated
+hydrogenation of prochiral ketones.                                   ketone 5 was exclusively reduced to allylic alcohol
+                                                                      (1R,2R,4S,5R)-3-methyleneneoisoverbanol (6), using the Luche
+In continuation of our studies on the synthesis of monoterpene        method [24]. 1,2-Reduction of enone 5 was achieved with sodi-
+derived ligands, we have utilized commercially available (1R)-        um borohydride in the presence of cerium(III) chloride in meth-
+α-pinene and (1S)-β-pinene to obtain regioisomeric exocyclic          anol in 88% yield (Scheme 1).
+and endocyclic allylic alcohols, which were applied for the syn-
+thesis of γ-hydroxydiphenylphosphine ligands. To the best of          The synthesis of allylic alcohol 11, a regioisomer of 6, started
+our knowledge, only Knochel and co-workers synthesized                again from (1R)-α-pinene (1, Scheme 2). Hydroboration of
+diphosphines with a pinane framework [19].                            (1R)-α-pinene with borane–dimethyl sulfide adduct (BMS) and
+                                                                      crystallization of the product diisopinocampheylborane
+Results and Discussion                                                ( d Ipc 2 BH, 84% yield) allowed to upgrade the enantiomeric
+Synthesis of allylic alcohols                                         purity of dIpc2BH [25]. Oxidation of the resulting dialkylbo-
+In the first step, commercially available natural (1R)-α-pinene       rane with hydrogen peroxide provided enantiomerically pure
+(1) was oxidized with lead(IV) acetate to produce (+)-                (−)-isopinocampheol (7) in 78% yield. The Brown–Garg
+verbenone (2) in 58% yield (Scheme 1) [20]. Hydrogenation of          protocol [26] was employed to oxidize 7 with an aqueous solu-
+2 with Adams catalyst was carried out in cyclohexane with             tion of sodium dichromate and sulfuric acid under biphasic
+1 atm of hydrogen. The hydrogen pressure was increased to             conditions. (−)-Isopinocamphone (8) was purified by fractional
+10 atm for the reaction performed in an autoclave on a larger         distillation and isolated in 78% yield. Then, 8 was subjected to
+scale maintaining the high selectivity of hydrogen addition from      an analogous reaction sequence that was used for (+)-verbanone
+the less hindered side of the molecule. (1R,2S,5R)-(+)-               (3), i.e., the synthesis of the enone in the first step followed by
+Verbanone (3) was obtained in 93% yield. GC analysis of 3             its 1,2-reduction to the allylic alcohol. Thus, Claisen condensa-
+showed the presence of cis and trans diastereoisomers in a ratio      tion of 8 with ethyl formate gave β-hydroxyenone 9, which was
+of 97:3. The hydrogen-addition selectivity is consistent with         subjected to transaldolization with formaldehyde producing
+earlier literature reports and results from the shielding effect of   the corresponding 4-methyleneisopinocamphone (10) in 83%
+the gem-dimethyl bridge [21,22].                                      yield. Luche reduction of the latter compound provided
+                                                                      (1R,2R,3R,5R)-4-methyleneneoisopinocampheol (11) in 84%
+                                                                      yield.
+
+
+
+
+ Scheme 1: Synthesis of (1R,2R,4S,5R)-3-methyleneneoisoverbanol
+ (6).
+
+                                                                       Scheme 2: Synthesis of (1R,2R,3R,5R)-4-methyleneneoisopinocam-
+                                                                       pheol (11).
+In the next step, 3 reacted with sodium methoxide in toluene
+and the resulting enolate was condensed with ethyl formate to
+give a keto-aldehyde, which tautomerized into the more stable         In order to obtain two endocyclic allylic alcohols, (−)-β-pinene
+β-hydroxyenone 4 [23]. The intermediate 4 was sufficiently            was chosen as the starting material for this synthesis
+pure for the subsequent transaldolization reaction with form-         (Scheme 3). Thus, β-pinene (12) was reacted with ozone to give
+
+
+                                                                                                                                      2494
+                                                                                              Beilstein J. Org. Chem. 2019, 15, 2493–2499.
+
+
+
+
+(+)-nopinone (13) in 90% yield [27]. In the next step, 13 reacted
+with diphenyl diselenide and selenium dioxide in methanol
+[28]. The obtained phenyl selenide 14 was oxidized with hydro-
+gen peroxide in the presence of pyridine to selenoxide, which
+readily undergoes intramolecular syn-elimination to produce
+α,β-unsaturated (+)-apoverbenone (15) [28,29]. In the next step,
+Luche reduction of 15, proceeding from the less hindered side
+                                                                     Figure 1: NOE effects in molecules 16 and 18.
+of the carbonyl group, gave (1R,4R,5R)-apopinenol (16) in 95%
+yield. GC analysis of 16 has shown the presence of the ex-
+pected major isomer (1R,4R,5R)-16 (92%) and the minor               Synthesis of γ-hydroxyphosphines
+isomer (1R,4S,5R)-18 (8%). Diastereomers 16 and 18 can be           The key step in the synthesis to introduce a phosphine function-
+separated by flash column chromatography on silica gel. For the     ality is the thermal [2,3]-sigmatropic rearrangement of an allylic
+purpose of this study, (1R,4R,5R)-apopinenol (16) was subject-      diphenylphosphinite to the diphenylphosphine oxide
+ed to the Mitsunobu reaction to obtain the product with inverted    (Scheme 4) [16].
+configuration at C4. Alcohol 16 was reacted with diisopropyl
+azodicarboxylate, triphenylphosphine, and p-nitrobenzoic acid
+in THF [30]. 1H NMR analysis of the crude p-nitrobenzoate 17
+revealed a mixture of the predicted p-nitrobenzoate of
+apopinenol 18 together with an ester of 16 in a ratio of 79:21.
+Attempts to separate p-nitrobenzoates of 18 and 16 by column
+chromatography on silica gel failed. The mixture of esters, after
+purification, was hydrolyzed with a 5% aqueous solution of
+NaOH. GC analysis of the isolated alcohol confirmed the pres-
+ence of (1R,4S,5R)-apopinenol (18) and (1R,4R,5R)-16 in a
+ratio of 79.5:20.5.
+
+
+
+
+                                                                     Scheme 4: Synthesis of (1R,2R,3R,4R,5R)-3-((diphenylphos-
+                                                                     phanyl)methyl)isoverbanol (23).
+
+
+
+                                                                    Diphenylphosphinite 19 was formed in the reaction of allylic
+                                                                    alcohol 6 with diphenylphosphine chloride in the presence of
+                                                                    DMAP at −20 ºC. The temperature was raised to induce phos-
+                                                                    phinite’s [2,3]-sigmatropic rearrangement (20) as shown in
+                                                                    Scheme 4. The reaction progress, conversion of 19 into 21, was
+                                                                    monitored by 31 P NMR (ROPPh 2 δ = 113 ppm; RP(O)Ph 2
+                                                                    δ = 30 ppm). The phosphinite 19 disappeared after 48 h at
+                                                                    100 °C. The product was crystallized from heptane to give
+ Scheme 3: Synthesis of allylic alcohols 16 and 18 from β-pinene.
+                                                                    phosphine oxide 21 in 92% yield. The allylic diphenylphos-
+                                                                    phine oxide 21 was subjected to the hydroboration–oxidation
+The structures and stereochemistry of both diastereomeric alco-     reaction introducing stereoselectively the hydroxy group.
+hols 16 and 18 were confirmed by 2D NMR spectra. All                Hydroboration was carried out with an excess of
+protons in 16 and 18 were assigned using 1H,1H-COSY spectra.        borane–dimethyl sulfide adduct followed by the oxidation step.
+The configurations at C4 were established by correlations ob-       The standard C–B bond oxidation protocol (H 2 O 2 /NaOH)
+served in their 1H,1H-NOESY spectra (Figure 1, Supporting           proceeded with the low yield (32%). Application of m-chloro-
+Information File 1).                                                perbenzoic acid (mCPBA) as an oxidant, similarly to
+
+
+                                                                                                                                     2495
+                                                                                           Beilstein J. Org. Chem. 2019, 15, 2493–2499.
+
+
+
+
+Knochels findings [19], gave the higher yield (56%) of
+(((1R,2R,3R,4R,5R)-4-hydroxypinan-3-yl)methyl)diphenylphos-
+phine oxide (22).
+
+Next, phosphine oxide 22 was reduced to the phosphine with
+poly(methylhydrosiloxane) in the presence of titanium(IV)
+isopropoxide (Scheme 4). The work-up of the reaction mixture
+with 25% HF allowed to remove silicon and titanium impuri-
+ties and purification of 23 by column chromatography on silica
+gel yielded the product in 62%.
+
+4-Methyleneneoisopinocampheol (11) was subjected to the
+same reaction sequence as 6 (Scheme 5). The allylphosphine         Scheme 6: Attempted sigmatropic rearrangement of phosphinites 28
+                                                                   and 29.
+oxide 26 was obtained after [2,3]-sigmatropic rearrangement of
+phosphinite 24. After purification by column chromatography
+on silica gel, 26 was obtained in 78% yield. The hydroboration    transformation, the thermal [2,3]-sigmatropic rearrangement of
+of 26 was carried out with borane–dimethyl sulfide adduct in      allyldiphenylphosphinites to allyldiphenylphosphine oxides.
+THF at 50 ºC. Oxidation of the alkylborane with mCPBA gave        Allylphosphine oxides were further functionalized through a
+the desired alcohol 27 in 51% overall yield.                      hydroboration–oxidation reaction occurring from the less
+                                                                  hindered side of the molecule to produce γ-hydroxyphosphine
+                                                                  oxide derivatives. It was also shown that phosphine oxide can
+                                                                  be reduced to phosphine without affecting the bicyclic pinane
+                                                                  structure.
+
+                                                                  The synthesis of diastereomeric endocyclic allylic alcohols
+                                                                  from (−)-β-pinene was also carried out. Unfortunately, due to
+                                                                  the probably too rigid bicyclic structure of the diphenylphos-
+                                                                  phinites, they did not undergo the sigmatropic rearrangement to
+                                                                  the corresponding phosphine oxides. Further research and appli-
+                                                                  cation of the obtained ligands are in progress.
+
+ Scheme 5: Synthesis of (((1R,2R,3S,4S,5S)-3-hydroxypinan-4-      Experimental
+ yl)methyl)diphenylphosphine oxide (27).
+                                                                  Diphenyl(((1R,2R,5S)-δ-pinen-3-
+                                                                  yl)methyl)phosphine oxide (21)
+Finally, diastereomeric endocyclic allylic alcohols 16 and 18     Allylic alcohol 6 (0.831 g, 5 mmol) and 4-dimethylamino-
+were treated with chlorodiphenylphosphine in the presence of      pyridine (0.645 g, 5.3 mmol) were placed in a Schlenk flask.
+DMAP to produce diphenylphosphinites 28 and 29 (31P NMR:          These compounds were dissolved in toluene (10 mL) under
+ROPPh2 δ = 107 ppm), respectively (Scheme 6). Attempts to         nitrogen. The solution was cooled below –20 °C and
+carry out a sigmatropic rearrangement in toluene at 100 ºC as     diphenylphosphine chloride (1.106 g, 5 mmol) was added drop-
+well as in xylene at 140 ºC failed. The formation of the phos-    wise. After the removal of the cooling bath, the solution was
+phine oxide products was not observed by 31P NMR analysis.        stirred for 24 h at 100 °C. After this time, the 31P NMR spec-
+The probable reason for the lack of the rearrangement reaction    trum has shown incomplete conversion of the substrate. Conse-
+may be the rigid bicyclic structure of the substrate and steric   quently, heating was continued until the 31P NMR spectrum
+hindrance on one side of the molecule caused by the gem-          showed complete substrate conversion (48 h). Warm toluene
+dimethyl bridge.                                                  (10 mL) was added to the reaction mixture and the solution was
+                                                                  filtered through a pad of celite. The precipitate was washed with
+Conclusion                                                        another portion of warm toluene (10 mL). The solvent was re-
+Regioisomeric exocyclic allylic alcohols were synthesized from    moved using a rotary evaporator to give the phosphine oxide.
+natural α-pinene. (1R,2R,4S,5R)-3-Methyleneneoisoverbanol         After crystallization from heptane, phosphine oxide 21 (1.612 g,
+and (1R,2R,3R,5R)-4-methyleneneoisopinocampheol were syn-         92%) was obtained as a white solid, mp 127–131 °C,           −98
+thesized using known procedures. They were used in the key        (c 2.4, CHCl3); 1H NMR (700 MHz, CDCl3) δ 0.87 (d, J =
+
+
+                                                                                                                                  2496
+                                                                                           Beilstein J. Org. Chem. 2019, 15, 2493–2499.
+
+
+
+
+8.5 Hz, 1H), 0.89 (s, 3H, CH3), 1.14 (d, J = 7.5 Hz, 3H, CH3),     (m, 1H), 2.05–2.13 (m, 2H), 2.30–2.46 (m, 3H), 2.54–2.61 (m,
+1.20 (s, 3H, CH3), 1.95–1.96 (m, 2H), 2.23 (dt, J = 8.4, 5.6 Hz,   1H), 4.02 (d, J = 4.2 Hz, 1H), 7.46–7.58 (m, 6H), 7.74–7.82 (m,
+1H), 2.56 (s, 1H), 3.08–3.12 (m, 1H), 3.20–3.25 (m, 1H), 5.97      4H); 13C NMR (100 MHz, CDCl3) δ 16.84, 23.18, 25.39, 27.79,
+(s, 1H), 7.45–7.48 (m, 4H), 7.49–7.53 (m, 2H), 7.76–7.80 (m,       32.13 (d, J = 69.1 Hz), 36.32 (d, J = 12.7 Hz), 37.52 (d, J =
+4H); 13C NMR (100 MHz, CDCl3) δ 16.78 (d, J = 1.6 Hz),             4.0 Hz), 39.48, 47.36, 48.80, 75.87, 128.74 (d, J = 9.5 Hz),
+23.73, 27.11, 33.52, 34.29 (d, J = 4.0 Hz), 38.22 (d, J = 4 Hz),   128.86 (d, J = 10.3 Hz), 130.45 (d, J = 9.5 Hz), 131.08 (d, J =
+42.30 (d, J = 5.6 Hz), 42.31, 48.33, 128.33 (d, J = 11.9 Hz),      8.7 Hz), 131.22 (d, J = 97.7 Hz), 131.91 (d, J = 3.2 Hz) 131.94
+128.51 (d, J = 11.9 Hz), 129.09, 129.19, 130.84 (d, J = 9.5 Hz),   (d, J = 3.2 Hz), 133.40 (d, J = 100.9 Hz); 31P NMR (162 MHz,
+131.23 (d, J = 8.7 Hz), 131.60 (d, J = 8.7 Hz), 131.64 (d, J =     CDCl3) δ 37.62; anal. calcd for C23H29O2P: C, 74.98; H, 7.93;
+9.0 Hz), 135.87 (d, J = 8.0 Hz), 135.90 (d, J = 9.5 Hz);           found: C, 74.67; H, 8.07.
+31 P NMR (162 MHz, CDCl ) δ 31.76; anal. calcd for
+                                 3
+C 23 H 27 OP: C, 78.83; H, 7.77; found: C, 78.73; H, 7.61.         (1R,2R,3R,4R,5R)-3-((Diphenylphos-
+                                                                   phanyl)methyl)isoverbanol (23)
+(((1R,2R,3R,4R,5R)-4-Hydroxypinan-3-                               Phosphine oxide 22 (0.221 g, 0.6 mmol) was dissolved in dry
+yl)methyl)diphenylphosphine oxide (22)                             toluene (2 mL) in a Schlenk flask under nitrogen. Then,
+Phosphine oxide 21 (1.402 g, 4 mmol) was dissolved in THF          poly(methylhydrosiloxane) (PMHS, 0.3 mL) and titanium(IV)
+(13 mL) under nitrogen. BMS (10 M, 0.8 mL, 8 mmol) was             isopropoxide (0.672 g, 0.7 mL, 2.4 mmol) were added drop-
+added dropwise to the reaction mixture. The mixture was stirred    wise to the solution. The reaction mixture was stirred for 24 h at
+for 24 h at 50 °C. After this time, the solution was cooled to     100 °C, cooled, and poured into a solution of 48% hydrofluoric
+room temperature and methanol (6 mL) was carefully added           acid (3.6 mL) and water (3 mL). The mixture was stirred
+until the gas evolution ceased. Solvents were removed using a      overnight and the layers were separated. The aqueous layer was
+rotary evaporator and the resulting intermediate was dissolved     extracted with toluene (2 × 10 mL). The combined organic
+in dichloromethane (6 mL). meta-Chloroperbenzoic acid (75%,        layers were washed with 5% sodium bicarbonate (5 mL) and
+2.301 g, 10 mmol) was dissolved in dichloromethane (10 mL),        brine (5 mL). After drying the solution with anhydrous magne-
+cooled in a dry ice–acetone bath, and the intermediate solution    sium sulfate and filtration, the solvent was evaporated and the
+was added dropwise. After 3 h, the mixture was filtered, 10%       product was purified by flash chromatography on silica gel
+sodium metabisulphite (15 mL) was added to the filtrate, and       (hexane/ethyl acetate 80:20). Phosphine 23 (0.131 g, 62%) was
+the mixture was stirred for 10 min. The layers were separated,     obtained as a colorless oil. 1H NMR (700 MHz, CDCl3) δ 0.93
+the organic layer was washed with 1 M NaOH (2 × 15 mL),            (s, 3H, CH3), 1.14 (d, J = 7.7 Hz, 3H, CH3), 1.23 (s, 3H, CH3),
+brine (10 mL), and dried over anhydrous magnesium sulfate.         1.38 (d, J = 10.1 Hz, 1H), 1.92–1.96 (m, 1H), 1.98 (m, 1H),
+The solution was filtered, the solvent evaporated on a rotary      2.06–2.12 (m, 2H), 2.28–2.33 (m, 1H), 2.36–2.40 (m, 1H),
+evaporator and the product was purified by flash chromatogra-      2.41–2.47 (m, 1H), 4.03 (d, J = 6.2 Hz, 1H), 7.33–7.39 (m, 6H),
+phy on silica gel (dichloromethane/diethyl ether 10:90). Phos-     7.46–7.51 (m, 4H); 13C NMR (176 MHz, CDCl3) δ 16.35 (d,
+phine oxide 22 (0.825 g, 56%) was obtained as an oil.              J = 3.5 Hz), 23.02, 25.07, 27.97, 30.17 (d, J = 11.8 Hz), 35.34
+                                                                   (d, J = 6.9 Hz), 39.04 (d, J = 11.1 Hz), 39.80, 48.09, 48.88,
+In a second oxidation procedure, methanol (5 mL) and a 3 M         77.23, 128.49 (d, J = 6.9 Hz), 128.50 (d, J = 6.9 Hz), 128.70,
+solution of sodium hydroxide (2.7 mL, 8.1 mmol) were care-         128.75, 128.88 (d, J = 11.8 Hz), 132.73 (d, J = 18.0 Hz), 132.81
+fully added. After cooling to 0 °C, a 30% solution of hydrogen     (d, J = 18.0 Hz), 138.14 (d, J = 9.0 Hz); 31P NMR (283.5 MHz,
+peroxide (1.2 mL, 12 mmol) was added dropwise to the reac-         CDCl3) δ −18.78; anal. calcd for C23H29OP: C, 78.38; H, 8.29;
+tion mixture. The solution was stirred for 30 minutes at rt and    found: C, 78.55; H, 8.34.
+1 h at 50 °C. After this time, potassium carbonate was added to
+saturate the solution. The layers were separated and the aqueous   Diphenyl (((1R,2S,5R)-δ-pinen-4-
+layer was extracted with diethyl ether (2 × 20 mL). The            yl)methyl)phosphine oxide (26)
+combined organic layers were washed with brine (15 mL), dried      Unsaturated phosphine oxide 26 was obtained applying the pro-
+with anhydrous magnesium sulfate, filtered and the solvents        cedure described for 21. Allylic alcohol 11 (0.333 g, 2 mmol),
+were removed using a rotary evaporator. The product was puri-      DMAP (0.280 g, 2,3 mmol), diphenylphosphine chloride
+fied by column chromatography on silica gel (dichloromethane/      (0.441 g, 2 mmol), and toluene (5 mL) were used for the reac-
+diethyl ether 10:90). 22 (0.472 g, 32%) was isolated as a white    tion. The crude product was purified on silica gel (eluent:
+solid (mp 179–183 °C,            −39 (c 3.0, CHCl 3 ); 1 H NMR     dichloromethane/diethyl ether 10:90) to give 26 (0.547 g, 78%),
+(400 MHz, CDCl3) δ 0.91 (s, 3H, CH3), 1.05 (d, J = 7.3 Hz, 3H,     mp 62–66 °C,         −14 (c 2.0, CHCl3); 1H NMR (700 MHz,
+CH3), 1.22 (s, 3H, CH3), 1.38 (d, J = 9.3 Hz, 1H), 1.87–1.93       CDCl3) δ 0.71 (s, 3H, CH3), 0.78 (d, J = 7.1 Hz, 3H, CH3), 0.87
+
+
+                                                                                                                                  2497
+                                                                                                 Beilstein J. Org. Chem. 2019, 15, 2493–2499.
+
+
+
+
+(d, J = 9.0 Hz, 1H), 1.18 (s, 3H, CH3), 1.71 (m, 1H), 2.06 (dt,     ORCID® iDs
+J = 9.0 Hz, 5.6 Hz, 1H), 2.20 (td, J = 5.5, 1.4 Hz, 1H), 2.30 (m,   Anna Kmieciak - https://orcid.org/0000-0003-0002-0338
+1H), 3.03–3.13 (m, 2H), 5.16 (m, 1H), 7.42–7.46 (m, 4H),            Marek P. Krzemiński - https://orcid.org/0000-0002-4337-5676
+
+7.47–7.51 (m, 2H), 7.72–7.78 (m, 4H); 13C NMR (176 MHz,
+CDCl3) δ 18.22 (d, J = 4.2 Hz) 20.59, 26.31, 27.60 (d, J = 2.1),    References
+34.73 (d, J = 2.1 Hz), 38.91 (d, J = 68.0 Hz), 40.94 (d, J =        1. Börner, A., Ed. Phosphorus Ligands in Asymmetric Catalysis:
+1.4 Hz), 46.41, 47.73 (d, J = 2.8 Hz), 128.27 (d, J = 11.8 Hz),        Synthesis and Applications; Wiley-VCH: Weinheim, Germany, 2008.
+                                                                    2. Jacobsen, E. N.; Pfaltz, A.; Yamamoto, H., Eds. Comprehensive
+128.44 (d, J = 11.8 Hz), 128.83 (d, J = 11.8 Hz), 130.87 (d, J =
+                                                                       Asymmetric Catalysis, and Supplements 1 and 2; Springer-Verlag:
+9.0 Hz), 131.17 (d, J = 9.0 Hz), 131.49 (d, J = 2.8 Hz), 131.54        Berlin, Germany, 2004.
+(d, J = 2.1 Hz), 132.95 (d, J = 97.8 Hz), 133.70 (d, J =            3. Tang, W.; Zhang, X. Chem. Rev. 2003, 103, 3029–3070.
+96.4 Hz), 137.43 (d, J = 10.4 Hz); 31 P NMR (283.5 MHz,                doi:10.1021/cr020049i
+CDCl3) δ 29.93; anal. calcd for C23H27OP: C, 78.83; H, 7.77;        4. Chen, X.-S.; Hou, C.-J.; Hu, X.-P. Synth. Commun. 2016, 46, 917–941.
+                                                                       doi:10.1080/00397911.2016.1171362
+found: C, 78.97; H, 7.51.
+                                                                    5. Hoyt, J. M.; Shevlin, M.; Margulieux, G. W.; Krska, S. W.; Tudge, M. T.;
+                                                                       Chirik, P. J. Organometallics 2014, 33, 5781–5790.
+(((1R,2R,3S,4S,5S)-3-Hydroxypinan-4-                                   doi:10.1021/om500329q
+yl)methyl)diphenylphosphine oxide (27)                              6. Padevět, J.; Schrems, M. G.; Scheil, R.; Pfaltz, A.
+Hydroboration–oxidation of 26 was carried out according to the         Beilstein J. Org. Chem. 2016, 12, 1185–1195. doi:10.3762/bjoc.12.114
+procedure described for 22. Unsaturated phosphine oxide 26          7. Chen, Y.-R.; Duan, W.-L. Org. Lett. 2011, 13, 5824–5826.
+                                                                       doi:10.1021/ol2024339
+(0.350 g, 1 mmol) and BMS (0.2 mL, 10 M, 2 mmol) were used
+                                                                    8. Guerrero Rios, I.; Rosas-Hernandez, A.; Martin, E. Molecules 2011, 16,
+in the hydroboration reaction. meta-Chloroperbenzoic acid              970–1010. doi:10.3390/molecules16010970
+(75%, 0.575 g, 2.5 mmol) was used in the oxidation reaction.        9. Zhong, F.; Luo, J.; Chen, G.-Y.; Dou, X.; Lu, Y. J. Am. Chem. Soc.
+The product was purified on silica gel (eluent: dichloromethane/       2012, 134, 10222–10227. doi:10.1021/ja303115m
+diethyl ether 50:50) to give 27 (0.188 g, 51%). 1 H NMR             10. Wei, Y.; Shi, M. Acc. Chem. Res. 2010, 43, 1005–1018.
+                                                                       doi:10.1021/ar900271g
+(400 MHz, CDCl3) δ 0.99 (s, 3H, CH3), 1.04 (d, J = 7.1 Hz, 3H,
+                                                                    11. Xiao, Y.; Sun, Z.; Guo, H.; Kwon, O. Beilstein J. Org. Chem. 2014, 10,
+CH3), 1.12 (d, J = 10.3 Hz, 1H), 1.21 (s, 3H, CH3), 1.72–1.80
+                                                                       2089–2121. doi:10.3762/bjoc.10.218
+(m, 2H), 2.08–2.20 (m, 2H), 2.31 (ddd, J = 15.2, 7.5, 1.8 Hz,       12. Wang, T.; Han, X.; Zhong, F.; Yao, W.; Lu, Y. Acc. Chem. Res. 2016,
+1H), 2.50–2.63 (m, 2H), 4,33 (dd, J = 9.8, 4.9 Hz, 1H),                49, 1369–1378. doi:10.1021/acs.accounts.6b00163
+7.43–7.56 (m, 6H), 7.69–7.79 (m, 4H); 13C NMR (100 MHz,             13. Wauters, I.; Debrouwer, W.; Stevens, C. V. Beilstein J. Org. Chem.
+CDCl 3 ) δ 14.23, 23.27, 27.67, 29.54, 35.36, 37.56 (d, J =            2014, 10, 1064–1096. doi:10.3762/bjoc.10.106
+                                                                    14. Tappe, F. M. J.; Trepohl, V. T.; Oestreich, M. Synthesis 2010,
+69.1 Hz), 39.22, 48.38 (d, J = 3.2 Hz), 49.03, 49.76 (d, J =
+                                                                       3037–3062. doi:10.1055/s-0030-1257960
+13.5 Hz), 71.47 (d, J = 1.6 Hz), 128.71 (d, J = 5.6 Hz), 128.82     15. Jaklińska, M.; Cordier, M.; Stankevič, M. J. Org. Chem. 2016, 81,
+(d, J = 5.6 Hz), 130.39 (d, J = 9.5 Hz), 131.10 (d, J = 9.5 Hz),       1378–1390. doi:10.1021/acs.joc.5b02337
+131.61 (d, J = 98.6 Hz), 131.82 (d, J = 3.2 Hz), 131.88 (d, J =     16. Demay, S.; Volant, F.; Knochel, P. Angew. Chem., Int. Ed. 2001, 40,
+2.4 Hz), 133.61 (d, J = 100.1 Hz); 31P NMR (162 MHz, CDCl3)            1235–1238.
+                                                                       doi:10.1002/1521-3773(20010401)40:7<1235::aid-anie1235>3.0.co;2-y
+δ 36.03; anal. calcd for C23H29O2P: C, 74.98; H, 7.93; found:
+                                                                    17. Boyd, D. R.; Bell, M.; Dunne, K. S.; Kelly, B.; Stevenson, P. J.;
+C, 75.08; H, 7.77.
+                                                                       Malone, J. F.; Allen, C. C. R. Org. Biomol. Chem. 2012, 10,
+                                                                       1388–1395. doi:10.1039/c1ob06599h
+                                                                    18. Kmieciak, A.; Krzemiński, M. P. Tetrahedron: Asymmetry 2017, 28,
+  Supporting Information                                               467–472. doi:10.1016/j.tetasy.2017.02.003
+                                                                    19. Gavryushin, A.; Polborn, K.; Knochel, P. Tetrahedron: Asymmetry
+  Supporting Information File 1
+                                                                       2004, 15, 2279–2288. doi:10.1016/j.tetasy.2004.05.045
+  General information, experimental procedures and                  20. Sivik, M. R.; Stanton, K. J.; Paquette, L. A. Org. Synth. 1995, 72,
+  characterization data of the following compounds: 2, 3,              57–59. doi:10.15227/orgsyn.072.0057
+  5–8, 10, 11, and 14–18.                                           21. Regan, A. F. Tetrahedron 1969, 25, 3801–3805.
+  [https://www.beilstein-journals.org/bjoc/content/                    doi:10.1016/s0040-4020(01)82913-6
+                                                                    22. Konopelski, J. P.; Sundararaman, P.; Barth, G.; Djerassi, C.
+  supplementary/1860-5397-15-242-S1.pdf]
+                                                                       J. Am. Chem. Soc. 1980, 102, 2737–2745. doi:10.1021/ja00528a036
+                                                                    23. Malkov, A. V.; Pernazza, D.; Bell, M.; Bella, M.; Massa, A.; Teplý, F.;
+                                                                       Meghani, P.; Kočovský, P. J. Org. Chem. 2003, 68, 4727–4742.
+Acknowledgements                                                       doi:10.1021/jo034179i
+We wish to thank for the financial support received from            24. Gemal, A. L.; Luche, J. L. J. Am. Chem. Soc. 1981, 103, 5454–5459.
+National Science Centre, grant Preludium 4 No. 2012/07/N/              doi:10.1021/ja00408a029
+ST5/02194.
+
+
+                                                                                                                                              2498
+                                                                             Beilstein J. Org. Chem. 2019, 15, 2493–2499.
+
+
+
+
+25. Brown, H. C.; Singaram, B. J. Org. Chem. 1984, 49, 945–947.
+   doi:10.1021/jo00179a041
+26. Brown, H. C.; Garg, C. P.; Liu, K.-T. J. Org. Chem. 1971, 36, 387–390.
+   doi:10.1021/jo00802a005
+27. Binder, C. M.; Bautista, A.; Zaidlewicz, M.; Krzemiński, M. P.;
+   Oliver, A.; Singaram, B. J. Org. Chem. 2009, 74, 2337–2343.
+   doi:10.1021/jo802371z
+28. Kawashima, H.; Kaneko, Y.; Sakai, M.; Kobayashi, Y. Chem. – Eur. J.
+   2014, 20, 272–278. doi:10.1002/chem.201303538
+29. Reich, H. J.; Wollowitz, S. Org. React. 1993, 44, 1–296.
+   doi:10.1002/0471264180.or044.01
+30. Dodge, J. A.; Nissen, J. S.; Presnell, M. Org. Synth. 1996, 73,
+   110–113. doi:10.15227/orgsyn.073.0110
+
+
+
+
+  License and Terms
+  This is an Open Access article under the terms of the
+  Creative Commons Attribution License
+  (http://creativecommons.org/licenses/by/4.0). Please note
+  that the reuse, redistribution and reproduction in particular
+  requires that the authors and source are credited.
+
+  The license is subject to the Beilstein Journal of Organic
+  Chemistry terms and conditions:
+  (https://www.beilstein-journals.org/bjoc)
+
+  The definitive version of this article is the electronic one
+  which can be found at:
+  doi:10.3762/bjoc.15.242
+
+
+
+
+                                                                                                                    2499
+

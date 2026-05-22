@@ -1,0 +1,650 @@
+RSC Advances
+  PAPER
+
+                                         Study on preparation and thermal properties of
+Cite this: RSC Adv., 2023, 13, 16837
+                                         new inorganic eutectic binary composite phase
+                                         change materials
+                                         Qi Zhang, * Yinlei Li, Jun Song,                   XueLing Zhang, Xuehong Wu, Chongyang Liu
+                                         and Yanfang Li
+
+                                         It is important to improve phase change materials (PCMs) with appropriate temperature and excessive latent
+                                         heat to accelerate the application of latent heat energy storage technology in solar energy storage systems.
+                                         In this paper, the eutectic salt of NH4Al(SO4)2$12H2O (AASD) and MgSO4$7H2O (MSH) was prepared and the
+                                         performance was studied. The DSC results show that the optimum content of AASD in the binary eutectic
+                                         salt is 55 wt%, the melting point was 76.4 °C, and the latent heat is up to 189.4 J g−1, which is suitable for
+                                         solar power storage systems. Four nucleating agents (KAl(SO4)2$12H2O, MgCl2$6H2O, CaCl2$2H2O, CaF2)
+                                         and two thickening agents (sodium alginate, soluble starch) are added to the mixture in varying
+                                         proportions to improve its supercooling. The best combination system was 2.0 wt% KAl(SO4)2$12H2O/
+                                         1.0 wt% sodium alginate with a supercooling degree of 24.3 °C. After thermal cycling tests, the best
+Received 19th February 2023
+Accepted 2nd May 2023
+                                         formulation of the AASD–MSH eutectic salt phase change material was determined to be 1.0 wt%
+                                         CaCl2$2H2O/1.0 wt% soluble starch. The latent heat was 176.4 J g−1 and the melting point was 76.3 °C.
+DOI: 10.1039/d3ra01118f
+                                         The supercooling was still lower than 30 °C after 50 thermal cycles, which served as a benchmark for
+rsc.li/rsc-advances                      the next investigation.
+
+
+                                                                                   during the phase change process. Moreover, PCMs have higher
+1. Introduction                                                                    adaptability to the system than thermochemical energy storage
+Energy storage technology can temporarily store energy for                         materials.6 As an important part of phase change energy storage
+rational distribution, which is an important way to achieve the                    materials, inorganic hydrated salts have a wide range of appli-
+dual-carbon goal.1 In the process of converting and utilizing                      cations in heat storage.7–9 Compared with organic PCMs, inor-
+energy, there are frequently inconsistencies between supply and                    ganic hydrated salts are less costly, higher heat storage density
+demand for energy in time and space distribution, for example                      and higher thermal conductivity than it,10 so they are frequently
+the diﬀerence in the power grid's peak-valley load,2 the inter-                    utilized for thermal management, such as building energy
+mittence and volatility of the solar energy distribution over                      conservation,11 industrial waste heat utilization,12 solar energy
+time,3 the waste heat of the power plant across time and space                     storage13 and other elds for large-scale use. The application
+utilization,4 etc. Energy storage technologies can play a key role.                temperature zone of most hydrated salt phase change heat
+One of the most promising energy storage technologies among                        storage overlaps with the sensible heat storage temperature
+the several energy storage options is thermal energy storage.5                     zone of traditional water. While hydrated salt has higher heat
+Technologies for storing thermal energy can be categorized into                    storage density and better comprehensive performance in the
+three groups: thermochemical energy storage, phase change                          range of medium and low temperature (70–100 °C). However,
+energy storage, and sensible thermal energy storage. Sensible                      issues like phase separation and supercooling aﬀect inorganic
+thermal energy storage has a poor heat storage density. Ther-                      hydrated salts. Currently, the cold nger approach is frequently
+mochemical energy storage has a far higher energy storage                          used by researchers to address the issue of supercooling,14
+density than the other two types of energy storage, but it has                     microcapsule encapsulation,15 adding nucleating agent16 and
+several practical application restrictions because of the                          other methods. Although cold ngering improves the super-
+complexity of its system design and upkeep. However, the                           cooling phenomenon obviously, it will reduce the heat storage
+energy storage density of phase change energy storage is larger                    capacity. Microcapsule fragile, coating rate is not high, latent
+than that of sensible heat storage because it constantly releases                  heat value is low, weak mechanical properties; the most eﬃ-
+or absorb a large amount of latent heat at a steady temperature                    cient and cost-eﬀective technique to address this issue is to use
+                                                                                   nucleating agents, which can signicantly decrease the super-
+College of Energy and Power Engineering, Zhengzhou University of Light Industry,
+                                                                                   cooling of hydrated salt phase change thermal storage materials
+Zhengzhou, 450002, China. E-mail: 1990922zhangqi@zzuli.edu.cn                      by adding suitable nucleating agents to provide nucleation sites
+
+
+© 2023 The Author(s). Published by the Royal Society of Chemistry                                             RSC Adv., 2023, 13, 16837–16849 | 16837
+RSC Advances                                                                                                                      Paper
+
+for the solution. Researchers have vigorously promoted the             Ammonium aluminium sulphate dodecahydrate (NH4Al(SO4)2-
+study of diﬀerent hydrated salt nucleating agents. Zhang et al.17      $12H2O) is an non-toxic and low price inorganic hydrated salt
+found that Na4P2O7$10H2O (TSPP) as a nucleating agent                  with excellent heat storage performance. It has a latent heat of
+signicantly decreased the supercooling of Na2S2O3$5H2O.               269 J g−1, a melting point of 93.5 °C, a high thermal conductivity
+When mixed with 0.08% Na4P2O7$10H2O (TSPP) nucleating                  of 0.55 W (m−1 K−1), and a small volume change of 7%.36,37 As
+agent and 2% sodium polyacrylate (PAAS) thickener, the phase           a kind of congruent melting PCM, there is no phase separation
+change material has good cycling stability and can be subcooled        during repeated cooling and solidication. However, there are
+to 3.6 °C. Putri et al.18 selected 12 nucleating agents, by adding     serious supercooling problems in the application.12,38,39 Addi-
+1 wt% of each nucleating agent to the solution, the enhance-           tionally, because of its melting temperature being so close to the
+ment impact of each nucleating agent on the supercooling of            temperature at which water evaporates, it is easy for crystalline
+Ca(NO3)2$4H2O was ascertained. The ndings demonstrated                water to evaporate during the cycling process, which leads to
+that BaCO3 was the most eﬀective and appropriate nucleating            poor stability and reusability and restricts the use of phase
+agent for Ca(NO3)2$4H2O. The average supercooling degree               change energy storage,40 to our knowledge, very few studies have
+decreased to 1.45 °C. At present, to solve the problem of phase        looked into eutectic mixtures made of NH4Al(SO4)2$12H2O. Sun
+separation, researchers oen use mechanical stirring,19 adding         et al.41 studied the phase transition properties of NH4Al(SO4)2-
+excessive water,20 adding thickening agent21 and other methods.        $12H2O–MgCl2$6H2O          and     KAl(SO4)2$12H2O–MgCl2$6H2O
+Mechanical stirring method makes the precipitated inorganic            mixtures. According to the results of DSC analysis, the optimum
+salts evenly distributed into the crystalline water by physical        content of magnesium chloride in the two mixed salts was
+agitation, but its operation method is too complicated. The            determined to be 30 wt%. The melting points were 64.15 °C and
+addition of excessive water can prevent the formation of satu-         60.15 °C, and the latent heat of phase change was 192.1 J g−1
+rated solution aer the melting of hydrated salts, thus pre-           and 198.1 J g−1, respectively. However, due to its comparatively
+venting the occurrence of phase separation at the source, but          low melting point, there is a problem of insuﬃcient sensible
+this method will increase the heat loss of PCM,22 thus reducing        heat storage in solar energy applications. Magnesium sulphate
+its application value. Thickener method is the most eﬀective           heptahydrate (MgSO4$7H2O) is easily soluble in water, and the
+and economical measure to solve this problem by adding the             aqueous solution is less corrosive. It is a by-product of salt
+right amount of thickener to prevent the aggregation and               processing and has the advantages of low cost and easy avail-
+settlement of inorganic salts due to the density diﬀerence, so         ability.42 However, MgSO4$7H2O has a very serious phase
+that the water is evenly distributed and the contact area between      separation in application. The eutectic salt formed by mixing
+inorganic salts and water is maximized as much as possible             the two can reduce its melting point, MgSO4$7H2O can reduce
+during solidication. By adding thickening agent, such as              the supercooling degree of NH4Al(SO4)2$12H2O, while NH4-
+disodium hydrogen phosphate dodecahydrate,23 hydroxyethyl              Al(SO4)2$12H2O can alleviate the serious phase separation of
+cellulose (HEC)24–26 and carboxymethylcellulose sodium                 MgSO4$7H2O, therefore, we choose to mix NH4Al(SO4)2$12H2O
+(CMC),27–29 it can successfully resolve the issue of hydrated salts'   and MgSO4$7H2O to obtain a new binary eutectic salt phase
+phase separation, and improve the nucleating agent's disper-           change material with suitable melting point, low supercooling
+sion in hydrated salts. Thus, the subcooling is further reduced.       degree, no phase separation, excellent thermal performance
+Compared with elemental hydrated salts, eutectic salts can             and low cost. From the reviewed papers, many eutectic PCMs
+promote crystallization of each other, improve phase separation        are currently developed for diﬀerent applications, but only a few
+and supercooling. In some eutectic salt systems, in addition to        inorganic eutectic salt PCMs have been found in the tempera-
+facilitating phase separation and lowering supercooling, it also       ture range of 60–80 °C. As shown in Table 1, the eutectic salt in
+can control the melting point of hydrated salts. Xie et al.30          this paper has a suitable phase transition temperature as well as
+studied a binary eutectic mixture of oxalic acid dihydrate/boric       a higher phase transition enthalpy compared to other eutectic
+acid (OCD–BA) containing 88 wt% oxalic acid dihydrate and              salts in the literature, which reects its novelty and can be
+12 wt% boric acid, additionally established was the binary             applied in latent heat storage systems.
+system's solid–liquid phase diagram. The outcomes demon-                  In the current work, a binary hydrated salt phase change
+strated that mixture of the two hydrated salts reduced the             material was explored, which combines ammonium aluminium
+melting point while retaining the majority of the melting              sulphate dodecahydrate (NH4Al(SO4)2$12H2O) magnesium and
+enthalpy.                                                              sulphate heptahydrate (MgSO4$7H2O) by melt blending. Two
+    When PCMs is used in low-temperature elds such as solar           hydrated salts with various mass fractions were tested for their
+domestic hot water systems and solar collectors, the melting           characteristics in order to ascertain the composition of eutectic
+temperature requirement is 40–80 °C.31 The hydrated salts in           salts. Four nucleating agents and two thickening agents were
+the medium and low temperature range are mainly barium                 added to further reduce the supercooling degree of the eutectic
+hydroxide octahydrate (Tm: 78 °C),32 magnesium nitrate hexa-           salt. In this study, a novel eutectic salt PCM with low super-
+hydrate (Tm: 89 °C),33 ammonium aluminium sulphate dodec-              cooling, no phase separation, excellent thermal performance,
+ahydrate (Tm: 93.5 °C),34 magnesium sulphate heptahydrate              suitable melting point and low cost was prepared by a simple
+(Tm: 95.4 °C), etc. But barium hydroxide octahydrate has very          melt blending method, which is suitable for solar thermal
+high toxicity,32 magnesium nitrate hexahydrate has low latent          storage or waste heat recovery. The research results have certain
+heat, and the supercooling situation is very serious.35
+
+
+16838 | RSC Adv., 2023, 13, 16837–16849                                  © 2023 The Author(s). Published by the Royal Society of Chemistry
+Paper                                                                                                                                  RSC Advances
+
+Table 1    Eutectic salt hydrates used as PCM
+
+Eutectic salt hydrate composition                              Melting point (°C)                 Latent heat (J g−1)                     Reference
+
+53% Mg(NO3)2$6H2O + 47% Al(NO3)2$9H2O                          61                                 148                                     43
+80% Mg(NO3)2$6H2O + 20% MgCl2$6H2O                             60                                 150                                     44
+41.3% MgCl2$6H2O + 58.7% Mg(NO3)2$6H2O                         61.4                               127.45                                  45
+15% MgCl2$6H2O + 85% Mg(NO3)2$6H2O                             70                                 142.8                                   46
+10% Ca(NO3)2$4H2O + 90% Mg(NO3)2$6H2O                          70                                 145                                     46
+40% MgCl2$6H2O + 60% Mg(NO3)2$6H2O                             62                                 132.5                                   47
+55% NH4Al(SO4)2$12H2O + 45% MgSO4$7H2O                         76.4                               189.4                                   Present study
+
+
+
+
+Table 2    Material details
+
+Material                                        Abbreviation   Chemical formula        Function                  Manufacturer
+
+Aluminum potassium sulfate                      APSD           KAl(SO4)2$12H2O         Nucleating agent          Shanghai Macklin Biochemical Co. Ltd
+dodecahydrate
+Magnesium chloride hexahydrate                  MCH            MgCl2$6H2O              Nucleating agent          Kemio Chemical Reagent Co., Ltd
+Calcium chloride dihydrate                      CCD            CaCl2$2H2O              Nucleating agent          Kemio Chemical Reagent Co., Ltd
+Calcium uoride                                 CF             CaF2                    Nucleating agent          Shanghai Macklin Biochemical Co. Ltd
+Sodium alginate                                 SA             C6H7NaO6                Thickening agent          Shanghai Macklin Biochemical Co. Ltd
+Soluble starch                                  SS             C12H22O11               Thickening agent          Kemio Chemical Reagent Co., Ltd
+
+
+
+guiding signicance for the design and construction of latent                 MSH mixture was then obtained by cooling the solution to room
+heat storage system of PCMs.                                                  temperature.
+                                                                                 2.2.2 Preparation of composite phase change materials
+                                                                              (CPCMs). The mixture was heated to 90 °C in a water bath and
+2.        Materials and methods                                               magnetic stirring for 1 h simultaneously. Aer melting, 40
+2.1    Materials and reagents                                                 kinds of CPCMs were prepared by mixture with 0.5, 1, 1.5, 2 wt%
+Aluminium ammonium sulphate dodecahydrate (NH4Al(SO4)2-                       nucleating agent (KAl(SO4)2$12H2O, MgCl2$6H2O, CaCl2$2H2O,
+$12H2O, AASD), magnesium sulphate heptahydrate (MgSO4-                        CaF2) and 0.5, 1, 1.5 wt% thickening agent (sodium alginate,
+$7H2O, MSH) was purchased from Shanghai Macklin                               soluble starch) magnetic stirring at 90 °C for 15 min, which can
+Biochemical Co. Ltd. (Shanghai, China). The parameters of the                 be seen from Tables 6–9 (the total mass of CPCMs samples was
+four nucleating agents and two thickening agents and the                      controlled at 20 g). The optimum mass fraction of the four
+crystal parameters of the thickening agents are shown in Tables               nucleating agents and two thickening agents were obtained by
+2 and 3, respectively.                                                        the investigation of step cooling curve.
+
+
+2.2    Sample preparation                                                     2.3   Characterization
+    2.2.1 Preparation of AASD–MSH mixtures. A series of                       The phase transition temperature and latent heat of the speci-
+AASD–MSH mixtures with diﬀerent mass fractions of AASD                        mens were quantied using a Diﬀerential Scanning Calorimeter
+(90 wt% to 10 wt%) were prepared to determine the optimal                     (DSC, Model Q100, manufactured in the United States). To
+proportion of AASD and MSH. The steps of the experiment are                   ensure accurate DSC measurements, the mass of each specimen
+as follows: a reagent bottle was lled with AASD and MSH aer                 was kept within the range of 5 to 8 mg. The instrument was
+they had been weighed. The two hydrated salts were briey                     calibrated using a blank aluminium pan prior to analysis. Each
+stirred before being heated to 100 °C in an oven and held there               specimen was enclosed within an aluminium pan and sub-
+for 3 h. The two hydrated salts were then heated while being                  jected to a controlled heating process, with a temperature
+stirred intermittently to ensure thorough mixing. The AASD–                   increase from 30 °C to 140 °C at a rate of 5 °C per minute, while
+
+
+Table 3    Crystal parameters
+
+Substance              Crystal form                    a (Å)          b (Å)             c (Å)             a (deg)               b (deg)         g (deg)
+
+APSD                   Cubic system                    12.18          12.18             12.18             90.0                  90.0            90.0
+MCH                    Monoclinic system                9.87           7.11              6.08             90.0                  93.7            90.0
+CCD                    Tetragonal system                7.21           7.21              5.86             90.0                  90.0            90.0
+CF                     Cubic system                     5.46           5.46              5.46             90.0                  90.0            90.0
+
+
+
+© 2023 The Author(s). Published by the Royal Society of Chemistry                                           RSC Adv., 2023, 13, 16837–16849 | 16839
+RSC Advances                                                                                                                        Paper
+
+being subjected to a constant nitrogen ow of 50 mg per                 from the top to bottom have the same eﬀect on them. During
+minute.                                                                 the measurement, the sealed glass bottle is placed in a ther-
+   The structural characterization of AASD, MSH, and their              mostatic water bath at 90 °C for 2 h until the sample is
+mixture was performed using Fourier Transform Infrared                  completely melted. Constant temperature water bath can freely
+Spectroscopy (FT-IR) and X-ray Diﬀraction (XRD) techniques.             control the temperature accuracy with ±0.01 °C. Then, take the
+The FT-IR spectra were recorded using a Vertex70 spectrometer           sealed glass bottle out of the thermostatic water bath and cool
+over a spectral range of 500 to 4000 cm−1. XRD patterns of the          to the room temperature. The temperature change of the
+samples were acquired using a D8 ADVANCE X-ray diﬀractom-               sample during the whole process was recorded by a data
+eter, with a measurement range of 5° to 80°. The thermal                acquisition instrument (Agilent 34970A, Santa Clara, CA, USA).
+conductivity of the samples was measured utilizing a LFA 467
+Thermal Constants Analyzer manufactured by Germany.
+                                                                        2.5   Theoretical determination of AASD–MSH eutectic salt
+2.4      Measurement of cooling curves                                  The molar ratios of each substance of binary eutectic salt were
+In this study, crystallization properties of the mixed samples          evaluated using the Schroder–van Laar equation.
+                                                                                                                  !
+were characterized by measuring the cooling curve. Place the                                      DHmk 1       1
+sample in a 50 ml sealed glass bottle and a k-type thermocouple                           ln Xk ¼            k                     (1)
+                                                                                                    R     T    Tm
+is placed in the centre of the glass bottle to monitor the
+temperature change of each sample, and the measurement                  where Xk is the molar ratio of the k-component, DHkm is the
+error is ±0.1 °C. In addition, the temperature measuring points         melting enthalpy in J mol−1, T and Tkm are melting temperatures
+in diﬀerent tests are located at the same depth (10 mm from the         of components in kelvin and R is the universal gas constant in
+bottom of the glass bottle) to ensure that the input heat ux           8.31 J (mol−1 K−1).
+
+
+
+
+Fig. 1    Photographs of mixtures with diﬀerent mass fraction of AASD (90 wt% to 10 wt%).
+
+
+
+
+Fig. 2    DSC curves of the pure AASD and MSH (a) and mixtures with diﬀerent mass fraction of AASD (b).
+
+
+
+16840 | RSC Adv., 2023, 13, 16837–16849                                    © 2023 The Author(s). Published by the Royal Society of Chemistry
+Paper                                                                                                                   RSC Advances
+
+
+3.        Results and discussion                                        a serious phase separation, and the salt cannot be dissolved in
+                                                                        the precipitated crystal water aer reaching the phase change
+3.1      Determining the optimal mixture composition                    temperature. Therefore, the two samples of AASD with mass
+In order to determine the mass fraction of eutectic point, the          ratio of 20 wt% and 10 wt% are directly not considered. Fig. 2a
+thermal physical properties of mixtures with diﬀerent AASD are          shows the DSC curves of the pure AASD and MSH. The latent
+obtained by camera photography and DSC. As shown in Fig. 1,             heat of AASD is 296.5 J g−1, and the phase change temperature is
+the solution gradually changes from clear to turbid with the            93.3 °C. There are three endothermic peaks in the DSC curves of
+decrease of mass fraction of AASD. When the mass fraction of            MSH. The latent heat of MSH is 202.6 J g−1, and the phase
+AASD are 20 wt% and 10 wt%, respectively, there is a very               change temperature is 95.4 °C. Fig. 2b is the DSC curves of
+obvious phase separation at the bottom of the solution. This is         AASD–MSH mixture containing diﬀerent mass fractions of
+due to the fact that the MSH content is too high to have                AASD. It can be seen from the diagram that with the decrease of
+                                                                        the content of AASD, the DSC curve mainly shows two peaks,
+                                                                        one large and one small. The rst endothermic peak is mainly
+                                                                        located at about 55 °C, which is basically the same as the rst
+                                                                        endothermic peak position of MSH. The second peak is mainly
+                                                                        located at 75 °C to 95 °C, which should be the result of the
+                                                                        interaction between the endothermic peak of AASD and the
+                                                                        second and third endothermic peaks of MSH. The second
+                                                                        endothermic peak of the mixture exhibits two broad peaks
+                                                                        which are slowly approaching with the increase of mass fraction
+                                                                        of MSH, indicating that the mixture at this ratio is close to the
+                                                                        eutectic point of the two hydrous salt.48 When the mass fraction
+                                                                        of AASD is 60 wt%, the two peaks change into a single main
+                                                                        peak. When the mass fraction of AASD is 50 wt%, the DSC curve
+                                                                        shows a sharp single peak, indicating that the eutectic point of
+                                                                        the mixture is near this ratio.
+Fig. 3 DSC curves of mixtures with diﬀerent mass fraction of AASD          In order to obtain the exact mass ratio of the two hydrated
+(65 wt% to 45 wt%).                                                     salts, Fig. 3 shows the DSC curves with an interval of 5 wt% near
+                                                                        the AASD content of 50 wt% and 60 wt%. It can be seen that
+                                                                        when the mass fraction of AASD decreased to 55 wt%, the main
+Table 4 Thermal characteristics of mixtures with diﬀerent mass          peak of the mixed hydrated salt changes from a weak broad
+fractions of AASD                                                       peak to a single peak, which indicating the formation of the
+                                                                        eutectic salt. There is a single peak of the mixture with 50 wt%
+FAASD (wt%)                   Tmelt (°C)                   DH (J g−1)
+                                                                        AASD, but the degree of the sharpness is weaker. Therefore, the
+65                            Two peaks                    212.0        eutectic salt with 55 wt% AASD was selected as the optimal mass
+60                            75.6                         189.3        ratio.
+55                            76.4                         189.4           From the theoretical calculation of eqn (1), the mass ratio of
+50                            78.9                         191.0
+45                            78.2                         178.3
+                                                                        AASD and MSH can be obtained as 57.09 wt%:42.91 wt%. It is
+40                            75.4                         178.5        very close to the experimental results, which proves the
+
+
+
+
+Fig. 4 XRD (a) and FT-IR patterns (b) of AASD, MSH and the eutectic salt.
+
+
+
+© 2023 The Author(s). Published by the Royal Society of Chemistry                                  RSC Adv., 2023, 13, 16837–16849 | 16841
+RSC Advances                                                                                                                                 Paper
+
+                                                                               high latent heat. It has the possibility of application in the eld
+                                                                               of solar thermal storage.
+
+                                                                               3.2    Structure of the eutectic salt
+                                                                               XRD and FT-IR patterns of AASD, MSH and the eutectic salt were
+                                                                               attached in Fig. 4. As shown in Fig. 4a, it can be seen that the
+                                                                               main characteristic peaks of AASD appear at 12.7°, 16.4°, 20.7°
+                                                                               and 27.4°, and the main characteristic peaks of MSH appear at
+                                                                               20.4°, 21.2°, 23.6° and 43.0°. The characteristic peaks of AASD
+                                                                               and MSH appear in the eutectic salt. At the same time, several
+                                                                               smaller new characteristic peaks appear in the eutectic salt XRD
+                                                                               pattern, which may be due to the aggregation crystals formed by
+                                                                               the mixing of AASD and MSH.
+                                                                                  Fig. 4b presents the FT-IR spectra of AASD, MSH, and the
+Fig. 5    DSC result of the eutectic salt before and after tests.              eutectic salt. The spectra of AASD and MSH exhibit the H–O–H
+                                                                               stretching vibration peaks at 3362 and 2950 cm−1 and bending
+                                                                               vibration peaks at 1625 cm−1. A characteristic O–H stretching
+scientic validity of the experiment. The eutectic salt mentioned              vibration peak appears at 2460 cm−1. The peak observed at
+below are of this proportion.
+   Table 4 shows the phase transition temperature and latent
+heat of six samples of mixed salts with diﬀerent contents. It can              Table 6 Supercooling degree of adding diﬀerent proportions of APSD,
+be seen that due to the mixing of two hydrated salts, the phase                SA and SS
+transition temperature is lower than that of the individual
+                                                                               Sample       FAPSD (wt%)       Thickening agent   Supercooling (DT/K)
+hydrated salt, and is much lower than the boiling temperature
+of water, which can eﬀectively avoid the evaporation of crystal                1            0.5               1.0 wt% SA         31.5
+water in the eutectic salt. The latent heat of phase transition                2            1.0               1.0 wt% SA         27.8
+decreases with the decrease of AASD content, but it is still as                3            1.5               1.0 wt% SA         27.6
+                                                                               4            2.0               1.0 wt% SA         24.3
+high as 189.4 J g−1. In summary, AASD–MSH eutectic salt has
+                                                                               5            0.5               1.0 wt% SS         27.7
+the advantages of suitable phase transition temperature and                    6            1.0               1.0 wt% SS         28.1
+                                                                               7            1.5               1.0 wt% SS         28.0
+                                                                               8            2.0               1.0 wt% SS         28.7
+                                                                               9            2.0               0.5 wt% SA         27.9
+                                                                               10           2.0               1.5 wt% SA         30.6
+
+
+
+
+                                                                               Table 7 Supercooling degree of adding diﬀerent proportions of MCH,
+                                                                               SA and SS
+
+                                                                               Sample       FMCH (wt%)        Thickening agent   Supercooling (DT/K)
+
+                                                                               11           0.5               1.0 wt% SA         30.4
+                                                                               12           1.0               1.0 wt% SA         30.6
+                                                                               13           1.5               1.0 wt% SA         29.4
+                                                                               14           2.0               1.0 wt% SA         33.8
+                                                                               15           0.5               1.0 wt% SS         32.6
+                                                                               16           1.0               1.0 wt% SS         30.3
+                                                                               17           1.5               1.0 wt% SS         31.0
+                                                                               18           2.0               1.0 wt% SS         33.0
+                                                                               19           1.5               0.5 wt% SA         31.4
+Fig. 6    Step cooling curves of AASD, MSH and the eutectic salt.              20           1.5               1.5 wt% SA         29.6
+
+
+
+Table 5    Melting/crystallization temperature and supercooling degree of AASD, MSH and the eutectic salt
+
+Hydrated salts                       Tmelt (°C)                 Tmin-crystal (°C)                  Tmax-crystal (°C)             Supercooling (DT/K)
+
+AASD                                 93.3                       49.4                               58.6                          43.9
+MSH                                  95.4                       54.3                               59.7                          41.1
+The eutectic salt                    76.4                       41.5                               48.9                          34.9
+
+
+
+
+16842 | RSC Adv., 2023, 13, 16837–16849                                             © 2023 The Author(s). Published by the Royal Society of Chemistry
+Paper                                                                                                                            RSC Advances
+
+1105 cm−1 is attributed to the asymmetric stretching of SO42−,            3.3   Thermal reliability of the eutectic salt
+and the peak at 595 cm−1 corresponds to the asymmetric
+                                                                          Fig. 5 is the DSC curve of the eutectic salt aer 100 heating and
+deformation absorption of SO42−. Furthermore, AASD and MSH
+                                                                          cooling cycles. It can be seen from Fig. 5 that the phase tran-
+exhibit an asymmetric deformation absorption peak of NH4+ at
+                                                                          sition temperature of the eutectic salt changed from 76.4 °C to
+1441 cm−1. In the FT-IR spectra of the eutectic salt, all the peaks
+                                                                          76.3 °C aer 100 cycles of heating and cooling, while the latent
+correspond to those of AASD and MSH, with no additional
+                                                                          heat of phase transition decreased from 189.4 J g−1 to 181.3 J
+peaks being formed, which suggests that AASD and MSH have
+                                                                          g−1, with only 4.28% loss. These phase change characteristics
+good compatibility and that their mixing is only a simple                 show that the phase transition characteristics of the eutectic
+physical process, devoid of any chemical reactions.                       salt have little change before and aer the cycles. In addition,
+                                                                          there was no obvious precipitation at the bottom of the glass
+                                                                          bottle aer 100 cycles of the eutectic salt. All the results illus-
+Table 8 Supercooling degree of adding diﬀerent proportions of CCD,
+                                                                          trated that the eutectic salt have high thermal reliability.
+SA and SS
+
+Sample      FCCD (wt%)      Thickening agent      Supercooling (DT/K)
+                                                                          3.4   Study on subcooling characteristics of the eutectic salt
+21          0.5             1.0 wt% SA            30.4
+                                                                          As AASD has high supercooling degree, MSH was added to form
+22          1.0             1.0 wt% SA            31.0
+23          1.5             1.0 wt% SA            31.9                    eutectic salt to accelerate its nucleation rate and then decrease
+24          2.0             1.0 wt% SA            33.0                    the supercooling degree. Fig. 6 is the step cooling curve of AASD,
+25          0.5             1.0 wt% SS            28.1                    MSH and the eutectic salt. Table 5 is the melting crystallization
+26          1.0             1.0 wt% SS            28.0                    and supercooling temperature of AASD, MSH and the eutectic
+27          1.5             1.0 wt% SS            29.7
+                                                                          salt. As shown in Fig. 6, the blue dotted line is the melting
+28          2.0             1.0 wt% SS            30.9
+29          1.0             0.5 wt% SS            31.9                    temperature of the eutectic salt obtained from the DSC curve,
+30          1.0             1.5 wt% SS            32.6                    DTm is the melting temperatures of the eutectic salt, and the
+                                                                          melting temperatures of AASD and MSH are 93.3 °C and 95.4 °C,
+
+
+
+
+Fig. 7 Step cooling curves of the eutectic salt with 0.5, 1, 1.5, 2 wt% APSD and 0.5, 1, 1.5 wt% thickening agent (SA and SS).
+
+
+
+© 2023 The Author(s). Published by the Royal Society of Chemistry                                      RSC Adv., 2023, 13, 16837–16849 | 16843
+RSC Advances                                                                                                                         Paper
+
+respectively, which can be seen from Fig. 3. DTs is the super-           the eutectic salt gradually decreases with the increase of APSD
+cooling degree of AASD, this supercooling criterion is used              content. The addition of 2 wt% nucleating agent APSD has the
+below. It can be seen that AASD, MSH and the eutectic salt have          best improvement eﬀect, and the supercooling degree is
+serious supercooling degree. Through the mixing of two                   reduced to 24.3 °C. As can be seen from Fig. 7b, with 1 wt% SS,
+hydrated salts, the problem of excessive supercooling degree of          the supercooling degree of the eutectic salt is lower than that of
+single AASD has been slightly improved. Fig. 6 provides                  the pure eutectic salt, but with the increase of APSD content, the
+a comprehensive analysis of the characteristics of the eutectic          supercooling degree is always about 28 °C. The eﬀect of APSD–
+salt, including: (1) a supercooling degree of 34.9 °C; (2)               SS is not as good as that of APSD–SA. It can be seen from Fig. 7d
+a maximum crystallization temperature of 48.9 °C, which is               that aer the content of APSD was determined to be 2 wt%, the
+27.5 °C lower than its melting point; (3) no discernible phase           content of SA was used as a variable. When the content of SA
+transition platform during the exothermic process. These                 was 0.5 wt%, the degree of supercooling was higher than that
+characteristics (1), (2), and (3) of the eutectic salt are a result of   when the content of SA was 1 wt%. When the amount of
+a low nucleation rate, low crystal growth rate, and imbalanced           thickening agent was too small, the thickening suspension
+exothermic and solidication latent heat.49 In order to address          eﬀect was not obvious, resulting in the deposition of APSD at
+the issue of low nucleation rate and high supercooling degree in         the bottom, which could not fully act as a nucleating agent.
+the eutectic salt, nucleating agents and thickening agents were          When the content of SA increased to 2 wt%, too much thick-
+introduced as solutions.                                                 ening reduced the crystallization temperature, and the degree
+   3.4.1 Eﬀect of APSD on the supercooling degree of the                 of supercooling was too large.
+eutectic salt. To study the eﬀect of APSD and two thickening                3.4.2 Eﬀect of MCH on the supercooling degree of the
+agents on the heat storage/release performance of the eutectic           eutectic salt. To study the eﬀect of MCH and two thickening
+salt, Fig. 7 shows the step cooling curves of the eutectic salt with     agents on the heat storage/release performance of the eutectic
+0.5 wt%, 1 wt%, 1.5 wt%, 2 wt% nucleating agent APSD and                 salt, Fig. 8 shows the cooling curves of the eutectic salt with
+0.5 wt%, 1 wt%, 1.5 wt% thickening agent SA and SS. It can be            0.5 wt%, 1 wt%, 1.5 wt%, 2 wt% nucleating agent MCH and
+seen from Fig. 7a that with 1 wt% SA, the supercooling degree of         0.5 wt%, 1 wt%, 1.5 wt% thickening agent SA and SS. According
+
+
+
+
+Fig. 8 Heat release curves of the eutectic salt with 0.5, 1, 1.5, 2 wt% MCH and 0.5, 1, 1.5 wt% thickening agent (SA and SS).
+
+
+
+16844 | RSC Adv., 2023, 13, 16837–16849                                     © 2023 The Author(s). Published by the Royal Society of Chemistry
+Paper                                                                                                                             RSC Advances
+
+
+
+
+Fig. 9   Heat release curves of the eutectic salt with 0.5, 1, 1.5, 2 wt% CCD and 0.5, 1, 1.5 wt% thickening agent (SA and SS).
+
+
+
+to the previous steps, with the ratio of MCH as the variable, with         with the same content of 1 wt% SA and SS. When the content of
+the same content of 1 wt% SA and SS, it can be seen that the               CCD was 0.5 wt%, the SA was the best, and the supercooling
+supercooling degree of the eutectic salt reaches the lowest when           degree was the smallest. With the increase of nucleating agent
+the content of MCH is 1.5 wt% and 1.0 wt%, respectively.                   content, there was also a reason for insuﬃcient suspension
+Although diﬀerent thickening agents are used, with the gradual             strength. When mixed with SS, the optimum addition ratio of
+increase of MCH content, the content of thickening agent is                CCD was 1.0 wt%, and there was an obvious phase change
+small, which leads to insuﬃcient suspension of nucleating                  platform. Aer determining the content of nucleating agent,
+agent, resulting in its accumulation at the bottom of the                  with the addition ratio of soluble starch as a variable, it can be
+container, and the supercooling degree decreases rst and then             seen that the eﬀect of coordination with the other two nucle-
+increases. Aer determining the type of thickening agent and               ating agents is not good. The best ratio is 1.0 wt% CCD and
+the content of nucleating agent, the content of SA was used as             1.0 wt% SS, and the supercooling degree is 28.0 °C.
+a variable. When the content of thickening agent was increased                 3.4.4 Eﬀect of CF on the supercooling degree of the
+to 1.5 wt%, the improvement of supercooling degree was not                 eutectic salt. To study the eﬀect of MCH and two thickening
+obvious. Aer comprehensive comparison, 1.5 wt% nucleating                 agents on the heat storage/release performance of the eutectic
+agent MCH and 1% thickening agent SA had the best                          salt, Fig. 10 shows the cooling curves of the eutectic salt with
+improvement of supercooling degree, and the supercooling                   0.5 wt%, 1 wt%, 1.5 wt%, 2 wt% nucleating agent CF and
+degree was 29.4 °C.                                                        0.5 wt%, 1 wt%, 1.5 wt% thickening agent SA and SS. Combined
+    3.4.3 Eﬀect of CCD on the supercooling degree of the                   with Table 9, we can see that in the combination of diﬀerent
+eutectic salt. To study the eﬀect of CCD and two thickening                proportions of CF and SS, the best combination to improve the
+agents on the heat storage/release performance of the eutectic             supercooling degree is 2.0 wt% CCF and 1.0 wt% SA, and the
+salt, Fig. 9 shows the cooling curves of the eutectic salt with            supercooling degree is 26.7 °C. In the combination with SS, the
+0.5 wt%, 1 wt%, 1.5 wt%, 2 wt% nucleating agent CCD and                    best combination to improve the supercooling degree is 2.0 wt%
+0.5 wt%, 1 wt%, 1.5 wt% thickening agent SA and SS. According              CF and 1.0 wt% SS, and the supercooling degree is 24.5 °C. Both
+to the previous steps, the ratio of CCD was used as a variable,            of them have obvious phase transition platform. Aer changing
+
+
+
+© 2023 The Author(s). Published by the Royal Society of Chemistry                                        RSC Adv., 2023, 13, 16837–16849 | 16845
+RSC Advances                                                                                                                          Paper
+
+
+
+
+Fig. 10 Heat release curves of the eutectic salt with 0.5, 1, 1.5, 2 wt% CF and 0.5, 1, 1.5 wt% thickening agent (SA and SS).
+
+
+
+Table 9 Supercooling degree of adding diﬀerent proportions of CF,         phase transition temperatures of the four CPCMs are close to
+SA and SS                                                                 those of the mixed salt without any substance added. The latent
+                                                                          heat of the four CPCMs are lower than the eutectic salt. This is
+Sample      FCF (wt%)      Thickening agent       Supercooling (DT/K)
+                                                                          because the nucleating agent and the thickening agent do not
+31          0.5            1.0 wt% SA             28.7                    undergo phase transition at this temperature range. The addi-
+32          1.0            1.0 wt% SA             32.5                    tion of these substances will cause the loss of unit latent heat.
+33          1.5            1.0 wt% SA             26.7                    However, the latent heat of the four CPCMs are higher than 165
+34          2.0            1.0 wt% SA             26.7
+                                                                          J g−1, and there is still an advantage compared with other phase
+35          0.5            1.0 wt% SS             31.6
+36          1.0            1.0 wt% SS             30.2                    change material systems in this phase transition interval.
+37          1.5            1.0 wt% SS             28.5                       The thermal conductivity of the eutectic salt and four CPCMs
+38          2.0            1.0 wt% SS             24.5                    was evaluated using a Hot Disk Thermal Constant Analyzer. The
+39          2.0            0.5 wt% SS             29.6                    results are recorded in Table 11, and it is observed that the
+40          2.0            1.5 wt% SS             30.3
+                                                                          thermal conductivity of the mixture is the lowest among the
+                                                                          samples tested. However, the addition of nucleating and
+                                                                          thickening agents resulted in an improvement in thermal
+                                                                          conductivity, suggesting that these agents can eﬀectively
+the variable into SS ratio, the comprehensive eﬀect of 0.5 wt%
+                                                                          increase the thermal conductivity of the eutectic salt system.
+and 1.5 wt% SS and CF is not obvious. Therefore, it can be
+determined that 2.0 wt% CF and 1.0 wt% SS are the best ratio.
+                                                                          3.6   Thermal cycle supercooling characteristics of CPCMs
+                                                                          The change of supercooling degree of the four CPCMs aer
+3.5 Phase change characteristics and thermal conductivity                 thermal cycle is shown in Fig. 12. The supercooling degree test
+of CPCMs                                                                  aer thermal cycle was carried out at the number of cycles of 10,
+The DSC curves of the four CPCMs are shown in Fig. 11, and the            20, 30, 40 and 50 respectively. It can be seen that in the initial
+corresponding parameter values are shown in Table 10. The                 0th supercooling degree test, the CPCM(APSD) had the best
+
+
+16846 | RSC Adv., 2023, 13, 16837–16849                                      © 2023 The Author(s). Published by the Royal Society of Chemistry
+Paper                                                                                                                    RSC Advances
+
+
+
+
+Fig. 11 DSC curves of the eutectic salt and CPCMs.
+
+
+
+Table 10 Melting time and latent heat of four CPCMs                    and CPCM(CF), the supercooling degree gradually increased to
+                                                                       about 32 °C with the increase of the number of cycles, which
+CPCMs                          Tmelt (°C)                 DH (J g−1)
+                                                                       was much higher than that of the initial test. The supercooling
+CPCM(APSD)                     76.4                       181.3        degree of CPCM(CCD) is still oating at 29 °C aer many hot
+CPCM(MCH)                      74.7                       177.5        and cold cycles, indicating that the CPCM(CCD) still has a good
+CPCM(CCD)                      76.3                       176.4
+CPCM(CF)                       74.0                       165.0
+
+
+
+Table 11 Thermal conductivity of the eutectic salt and four CPCMs
+
+                                               Thermal conductivity
+Sample                                         (W m−1 K−1)
+
+The eutectic salt                              0.3675
+CPCM(APSD)                                     0.3982
+CPCM(MCH)                                      0.4265
+CPCM(CCD)                                      0.4051
+CPCM(CF)                                       0.4010
+
+
+
+improvement on the supercooling degree, and the MCH addi-
+tive combination had a poor eﬀect on the improvement of the
+supercooling degree of the eutectic salt compared with the other
+three systems. Aer several cycles of CPCM(APSD), CPCM(MCH)
+                                                                       Fig. 12   Cyclic supercooling of CPCMs.
+
+
+
+© 2023 The Author(s). Published by the Royal Society of Chemistry                                   RSC Adv., 2023, 13, 16837–16849 | 16847
+RSC Advances                                                                                                                        Paper
+
+performance in improving the supercooling degree aer many                3 P. Aggrey, M. Nartey, Y. Kan, J. Cvjetinovic, A. Andrews,
+hot and cold cycles, and it can be seen from Fig. 9 that the                A. I. Salimon, K. I. Dragnevski and A. M. Korsunsky, RSC
+CPCM(CCD) has a more obvious exothermic phase transition                    Adv., 2021, 11, 31884–31922.
+platform, which proves that the CPCM(CCD) has a more                      4 A. A. M. Omara, J. Energy Storage, 2021, 44, 32.
+obvious reduction eﬀect on the eutectic salt.                             5 W. J. Hu, S. H. Lin, Y. F. Cao, X. S. Feng and Q. M. Pan, RSC
+                                                                            Adv., 2022, 12, 15180–15189.
+                                                                          6 H. Nazir, M. Batool, F. Osorio, M. Isaza-Ruiz, X. Xu,
+4. Conclusion                                                               K. Vignarooban, P. Phelan, Inamuddin and A. M. Kannan,
+(1) An inorganic eutectic salt phase change material with suit-             Int. J. Heat Mass Transfer, 2019, 129, 491–523.
+able phase change temperature and high phase change                       7 Y. P. Wu and T. Wang, Energy Convers. Manage., 2015, 101,
+enthalpy can be prepared by AASD and MSH with mass fraction                 164–171.
+ratio of 55% and 45%. The supercooling degree is 11.8 °C lower            8 Z. F. Liu, Z. H. Chen and F. Yu, Sol. Energy Mater. Sol. Cells,
+than that of single AASD hydrate salt. The phase change                     2019, 200, 9.
+temperature is 76.4 °C and the latent heat reaches 189.4 J g−1.           9 C. Z. Liu, C. Wang, Y. M. Li and Z. H. Rao, RSC Adv., 2017, 7,
+    (2) Four CPCMs (APSD, MCH, CCD and CF) were obtained by                 7238–7249.
+screening experiments of nucleating agent and thickening                 10 B. K. Purohit and V. S. Sistla, Energy Storage, 2021, 3, 26.
+agent. The best combination system with APSD as nucleating               11 L. A. Lei, B. Bp, B. Cy, G. A. Min and Z. Mei, Mater. Chem.
+agent was 2.0 wt% APSD/1.0 wt% SA, and the supercooling                     Phys., 2019, 222, 87–95.
+degree was 24.3 °C. The best combination system with MCH as              12 Y. X. Lin, G. Alva and G. Y. Fang, Energy, 2018, 165, 685–708.
+nucleating agent is 1.5 wt% MCH/1.0 wt% SA, and the super-               13 H. Liu, Z. H. Zheng, Z. Q. Qian, Q. W. Wang, D. Z. Wu and
+cooling degree is 29.4 °C. The best combination system with                 X. D. Wang, Sol. Energy Mater. Sol. Cells, 2021, 229, 13.
+CCD as nucleating agent was 1.0 wt% CCD/1.0 wt% SS, super-               14 S. A. Mohamed, F. A. Al-Sulaiman, N. I. Ibrahim, M. H. Zahir,
+cooling degree was 28.0 °C; the best combination system with                A. Al-Ahmed, R. Saidur, B. S. Yilbas and A. Z. Sahin,
+CF as nucleating agent was 2.0 wt% CF/1.0 wt% SA, and the                   Renewable Sustainable Energy Rev., 2017, 70, 1072–1089.
+supercooling degree was 24.5 °C.                                         15 L. Gang, B. Zhang, L. Xiang, Z. Yuan and Y. Qiang, Sol. Energy
+    (3) The latent heat of the four CPCMs is lower than that of the         Mater. Sol. Cells, 2014, 126, 51–55.
+eutectic salt. The incorporation of nucleating and thickening            16 S. Cao, X. Luo, X. Han, X. Lu and C. Zou, Energies, 2022, 15,
+agents resulted in a reduction of latent heat, however, the latent          12.
+heat of the four CPCMs remains higher than 165 J g−1, which              17 Y. Zhang, X. Zhang, X. Xu, J. M. Munyalo, L. Liu, X. Liu, M. Lu
+still surpasses other phase change material systems. The addi-              and Y. Zhao, J. Mol. Liq., 2019, 280, 360–366.
+tion of nucleating and thickening agents resulted in a slight            18 R. A. Putri, A. Yusuf, A. Rahman, Y. Anggraini, D. Kurnia,
+increase in the thermal conductivity of the mixture in compar-              S. Wonorahardjo, S. Wonorahardjo and I. M. Sutjahja, J.
+ison to the mixture without these agents.                                   Energy Storage, 2021, 42, 9.
+    (4) Aer conducting a thermal cycle test, CPCM(CCD) was              19 H. Zhang, C. L. Xu and G. Y. Fang, Sol. Energy Mater. Sol.
+deemed the most suitable CPCM for the AASD–MSH eutectic                     Cells, 2022, 241, 19.
+salt. Following 50 thermal cycles, the supercooling degree was           20 M. F. Junaid, Z. U. Rehman, M. Cekon, J. Curpek, R. Farooq,
+still less than 30 °C, providing valuable information for future            H. Z. Cui and I. Khan, Energy Build., 2021, 252, 29.
+research in this eld.                                                   21 A. Sharma, V. V. Tyagi, C. R. Chen and D. Buddhi, Renewable
+                                                                            Sustainable Energy Rev., 2009, 13, 318–345.
+                                                                         22 M. M. Farid, A. M. Khudhair, S. Razack and S. Al-Hallaj,
+Conﬂicts of interest                                                        Energy Convers. Manage., 2004, 45, 1597–1615.
+                                                                         23 W. S. Hua, X. L. Zhang and X. C. Han, J. Therm. Anal.
+There are no conicts to declare.
+                                                                            Calorim., 2019, 136, 1173–1183.
+                                                                         24 M. T. Fang, X. L. Zhang, J. Ji, W. S. Hua, Y. Zhao and
+Acknowledgements                                                            J. Y. Liang, J. Therm. Anal. Calorim., 2022, 147, 8177–8188.
+                                                                         25 T. Wang, X. S. Zhou, Z. Liu, J. W. Wang, Y. S. Zhang and
+This work was supported by the National Natural Science                     W. P. Pan, Appl. Therm. Eng., 2021, 183, 9.
+Foundation of China (No. 51906230 and No. 51906229), and the             26 G. Li, B. B. Zhang, X. Li, Y. Zhou, Q. G. Sun and Q. Yun, Sol.
+Henan Provincial Science and Technology Key Project Fund (No.               Energy Mater. Sol. Cells, 2014, 126, 51–55.
+212102210007), and the project of Zhongyuan Science and                  27 Z. Y. Li, D. Zhong, H. Zhou, Q. L. Cai, Y. Liu, L. Q. Liu and
+Technology Innovation Talents.                                              F. K. Ma, Mater. Res. Express, 2019, 6, 7.
+                                                                         28 H. Wang, L. J. Guo, K. Q. Liu, Z. C. Song, L. Wu, M. H. Fang
+References                                                                  and J. Q. Li, Mater. Res. Express, 2019, 6, 12.
+                                                                         29 J. F. Mao, P. M. Hou, R. R. Liu, F. Chen and X. Dong, Appl.
+ 1 T. Yan, J. Li, J. J. Gao, X. H. Xu and J. H. Yu, Appl. Therm. Eng.,      Therm. Eng., 2017, 119, 585–592.
+   2021, 194, 13.
+ 2 G. Alva, Y. Lin and G. Fang, Energy, 2018, 144, 341–378.
+
+
+16848 | RSC Adv., 2023, 13, 16837–16849                                    © 2023 The Author(s). Published by the Royal Society of Chemistry
+Paper                                                                                                                   RSC Advances
+
+30 S. L. Xie, J. H. Sun, Z. Wang, S. Liu, L. P. Han, G. X. Ma,         40 S. F. Wu, T. Yan, Z. H. Kuai and W. G. Pan, Sol. Energy, 2020,
+   Y. Jing and Y. Z. Jia, Sol. Energy Mater. Sol. Cells, 2017, 168,       205, 474–486.
+   38–44.                                                              41 W. C. Sun, Y. Zhou, J. X. Feng, X. M. Fang, Z. Y. Ling and
+31 K. Du, J. Calautit, Z. Wang, Y. Wu and H. Liu, Appl. Energy,           Z. G. Zhang, Molecules, 2019, 24, 15.
+   2018, 220, 242–273.                                                 42 M. Khandagre, B. Gupta, J. Bhalavi and P. Baredar, J. Therm.
+32 S. Zhao, S. Yan, T. Ming, C. Ao, L. Zhao and X. Zhao, J. Therm.        Eng., 2021, 7, 196–214.
+   Anal. Calorim., 2022, 147, 13239–13252.                             43 A. Abhat, Sol. Energy, 1983, 30, 313–332.
+33 Z. S. Wang, Z. W. Li, G. T. Lu, Q. Gao, R. X. Zhang and             44 L. F. Cabeza, A. Castell, C. Barreneche, A. de Gracia and
+   Z. L. Gu, Sustain. Cities Soc., 2022, 86, 11.                          A. I. Fernandez, Renewable Sustainable Energy Rev., 2011,
+34 X. Zhou, X. Zhang and Q. Zheng, Energy Fuels, 2020, 34,                15, 1675–1695.
+   7607–7615.                                                          45 Z. Y. Ling, J. W. Liu, Q. H. Wang, W. Z. Lin, X. M. Fang and
+35 R. D. Ye, H. Jiang, J. Wang, X. A. Yang and X. G. Shu, Sol.            Z. G. Zhang, Sol. Energy Mater. Sol. Cells, 2017, 172, 195–201.
+   Energy Mater. Sol. Cells, 2022, 238, 10.                            46 H. Schmit, D. Rudaleviciene, C. Rathgeber and S. Hiebler, J.
+36 C. H. Zhu, B. G. Li, H. F. Yang and Q. Q. Luo, Int. J. Energy          Energy Storage, 2020, 27, 7.
+   Res., 2020, 44, 2061–2071.                                          47 S. Hohlein, A. Konig-Haagen and D. Bruggemann, Materials,
+37 M. Kenisarin and K. Mahkamov, Sol. Energy Mater. Sol. Cells,           2017, 10, 15.
+   2016, 145, 255–286.                                                 48 G. X. Ma, S. Liu, S. L. Xie, Y. Jing, Q. Y. Zhang, J. H. Sun and
+38 B. K. Purohit and V. S. Sistla, J. Energy Storage, 2017, 12, 196–      Y. Z. Jia, Appl. Therm. Eng., 2017, 111, 1052–1059.
+   201.                                                                49 X. C. Zhou, X. L. Zhang and Q. Y. Zheng, Sol. Energy Mater.
+39 A. Sayigh, Solar & Wind Technology, 1987, 4, 239.                      Sol. Cells, 2020, 217, 19.
+
+
+
+
+© 2023 The Author(s). Published by the Royal Society of Chemistry                                 RSC Adv., 2023, 13, 16837–16849 | 16849
+

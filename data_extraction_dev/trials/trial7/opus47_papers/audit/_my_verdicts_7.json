@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "877",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6k and mp 150-152 °C match Section 3.1.1.11 of the paper.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "676",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3a 3-amino-2-(phenylsulphonamidomethyl)quinazolin-4(3H)-one with mp 180°C confirmed in experimental.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "520",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4f 4-fluoro-5-(4-phenylpiperazin-1-yl)-2-nitrobenzenamine, mp 183-185 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1114",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "2-propanol mp 183.7 K in Table 1; K to °C conversion 183.7-273.15=-89.45 is correct.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1176",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 24c 1-(2,4,6-trimethylbenzenesulfonyl)-1H-pyrrolo[2,3-c]pyridine, mp 132-134 °C (pre-verified).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "13",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4 2-(8-Hydroxyquinolin-5-yl)-4-methoxyisoindoline-1,3-dione, mp 250-253 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1397",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2o (3RS,3aRS,4SR,7aRS)-1-(tert-Butyl)-3,4-dichlorooctahydro-2H-indol-2-one, mp 117-120 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1233",
+    "verdict": "flagged_review",
+    "reason": "flagged_doi_unrelated_paper",
+    "details": "source_url DOI 10.1021/ci700307p is Hughes et al. 2008 but the mapped paper folder contains Tetko et al. 2016 (DOI 10.1186/s13321-016-0113-y); the cited QSPR SI with 287 compounds (5-ethyl-5-heptylbarbiturate at 118.0) is not present in the corpus.",
+    "verifiable": false,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "1479",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8e 6-(hydroxyamino)-6-oxohexyl 4-(2-chlorophenyl)-6-methyl-2-oxo-1,2,3,4-tetrahydropyrimidine-5-carboxylate, mp 119-122 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "306",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6f Methyl-2-[2-(5-benzyl-4-phenyl-4H-[1,2,4]triazol-3-thio)-acetylamino]-3-methyl-butyrate, mp 93 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "561",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Complex 5 chlorido-[1,3-dimethyl-4-anisyl-5-(4-chlorophenyl)imidazole-2-ylidene]gold(I), mp 210-211 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "802",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8 (Z)-6,6,9-Trimethyl-2-[2-(4-nitrophenyl)hydrazineylidene]-3-pentyl-2,6-dihydro-1H-benzo[c]chromen-1-one, mp 63-65 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1044",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5n triazole-indole-pyrazol-3-one with tribromophenyl group, mp 200-202 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "94",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3a 1-Benzylpiperidin-4-yl 4-Phenylbutanoate Hydrochloride, mp 141-143 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "522",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4i 4-fluoro-2-nitro-5-(morpholin-1-yl)aniline, mp 186-188 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1055",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8c 2-(3-Acetyl-1-(4-bromophenyl)-5-((S)-4-methylphenyl)-1,2,4-triazolo-4-yl)-2-deoxy-1,3,4,6-tetraacetyl-beta-D-glucose, mp 145-146 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "411",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 7a Cyano-{[4-(2-methyl-4-oxo-4H-quinazolin-3-yl)-phenyl]hydrazono}acetic acid ethyl ester, mp 128-130 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "172",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "[Glu(OPr)][IBU] Tm 59.02 °C confirmed in Table 2 row. Evidence quote 'Compound [Glu(OPr)][IBU] Tm (°C) 59.02' is a templated reconstruction rather than verbatim substring; Q5 fails but Q1-Q4 pass.",
+    "verifiable": false,
+    "verifiability_tag": "quote_templated"
+  },
+  {
+    "row_id": "530",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5j 2-(4-(4,5-diamino-2-fluorophenyl)piperazin-1-yl)ethanol, mp 115-117 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1426",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "(Sp)-4a paracyclophane bis(diphenylphosphine oxide), mp 164-165 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1532",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "EtDEA diclofenac salt Tpeak 76 °C confirmed from Table 1 row 10 and supporting text. Evidence quote is a templated reconstruction of the table row but field values are correct.",
+    "verifiable": false,
+    "verifiability_tag": "quote_whitespace_unicode_mismatch"
+  },
+  {
+    "row_id": "853",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10c 2-(5,6-Dichloro-2-(4-methoxyphenyl)-1H-benzo[d]imidazol-1-yl)-N'-(3-methoxybenzylidene)acetohydrazide, mp 255-257 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1531",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "MeDEA diclofenac salt Tpeak 102 °C confirmed from Table 1 row 9 and supporting text. Evidence quote is a templated reconstruction of the table row but values are correct.",
+    "verifiable": false,
+    "verifiability_tag": "quote_whitespace_unicode_mismatch"
+  },
+  {
+    "row_id": "1368",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "CaCl2·6H2O DSC peak 31.7 ± 0.73 °C in Table 5 of Muller 2020 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "332",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4a S-8-(4-((5'-(Methylthio)-2,2'-bithiophen-5-ylthio)methyl)-1H-1,2,3-triazol-1-yl)octyl thioacetate, mp 85-87 °C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]

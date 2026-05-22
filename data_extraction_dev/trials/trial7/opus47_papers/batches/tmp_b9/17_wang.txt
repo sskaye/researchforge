@@ -1,0 +1,543 @@
+                                                                                                    www.nature.com/scientificreports
+
+
+
+
+                OPEN             Preparation and thermal properties
+                                 study of HMX/RDX composites
+                                 Yu-ting Tao, Shaohua Jin, Lijie Li, Xinya Chen, Kun Chen & Junfeng Wang
+                                 HMX/RDX composites were prepared using the solvent-antisolvent alternating method. The
+                                 morphology and structure of the composites were characterized by optical microscopy, high-
+                                 performance liquid chromatography (HPLC), Fourier transform infrared spectroscopy (FT-IR), and
+                                 powder X-ray diffraction (PXRD). The composite exhibited a morphology with HMX as the core and
+                                 RDX as the coating layer. The HMX existed in the β-phase, and molecular interactions were observed
+                                 between the two components (a blue shift of 2.06 cm− 1 in the NO2 symmetric stretching vibration
+                                 peak of HMX and a red shift of 2.06 cm− 1 in the C-H stretching vibration peak of RDX). Thermal
+                                 analysis revealed synergistic effects in the thermal decomposition process (lower decomposition
+                                 peak temperature for HMX and higher for RDX), with an apparent activation energy (149.41 kJ/mol)
+                                 in the first decomposition stage lower than that of the physical mixture and pure RDX component.
+                                 Concurrently, both the critical thermal detonation temperature (227.74 ℃) and self-accelerating
+                                 decomposition temperature (213.78 ℃) exceed those of the physical mixture and pure RDX
+                                 component, thereby demonstrating superior thermal safety. This composite material strikes a balance
+                                 between energy release efficiency and safety, offering significant application value for weapon systems
+                                 that pursue higher performance and lower vulnerability. It also provides a novel approach and technical
+                                 pathway for high-energy explosive formulation design.
+
+                                 Keywords HMX/RDX composites, Solvent-antisolvent alternating method, Thermal decomposition kinetics,
+                                 Synergistic effect, Thermal stability
+
+                                 Octahydro-1,3,5,7-tetranitro-1,3,5,7-tetrazocine (HMX) and hexahydro-1,3,5-trinitro-1,3,5-triazine (RDX),
+                                 as two representative monocomponent explosives, exhibit energy characteristics and thermal stability that
+                                 directly determine the destructive efficiency and safety of weapon systems1–4. HMX demonstrates an explosive
+                                 heat of 5674 kJ/kg and a detonation velocity of 9109 m/s5. The substance under discussion is characterized by
+                                 high energy characteristics, substantial density, and excellent thermal stability. Consequently, it serves as the
+                                 primary energy source in numerous practical propellant formulations6–8. For example, the LX-14 and PBX9404
+                                 explosives, as well as the Russian Okfir explosives, are HMX-based PBXs2,9,10. RDX, a classical single-substance
+                                 explosive, exhibits a detonation velocity (approximately 8750 m/s) and detonation pressure (approximately 34
+                                 GPa) that are slightly lower than HMX11. However, its detonation heat value is comparable to HMX, and its raw
+                                 material costs are significantly reduced12. Consequently, it is widely used across various military applications13.
+                                 For example, the CH-6 and PBX9407 explosives of the United States are RDX-based PBXs. It is important
+                                 to note that, despite HMX demonstrating significantly higher detonation velocity, detonation pressure, and
+                                 detonation heat compared to RDX, along with superior thermal stability, its high production cost limits its
+                                 widespread application. This trade-off between performance and cost makes the HMX/RDX composite system
+                                 a key technological approach for balancing energy output, safety, and economic viability. Through precise
+                                 regulation of their mixing ratio, a dynamic balance can be achieved between energy output and safety, satisfying
+                                 the requirements of different application scenarios for explosive performance13.
+                                     However, the preponderance of extant composite systems is characterized by mechanical mixing
+                                 methodologies14. The presence of weak interfacial bonding between the two components, in conjunction with
+                                 high crystal defect densities, frequently results in inhomogeneous distribution of components, inadequate mass
+                                 uniformity, incomplete detonation reactions, and diminished energy release efficiency. These limitations render
+                                 them incapable of meeting the dual requirements of contemporary weapon systems for high energy density and
+                                 low sensitivity. This performance bottleneck is in direct conflict with the demand for advanced ‘high-energy
+                                 and insensitive’ integrated materials in next-generation armament systems and is becoming a critical factor
+                                 restricting their development. Consequently, the exploration of innovative preparation technologies for HMX/
+                                 RDX composites has emerged as a research focus within the domain of energetic materials.
+
+
+                                 School of Materials Science and Engineering, Beijing Institute of Technology, Beijing 100081, China. email:
+                                 lilijie2003@bit.edu.cn
+
+
+Scientific Reports |   (2026) 16:6225                | https://doi.org/10.1038/s41598-026-37049-1                                                 1
+www.nature.com/scientificreports/
+
+
+                                     Current research on HMX/RDX composite systems primarily focuses on their thermodynamic and kinetic
+                                 behaviors: Myint et al. established an equation of state applicable to pure HMX and mixed systems15. McKenney
+                                 et al. experimentally constructed the RDX/HMX binary phase diagram, revealing the dominant role of δ-HMX
+                                 in thermal decomposition16. Studies by Li Sha et al. demonstrated that the HMX90/RDX10 mixture exhibits
+                                 the highest initial decomposition peak temperature (268.12 °C) and critical thermal explosion temperature
+                                 (277.66 °C)17. However, Sinapour et al.18 and Xu Yabei et al.19 found that HMX/RDX interactions reduce the
+                                 thermal stability of the system-both decomposition temperatures and activation energies at varying conversion
+                                 degrees slightly decrease. For instance, when the RDX/HMX ratio decreases from 9:1 to 5:5, the activation
+                                 energy of RDX drops from 162.32 kJ/mol to 132.93 kJ/mol. Lu Na et al. investigated the thermal decomposition
+                                 pathways of HMX/RDX mixtures, demonstrating that HMX retains its denitration and C-N bond cleavage
+                                 mechanisms, while intermolecular oxygen transfer, polymerization, and dimerization occur between HMX and
+                                 RDX molecules20. Liu Haiying et al. prepared nano-HMX/micro-RDX composites with varying ratios under
+                                 ultrasonic conditions and conducted a comparative analysis of their impact sensitivity with that of pure RDX.
+                                 The research demonstrated that the nano-HMX/micro-RDX composite explosives exhibited higher impact
+                                 sensitivity compared to pure RDX explosives. However, the impact sensitivity gradually decreased with increasing
+                                 HMX content21. Although these studies elucidate the correlation between component ratios and performance,
+                                 current preparation methods still fail to address structural defects in the materials. Therefore, selecting effective
+                                 composite strategies to optimize HMX/RDX combinations and fabricate HMX/RDX composite energetic
+                                 materials with uniform particle size and superior performance remains a critical challenge requiring further
+                                 in-depth exploration.
+                                     Therefore, this study focuses on the preparation process and thermal properties of β-HMX/RDX composite
+                                 materials, aiming to overcome the technical limitations of traditional mechanical mixing methods and establish
+                                 a novel β-HMX/RDX composite system to provide foundational data for its applications. In this research, β-
+                                 HMX/RDX composites with a mass ratio of 4:6 were prepared using a solvent-antisolvent alternating method.
+                                 The morphology, structural composition, component distribution, and surface chemical state of the composites
+                                 were systematically characterized by optical microscopy, X-ray diffraction (XRD), high-performance liquid
+                                 chromatography (HPLC), and Fourier-transform infrared spectroscopy (FT-IR). Furthermore, the thermal
+                                 performance of the composites was comprehensively evaluated through thermal analysis.
+
+                                 Materials and methods
+                                 Materials
+                                 Raw HMX and raw RDX were synthesized in the laboratory and purified via a recrystallization method, achieving
+                                 a mass fraction purity exceeding 99%. Dimethyl sulfoxide (DMSO, analytical grade) was supplied by Shanghai
+                                 Macklin Biochemical Technology Co., Ltd. Ultrapure water was provided by Fisher Chemical. Acetonitrile
+                                 (HPLC grade) was obtained from Beijing Tongguang Fine Chemicals Company, and methanol (HPLC grade)
+                                 was sourced from Ron Reagent.
+
+                                 Preparation of HMX/RDX composites
+                                 Following a comprehensive analysis of the solubility data for HMX and RDX, it was determined that 80%
+                                 dimethyl sulfoxide (DMSO) would serve as the optimal solvent. Ultrapure water was then selected as the
+                                 antisolvent medium for the recrystallisation experiment, employing a solvent-antisolvent alternating method.
+                                 Under a thermostatic water bath maintained at 25 ℃, HMX and RDX in a mass ratio of 4:6 were added to an
+                                 appropriate amount of 80% DMSO solvent and stirred until fully dissolved. The solution was then dripped via
+                                 a syringe pump into ultrapure water (37.5% of the solution volume) at a controlled rate of 0.6 mL/min under
+                                 stirring at 140 rpm, resulting in the precipitation of white crystals. After completion of the dripping process, the
+                                 mixture was stirred at 25 ℃ for 90 min. Subsequently, ultrapure water was introduced into the suspension at a
+                                 controlled rate of 0.6 mL/min. The system temperature was then elevated to 55 ℃, held for 3 h, and subsequently
+                                 cooled to 25 ℃. The final HMX/RDX composites were isolated via sequential filtration, washing, and drying.
+
+                                 Structural characterization of HMX/RDX composites
+                                 Powder X-ray diffraction (XRD) was performed on a D/teX Ultra 250 diffractometer (Smartlab SE, Tokyo, Japan)
+                                 in reflection mode under operating conditions of 40 kV and 50 mA, employing Cu-Kβ radiation with a step
+                                 size of 0.01° and a scanning range of 5°-90°. Fourier-transform infrared spectroscopy (FT-IR) was conducted
+                                 using a Bruker ALPHA II spectrometer to characterize the crystal structure of the HMX/RDX composites, with
+                                 a spectral range of 4000–400 cm− 1 and 64 scans. High-performance liquid chromatography (HPLC, LC-100
+                                 model, Shanghai Wufeng Scientific Instruments Co., Ltd.) was utilized to assess the purity of components in the
+                                 composites. The HPLC analysis employed a stainless-steel column (ODS stationary phase, 5 μm particle size,
+                                 4.6 nm internal diameter, 20 cm length) with a mobile phase of acetonitrile/methanol/water (v/v/v), an injection
+                                 volume of 10 µL, and a detection wavelength of 230 nm.
+                                     The thermal properties of pure α-HMX, β-HMX, and the β-HMX/RDX composites were analyzed using a
+                                 Labsys Evo STA synchronous thermal analyzer (SETARAM, Lyon, France). The samples were heated from 50 ℃
+                                 to 400 ℃ at a heating rate of 10 ℃/min in aluminum oxide (Al2O3) crucibles. Thermogravimetry-differential
+                                 scanning calorimetry (TG-DSC) was further conducted on raw β-HMX, RDX, and the β-HMX/RDX composites
+                                 under a nitrogen atmosphere, with a temperature ramp from 50 °C to 400 °C at 10 ℃/min.
+
+
+
+
+Scientific Reports |   (2026) 16:6225                | https://doi.org/10.1038/s41598-026-37049-1                                                   2
+www.nature.com/scientificreports/
+
+
+
+
+                                 Fig. 1. Optical microscopy images of (a) raw RDX, (b) raw HMX, and (c) HMX/RDX composites fabricated
+                                 via solvent-antisolvent alternating method.
+
+
+
+
+                                 Fig. 2. Liquid chromatogram of HMX/RDX composites.
+
+
+
+                                 Results and discussion
+                                 Morphology characterization
+                                 The raw HMX and RDX were dissolved in an 80% DMSO mixed solvent and recrystallized using the solvent-
+                                 antisolvent alternating method. As shown in Fig. 1a and b, the raw HMX and RDX exhibited a blocky crystal
+                                 morphology. The recrystallized composite material exhibits a distinct core-shell structure, with HMX forming
+                                 the core and RDX adhering as the surface phase, achieving a uniform particle size of approximately 100
+                                 micrometers (Fig. 1c).
+
+                                 HPLC
+                                 Figure 2 displays the high-performance liquid chromatography (HPLC) profile of the HMX/RDX composites,
+                                 with its component distribution summarized in Table 1. As shown in Fig. 2, the composite primarily exhibits the
+                                 following chromatographic peaks: the first peak corresponds to the acetone solvent peak, followed sequentially
+                                 by the chromatographic peaks of HMX and RDX. Notably, no impurity peaks were detected, indicating high
+
+
+Scientific Reports |   (2026) 16:6225               | https://doi.org/10.1038/s41598-026-37049-1                                              3
+www.nature.com/scientificreports/
+
+
+                                                        Composition   1       2       3       Average   RSD (%)   Composition deviation (%)
+                                                        HMX%          39.95   40.35   40.25   40.18     0.52      0.45
+                                  HMX/RDX composites
+                                                        RDX%          59.65   60.41   59.35   59.80     0.91      0.33
+
+
+                                 Table 1. Purity of components in HMX/RDX composites.
+
+
+
+
+                                 Fig. 3. The FT-IR spectra of βHMX, RDX, and HMX/RDX composites.
+
+
+
+                                 purity of the composite. Furthermore, the resolution between the HMX and RDX peaks reached 4.9 (exceeding
+                                 1.5), demonstrating excellent separation efficiency and precise quantitative analysis results.
+                                    During the preparation of the HMX/RDX composites in this experiment, the mass ratio of HMX to RDX was
+                                 designed as 4:6. According to the data in Table 1, the composition deviations of HMX and RDX in the prepared
+                                 composite material were 0.45% and 0.33%, respectively, both far below the 5% threshold. This proves that the
+                                 solvent-antisolvent alternating method can precisely control the HMX/RDX mass ratio (4:6).
+
+                                 FT-IR
+                                 Figure 3 displays the infrared spectra of HMX, RDX, and the HMX/RDX composites. Typically, β-HMX exhibits
+                                 no distinct peaks in the wavenumber range of 700–740 cm− 122. As seen in Fig. 3, the composite material displays
+                                 characteristic absorption peaks specific to β-HMX (3035.50 cm− 1 and 1139.34 cm− 1), while the characteristic
+                                 peaks of α-HMX in the 700–800 cm− 1 range are absent. Therefore, it can be concluded that HMX in the
+                                 composite primarily exists in the β-phase. Hence, “HMX” in subsequent sections specifically refers to β-HMX.
+                                 Furthermore, the composite’s infrared spectrum simultaneously exhibits characteristic infrared peaks from
+                                 both HMX and RDX: the C-N bending vibration peak of RDX at 672.50 cm− 1 and the C-N bending vibration
+                                 peak of HMX at 656.05 cm− 1; the RDX -NO2 stretching vibration peak at 779.38 cm− 1 and the HMX -NO2
+                                 vibration peak at 752.71 cm− 1. It is noteworthy that the peaks at 672.50 cm− 1, 656.05 cm− 1, and 779.38 cm− 1
+                                 demonstrate a 2.06 cm− 1 blue shift relative to their corresponding infrared peaks in pure components. This
+                                 finding suggests that intermolecular interactions between HMX and RDX result in alterations to their chemical
+                                 environment. Furthermore, characteristic peaks for HMX are observed at 1085.87 cm− 1 and 1139.34 cm− 1 in
+                                 the composite’s infrared spectrum, with the 1139.34 cm− 1 peak displaying a 2.06 cm− 1 blue shift relative to pure
+                                 HMX. Furthermore, the –NO2 symmetric stretching vibration peak of RDX at 1307.90 cm− 1 exhibited a blue
+                                 shift of 2.10 cm− 1 relative to its pure-phase peak position. Furthermore, the C-H stretching vibration peak at
+                                 3068.41 cm− 1, attributed to RDX, exhibited an infrared shift of 2.06 cm− 1 in comparison to pure RDX.
+                                     The existence of these distinctive peaks attests to the retention of HMX and RDX’s original chemical structures
+                                 within the composites. In the meantime, the chromatographic peaks’ blue and red shifts show that HMX and
+                                 RDX’s intermolecular interactions have changed the molecules’ vibrational frequencies.
+
+                                 PXRD
+                                 The XRD patterns of raw HMX, raw RDX, and HMX/RDX composites are displayed in Fig. 4. As demonstrated
+                                 in the figure, the characteristic diffraction peaks corresponding to HMX and RDX are distinctly observed in the
+                                 PXRD patterns of the HMX/RDX composites. Specifically, the peaks at 2θ = 13.01° and 25.26° are assigned to
+                                 RDX, while those at 2θ = 14.65°, 26.12°, and 31.88° correspond to HMX. Notably, certain peaks in the composite
+                                 diffraction pattern demonstrate shifts in comparison to the individual peaks of HMX and RDX components,
+                                 yet no novel diffraction peaks were identified. This phenomenon is indicative of significant intermolecular
+                                 interactions within the HMX/RDX composite system. Such interactions may induce subtle modifications to the
+                                 crystal lattice structure, leading to peak displacement. Furthermore, the absence of discernible crystalline phases
+                                 during the composite preparation process is indicated.
+
+
+Scientific Reports |   (2026) 16:6225                  | https://doi.org/10.1038/s41598-026-37049-1                                               4
+www.nature.com/scientificreports/
+
+
+
+
+                                 Fig. 4. Powder X-ray diffraction patterns of HMX, RDX and HMX/RDX composites.
+
+
+
+
+                                 Fig. 5. TG-DTG curve of (a) raw HMX, (b) raw RDX, and (c) HMX/RDX composites at a heating rate of 10
+                                 ℃/min.
+
+
+
+                                 Thermal decomposition behavior and kinetics
+                                 The TG curves of HMX, RDX, and HMX/RDX composites are shown in Fig. 5. The TG-DTG curve obtained at
+                                 a heating rate of 10 ℃/min clearly shows that the thermal decomposition process of the HMX/RDX composite
+                                 occurs in two different stages with overlapping decomposition peaks. The first decomposition stage begins at
+                                 191.06 ℃ and reaches its maximum rate at 246.18 ℃, corresponding to the thermal decomposition of RDX
+                                 (Fig. 5b). The second stage has been shown to reach its maximum decomposition rate at 266.50 ℃, which
+                                 corresponds to the decomposition of HMX (Fig. 5a). The process of decomposition is complete at 281.44 ℃.
+                                    These results demonstrate that the intermolecular interactions between HMX and RDX in the composite
+                                 induce earlier initiation of HMX decomposition at a reduced temperature. Furthermore, the thermal
+                                 decomposition of RDX accelerates the HMX decomposition reaction, revealing a mutual synergistic effect
+                                 between the two components.
+                                    To clearly distinguish and compare the thermal behavior of different samples, the prepared HMX/RDX
+                                 composite is designated as “Composite A” in this section; its corresponding physical mixture is designated as
+
+
+Scientific Reports |   (2026) 16:6225               | https://doi.org/10.1038/s41598-026-37049-1                                            5
+www.nature.com/scientificreports/
+
+
+
+
+                                 Fig. 6. DSC curves of (a) Composite A and (b) Mixture B at different heating rates.
+
+
+
+                                                  First decomposition stage
+                                  Sample          E (kJ/mol)   lgA     r
+                                  Raw RDX         180.55       18.17   0.9996
+                                  Composite A     149.41       14.70   0.9999
+                                  Mixture B       160.58       15.84   0.9959
+
+
+                                 Table 2. Apparent activation energy (E) and pre-exponential factor (A) of Raw RDX, composite A and
+                                 mixture B obtained by the Kissinger.
+
+
+
+                                 “Mixture B”. The DSC curves of Composite A and Mixture B are shown in Fig. 6. Analysis reveals that both
+                                 systems exhibit one endothermic event followed by two exothermic events during thermal decomposition,
+                                 corresponding to three distinct stages: (1) melting of RDX, (2) thermal degradation of RDX, and (3) thermal
+                                 decomposition of HMX. Notably, the RDX decomposition peak in composites shifts to higher temperatures
+                                 compared to pure RDX, while the HMX decomposition peak occurs at lower temperatures relative to pure
+                                 HMX. This temperature inversion demonstrates a mutual synergistic interaction between HMX and RDX that
+                                 critically modulates the composite’s decomposition behavior.
+                                     Figure 6 further reveals heating rate-dependent trends: increasing heating rates elevate the RDX decomposition
+                                 peak temperature in composites but reduce that of HMX. This phenomenon likely arises from intermolecular
+                                 interactions wherein exothermic RDX decomposition accelerates HMX pyrolysis, thereby destabilizing HMX
+                                 and advancing its decomposition to lower temperatures. Similar heating rate effects are observed in physical
+                                 mixtures, though with distinct peak temperature offsets compared to composites. Consistent with TG results,
+                                 HMX decomposition in composites initiates earlier at lower heating rates, resulting in depressed peak
+                                 temperatures.
+                                     Using the Kissinger equation (Eq. 1)23, we calculated the thermal decomposition kinetic parameters of
+                                 Composite A and Mixture B at heating rates of 2, 4, 6, 8, and 10 ℃/min. The results are summarized in Table 2.
+                                                                                  [      ]
+                                                                                   β                AR    E
+                                                                                ln           = ln      −      (1)
+                                                                                   TP2              E    RT P
+
+                                 Where, β is the heating rate, Tp denotes the peak temperature of decomposition, E represents the apparent
+                                 activation energy, R is the universal gas constant (8.314 J mol−1 K−1), and A is the pre-exponential factor. The
+                                 apparent
+                                    [ ] activation energy (E) and pre-exponential factor (A) can be determined by linearly fitting the plot of
+                                  ln    β
+                                         2
+                                        TP
+                                              -1/Tp. The linear fitting plots for Composite A and Mixture B are presented in Fig. 7.
+                                     Activation energy study shows that composite A and mixture B have different thermal degradation kinetics.
+                                 The first-stage activation energy of composite A is 149.41 kJ/mol (r = 0.9999), which is substantially lower than that
+                                 of raw RDX (180.55 kJ/mol) and 18.1% lower than that of mixture B (160.58 kJ/mol, r = 0.9959). This substantial
+                                 decrease in activation energy is indicative of enhanced reactivity and accelerated energy release kinetics during
+                                 the initial decomposition stage, a critical advantage for applications requiring rapid energy liberation, such as
+                                 explosive initiation systems. It is noteworthy that composite A displays anomalous negative activation energy
+                                 in its second decomposition stage, indicating the possibility of autocatalytic behaviour or complex multi-step
+                                 reaction pathways that necessitate further mechanistic investigation. The observed kinetic differences between
+                                 composite A and mixture B, particularly the depressed decomposition temperatures and altered pre-exponential
+                                 factors, align with thermogravimetric findings and underscore the synergistic interactions between HMX and
+                                 RDX components that modulate decomposition thermodynamics. The collective outcomes of these experiments
+                                 demonstrate the composite’s superior energetic performance through the optimization of kinetic parameters
+                                 that regulate energy release profiles. Therefore, it can be inferred that the synergistic effect between RDX and
+                                 HMX in the composite exerts a significant influence on the thermal decomposition kinetics of both components.
+
+
+Scientific Reports |   (2026) 16:6225                      | https://doi.org/10.1038/s41598-026-37049-1                                              6
+www.nature.com/scientificreports/
+
+
+
+
+                                                                [         ]
+                                 Fig. 7. Dependence of ln            β
+                                                                      2
+                                                                     TP
+                                                                              on 1/Tp for raw RDX, Composite A and Mixture B (Scatter points are
+                                 experimental data and lines denotes the linear fitting results).
+
+
+
+                                  Sample        ∆ H ̸= (kJ/mol)       ∆ S ̸= (kJ/mol)     ∆ G̸= (kJ/mol)
+                                  Raw RDX       176.25                98.31              125.47
+                                  Composite A   145.05                31.81              128.38
+                                  Mixture B     156.22                53.65              128.12
+
+
+                                 Table 3. The calculated thermodynamic parameters for raw RDX, composite A and mixture B.
+
+
+
+                                  Sample        Tp0 (℃)     Tb (℃)          ) ℃(
+                                                                          TSADT
+                                  Raw RDX       213.75      225.15        213.72
+                                  Composite A   213.91      227.74        213.78
+                                  Mixture B     209.89      222.81        210.07
+
+
+                                 Table 4. The calculated Tb and TSADT for raw RDX, composite A and mixture B.
+
+
+
+                                    The activation enthalpy( ∆ H ̸= ), activation entropy( ∆ S ̸= ) and Gibbs free energy ( ∆ G̸= ) can be
+                                 calculated using Eqs. (2)–(4)24,25.
+                                                                                   (         )
+                                                                                       Ea            kB Tp       ∆ G̸=
+                                                                           Aexp −                =         exp(−       )(2)
+                                                                                       RTp             h          RTp
+
+                                                                                       ∆ H ̸= = Ea − RTp (3)
+
+                                                                                   ∆ G̸= = ∆ H ̸= − Tp ∆ S ̸= (4)
+
+                                 Where, KB denotes the Boltzmann constant (1.381 × 10− 23 J/K), and h represents Planck constant (6.626 × 10–34 J/s).
+                                 As summarized in Table 3, all samples exhibited positive ∆ H ̸= values, indicating that their decomposition
+                                 processes are endothermic reactions. Compared with raw RDX (176.25 kJ/mol) and mixture B (156.22 kJ/mol),
+                                 compound A showed the lowest ∆ H ̸= value (145.05 kJ/mol). Notably, raw RDX demonstrated significantly
+                                 higher ∆ S ̸= than both composite A and mixture B, indicating that reflects a greater degree of conformational
+                                 freedom in its molecular structure. The positive ∆ G̸= values for all systems suggest that the decomposition
+                                 process is non-spontaneous. Consequently, this composite material is stable and can be safely stored under
+                                 normal conditions.
+                                     The initial decomposition peak temperatures ( Tp0 ) of composite A and mixture B, extrapolated to a heating
+                                 rate of zero (β → 0), were obtained using Eq. (5), and the results are summarized in Table 4.
+
+                                                                                   Tp0 = Tp − (aβ + bβ 2 + cβ 3 )(5)
+
+                                 Where, a, b, and c are coefficients; β represents the heating rate; and Tp0 denotes the initial decomposition peak
+                                 temperature extrapolated to β → 0.
+
+
+Scientific Reports |   (2026) 16:6225                    | https://doi.org/10.1038/s41598-026-37049-1                                              7
+www.nature.com/scientificreports/
+
+
+                                   The thermal explosion critical temperature (Tb) of composite A and mixture B was calculated using the Hu-
+                                 Zhao-Gao method26.
+                                                                                               A0
+                                                                                 lnβ = ln            + bTp (6)
+                                                                                             bG (α )
+                                                                                                      1
+                                                                                       Tb = Tp0 +       (7)
+                                                                                                      b
+
+                                 Where, A0 and b are the two coefficients of the Berthelot equation, and G (α ) is the kinetic function in integral
+                                 form. The value of b was found by doing linear fitting and visualizing lnβ versus Tb using Eq. (6). Tb was
+                                 obtained by substituting this into Eq. (7), and the computation results are shown in Table 4. As shown in Table 4,
+                                 the Tp0 of composite A is comparable to that of raw RDX, indicating that HMX incorporation has negligible
+                                 thermodynamic effects on initial decomposition. Conversely, the Tp0 of mixture B decreased by 3.86 ℃ relative
+                                 to raw RDX. This demonstrates that the prepared composite exhibits superior thermal stability compared to the
+                                 physical mixture.
+                                     Notably, the Tb value of composite A is 2.59 ℃ higher than that of the raw RDX. This indicates that the
+                                 interaction between HMX and RDX impedes energy transfer, thereby enhancing the composite’s resistance to
+                                 thermal runaway. Conversely, the Tb value of mixture B decreased by 2.34 ℃ relative to raw RDX, implying a
+                                 higher risk of thermal explosion than the raw RDX. Collectively, these results demonstrate the excellent thermal
+                                 stability characteristics of this composite material.
+
+                                                                                                       RTb2
+                                                                                  TSADT = Tb −              (8)
+                                                                                                       Ea
+
+                                 The self-accelerating decomposition temperature (TSADT) is a critical parameter for the thermal safety of
+                                 energetic materials. The TSADT value was calculated by DTA and Eq. (8). As shown in Table 4, the TSADT of
+                                 composite A (213.78 ℃) was almost the same as that of raw RDX (213.72 ℃, ΔT = 0.06 ℃). Furthermore, the
+                                 TSADT of composite A is 3.89 ℃ higher than that of mixture B (209.89 ℃ vs. 213.78 ℃). This finding indicates
+                                 that the composite material exhibits superior safety performance to conventional mixtures.
+
+                                 Calculation
+                                 This study successfully synthesised HMX/RDX composite materials with a core-shell-like structure using the
+                                 alternating solvent-antisolvent method. The key findings are as follows:
+
+                                 1. The composite has a uniform structure, with HMX forming the core and RDX forming the coating layer.
+                                    FT-IR and XRD results confirm the β-crystalline form of HMX within the composite and reveal molecular
+                                    interactions between the two components. Concurrently, HPLC analysis indicates precise control over the
+                                    HMX-to-RDX ratio within the composite, yielding high-purity products free from impurity interference.
+                                 2. It has been established that a two-stage thermal decomposition reaction occurs in the composite material. A
+                                    comparison of the peak decomposition temperatures attributable to HMX and RDX reveals a decrease in the
+                                    former and an increase in the latter. This finding suggests the presence of a substantial thermal synergistic
+                                    effect between the two components. The heat released from RDX decomposition accelerates the subsequent
+                                    decomposition process of the HMX component, thereby enhancing the overall thermal responsiveness of the
+                                    composite. Kissinger kinetic analysis confirms the enhanced detonation activity of the composite. The ap-
+                                    parent activation energy (149.41 kJ/mol) during the first thermal decomposition stage is significantly lower
+                                    than that of the physical mixture of the same components and pure RDX. It is evident that the critical thermal
+                                    detonation temperature (227.74 ℃) and the self-accelerating decomposition temperature of this composite
+                                    are higher than those of the physical mixture system of the same components, indicating superior thermal
+                                    safety.
+
+                                 The HMX/RDX composites leverage synergistic effects of their components and a core-shell structure design to
+                                 enhance thermal breakdown performance while ensuring safety. Their excellent thermal stability guarantees safe
+                                 storage, and their low activation energy renders them attractive for applications requiring rapid energy release
+                                 (e.g. propellants or starting charges). By controlling the composite ratio and the crystallization process, it may
+                                 be possible to further optimize energy output and stability matching in the future.
+
+                                 Data availability
+                                 The datasets used and/or analysed during the current study available from the corresponding author on reason-
+                                 able request.
+
+                                 Received: 4 June 2025; Accepted: 19 January 2026
+
+
+                                 References
+                                  1. Cummock, N. R. et al. The influence of microstructure and polymorphic conformer on the shock sensitivity of 1,3,5,7-tetranitro-
+                                     1,3,5,7-tetrazoctane (HMX). J. Energ. Mater. 41, 483–509 (2023).
+                                  2. Parker, G. R. et al. Deflagration-to-detonation transition in hot HMX and HMX-based polymer-bonded explosives. Combust.
+                                     Flame. 215, 295–308 (2020).
+
+
+
+Scientific Reports |   (2026) 16:6225                  | https://doi.org/10.1038/s41598-026-37049-1                                                               8
+www.nature.com/scientificreports/
+
+
+                                  3. Christopher, I. L., Pulham, C. R., Michalchuk, A. A. L. & Morrison, C. A. Is the impact sensitivity of RDX polymorph dependent?
+                                     J. Chem. Phys. 158, 124115 (2023).
+                                  4. Wang, Y. et al. Preparation and characterization of Cyclotrimethylenetrinitramine (RDX) with reduced sensitivity. Materials. 10
+                                     (2017).
+                                  5. Siyi, X., Ming, Z., Haixia, M., Hui, L. & Fengqi, Z. Research progress on recrystallization technology of single-compound energetic
+                                     materials. Chin. J. Explos Propellants. 48, 873–888 (2025).
+                                  6. Xiufang, M. et al. Simulation study on structure and property of HMX-based multi-components PBX. Explosion Shock Waves.
+                                     109–115 (2007).
+                                  7. Rotariu, T. et al. Green PBX formulations based on high explosives (RDX and HMX) and water-soluble pH-sensitive polymeric
+                                     binders. Polymers. 15 (2023).
+                                  8. Anderson, E. K., Chiquete, C., Jackson, S. I., Chicas, R. I. & Short, M. The comparative effect of HMX content on the detonation
+                                     performance characterization of PBX 9012 and PBX 9501 high explosives. Combust. Flame 230 (2021).
+                                  9. Hobbs, M. L., Kaneshige, M. J. & Yarrington, C. D. Large deformation and gas retention during cookoff of a plastic bonded
+                                     explosive (PBX 9407). Combust. Flame. 198, 278–289 (2018).
+                                 10. Hussain, T., Yan, L. & Huang, F. Multiple shock compressions in tri-amino-tri-nitro-benzene based energetic materials. IOP Conf.
+                                     Ser. : Mater. Sci. Eng. 146, 012019 (2016).
+                                 11. Xing, X. et al. Optimizing HMX/RDX based: balancing cost reduction and performance stability through partial RDX substitution.
+                                     J. Energ. Mater. 1–20 (2025).
+                                 12. Jinfeng, Q., Xue, Z., Hua, Q. & Jiuhou, R. Effect of crystal structure of high density spherical RDX on safety performance of PBX.
+                                     Acta Armamentarii. 41, 481–487 (2020).
+                                 13. van der Heijden, A. E. D. M. & Bouma, R. H. B. Characterization of granular and polymer-embedded RDX grades: floret tests.
+                                     Propell Explos Pyrot. 41, 360–366 (2016).
+                                 14. Han, G. et al. Effects of nano-HMX on the properties of RDX-CMDB propellant: higher energy and lower sensitivity. Def. Technol.
+                                     13, 323–326 (2017).
+                                 15. Myint, P. C. & Nichols, A. L. Thermodynamics of HMX polymorphs and HMX/RDX mixtures. Ind. Eng. Chem. Res. 56, 387–403
+                                     (2017).
+                                 16. Mckenney, R. L. & Krawietz, T. R. Binary phase diagram series: HMX/RDX. J. Energ. Mater. 21, 141–166 (2003).
+                                 17. Sha, L., Shuangjun, C., Xingyan, C. & Na, L. Thermal stability and mechanical properties of HMX/RDX mixtures with different
+                                     component proportions. Explosive Mater. 53, 33–40 (2024).
+                                 18. Sinapour, H., Damiri, S. & Pouretedal, H. R. The study of RDX impurity and wax effects on the thermal decomposition kinetics of
+                                     HMX explosive using DSC/TG and accelerated aging methods. J. Therm. Anal. Calorim. 129, 271–279 (2017).
+                                 19. Yabei, X. et al. Thermo-decomposition performance of RDX and the effect of HMX on its thermo-stability. Chin. J. Energetic Mater.
+                                     28, 157–163 (2020).
+                                 20. Na, L., Shuangjun, C., Xingyan, C. & Sha, L. Thermal decomposition study of HMX/RDX mixtures at high temperatures. J. Ord
+                                     Equip. Eng. 46, 268–274 (2025).
+                                 21. Haiying, L., Jinglin, Z. & Zuoshan, W. Study on the impact sensitivity performance of nanometer HMX/micrometer RDX
+                                     composite explosive. Shanxi Chem. Ind. 15–16 (2007).
+                                 22. Cheng, M., Li, P., Duan, X. & Pei, C. A. Three-dimensional hierarchical Dandelion-Like HMX architecture formed at a liquid-
+                                     liquid interface. Cryst. Res. Technol. 53, 1700226 (2018).
+                                 23. Kissinger, H. E. Reaction kinetics in differential thermal analysis. Anal. Chem. 29, 1702–1706 (1957).
+                                 24. Chen, T. et al. Facile preparation of 1,3,5,7-tetranitro-1,3,5,7-tetrazocane/glycidylazide polymer energetic nanocomposites with
+                                     enhanced thermolysis activity and low impact sensitivity. RSC Adv. 7, 5957–5965 (2017).
+                                 25. Gao, H. et al. Preparation and characterization of an ultrafine HMX/NQ co-crystal by vacuum freeze drying method. RSC Adv. 7,
+                                     46229–46235 (2017).
+                                 26. Hongan, Z. et al. Thermal safety of 1,3,3-trinitroazetidine (TNAZ). Acta Chim. Sinica. 67, 2536–2540 (2009).
+
+                                 Author contributions
+                                 Yu-ting Tao wrote the main manuscript text and prepared figures. Shao-hua Jin, Li-jie Li, Kun Chen, Jun-feng
+                                 Wang provided ideas and guidance for the experiment. Yu-ting Tao and Xin-ya Chen participated in the experi-
+                                 ment and carried out different tasks in order to obtain the test data. All authors reviewed the manuscript.
+
+                                 Declarations
+                                 Competing interests
+                                 The authors declare no competing interests.
+
+                                 Additional information
+                                 Correspondence and requests for materials should be addressed to L.L.
+                                 Reprints and permissions information is available at www.nature.com/reprints.
+                                 Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+                                 institutional affiliations.
+                                 Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives
+                                 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in
+                                 any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide
+                                 a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have
+                                 permission under this licence to share adapted material derived from this article or parts of it. The images or
+                                 other third party material in this article are included in the article’s Creative Commons licence, unless indicated
+                                 otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence
+                                 and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to
+                                 obtain permission directly from the copyright holder. To view a copy of this licence, visit ​h​t​t​p​:​//​ ​c​r​e​a​t​i​v​e​co
+                                                                                                                                                              ​ ​m​m​o​
+                                 n​s​.​o​r​g/​ ​l​i​c​e​n​s​e​s​/b
+                                                                 ​ ​y​-​n​c​-​n​d​/​4​.​0​/​​​​.​​
+
+                                 © The Author(s) 2026
+
+
+Scientific Reports |   (2026) 16:6225                   | https://doi.org/10.1038/s41598-026-37049-1                                                                  9
+

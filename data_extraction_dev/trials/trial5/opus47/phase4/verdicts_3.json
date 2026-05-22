@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "313",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper PMC11206691 compound 4 m.p. 145-147 \u00b0C confirmed in experimental section.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "161",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper molecules31040699 reports 5-Acetyl-4-cyclohexylamino-2-ethyl-6-phenylpyridazin-3(2H)-one, 4d mp = 123\u2013125 \u00b0C.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1199",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper PMC6236359 compound 9 m.p. 221\u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "680",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper PMC6236391 compound 17 (1,2-O-cyclohexylidene...-tetrol) m.p. 129-131 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "1608",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Zhou 2013 EPAC2 paper reports 8a mp 123-124 \u00b0C with midpoint correctly computed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "117",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper ijms27041716 compound 22 mp 160\u2013161 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1147",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper PMC6236356 compound 5a m.p. 260\u00b0C matches.",
+    "verifiable": true,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "743",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper ijms12042448 Table 5 row 20 4-heptanol experimental bp 155.0 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "813",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper PMC6146921 Table 8 entry 23 2-methyl-2-pentanol experimental bp 121.40 confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1008",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper ph4071032 product 9 (2-Ethoxy-3-(1-naphthylsulphonylamino)-4(3H) quinazolone) M.p. 111-112 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "1657",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Yalkowsky 2014 Table 1 Acetamide mp 81 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "851",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper molecules31050844 compound 3 (5-chloro-4-fluoro-2-nitroaniline) M.P. 144\u2013145 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "519",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper molecules15106759 6e mp 101 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "58",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper cmdc.202500751 compound 11d mp 295\u00b0C\u2013296\u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1209",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper PMC6146533 compound 2 m.p. 200 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1314",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper ijms27052445 compound 10b MP > 300 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1917",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Norouzi 2024 paper compound 4g mp 193-196 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1776",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Diaba 2024 paper compound 2a m.p. 70\u201373 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "84",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper ph19020198 compound 6c mp 132\u2013134 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "140",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper molecules31040699 compound 2j mp = 184\u2013186 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1932",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Plourde 2002 paper compound 6 Mp 73-74 \u00b0C confirmed.",
+    "verifiable": false,
+    "verifiability_tag": "quote_ellipsis_bridge"
+  },
+  {
+    "row_id": "215",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper molecules31040706 compound 5n Mp: 77 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "78",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper ardp.70227 compound 18 mp 248\u00b0C\u2013252\u00b0C confirmed in paper but evidence_quote omitted the value.",
+    "verifiable": false,
+    "verifiability_tag": "quote_truncated_before_value"
+  },
+  {
+    "row_id": "1067",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper molecules8/7/536 (PMC6146868) compound 2a m.p. 77-79 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_missing_compound_token"
+  },
+  {
+    "row_id": "921",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Paper molecules31050862 compound 3f m.p. 166\u2013169 \u00b0C confirmed.",
+    "verifiable": true,
+    "verifiability_tag": "quote_missing_compound_token"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "row_id": "107",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3g 1-(2'-bromo-4-fluoro-[1,1'-biphenyl]-2-yl)-2-(4-nitrophenyl)ethan-1-ol with Mp 150 °C is verbatim in PMC12943095; DOI 10.3390/molecules31040706 substring present.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "867",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6a N'-(4-Hydroxybenzylidene)benzo[d]thiazole-2-carbohydrazide with mp 285–257 °C is verbatim as printed (descending range is a paper typo); DOI 10.1039/d4ra07810a present.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "506",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 8 row 19 of PMC6146921 shows '3-hexanol 135.40' for Bp exp column; review-paper compilation of literature measured Bp.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1301",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Beilstein 2019 compound 26 'Diphenyl (((1R,2S,5R)-δ-pinen-4-yl)methyl)phosphine oxide' mp 62–66 °C verbatim; doi:10.3762/bjoc.15.242 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "426",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4a 6'-Methoxy-pyrimido[5',4':16,17]androst-5-en-3β-ol mp (acetone) 178–180 °C verified; DOI 10.3390/80500444 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "109",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4b 1-(2'-bromo-[1,1'-biphenyl]-2-yl)-2-(2-nitrophenyl)ethan-1-ol with Mp 95 °C verbatim in PMC12943095; DOI 10.3390/molecules31040706 present.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1018",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Section 8.3 of PMC7158184 says Glutaraldehyde 'melting and boiling points −14 °C and 187 °C, respectively'; DOI 10.1016/B978-0-12-803409-5.00008-2 present.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1476",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 8b in rios_2026 PDF reports 'M. P. 149–151 °C'; full IUPAC name matches; DOI 10.1039/d6ra00701e in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "754",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 18 '3-(2-oxopropyl)-5-hydroxy-1H-indole-2-carboxylic acid ethyl ester' m.p. 154-156 °C verified; DOI 10.3390/60800683 present.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "767",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 6a '1-(2-(Benzyloxy)-5-bromo-4-methylphenyl)ethan-1-one' mp 72–73 °C verified in PMC13103808; DOI 10.1021/acsomega.6c01037 present (note: source string 'ACS Omega 2017' year may be inaccurate but DOI resolves correctly).",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "269",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10c '7-(4-Benzylphthalazin-1-ylamino)naphthalen-2-ol' mp 242-243 °C verbatim; DOI 10.3390/ph4081158 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "486",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 5 column 'Umifenovir SIRM [58]' Tm row gives 448.603 K (per multi-row header Fingolimod|Hydroxychloroquine|Thalidomide|Umifenovir × STRM|SIRM|ref columns); 448.603 − 273.15 = 175.453 °C arithmetic correct; meas_calc=calculated is correct (SIRM model output); DOI 10.1016/j.cdc.2021.100820 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1487",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2c (trifluoromethyl-substituted spirocycle) mp 165.1–165.2 °C verbatim; DOI 10.3762/bjoc.20.48 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "902",
+    "verdict": "flagged_review",
+    "reason": "flagged_value_mismatch",
+    "details": "Paper states 'mp 158–159.5 °C' for compound 18, but row reports value_raw='158–159' and value_max=159; the upper bound of the range was truncated, dropping the .5. Compound name, DOI, property type are correct.",
+    "verifiable": false,
+    "verifiability_tag": "quote_truncated_before_value"
+  },
+  {
+    "row_id": "683",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 5a '2-(4-Chlorophenyl)-4,5,11-trihydro-1H[1,2,4]triazepino[7,1-b]quinazolin-11-one' m.p. 260°C verbatim; DOI 10.3390/60300267 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "941",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 4b mp 225-26°C (=225-226°C, valid range-shorthand expansion); paper writes name with '7H-' between 'triazolo[1,5-c]-' and 'pyrrolo' but identifies same compound; DOI 10.3390/70700554 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "707",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 20 (3-(Coumarin-3'-yl)-pyrazole, named in preceding section header) 'mp 235°C' verbatim in PMC6146883; DOI 10.3390/80700541 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "192",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 24 '(2E,4E)-N-isobutyl-5-(3-((3-methylbut-2-en-1-yl)oxy)phenyl)penta-2,4-dienamide' Mp 103–104 °C verbatim; DOI 10.3390/ijms27041716 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1009",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Table 1 row 'TM g (8) 101' where footnote 'c Decomposition temperature as a solid' and 'g TM=2,4,6-Trimethyl'; compound 8 named in text as N'-(p-toluenesulfonyl-2,4,6-trimethylphenoxy)carbimidoyl azide; property=decomposition correct; DOI 10.3390/70200189 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "298",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 10 'Methyl 2-benzamido-2-(N,N-dibenzylamino)acetate' m.p. 130-132 °C verbatim in experimental and Table; DOI 10.3390/molecules15129354 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "557",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3b '2-Fluoro-N-(2-((2-(3-methoxyphenoxy)phenyl)amino)-2-oxoethyl)benzamide' m.p. 93–95 °C (iPrOH) verbatim in PMC12985466; DOI 10.3390/molecules31050862 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "1298",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "o,o'-Quaterphenyl (17) 'mp 110–113 °C, lit 116–118 °C, 20% yield' verbatim in Johnson 2019 PDF; DOI 10.3762/bjoc.15.258 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "611",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2b '3-(2-furanyl)-6-(3-pyridyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole' Mp. 189-191°C verbatim; DOI 10.3390/70800681 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "624",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 2o '3-(2-furanyl)-6-(2-quinolyl)-1,2,4-triazolo[3,4-b]-1,3,4-thiadiazole' M.p. 267-269°C verbatim; DOI 10.3390/70800681 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  },
+  {
+    "row_id": "745",
+    "verdict": "verified_extraction",
+    "reason": "",
+    "details": "Compound 3 '4,9-diamino-3,8-diethoxycarbonyl-6-phenyl-1,2,6,7-tetrahydro[2',3':4,5]thieno[2,3-b]pyridin-2,7-dione' (named earlier in text) recrystallized as orange crystals; m. p. > 320 o C verbatim; relation '>' correctly encoded; DOI 10.3390/71000756 in file.",
+    "verifiable": true,
+    "verifiability_tag": ""
+  }
+]
